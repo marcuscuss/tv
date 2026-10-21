@@ -53,6 +53,23 @@
     stage.style.left = ((v.w - 1920 * s) / 2) + 'px';
     stage.style.top = ((v.h - 1080 * s) / 2) + 'px';
     fit.info = v.w + 'x' + v.h + ' @' + (window.devicePixelRatio || 1) + ' x' + s.toFixed(2);
+    showDiag(s);
+  }
+
+  // Etiqueta de diagnóstico arriba a la izquierda (zona que siempre se ve):
+  // versión del código y todas las medidas que da el WebView.
+  var VERSION = 'v5';
+  function showDiag(s) {
+    var d = $('diag');
+    if (!d) return;
+    var de = document.documentElement, vv = window.visualViewport;
+    d.textContent = VERSION +
+      ' | inner ' + window.innerWidth + 'x' + window.innerHeight +
+      ' | client ' + (de ? de.clientWidth + 'x' + de.clientHeight : '-') +
+      ' | screen ' + (window.screen ? window.screen.width + 'x' + window.screen.height : '-') +
+      ' | vv ' + (vv ? Math.round(vv.width) + 'x' + Math.round(vv.height) + ' z' + vv.scale : '-') +
+      ' | dpr ' + (window.devicePixelRatio || 1) +
+      ' | escala ' + s.toFixed(3);
   }
 
   /* ---------- Temas ---------- */

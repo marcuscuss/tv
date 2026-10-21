@@ -263,3 +263,7 @@ html, body {
 .lite .tile.focused { -webkit-transform: none; transform: none; }
 .lite .profile-card.focused { -webkit-transform: none; transform: none; }
 .lite .hot-bar { -webkit-animation: none; animation: none; }
+
+/* Etiqueta de diagnóstico (temporal): arriba a la izquierda, siempre visible */
+.diag { position: absolute; left: 8px; top: 6px; z-index: 50; font-size: 22px; color: #ff5a5a;
+  background: rgba(0,0,0,.8); padding: 4px 10px; text-shadow: none; white-space: nowrap; }
