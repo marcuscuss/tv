@@ -13,7 +13,10 @@ var LAUNCHER_CONFIG = {
       name: 'MARCOS',
       welcome: 'BIENVENIDO MARCOS',
       weather: { place: 'MADRID', lat: 40.4168, lon: -3.7038 },
-      video: 'media/welcome.mp4',   // vídeo en bucle, sin sonido
+      // 'local:archivo.mp4' = vídeo copiado en el stick (carpeta Download), a color.
+      // Si no está (o estás en el PC), se usa fallbackVideo con el estilo CRT.
+      video: 'local:bienvenida.mp4',
+      fallbackVideo: 'media/welcome.mp4',
       theme: 'green'                 // green | cyan | amber
     }
     // Ejemplo para otro perfil:

@@ -94,9 +94,20 @@
     applyTheme(themeIndexById(store('launcher.theme') || profile.theme || 'green'));
 
     // Vídeo de bienvenida (bucle, silenciado)
-    var v = $('hero-video');
-    if (profile.video) {
-      v.src = profile.video; v.muted = true;
+    var v = $('hero-video'), hero = v.parentNode, src = profile.video, color = false;
+    if (src && src.indexOf('local:') === 0) {
+      var name = src.substring(6);
+      var found = false;
+      try { found = !!(bridge && bridge.hasLocalVideo && bridge.hasLocalVideo(name)); } catch (e) {}
+      // El APK sirve esta ruta leyendo el archivo del stick.
+      if (found) { src = '__local__/' + name; color = true; }
+      else src = profile.fallbackVideo;
+    }
+    hero.classList.toggle('video-color', color);
+    if (src) {
+      v.style.display = '';
+      v.muted = true;
+      if (v.getAttribute('src') !== src) v.src = src;
       var pr = v.play(); if (pr && pr.catch) pr.catch(function () {});
     } else { v.style.display = 'none'; }
 

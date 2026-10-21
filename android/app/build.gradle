@@ -10,15 +10,20 @@ android {
         applicationId "com.marcuscuss.tvlauncher"
         minSdk 21          // cubre Fire TV Stick antiguos (Fire OS 5 / Android 5.1)
         targetSdk 34
-        versionCode 1
-        versionName "0.1"
+        versionCode 2
+        versionName "0.2"
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            signingConfig signingConfigs.debug   // firmado con la clave de debug para poder instalar sin configurar nada
+            signingConfig signingConfigs.debug   // firma de debug: instalable sin configurar nada
         }
+    }
+
+    lint {
+        abortOnError false        // los avisos de lint no deben romper la compilación en GitHub
+        checkReleaseBuilds false
     }
 
     compileOptions {

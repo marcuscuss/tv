@@ -50,6 +50,20 @@ La forma estándar es la app **Downloader** (gratis en la tienda de ambos sistem
 > Alternativa sin Downloader: copia el `.apk` a un USB, o usa la app "Send files to TV"
 > desde el móvil. En Google TV también sirve instalarlo por `adb install` si lo conoces.
 
+## Paso 4 — Copiar tu vídeo de bienvenida (opcional)
+
+El vídeo de tu perfil **no está en el repo** (es público). Se copia una vez al stick:
+
+1. Instala **Send Files to TV** en el stick y en el móvil (gratis en ambas tiendas).
+2. Con los dos en la misma Wi-Fi, envía `bienvenida.mp4` del móvil a la tele.
+   Se guarda en la carpeta **Download** del stick.
+3. Abre el launcher. La primera vez pedirá permiso para leer archivos: **Permitir**.
+
+El nombre tiene que ser exactamente `bienvenida.mp4`. Si no lo encuentra, se ve
+el vídeo CRT por defecto.
+
+> Alternativa desde el Mac: `adb push bienvenida.mp4 /sdcard/Download/`
+
 ## Cómo funciona una vez instalado
 
 - Se abre a pantalla completa, sin barras.

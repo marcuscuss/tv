@@ -232,3 +232,14 @@ html, body {
 .app-ico { width: 96px; height: 96px; }
 .app-real { width: 92px; height: 92px; object-fit: contain; image-rendering: auto; }
 .tile.focused .app-real { filter: none; }
+
+/* Vídeo propio del perfil (copiado en el stick): a todo color */
+.hero.video-color .hero-video { filter: none; mix-blend-mode: normal; opacity: 1; object-position: 70% 30%; }
+.hero.video-color .hero-overlay { background: linear-gradient(90deg, rgba(0,0,0,.75) 25%, rgba(0,0,0,.15) 75%, rgba(0,0,0,0) 100%); }
+
+/* Ajuste: que el saludo de dos líneas quepa entero en el panel */
+.hero { height: 320px; }
+.hero-overlay { padding: 18px 40px; }
+.hero-title { font-size: 92px; line-height: .98; letter-spacing: 8px; }
+.hero-sub { font-size: 26px; }
+.hero-meta { margin-top: 10px; font-size: 24px; }
