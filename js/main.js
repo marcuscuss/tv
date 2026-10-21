@@ -134,7 +134,11 @@
   function onKey(e) {
     var k = e.keyCode;
     if (KEY.BACK.indexOf(k) !== -1) {
-      if (cancelLaunch()) e.preventDefault();
+      e.preventDefault();
+      // Si hay una "llamada" en curso, Atrás la cancela.
+      if (cancelLaunch()) return;
+      // En la pantalla principal, Atrás cierra la app (apps chromeless de VIDAA).
+      try { window.close(); } catch (err) { /* navegador normal: ignora */ }
       return;
     }
     if (launchTimer) return;
