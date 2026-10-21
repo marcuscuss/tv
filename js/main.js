@@ -156,6 +156,7 @@
      (mini servidor local e interceptación) porque cada WebView reproduce distinto. */
   var videoToken = 0;
   function vstat(text) {
+    if (!bridge) text = '';                        // el aviso es para el stick; en la web no
     var el = $('vstat');
     el.textContent = text || '';
     el.style.display = text ? '' : 'none';
