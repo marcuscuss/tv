@@ -1,0 +1,50 @@
+name: Construir APK
+
+# Se ejecuta al hacer push de la carpeta android, o a mano desde la pestaña Actions.
+on:
+  push:
+    paths:
+      - 'android/**'
+      - '.github/workflows/build-apk.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # para poder publicar la Release con el APK
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Preparar Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Preparar Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Compilar el APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+
+      - name: Guardar el APK como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: HisenseTerminal-APK
+          path: android/app/build/outputs/apk/release/*.apk
+
+      - name: Publicar la Release (descarga estable)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-latest
+          name: HISENSE//TERMINAL (último APK)
+          files: android/app/build/outputs/apk/release/*.apk
+          body: |
+            APK del launcher para sticks Android TV / Fire TV / Google TV.
+            Descarga el .apk y pásalo a la tele (ver INSTALL-STICK.md).

@@ -99,23 +99,44 @@
   }
 
   /* ---------- Lanzar app ---------- */
+  var bridge = window.TVBridge;   // existe solo dentro del APK de Android
+
+  function openApp(app) {
+    // Dentro del APK: intenta abrir la app NATIVA por su paquete.
+    if (bridge && app.pkg) {
+      try {
+        if (bridge.launchApp(app.pkg)) return;              // abierta
+      } catch (e) { /* sigue al fallback */ }
+      // No está instalada: avisa y abre la web en el navegador del sistema.
+      try { bridge.toastMsg(app.name + ' no está instalada'); } catch (e) {}
+      try { bridge.openUrl(app.url); return; } catch (e) {}
+    }
+    // Modo navegador (PC o navegador de la TV): va a la URL.
+    window.location.href = app.url;
+  }
+
   function launch(i) {
     if (launchTimer) return;
     var app = CFG.apps[i];
     $('calling-name').textContent = app.name;
     $('calling').classList.remove('hidden');
-    log('> DIALING ' + app.url);
+    log('> DIALING ' + (app.pkg && bridge ? app.pkg.split(',')[0] : app.url));
 
     var bar = $('calling-bar');
     var t0 = Date.now();
-    var duration = 1400;
+    var duration = bridge ? 700 : 1400;   // en la app, la cuenta atrás es más corta
     launchTimer = setInterval(function () {
       var p = Math.min(1, (Date.now() - t0) / duration);
       bar.style.width = Math.round(p * 100) + '%';
       if (p >= 1) {
         clearInterval(launchTimer);
         launchTimer = null;
-        window.location.href = app.url;
+        openApp(app);
+        // Si volvemos a la app (la nativa se cerró), reseteamos el modal.
+        setTimeout(function () {
+          $('calling').classList.add('hidden');
+          bar.style.width = '0';
+        }, 400);
       }
     }, 50);
   }
@@ -299,7 +320,13 @@
 
   /* ---------- Arranque ---------- */
   function boot() {
-    if (/lite/.test(window.location.search)) document.body.classList.add('lite');
+    // Modo ligero: forzado con ?lite, o automático si el WebView es viejo (sticks antiguos).
+    var lite = /lite/.test(window.location.search);
+    if (!lite && bridge) {
+      var m = /Chrome\/(\d+)/.exec(navigator.userAgent);
+      if (m && parseInt(m[1], 10) < 70) lite = true;   // WebView antiguo -> sin ruido ni parpadeo
+    }
+    if (lite) document.body.classList.add('lite');
     fit();
     window.addEventListener('resize', fit);
     document.addEventListener('keydown', onKey);
