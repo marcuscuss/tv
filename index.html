@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HISENSE//TERMINAL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Share+Tech+Mono&family=VT323&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-green">
+  <div id="stage">
+
+    <header class="topbar">
+      <div class="brand">
+        <span class="kanji-box">電<br>視</span>
+        <div>
+          <div class="brand-name">HISENSE//TERMINAL</div>
+          <div class="dim small">LAUNCHER v0.1 &nbsp;·&nbsp; <span id="theme-name">PIP-GREEN</span></div>
+        </div>
+      </div>
+      <div class="status">
+        <div class="status-item">SIGNAL <span id="signal" class="bars">▮▮▮▮▯</span></div>
+        <div class="status-item battery"><span class="battery-fill"></span></div>
+        <div class="status-item">
+          <div id="clock" class="clock">00:00</div>
+          <div id="date" class="dim small">---</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="col-main">
+        <div class="panel hero">
+          <div class="hero-sub">THANK YOU FOR USING</div>
+          <div class="redline"></div>
+          <div class="hero-title" id="hero-title" data-text="HISENSE">HISENSE</div>
+          <div class="hero-meta">
+            <span>1-800-人工知能TV <span class="block-cursor"></span></span>
+            <span class="dim">(R18+ SOLO ADULTOS)</span>
+            <span>日本製1984年</span>
+          </div>
+        </div>
+
+        <div class="panel apps">
+          <div class="panel-head">
+            <span>SELECT CHANNEL: <span id="sel-name" class="hl">---</span></span>
+            <span class="dim">RATE: 0.0003 BTC/MIN</span>
+          </div>
+          <div id="grid" class="grid"></div>
+        </div>
+      </section>
+
+      <aside class="col-side">
+        <div class="panel idcard">
+          <div class="id-top">
+            <span class="id-org">警察TV</span>
+            <span class="dim">ACCESS <span class="stars">*********</span></span>
+          </div>
+          <div class="dim small">OPERATOR</div>
+          <div class="id-name" id="operator">OPERADOR</div>
+          <div class="id-body">
+            <svg id="globe" class="globe" viewBox="-110 -110 220 220" aria-hidden="true"></svg>
+            <div class="id-data">
+              <div>REPLI.: <b>HUMANO</b></div>
+              <div>SEC CODE</div>
+              <div class="hl" id="sec-code">18752-D-2254</div>
+              <div class="jp">ブレードランナー</div>
+              <div>BLADE RUNNER</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel weather">
+          <div class="panel-head"><span>WEATHER REPORT HOTLINE:</span></div>
+          <div class="weather-row">
+            <div id="w-temp" class="w-temp">--°</div>
+            <div>
+              <div id="w-desc">SIN SEÑAL</div>
+              <div class="dim small" id="w-place">---</div>
+              <div class="dim small">CLOUD RADIATION LEVELS</div>
+            </div>
+          </div>
+          <div class="hotline">1-800-<span class="hot-bar"></span></div>
+        </div>
+
+        <div class="panel log">
+          <div class="panel-head"><span>SYS.LOG</span><span class="dim" id="uptime">00:00:00</span></div>
+          <div id="log" class="log-lines"></div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="bottombar">
+      <div class="ticker"><div id="ticker-text" class="ticker-text"></div></div>
+      <div class="keys">
+        <span><b>[←↑↓→]</b> MOVERSE</span>
+        <span><b>[OK]</b> ABRIR</span>
+        <span><b>[1-9]</b> ACCESO RÁPIDO</span>
+        <span><b class="k-red">[■]</b>/<b>[T]</b> TEMA</span>
+      </div>
+    </footer>
+
+    <div id="calling" class="calling hidden">
+      <div class="calling-box">
+        <div class="hero-sub">CONNECTING TO</div>
+        <div class="redline"></div>
+        <div id="calling-name" class="calling-name">---</div>
+        <div class="calling-row">
+          <span class="blink">CALLING...</span>
+          <div class="progress"><div id="calling-bar" class="progress-fill"></div></div>
+        </div>
+        <div class="dim small">[BACK] CANCELAR</div>
+      </div>
+    </div>
+
+    <div class="fx-scanlines"></div>
+    <div class="fx-noise"></div>
+    <div class="fx-vignette"></div>
+    <div class="fx-flicker"></div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
