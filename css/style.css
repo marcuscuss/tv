@@ -243,3 +243,23 @@ html, body {
 .hero-title { font-size: 92px; line-height: .98; letter-spacing: 8px; }
 .hero-sub { font-size: 26px; }
 .hero-meta { margin-top: 10px; font-size: 24px; }
+
+/* Ticker animado por CSS (compositor/GPU) */
+@-webkit-keyframes ticker { from { -webkit-transform: translateX(0); } to { -webkit-transform: translateX(-50%); } }
+@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* ===== MODO LIGERO (por defecto en la app del stick) =====
+   Quita lo que más cuesta pintar en un aparato con poca potencia:
+   brillos (sombras), ruido animado, parpadeos, filtros y mezclas sobre el vídeo. */
+.lite #stage { background: linear-gradient(var(--fg-faint) 1px, transparent 1px) 0 0 / 60px 60px,
+                           linear-gradient(90deg, var(--fg-faint) 1px, transparent 1px) 0 0 / 60px 60px,
+                           var(--bg); }
+.lite #stage, .lite #stage * { text-shadow: none !important; box-shadow: none !important;
+                               -webkit-transition: none !important; transition: none !important; }
+.lite .fx-noise, .lite .fx-flicker { display: none; }
+.lite .hero-title, .lite .hero-title.glitch { -webkit-animation: none; animation: none;
+  text-shadow: -3px 0 0 rgba(255,40,80,.7), 3px 0 0 rgba(40,220,255,.7) !important; }   /* el desfase RGB se queda: es barato */
+.lite .hero-video { filter: none !important; -webkit-filter: none !important; mix-blend-mode: normal !important; }
+.lite .tile.focused { -webkit-transform: none; transform: none; }
+.lite .profile-card.focused { -webkit-transform: none; transform: none; }
+.lite .hot-bar { -webkit-animation: none; animation: none; }

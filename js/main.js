@@ -13,7 +13,7 @@
     { id: 'cyan',  label: 'REPLICANT CYAN' },
     { id: 'amber', label: 'VEGAS AMBER' }
   ];
-  var KEY = { LEFT: 37, UP: 38, RIGHT: 39, DOWN: 40, ENTER: 13, RED: 403, T: 84, P: 80 };
+  var KEY = { LEFT: 37, UP: 38, RIGHT: 39, DOWN: 40, ENTER: 13, RED: 403, YELLOW: 405, T: 84, P: 80, L: 76 };
   var BACK = [8, 27, 461, 10009];
 
   var $ = function (id) { return document.getElementById(id); };
@@ -52,7 +52,7 @@
     stage.style.transform = t;
     stage.style.left = ((v.w - 1920 * s) / 2) + 'px';
     stage.style.top = ((v.h - 1080 * s) / 2) + 'px';
-    fit.info = v.w + 'x' + v.h + ' @' + (window.devicePixelRatio || 1) + ' ESCALA ' + s.toFixed(3);
+    fit.info = v.w + 'x' + v.h + ' @' + (window.devicePixelRatio || 1) + ' x' + s.toFixed(2);
   }
 
   /* ---------- Temas ---------- */
@@ -121,14 +121,28 @@
       // El APK sirve esta ruta leyendo el archivo del stick.
       if (found) { src = '__local__/' + name; color = true; }
       else src = profile.fallbackVideo;
+      if (bridge) v._state = found ? 'LOCAL OK, CARGANDO' : 'NO ENCONTRADO (¿PERMISO?)';
     }
     hero.classList.toggle('video-color', color);
+    if (!v._diag) {   // diagnóstico: el estado del vídeo se resume en el log al final
+      v._diag = true;
+      v.addEventListener('playing', function () { v._state = (v._state || '').indexOf('NO ENCONTRADO') === 0 ? v._state : 'REPRODUCIENDO'; });
+      v.addEventListener('error', function () {
+        v._state = 'ERROR ' + (v.error ? v.error.code : '?') + ' EN ' + (v.currentSrc || v.src).split('/').pop();
+      });
+    }
     if (src) {
       v.style.display = '';
       v.muted = true;
       if (v.getAttribute('src') !== src) v.src = src;
-      var pr = v.play(); if (pr && pr.catch) pr.catch(function () {});
+      var pr = v.play();
+      if (pr && pr.catch) pr.catch(function (e) { if (!v.error) v._state = 'BLOQUEADO: ' + (e && e.name); });
     } else { v.style.display = 'none'; }
+    // Lo escribimos tras unos segundos para que sea de las últimas líneas visibles.
+    setTimeout(function () {
+      log('> PANTALLA ' + (fit.info || '?'));
+      log('> VÍDEO: ' + (v._state || 'OK'));
+    }, 4000);
 
     if (!tiles.length) buildGrid();
     setFocus(0);
@@ -255,6 +269,12 @@
       case KEY.DOWN:  move(0, 1); break;
       case KEY.ENTER: launch(focusIndex); break;
       case KEY.P:     backToProfiles(); break;
+      case KEY.YELLOW: case KEY.L:
+        var on = !document.body.classList.contains('lite');
+        document.body.classList.toggle('lite', on);
+        store('launcher.lite', on ? '1' : '0');
+        log('> MODO ' + (on ? 'LIGERO' : 'COMPLETO') + ' (reabre para aplicarlo entero)');
+        break;
       case KEY.RED: case KEY.T: applyTheme(themeIndex + 1); log('> TEMA :: ' + THEMES[themeIndex].label); break;
       default:
         var n = (k >= 49 && k <= 57) ? k - 48 : (k >= 97 && k <= 105) ? k - 96 : 0;
@@ -289,18 +309,15 @@
     'TERMLINK PROTOCOL v4.2', 'ENLACE SATÉLITE ESTABLE'
   ];
 
+  // Animación CSS (la mueve la GPU) en vez de recalcular la posición en cada fotograma.
   function startTicker() {
     var el = $('ticker-text');
     el.textContent = CFG.ticker.join('   ///   ') + '   ///   ';
     el.textContent += el.textContent;
-    var x = 0, last = Date.now();
-    function step() {
-      var now = Date.now(); x -= (now - last) * 0.09; last = now;
-      var half = el.offsetWidth / 2; if (half && -x >= half) x += half;
-      el.style.transform = 'translateX(' + x + 'px)';
-      requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
+    var secs = Math.max(20, Math.round(el.offsetWidth / 2 / 90));   // ~90 px por segundo
+    var anim = 'ticker ' + secs + 's linear infinite';
+    el.style.webkitAnimation = anim;
+    el.style.animation = anim;
   }
 
   function startGlobe() {
@@ -315,10 +332,11 @@
     add('line', { x1: 0, y1: -R - 12, x2: 0, y2: R + 12 });
     var meridians = []; for (var i = 0; i < 6; i++) meridians.push(add('ellipse', { cx: 0, cy: 0, rx: R, ry: R }));
     var angle = 0;
+    var lite = document.body.classList.contains('lite');
     setInterval(function () {
-      angle += 0.04;
+      angle += lite ? 0.12 : 0.04;
       for (var m = 0; m < meridians.length; m++) meridians[m].setAttribute('rx', Math.abs(R * Math.sin(angle + m * Math.PI / meridians.length)).toFixed(1));
-    }, 66);
+    }, lite ? 200 : 66);   // en modo ligero gira a saltos, gastando 3 veces menos
   }
 
   var WCODES = { 0:'DESPEJADO',1:'CASI DESPEJADO',2:'NUBES DISPERSAS',3:'NUBLADO',45:'NIEBLA',48:'NIEBLA HELADA',51:'LLOVIZNA',53:'LLOVIZNA',55:'LLOVIZNA DENSA',61:'LLUVIA LIGERA',63:'LLUVIA',65:'LLUVIA FUERTE',71:'NIEVE LIGERA',73:'NIEVE',75:'NIEVE FUERTE',80:'CHUBASCOS',81:'CHUBASCOS',82:'CHUBASCOS FUERTES',95:'TORMENTA',96:'TORMENTA',99:'TORMENTA' };
@@ -341,6 +359,7 @@
 
   function scheduleGlitch() {
     setTimeout(function () {
+      if (document.body.classList.contains('lite')) { scheduleGlitch(); return; }
       var t = $('hero-title'); t.classList.remove('glitch'); void t.offsetWidth; t.classList.add('glitch');
       scheduleGlitch();
     }, 4000 + Math.random() * 6000);
@@ -348,8 +367,12 @@
 
   /* ---------- Arranque ---------- */
   function boot() {
-    var lite = /lite/.test(window.location.search);
-    if (!lite && bridge) { var m = /Chrome\/(\d+)/.exec(navigator.userAgent); if (m && parseInt(m[1], 10) < 70) lite = true; }
+    // Modo ligero: por defecto dentro de la app (sticks con poca potencia).
+    // ?lite lo fuerza, ?full lo quita, y la tecla amarilla / L lo alterna y lo recuerda.
+    var saved = store('launcher.lite');
+    var lite = saved !== null ? saved === '1' : !!bridge;
+    if (/lite/.test(window.location.search)) lite = true;
+    if (/full/.test(window.location.search)) lite = false;
     if (lite) document.body.classList.add('lite');
     fit();
     window.addEventListener('resize', fit);
