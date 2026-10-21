@@ -14,9 +14,9 @@ proyecto. Para descargarlo:
    termina; tarda 2-3 min).
 3. Tienes dos formas de bajarlo:
    - **Release (más fácil):** en la portada del repo, a la derecha, en **Releases**,
-     abre *HISENSE//TERMINAL (último APK)* y descarga el `.apk`.
+     abre *Joi (último APK)* y descarga el `.apk`.
    - **Artefacto:** dentro de la ejecución de Actions, abajo en *Artifacts*,
-     descarga `HisenseTerminal-APK` (es un zip con el `.apk` dentro).
+     descarga `Joi-APK` (es un zip con el `.apk` dentro).
 
 El enlace directo de descarga (para el Paso 3) será:
 
@@ -45,7 +45,7 @@ La forma estándar es la app **Downloader** (gratis en la tienda de ambos sistem
 2. Ábrela y, en la barra de dirección, escribe el enlace directo del Paso 1:
    `https://github.com/marcuscuss/tv/releases/download/apk-latest/app-release.apk`
 3. Descarga → cuando acabe, pulsa **Instalar**.
-4. Listo: **HISENSE//TERMINAL** aparece entre tus apps.
+4. Listo: **Joi** aparece entre tus apps.
 
 > Alternativa sin Downloader: copia el `.apk` a un USB, o usa la app "Send files to TV"
 > desde el móvil. En Google TV también sirve instalarlo por `adb install` si lo conoces.

@@ -46,7 +46,7 @@ En todas, los datos de tu app son:
 
 | Campo | Valor |
 | --- | --- |
-| Nombre | `HISENSE//TERMINAL` |
+| Nombre | `Joi` |
 | URL | `https://marcuscuss.github.io/tv/` |
 | Icono | un PNG cuadrado 220–400 px (`installer/icon.png` de este repo) |
 

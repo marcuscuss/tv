@@ -1,5 +1,5 @@
 /*
- * TERMINAL - launcher retro para TV.
+ * JOI - launcher retro para TV.
  * ES5 a propósito: los navegadores de TV pueden ser Chromium antiguos.
  */
 (function () {

@@ -1,4 +1,4 @@
-# HISENSE//TERMINAL
+# Joi
 
 Launcher retro-futurista para TV Hisense (estética Fallout / Blade Runner / CRT).
 App web estática (HTML + CSS + JS en ES5) pensada para el navegador de VIDAA.
