@@ -282,25 +282,36 @@
       grid.appendChild(el);
       tiles.push(el);
       // 1º la imagen de la app instalada en el stick; si no hay, el logo oficial de su web.
-      if (!(bridge && app.pkg && applyRealArt(el, app)) && app.domain) applyWebLogo(el, app);
+      if (!(bridge && app.pkg && applyRealArt(el, app))) applyWebLogo(el, app);
     });
   }
 
   /* Logo original cargado desde internet al abrir la página (no se guarda en el
-     repo), con el mismo servicio que usan los navegadores para los iconos de las
-     webs. Si no llega o es demasiado pequeño, se queda el icono estilizado. */
+     repo). Primero el logo completo con nombre (Wikimedia Commons), que ocupa la
+     tarjeta como en el inicio de Apple TV; si no llega, el icono de su web; si
+     tampoco, se queda el icono estilizado. */
   function applyWebLogo(el, app) {
-    var img = new Image();
-    img.onload = function () {
-      if (img.naturalWidth < 64) return;             // icono genérico o de baja calidad
-      var box = el.querySelector('.tile-ico');
-      box.className += ' has-logo';
-      box.innerHTML = '';
-      box.appendChild(img);
-    };
-    img.className = 'brand-logo';
-    img.alt = '';
-    img.src = 'https://www.google.com/s2/favicons?sz=256&domain=' + encodeURIComponent(app.domain);
+    var tries = [];
+    (app.logos || []).forEach(function (f) {
+      tries.push({ url: 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f), full: true });
+    });
+    if (app.domain) tries.push({ url: 'https://www.google.com/s2/favicons?sz=256&domain=' + encodeURIComponent(app.domain), full: false });
+    (function attempt(n) {
+      if (n >= tries.length) return;
+      var t = tries[n], img = new Image();
+      img.onerror = function () { attempt(n + 1); };
+      img.onload = function () {
+        // Un icono pequeño o genérico no nos sirve (los SVG pueden dar 0: se aceptan).
+        if (!t.full && img.naturalWidth < 64) { attempt(n + 1); return; }
+        var box = el.querySelector('.tile-ico');
+        box.className += t.full ? ' has-wordmark' + (app.logoWhite ? ' logo-white' : '') : ' has-logo';
+        box.innerHTML = '';
+        box.appendChild(img);
+      };
+      img.className = 'brand-logo';
+      img.alt = '';
+      img.src = t.url;
+    })(0);
   }
 
   /* Dentro del APK: la tarjeta entera pasa a ser la imagen REAL de la app, como en

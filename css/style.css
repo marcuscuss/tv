@@ -340,3 +340,8 @@ html, body {
 /* Logo original de la web dentro de la tarjeta de color de la marca */
 .tile .tile-ico.has-logo { padding: 0; }
 .tile .tile-ico.has-logo .brand-logo { height: 62%; width: auto; max-width: 70%; object-fit: contain; border-radius: 14px; }
+
+/* Logo completo (con nombre) ocupando la tarjeta, como en Apple TV */
+.tile .tile-ico.has-wordmark { padding: 0; }
+.tile .tile-ico.has-wordmark .brand-logo { width: 72%; height: 56%; object-fit: contain; }
+.tile .tile-ico.logo-white .brand-logo { -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1); }
