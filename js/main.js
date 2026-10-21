@@ -58,7 +58,7 @@
 
   // Etiqueta de diagnóstico arriba a la izquierda (zona que siempre se ve):
   // versión del código y todas las medidas que da el WebView.
-  var VERSION = 'v6';
+  var VERSION = 'v8';
   function showDiag(s) {
     var d = $('diag');
     if (!d) return;
@@ -166,39 +166,55 @@
     if (src && src.indexOf('local:') === 0) {
       var name = src.substring(6);
       if (bridge) {
-        var st = 'NO ENCONTRADO';
-        try {
-          st = bridge.videoStatus ? bridge.videoStatus(name)
-             : (bridge.hasLocalVideo(name) ? 'OK' : 'NO ENCONTRADO');
-        } catch (e) {}
-        if (st === 'OK') {
-          var u = '';
-          try { u = bridge.localVideoUrl ? bridge.localVideoUrl(name) : ''; } catch (e) {}
-          if (u) list.push({ src: u, color: true, tag: 'LOCAL' });
-          list.push({ src: '__local__/' + name, color: true, tag: 'LOCAL-2' });
-        } else {
+        // Además del .mp4 probamos un .webm con el mismo nombre, por si el
+        // motor del stick no reproduce H.264.
+        var names = [name], st = 'NO ENCONTRADO', any = false;
+        if (/\.mp4$/i.test(name)) names.push(name.replace(/\.mp4$/i, '.webm'));
+        for (var n = 0; n < names.length; n++) {
+          var s = 'NO ENCONTRADO';
+          try {
+            s = bridge.videoStatus ? bridge.videoStatus(names[n])
+              : (bridge.hasLocalVideo(names[n]) ? 'OK' : 'NO ENCONTRADO');
+          } catch (e) {}
+          if (n === 0) st = s;
+          if (s !== 'OK') continue;
+          any = true;
+          var ext = names[n].split('.').pop().toUpperCase(), u = '';
+          try { u = bridge.localVideoUrl ? bridge.localVideoUrl(names[n]) : ''; } catch (e) {}
+          if (u) list.push({ src: u, color: true, tag: 'LOCAL ' + ext });
+          list.push({ src: '__local__/' + names[n], color: true, tag: 'LOCAL-2 ' + ext });
+        }
+        if (!any) {
           vstat('VÍDEO: ' + st);
           if (st === 'SIN PERMISO') { try { bridge.requestStorage(); } catch (e) {} }
         }
       }
-      if (profile.fallbackVideo) list.push({ src: profile.fallbackVideo, color: false, tag: 'CRT' });
+      if (profile.fallbackVideo) {
+        list.push({ src: profile.fallbackVideo, color: false, tag: 'CRT MP4' });
+        list.push({ src: profile.fallbackVideo.replace(/\.mp4$/i, '.webm'), color: false, tag: 'CRT WEBM' });
+      }
     } else if (src) {
       list.push({ src: src, color: false, tag: 'URL' });
     }
+    list.reasons = [];
     playVideo(list, 0, ++videoToken);
   }
+  // Códigos de error de <video>: 1 abortado, 2 red, 3 decodificación, 4 formato no soportado
+  var VERR = { 1: 'ABORTADO', 2: 'RED', 3: 'DECODIFICAR', 4: 'FORMATO' };
   function playVideo(list, i, token) {
     var v = $('hero-video'), hero = v.parentNode;
     if (token !== videoToken) return;              // se pidió otro vídeo entretanto
     if (i >= list.length) {
       v.style.display = 'none';
-      if (list.length) vstat('VÍDEO: NINGUNA FUENTE FUNCIONA');
+      // El aviso dice qué le pasó a cada intento, para saber dónde atacar.
+      if (list.length) vstat('VÍDEO FALLA · ' + list.reasons.join(' · '));
       return;
     }
-    var item = list[i], done = false;
+    var item = list[i], done = false, progress = '';
     function next(why) {
       if (done || token !== videoToken) return;
       done = true;
+      list.reasons.push(item.tag + ': ' + why);
       log('> VÍDEO ' + item.tag + ' FALLA: ' + why);
       playVideo(list, i + 1, token);
     }
@@ -206,17 +222,29 @@
       if (done || token !== videoToken) return;
       done = true;
       log('> VÍDEO ' + item.tag + ' OK');
-      if (item.color) vstat('');                   // si era el CRT de respaldo, se queda el aviso
+      if (item.color) vstat('');
+      // Suena el de respaldo: dejamos a la vista por qué fallaron los anteriores.
+      else if (list.reasons.length) vstat('VÍDEO · ' + list.reasons.join(' · ') + ' → ' + item.tag + ' OK');
     };
-    v.onerror = function () { next('ERROR ' + (v.error ? v.error.code : '?')); };
+    // Hasta dónde llega: ayuda a ver si descarga pero no decodifica, etc.
+    v.onloadedmetadata = function () { progress = 'META ' + v.videoWidth + 'x' + v.videoHeight; };
+    v.onloadeddata = function () { progress = 'DATOS'; };
+    v.oncanplay = function () { progress = 'LISTO SIN PLAY'; try { v.play(); } catch (e) {} };
+    v.onerror = function () {
+      var c = v.error ? v.error.code : 0;
+      next('ERR ' + c + (VERR[c] ? ' ' + VERR[c] : ''));
+    };
     hero.classList.toggle('video-color', item.color);
     v.style.display = '';
     v.muted = true;
     v.src = item.src;
     try { v.load(); } catch (e) {}
     var pr = v.play();
-    if (pr && pr.catch) pr.catch(function (e) { if (e && e.name === 'NotAllowedError') next('BLOQUEADO'); });
-    setTimeout(function () { next('NO ARRANCA'); }, 7000);
+    if (pr && pr.catch) pr.catch(function (e) {
+      if (e && e.name === 'NotAllowedError') next('AUTOPLAY BLOQUEADO');
+    });
+    // El stick es lento: le damos 15 s y, si para entonces no hay error, decimos hasta dónde llegó.
+    setTimeout(function () { next('NO ARRANCA' + (progress ? ' (' + progress + ')' : ' (NADA)')); }, 15000);
   }
 
   function backToProfiles() {

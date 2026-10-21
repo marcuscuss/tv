@@ -271,19 +271,35 @@ html, body {
 /* Estado del vídeo (solo aparece si algo falla) */
 .vstat { color: #ff5a5a; font-size: 22px; background: rgba(0,0,0,.7); padding: 2px 10px; text-shadow: none; }
 
-/* ===== Tarjetas con la imagen REAL de la app (dentro del APK) ===== */
-.tile.has-art { padding: 0; overflow: hidden; border-width: 3px; }
-.tile.has-art .tile-top, .tile.has-art .tile-ico, .tile.has-art .tile-name { display: none; }
-.tile-art { position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: #0b0f0c;
-  display: flex; align-items: center; justify-content: center; }
-/* Banner de TV: ocupa toda la tarjeta */
+/* ===== Tarjetas de apps estilo inicio de TV (tipo Apple TV) =====
+   Recuadro redondeado con la imagen a sangre; la elegida crece y muestra su nombre debajo. */
+.grid { gap: 46px 28px; padding: 8px 12px 0; align-content: flex-start; }
+.tile { width: calc(25% - 21px); height: calc(50% - 30px); padding: 0; border: none; border-radius: 18px;
+  background: transparent; overflow: visible; box-shadow: none;
+  -webkit-transition: -webkit-transform .15s ease-out; transition: transform .15s ease-out; }
+.tile .tile-top { display: none; }
+/* Sin imagen real (PC, o app no instalada): icono estilizado en recuadro oscuro */
+.tile .tile-ico { position: absolute; left: 0; top: 0; right: 0; bottom: 0; border-radius: 18px;
+  background: var(--bg-panel); border: 2px solid var(--fg-dim); }
+.tile .app-ico { width: 84px; height: 84px; }
+/* Nombre: debajo de la tarjeta, solo en la elegida */
+.tile .tile-name { position: absolute; left: 0; right: 0; top: 100%; margin-top: 8px; text-align: center;
+  font-size: 24px; letter-spacing: 2px; color: var(--fg); visibility: hidden; white-space: nowrap; }
+.tile.focused .tile-name { visibility: visible; }
+.tile.focused .tile-name:after { content: none; }
+/* Imagen real de la app */
+.tile.has-art .tile-ico { display: none; }
+.tile-art { position: absolute; left: 0; top: 0; right: 0; bottom: 0; border-radius: 18px; overflow: hidden;
+  background: #1a1d1b; display: flex; align-items: center; justify-content: center; }
 .tile.has-banner .tile-art img { width: 100%; height: 100%; object-fit: cover; }
-/* Solo icono: grande y centrado sobre su color */
-.tile.has-icon .tile-art img { height: 78%; width: auto; max-width: 78%; object-fit: contain; }
-/* Foco: marco grueso del color del tema + ligera ampliación (sin ampliar en modo ligero) */
-.tile.has-art.focused { background: transparent; border-color: var(--fg);
-  box-shadow: 0 0 0 4px var(--fg), 0 0 30px var(--glow); }
-.tile.has-art.focused .tile-name:after { content: none; }
-/* Las que no tienen foco, un poco apagadas, para que se note cuál está elegida */
-.tile.has-art:not(.focused) .tile-art { opacity: .78; }
-.lite .tile.has-art.focused { outline: 5px solid var(--fg); outline-offset: 0; }
+.tile.has-icon .tile-art img { height: 70%; width: auto; max-width: 70%; object-fit: contain; }
+/* Foco: la tarjeta crece y se ilumina con el color del tema */
+.tile.focused { background: transparent; color: inherit; z-index: 3;
+  -webkit-transform: scale(1.1); transform: scale(1.1); box-shadow: none; }
+.tile.focused .tile-art, .tile.focused .tile-ico { box-shadow: 0 0 0 4px var(--fg), 0 16px 34px rgba(0,0,0,.65); }
+.tile.focused .tile-ico { background: var(--fg); border-color: var(--fg); color: var(--bg); }
+/* En modo ligero también crece (es barato), solo sin animación ni sombra difusa */
+.lite .tile.focused { -webkit-transform: scale(1.1); transform: scale(1.1); }
+.lite .tile.focused .tile-art, .lite .tile.focused .tile-ico { outline: 4px solid var(--fg); }
+/* El aviso del vídeo puede ser largo: que quepa en el panel */
+.vstat { max-width: 760px; white-space: normal; font-size: 19px; line-height: 1.25; }
