@@ -281,8 +281,26 @@
       el.addEventListener('mouseenter', function () { setFocus(i); });
       grid.appendChild(el);
       tiles.push(el);
-      if (bridge && app.pkg) applyRealArt(el, app);
+      // 1º la imagen de la app instalada en el stick; si no hay, el logo oficial de su web.
+      if (!(bridge && app.pkg && applyRealArt(el, app)) && app.domain) applyWebLogo(el, app);
     });
+  }
+
+  /* Logo original cargado desde internet al abrir la página (no se guarda en el
+     repo), con el mismo servicio que usan los navegadores para los iconos de las
+     webs. Si no llega o es demasiado pequeño, se queda el icono estilizado. */
+  function applyWebLogo(el, app) {
+    var img = new Image();
+    img.onload = function () {
+      if (img.naturalWidth < 64) return;             // icono genérico o de baja calidad
+      var box = el.querySelector('.tile-ico');
+      box.className += ' has-logo';
+      box.innerHTML = '';
+      box.appendChild(img);
+    };
+    img.className = 'brand-logo';
+    img.alt = '';
+    img.src = 'https://www.google.com/s2/favicons?sz=256&domain=' + encodeURIComponent(app.domain);
   }
 
   /* Dentro del APK: la tarjeta entera pasa a ser la imagen REAL de la app, como en
@@ -292,13 +310,14 @@
     var banner = '', icon = '';
     try { banner = bridge.getBanner ? bridge.getBanner(app.pkg) : ''; } catch (e) {}
     if (!banner) { try { icon = bridge.getIcon ? bridge.getIcon(app.pkg) : ''; } catch (e) {} }
-    if (!banner && !icon) return;                    // no instalada: se queda el icono estilizado
+    if (!banner && !icon) return false;              // no instalada: probamos el logo de su web
     el.className += ' has-art' + (banner ? ' has-banner' : ' has-icon');
     var art = document.createElement('div');
     art.className = 'tile-art';
     art.innerHTML = '<img src="' + (banner || icon) + '" alt="">';
     el.appendChild(art);
     if (!banner) tintFromIcon(art, icon);
+    return true;
   }
 
   // Fondo de la tarjeta = color del propio icono (miramos los bordes, que suelen

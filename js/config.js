@@ -28,24 +28,26 @@ var LAUNCHER_CONFIG = {
   //          instalada en la tele; icon + colores es el respaldo (web/PC).
   // label -> nombre tal como se escribe en la tarjeta.
   // bg/fg -> color de fondo y del icono/nombre en la tarjeta (colores de la marca).
+  // domain -> web oficial: de ahí se carga el logo original al abrir la página
+  //           (no se guarda en el repo). Si no carga, se usa icon.
   // url  -> destino en modo navegador.
   // pkg  -> paquetes Android candidatos (coma): abre la app nativa en el APK.
   apps: [
-    { name: 'YOUTUBE',     label: 'YouTube', bg: '#ffffff', fg: '#ff0033',     icon: 'youtube', url: 'https://www.youtube.com/tv',
+    { name: 'YOUTUBE', domain: 'youtube.com',     label: 'YouTube', bg: '#ffffff', fg: '#ff0033',     icon: 'youtube', url: 'https://www.youtube.com/tv',
       pkg: 'com.google.android.youtube.tv,com.amazon.firetv.youtube,com.google.android.youtube' },
-    { name: 'NETFLIX',     label: 'NETFLIX', bg: '#000000', fg: '#e50914',     icon: 'netflix', url: 'https://www.netflix.com',
+    { name: 'NETFLIX', domain: 'netflix.com',     label: 'NETFLIX', bg: '#000000', fg: '#e50914',     icon: 'netflix', url: 'https://www.netflix.com',
       pkg: 'com.netflix.ninja' },
-    { name: 'PRIME VIDEO', label: 'prime video', bg: '#ffffff', fg: '#0f79af', icon: 'prime',   url: 'https://www.primevideo.com',
+    { name: 'PRIME VIDEO', domain: 'primevideo.com', label: 'prime video', bg: '#ffffff', fg: '#0f79af', icon: 'prime',   url: 'https://www.primevideo.com',
       pkg: 'com.amazon.amazonvideo.livingroom,com.amazon.avod,com.amazon.avod.thirdpartyclient' },
-    { name: 'DISNEY+',     label: 'Disney+', bg: '#0b1a4a', fg: '#ffffff',     icon: 'disney',  url: 'https://www.disneyplus.com',
+    { name: 'DISNEY+', domain: 'disneyplus.com',     label: 'Disney+', bg: '#0b1a4a', fg: '#ffffff',     icon: 'disney',  url: 'https://www.disneyplus.com',
       pkg: 'com.disney.disneyplus' },
-    { name: 'SPOTIFY',     label: 'Spotify', bg: '#121212', fg: '#1ed760',     icon: 'spotify', url: 'https://open.spotify.com',
+    { name: 'SPOTIFY', domain: 'spotify.com',     label: 'Spotify', bg: '#121212', fg: '#1ed760',     icon: 'spotify', url: 'https://open.spotify.com',
       pkg: 'com.spotify.tv.android,com.spotify.music' },
-    { name: 'TWITCH',      label: 'Twitch', bg: '#9146ff', fg: '#ffffff',      icon: 'twitch',  url: 'https://www.twitch.tv',
+    { name: 'TWITCH', domain: 'twitch.tv',      label: 'Twitch', bg: '#9146ff', fg: '#ffffff',      icon: 'twitch',  url: 'https://www.twitch.tv',
       pkg: 'tv.twitch.android.app' },
-    { name: 'MAX',         label: 'max', bg: '#002be7', fg: '#ffffff',         icon: 'max',     url: 'https://play.max.com',
+    { name: 'MAX', domain: 'max.com',         label: 'max', bg: '#002be7', fg: '#ffffff',         icon: 'max',     url: 'https://play.max.com',
       pkg: 'com.wbd.stream,com.hbo.hbonow' },
-    { name: 'NAVEGADOR',   label: 'Internet', bg: '#f1f3f4', fg: '#1a73e8',   icon: 'browser', url: 'https://www.google.com',
+    { name: 'NAVEGADOR', domain: 'google.com',   label: 'Internet', bg: '#f1f3f4', fg: '#1a73e8',   icon: 'browser', url: 'https://www.google.com',
       pkg: 'com.amazon.cloud9,com.android.chrome,org.mozilla.tv.firefox' }
   ],
 

@@ -336,3 +336,7 @@ html, body {
 .tile.focused .tile-ico.brand { box-shadow: 0 0 0 4px var(--fg), 0 16px 34px rgba(0,0,0,.65); }
 .lite .tile .tile-ico.brand { outline: 2px solid rgba(255,255,255,.14); outline-offset: -2px; }
 .lite .tile.focused .tile-ico.brand { outline: 4px solid var(--fg); outline-offset: 0; }
+
+/* Logo original de la web dentro de la tarjeta de color de la marca */
+.tile .tile-ico.has-logo { padding: 0; }
+.tile .tile-ico.has-logo .brand-logo { height: 62%; width: auto; max-width: 70%; object-fit: contain; border-radius: 14px; }
