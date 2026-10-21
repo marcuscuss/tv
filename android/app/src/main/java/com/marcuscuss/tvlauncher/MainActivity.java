@@ -90,6 +90,36 @@ public class MainActivity extends Activity {
             try { getPackageManager().getPackageInfo(pkg.trim(), 0); return true; }
             catch (Exception e) { return false; }
         }
+
+        /**
+         * Devuelve el icono REAL de la primera app instalada de la lista, como
+         * data URI (PNG base64), para mostrarlo en el launcher. "" si ninguna.
+         */
+        @JavascriptInterface
+        public String getIcon(String packagesCsv) {
+            if (packagesCsv == null) return "";
+            final PackageManager pm = getPackageManager();
+            for (String raw : packagesCsv.split(",")) {
+                String pkg = raw.trim();
+                if (pkg.isEmpty()) continue;
+                try {
+                    android.graphics.drawable.Drawable d = pm.getApplicationIcon(pkg);
+                    int w = Math.max(1, d.getIntrinsicWidth());
+                    int h = Math.max(1, d.getIntrinsicHeight());
+                    if (w > 128) { h = h * 128 / w; w = 128; }
+                    android.graphics.Bitmap bmp = android.graphics.Bitmap.createBitmap(
+                        w, h, android.graphics.Bitmap.Config.ARGB_8888);
+                    android.graphics.Canvas c = new android.graphics.Canvas(bmp);
+                    d.setBounds(0, 0, w, h);
+                    d.draw(c);
+                    java.io.ByteArrayOutputStream out = new java.io.ByteArrayOutputStream();
+                    bmp.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, out);
+                    String b64 = android.util.Base64.encodeToString(out.toByteArray(), android.util.Base64.NO_WRAP);
+                    return "data:image/png;base64," + b64;
+                } catch (Exception e) { /* prueba el siguiente */ }
+            }
+            return "";
+        }
     }
 
     private void toast(final String msg) {

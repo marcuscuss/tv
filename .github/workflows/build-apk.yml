@@ -24,8 +24,9 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Preparar Android SDK
-        uses: android-actions/setup-android@v3
+      # El runner de GitHub ya trae el SDK de Android preinstalado (ANDROID_HOME),
+      # así que no hace falta instalarlo (la acción setup-android fallaba buscando
+      # el paquete obsoleto 'tools').
 
       - name: Compilar el APK
         working-directory: android

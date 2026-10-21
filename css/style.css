@@ -192,3 +192,43 @@ html, body {
 /* Modo ligero para TVs lentas: añade ?lite a la URL */
 .lite .fx-noise, .lite .fx-flicker { display: none; }
 .lite .tile { transition: none; }
+
+/* ===================== REDISEÑO v0.2 ===================== */
+.hidden { display: none !important; }
+
+/* Contenedores de pantalla */
+.launcher { flex: 1; display: flex; flex-direction: column; min-height: 0; width: 100%; }
+
+/* ---- Pantalla de perfiles ---- */
+.profile-screen { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 50px; }
+.ps-head { text-align: center; }
+.ps-kline { width: 120px; height: 5px; background: var(--red); box-shadow: 0 0 12px var(--red); margin: 0 auto 20px; }
+.ps-title { font-family: 'Archivo Black', sans-serif; font-size: 64px; letter-spacing: 6px; color: #eafcff; text-shadow: 0 0 20px var(--glow); }
+.profile-list { display: flex; gap: 48px; }
+.profile-card { width: 240px; padding: 26px 20px; border: 2px solid var(--fg-dim); background: var(--bg-panel); text-align: center; cursor: pointer; transition: transform .12s; }
+.profile-card .pc-avatar { width: 150px; height: 150px; margin: 0 auto 18px; border: 3px solid var(--fg-dim); display: flex; align-items: center; justify-content: center; }
+.profile-card .pc-avatar span { font-family: 'VT323', monospace; font-size: 96px; letter-spacing: 2px; }
+.pc-name { font-size: 34px; letter-spacing: 3px; }
+.profile-card.focused { border-color: var(--fg); transform: scale(1.06); box-shadow: 0 0 34px var(--glow); }
+.profile-card.focused .pc-avatar { border-color: var(--fg); background: var(--fg); }
+.profile-card.focused .pc-avatar span { color: var(--bg); text-shadow: none; }
+.ps-foot { letter-spacing: 3px; }
+
+/* ---- Marca ---- */
+.brand-mark { font-size: 44px; line-height: 1; }
+
+/* ---- Hero con vídeo ---- */
+.hero { height: 300px; padding: 0; overflow: hidden; }
+.hero-video { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover;
+  filter: grayscale(1) contrast(1.15); mix-blend-mode: screen; opacity: .55; }
+.hero-overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; padding: 26px 40px;
+  display: flex; flex-direction: column; justify-content: center;
+  background: linear-gradient(90deg, rgba(0,0,0,.55) 30%, rgba(0,0,0,.1) 100%); }
+.hero-title { font-size: 112px; line-height: 1; }
+.hero-meta { margin-top: 14px; }
+
+/* ---- Iconos de apps ---- */
+.tile-ico { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 0; }
+.app-ico { width: 96px; height: 96px; }
+.app-real { width: 92px; height: 92px; object-fit: contain; image-rendering: auto; }
+.tile.focused .app-real { filter: none; }

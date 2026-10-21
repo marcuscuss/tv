@@ -1,38 +1,46 @@
 /*
- * Configuración del launcher. Edita este archivo para cambiar apps, nombre y ciudad.
+ * Configuración del launcher. Edita este archivo para cambiar perfiles y apps.
  * Escrito en ES5 para que funcione en navegadores de TV antiguos.
- *
- * Cada app tiene:
- *   name, code, jp  -> lo que se ve en pantalla
- *   url             -> a dónde ir en modo navegador (PC / navegador de la TV)
- *   pkg             -> paquetes Android candidatos (coma); dentro del APK abre la
- *                      app NATIVA. Se prueban en orden y se abre el primero instalado.
  */
 var LAUNCHER_CONFIG = {
-  operator: 'OPERADOR',
 
-  // Coordenadas para el tiempo (Open-Meteo, no necesita API key).
-  weather: { place: 'MADRID', lat: 40.4168, lon: -3.7038 },
+  // ---- PERFILES ----
+  // Añade más objetos para crear más perfiles. Cada uno puede tener su propio
+  // saludo, ciudad del tiempo y vídeo de bienvenida (opcional).
+  profiles: [
+    {
+      id: 'marcos',
+      name: 'MARCOS',
+      welcome: 'BIENVENIDO MARCOS',
+      weather: { place: 'MADRID', lat: 40.4168, lon: -3.7038 },
+      video: 'media/welcome.mp4',   // vídeo en bucle, sin sonido
+      theme: 'green'                 // green | cyan | amber
+    }
+    // Ejemplo para otro perfil:
+    // { id: 'invitado', name: 'INVITADO', welcome: 'BIENVENIDO', weather:{place:'MADRID',lat:40.41,lon:-3.70}, video:'media/welcome.mp4', theme:'cyan' }
+  ],
 
-  // Tema inicial: 'green' (Fallout), 'cyan' (Blade Runner), 'amber' (New Vegas)
-  theme: 'green',
-
+  // ---- APPS ----
+  // icon -> dibujo estilizado (nuestra estética). En el APK se usa el icono REAL
+  //         de la app instalada en la tele; icon es el respaldo.
+  // url  -> destino en modo navegador.
+  // pkg  -> paquetes Android candidatos (coma): abre la app nativa en el APK.
   apps: [
-    { name: 'YOUTUBE',     code: 'YT',  jp: 'ユーチューブ',     url: 'https://www.youtube.com/tv',
+    { name: 'YOUTUBE',     icon: 'youtube', url: 'https://www.youtube.com/tv',
       pkg: 'com.google.android.youtube.tv,com.amazon.firetv.youtube,com.google.android.youtube' },
-    { name: 'NETFLIX',     code: 'NF',  jp: 'ネットフリックス', url: 'https://www.netflix.com',
+    { name: 'NETFLIX',     icon: 'netflix', url: 'https://www.netflix.com',
       pkg: 'com.netflix.ninja' },
-    { name: 'PRIME VIDEO', code: 'PV',  jp: 'プライム',         url: 'https://www.primevideo.com',
+    { name: 'PRIME VIDEO', icon: 'prime',   url: 'https://www.primevideo.com',
       pkg: 'com.amazon.amazonvideo.livingroom,com.amazon.avod,com.amazon.avod.thirdpartyclient' },
-    { name: 'DISNEY+',     code: 'D+',  jp: 'ディズニー',       url: 'https://www.disneyplus.com',
+    { name: 'DISNEY+',     icon: 'disney',  url: 'https://www.disneyplus.com',
       pkg: 'com.disney.disneyplus' },
-    { name: 'SPOTIFY',     code: 'SP',  jp: 'スポティファイ',   url: 'https://open.spotify.com',
+    { name: 'SPOTIFY',     icon: 'spotify', url: 'https://open.spotify.com',
       pkg: 'com.spotify.tv.android,com.spotify.music' },
-    { name: 'TWITCH',      code: 'TW',  jp: 'ツイッチ',         url: 'https://www.twitch.tv',
+    { name: 'TWITCH',      icon: 'twitch',  url: 'https://www.twitch.tv',
       pkg: 'tv.twitch.android.app' },
-    { name: 'MAX',         code: 'MX',  jp: 'マックス',         url: 'https://play.max.com',
+    { name: 'MAX',         icon: 'max',     url: 'https://play.max.com',
       pkg: 'com.wbd.stream,com.hbo.hbonow' },
-    { name: 'NAVEGADOR',   code: 'WWW', jp: 'ブラウザ',         url: 'https://www.google.com',
+    { name: 'NAVEGADOR',   icon: 'browser', url: 'https://www.google.com',
       pkg: 'com.amazon.cloud9,com.android.chrome,org.mozilla.tv.firefox' }
   ],
 
@@ -41,7 +49,7 @@ var LAUNCHER_CONFIG = {
     'LOS DATOS SE HAN CONVERTIDO EN EL BIEN MÁS VALIOSO',
     'TUS DATOS TE PERTENECEN',
     'REACTOR ESTABLE · NIVELES DE RADIACIÓN NOMINALES',
-    'PROHIBIDA LA ENTRADA A REPLICANTES NO AUTORIZADOS',
+    'ACCESO RESTRINGIDO · SOLO PERSONAL AUTORIZADO',
     'VAULT-TEC LE RECUERDA: MANTENGA LA CALMA'
   ]
 };
