@@ -293,7 +293,9 @@
   function applyWebLogo(el, app) {
     var tries = [];
     (app.logos || []).forEach(function (f) {
-      tries.push({ url: 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f), full: true });
+      // Ruta del proyecto o URL tal cual; si es solo un nombre, se busca en Wikimedia Commons.
+      var url = /^(https?:|media\/)/.test(f) ? f : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f);
+      tries.push({ url: url, full: true });
     });
     if (app.domain) tries.push({ url: 'https://www.google.com/s2/favicons?sz=256&domain=' + encodeURIComponent(app.domain), full: false });
     (function attempt(n) {

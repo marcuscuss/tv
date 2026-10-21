@@ -28,7 +28,8 @@ var LAUNCHER_CONFIG = {
   //          instalada en la tele; icon + colores es el respaldo (web/PC).
   // label -> nombre tal como se escribe en la tarjeta.
   // bg/fg -> color de fondo y del icono/nombre en la tarjeta (colores de la marca).
-  // logos  -> nombres de archivo del logo completo (con nombre) en Wikimedia Commons.
+  // logos  -> logo completo (con nombre): una ruta del proyecto (media/logos/...)
+  //           o un nombre de archivo de Wikimedia Commons.
   //           Se cargan al abrir la página (no se guardan en el repo); se prueban
   //           en orden. logoWhite: true lo pinta en blanco (para fondos oscuros).
   // domain -> si ningún logo carga, se usa el icono de su web; y si no, icon.
@@ -45,7 +46,7 @@ var LAUNCHER_CONFIG = {
       pkg: 'com.netflix.ninja' },
     { name: 'PRIME VIDEO', label: 'Prime Video', domain: 'primevideo.com', icon: 'prime',
       bg: 'linear-gradient(135deg,#0b2a6f,#1a73e8)', fg: '#ffffff', logoWhite: true,
-      logos: ['Amazon_Prime_Video_logo_(2024).svg', 'Amazon_Prime_Video_logo.svg', 'Prime_Video.png'],
+      logos: ['media/logos/prime-video.png'],
       url: 'https://www.primevideo.com',
       pkg: 'com.amazon.amazonvideo.livingroom,com.amazon.avod,com.amazon.avod.thirdpartyclient' },
     { name: 'DISNEY+', label: 'Disney+', domain: 'disneyplus.com', icon: 'disney',
@@ -64,7 +65,7 @@ var LAUNCHER_CONFIG = {
       pkg: 'tv.twitch.android.app' },
     { name: 'HBO MAX', label: 'HBO Max', domain: 'hbomax.com', icon: 'max',
       bg: 'linear-gradient(135deg,#1c0b6b,#5b2cf0)', fg: '#ffffff', logoWhite: true,
-      logos: ['HBO_Max_Logo.svg', 'HBO_Max_logo.svg', 'Max_logo.svg'],
+      logos: ['media/logos/hbo-max.png'],
       url: 'https://play.hbomax.com',
       pkg: 'com.wbd.stream,com.hbo.hbonow' },
     { name: 'NAVEGADOR', label: 'Internet', domain: 'google.com', icon: 'browser',
