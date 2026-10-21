@@ -58,10 +58,11 @@
 
   // Etiqueta de diagnóstico arriba a la izquierda (zona que siempre se ve):
   // versión del código y todas las medidas que da el WebView.
-  var VERSION = 'v5';
+  var VERSION = 'v6';
   function showDiag(s) {
     var d = $('diag');
     if (!d) return;
+    if (!/diag/.test(window.location.search)) { d.style.display = 'none'; return; }   // solo con ?diag
     var de = document.documentElement, vv = window.visualViewport;
     d.textContent = VERSION +
       ' | inner ' + window.innerWidth + 'x' + window.innerHeight +
@@ -129,37 +130,7 @@
     $('sec-code').textContent = Math.floor(10000 + Math.random() * 89999) + '-D-' + Math.floor(1000 + Math.random() * 8999);
     applyTheme(themeIndexById(store('launcher.theme') || profile.theme || 'green'));
 
-    // Vídeo de bienvenida (bucle, silenciado)
-    var v = $('hero-video'), hero = v.parentNode, src = profile.video, color = false;
-    if (src && src.indexOf('local:') === 0) {
-      var name = src.substring(6);
-      var found = false;
-      try { found = !!(bridge && bridge.hasLocalVideo && bridge.hasLocalVideo(name)); } catch (e) {}
-      // El APK sirve esta ruta leyendo el archivo del stick.
-      if (found) { src = '__local__/' + name; color = true; }
-      else src = profile.fallbackVideo;
-      if (bridge) v._state = found ? 'LOCAL OK, CARGANDO' : 'NO ENCONTRADO (¿PERMISO?)';
-    }
-    hero.classList.toggle('video-color', color);
-    if (!v._diag) {   // diagnóstico: el estado del vídeo se resume en el log al final
-      v._diag = true;
-      v.addEventListener('playing', function () { v._state = (v._state || '').indexOf('NO ENCONTRADO') === 0 ? v._state : 'REPRODUCIENDO'; });
-      v.addEventListener('error', function () {
-        v._state = 'ERROR ' + (v.error ? v.error.code : '?') + ' EN ' + (v.currentSrc || v.src).split('/').pop();
-      });
-    }
-    if (src) {
-      v.style.display = '';
-      v.muted = true;
-      if (v.getAttribute('src') !== src) v.src = src;
-      var pr = v.play();
-      if (pr && pr.catch) pr.catch(function (e) { if (!v.error) v._state = 'BLOQUEADO: ' + (e && e.name); });
-    } else { v.style.display = 'none'; }
-    // Lo escribimos tras unos segundos para que sea de las últimas líneas visibles.
-    setTimeout(function () {
-      log('> PANTALLA ' + (fit.info || '?'));
-      log('> VÍDEO: ' + (v._state || 'OK'));
-    }, 4000);
+    setupVideo();
 
     if (!tiles.length) buildGrid();
     setFocus(0);
@@ -179,10 +150,80 @@
     }
   }
 
+  /* ---------- Vídeo de bienvenida ----------
+     Lista de fuentes que se prueban en orden: si una da error o no arranca en
+     unos segundos, pasa a la siguiente. Para el vídeo del stick hay dos vías
+     (mini servidor local e interceptación) porque cada WebView reproduce distinto. */
+  var videoToken = 0;
+  function vstat(text) {
+    var el = $('vstat');
+    el.textContent = text || '';
+    el.style.display = text ? '' : 'none';
+  }
+  function setupVideo() {
+    var src = profile.video, list = [];
+    vstat('');
+    if (src && src.indexOf('local:') === 0) {
+      var name = src.substring(6);
+      if (bridge) {
+        var st = 'NO ENCONTRADO';
+        try {
+          st = bridge.videoStatus ? bridge.videoStatus(name)
+             : (bridge.hasLocalVideo(name) ? 'OK' : 'NO ENCONTRADO');
+        } catch (e) {}
+        if (st === 'OK') {
+          var u = '';
+          try { u = bridge.localVideoUrl ? bridge.localVideoUrl(name) : ''; } catch (e) {}
+          if (u) list.push({ src: u, color: true, tag: 'LOCAL' });
+          list.push({ src: '__local__/' + name, color: true, tag: 'LOCAL-2' });
+        } else {
+          vstat('VÍDEO: ' + st);
+          if (st === 'SIN PERMISO') { try { bridge.requestStorage(); } catch (e) {} }
+        }
+      }
+      if (profile.fallbackVideo) list.push({ src: profile.fallbackVideo, color: false, tag: 'CRT' });
+    } else if (src) {
+      list.push({ src: src, color: false, tag: 'URL' });
+    }
+    playVideo(list, 0, ++videoToken);
+  }
+  function playVideo(list, i, token) {
+    var v = $('hero-video'), hero = v.parentNode;
+    if (token !== videoToken) return;              // se pidió otro vídeo entretanto
+    if (i >= list.length) {
+      v.style.display = 'none';
+      if (list.length) vstat('VÍDEO: NINGUNA FUENTE FUNCIONA');
+      return;
+    }
+    var item = list[i], done = false;
+    function next(why) {
+      if (done || token !== videoToken) return;
+      done = true;
+      log('> VÍDEO ' + item.tag + ' FALLA: ' + why);
+      playVideo(list, i + 1, token);
+    }
+    v.onplaying = function () {
+      if (done || token !== videoToken) return;
+      done = true;
+      log('> VÍDEO ' + item.tag + ' OK');
+      if (item.color) vstat('');                   // si era el CRT de respaldo, se queda el aviso
+    };
+    v.onerror = function () { next('ERROR ' + (v.error ? v.error.code : '?')); };
+    hero.classList.toggle('video-color', item.color);
+    v.style.display = '';
+    v.muted = true;
+    v.src = item.src;
+    try { v.load(); } catch (e) {}
+    var pr = v.play();
+    if (pr && pr.catch) pr.catch(function (e) { if (e && e.name === 'NotAllowedError') next('BLOQUEADO'); });
+    setTimeout(function () { next('NO ARRANCA'); }, 7000);
+  }
+
   function backToProfiles() {
     screen = 'profile';
     $('launcher').classList.add('hidden');
     $('profile-screen').classList.remove('hidden');
+    videoToken++;                                  // corta los intentos de vídeo pendientes
     var v = $('hero-video'); try { v.pause(); } catch (e) {}
     setProfileFocus(pfIndex);
   }
@@ -202,17 +243,43 @@
       el.addEventListener('mouseenter', function () { setFocus(i); });
       grid.appendChild(el);
       tiles.push(el);
-      // Dentro del APK: intenta sustituir por el icono REAL de la app instalada.
-      if (bridge && bridge.getIcon && app.pkg) {
-        try {
-          var data = bridge.getIcon(app.pkg);
-          if (data) {
-            var box = el.querySelector('.tile-ico');
-            box.innerHTML = '<img class="app-real" src="' + data + '" alt="">';
-          }
-        } catch (e) {}
-      }
+      if (bridge && app.pkg) applyRealArt(el, app);
     });
+  }
+
+  /* Dentro del APK: la tarjeta entera pasa a ser la imagen REAL de la app, como en
+     el inicio del stick. Primero el banner horizontal de TV; si la app no tiene,
+     su icono grande sobre un fondo de su propio color. Sin textos. */
+  function applyRealArt(el, app) {
+    var banner = '', icon = '';
+    try { banner = bridge.getBanner ? bridge.getBanner(app.pkg) : ''; } catch (e) {}
+    if (!banner) { try { icon = bridge.getIcon ? bridge.getIcon(app.pkg) : ''; } catch (e) {} }
+    if (!banner && !icon) return;                    // no instalada: se queda el icono estilizado
+    el.className += ' has-art' + (banner ? ' has-banner' : ' has-icon');
+    var art = document.createElement('div');
+    art.className = 'tile-art';
+    art.innerHTML = '<img src="' + (banner || icon) + '" alt="">';
+    el.appendChild(art);
+    if (!banner) tintFromIcon(art, icon);
+  }
+
+  // Fondo de la tarjeta = color del propio icono (miramos los bordes, que suelen
+  // ser el fondo del logo). Si no se puede, se queda el fondo oscuro.
+  function tintFromIcon(box, src) {
+    var img = new Image();
+    img.onload = function () {
+      try {
+        var c = document.createElement('canvas'), w = img.width, h = img.height;
+        c.width = w; c.height = h;
+        var g = c.getContext('2d'); g.drawImage(img, 0, 0);
+        var pts = [[0.5, 0.06], [0.06, 0.5], [0.94, 0.5], [0.5, 0.94], [0.2, 0.2]];
+        for (var i = 0; i < pts.length; i++) {
+          var d = g.getImageData(Math.floor(w * pts[i][0]), Math.floor(h * pts[i][1]), 1, 1).data;
+          if (d[3] > 200) { box.style.backgroundColor = 'rgb(' + d[0] + ',' + d[1] + ',' + d[2] + ')'; return; }
+        }
+      } catch (e) {}
+    };
+    img.src = src;
   }
   function setFocus(i) {
     if (i < 0 || i >= tiles.length) return;
@@ -262,13 +329,18 @@
   }
 
   /* ---------- Teclado ---------- */
+  function goBack() {
+    if (cancelLaunch()) return;
+    if (screen === 'launcher') { backToProfiles(); return; }
+    try { window.close(); } catch (err) {}
+  }
+  window.__joiBack = goBack;   // el APK llama aquí cuando se pulsa ATRÁS en el mando
+
   function onKey(e) {
     var k = e.keyCode;
     if (BACK.indexOf(k) !== -1) {
       e.preventDefault();
-      if (cancelLaunch()) return;
-      if (screen === 'launcher') { backToProfiles(); return; }
-      try { window.close(); } catch (err) {}
+      goBack();
       return;
     }
     if (screen === 'profile') {
