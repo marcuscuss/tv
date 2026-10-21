@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VIDAA CHECK</title>
+  <style>
+    html,body{margin:0;height:100%;background:#020904;color:#3dff7a;
+      font-family:'Share Tech Mono',Consolas,monospace;font-size:26px;line-height:1.5;}
+    #wrap{max-width:1100px;margin:0 auto;padding:40px 48px;}
+    h1{font-size:46px;letter-spacing:4px;border-bottom:3px solid #1f8a45;padding-bottom:14px;}
+    .row{display:flex;justify-content:space-between;border-bottom:1px solid #0e3a1c;padding:10px 0;}
+    .k{color:#1f8a45;}
+    .ok{color:#3dff7a;font-weight:bold;}
+    .no{color:#ff5a5a;font-weight:bold;}
+    .verdict{margin-top:34px;padding:26px 30px;border:3px solid currentColor;font-size:34px;}
+    .v-ok{color:#3dff7a;}
+    .v-no{color:#ff9a3b;}
+    .small{font-size:20px;color:#1f8a45;margin-top:10px;}
+    pre{white-space:pre-wrap;word-break:break-all;}
+  </style>
+</head>
+<body>
+<div id="wrap">
+  <h1>HISENSE//DIAGNÓSTICO VIDAA</h1>
+  <div id="rows"></div>
+  <div id="verdict" class="verdict">Analizando...</div>
+  <div class="small">Pulsa ATRÁS para salir. Hazle una foto a esta pantalla y envíamela.</div>
+</div>
+<script>
+/* ES5 por compatibilidad con navegadores de TV antiguos. */
+(function () {
+  var rows = document.getElementById('rows');
+  function has(name){ return typeof window[name] !== 'undefined'; }
+  function call(fn){ try { return has(fn) ? window[fn]() : '—'; } catch (e) { return 'error'; } }
+  function line(k, v, good){
+    var d = document.createElement('div'); d.className = 'row';
+    d.innerHTML = '<span class="k">'+k+'</span><span class="'+(good===true?'ok':good===false?'no':'')+'">'+v+'</span>';
+    rows.appendChild(d);
+  }
+
+  // ¿Es una TV Hisense/VIDAA?
+  var isHisense = has('Hisense_GetCountryCode') || has('Hisense_GetBrand');
+  line('¿Es una TV Hisense?', isHisense ? 'SÍ' : 'NO (navegador normal)', isHisense);
+
+  // Datos de la TV (si los expone)
+  line('Marca', call('Hisense_GetBrand'));
+  line('Modelo', call('Hisense_GetModelName'));
+  line('Versión VIDAA (OS)', call('Hisense_GetOSVersion'));
+  line('Firmware', call('Hisense_GetFirmWareVersion'));
+  line('Chromium', call('Hisense_GetChromiumVersion'));
+  line('País', call('Hisense_GetCountryCode'));
+
+  // Las dos vías de instalación conocidas:
+  var legacy = has('Hisense_installApp');       // método clásico
+  var modern = has('HiUtils_createRequest');    // método nuevo (Appinfo.json)
+  line('Método CLÁSICO (Hisense_installApp)', legacy ? 'DISPONIBLE' : 'no', legacy);
+  line('Método NUEVO (HiUtils_createRequest)', modern ? 'DISPONIBLE' : 'no', modern);
+
+  // Host actual: el truco SOLO funciona desde vidaahub.com
+  var host = location.hostname;
+  var onHub = /(^|\.)vidaahub\.com$/.test(host);
+  line('Dominio actual', host || '(archivo local)', onHub);
+
+  // Veredicto
+  var v = document.getElementById('verdict');
+  if (!isHisense) {
+    v.className = 'verdict v-no';
+    v.textContent = 'Esto no es la TV. Ábrelo EN EL NAVEGADOR DE LA TELE.';
+  } else if (legacy || modern) {
+    v.className = 'verdict v-ok';
+    v.innerHTML = '✓ COMPATIBLE. Tu TV tiene la función de instalar.' +
+      (onHub ? '' : '<div class="small">Nota: para instalar de verdad hay que abrirlo desde vidaahub.com (con el DNS). Aquí solo comprobamos que la función existe.</div>');
+  } else {
+    v.className = 'verdict v-no';
+    v.innerHTML = '✗ La función no aparece en este contexto.' +
+      '<div class="small">Puede que solo se active desde vidaahub.com. El siguiente paso lo confirmará; si tampoco, iremos al stick.</div>';
+  }
+
+  // ATRÁS cierra (apps chromeless) o no hace nada en navegador normal
+  document.addEventListener('keydown', function (e) {
+    var k = e.keyCode;
+    if (k === 8 || k === 27 || k === 461 || k === 10009) {
+      try { window.close(); } catch (err) {}
+    }
+  });
+})();
+</script>
+</body>
+</html>
