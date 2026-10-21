@@ -11,7 +11,7 @@ var LAUNCHER_CONFIG = {
     {
       id: 'marcos',
       name: 'MARCOS',
-      welcome: 'BIENVENIDO MARCOS',
+      greeting: 'BIENVENIDO',        // texto pequeño encima del nombre
       weather: { place: 'MADRID', lat: 40.4168, lon: -3.7038 },
       // 'local:archivo.mp4' = vídeo copiado en el stick (carpeta Download), a color.
       // Si no está (o estás en el PC), se usa fallbackVideo con el estilo CRT.
@@ -20,30 +20,32 @@ var LAUNCHER_CONFIG = {
       theme: 'green'                 // green | cyan | amber
     }
     // Ejemplo para otro perfil:
-    // { id: 'invitado', name: 'INVITADO', welcome: 'BIENVENIDO', weather:{place:'MADRID',lat:40.41,lon:-3.70}, video:'media/welcome.mp4', theme:'cyan' }
+    // { id: 'invitado', name: 'INVITADO', greeting: 'BIENVENIDO', weather:{place:'MADRID',lat:40.41,lon:-3.70}, video:'media/welcome.mp4', theme:'cyan' }
   ],
 
   // ---- APPS ----
-  // icon -> dibujo estilizado (nuestra estética). En el APK se usa el icono REAL
-  //         de la app instalada en la tele; icon es el respaldo.
+  // icon  -> dibujo estilizado. En el APK se usa la imagen REAL de la app
+  //          instalada en la tele; icon + colores es el respaldo (web/PC).
+  // label -> nombre tal como se escribe en la tarjeta.
+  // bg/fg -> color de fondo y del icono/nombre en la tarjeta (colores de la marca).
   // url  -> destino en modo navegador.
   // pkg  -> paquetes Android candidatos (coma): abre la app nativa en el APK.
   apps: [
-    { name: 'YOUTUBE',     icon: 'youtube', url: 'https://www.youtube.com/tv',
+    { name: 'YOUTUBE',     label: 'YouTube', bg: '#ffffff', fg: '#ff0033',     icon: 'youtube', url: 'https://www.youtube.com/tv',
       pkg: 'com.google.android.youtube.tv,com.amazon.firetv.youtube,com.google.android.youtube' },
-    { name: 'NETFLIX',     icon: 'netflix', url: 'https://www.netflix.com',
+    { name: 'NETFLIX',     label: 'NETFLIX', bg: '#000000', fg: '#e50914',     icon: 'netflix', url: 'https://www.netflix.com',
       pkg: 'com.netflix.ninja' },
-    { name: 'PRIME VIDEO', icon: 'prime',   url: 'https://www.primevideo.com',
+    { name: 'PRIME VIDEO', label: 'prime video', bg: '#ffffff', fg: '#0f79af', icon: 'prime',   url: 'https://www.primevideo.com',
       pkg: 'com.amazon.amazonvideo.livingroom,com.amazon.avod,com.amazon.avod.thirdpartyclient' },
-    { name: 'DISNEY+',     icon: 'disney',  url: 'https://www.disneyplus.com',
+    { name: 'DISNEY+',     label: 'Disney+', bg: '#0b1a4a', fg: '#ffffff',     icon: 'disney',  url: 'https://www.disneyplus.com',
       pkg: 'com.disney.disneyplus' },
-    { name: 'SPOTIFY',     icon: 'spotify', url: 'https://open.spotify.com',
+    { name: 'SPOTIFY',     label: 'Spotify', bg: '#121212', fg: '#1ed760',     icon: 'spotify', url: 'https://open.spotify.com',
       pkg: 'com.spotify.tv.android,com.spotify.music' },
-    { name: 'TWITCH',      icon: 'twitch',  url: 'https://www.twitch.tv',
+    { name: 'TWITCH',      label: 'Twitch', bg: '#9146ff', fg: '#ffffff',      icon: 'twitch',  url: 'https://www.twitch.tv',
       pkg: 'tv.twitch.android.app' },
-    { name: 'MAX',         icon: 'max',     url: 'https://play.max.com',
+    { name: 'MAX',         label: 'max', bg: '#002be7', fg: '#ffffff',         icon: 'max',     url: 'https://play.max.com',
       pkg: 'com.wbd.stream,com.hbo.hbonow' },
-    { name: 'NAVEGADOR',   icon: 'browser', url: 'https://www.google.com',
+    { name: 'NAVEGADOR',   label: 'Internet', bg: '#f1f3f4', fg: '#1a73e8',   icon: 'browser', url: 'https://www.google.com',
       pkg: 'com.amazon.cloud9,com.android.chrome,org.mozilla.tv.firefox' }
   ],
 

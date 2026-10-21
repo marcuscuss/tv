@@ -307,3 +307,32 @@ html, body {
 /* Vídeo CRT de respaldo: más visible (antes casi no se notaba) */
 .hero:not(.video-color) .hero-video { opacity: .9; filter: grayscale(1) contrast(1.5) brightness(1.3); }
 .lite .hero:not(.video-color) .hero-video { opacity: .7; }
+
+/* ===== Bienvenida limpia: sin recuadro, sin "THANK YOU", sin reflejos ===== */
+.hero { position: relative; height: 320px; flex: none; background: none; border: none; padding: 0; overflow: hidden; }
+.hero:before, .hero:after { content: none; }
+/* El vídeo se funde con el fondo por los bordes en vez de tener marco */
+.hero-video { -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 88%, transparent 100%);
+              mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 88%, transparent 100%); }
+.hero-overlay { padding: 0 44px; justify-content: center;
+  background: linear-gradient(90deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.2) 60%, rgba(0,0,0,0) 100%); }
+.hero.video-color .hero-overlay { background: linear-gradient(90deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,.25) 60%, rgba(0,0,0,0) 100%); }
+.hero-hello { font-family: 'Archivo Black', Arial Black, sans-serif; font-size: 40px; letter-spacing: 12px;
+  color: #eafcff; opacity: .85; text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+.hero-name { font-family: 'Archivo Black', Arial Black, sans-serif; font-size: 150px; line-height: .95; letter-spacing: 6px;
+  color: #eafcff; white-space: nowrap; text-shadow: 0 4px 24px rgba(0,0,0,.6); }
+.lite .hero-name, .lite .hero-hello { text-shadow: none !important; }
+.hero .vstat { position: absolute; left: 44px; bottom: 14px; }
+
+/* ===== Tarjetas de marca (web / app no instalada), estilo Apple TV ===== */
+.tile .tile-ico.brand { border: none; flex-direction: row; gap: 14px; }
+.tile .tile-ico.brand .app-ico { width: 60px; height: 60px; flex: none; }
+.brand-label { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 800; font-size: 40px;
+  letter-spacing: -.5px; text-shadow: none; white-space: nowrap; }
+/* Al tener foco no se invierten los colores: crece y se ilumina, como en Apple TV */
+.tile.focused .tile-ico.brand { border: none; }
+/* Borde fino para que las tarjetas oscuras (Spotify, Netflix…) no se pierdan en el fondo */
+.tile .tile-ico.brand { box-shadow: inset 0 0 0 2px rgba(255,255,255,.14); }
+.tile.focused .tile-ico.brand { box-shadow: 0 0 0 4px var(--fg), 0 16px 34px rgba(0,0,0,.65); }
+.lite .tile .tile-ico.brand { outline: 2px solid rgba(255,255,255,.14); outline-offset: -2px; }
+.lite .tile.focused .tile-ico.brand { outline: 4px solid var(--fg); outline-offset: 0; }

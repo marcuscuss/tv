@@ -126,7 +126,11 @@
 
     $('op-name').textContent = profile.name;
     $('operator').textContent = profile.name;
-    $('hero-title').textContent = profile.welcome || ('BIENVENIDO ' + profile.name);
+    // "BIENVENIDO" pequeño encima y el nombre grande; nombres largos se encogen para caber.
+    $('hero-hello').textContent = profile.greeting || 'BIENVENIDO';
+    var nm = $('hero-name');
+    nm.textContent = profile.name;
+    nm.style.fontSize = Math.min(150, Math.floor(1150 / (profile.name.length * 0.9))) + 'px';
     $('sec-code').textContent = Math.floor(10000 + Math.random() * 89999) + '-D-' + Math.floor(1000 + Math.random() * 8999);
     applyTheme(themeIndexById(store('launcher.theme') || profile.theme || 'green'));
 
@@ -146,7 +150,7 @@
         $('signal').textContent = new Array(n + 1).join('▮') + new Array(6 - n).join('▯');
       }, 3000);
       setInterval(loadWeather, 15 * 60 * 1000);
-      startTicker(); startGlobe(); scheduleGlitch();
+      startTicker(); startGlobe();
     }
   }
 
@@ -264,10 +268,15 @@
       var el = document.createElement('div');
       el.className = 'tile';
       var ico = (ICONS[app.icon] || ICONS._default);
+      // Respaldo sin imagen real: tarjeta con el color de la marca, icono y nombre.
+      var brand = app.bg
+        ? ' brand" style="background:' + app.bg + ';color:' + app.fg
+        : '';
       el.innerHTML =
         '<div class="tile-top"><span>CH-' + pad(i + 1) + '</span><span>' + (i < 9 ? '[' + (i + 1) + ']' : '') + '</span></div>' +
-        '<div class="tile-ico">' + ico + '</div>' +
-        '<div class="tile-name">' + app.name + '</div>';
+        '<div class="tile-ico' + brand + '">' + ico +
+          (app.bg ? '<span class="brand-label"' + ((app.label || app.name).length > 9 ? ' style="font-size:30px"' : '') + '>' + (app.label || app.name) + '</span>' : '') + '</div>' +
+        '<div class="tile-name">' + (app.label || app.name) + '</div>';
       el.addEventListener('click', function () { setFocus(i); launch(i); });
       el.addEventListener('mouseenter', function () { setFocus(i); });
       grid.appendChild(el);
@@ -408,7 +417,6 @@
     var d = new Date();
     $('clock').textContent = pad(d.getHours()) + (d.getSeconds() % 2 ? ' ' : ':') + pad(d.getMinutes());
     $('date').textContent = DAYS[d.getDay()] + ' ' + pad(d.getDate()) + ' ' + MONTHS[d.getMonth()] + ' ' + d.getFullYear();
-    $('hero-time').textContent = pad(d.getHours()) + ':' + pad(d.getMinutes());
     var up = Math.floor((Date.now() - startTime) / 1000);
     $('uptime').textContent = pad(Math.floor(up / 3600)) + ':' + pad(Math.floor(up / 60) % 60) + ':' + pad(up % 60);
   }
@@ -473,14 +481,6 @@
     };
     xhr.onerror = function () { log('> METEO :: SIN CONEXIÓN'); };
     xhr.send();
-  }
-
-  function scheduleGlitch() {
-    setTimeout(function () {
-      if (document.body.classList.contains('lite')) { scheduleGlitch(); return; }
-      var t = $('hero-title'); t.classList.remove('glitch'); void t.offsetWidth; t.classList.add('glitch');
-      scheduleGlitch();
-    }, 4000 + Math.random() * 6000);
   }
 
   /* ---------- Arranque ---------- */
