@@ -29,11 +29,30 @@
   }
 
   /* ---------- Escalado ---------- */
+  // Tamaño real de la pantalla. Algunos WebView de TV (Fire TV) dan medidas
+  // distintas según la API, o 0 al arrancar: nos quedamos con la menor válida.
+  function viewSize() {
+    var de = document.documentElement;
+    var ws = [window.innerWidth, de && de.clientWidth, window.screen && window.screen.width];
+    var hs = [window.innerHeight, de && de.clientHeight, window.screen && window.screen.height];
+    function minValid(a) {
+      var m = 0;
+      for (var i = 0; i < a.length; i++) if (a[i] > 0 && (!m || a[i] < m)) m = a[i];
+      return m;
+    }
+    return { w: minValid(ws) || 1920, h: minValid(hs) || 1080 };
+  }
+
   function fit() {
-    var s = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
-    stage.style.transform = 'scale(' + s + ')';
-    stage.style.left = ((window.innerWidth - 1920 * s) / 2) + 'px';
-    stage.style.top = ((window.innerHeight - 1080 * s) / 2) + 'px';
+    var v = viewSize();
+    var s = Math.min(v.w / 1920, v.h / 1080);
+    var t = 'scale(' + s + ')';
+    stage.style.webkitTransformOrigin = '0 0';
+    stage.style.webkitTransform = t;   // WebView antiguos solo entienden la versión -webkit-
+    stage.style.transform = t;
+    stage.style.left = ((v.w - 1920 * s) / 2) + 'px';
+    stage.style.top = ((v.h - 1080 * s) / 2) + 'px';
+    fit.info = v.w + 'x' + v.h + ' @' + (window.devicePixelRatio || 1) + ' ESCALA ' + s.toFixed(3);
   }
 
   /* ---------- Temas ---------- */
@@ -113,7 +132,7 @@
 
     if (!tiles.length) buildGrid();
     setFocus(0);
-    ['TERMLINK :: SESIÓN ' + profile.name, 'AUTENTICACIÓN OK', 'CARGANDO ' + CFG.apps.length + ' CANALES', 'SISTEMA LISTO'].forEach(log);
+    ['TERMLINK :: SESIÓN ' + profile.name, 'AUTENTICACIÓN OK', 'PANTALLA ' + (fit.info || '?'), 'CARGANDO ' + CFG.apps.length + ' CANALES', 'SISTEMA LISTO'].forEach(log);
 
     loadWeather();
     if (!startLauncher._once) {
@@ -334,6 +353,9 @@
     if (lite) document.body.classList.add('lite');
     fit();
     window.addEventListener('resize', fit);
+    window.addEventListener('load', fit);
+    // El WebView a veces informa del tamaño final un poco después de arrancar.
+    setTimeout(fit, 300); setTimeout(fit, 1000); setTimeout(fit, 2500);
     document.addEventListener('keydown', onKey);
     buildProfiles();
     window.addEventListener('pageshow', function () { $('calling').classList.add('hidden'); $('calling-bar').style.width = '0'; });
