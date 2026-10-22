@@ -1,0 +1,20 @@
+name: Diagnóstico temporal
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bajar logos de plataformas
+        run: bash scripts/tmp/logos.sh
+      - name: Guardar
+        run: |
+          git config user.name "joi-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/logos/plat
+          git commit -m "Logos de plataformas (Wikimedia Commons)" || exit 0
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
