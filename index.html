@@ -2109,7 +2109,7 @@ img { border: 0; }
         !$('sec-apps').classList.contains('away')) heroStep(1, true);
   }, 12000);
   // Imagen a la máxima resolución: el fondo sin texto de TMDB (original) o, si no, el backdrop en original
-  function bigImg(u) { return String(u || '').replace(/\/t\/p\/w\d+\//, '/t/p/original/'); }
+  function bigImg(u) { return hiRes(u); }
   function renderHero() {
     var m = heroPick(), info = $('hero-info'), img = $('hero-img');
     hero.row = [];
@@ -2483,6 +2483,12 @@ img { border: 0; }
     if (tx.scrollHeight > tx.clientHeight + 2) $('det-hint').textContent = '▲ ▼ LEER';
     else $('det-hint').textContent = '';
   }
+  // La mayor resolución disponible de cada imagen (TMDB original, Letterboxd 1000×1500, SensaCine sin recorte)
+  function hiRes(u) {
+    return String(u || '').replace(/\/t\/p\/w\d+\//, '/t/p/original/')
+      .replace(/-0-\d+-0-\d+-crop/, '-0-1000-0-1500-crop')
+      .replace(/\/c_\d+_\d+\//, '/');
+  }
   function closeDetail() { overlay('detail', false); popNav(); }
 
   function openFilm(f, diary, list) {
@@ -2490,7 +2496,7 @@ img { border: 0; }
     if (f.year) meta += cell('AÑO', esc(f.year));
     if (diary) meta += cell('NOTA', (f.rating != null ? esc(stars(f.rating)) : 'SIN NOTA') + (f.liked ? ' <span class="accent">♥</span>' : ''));
     if (f.watched) meta += cell(f.rewatch ? 'REVISIONADA' : 'VISTA', esc(fmtDate(f.watched)));
-    openDetail({ img: f.poster, poster: true, meta: meta, title: esc(f.title),
+    openDetail({ img: hiRes(f.poster), poster: true, meta: meta, title: esc(f.title),
       text: f.review ? esc(f.review) : '<span class="dim">' + (diary ? 'Sin reseña.' : '') + '</span>' });
   }
 
@@ -2664,7 +2670,7 @@ img { border: 0; }
     var meta = cell(news.cat === 0 ? 'EN CINES' : 'ESTRENO', esc(fmtDate(m.release_date) || 'POR CONFIRMAR'));
     meta += cell('NOTA', m.vote_average ? esc(m.vote_average.toFixed(1)) + ' / 10' : 'SIN VOTOS');
     if (m.genres && m.genres.length) meta += cell('GÉNERO', esc(m.genres.slice(0, 3).join(' · ').toUpperCase()));
-    openDetail({ img: m.backdrop || m.poster, poster: !m.backdrop, meta: meta, title: esc(m.title),
+    openDetail({ img: m.fondo || hiRes(m.backdrop || m.poster), poster: !(m.fondo || m.backdrop), meta: meta, title: esc(m.title),
       text: m.overview ? esc(m.overview) : '<span class="dim">Sin sinopsis en español todavía.</span>',
       prov: provHtml(m), btns: movieBtns(m) });
   }
@@ -3062,7 +3068,7 @@ img { border: 0; }
   }, 2000);
 
   function saverImages() {
-    var out = [], i, j, add = function (url, poster) { if (url) out.push({ url: url, poster: poster }); };
+    var out = [], i, j, add = function (url, poster) { if (url) out.push({ url: hiRes(url), poster: poster }); };
     if (DATA.lb && DATA.lb.diary) for (i = 0; i < DATA.lb.diary.length; i++) add(DATA.lb.diary[i].poster, true);
     var est = news.data && !news.data.empty ? (news.data.now_playing || []).concat(news.data.upcoming || []) : [];
     for (i = 0; i < est.length; i++) add(est[i].backdrop || est[i].poster, !est[i].backdrop || /c_\d+_\d+/.test(est[i].backdrop));
@@ -3259,7 +3265,7 @@ img { border: 0; }
     if (m.year) meta += cell('AÑO', esc(m.year));
     meta += cell('NOTA', m.rating != null ? esc(stars(m.rating)) : (m.vote_average ? esc(m.vote_average.toFixed(1)) + ' / 10' : '—'));
     if (m.genres && m.genres.length) meta += cell('GÉNERO', esc(m.genres.slice(0, 3).join(' · ').toUpperCase()));
-    openDetail({ img: m.backdrop || m.poster, poster: !m.backdrop, meta: meta, title: esc(m.title),
+    openDetail({ img: m.fondo || hiRes(m.backdrop || m.poster), poster: !(m.fondo || m.backdrop), meta: meta, title: esc(m.title),
       text: m.overview ? esc(m.overview) : '<span class="dim">Sin sinopsis en español.</span>', prov: provHtml(m), btns: movieBtns(m) });
   }
 
@@ -3322,7 +3328,7 @@ img { border: 0; }
     var k = 6 + Math.floor(Math.random() * (n - 12));
     var pick = $('qvh-pick'), info = $('qvh-info');
     pick.className = 'qvh-pick';
-    pick.style.backgroundImage = m.poster ? 'url("' + m.poster + '")' : 'none';
+    pick.style.backgroundImage = m.poster ? 'url("' + hiRes(m.poster) + '")' : 'none';
     info.className = 'qvh-info';
     info.innerHTML = '';
     qvh.timers.push(setTimeout(function () { spines[k].className = 'spine out'; }, 250));
