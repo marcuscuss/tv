@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.util.Base64;
 import android.view.View;
+import android.view.WindowManager;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
@@ -52,16 +53,26 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Dibujado por GPU en toda la ventana (en Fire TV antiguos marca la diferencia)
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
+                WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED);
+
         web = new WebView(this);
+        web.setLayerType(View.LAYER_TYPE_HARDWARE, null);
+        web.setOverScrollMode(View.OVER_SCROLL_NEVER);
+        web.setVerticalScrollBarEnabled(false);
+        web.setHorizontalScrollBarEnabled(false);
         setContentView(web);
 
         WebSettings s = web.getSettings();
         s.setJavaScriptEnabled(true);
         s.setDomStorageEnabled(true);       // localStorage: recuerda el tema
+        s.setCacheMode(WebSettings.LOAD_DEFAULT);   // usa la caché del navegador (imágenes y datos)
+        s.setRenderPriority(WebSettings.RenderPriority.HIGH);
         s.setMediaPlaybackRequiresUserGesture(false);
         // La página es https y el vídeo local se sirve por http://127.0.0.1
         s.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
-        web.setBackgroundColor(0xFF020904);
+        web.setBackgroundColor(0xFF000000);
         web.addJavascriptInterface(new TVBridge(), "TVBridge");
 
         // Que todo se cargue dentro del WebView, no en un navegador externo
@@ -256,6 +267,18 @@ public class MainActivity extends Activity {
 
     /** Puente JS -> Android. La web lo llama como TVBridge.launchApp(...) */
     private class TVBridge {
+        /** ATRÁS en CH 01: cierra Joi de verdad. */
+        @JavascriptInterface
+        public void exitApp() {
+            runOnUiThread(new Runnable() { public void run() { finish(); } });
+        }
+
+        /** true en un Fire TV (Amazon): la web activa su modo optimizado. */
+        @JavascriptInterface
+        public boolean isFireTv() {
+            return "Amazon".equalsIgnoreCase(Build.MANUFACTURER) || Build.MODEL.startsWith("AFT");
+        }
+
         /** Recibe una lista de paquetes candidatos separados por coma y abre el primero instalado. */
         @JavascriptInterface
         public boolean launchApp(String packagesCsv) {

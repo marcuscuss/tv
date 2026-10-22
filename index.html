@@ -638,6 +638,21 @@ img { border: 0; }
 .oop .ln .c { display: inline-block; width: 13vw; margin-right: 1vw; color: #8a8a8a; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: top; }
 .oop .ln.focus .h, .oop .ln.focus .c { color: #000000; }
 
+/* ======================================================================
+   MODO FIRE TV · fuera lo que más le cuesta a su GPU (desenfoques, sombras
+   grandes, texturas superpuestas) y capas propias para lo que se anima
+   ====================================================================== */
+.fire .hdr { -webkit-backdrop-filter: none; backdrop-filter: none; background-color: rgba(24,24,24,.62); }
+.fire .tape { will-change: transform; }
+.fire .tape .sleeve, .fire .mcard, .fire .pitem .poster, .fire .nw-card .pc, .fire .panel { box-shadow: none; }
+.fire .tape .wear { display: none; }
+.fire .nw-title .lyr, .fire #osd .n, .fire #osd .l { text-shadow: none; }
+.fire #hero .hi { will-change: opacity, transform; }
+.fire #sec-apps > * { will-change: transform; }
+.fire .pitem.focus .poster { box-shadow: 0 0 0 .18vw #ffffff; }
+.fire .mcard.focus { box-shadow: 0 0 0 .2vw #ffffff; }
+.fire .nw-card.f .pc { box-shadow: 0 0 0 .15vw #ffffff; }
+
 /* Destello rojo al reproducir una cinta */
 #tint { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 54; pointer-events: none; display: none;
   background-color: rgba(200, 52, 12, .5); background-image: linear-gradient(180deg, rgba(255,140,40,.25), rgba(120,10,0,.35)); }
@@ -690,7 +705,7 @@ img { border: 0; }
     </header>
 
     <!-- APPS -->
-    <section id="sec-apps" class="sec scroller">
+    <section id="sec-apps" class="sec">
       <div id="hero">
         <div class="hi" id="hero-img"></div><div class="g1"></div><div class="g2"></div>
         <div class="info" id="hero-info"></div>
@@ -979,6 +994,12 @@ img { border: 0; }
   };
 
   var bridge = window.TVBridge || null;     // existe solo dentro del APK de Android
+  // Fire TV: modo optimizado (imágenes más ligeras, sin desenfoques ni sombras, menos fps en el globo)
+  var FIRE = (function () {
+    try { if (bridge && bridge.isFireTv && bridge.isFireTv()) return true; } catch (e) {}
+    return /AFT[A-Z]|AmazonWebAppPlatform|Silk\//.test(navigator.userAgent) || /[?&]fire=1/.test(window.location.search);
+  })();
+  if (FIRE) document.documentElement.className += ' fire';
   var STORE_KEY = 'joi.v1';
   var BACK_KEYS = [8, 27, 461, 10009];
   var DAYS = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB'];
@@ -2017,7 +2038,7 @@ img { border: 0; }
       car.tapes.push(t);
     }
     car.idx = Math.max(0, Math.min(car.items.length - 1, car.idx));
-    $('sec-apps').scrollTop = 0;
+    appsScroll(0, 0);
     layoutCarousel();
     renderAppsSport();
     renderHero();
@@ -2037,12 +2058,32 @@ img { border: 0; }
       var sec = $('sec-apps'), down = row >= heroRows;
       setClass(sec, 'away', down);
       setClass($('scr-main'), 'hdr-up', down);
-      if (!down) animateScroll(sec, 'scrollTop', 0, 1100);
-      else if (nav.el === c) animateScroll(sec, 'scrollTop', $('coll-head').offsetTop - window.innerWidth * 0.03, 1100);
+      var W = window.innerWidth;
+      if (!down) appsScroll(0, 1100);
+      else if (nav.el === c) appsScroll($('coll-head').offsetTop - W * 0.03, 1100);
+      else appsScroll(Math.max(0, topIn(nav.el, sec) - W * 0.12), 600);
       layoutCarousel();
     };
     n.onFocusRow(n.r);
     if (keep && !focusEl(keep)) focusAt(1, 0);
+  }
+
+  // Mueve todo el contenido del CH 01 con translate3d y una transición CSS: la GPU lo anima
+  // sola y la página no se redibuja en cada fotograma (clave para que vaya fluido en Fire TV).
+  // Posición de un elemento dentro del CH 01 (sin contar los transform del desplazamiento)
+  function topIn(el, root) {
+    var y = 0;
+    while (el && el !== root) { y += el.offsetTop; el = el.offsetParent; }
+    return y;
+  }
+  function appsScroll(y, dur) {
+    var kids = $('sec-apps').children, t = 'translate3d(0,' + (-Math.round(y)) + 'px,0)';
+    var tr = dur ? 'transform ' + dur + 'ms cubic-bezier(.65,0,.35,1)' : 'none';
+    for (var i = 0; i < kids.length; i++) {
+      kids[i].style.webkitTransition = dur ? '-webkit-' + tr : 'none';
+      kids[i].style.transition = tr;
+      setTransform(kids[i], t);
+    }
   }
 
   /* ---------- Portada: una peli recomendada en grande, con dónde verla ---------- */
@@ -2120,7 +2161,7 @@ img { border: 0; }
       return;
     }
     hero.m = m;
-    img.style.backgroundImage = 'url("' + (m.fondo || bigImg(m.backdrop || m.poster)) + '")';
+    img.style.backgroundImage = 'url("' + hiRes(m.fondo || m.backdrop || m.poster) + '")';
     // Título principal (antes de ":" o " - ") en grande y el resto como subtítulo
     var full = String(m.title || ''), cut = full.search(/:\s| - | – /), t = cut > 2 ? full.substring(0, cut) : full;
     var sub = cut > 2 ? full.substring(cut).replace(/^[:\s–-]+/, '') : '';
@@ -2485,6 +2526,8 @@ img { border: 0; }
   }
   // La mayor resolución disponible de cada imagen (TMDB original, Letterboxd 1000×1500, SensaCine sin recorte)
   function hiRes(u) {
+    if (FIRE) return String(u || '').replace(/\/t\/p\/(w\d+|original)\//, '/t/p/w1280/')
+      .replace(/-0-\d+-0-\d+-crop/, '-0-600-0-900-crop').replace(/\/c_\d+_\d+\//, '/');
     return String(u || '').replace(/\/t\/p\/w\d+\//, '/t/p/original/')
       .replace(/-0-\d+-0-\d+-crop/, '-0-1000-0-1500-crop')
       .replace(/\/c_\d+_\d+\//, '/');
@@ -2670,7 +2713,7 @@ img { border: 0; }
     var meta = cell(news.cat === 0 ? 'EN CINES' : 'ESTRENO', esc(fmtDate(m.release_date) || 'POR CONFIRMAR'));
     meta += cell('NOTA', m.vote_average ? esc(m.vote_average.toFixed(1)) + ' / 10' : 'SIN VOTOS');
     if (m.genres && m.genres.length) meta += cell('GÉNERO', esc(m.genres.slice(0, 3).join(' · ').toUpperCase()));
-    openDetail({ img: m.fondo || hiRes(m.backdrop || m.poster), poster: !(m.fondo || m.backdrop), meta: meta, title: esc(m.title),
+    openDetail({ img: hiRes(m.fondo || m.backdrop || m.poster), poster: !(m.fondo || m.backdrop), meta: meta, title: esc(m.title),
       text: m.overview ? esc(m.overview) : '<span class="dim">Sin sinopsis en español todavía.</span>',
       prov: provHtml(m), btns: movieBtns(m) });
   }
@@ -2723,7 +2766,7 @@ img { border: 0; }
   function globeFrame(ts) {
     if (!globe.on) return;
     ts = now();
-    if (!globe.last || ts - globe.last >= 33) {        // máx. 30 fps
+    if (!globe.last || ts - globe.last >= (FIRE ? 50 : 33)) {        // máx. 30 fps (20 en Fire TV)
       if (!perf.on) globe.rot += globe.last ? (ts - globe.last) * 0.00022 : 0;
       globe.last = ts;
       drawGlobe();
@@ -3265,7 +3308,7 @@ img { border: 0; }
     if (m.year) meta += cell('AÑO', esc(m.year));
     meta += cell('NOTA', m.rating != null ? esc(stars(m.rating)) : (m.vote_average ? esc(m.vote_average.toFixed(1)) + ' / 10' : '—'));
     if (m.genres && m.genres.length) meta += cell('GÉNERO', esc(m.genres.slice(0, 3).join(' · ').toUpperCase()));
-    openDetail({ img: m.fondo || hiRes(m.backdrop || m.poster), poster: !(m.fondo || m.backdrop), meta: meta, title: esc(m.title),
+    openDetail({ img: hiRes(m.fondo || m.backdrop || m.poster), poster: !(m.fondo || m.backdrop), meta: meta, title: esc(m.title),
       text: m.overview ? esc(m.overview) : '<span class="dim">Sin sinopsis en español.</span>', prov: provHtml(m), btns: movieBtns(m) });
   }
 
