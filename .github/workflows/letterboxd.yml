@@ -1,18 +1,14 @@
 name: Actualizar Letterboxd
 
-# Cada hora descarga el diario público de Letterboxd y lo deja en data/letterboxd.json
-# para que Joi lo muestre. También se puede lanzar a mano desde la pestaña Actions.
+# Cada 6 horas (y a mano desde la pestaña Actions) descarga el diario y las listas
+# de los usuarios de letterboxd-users.json y los guarda en data/letterboxd/USUARIO.json.
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '23 */6 * * *'
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/letterboxd.py'
-      - '.github/workflows/letterboxd.yml'
 
 permissions:
-  contents: write   # para guardar el JSON en el repo
+  contents: write   # para guardar los JSON en el repo
   pages: write      # para pedir que se republique la web con los datos nuevos
 
 concurrency:
@@ -22,27 +18,30 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
-      - name: Descargar diario de Letterboxd
-        env:
-          LB_USER: marcus_cus
-        run: python3 scripts/letterboxd.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Descargar diario y listas de Letterboxd
+        run: node scripts/letterboxd.js
 
       - name: Guardar si hay cambios
         id: commit
         run: |
-          if git diff --quiet -- data/letterboxd.json && git ls-files --error-unmatch data/letterboxd.json >/dev/null 2>&1; then
+          mkdir -p data/letterboxd
+          git add -A data/letterboxd
+          if git diff --cached --quiet; then
             echo "Sin cambios"
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "joi-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/letterboxd.json
           git commit -m "Actualizar datos de Letterboxd"
-          # Por si entretanto se ha subido otro cambio a la rama
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
           echo "changed=true" >> "$GITHUB_OUTPUT"

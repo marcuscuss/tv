@@ -191,6 +191,37 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
 #film .fmeta { font-size: 1.15vw; letter-spacing: .2em; color: #d9d2f2; }
 #film .btn { margin-top: 2.6vw; }
 
+/* Filas de Letterboxd: carátulas 2:3 con estrellas y corazón debajo */
+.lbsect .sect { margin-top: 1.6vw; }
+.lbrow { position: relative; }
+.pitem { display: inline-block; width: 9vw; margin-right: 1.3vw; vertical-align: top; cursor: pointer; white-space: normal; }
+.pitem .poster { display: block; margin: 0; width: 9vw; height: 13.5vw; }
+.pitem.focus .poster { -webkit-transform: scale(1.08); transform: scale(1.08); box-shadow: 0 0 0 .22vw #22e4ff, 0 0 2vw rgba(255, 79, 216, .55); }
+.pmeta { margin-top: 1vw; height: 1.5vw; font-size: 1.1vw; letter-spacing: .08em; color: #22e4ff; white-space: nowrap; overflow: hidden; text-align: center; }
+.pmeta .heart { color: #ff4fd8; margin-left: .4vw; }
+.pmeta.year { color: #8c84a8; }
+
+/* "Todas las apps" en la fila de favoritas */
+.tile.all .face { background: rgba(20, 14, 34, .75); border: .16vw dashed rgba(177, 140, 255, .55); box-shadow: none; }
+.tile.all .face { -webkit-flex-direction: column; flex-direction: column; }
+.tile.all .face .plus { font-size: 2.4vw; font-weight: 200; color: #b18cff; line-height: 1; margin-bottom: .5vw; }
+.tile.all .face .tlabel { font-size: 1.1vw; font-weight: 400; letter-spacing: .18em; text-transform: uppercase; color: #d9d2f2; }
+#film .fstars .heart { color: #ff4fd8; margin-left: .6vw; }
+
+/* Pantalla "Todas las apps": filas de 6 con inline-block */
+#scr-all .head { position: absolute; left: 0; right: 0; top: 3.4vw; text-align: center; }
+#all-grid { position: absolute; left: 4.6vw; right: 4vw; top: 9.6vw; bottom: 5.6vw; overflow: hidden; padding: 1.2vw .8vw; }
+.tile.small { display: inline-block; vertical-align: top; width: 13.6vw; height: 7.6vw; margin: 0 1.2vw 2.8vw 0; }
+.tile.small .tlabel { font-size: 1.55vw; }
+.tile.small .tlabel.long { font-size: 1.2vw; }
+.tile .fav-badge { position: absolute; right: .55vw; top: .35vw; z-index: 3; font-size: 1.35vw; color: #ffd84f;
+  text-shadow: 0 0 .5vw rgba(0, 0, 0, .9); }
+
+/* Ficha: reseña */
+#film .freview { max-height: 11vw; overflow: hidden; margin-top: 1.4vw; font-size: 1.2vw; line-height: 1.55; color: #d9d2f2;
+  white-space: pre-line; }
+#film .fhint { margin: 2.6vw 0 0 1.4vw; font-size: .95vw; letter-spacing: .2em; }
+
 #toast { position: absolute; left: 50%; bottom: 4vw; width: 40vw; margin-left: -20vw; text-align: center; z-index: 40;
   padding: 1vw 1.4vw; font-size: 1.3vw; letter-spacing: .12em; border-radius: .6vw; background: #140f22;
   border: .14vw solid #ff4fd8; box-shadow: 0 0 2vw rgba(255, 79, 216, .4); display: none; }
@@ -225,7 +256,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   <section id="scr-apps" class="screen">
     <div class="head">
       <div class="kicker">Apps del perfil</div>
-      <div class="title" style="font-size:2.2vw">Mostrar y ordenar</div>
+      <div class="title" style="font-size:2.2vw">Favoritas y orden</div>
     </div>
     <div id="ae-list" class="scroller"></div>
     <div class="hints" id="ae-hints"></div>
@@ -251,11 +282,18 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       </div>
       <div class="sect">Apps</div>
       <div id="grid" class="row wrap"></div>
-      <div id="lb-sect">
-        <div class="sect row between"><span>Últimas vistas · Letterboxd</span><span class="sinfo" id="lb-info"></span></div>
-        <div id="lb-row" class="lbrow scroller-x"></div>
-      </div>
+      <div id="lb-rows"></div>
     </div>
+  </section>
+
+  <!-- Todas las apps -->
+  <section id="scr-all" class="screen">
+    <div class="head">
+      <div class="kicker">Joi</div>
+      <div class="title" style="font-size:2.2vw">Todas las apps</div>
+    </div>
+    <div id="all-grid" class="scroller"></div>
+    <div class="hints">OK abrir &nbsp;·&nbsp; mantener OK o botón de color: ★ favorita &nbsp;·&nbsp; ATRÁS volver</div>
   </section>
 
   <!-- Menú del avatar -->
@@ -284,12 +322,13 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   <div id="film" class="ov"><div class="panel row">
     <img id="f-poster" class="fposter" alt="" referrerpolicy="no-referrer">
     <div class="finfo">
-      <div class="kicker">Diario · Letterboxd</div>
+      <div class="kicker" id="f-kicker">Diario · Letterboxd</div>
       <div class="ftitle" id="f-title"></div>
       <div class="fyear" id="f-year"></div>
       <div class="fstars" id="f-stars"></div>
       <div class="fmeta" id="f-meta"></div>
-      <div class="row"><div class="btn primary" id="f-close">✕ Cerrar</div></div>
+      <div class="freview scroller" id="f-review"></div>
+      <div class="row"><div class="btn primary" id="f-close">✕ Cerrar</div><span class="dim fhint" id="f-hint"></span></div>
     </div>
   </div></div>
 
@@ -311,44 +350,73 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
        domain   si ningún logo carga, se usa el icono de su web
        url      destino en el navegador
        pkg      paquetes Android (coma): dentro del APK abre la app nativa
+       fav      favorita por defecto en los perfiles nuevos
      ===================================================================== */
   var CONFIG = {
     apps: [
-      { id: 'youtube', name: 'YOUTUBE', label: 'YouTube', domain: 'youtube.com',
+      { id: 'youtube', fav: true, name: 'YOUTUBE', label: 'YouTube', domain: 'youtube.com',
         bg: '#ffffff', fg: '#ff0033', logos: ['YouTube_Logo_2017.svg'],
         url: 'https://www.youtube.com/tv',
         pkg: 'com.google.android.youtube.tv,com.amazon.firetv.youtube,com.google.android.youtube' },
-      { id: 'netflix', name: 'NETFLIX', label: 'Netflix', domain: 'netflix.com',
+      { id: 'netflix', fav: true, name: 'NETFLIX', label: 'Netflix', domain: 'netflix.com',
         bg: '#ffffff', fg: '#e50914', logos: ['Netflix_2015_logo.svg'],
         url: 'https://www.netflix.com',
         pkg: 'com.netflix.ninja' },
-      { id: 'prime', name: 'PRIME VIDEO', label: 'Prime Video', domain: 'primevideo.com',
+      { id: 'prime', fav: true, name: 'PRIME VIDEO', label: 'Prime Video', domain: 'primevideo.com',
         bg: 'linear-gradient(135deg,#0b2a6f,#1a73e8)', fg: '#ffffff', logoWhite: true,
         logos: ['media/logos/prime-video.png'],
         url: 'https://www.primevideo.com',
         pkg: 'com.amazon.amazonvideo.livingroom,com.amazon.avod,com.amazon.avod.thirdpartyclient' },
-      { id: 'disney', name: 'DISNEY+', label: 'Disney+', domain: 'disneyplus.com',
+      { id: 'disney', fav: true, name: 'DISNEY+', label: 'Disney+', domain: 'disneyplus.com',
         bg: 'linear-gradient(135deg,#071a4a,#1d4fb8)', fg: '#ffffff', logoWhite: true,
         logos: ['Disney+_logo.svg', 'Disney_plus_logo.svg'],
         url: 'https://www.disneyplus.com',
         pkg: 'com.disney.disneyplus' },
-      { id: 'spotify', name: 'SPOTIFY', label: 'Spotify', domain: 'spotify.com',
+      { id: 'spotify', fav: true, name: 'SPOTIFY', label: 'Spotify', domain: 'spotify.com',
         bg: '#121212', fg: '#1ed760', logos: ['Spotify_logo_with_text.svg', 'Spotify_logo_without_text.svg'],
         url: 'https://open.spotify.com',
         pkg: 'com.spotify.tv.android,com.spotify.music' },
-      { id: 'twitch', name: 'TWITCH', label: 'Twitch', domain: 'twitch.tv',
+      { id: 'twitch', fav: true, name: 'TWITCH', label: 'Twitch', domain: 'twitch.tv',
         bg: '#0e0e10', fg: '#a970ff', logos: ['media/logos/twitch.png'],
         url: 'https://www.twitch.tv',
         pkg: 'tv.twitch.android.app' },
-      { id: 'hbomax', name: 'HBO MAX', label: 'HBO Max', domain: 'hbomax.com',
+      { id: 'hbomax', fav: true, name: 'HBO MAX', label: 'HBO Max', domain: 'hbomax.com',
         bg: 'linear-gradient(135deg,#1c0b6b,#5b2cf0)', fg: '#ffffff', logoWhite: true,
         logos: ['media/logos/hbo-max.png'],
         url: 'https://play.hbomax.com',
         pkg: 'com.wbd.stream,com.hbo.hbonow' },
-      { id: 'internet', name: 'NAVEGADOR', label: 'Internet', domain: 'google.com',
+      { id: 'internet', fav: true, name: 'NAVEGADOR', label: 'Internet', domain: 'google.com',
         bg: '#ffffff', fg: '#1a73e8', logos: ['Google_2015_logo.svg'],
         url: 'https://www.google.com',
-        pkg: 'com.amazon.cloud9,com.android.chrome,org.mozilla.tv.firefox' }
+        pkg: 'com.amazon.cloud9,com.android.chrome,org.mozilla.tv.firefox' },
+      // Sin logo: tarjeta con letras y colores
+      { id: 'appletv', name: 'APPLE TV', label: 'Apple TV', bg: '#000000', fg: '#ffffff',
+        url: 'https://tv.apple.com',
+        pkg: 'com.apple.atve.amazon.appletv,com.apple.atve.androidtv.appletv' },
+      { id: 'max', name: 'MAX', label: 'Max', bg: '#002be7', fg: '#ffffff',
+        url: 'https://play.max.com',
+        pkg: 'com.wbd.stream' },
+      { id: 'filmin', name: 'FILMIN', label: 'Filmin', bg: '#0d0d0d', fg: '#ffffff',
+        url: 'https://www.filmin.es',
+        pkg: 'es.filmin.app,com.filmin.android,es.filmin.androidtv' },
+      { id: 'movistar', name: 'MOVISTAR PLUS+', label: 'Movistar Plus+', bg: 'linear-gradient(135deg,#061a3a,#0b4f8f)', fg: '#3fd5ff',
+        url: 'https://ver.movistarplus.es',
+        pkg: 'es.plus.yomvi,es.movistarplus.androidtv' },
+      { id: 'skyshowtime', name: 'SKYSHOWTIME', label: 'SkyShowtime', bg: 'linear-gradient(135deg,#2b0a5c,#0a3a8c)', fg: '#ffffff',
+        url: 'https://www.skyshowtime.com',
+        pkg: 'com.skyshowtime.skyshowtime.google,com.skyshowtime.skyshowtime.amazon,com.skyshowtime.skyshowtime' },
+      { id: 'dazn', name: 'DAZN', label: 'DAZN', bg: '#0c161c', fg: '#f7ff1a',
+        url: 'https://www.dazn.com',
+        pkg: 'com.dazn' },
+      { id: 'rtve', name: 'RTVE PLAY', label: 'RTVE Play', bg: 'linear-gradient(135deg,#ff5a00,#e5007d)', fg: '#ffffff',
+        url: 'https://www.rtve.es/play/',
+        pkg: 'com.rtve.androidtv,com.rtve.alacarta' },
+      { id: 'atresplayer', name: 'ATRESPLAYER', label: 'Atresplayer', bg: '#ea5b0c', fg: '#ffffff',
+        url: 'https://www.atresplayer.com',
+        pkg: 'com.a3.sgt,com.atresmedia.atresplayer.tv' },
+      { id: 'plex', name: 'PLEX', label: 'Plex', bg: '#1f1f1f', fg: '#e5a00d',
+        url: 'https://app.plex.tv',
+        pkg: 'com.plexapp.android' }
     ],
     // Colores de avatar
     colors: ['#ff4fd8', '#a259ff', '#22e4ff', '#ff8a3d', '#2ee59d', '#ff4d6d', '#f5d742', '#5b7cfa'],
@@ -424,10 +492,20 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     p.photo = p.photo || '';
     if (!p.city || typeof p.city.lat !== 'number') p.city = copy(CONFIG.defaultCity);
     p.hidden = p.hidden || [];
-    p.lb = !!p.lb;
-    // Orden: el guardado, quitando apps que ya no existen y añadiendo las nuevas al final
+    // Usuario de Letterboxd (opcional). El perfil de Marcos (o uno que tuviera la fila activada) trae marcus_cus.
+    if (typeof p.lbUser !== 'string') p.lbUser = (p.lb || /^MARCOS$/i.test(p.name)) ? 'marcus_cus' : '';
+    delete p.lb;
+    // Orden: el guardado, quitando apps que ya no existen y añadiendo las nuevas al final.
+    // Las favoritas son las que no están en hidden. Un perfil nuevo empieza con las fav: true;
+    // a uno que ya existía, las apps nuevas le llegan como no favoritas.
+    var fresh = !p.apps;
     for (i = 0; p.apps && i < p.apps.length; i++) if (findApp(p.apps[i]) && ids.indexOf(p.apps[i]) === -1) ids.push(p.apps[i]);
-    for (i = 0; i < CONFIG.apps.length; i++) if (ids.indexOf(CONFIG.apps[i].id) === -1) ids.push(CONFIG.apps[i].id);
+    for (i = 0; i < CONFIG.apps.length; i++) {
+      var a = CONFIG.apps[i];
+      if (ids.indexOf(a.id) !== -1) continue;
+      ids.push(a.id);
+      if (!(fresh && a.fav) && p.hidden.indexOf(a.id) === -1) p.hidden.push(a.id);
+    }
     p.apps = ids;
     return p;
   }
@@ -530,20 +608,34 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     }
     focusAt(r, best);
   }
+  // Desplazamiento suave (la tele es lenta: animación corta con setInterval)
+  function animateScroll(box, prop, to) {
+    to = Math.max(0, Math.round(to));
+    if (box._anim) clearInterval(box._anim);
+    var from = box[prop], t0 = new Date().getTime(), dur = 200;
+    box._to = to;
+    if (Math.abs(to - from) < 1) { box._anim = null; return; }
+    box._anim = setInterval(function () {
+      var k = Math.min(1, (new Date().getTime() - t0) / dur);
+      box[prop] = from + (to - from) * (1 - Math.pow(1 - k, 3));
+      if (k >= 1) { clearInterval(box._anim); box._anim = null; }
+    }, 16);
+  }
   // Hace que el elemento enfocado quede a la vista dentro de su zona desplazable
+  // (vertical: .scroller, horizontal: .scroller-x), con scroll suave
   function ensureVisible(e) {
     var pad = window.innerWidth * 0.02, p = e.parentNode;
     while (p && p !== document.body) {
       if (p.classList && (p.classList.contains('scroller') || p.classList.contains('scroller-x'))) {
-        var er = e.getBoundingClientRect(), pr = p.getBoundingClientRect();
-        if (p.classList.contains('scroller')) {
-          if (er.bottom > pr.bottom - pad) p.scrollTop += er.bottom - pr.bottom + pad;
-          else if (er.top < pr.top + pad) p.scrollTop -= pr.top + pad - er.top;
-          if (nav && nav.el === e && e._top) p.scrollTop = 0;   // primera fila: arriba del todo
-        } else {
-          if (er.right > pr.right - pad) p.scrollLeft += er.right - pr.right + pad;
-          else if (er.left < pr.left + pad) p.scrollLeft -= pr.left + pad - er.left;
-        }
+        var er = e.getBoundingClientRect(), pr = p.getBoundingClientRect(), x = p.classList.contains('scroller-x');
+        var prop = x ? 'scrollLeft' : 'scrollTop';
+        var pos = x ? er.left - pr.left + p.scrollLeft : er.top - pr.top + p.scrollTop;   // posición dentro del contenido
+        var size = x ? er.width : er.height, view = x ? pr.width : pr.height;
+        var base = p._anim ? p._to : p[prop], to = base;
+        if (pos + size > base + view - pad) to = pos + size - view + pad;
+        else if (pos < base + pad) to = pos - pad;
+        if (!x && nav && nav.el === e && e._top) to = 0;    // primera fila: arriba del todo
+        if (to !== base) animateScroll(p, prop, to);
       }
       p = p.parentNode;
     }
@@ -726,15 +818,20 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       // Apps
       var ra = frow('APPS');
       var vis = draft.apps.length - draft.hidden.length;
-      var fapps = el('div', 'field', vis + ' de ' + draft.apps.length + ' visibles<span class="note">ORDENAR ›</span>');
+      var fapps = el('div', 'field', vis + ' favoritas de ' + draft.apps.length + '<span class="note">ELEGIR Y ORDENAR ›</span>');
       focusable(fapps, function () { renderAppsEditor(); }, 'apps');
       ra.appendChild(fapps);
       rows.push([fapps]);
 
-      // Letterboxd
+      // Usuario de Letterboxd (opcional)
       var rl = frow('LETTERBOXD');
-      var flb = el('div', 'field', (draft.lb ? 'SÍ' : 'NO') + '<span class="note">FILA DE ÚLTIMAS VISTAS</span>');
-      focusable(flb, function () { draft.lb = !draft.lb; renderEditor(draft, isNew, 'lb'); }, 'lb');
+      var flb = el('div', 'field', (draft.lbUser ? esc(draft.lbUser) : '<span class="dim">Sin usuario</span>') +
+        '<span class="note">' + (draft.lbUser ? 'VISTO Y LISTAS' : 'OPCIONAL') + '</span>');
+      focusable(flb, function () {
+        openKeyboard({ title: 'Usuario de Letterboxd (vacío = sin filas)', value: draft.lbUser, mode: 'url', max: 30,
+          validate: function (v) { return /^[a-zA-Z0-9_]*$/.test(v) ? '' : 'SOLO LETRAS, NÚMEROS Y _'; },
+          onDone: function (v) { draft.lbUser = v.toLowerCase(); renderEditor(draft, isNew, 'lb'); } });
+      }, 'lb');
       rl.appendChild(flb);
       rows.push([flb]);
     }
@@ -781,7 +878,8 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       focusKey('name');
       return;
     }
-    if (d.apps.length === d.hidden.length) { toast('Deja al menos una app visible'); return; }
+    if (d.apps.length === d.hidden.length) { toast('Deja al menos una app favorita'); return; }
+    if (ed.isNew && !d.lbUser && /^MARCOS$/i.test(d.name)) d.lbUser = 'marcus_cus';
     var replaced = false;
     for (var i = 0; i < state.profiles.length; i++) {
       if (state.profiles[i].id === d.id) { state.profiles[i] = d; replaced = true; }
@@ -834,7 +932,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
           '<span class="grip">≡</span>' +
           '<span class="achip" style="background:' + a.bg + ';color:' + a.fg + '">' + esc(a.label) + '</span>' +
           '<span class="grow">' + esc(a.label) + '</span>' +
-          '<span class="astate">' + (off ? 'OCULTA' : 'VISIBLE') + '</span>');
+          '<span class="astate">' + (off ? 'NO' : '★ FAVORITA') + '</span>');
         it._idx = i;
         focusable(it, function () { aeMoving = !aeMoving; renderAppsEditor(i); });
         if (i === 0) it._top = true;
@@ -851,7 +949,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
 
     $('ae-hints').innerHTML = aeMoving
       ? '▲ ▼ cambiar de sitio &nbsp;·&nbsp; OK soltar'
-      : 'OK coger para mover &nbsp;·&nbsp; ◀ ▶ mostrar / ocultar &nbsp;·&nbsp; ATRÁS listo';
+      : 'OK coger para mover &nbsp;·&nbsp; ◀ ▶ favorita sí / no &nbsp;·&nbsp; ATRÁS listo';
 
     setNav(makeNav(rows, { onBack: closeAppsEditor, onKey: appsEditorKey }), focusIdx || 0, 0);
   }
@@ -873,7 +971,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     if ((k === 37 || k === 39) && idx != null) {
       var id = d.apps[idx], h = d.hidden.indexOf(id);
       if (h !== -1) d.hidden.splice(h, 1);
-      else if (d.apps.length - d.hidden.length <= 1) toast('Tiene que quedar al menos una app visible');
+      else if (d.apps.length - d.hidden.length <= 1) toast('Tiene que quedar al menos una favorita');
       else d.hidden.push(id);
       renderAppsEditor(idx);
       return true;
@@ -1040,7 +1138,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   /* =====================================================================
      LAUNCHER
      ===================================================================== */
-  var home = null;   // { p, appRows, lbItems }
+  var home = null;   // { p, appRows, lbRows, info }
 
   function visibleApps(p) {
     var out = [];
@@ -1055,7 +1153,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     show('scr-home');
     setBg(p);
     navStack = [];
-    home = { p: p, appRows: [], lbItems: [] };
+    home = { p: p, appRows: [], lbRows: [], info: null };
 
     var av = $('avbtn');
     av.style.background = p.color;
@@ -1066,32 +1164,112 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     hn.textContent = p.name;
     hn.style.fontSize = Math.min(6.6, 70 / Math.max(6, p.name.length)) + 'vw';
 
-    var grid = $('grid'), apps = visibleApps(p), row = [];
+    // Fila principal: favoritas del perfil y, al final, "Todas las apps"
+    var grid = $('grid'), apps = visibleApps(p), tiles = [], row = [], i;
     grid.innerHTML = '';
-    for (var i = 0; i < apps.length; i++) {
-      var t = buildTile(apps[i]);
-      if (i < 5) t._top = true;
-      grid.appendChild(t);
-      row.push(t);
+    for (i = 0; i < apps.length; i++) tiles.push(buildTile(apps[i]));
+    var all = el('div', 'tile all', '<div class="face row center"><span class="plus">⊞</span><span class="tlabel">Todas las apps</span></div>' +
+      '<div class="under">Todas las apps</div>');
+    focusable(all, function () { renderAll(0); });
+    tiles.push(all);
+    for (i = 0; i < tiles.length; i++) {
+      if (i < 5) tiles[i]._top = true;
+      grid.appendChild(tiles[i]);
+      row.push(tiles[i]);
       if (row.length === 5) { home.appRows.push(row); row = []; }
     }
     if (row.length) home.appRows.push(row);
 
-    $('lb-sect').style.display = p.lb ? 'block' : 'none';
-    $('lb-row').innerHTML = '';
-    $('lb-info').textContent = '';
+    $('lb-rows').innerHTML = '';
     $('home-scroll').scrollTop = 0;
 
     homeNav(1, 0);
     tickClock();
     loadWeather(p);
-    if (p.lb) loadLetterboxd();
+    if (p.lbUser) loadLetterboxd(p);
   }
 
   function homeNav(r, c) {
-    var rows = [[$('avbtn')]].concat(home.appRows);
-    if (home.lbItems.length) rows.push(home.lbItems);
+    var rows = [[$('avbtn')]].concat(home.appRows).concat(home.lbRows);
     setNav(makeNav(rows, { onBack: renderWho }), r, c);
+  }
+
+  /* =====================================================================
+     TODAS LAS APPS · filas de 6. OK abre; mantener OK o un botón de color
+     (rojo/verde/amarillo/azul, o F en el PC) la añade o quita de favoritas.
+     ===================================================================== */
+  var hold = { pending: false, timer: null, el: null };
+
+  function renderAll(focusIdx) {
+    var p = home.p, g = $('all-grid'), rows = [], row = [];
+    show('scr-all');
+    g.innerHTML = '';
+    for (var i = 0; i < CONFIG.apps.length; i++) {
+      (function (a, i) {
+        var t = buildTile(a);
+        t.className += ' small';
+        t._app = a;
+        if (p.hidden.indexOf(a.id) === -1) t.appendChild(el('div', 'fav-badge', '★'));
+        if (i < 6) t._top = true;
+        // Con el ratón: clic abre, clic derecho cambia favorita
+        t.oncontextmenu = function (e) { e.preventDefault(); focusEl(t); toggleFav(t); };
+        g.appendChild(t);
+        row.push(t);
+        if (row.length === 6) { rows.push(row); row = []; }
+      })(CONFIG.apps[i], i);
+    }
+    if (row.length) rows.push(row);
+    focusIdx = focusIdx || 0;
+    setNav(makeNav(rows, { onBack: function () { renderHome(getProfile(p.id)); }, onKey: allKey }),
+      Math.floor(focusIdx / 6), focusIdx % 6);
+  }
+
+  function allKey(k) {
+    if (k === 13) {
+      // OK: si se suelta rápido, abre; si se mantiene, favorita
+      if (hold.pending) return true;                      // repetición de la tecla mantenida
+      hold.pending = true;
+      hold.el = nav.el;
+      hold.timer = setTimeout(function () {
+        hold.pending = false;
+        hold.long = true;
+        toggleFav(hold.el);
+      }, 650);
+      return true;
+    }
+    if (k === 403 || k === 404 || k === 405 || k === 406 || k === 70) { toggleFav(nav.el); return true; }
+    return false;
+  }
+  document.addEventListener('keyup', function (e) {
+    if (e.keyCode !== 13) return;
+    if (hold.pending) {
+      clearTimeout(hold.timer);
+      hold.pending = false;
+      if (hold.el && hold.el._app) open(hold.el._app);
+    }
+    hold.long = false;
+  });
+
+  function toggleFav(t) {
+    if (!t || !t._app) return;
+    var p = getProfile(home.p.id), id = t._app.id, h = p.hidden.indexOf(id), idx = 0, i;
+    for (i = 0; i < CONFIG.apps.length; i++) if (CONFIG.apps[i].id === id) idx = i;
+    if (h !== -1) {
+      // Pasa a favorita: se coloca detrás de la última favorita
+      p.hidden.splice(h, 1);
+      p.apps.splice(p.apps.indexOf(id), 1);
+      var last = -1;
+      for (i = 0; i < p.apps.length; i++) if (p.hidden.indexOf(p.apps[i]) === -1) last = i;
+      p.apps.splice(last + 1, 0, id);
+      toast('★ ' + t._app.label + ' añadida a favoritas');
+    } else {
+      if (p.apps.length - p.hidden.length <= 1) { toast('Tiene que quedar al menos una favorita'); return; }
+      p.hidden.push(id);
+      toast(t._app.label + ' quitada de favoritas');
+    }
+    home.p = p;
+    save();
+    renderAll(idx);
   }
 
   /* Tarjeta de app: primero la imagen de la app instalada en el stick; si no,
@@ -1180,8 +1358,14 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     weatherTimer = setTimeout(function () { if (home && home.p === p) loadWeather(p); }, 15 * 60 * 1000);
   }
 
-  /* ---------- Letterboxd (datos que deja una tarea de GitHub cada hora) ---------- */
-  var lbFilms = [], lbUser = '';
+  /* =====================================================================
+     LETTERBOXD · la tele no puede pedir a letterboxd.com (CORS); una tarea
+     de GitHub deja cada 6 h data/letterboxd/USUARIO.json en esta misma web.
+     Filas: "Visto recientemente" y una por cada lista. Las carátulas se
+     cargan poco a poco: solo las visibles y las siguientes.
+     ===================================================================== */
+  var LB_AHEAD = 8;
+
   function stars(r) {
     if (r == null) return '';
     return new Array(Math.floor(r) + 1).join('★') + (r % 1 >= 0.5 ? '½' : '');
@@ -1190,66 +1374,118 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
     return m ? parseInt(m[3], 10) + ' ' + MONTHS[parseInt(m[2], 10) - 1] + ' ' + m[1] : '';
   }
-  function loadLetterboxd() {
-    var p = home.p, xhr = new XMLHttpRequest();
-    xhr.open('GET', CONFIG.letterboxdData + '?t=' + new Date().getTime());
+
+  function loadLetterboxd(p) {
+    var user = p.lbUser, xhr = new XMLHttpRequest();
+    xhr.open('GET', 'data/letterboxd/' + encodeURIComponent(user) + '.json?t=' + new Date().getTime());
     xhr.onload = function () {
       var d = null;
       try { d = xhr.status === 200 ? JSON.parse(xhr.responseText) : null; } catch (e) {}
-      if (home && home.p === p) renderLetterboxd(d);
+      if (home && home.p === p) renderLetterboxd(d, user);
     };
-    xhr.onerror = function () { if (home && home.p === p) renderLetterboxd(null); };
+    xhr.onerror = function () { if (home && home.p === p) renderLetterboxd(null, user); };
     xhr.send();
   }
-  function renderLetterboxd(d) {
-    var row = $('lb-row'), items = [];
-    lbFilms = (d && d.films) || [];
-    lbUser = d ? d.user : '';
-    $('lb-info').textContent = lbUser ? '@' + lbUser : '';
-    row.innerHTML = '';
-    if (!lbFilms.length) {
-      row.innerHTML = '<div class="lbempty">' + (d ? 'Tu diario está vacío' : 'Sin datos todavía · se actualiza cada hora') + '</div>';
-    }
-    for (var i = 0; i < lbFilms.length; i++) {
-      (function (f, i) {
-        var small = (f.poster || '').replace(/-0-\d+-0-\d+-crop/, '-0-230-0-345-crop');
-        var e = el('div', 'poster',
-          '<div class="pt">' + esc(f.title) + '</div>' +
-          '<img alt="" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'" src="' + esc(small) + '">');
-        focusable(e, function () { openFilm(f); });
-        e._onfocus = function () {
-          $('lb-info').textContent = f.title + (f.year ? ' (' + f.year + ')' : '') + (f.rating != null ? '  ' + stars(f.rating) : '');
-        };
-        row.appendChild(e);
-        items.push(e);
-      })(lbFilms[i], i);
+
+  function renderLetterboxd(d, user) {
+    var box = $('lb-rows'), i;
+    box.innerHTML = '';
+    home.lbRows = [];
+    if (!d || (!(d.diary && d.diary.length) && !(d.lists && d.lists.length))) {
+      box.innerHTML = '<div class="sect">Letterboxd · @' + esc(user) + '</div>' +
+        '<div class="lbempty">' + (d ? 'Todavía no hay pelis en el diario ni listas' :
+          'Sin datos todavía · se actualizan cada 6 horas') + '</div>';
+    } else {
+      if (d.diary && d.diary.length) addLbRow(box, 'Visto recientemente', d.diary, true);
+      for (i = 0; d.lists && i < d.lists.length; i++) {
+        if (d.lists[i].films && d.lists[i].films.length) addLbRow(box, d.lists[i].name, d.lists[i].films, false, d.lists[i]);
+      }
+      for (i = 0; i < home.lbRows.length; i++) home.lbRows[i]._next = home.lbRows[i + 1] || null;
+      if (home.lbRows[0]) lazyRow(home.lbRows[0], LB_AHEAD);
+      if (home.lbRows[1]) lazyRow(home.lbRows[1], LB_AHEAD);
     }
     // Rehacer la navegación conservando el foco actual
     var keep = nav ? nav.el : null;
-    home.lbItems = items;
     homeNav(1, 0);
-    if (keep) focusEl(keep);
+    if (keep && !focusEl(keep)) focusAt(1, 0);
   }
-  function openFilm(f) {
+
+  function addLbRow(box, title, films, diary, list) {
+    var sect = el('div', 'lbsect'), info = el('span', 'sinfo', '');
+    var head = el('div', 'sect row between', '<span>' + esc(title) + (list && list.count ? ' · ' + list.count + ' pelis' : '') + '</span>');
+    head.appendChild(info);
+    var rowEl = el('div', 'lbrow scroller-x'), items = [];
+    sect.appendChild(head);
+    sect.appendChild(rowEl);
+    box.appendChild(sect);
+    for (var i = 0; i < films.length; i++) {
+      (function (f, i) {
+        var below = diary
+          ? (f.rating != null ? stars(f.rating) : '') + (f.liked ? '<span class="heart">♥</span>' : '')
+          : esc(f.year || '');
+        var it = el('div', 'pitem',
+          '<div class="poster"><div class="pt">' + esc(f.title) + '</div></div>' +
+          '<div class="pmeta' + (diary ? '' : ' year') + '">' + (below || '&nbsp;') + '</div>');
+        // Imagen diferida: se pide solo cuando toca (lazyRow)
+        var img = document.createElement('img');
+        img.alt = '';
+        img.setAttribute('referrerpolicy', 'no-referrer');
+        img.onerror = function () { img.style.display = 'none'; };
+        it._img = img;
+        it._src = f.poster || '';
+        it.firstChild.appendChild(img);
+        focusable(it, function () { openFilm(f, diary, list); });
+        it._onfocus = function () {
+          if (home.info && home.info !== info) home.info.textContent = '';
+          home.info = info;
+          info.textContent = f.title + (f.year ? ' (' + f.year + ')' : '');
+          lazyRow(items, i + LB_AHEAD);
+          if (items._next) lazyRow(items._next, LB_AHEAD);
+        };
+        rowEl.appendChild(it);
+        items.push(it);
+      })(films[i], i);
+    }
+    home.lbRows.push(items);
+  }
+
+  function lazyRow(items, upto) {
+    for (var i = 0; i <= upto && i < items.length; i++) {
+      if (items[i]._src && !items[i]._loaded) { items[i]._loaded = true; items[i]._img.src = items[i]._src; }
+    }
+  }
+
+  function openFilm(f, diary, list) {
     $('f-poster').src = f.poster || '';
+    $('f-kicker').textContent = diary ? 'Diario · Letterboxd' : 'Lista · ' + (list ? list.name : 'Letterboxd');
     $('f-title').textContent = f.title;
     $('f-year').textContent = f.year || '';
-    $('f-stars').textContent = f.rating != null ? stars(f.rating) : 'Sin nota';
+    $('f-stars').innerHTML = diary ? esc(f.rating != null ? stars(f.rating) : 'Sin nota') + (f.liked ? '<span class="heart">♥</span>' : '') : '';
+    $('f-stars').style.display = diary ? 'block' : 'none';
     var meta = [];
     if (f.watched) meta.push('VISTA EL ' + fmtDate(f.watched));
-    if (f.liked) meta.push('♥ ME GUSTA');
     if (f.rewatch) meta.push('REVISIONADO');
     $('f-meta').textContent = meta.join('  ·  ');
+    var rv = $('f-review');
+    rv.textContent = f.review || '';
+    rv.style.display = f.review ? 'block' : 'none';
+    rv.scrollTop = 0;
+    $('f-hint').textContent = '';
     overlay('film', true);
     var b = $('f-close');
     focusable(b, closeFilm);
-    pushNav(makeNav([[b]], { onBack: closeFilm, onKey: function (k) { return k >= 37 && k <= 40; } }));
+    pushNav(makeNav([[b]], { onBack: closeFilm, onKey: function (k) {
+      // ▲▼ desplazan la reseña si es larga
+      if (k === 38 || k === 40) { animateScroll(rv, 'scrollTop', rv.scrollTop + (k === 40 ? 1 : -1) * window.innerWidth * 0.06); return true; }
+      return k === 37 || k === 39;
+    } }));
+    if (f.review && rv.scrollHeight > rv.clientHeight + 2) $('f-hint').textContent = '▲ ▼ LEER RESEÑA';
   }
   function closeFilm() { overlay('film', false); popNav(); }
   $('film').onclick = function (e) { if (e.target === $('film')) closeFilm(); };
-  // Al salir de la fila de pósters, el texto vuelve a ser el usuario
+  // Al salir de una fila de carátulas, se borra el título que mostraba su cabecera
   document.addEventListener('keydown', function () {
-    if (home && nav && nav.el && !/poster/.test(nav.el.className) && $('lb-info')) $('lb-info').textContent = lbUser ? '@' + lbUser : '';
+    if (home && home.info && nav && nav.el && !/pitem/.test(nav.el.className)) { home.info.textContent = ''; home.info = null; }
   });
 
   /* =====================================================================
