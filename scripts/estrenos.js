@@ -132,7 +132,15 @@ async function sensacine() {
   let now = [], up = [];
   for (const p of [1, 2]) {
     try { now = now.concat(parseCards(await page(SC + '/peliculas/en-cartelera/cines/' + (p > 1 ? '?page=' + p : '')))); } catch (e) { if (p === 1) throw e; }
-    try { up = up.concat(parseCards(await page(SC + '/peliculas/estrenos/' + (p > 1 ? '?page=' + p : '')))); } catch (e) { console.log('Estrenos p' + p + ': ' + e.message); }
+  }
+  // Próximos estrenos: una página por semana (viernes), las próximas 6 semanas
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 2) % 7));   // viernes de esta semana (o el anterior)
+  for (let w = 0; w <= 6; w++) {
+    const day = new Date(d.getTime() + w * 7 * 864e5).toISOString().slice(0, 10);
+    try { up = up.concat(parseCards(await page(SC + '/peliculas/estrenos/es/week-' + day + '/'))); }
+    catch (e) { console.log('Semana ' + day + ': ' + e.message); }
+    await sleep(300);
   }
   const seen = new Set();
   const uniq = (l) => l.filter((m) => !seen.has(m.id) && seen.add(m.id));
