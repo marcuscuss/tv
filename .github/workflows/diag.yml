@@ -5,13 +5,18 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - name: Tipografías Typekit
-        run: |
-          curl -sS https://use.typekit.net/bna2shh.css -H "Referer: https://marcuscuss.github.io/" | grep -E "font-family|font-weight|font-style|font-stretch" | sort | uniq -c
-      - name: SensaCine cartelera
+      - name: SensaCine
         run: |
           UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
-          for u in https://www.sensacine.com/peliculas/en-cartelera/cines/ https://www.sensacine.com/peliculas/proximamente/ ; do
-            echo "=== $u"; curl -sSL -A "$UA" -o p.html -w "%{http_code} %{size_download}\n" "$u"
-            python3 -c "s=open('p.html',encoding='utf-8',errors='ignore').read(); i=s.find('entity-card'); print(s.count('entity-card')); print(s[max(0,i-300):i+5000])"
+          curl -sSL -A "$UA" -o p.html https://www.sensacine.com/peliculas/en-cartelera/cines/
+          grep -oE 'href="/peliculas/[a-z\-/]*"' p.html | sort | uniq -c | sort -rn | head -40
+          python3 -c "
+          import re
+          s=open('p.html',encoding='utf-8',errors='ignore').read()
+          b=s.find('<body')
+          i=s.find('entity-card', b)
+          print(s[i-200:i+6000])
+          "
+          for u in agenda proximamente/estrenos estrenos en-cartelera/proximamente proximos-estrenos ; do
+            echo "== $u $(curl -sSL -A "$UA" -o /dev/null -w '%{http_code}' https://www.sensacine.com/peliculas/$u/)"
           done
