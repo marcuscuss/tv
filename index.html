@@ -114,10 +114,8 @@ img { border: 0; }
    ====================================================================== */
 /* Cabecera en cápsula alargada con efecto "liquid glass" (medidas del diseño: 2000 px = 100vw) */
 .hdr { position: absolute; left: 2.1vw; right: 1.65vw; top: 2.15vw; height: 5.1vw; z-index: 20; padding: 0 1.5vw 0 1.9vw;
-  border-radius: 2.55vw; border: .08vw solid rgba(255,255,255,.55);
-  background-color: rgba(255,255,255,.10);
-  background-image: linear-gradient(180deg, rgba(255,255,255,.22), rgba(255,255,255,.04) 45%, rgba(255,255,255,.08));
-  box-shadow: inset 0 .08vw 0 rgba(255,255,255,.45), inset 0 -.08vw .4vw rgba(255,255,255,.08), 0 .6vw 2vw rgba(0,0,0,.25);
+  border-radius: 2.55vw; border: 1px solid rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.12);
   -webkit-backdrop-filter: blur(14px) saturate(160%); backdrop-filter: blur(14px) saturate(160%);
   -webkit-transition: -webkit-transform .5s cubic-bezier(.2,.7,.2,1), opacity .4s; transition: transform .5s cubic-bezier(.2,.7,.2,1), opacity .4s; }
 .lite .hdr { -webkit-backdrop-filter: none; backdrop-filter: none; background-color: rgba(30,30,30,.55); }
@@ -200,7 +198,7 @@ img { border: 0; }
 #hero .hk { -webkit-align-items: flex-end; align-items: flex-end; height: 1.15vw; }
 #hero .hk img { height: 1.1vw; display: block; margin-right: .65vw; }
 #hero .hk span { font-size: .75vw; letter-spacing: .02em; font-family: "pt-mono", "Courier New", monospace; line-height: 1; }
-#hero .ht { margin: .6vw 0 1.2vw -.2vw; font-family: "tt-travels-next", Georgia, serif; font-weight: 400; line-height: .8; letter-spacing: 0;
+#hero .ht { margin: .6vw 0 1.2vw -.2vw; font-family: "tt-travels-next", Georgia, serif; font-weight: 500; line-height: .8; letter-spacing: 0;
   text-transform: uppercase; white-space: nowrap; color: #ffffff; }
 #hero .hp .pill { -webkit-justify-content: center; justify-content: center; min-width: 4vw; height: 1.55vw; margin-right: .35vw; padding: 0 .5vw;
   border: .06vw solid rgba(255,255,255,.9); border-radius: .3vw; font-size: .55vw; letter-spacing: .04em; cursor: pointer; white-space: nowrap; }
@@ -208,6 +206,8 @@ img { border: 0; }
 #hero .hp .pill.focus { background-color: #ffffff; color: #000000; border-color: #ffffff; }
 #hero .hp .pill.focus img { -webkit-filter: brightness(0); filter: brightness(0); }
 #hero .hp .pill.ghost { border-color: rgba(255,255,255,.45); }
+#hero .hcount { margin-left: 1vw; font-size: .6vw; letter-spacing: .1em; color: rgba(255,255,255,.6); font-family: "pt-mono", "Courier New", monospace; }
+#hero .hp .pill img { height: .95vw; max-width: 3.3vw; }
 #hero .empty { margin-top: 1vw; font-size: .9vw; letter-spacing: .2em; color: #8a8a8a; }
 
 /* VHS COLLECTION · logo y cintas (aparece al bajar) */
@@ -2036,25 +2036,66 @@ img { border: 0; }
   }
 
   /* ---------- Portada: una peli recomendada en grande, con dónde verla ---------- */
-  var hero = { m: null, row: [] };
-  function heroPick() {
-    var R = DATA.recs, list = [], i, j, seen = {};
-    var add = function (m) { if (m && (m.backdrop || m.poster) && !seen[m.id]) { seen[m.id] = true; list.push(m); } };
+  var hero = { m: null, row: [], list: [], i: null };
+  // Lista de la portada: recomendaciones según lo que he visto que ya están en mis
+  // plataformas, mezcladas con estrenos en cines (una de cada tres).
+  function heroList() {
+    var R = DATA.recs, recs = [], cine = [], seen = {}, i, j, out = [];
+    var add = function (l, m, src) {
+      if (!m || !(m.backdrop || m.poster) || seen[m.id] || seen[m.title]) return;
+      seen[m.id] = seen[m.title] = true;
+      var c = {};
+      for (var k in m) if (m.hasOwnProperty(k)) c[k] = m[k];
+      c._src = src;
+      l.push(c);
+    };
     if (R) {
-      for (i = 0; i < (R.porque || []).length; i++) for (j = 0; j < R.porque[i].items.length && j < 4; j++) add(R.porque[i].items[j]);
-      for (i = 0; i < (R.generos || []).length; i++) for (j = 0; j < R.generos[i].items.length && j < 2; j++) add(R.generos[i].items[j]);
+      var groups = (R.porque || []).concat(R.generos || []);
+      for (i = 0; i < groups.length; i++) for (j = 0; j < groups[i].items.length; j++) {
+        var m = groups[i].items[j];
+        if (available(m) && m.backdrop) add(recs, m, 'rec');
+      }
     }
-    var mine = list.filter(function (m) { return !!available(m) && m.backdrop; });
-    if (mine.length) list = mine;
-    if (!list.length && news.data && !news.data.empty) {
-      var e = (news.data.now_playing || []).concat(news.data.upcoming || []);
-      for (i = 0; i < e.length && i < 8; i++) add(e[i]);
+    if (news.data && !news.data.empty) {
+      var e = news.data.now_playing || [];
+      for (i = 0; i < e.length && cine.length < 5; i++) add(cine, e[i], 'cine');
     }
-    if (!list.length) return null;
-    // La misma peli durante el día (cambia cada día)
-    var d = hoy(), k = d.getFullYear() * 400 + d.getMonth() * 31 + d.getDate();
-    return list[k % list.length];
+    recs = recs.slice(0, 8);
+    while (recs.length || cine.length) {
+      if (recs.length) out.push(recs.shift());
+      if (recs.length) out.push(recs.shift());
+      if (cine.length) out.push(cine.shift());
+    }
+    for (i = 0; i < out.length; i++) if (!out[i]._src) out[i]._src = 'rec';
+    return out;
   }
+  function heroPick() {
+    hero.list = heroList();
+    if (!hero.list.length) return null;
+    if (hero.i == null) { var d = hoy(); hero.i = (d.getDate() * 7) % hero.list.length; }
+    hero.i = (hero.i + hero.list.length) % hero.list.length;
+    return hero.list[hero.i];
+  }
+  // Cambiar de peli en la portada (◀ ▶ en los extremos, o sola cada 12 s)
+  function heroStep(dir, auto) {
+    if (!hero.list || hero.list.length < 2) return;
+    hero.i += dir;
+    var img = $('hero-img'), keepC = nav && nav.r === 1 ? (auto ? 0 : dir > 0 ? 0 : 99) : null;
+    img.style.opacity = '0';
+    setTimeout(function () {
+      renderHero();
+      img.style.opacity = '';
+      if (main.sec === 'apps' && !navStack.length) {
+        var r0 = nav ? nav.r : 1;
+        appsNav(null);
+        if (keepC != null) focusAt(1, keepC); else focusAt(r0, 0);
+      }
+    }, 450);
+  }
+  setInterval(function () {
+    if (main.sec === 'apps' && !navStack.length && !saverOn && !busy && now() - lastInput > 8000 &&
+        !$('sec-apps').classList.contains('away')) heroStep(1, true);
+  }, 12000);
   function bigImg(u) { return String(u || '').replace('/w780/', '/w1280/').replace('/w342/', '/w780/'); }
   function renderHero() {
     var m = heroPick(), info = $('hero-info'), img = $('hero-img');
@@ -2068,10 +2109,17 @@ img { border: 0; }
     hero.m = m;
     img.style.backgroundImage = 'url("' + bigImg(m.backdrop || m.poster) + '")';
     var t = String(m.title || '');
-    var fs = Math.max(3, Math.min(7.4, 34 / Math.max(t.length, 4)));
-    info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.png" alt=""><span>//RECOMENDATIONS</span></div>' +
+    var fs = Math.max(4.4, Math.min(8.6, 58 / Math.max(t.length, 4)));
+    info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.png" alt=""><span>' + (m._src === 'cine' ? '//ESTRENOS' : '//RECOMENDATIONS') + '</span></div>' +
       '<div class="ht" style="font-size:' + fs.toFixed(2) + 'vw">' + esc(t) + '</div><div class="hp row" id="hero-pills"></div>';
     var box = $('hero-pills'), list = provList(m), i;
+    if (m._src === 'cine' && !list.length) {
+      var cn = el('div', 'pill row', 'EN CINES' + (m.release_date ? ' · ' + esc(fmtDate(m.release_date).replace(/ \d{4}$/, '')) : ''));
+      focusable(cn, function () { openEstrenoHero(m); });
+      cn._top = true;
+      box.appendChild(cn);
+      hero.row.push(cn);
+    }
     for (i = 0; i < list.length && i < 5; i++) {
       (function (pv) {
         var a = pv.app ? findApp(pv.app) : null, p = el('div', 'pill row', esc(pv.tag));
@@ -2090,22 +2138,37 @@ img { border: 0; }
       hero.row.push(tr);
     }
     var more = el('div', 'pill row ghost', '+ INFO');
-    focusable(more, function () { openRec(m); });
+    focusable(more, function () { if (m._src === 'cine') openEstrenoHero(m); else openRec(m); });
     more._top = true;
     box.appendChild(more);
     hero.row.push(more);
+    if (hero.list.length > 1) box.appendChild(el('div', 'hcount', '◀ ' + pad(hero.i + 1) + ' / ' + pad(hero.list.length) + ' ▶'));
+  }
+  function openEstrenoHero(m) {
+    var c = news.cat;
+    news.cat = 0;
+    openEstreno(m);
+    news.cat = c;
   }
   // Logo de la plataforma en blanco dentro de la cápsula (si no carga, queda el nombre)
   function heroLogo(pill, a) {
-    var f = a.logos && a.logos[0];
-    if (!f) return;
-    var img = new Image();
-    img.onload = function () { pill.innerHTML = ''; pill.appendChild(img); };
-    img.alt = '';
-    img.src = /^(https?:|assets\/)/.test(f) ? f : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f);
+    var tries = ['assets/logos/plat/' + a.id + '.svg'], f = a.logos && a.logos[0];
+    if (f) tries.push(/^(https?:|assets\/)/.test(f) ? f : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f));
+    (function attempt(n) {
+      if (n >= tries.length) return;
+      var img = new Image();
+      img.onload = function () { pill.innerHTML = ''; pill.appendChild(img); };
+      img.onerror = function () { attempt(n + 1); };
+      img.alt = '';
+      img.src = tries[n];
+    })(0);
   }
 
   function appsKey(k) {
+    if (nav.r === 1 && hero.row.length && nav.rows[1] === hero.row) {
+      if (k === 37 && nav.c === 0) { heroStep(-1); return true; }
+      if (k === 39 && nav.c === hero.row.length - 1) { heroStep(1); return true; }
+    }
     if (nav.el === $('car') && (k === 37 || k === 39)) {
       var to = car.idx + (k === 39 ? 1 : -1);
       if (to >= 0 && to < car.tapes.length) { car.idx = to; layoutCarousel(); }
