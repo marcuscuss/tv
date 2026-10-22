@@ -13,6 +13,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeIfChanged, tmdbFicha } = require('./lib');
 
 const KEY = (process.env.TMDB_API_KEY || '').trim();
 const OUT = path.join(__dirname, '..', 'data', 'estrenos.json');
@@ -214,19 +215,17 @@ async function fromTmdb() {
 
 async function save(data) {
   data.region = 'ES';
-  let prev = null;
-  try { prev = JSON.parse(fs.readFileSync(OUT, 'utf8')); } catch (e) { /* no había archivo */ }
-  if (prev && JSON.stringify({ ...prev, updated: undefined }) === JSON.stringify({ ...data, updated: undefined })) {
-    console.log('Sin cambios en la cartelera');
-    return;
+  // Con clave de TMDB: dónde verla en España y tráiler de cada estreno
+  if (KEY && data.source === 'tmdb') {
+    for (const m of data.now_playing.concat(data.upcoming)) {
+      try { const f = await tmdbFicha(m.id); m.providers = f.providers; m.trailer = f.trailer; } catch (e) { m.providers = []; m.trailer = ''; }
+      await sleep(40);
+    }
   }
-  data.updated = new Date().toISOString();
-  fs.mkdirSync(path.dirname(OUT), { recursive: true });
-  fs.writeFileSync(OUT, JSON.stringify(data, null, 1) + '\n');
-  console.log('Guardado: ' + data.now_playing.length + ' en cines, ' + data.upcoming.length + ' próximamente');
+  if (writeIfChanged(OUT, data)) console.log('Estrenos: ' + data.now_playing.length + ' en cines, ' + data.upcoming.length + ' próximamente');
 }
 
 main().catch((e) => {
-  console.error('Error: ' + e.message + ' · se conserva el archivo anterior');
-  process.exit(1);
+  console.error('Error en estrenos: ' + e.message + ' · se conserva el archivo anterior');
+  process.exitCode = 1;
 });

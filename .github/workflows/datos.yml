@@ -1,7 +1,9 @@
-name: Actualizar Letterboxd
+name: Actualizar datos
 
-# Cada 6 horas (y a mano desde la pestaña Actions) descarga el diario y las listas
-# de los usuarios de letterboxd-users.json y los guarda en data/letterboxd/USUARIO.json.
+# Capa lenta de Joi: cada 6 horas (y a mano desde Actions) cada fuente escribe su
+# JSON en /data. Si una falla, conserva su JSON anterior y no rompe a las demás.
+# Solo se hace commit si algo cambia.
+# Secretos (Settings → Secrets and variables → Actions): TMDB_API_KEY y FOOTBALL_DATA_KEY.
 on:
   schedule:
     - cron: '23 */6 * * *'
@@ -12,13 +14,16 @@ permissions:
   pages: write      # para pedir que se republique la web con los datos nuevos
 
 concurrency:
-  group: letterboxd
+  group: datos
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -26,14 +31,36 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Descargar diario y listas de Letterboxd
+      - name: Letterboxd (diario y listas)
+        continue-on-error: true
         run: node scripts/letterboxd.js
+
+      - name: Estrenos de cine
+        continue-on-error: true
+        run: node scripts/estrenos.js
+
+      - name: Recomendaciones (TMDB)
+        continue-on-error: true
+        run: node scripts/recomendaciones.js
+
+      - name: Real Madrid
+        continue-on-error: true
+        run: node scripts/madrid.js
+
+      - name: Playwright para la web de la ATP
+        continue-on-error: true
+        run: |
+          npm install --no-save --no-package-lock playwright@1.48.2
+          npx playwright install --with-deps chromium
+
+      - name: Tenis (ATP con respaldo ESPN, WTA)
+        continue-on-error: true
+        run: node scripts/tenis.js
 
       - name: Guardar si hay cambios
         id: commit
         run: |
-          mkdir -p data/letterboxd
-          git add -A data/letterboxd
+          git add -A data
           if git diff --cached --quiet; then
             echo "Sin cambios"
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -41,7 +68,7 @@ jobs:
           fi
           git config user.name "joi-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Actualizar datos de Letterboxd"
+          git commit -m "Actualizar datos"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
           echo "changed=true" >> "$GITHUB_OUTPUT"

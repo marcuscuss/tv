@@ -15,6 +15,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeIfChanged } = require('./lib');
 
 const ROOT = path.join(__dirname, '..');
 const USERS_FILE = path.join(ROOT, 'letterboxd-users.json');
@@ -112,6 +113,7 @@ function parseRss(xml) {
       rewatch: /^yes$/i.test(tag(it, 'letterboxd:rewatch')),
       liked: /^yes$/i.test(tag(it, 'letterboxd:memberLike')),
       poster: posterSize(img ? decode(img[1]) : ''),
+      tmdbId: parseInt(tag(it, 'tmdb:movieId'), 10) || null,
       review,
       url: link,
     });
@@ -278,15 +280,8 @@ async function processUser(user) {
     data.lists = outLists;
   }
 
-  // c) Guardar solo si ha cambiado
-  const json = JSON.stringify(data, null, 1) + '\n';
-  let before = '';
-  try { before = fs.readFileSync(file, 'utf8'); } catch (e) { /* no existía */ }
-  if (json === before) { log('sin cambios'); return false; }
-  fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(file, json);
-  log('guardado ' + path.relative(ROOT, file));
-  return true;
+  // c) Guardar solo si ha cambiado (con el campo "actualizado")
+  return writeIfChanged(file, data);
 }
 
 async function main() {
