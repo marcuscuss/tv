@@ -8,36 +8,53 @@ Web: https://marcuscuss.github.io/tv/
 
 ## Qué hace
 
-- **¿Quién está viendo?** al abrir: perfiles con avatar de color e inicial, y "+ Añadir perfil".
-- **Marco de tele**: esquinas redondeadas, viñeteado, líneas de barrido y algo de ruido. Cabecera fija
-  (HOME, timecode desde que se abrió la app, logo, APPS / NEWS WATCH / PROFILE) y pie con hora, tiempo y perfil.
-- **Transición LOADING** entre secciones (barra |||| y porcentaje, menos de 0,8 s).
-- **APPS**: carrusel de cintas VHS con las favoritas del perfil. OK = [PLAY TAPE] abre la app.
-  La última cinta, "Todas las apps", abre la cuadrícula completa (mantener OK o botón de color: ★ favorita).
-  Debajo, las filas de Letterboxd.
-- **NEWS WATCH**: estrenos de cine en España. ◀▶ cambia de carátula, ▲▼ EN CINES / PRÓXIMAMENTE, OK abre la ficha.
-- **PROFILE**: editar perfil, favoritas y orden, modo ligero (AUTO / SÍ / NO), cambiar o borrar perfil.
-- **Modo ligero**: si la tele no tiene 3D o va lenta (se mide al arrancar), carrusel plano, globo quieto y sin ruido.
-- **ATRÁS** vuelve a la sección anterior; solo sale de la app desde APPS.
+- **Encendido CRT** al abrir (una línea blanca que se abre) y apagado al salir (la imagen se cierra en un punto).
+- **¿Quién está viendo?**: perfiles con avatar, teclado propio en pantalla y ajustes por perfil.
+- **Canales con zapping**: CH 01 APPS · CH 02 NEWS WATCH · CH 03 CINE · CH 04 DEPORTES.
+  Números 1-4, CH+/CH- (o RePág/AvPág) y ▲▼ en los bordes cambian de canal, con medio segundo de
+  estática y el número de canal en verde fósforo. La cabecera marca el canal con ■.
+- **CH 01 APPS**: carrusel de cintas VHS de las favoritas, cinta "¿Qué vemos hoy?" y "Todas las apps";
+  debajo, la fila DEPORTES.
+- **CH 02 NEWS WATCH**: estrenos de cine en España alrededor del globo.
+- **CH 03 CINE**: "Porque te gustó…", filas por género, temáticas y Letterboxd. Cada peli lleva dónde verla
+  ([NETFLIX] [MAX]…), botón VER EN… y [TRÁILER]. ROJO: solo lo que puedo ver ya. VERDE: ¿Qué vemos hoy?
+- **CH 04 DEPORTES**: HOY · TENIS · REAL MADRID con tarjetas tipo Apple Sports, marcador en vivo (ESPN cada
+  20 s mientras hay partido), partidos anteriores, últimos/próximos del Madrid, aviso de ÚLTIMA HORA y mini
+  marcador en el ticker.
+- **Salvapantallas** a los 5 minutos: portadas con fundido y Ken Burns, o el marcador si hay partido.
+- **Temáticas por fecha**: Halloween, Navidad (nieve y cuenta atrás de Nochevieja), San Valentín, Oscars y verano.
+- **PROFILE**: plataformas, jugadores seguidos, temática, sonido y modo ligero.
+- Cada canal tiene en el pie la leyenda de las teclas de color. ATRÁS vuelve; solo sale desde CH 01.
 
-## Colores y tipografías
+## Pruebas en el navegador
 
-Todos los colores están en el bloque `/* PALETA */` al principio del CSS de `index.html`.
-Tipografías de Adobe Fonts (kit `bna2shh`): TT Travels Next y PT Mono; si no cargan, Georgia y Courier.
-Logos en `assets/logos`.
+- `?fecha=2026-10-31` simula otro día (temáticas). `?fecha=2026-12-31T23:59:50` para Nochevieja.
+- `?demo=tenis` o `?demo=madrid` simulan un partido en vivo que cambia cada 5 s.
+- `?saver=5` lanza el salvapantallas a los 5 segundos.
+- Teclado del PC: números = canales, R/G/Y/B = botones de color, Esc = atrás.
 
-## Estrenos (NEWS WATCH)
+## Datos (capa lenta)
 
-`.github/workflows/estrenos.yml` ejecuta `scripts/estrenos.js` cada 12 horas (y a mano desde Actions)
-y guarda `data/estrenos.json` con lo que hay en cines y los próximos estrenos en España.
-Sin clave usa la cartelera de SensaCine; si se añade el secreto `TMDB_API_KEY`
-(Settings → Secrets and variables → Actions) usa TMDB. Si falla, se conserva el archivo anterior.
+`.github/workflows/datos.yml` se ejecuta cada 6 horas (y a mano desde Actions). Cada fuente es un script de
+`scripts/` que escribe su JSON en `data/` con el campo `actualizado`; si una falla, conserva su JSON anterior.
+Si un JSON tiene más de 48 h, la tele muestra [SEÑAL DÉBIL].
+
+| Script | Fuente | Archivo |
+| --- | --- | --- |
+| letterboxd.js | RSS y listas de Letterboxd | data/letterboxd/USUARIO.json |
+| estrenos.js | TMDB (o SensaCine sin clave) | data/estrenos.json |
+| recomendaciones.js | TMDB + lo visto en Letterboxd | data/recomendaciones.json |
+| madrid.js | football-data.org (o ESPN sin clave) | data/deportes.json → madrid |
+| tenis.js | web de la ATP (un intento) y ESPN; WTA por ESPN | data/deportes.json → tenis |
+
+Secretos en Settings → Secrets and variables → Actions: `TMDB_API_KEY` y `FOOTBALL_DATA_KEY`.
+
+La capa en vivo de deportes la consulta la propia tele en ESPN, que permite CORS: no hace falta proxy.
 
 ## Letterboxd
 
-La tele no puede pedir datos a letterboxd.com (CORS), así que una tarea de GitHub
-(`.github/workflows/letterboxd.yml`) ejecuta `scripts/letterboxd.js` cada 6 horas (y a mano desde
-Actions). Lee los usuarios de `letterboxd-users.json` y guarda `data/letterboxd/USUARIO.json`.
+La tele no puede pedir datos a letterboxd.com (CORS), así que la tarea de datos ejecuta
+`scripts/letterboxd.js`. Lee los usuarios de `letterboxd-users.json` y guarda `data/letterboxd/USUARIO.json`.
 Para añadir un usuario nuevo, añádelo a ese archivo. Si Letterboxd bloquea alguna petición,
 se conservan los datos anteriores de esa parte.
 

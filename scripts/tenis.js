@@ -153,6 +153,12 @@ async function main() {
     }
   }
   const byDate = (a, b) => (a.fecha < b.fecha ? -1 : 1);
+  // Más ligero para la tele: sin campos que no se usan; el historial, aún más corto
+  for (const m of recientes) delete m.resumen;
+  const corto = (m) => ({
+    id: m.id, torneoId: m.torneoId, ronda: m.ronda, fecha: m.fecha, estado: m.estado,
+    jugadores: m.jugadores.map((j) => ({ nombre: j.nombre, corto: j.corto, ranking: j.ranking, foto: j.foto, sets: j.sets.map((x) => ({ v: x.v, w: x.w })), ganador: j.ganador })),
+  });
   console.log('Tenis: ' + torneos.length + ' torneos, ' + recientes.length + ' partidos recientes/próximos, ' + historial.length + ' de historial');
   const data = Object.assign({}, prev);
   delete data.actualizado;
@@ -160,9 +166,9 @@ async function main() {
     fuentes: bloques.map((b) => b.tour.toUpperCase() + ': ' + b.fuente).join(' · '),
     torneos,
     partidos: recientes.sort(byDate),
-    historial: historial.sort(byDate),
+    historial: historial.sort(byDate).map(corto),
   };
-  writeIfChanged(OUT, data);
+  writeIfChanged(OUT, data, true);
 }
 
 main().catch((e) => { console.error('Error en tenis: ' + e.message); process.exitCode = 1; });

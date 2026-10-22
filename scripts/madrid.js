@@ -130,7 +130,7 @@ async function main() {
   const data = Object.assign({}, prev);
   delete data.actualizado;
   data.madrid = { fuente, partidos };
-  writeIfChanged(OUT, data);
+  writeIfChanged(OUT, data, true);
 }
 
 main().catch((e) => { console.error('Error en madrid: ' + e.message); process.exitCode = 1; });

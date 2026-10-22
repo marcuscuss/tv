@@ -21,7 +21,7 @@ function readJson(file, fallback) {
  * escribe (y no hay commit), salvo que la fecha guardada tenga más de 24 h:
  * así la tele sabe que la tarea sigue viva y no muestra [SEÑAL DÉBIL].
  */
-function writeIfChanged(file, data) {
+function writeIfChanged(file, data, compact) {
   const prev = readJson(file, null);
   const strip = (o) => { const c = Object.assign({}, o); delete c.actualizado; return JSON.stringify(c); };
   if (prev && strip(prev) === strip(data) && prev.actualizado &&
@@ -32,7 +32,7 @@ function writeIfChanged(file, data) {
   const out = Object.assign({ actualizado: new Date().toISOString() }, data);
   out.actualizado = new Date().toISOString();
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, JSON.stringify(out, null, 1) + '\n');
+  fs.writeFileSync(file, (compact ? JSON.stringify(out) : JSON.stringify(out, null, 1)) + '\n');
   console.log('  guardado: ' + path.relative(ROOT, file));
   return true;
 }
