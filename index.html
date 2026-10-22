@@ -113,20 +113,25 @@ img { border: 0; }
 /* ======================================================================
    CABECERA Y PIE FIJOS
    ====================================================================== */
-.hdr { position: absolute; left: 4.4vw; right: 4.4vw; top: 2.6vw; height: 4.6vw; z-index: 20; }
-.hdr .side { width: 24vw; }
-.hdr .side.right { position: absolute; right: 0; top: 0; height: 100%; width: 35vw; }
-.hdr .side.right { -webkit-justify-content: flex-end; justify-content: flex-end; }
-.hnav { padding: .35vw .6vw; margin-right: 1.4vw; font-size: 1vw; letter-spacing: .1em; cursor: pointer; border: .1vw solid transparent; border-radius: .2vw; }
-.hdr .side.right .hnav { margin: 0 0 0 .7vw; font-size: .88vw; padding: .35vw .45vw; }
-.hnav .sq { display: none; margin-right: .45vw; }
-.hnav.active .sq { display: inline; }
-.tc { font-size: 1vw; letter-spacing: .12em; margin-left: 4vw; }
-.hlogo { position: absolute; left: 50%; top: -.4vw; width: 20vw; margin-left: -10vw; text-align: center; }
-.hlogo img { height: 4.4vw; display: block; margin: 0 auto; }
-.hlogo .year { margin-top: .55vw; font-size: .78vw; letter-spacing: .14em; }
-.hlogo .year i { display: inline-block; width: 3.6vw; height: 1px; vertical-align: middle; margin: 0 .5vw; border-top: 1px solid; }
-.hdr .rule { border-color: rgba(236,230,214,.3); }
+/* Cabecera flotante en cápsula: JOI //BETA, secciones y casilla del usuario */
+.hdr { position: absolute; left: 2.2vw; right: 2.2vw; top: 1.8vw; height: 6.2vw; z-index: 20; padding: 0 1.1vw 0 2.8vw;
+  border: .1vw solid rgba(236,230,214,.38); border-radius: 2.6vw; background-color: rgba(236,230,214,.07);
+  -webkit-transition: -webkit-transform .5s cubic-bezier(.2,.7,.2,1), opacity .4s; transition: transform .5s cubic-bezier(.2,.7,.2,1), opacity .4s; }
+#scr-main.hdr-up .hdr { -webkit-transform: translateY(-9vw); transform: translateY(-9vw); opacity: 0; }
+.hb-logo { height: 100%; padding: 0 .6vw; cursor: pointer; border-radius: 1vw; -webkit-align-items: flex-start; align-items: flex-start; padding-top: 1.5vw; }
+.hb-logo img { height: 3.1vw; display: block; }
+.hb-logo .beta { margin-left: .4vw; font-size: .95vw; letter-spacing: .04em; }
+.hb-logo.focus { background-color: rgba(236,230,214,.14); }
+.hnav { margin-left: .5vw; padding: .5vw 1.5vw; font-size: 1.3vw; letter-spacing: .01em; cursor: pointer; border: .1vw solid rgba(236,230,214,.8);
+  font-family: "pt-mono", "Courier New", monospace; }
+.hnav.active { background-color: rgba(236,230,214,.16); }
+.hb-user { position: relative; width: 4.9vw; height: 4.9vw; margin-left: 2.4vw; border-radius: .6vw; background-color: #ece6d6; cursor: pointer;
+  text-align: center; overflow: hidden; }
+.hb-user .hb-name { display: block; margin-top: .55vw; font-size: .5vw; letter-spacing: .06em; color: #0e0e0d; white-space: nowrap; overflow: hidden; }
+.hb-user .hb-av { display: inline-block; width: 2.4vw; height: 2.4vw; margin-top: .45vw; border-radius: 50%; line-height: 2.4vw; font-size: 1.2vw;
+  color: #0e0e0d; font-family: "tt-travels-next", Georgia, serif; }
+.hb-user.focus, .hb-user.active { box-shadow: 0 0 0 .2vw #0e0e0d, 0 0 0 .4vw #ece6d6; }
+#timecode { letter-spacing: .12em; }
 
 .ftr { position: absolute; left: 4.4vw; right: 4.4vw; bottom: 2.2vw; height: 1.6vw; z-index: 20; font-size: .85vw; letter-spacing: .1em; }
 .ftr .grp > span { margin-right: 4vw; white-space: nowrap; }
@@ -144,7 +149,7 @@ img { border: 0; }
 .g-tick .live { color: #ece6d6; }
 .g-tick .live b { color: #e1262d; font-weight: normal; }
 
-.sec { position: absolute; left: 0; right: 0; top: 7.6vw; bottom: 6.6vw; display: none; overflow: hidden; }
+.sec { position: absolute; left: 0; right: 0; top: 9.2vw; bottom: 6.6vw; display: none; overflow: hidden; }
 .sec.on { display: block; }
 
 /* ======================================================================
@@ -171,8 +176,44 @@ img { border: 0; }
 /* ======================================================================
    APPS · carrusel de cintas VHS
    ====================================================================== */
-#sec-apps { overflow: hidden; }
-.car { position: relative; height: 28.8vw; margin-top: 2.4vw; -webkit-perspective: 110vw; perspective: 110vw; cursor: pointer; }
+#sec-apps { overflow: hidden; top: 0; bottom: 0; }
+#scr-main.on-apps .g-tick { display: none; }
+
+/* CH 01 · portada con la peli recomendada (se difumina al bajar) */
+#hero { position: relative; height: 41.5vw; overflow: hidden; }
+#hero .hi { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-size: cover; background-position: center 22%;
+  background-color: #151514; -webkit-transition: opacity .9s, -webkit-transform .9s; transition: opacity .9s, transform .9s; }
+#hero .g1 { position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+  background-image: linear-gradient(90deg, rgba(10,10,9,.72), rgba(10,10,9,.25) 45%, rgba(10,10,9,0) 70%); }
+#hero .g2 { position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+  background-image: linear-gradient(180deg, rgba(10,10,9,.35), rgba(10,10,9,0) 22%, rgba(10,10,9,0) 58%, #0e0e0d 100%); }
+#sec-apps.away #hero .hi { opacity: .18; -webkit-transform: scale(1.08) translateY(-2vw); transform: scale(1.08) translateY(-2vw); }
+#hero .info { position: absolute; left: 4.4vw; bottom: 4.6vw; right: 40vw; -webkit-transition: opacity .6s; transition: opacity .6s; }
+#sec-apps.away #hero .info { opacity: 0; }
+#hero .hk { -webkit-align-items: flex-end; align-items: flex-end; }
+#hero .hk img { height: 1.45vw; display: block; margin-right: .6vw; }
+#hero .hk span { font-size: .95vw; letter-spacing: .03em; }
+#hero .ht { margin: .3vw 0 1.1vw -.3vw; font-family: "tt-travels-next", Georgia, serif; font-weight: 400; line-height: .95; letter-spacing: .01em;
+  text-transform: uppercase; white-space: nowrap; }
+#hero .hp .pill { height: 2.5vw; margin-right: .55vw; padding: 0 .9vw; border: .1vw solid rgba(236,230,214,.85); border-radius: .45vw;
+  font-size: .8vw; letter-spacing: .06em; cursor: pointer; white-space: nowrap; }
+#hero .hp .pill img { height: 1.2vw; max-width: 6vw; display: block; -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1); }
+#hero .hp .pill.focus { background-color: #ece6d6; color: #0e0e0d; border-color: #ece6d6; }
+#hero .hp .pill.focus img { -webkit-filter: brightness(0); filter: brightness(0); }
+#hero .hp .pill.ghost { border-style: dashed; border-color: rgba(236,230,214,.5); }
+#hero .empty { position: absolute; left: 4.4vw; bottom: 6vw; font-size: .95vw; letter-spacing: .2em; color: #858075; }
+
+/* VHS COLLECTION */
+.coll-head { position: relative; text-align: center; padding: 3.6vw 0 0; margin-top: -8.4vw; opacity: 0;
+  -webkit-transition: opacity .6s .15s; transition: opacity .6s .15s; }
+#sec-apps.away .coll-head { opacity: 1; }
+.coll-head .in { display: inline-block; text-align: left; }
+.coll-head img { height: 3.4vw; display: block; margin-bottom: .4vw; }
+.coll-head .vhsb { display: inline-block; height: 3.4vw; line-height: 3.2vw; padding: 0 .5vw; margin-right: .9vw; border: .18vw solid #ece6d6;
+  font-family: Georgia, serif; font-size: 2.6vw; font-style: italic; font-weight: 700; letter-spacing: -.04em; vertical-align: top; }
+.coll-head .ct { display: inline-block; font-family: "tt-travels-next", Georgia, serif; font-weight: 400; font-size: 4.5vw; line-height: 3.4vw;
+  letter-spacing: .02em; vertical-align: top; }
+.car { position: relative; height: 28.8vw; margin-top: .8vw; -webkit-perspective: 110vw; perspective: 110vw; cursor: pointer; }
 .tape { position: absolute; left: 50%; top: 2.6vw; width: 17.4vw; height: 26.1vw; margin-left: -8.7vw;
   -webkit-transition: -webkit-transform .8s cubic-bezier(.22,.75,.18,1), opacity .8s; transition: transform .8s cubic-bezier(.22,.75,.18,1), opacity .8s;
   -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; }
@@ -627,25 +668,27 @@ img { border: 0; }
 
   <!-- ===================== MARCO PRINCIPAL (APPS · NEWS WATCH · PROFILE) ===================== -->
   <section id="scr-main" class="screen">
-    <header class="hdr row between">
-      <div class="side row">
-        <div class="hnav" id="h-home"><span class="sq">■</span>HOME</div>
-        <div class="tc" id="timecode">00:00:00</div>
-      </div>
-      <div class="hlogo">
-        <img src="assets/logos/joi.png" alt="JOI">
-      </div>
-      <div class="side right row">
-        <div class="hnav" id="h-apps"><span class="sq">■</span>APPS</div>
-        <div class="hnav" id="h-news"><span class="sq">■</span>NEWS WATCH</div>
-        <div class="hnav" id="h-cine"><span class="sq">■</span>CINE</div>
-        <div class="hnav" id="h-sport"><span class="sq">■</span>DEPORTES</div>
-        <div class="hnav" id="h-profile"><span class="sq">■</span>PROFILE</div>
+    <header class="hdr row between" id="hdr">
+      <div class="hb-logo row" id="h-home"><img src="assets/logos/joi.png" alt="JOI"><span class="beta">//BETA</span></div>
+      <div class="hb-nav row">
+        <div class="hnav" id="h-apps">/APPS</div>
+        <div class="hnav" id="h-news">/NEWS</div>
+        <div class="hnav" id="h-cine">/CINE</div>
+        <div class="hnav" id="h-sport">/DEPORTES</div>
+        <div class="hb-user" id="h-profile"><span class="hb-name" id="hb-name">USUARIO</span><span class="hb-av" id="hb-av">?</span></div>
       </div>
     </header>
 
     <!-- APPS -->
     <section id="sec-apps" class="sec scroller">
+      <div id="hero">
+        <div class="hi" id="hero-img"></div><div class="g1"></div><div class="g2"></div>
+        <div class="info" id="hero-info"></div>
+      </div>
+      <div class="coll-head" id="coll-head"><div class="in">
+        <img src="assets/logos/joi.png" alt="JOI">
+        <span class="vhsb">VHS</span><span class="ct">COLLECTION</span>
+      </div></div>
       <div class="car" id="car">
         <div class="car-hint dim">◀</div><div class="car-hint r dim">▶</div>
         <div id="tapes"></div>
@@ -705,7 +748,7 @@ img { border: 0; }
 
     <div class="g-tick" id="g-tick"><span class="tt" id="g-tt"></span></div>
     <footer class="ftr row between">
-      <div class="grp row"><span id="f-time">--:-- CET</span><span>B&amp;W [OFF]</span><span class="weak" id="f-weak"></span></div>
+      <div class="grp row"><span id="f-time">--:-- CET</span><span id="timecode">00:00:00</span><span>B&amp;W [OFF]</span><span class="weak" id="f-weak"></span></div>
       <div class="keys row" id="f-keys"></div>
       <div class="grp right row"><span id="f-weather">MADRID · …</span><span id="f-profile">PERFIL: —</span></div>
     </footer>
@@ -1110,6 +1153,7 @@ img { border: 0; }
     nav.el.classList.add('focus');
     ensureVisible(nav.el);
     if (nav.el._onfocus) nav.el._onfocus();
+    if (nav.onFocusRow) nav.onFocusRow(r);
   }
   function focusEl(target) {
     if (!nav) return false;
@@ -1328,6 +1372,8 @@ img { border: 0; }
       setClass($('sec-' + SECS[i]), 'on', SECS[i] === name);
       setClass($('h-' + SECS[i]), 'active', SECS[i] === name);
     }
+    setClass($('scr-main'), 'on-apps', name === 'apps');
+    $('scr-main').classList.remove('hdr-up');
     navStack = [];
     renderKeys();
     if (name === 'apps') renderApps();
@@ -1476,7 +1522,12 @@ img { border: 0; }
   function tickClock() {
     var d = new Date();
     $('f-time').textContent = pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + tzName(d);
-    if (main.p) $('f-profile').textContent = 'PERFIL: ' + main.p.name;
+    if (main.p) {
+      $('f-profile').textContent = 'PERFIL: ' + main.p.name;
+      $('hb-name').textContent = main.p.name;
+      $('hb-av').textContent = initial(main.p.name);
+      $('hb-av').style.backgroundColor = main.p.color;
+    }
   }
   setInterval(tickClock, 10000);
   setInterval(function () {
@@ -2007,17 +2058,98 @@ img { border: 0; }
     $('sec-apps').scrollTop = 0;
     layoutCarousel();
     renderAppsSport();
+    renderHero();
     appsNav(null);
   }
 
+  // Filas del CH 01: cabecera · portada (plataformas e info) · cintas · deportes.
+  // Al bajar de la portada, esta se difumina, la cabecera se esconde y sube la VHS COLLECTION.
   function appsNav(keep) {
     var c = $('car');
     focusable(c, playTape);
-    c._top = true;
     c._onfocus = function () { $('play-tape').classList.remove('hide'); };
-    var rows = [hdrRow(), [c]].concat(main.apRows || []);
-    mainNav(rows, appsKey, 1, 0);
+    var rows = [hdrRow(), hero.row, [c]].concat(main.apRows || []);
+    var n = mainNav(rows, appsKey, 1, 0);
+    var heroRows = hero.row && hero.row.length ? 2 : 1;
+    n.onFocusRow = function (row) {
+      var sec = $('sec-apps'), down = row >= heroRows;
+      setClass(sec, 'away', down);
+      setClass($('scr-main'), 'hdr-up', down);
+      if (!down) animateScroll(sec, 'scrollTop', 0);
+      else if (nav.el === c) animateScroll(sec, 'scrollTop', $('coll-head').offsetTop - window.innerWidth * 0.012);
+    };
+    n.onFocusRow(n.r);
     if (keep && !focusEl(keep)) focusAt(1, 0);
+  }
+
+  /* ---------- Portada: una peli recomendada en grande, con dónde verla ---------- */
+  var hero = { m: null, row: [] };
+  function heroPick() {
+    var R = DATA.recs, list = [], i, j, seen = {};
+    var add = function (m) { if (m && (m.backdrop || m.poster) && !seen[m.id]) { seen[m.id] = true; list.push(m); } };
+    if (R) {
+      for (i = 0; i < (R.porque || []).length; i++) for (j = 0; j < R.porque[i].items.length && j < 4; j++) add(R.porque[i].items[j]);
+      for (i = 0; i < (R.generos || []).length; i++) for (j = 0; j < R.generos[i].items.length && j < 2; j++) add(R.generos[i].items[j]);
+    }
+    var mine = list.filter(function (m) { return !!available(m) && m.backdrop; });
+    if (mine.length) list = mine;
+    if (!list.length && news.data && !news.data.empty) {
+      var e = (news.data.now_playing || []).concat(news.data.upcoming || []);
+      for (i = 0; i < e.length && i < 8; i++) add(e[i]);
+    }
+    if (!list.length) return null;
+    // La misma peli durante el día (cambia cada día)
+    var d = hoy(), k = d.getFullYear() * 400 + d.getMonth() * 31 + d.getDate();
+    return list[k % list.length];
+  }
+  function bigImg(u) { return String(u || '').replace('/w780/', '/w1280/').replace('/w342/', '/w780/'); }
+  function renderHero() {
+    var m = heroPick(), info = $('hero-info'), img = $('hero-img');
+    hero.row = [];
+    info.innerHTML = '';
+    if (!m) {
+      img.style.backgroundImage = 'none';
+      info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.png" alt=""><span>//RECOMMENDATIONS</span></div><div class="empty">Cargando recomendaciones…</div>';
+      return;
+    }
+    hero.m = m;
+    img.style.backgroundImage = 'url("' + bigImg(m.backdrop || m.poster) + '")';
+    var t = String(m.title || '');
+    var fs = Math.max(3.2, Math.min(8.6, 60 / Math.max(t.length, 4)));
+    info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.png" alt=""><span>//RECOMMENDATIONS</span></div>' +
+      '<div class="ht" style="font-size:' + fs.toFixed(2) + 'vw">' + esc(t) + '</div><div class="hp row" id="hero-pills"></div>';
+    var box = $('hero-pills'), list = provList(m), i;
+    for (i = 0; i < list.length && i < 5; i++) {
+      (function (pv) {
+        var a = pv.app ? findApp(pv.app) : null, p = el('div', 'pill row', esc(pv.tag));
+        if (a) heroLogo(p, a);
+        focusable(p, function () { if (a) { sfx('clack'); tapeFlash(function () { open(a); }); } else toast(pv.tag + ' no está en Joi'); });
+        p._top = true;
+        box.appendChild(p);
+        hero.row.push(p);
+      })(list[i]);
+    }
+    if (m.trailer) {
+      var tr = el('div', 'pill row ghost', 'TRÁILER');
+      focusable(tr, function () { openTrailer(m.trailer); });
+      tr._top = true;
+      box.appendChild(tr);
+      hero.row.push(tr);
+    }
+    var more = el('div', 'pill row ghost', '+ INFO');
+    focusable(more, function () { openRec(m); });
+    more._top = true;
+    box.appendChild(more);
+    hero.row.push(more);
+  }
+  // Logo de la plataforma en blanco dentro de la cápsula (si no carga, queda el nombre)
+  function heroLogo(pill, a) {
+    var f = a.logos && a.logos[0];
+    if (!f) return;
+    var img = new Image();
+    img.onload = function () { pill.innerHTML = ''; pill.appendChild(img); };
+    img.alt = '';
+    img.src = /^(https?:|assets\/)/.test(f) ? f : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f);
   }
 
   function appsKey(k) {
@@ -2762,6 +2894,7 @@ img { border: 0; }
       if (which === 'sport' && main.sec === 'sport') renderSport(true);
       if (which === 'sport' && main.sec === 'apps') { renderAppsSport(); appsNav(nav ? nav.el : null); }
       if ((which === 'recs' || which === 'lb') && main.sec === 'cine') renderCine(true);
+      if ((which === 'recs' || which === 'news') && main.sec === 'apps') { renderHero(); appsNav(nav ? nav.el : null); }
     }
     if (which === 'sport') { liveSchedule(); updateTicker(); }
   }
