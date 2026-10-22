@@ -1,0 +1,56 @@
+name: Actualizar Letterboxd
+
+# Cada hora descarga el diario público de Letterboxd y lo deja en data/letterboxd.json
+# para que Joi lo muestre. También se puede lanzar a mano desde la pestaña Actions.
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/letterboxd.py'
+      - '.github/workflows/letterboxd.yml'
+
+permissions:
+  contents: write   # para guardar el JSON en el repo
+  pages: write      # para pedir que se republique la web con los datos nuevos
+
+concurrency:
+  group: letterboxd
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar diario de Letterboxd
+        env:
+          LB_USER: marcus_cus
+        run: python3 scripts/letterboxd.py
+
+      - name: Guardar si hay cambios
+        id: commit
+        run: |
+          if git diff --quiet -- data/letterboxd.json && git ls-files --error-unmatch data/letterboxd.json >/dev/null 2>&1; then
+            echo "Sin cambios"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "joi-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/letterboxd.json
+          git commit -m "Actualizar datos de Letterboxd"
+          # Por si entretanto se ha subido otro cambio a la rama
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Republicar la web
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl -sS -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true

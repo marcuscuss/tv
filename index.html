@@ -6,7 +6,7 @@
   <title>JOI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Share+Tech+Mono&family=VT323&display=swap">
-  <link rel="stylesheet" href="css/style.css?v=15">
+  <link rel="stylesheet" href="css/style.css?v=16">
 </head>
 <body class="theme-green">
   <div id="stage">
@@ -46,6 +46,8 @@
 
       <main class="layout">
         <section class="col-main">
+         <!-- Todo lo de la columna se desplaza hacia arriba al bajar a la fila de Letterboxd -->
+         <div class="col-scroll" id="col-scroll">
           <div class="hero">
             <video id="hero-video" class="hero-video" muted loop playsinline autoplay preload="auto"></video>
             <div class="hero-overlay">
@@ -62,6 +64,15 @@
             </div>
             <div id="grid" class="grid"></div>
           </div>
+
+          <div class="panel lb" id="lb-panel">
+            <div class="panel-head">
+              <span>ÚLTIMAS VISTAS · LETTERBOXD</span>
+              <span class="dim" id="lb-info">@---</span>
+            </div>
+            <div class="lb-viewport"><div id="lb-row" class="lb-row"></div></div>
+          </div>
+         </div>
         </section>
 
         <aside class="col-side">
@@ -116,6 +127,21 @@
       </footer>
     </div>
 
+    <!-- ===== Ficha de película (Letterboxd) ===== -->
+    <div id="film" class="film hidden">
+      <div class="film-box">
+        <img id="film-poster" class="film-poster" alt="" referrerpolicy="no-referrer">
+        <div class="film-info">
+          <div class="dim small">DIARIO · LETTERBOXD</div>
+          <div class="film-title" id="film-title">---</div>
+          <div class="film-year" id="film-year"></div>
+          <div class="film-stars" id="film-stars"></div>
+          <div class="film-meta" id="film-meta"></div>
+          <div class="dim small film-close">[BACK] CERRAR</div>
+        </div>
+      </div>
+    </div>
+
     <!-- ===== Modal CALLING ===== -->
     <div id="calling" class="calling hidden">
       <div class="calling-box">
@@ -136,8 +162,8 @@
     <div class="fx-flicker"></div>
   </div>
 
-  <script src="js/config.js?v=15"></script>
-  <script src="js/icons.js?v=15"></script>
-  <script src="js/main.js?v=15"></script>
+  <script src="js/config.js?v=16"></script>
+  <script src="js/icons.js?v=16"></script>
+  <script src="js/main.js?v=16"></script>
 </body>
 </html>

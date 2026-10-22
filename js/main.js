@@ -141,6 +141,7 @@
     ['TERMLINK :: SESIÓN ' + profile.name, 'AUTENTICACIÓN OK', 'PANTALLA ' + (fit.info || '?'), 'CARGANDO ' + CFG.apps.length + ' CANALES', 'SISTEMA LISTO'].forEach(log);
 
     loadWeather();
+    loadLetterboxd();
     if (!startLauncher._once) {
       startLauncher._once = true;
       tickClock(); setInterval(tickClock, 1000);
@@ -150,6 +151,7 @@
         $('signal').textContent = new Array(n + 1).join('▮') + new Array(6 - n).join('▯');
       }, 3000);
       setInterval(loadWeather, 15 * 60 * 1000);
+      setInterval(loadLetterboxd, 30 * 60 * 1000);
       startTicker(); startGlobe();
     }
   }
@@ -253,6 +255,8 @@
   }
 
   function backToProfiles() {
+    if (filmOpen) closeFilm();
+    if (zone === 'lb') leaveLb();
     screen = 'profile';
     $('launcher').classList.add('hidden');
     $('profile-screen').classList.remove('hidden');
@@ -353,6 +357,7 @@
   }
   function setFocus(i) {
     if (i < 0 || i >= tiles.length) return;
+    if (zone === 'lb') { focusIndex = i; leaveLb(); return; }
     tiles[focusIndex].classList.remove('focused');
     focusIndex = i; tiles[i].classList.add('focused');
     $('sel-name').textContent = '[' + CFG.apps[i].name + ']';
@@ -363,6 +368,8 @@
     else { next = focusIndex + dy * COLS; }
     if (next >= 0 && next < tiles.length && next !== focusIndex) {
       setFocus(next); log('> CANAL ' + pad(next + 1) + ' :: ' + CFG.apps[next].name);
+    } else if (dy > 0 && next >= tiles.length && lbItems.length) {
+      enterLb(col * 2);                              // cada columna de apps ≈ dos pósters
     }
   }
 
@@ -398,9 +405,142 @@
     log('> LLAMADA CANCELADA'); return true;
   }
 
+  /* ========== LETTERBOXD ==========
+     Los datos los deja cada hora una tarea de GitHub en data/letterboxd.json.
+     Fila de pósters debajo de las apps: al bajar con el mando, la columna se
+     desplaza hacia arriba para enseñarla (como las filas de Apple TV). */
+  var zone = 'apps';                 // 'apps' | 'lb' : dónde está el foco
+  var lbFilms = [], lbItems = [], lbIndex = 0, lbUser = '', filmOpen = false, LB_VISIBLE = 8;
+
+  function stars(r) {
+    if (r == null) return '';
+    var s = new Array(Math.floor(r) + 1).join('★');
+    return s + (r % 1 >= 0.5 ? '½' : '');
+  }
+  function smallPoster(url) {
+    // Letterboxd sirve el póster en varios tamaños; para la fila basta uno pequeño (va más fluido en el stick).
+    return (url || '').replace(/-0-\d+-0-\d+-crop/, '-0-230-0-345-crop');
+  }
+  function fmtDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || '');
+    return m ? parseInt(m[3], 10) + ' ' + MONTHS[parseInt(m[2], 10) - 1] + ' ' + m[1] : '';
+  }
+
+  function loadLetterboxd() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'data/letterboxd.json?t=' + Date.now());
+    xhr.onload = function () {
+      var data = null;
+      try { data = xhr.status === 200 ? JSON.parse(xhr.responseText) : null; } catch (e) {}
+      renderLetterboxd(data);
+    };
+    xhr.onerror = function () { renderLetterboxd(null); };
+    xhr.send();
+  }
+
+  function renderLetterboxd(data) {
+    var row = $('lb-row');
+    lbUser = data ? data.user : '';
+    $('lb-info').textContent = lbUser ? '@' + lbUser : '';
+    lbFilms = (data && data.films) || [];
+    lbItems = [];
+    row.innerHTML = '';
+    if (!lbFilms.length) {
+      row.innerHTML = '<div class="lb-empty dim">' +
+        (data ? 'TU DIARIO DE LETTERBOXD ESTÁ VACÍO' : 'SIN DATOS AÚN · SE ACTUALIZA CADA HORA') + '</div>';
+      if (zone === 'lb') leaveLb();
+      return;
+    }
+    lbFilms.forEach(function (f, i) {
+      var el = document.createElement('div');
+      el.className = 'lb-item';
+      el.innerHTML = '<img referrerpolicy="no-referrer" alt="" onerror="this.style.display=\'none\'" src="' + smallPoster(f.poster) + '">' +
+        '<div class="lb-fallback">' + f.title + '</div>';
+      el.addEventListener('mouseenter', function () { enterLb(i); });
+      el.addEventListener('click', function () { enterLb(i); openFilm(); });
+      row.appendChild(el);
+      lbItems.push(el);
+    });
+    lbIndex = Math.min(lbIndex, lbFilms.length - 1);
+    if (zone === 'lb') setLbFocus(lbIndex);
+  }
+
+  function scrollTo(down) {
+    $('col-scroll').classList.toggle('scrolled', down);
+  }
+  function enterLb(i) {
+    if (!lbItems.length) return;
+    zone = 'lb';
+    tiles[focusIndex].classList.remove('focused');
+    $('sel-name').textContent = '---';
+    scrollTo(true);
+    setLbFocus(i);
+  }
+  function leaveLb() {
+    zone = 'apps';
+    if (lbItems[lbIndex]) lbItems[lbIndex].classList.remove('focused');
+    $('lb-info').textContent = lbUser ? '@' + lbUser : '';
+    scrollTo(false);
+    setFocus(focusIndex);
+  }
+  function setLbFocus(i) {
+    if (!lbItems.length) return;
+    i = Math.max(0, Math.min(lbItems.length - 1, i));
+    if (lbItems[lbIndex]) lbItems[lbIndex].classList.remove('focused');
+    lbIndex = i;
+    lbItems[i].classList.add('focused');
+    var f = lbFilms[i];
+    $('lb-info').textContent = f.title + (f.year ? ' (' + f.year + ')' : '') + (f.rating != null ? '  ' + stars(f.rating) : '');
+    // Si el póster elegido queda fuera, la fila se desliza para enseñarlo.
+    var first = Math.max(0, Math.min(i - LB_VISIBLE + 2, lbItems.length - LB_VISIBLE));
+    if (i < LB_VISIBLE - 1) first = 0;
+    var step = lbItems[0].offsetWidth + 22;
+    var t = 'translateX(' + (-first * step) + 'px)';
+    $('lb-row').style.webkitTransform = t;
+    $('lb-row').style.transform = t;
+  }
+
+  function openFilm() {
+    var f = lbFilms[lbIndex];
+    if (!f) return;
+    $('film-poster').src = f.poster;
+    $('film-title').textContent = f.title;
+    $('film-year').textContent = f.year || '';
+    $('film-stars').textContent = f.rating != null ? stars(f.rating) : 'SIN NOTA';
+    var meta = [];
+    if (f.watched) meta.push('VISTA EL ' + fmtDate(f.watched));
+    if (f.liked) meta.push('♥ ME GUSTA');
+    if (f.rewatch) meta.push('REVISIONADO');
+    $('film-meta').textContent = meta.join('  ·  ');
+    $('film').classList.remove('hidden');
+    filmOpen = true;
+  }
+  function closeFilm() {
+    $('film').classList.add('hidden');
+    filmOpen = false;
+  }
+
+  function lbKey(k) {
+    if (k === KEY.LEFT) setLbFocus(lbIndex - 1);
+    else if (k === KEY.RIGHT) setLbFocus(lbIndex + 1);
+    else if (k === KEY.UP) {
+      // Vuelve a la fila de abajo de las apps, a la columna más parecida
+      var cols = Math.min(COLS, tiles.length);
+      var bottomStart = Math.floor((tiles.length - 1) / COLS) * COLS;
+      var visPos = lbIndex - Math.max(0, lbIndex - LB_VISIBLE + 2);
+      focusIndex = Math.min(tiles.length - 1, bottomStart + Math.min(cols - 1, Math.floor(visPos / 2)));
+      leaveLb();
+    }
+    else if (k === KEY.ENTER) openFilm();
+    else return false;
+    return true;
+  }
+
   /* ---------- Teclado ---------- */
   function goBack() {
     if (cancelLaunch()) return;
+    if (filmOpen) { closeFilm(); return; }
+    if (zone === 'lb') { leaveLb(); return; }
     if (screen === 'launcher') { backToProfiles(); return; }
     try { window.close(); } catch (err) {}
   }
@@ -421,6 +561,8 @@
       e.preventDefault(); return;
     }
     if (launchTimer) return;
+    if (filmOpen) { if (k === KEY.ENTER) closeFilm(); e.preventDefault(); return; }
+    if (zone === 'lb' && lbKey(k)) { e.preventDefault(); return; }
     switch (k) {
       case KEY.LEFT:  move(-1, 0); break;
       case KEY.RIGHT: move(1, 0); break;
@@ -531,6 +673,11 @@
     setTimeout(fit, 300); setTimeout(fit, 1000); setTimeout(fit, 2500);
     document.addEventListener('keydown', onKey);
     buildProfiles();
+    document.querySelector('.col-main').addEventListener('wheel', function (e) {
+      if (screen !== 'launcher' || filmOpen) return;
+      if (e.deltaY > 0 && zone === 'apps' && lbItems.length) enterLb(0);
+      else if (e.deltaY < 0 && zone === 'lb') leaveLb();
+    });
     window.addEventListener('pageshow', function () { $('calling').classList.add('hidden'); $('calling-bar').style.width = '0'; });
   }
   boot();
