@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T16:40:11.309Z",
+ "actualizado": "2026-10-22T21:45:30.270Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -453,7 +453,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 6.2,
+   "vote_average": 6.3,
    "genres": [
     "Romance",
     "Fantasía",
@@ -470,11 +470,13 @@
    "title": "La Oveja Shaun: Misión Calabaza",
    "release_date": "2026-10-30",
    "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.3,
+   "vote_average": 7.4,
    "genres": [
     "Animación",
     "Comedia",
-    "Familia"
+    "Familia",
+    "Aventura",
+    "Ciencia ficción"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
@@ -544,6 +546,21 @@
    "providers": [],
    "trailer": "Z73fH3guhYQ",
    "fondo": "https://image.tmdb.org/t/p/original/zppmTC0qSPBV7zJmzzXkt3aCuyj.jpg"
+  },
+  {
+   "id": 1549854,
+   "title": "You no Mashallah!",
+   "release_date": "2026-10-30",
+   "overview": "Usman es un joven emigrante sin papeles que, como tantos otros, llegó a Europa en busca de una vida mejor. Sin embargo, lo único que Europa tiene para él es una vida precaria. Vive en un piso de camas calientes y trabaja como repartidor de comida a domicilio. En tan solo 24 horas el delicado equilibrio que le sostiene va a dar un vuelco, obligándole a tomar una decisión drástica para sobrevivir y, quizá, seguir buscando su sueño.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8FJZua0beCvx5TpLBRPtzK8CEoB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/m9lo7xJcoBlBDwfWJ57JmELYHKE.jpg",
+   "providers": [],
+   "trailer": "cMvJC3H4zDw",
+   "fondo": "https://image.tmdb.org/t/p/original/m9lo7xJcoBlBDwfWJ57JmELYHKE.jpg"
   },
   {
    "id": 1775906,
@@ -625,7 +642,7 @@
     "Familia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg",
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg"
@@ -635,7 +652,7 @@
    "title": "Los miserables",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 6.9,
+   "vote_average": 7,
    "genres": [
     "Historia",
     "Romance",
@@ -646,22 +663,6 @@
    "providers": [],
    "trailer": "PyBTjrK43Hg",
    "fondo": "https://image.tmdb.org/t/p/original/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg"
-  },
-  {
-   "id": 1468846,
-   "title": "Species (Sanguine)",
-   "release_date": "2026-11-06",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Ciencia ficción",
-    "Terror"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fDvZvNmLIwUcKKQ4Cfb6TmQJM7M.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/jySTVXi8UDajVgYh01KavKtY4YJ.jpg"
   }
  ],
  "region": "ES"
