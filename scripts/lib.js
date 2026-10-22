@@ -66,7 +66,12 @@ async function tmdb(p, params) {
 
 // Ficha completa con dónde verla en España y tráiler (prioriza español)
 async function tmdbFicha(id) {
-  const d = await tmdb('/movie/' + id, { language: 'es-ES', append_to_response: 'videos,watch/providers', include_video_language: 'es,en,null' });
+  const d = await tmdb('/movie/' + id, { language: 'es-ES', append_to_response: 'videos,watch/providers,images',
+    include_video_language: 'es,en,null', include_image_language: 'null,en' });
+  // Fondo para la portada: el backdrop sin texto mejor valorado y más grande, en resolución original
+  const bds = ((d.images || {}).backdrops || []).filter((b) => b.iso_639_1 == null && b.width >= 1280)
+    .sort((a, b) => (b.vote_average - a.vote_average) || (b.width - a.width));
+  const fondo = bds.length ? bds[0].file_path : d.backdrop_path;
   const es = ((d['watch/providers'] || {}).results || {}).ES || {};
   const vids = ((d.videos || {}).results || []).filter((v) => v.site === 'YouTube');
   const pick = (f) => vids.filter(f)[0];
@@ -84,6 +89,7 @@ async function tmdbFicha(id) {
     genre_ids: (d.genres || []).map((g) => g.id),
     poster: d.poster_path ? IMG + 'w342' + d.poster_path : '',
     backdrop: d.backdrop_path ? IMG + 'w780' + d.backdrop_path : '',
+    fondo: fondo ? IMG + 'original' + fondo : '',
     providers: (es.flatrate || []).map((p) => p.provider_name),
     trailer: tr ? tr.key : '',
   };

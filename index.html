@@ -185,33 +185,32 @@ img { border: 0; }
 #scr-main.on-apps .g-tick, #scr-main.on-apps .ftr { display: none; }
 
 /* CH 01 · portada con la peli recomendada; abajo se funde con el negro */
-#hero { position: relative; height: 41.75vw; }
+#hero { position: relative; height: 54vw; }
 #hero .hi { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-size: cover; background-position: center 18%;
   background-color: #000000; -webkit-transition: opacity .9s, -webkit-transform .9s; transition: opacity .9s, transform .9s; }
 #hero .g1 { position: absolute; left: 0; top: 0; width: 100%; height: 100%;
   background-image: linear-gradient(90deg, rgba(0,0,0,.65), rgba(0,0,0,.15) 30%, rgba(0,0,0,0) 50%); }
 #hero .g2 { position: absolute; left: 0; top: 0; width: 100%; height: 100%;
-  background-image: linear-gradient(180deg, rgba(0,0,0,0) 50%, rgba(0,0,0,.55) 75%, #000000 100%); }
+  background-image: linear-gradient(180deg, rgba(0,0,0,0) 62%, rgba(0,0,0,.45) 84%, #000000 100%); }
 #sec-apps.away #hero .hi { opacity: 0; -webkit-transform: scale(1.06); transform: scale(1.06); }
-#hero .info { position: absolute; left: 4.4vw; top: 27.1vw; right: 40vw; -webkit-transition: opacity .6s; transition: opacity .6s; }
+#hero .info { position: absolute; left: 4.75vw; top: 35.15vw; right: 20vw; -webkit-transition: opacity .6s; transition: opacity .6s; }
 #sec-apps.away #hero .info { opacity: 0; }
-#hero .hk { -webkit-align-items: flex-end; align-items: flex-end; height: 1.15vw; }
-#hero .hk img { height: 1.1vw; display: block; margin-right: .65vw; }
-#hero .hk span { font-size: .75vw; letter-spacing: .02em; font-family: "pt-mono", "Courier New", monospace; line-height: 1; }
-#hero .ht { margin: .6vw 0 1.2vw -.2vw; font-family: "tt-travels-next", Georgia, serif; font-weight: 500; line-height: .8; letter-spacing: 0;
+#hero .hk { -webkit-align-items: flex-end; align-items: flex-end; height: 1.3vw; }
+#hero .hk img { height: 1.25vw; display: block; margin-right: .65vw; }
+#hero .hk span { font-size: .9vw; letter-spacing: .02em; font-family: "pt-mono", "Courier New", monospace; line-height: 1; }
+#hero .ht { margin: .55vw 0 1.9vw -.3vw; font-family: "tt-travels-next", Georgia, serif; font-weight: 500; line-height: .8; letter-spacing: 0;
   text-transform: uppercase; white-space: nowrap; color: #ffffff; }
-#hero .hp .pill { -webkit-justify-content: center; justify-content: center; min-width: 4vw; height: 1.55vw; margin-right: .35vw; padding: 0 .5vw;
-  border: .06vw solid rgba(255,255,255,.9); border-radius: .3vw; font-size: .55vw; letter-spacing: .04em; cursor: pointer; white-space: nowrap; }
-#hero .hp .pill img { height: .85vw; max-width: 3.2vw; display: block; -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1); }
+#hero .hp .pill { -webkit-justify-content: center; justify-content: center; min-width: 6.6vw; height: 2.6vw; margin-right: .5vw; padding: 0 .9vw;
+  border: 1px solid rgba(255,255,255,.9); border-radius: .5vw; font-size: .8vw; letter-spacing: .04em; cursor: pointer; white-space: nowrap; }
+#hero .hp .pill img { height: 1.5vw; max-width: 5vw; display: block; -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1); }
 #hero .hp .pill.focus { background-color: #ffffff; color: #000000; border-color: #ffffff; }
 #hero .hp .pill.focus img { -webkit-filter: brightness(0); filter: brightness(0); }
 #hero .hp .pill.ghost { border-color: rgba(255,255,255,.45); }
-#hero .hcount { margin-left: 1vw; font-size: .6vw; letter-spacing: .1em; color: rgba(255,255,255,.6); font-family: "pt-mono", "Courier New", monospace; }
-#hero .hp .pill img { height: .95vw; max-width: 3.3vw; }
+#hero .hcount { margin-left: 1.2vw; font-size: .75vw; letter-spacing: .1em; color: rgba(255,255,255,.6); font-family: "pt-mono", "Courier New", monospace; }
 #hero .empty { margin-top: 1vw; font-size: .9vw; letter-spacing: .2em; color: #8a8a8a; }
 
 /* VHS COLLECTION · logo y cintas (aparece al bajar) */
-.coll-head { position: relative; height: 6.25vw; margin-top: -5.6vw; text-align: center; opacity: 0;
+.coll-head { position: relative; height: 6.25vw; margin-top: 2vw; text-align: center; opacity: 0;
   -webkit-transition: opacity .6s .15s; transition: opacity .6s .15s; }
 #sec-apps.away .coll-head { opacity: 1; }
 .coll-head img { height: 6.25vw; display: inline-block; margin-left: 4.4vw; }
@@ -2058,7 +2057,9 @@ img { border: 0; }
     }
     if (news.data && !news.data.empty) {
       var e = news.data.now_playing || [];
-      for (i = 0; i < e.length && cine.length < 5; i++) add(cine, e[i], 'cine');
+      for (i = 0; i < e.length && cine.length < 5; i++) if (e[i].fondo || /image\.tmdb/.test(e[i].backdrop || '')) add(cine, e[i], 'cine');
+      // Sin fondos panorámicos (SensaCine sin clave de TMDB) se usan las imágenes que haya
+      for (i = 0; i < e.length && cine.length < 5 && !recs.length; i++) add(cine, e[i], 'cine');
     }
     recs = recs.slice(0, 8);
     while (recs.length || cine.length) {
@@ -2096,7 +2097,8 @@ img { border: 0; }
     if (main.sec === 'apps' && !navStack.length && !saverOn && !busy && now() - lastInput > 8000 &&
         !$('sec-apps').classList.contains('away')) heroStep(1, true);
   }, 12000);
-  function bigImg(u) { return String(u || '').replace('/w780/', '/w1280/').replace('/w342/', '/w780/'); }
+  // Imagen a la máxima resolución: el fondo sin texto de TMDB (original) o, si no, el backdrop en original
+  function bigImg(u) { return String(u || '').replace(/\/t\/p\/w\d+\//, '/t/p/original/'); }
   function renderHero() {
     var m = heroPick(), info = $('hero-info'), img = $('hero-img');
     hero.row = [];
@@ -2107,9 +2109,9 @@ img { border: 0; }
       return;
     }
     hero.m = m;
-    img.style.backgroundImage = 'url("' + bigImg(m.backdrop || m.poster) + '")';
+    img.style.backgroundImage = 'url("' + (m.fondo || bigImg(m.backdrop || m.poster)) + '")';
     var t = String(m.title || '');
-    var fs = Math.max(4.4, Math.min(8.6, 58 / Math.max(t.length, 4)));
+    var fs = Math.max(4.2, Math.min(12.3, 74 / Math.max(t.length, 4)));
     info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.png" alt=""><span>' + (m._src === 'cine' ? '//ESTRENOS' : '//RECOMENDATIONS') + '</span></div>' +
       '<div class="ht" style="font-size:' + fs.toFixed(2) + 'vw">' + esc(t) + '</div><div class="hp row" id="hero-pills"></div>';
     var box = $('hero-pills'), list = provList(m), i;

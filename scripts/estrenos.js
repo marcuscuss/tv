@@ -218,7 +218,7 @@ async function save(data) {
   // Con clave de TMDB: dónde verla en España y tráiler de cada estreno
   if (KEY && data.source === 'tmdb') {
     for (const m of data.now_playing.concat(data.upcoming)) {
-      try { const f = await tmdbFicha(m.id); m.providers = f.providers; m.trailer = f.trailer; } catch (e) { m.providers = []; m.trailer = ''; }
+      try { const f = await tmdbFicha(m.id); m.providers = f.providers; m.trailer = f.trailer; m.fondo = f.fondo; } catch (e) { m.providers = []; m.trailer = ''; }
       await sleep(40);
     }
   }
