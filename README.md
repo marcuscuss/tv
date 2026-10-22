@@ -1,6 +1,6 @@
 # Joi
 
-Launcher para TV (Hisense VIDAA, Fire TV, Google TV) con estética Blade Runner 2049.
+Launcher para TV (Fire TV, Google TV, navegador) con estética de tele CRT y cintas VHS.
 Todo está en un único `index.html`: sin frameworks, sin build y sin librerías,
 en JavaScript ES5 y CSS sin grid ni variables, para navegadores de TV antiguos.
 
@@ -9,16 +9,28 @@ Web: https://marcuscuss.github.io/tv/
 ## Qué hace
 
 - **¿Quién está viendo?** al abrir: perfiles con avatar de color e inicial, y "+ Añadir perfil".
-  Viene seleccionado el último perfil usado.
-- **Crear y editar perfiles** con un teclado propio en pantalla (A–Z, Ñ, espacio, borrar, OK).
-- **Cada perfil guarda lo suyo**: nombre, color, qué apps salen y en qué orden, fondo
-  (Neón, Desierto, Lluvia o una foto por URL), ciudad del tiempo y usuario de Letterboxd.
-- **Botón de avatar** arriba a la derecha: cambiar de perfil, editar o borrar (con confirmación).
-- **Favoritas y "Todas las apps"**: la fila principal muestra las favoritas del perfil; al final,
-  "Todas las apps" abre la cuadrícula completa. Allí OK abre la app y mantener OK (o un botón de
-  color, o F en el PC) la añade o quita de favoritas.
-- **Letterboxd** (usuario opcional por perfil): filas "Visto recientemente" (con estrellas y ♥) y
-  una por cada lista; OK abre la ficha con la reseña. Las carátulas se cargan poco a poco.
+- **Marco de tele**: esquinas redondeadas, viñeteado, líneas de barrido y algo de ruido. Cabecera fija
+  (HOME, timecode desde que se abrió la app, logo, APPS / NEWS WATCH / PROFILE) y pie con hora, tiempo y perfil.
+- **Transición LOADING** entre secciones (barra |||| y porcentaje, menos de 0,8 s).
+- **APPS**: carrusel de cintas VHS con las favoritas del perfil. OK = [PLAY TAPE] abre la app.
+  La última cinta, "Todas las apps", abre la cuadrícula completa (mantener OK o botón de color: ★ favorita).
+  Debajo, las filas de Letterboxd.
+- **NEWS WATCH**: estrenos de cine en España. ◀▶ cambia de carátula, ▲▼ EN CINES / PRÓXIMAMENTE, OK abre la ficha.
+- **PROFILE**: editar perfil, favoritas y orden, modo ligero (AUTO / SÍ / NO), cambiar o borrar perfil.
+- **Modo ligero**: si la tele no tiene 3D o va lenta (se mide al arrancar), carrusel plano, globo quieto y sin ruido.
+- **ATRÁS** vuelve a la sección anterior; solo sale de la app desde APPS.
+
+## Colores y tipografías
+
+Todos los colores están en el bloque `/* PALETA */` al principio del CSS de `index.html`.
+Las tipografías van en `assets/fonts` (familias `JoiDisplay` y `JoiMono`); mientras no estén, se usan Georgia y Courier.
+Logos en `assets/logos`.
+
+## Estrenos (NEWS WATCH)
+
+`.github/workflows/estrenos.yml` ejecuta `scripts/estrenos.js` cada 12 horas (y a mano desde Actions):
+pide a TMDB `now_playing` y `upcoming` de España y guarda `data/estrenos.json`. Necesita el secreto
+`TMDB_API_KEY` (Settings → Secrets and variables → Actions). Si falla, se conserva el archivo anterior.
 
 ## Letterboxd
 

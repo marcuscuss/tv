@@ -5,243 +5,462 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Joi</title>
 <!--
-  Joi · launcher para TV. Todo en este archivo: sin frameworks, sin build, sin librerías.
+  JOI · launcher para TV con estética de tele CRT / VHS.
+  Todo en este archivo + la carpeta /assets. Sin frameworks, sin build, sin librerías.
   JavaScript ES5 y CSS sin grid ni variables, para navegadores de TV antiguos (VIDAA, Fire TV).
-  Paleta Blade Runner 2049: negro profundo, rosa/violeta holográfico y cian.
 -->
 <style>
+/* ======================================================================
+   PALETA · todos los colores están aquí. Para cambiar uno, cambia su
+   línea (sin variables CSS: cada color agrupa los elementos que lo usan).
+     fondo        #0e0e0d  negro carbón
+     texto        #ece6d6  blanco hueso
+     texto-tenue  #858075
+     acento       #e1262d  rojo VHS
+     acento-2     #39d2e0  cian (solo aberración cromática)
+     lineas       rgba(236,230,214,.16)  (texto con transparencia)
+   ====================================================================== */
+/* fondo */
+html, body, #screen, .ov-solid, #loading, .key, .btn, .field, .opt, .aitem, .mitem, .panel, .pitem .poster,
+.tape .sleeve, .nw-card .pc, #detail, .tile .face.empty { background-color: #0e0e0d; }
+/* texto */
+body, .hnav, .tc, .ftr, .serif, .title, .tape .ttl, .tape-caption .desc, .key, .btn, .field, .opt, .aitem,
+.mitem, .pname, .hero-name, .sect, #detail, .nw-info .t, .lb-title, .prof-name, #toast { color: #ece6d6; }
+/* texto-tenue */
+.dim, .hints, .kicker, .flabel, .note, .tc-label, .ftr .muted, .tape-caption .cat, .pmeta.year, .lbempty,
+.nw-cats .cat, .nw-hint, .det-meta .k, .prof-info .k, .loading-pct .rest, .kb-hint, .sect .sinfo { color: #858075; }
+/* acento (texto) */
+.accent, .hnav.active .sq, .tape-caption .name, .play-tape, .nw-cats .cat.on, .loading-bar .on,
+.det-link, .btn.danger, .mitem.danger, .kmsg, .pmeta .heart, .vstat, .rec { color: #e1262d; }
+/* acento (fondos y bordes) */
+.acc-bg, .kdisp-caret, .loading-bar .head { background-color: #e1262d; }
+.btn.primary, .kdisp, .opt.sel, .swatch.sel { border-color: #e1262d; }
+/* acento-2 · aberración cromática */
+.ab-c { color: #39d2e0; }
+.ab-r { color: #e1262d; }
+/* lineas */
+.hdr .rule, .btn, .field, .opt, .key, .aitem, .mitem, .panel, .nw-rule, .det-rule, .prof-sep { border-color: rgba(236,230,214,.16); }
+/* foco (texto) */
+.btn.focus, .field.focus, .opt.focus, .key.focus, .aitem.focus, .mitem.focus, .hnav.focus, .pmenu .mitem.focus {
+  border-color: #ece6d6; background-color: #ece6d6; color: #0e0e0d; }
+
+/* ======================================================================
+   TIPOGRAFÍAS · las definitivas irán en /assets/fonts (JoiDisplay y JoiMono).
+   Mientras tanto: Georgia y Courier.
+   ====================================================================== */
+.serif, .title, .tape .ttl, .tape .band b, .hero-name, .nw-title, .det-title, .prof-name, .pname, .tape .vhs {
+  font-family: "JoiDisplay", Georgia, "Times New Roman", serif; }
+body, .mono { font-family: "JoiMono", "Courier New", Courier, monospace; }
+
+/* ======================================================================
+   BASE
+   ====================================================================== */
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
-html, body { width: 100%; height: 100%; overflow: hidden; background: #05040a; }
-body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.4vw; color: #f3eefc; }
-
-/* Lienzo 16:9 que escala con el ancho (1280, 1920...) */
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body { background-color: #050505; font-size: 1.05vw; letter-spacing: .06em; text-transform: uppercase; }
+img { border: 0; }
 #app { position: absolute; left: 0; top: 0; width: 100vw; height: 56.25vw; overflow: hidden; }
-.bg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #05040a;
-  background-repeat: no-repeat; -webkit-transition: opacity .4s; transition: opacity .4s; }
 
-.screen { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: none; }
-.screen.on { display: block; }
-.ov { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: none; z-index: 20;
-  background: rgba(3, 2, 8, .84); }
-.ov.on { display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center;
-  -webkit-justify-content: center; justify-content: center; }
+/* Monitor: esquinas muy redondeadas, marco y viñeteado */
+#screen { position: absolute; left: 1.2vw; top: 1.2vw; right: 1.2vw; bottom: 1.2vw; overflow: hidden;
+  border-radius: 3.4vw; box-shadow: 0 0 0 .35vw #161615, 0 0 2.4vw rgba(0,0,0,.9); }
+.bg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-repeat: no-repeat; opacity: .4; }
+
+/* Capas de la tele (encima de todo, sin filtros caros) */
+.fx { position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; z-index: 60; border-radius: 3.4vw; }
+.fx-scan { background-image: repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0, rgba(0,0,0,.22) 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 3px); }
+.fx-vig { background-image: radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 52%, rgba(0,0,0,.5) 80%, rgba(0,0,0,.92) 100%);
+  box-shadow: inset 0 0 3vw rgba(0,0,0,.9); }
+.fx-noise-wrap { overflow: hidden; }
+.fx-noise { position: absolute; left: -50%; top: -50%; width: 200%; height: 200%; opacity: .55;
+  background-image: url(assets/fx/noise.png); background-size: 18vw 18vw;
+  -webkit-animation: noise .45s steps(3) infinite; animation: noise .45s steps(3) infinite; }
+@-webkit-keyframes noise { 0% { -webkit-transform: translate(0,0); } 33% { -webkit-transform: translate(-3%,2%); } 66% { -webkit-transform: translate(2%,-3%); } 100% { -webkit-transform: translate(0,0); } }
+@keyframes noise { 0% { transform: translate(0,0); } 33% { transform: translate(-3%,2%); } 66% { transform: translate(2%,-3%); } 100% { transform: translate(0,0); } }
+.fx-flick { background-color: #fff; opacity: 0; -webkit-animation: flick 7s infinite; animation: flick 7s infinite; }
+@-webkit-keyframes flick { 0%, 94%, 100% { opacity: 0; } 95% { opacity: .025; } 96% { opacity: 0; } 97% { opacity: .02; } }
+@keyframes flick { 0%, 94%, 100% { opacity: 0; } 95% { opacity: .025; } 96% { opacity: 0; } 97% { opacity: .02; } }
+.lite .fx-noise-wrap, .lite .fx-flick { display: none; }
 
 /* Utilidades flex con prefijos */
-.row { display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row; -webkit-align-items: center; align-items: center; }
-.col { display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; }
+.row { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-flex-direction: row; flex-direction: row;
+  -webkit-align-items: center; align-items: center; }
+.col { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column; }
 .wrap { -webkit-flex-wrap: wrap; flex-wrap: wrap; }
 .grow { -webkit-flex: 1; flex: 1; }
 .center { -webkit-justify-content: center; justify-content: center; }
 .between { -webkit-justify-content: space-between; justify-content: space-between; }
 
+.screen { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: none; }
+.screen.on { display: block; }
+.ov { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: none; z-index: 30; background-color: rgba(8,8,7,.86); }
+.ov.on { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-align-items: center; align-items: center;
+  -webkit-justify-content: center; justify-content: center; }
+
 /* Textos */
-.kicker { font-size: 1.15vw; font-weight: 300; letter-spacing: .5em; text-transform: uppercase; color: #9a90bd; }
-.title { font-size: 3vw; font-weight: 200; letter-spacing: .32em; text-transform: uppercase; }
-.holo { color: #f3eefc; background: -webkit-linear-gradient(0deg, #ff4fd8, #b18cff 50%, #22e4ff);
-  background: linear-gradient(90deg, #ff4fd8, #b18cff 50%, #22e4ff);
-  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
-.dim { color: #8c84a8; }
-.hints { position: absolute; left: 0; right: 0; bottom: 2.2vw; text-align: center; font-size: 1.05vw;
-  letter-spacing: .25em; color: #7d7499; text-transform: uppercase; }
-
-/* Foco: brillo suave rosa + borde cian. Todo lo enfocable comparte estas reglas */
+.kicker { font-size: .95vw; letter-spacing: .35em; }
+.title { font-size: 4vw; font-weight: normal; letter-spacing: -.01em; text-transform: none; line-height: 1; }
+.hints { position: absolute; left: 0; right: 0; bottom: 5.4vw; text-align: center; font-size: .9vw; letter-spacing: .25em; }
 .focus { outline: none; }
-.btn, .field, .opt, .key, .mitem, .aitem {
-  border: .14vw solid rgba(177, 140, 255, .28); background: rgba(20, 14, 34, .72); border-radius: .6vw;
-  -webkit-transition: -webkit-transform .12s, box-shadow .12s; transition: transform .12s, box-shadow .12s; cursor: pointer; }
-.btn.focus, .field.focus, .opt.focus, .key.focus, .mitem.focus, .aitem.focus {
-  border-color: #22e4ff; background: rgba(34, 228, 255, .13); color: #fff;
-  box-shadow: 0 0 1.8vw rgba(255, 79, 216, .42), 0 0 .6vw rgba(34, 228, 255, .5); }
 
-/* ===== ¿Quién está viendo? ===== */
-#scr-who .head { position: absolute; left: 0; right: 0; top: 11vw; text-align: center; }
-#scr-who .head .title { margin-top: 1.2vw; }
-#who-list { position: absolute; left: 0; right: 0; top: 21vw; }
-.pcard { width: 16vw; margin: 0 .6vw; text-align: center; cursor: pointer; }
-.avatar { width: 9vw; height: 9vw; margin: 0 auto; border-radius: 50%; font-size: 4.2vw; font-weight: 700;
-  color: #0a0712; -webkit-transition: -webkit-transform .15s, box-shadow .15s; transition: transform .15s, box-shadow .15s; }
-.avatar.add { background: transparent; border: .18vw dashed #6e6491; color: #b9b0d6; font-weight: 200; }
-.pname { margin-top: 1.2vw; font-size: 1.5vw; letter-spacing: .12em; color: #b9b0d6; text-transform: uppercase;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.pcard.focus .avatar { -webkit-transform: scale(1.1); transform: scale(1.1);
-  box-shadow: 0 0 0 .25vw #22e4ff, 0 0 2.6vw rgba(255, 79, 216, .6); }
-.pcard.focus .pname { color: #fff; }
+/* Botones, campos, opciones (monoespaciada, marco fino; el foco se invierte) */
+.btn, .field, .opt, .key, .aitem, .mitem { border: .12vw solid; border-radius: .25vw; cursor: pointer;
+  -webkit-transition: background-color .12s, color .12s; transition: background-color .12s, color .12s; }
+.btn { display: inline-block; padding: .85vw 1.8vw; margin-right: 1vw; font-size: 1.05vw; letter-spacing: .22em; white-space: nowrap; }
+.btn.focus:before, .mitem.focus:before { content: "■ "; }
 
-/* ===== Editor de perfil ===== */
-#ed-preview { position: absolute; left: 5vw; top: 8vw; width: 24vw; text-align: center; }
-#ed-preview .avatar { width: 15vw; height: 15vw; font-size: 7vw; }
-#ed-preview .pname { font-size: 2vw; color: #fff; margin-top: 1.6vw; }
-#ed-preview .kicker { margin-bottom: 2.4vw; }
-#ed-form { position: absolute; left: 33vw; right: 4vw; top: 4vw; bottom: 6vw; overflow: hidden; padding: 1vw; }
-.frow { margin-bottom: 1.5vw; }
-.flabel { width: 11vw; -webkit-flex: none; flex: none; font-size: 1.05vw; letter-spacing: .3em; color: #9a90bd; }
-.field { padding: .9vw 1.4vw; font-size: 1.6vw; min-width: 20vw; letter-spacing: .06em; }
-.field .note { font-size: 1.05vw; color: #8c84a8; margin-left: 1vw; letter-spacing: .1em; }
-.swatch { width: 3.4vw; height: 3.4vw; border-radius: 50%; margin-right: 1vw; cursor: pointer; text-align: center;
-  line-height: 3.4vw; font-size: 1.6vw; color: #0a0712; font-weight: 700;
-  -webkit-transition: -webkit-transform .12s; transition: transform .12s; }
-.swatch.focus { -webkit-transform: scale(1.18); transform: scale(1.18); box-shadow: 0 0 0 .22vw #22e4ff, 0 0 1.6vw rgba(255, 79, 216, .6); }
-.opt { width: 9.4vw; margin-right: 1vw; padding: .5vw; text-align: center; font-size: 1vw; letter-spacing: .15em; }
-.opt .optprev { height: 3.6vw; border-radius: .4vw; margin-bottom: .5vw; background-size: cover; background-position: center; }
-.opt.sel, .swatch.sel { border-color: #ff4fd8; }
-.opt.sel .optname { color: #ff8ae6; }
-.btn { padding: 1vw 2.2vw; margin-right: 1.2vw; font-size: 1.35vw; letter-spacing: .25em; text-transform: uppercase; white-space: nowrap; }
-.btn.primary { border-color: rgba(255, 79, 216, .6); }
-.btn.danger { color: #ff7a93; border-color: rgba(255, 77, 109, .45); }
-.btn.danger.focus { background: rgba(255, 77, 109, .18); border-color: #ff4d6d; }
+/* ======================================================================
+   CABECERA Y PIE FIJOS
+   ====================================================================== */
+.hdr { position: absolute; left: 4.4vw; right: 4.4vw; top: 2.6vw; height: 4.6vw; z-index: 20; }
+.hdr .side { width: 34vw; }
+.hdr .side.right { -webkit-justify-content: flex-end; justify-content: flex-end; }
+.hnav { padding: .35vw .6vw; margin-right: 1.4vw; font-size: 1vw; letter-spacing: .1em; cursor: pointer; border: .1vw solid transparent; border-radius: .2vw; }
+.hdr .side.right .hnav { margin: 0 0 0 1.6vw; }
+.hnav .sq { visibility: hidden; margin-right: .5vw; }
+.hnav.active .sq { visibility: visible; }
+.tc { font-size: 1vw; letter-spacing: .12em; margin-left: 4vw; }
+.hlogo { position: absolute; left: 50%; top: -.2vw; width: 12vw; margin-left: -6vw; text-align: center; }
+.hlogo img { height: 2.6vw; display: block; margin: 0 auto; }
+.hlogo .year { margin-top: .55vw; font-size: .78vw; letter-spacing: .14em; }
+.hlogo .year i { display: inline-block; width: 3.6vw; height: 1px; vertical-align: middle; margin: 0 .5vw; border-top: 1px solid; }
+.hdr .rule { border-color: rgba(236,230,214,.3); }
 
-/* ===== Editor de apps ===== */
-#ae-list { position: absolute; left: 22vw; right: 22vw; top: 9vw; bottom: 6vw; overflow: hidden; padding: 1vw; }
-.aitem { padding: .45vw 1.2vw; margin-bottom: .6vw; font-size: 1.45vw; }
-.aitem .grip { width: 2.4vw; color: #6e6491; font-size: 1.6vw; }
-.aitem .achip { width: 5.2vw; height: 2.6vw; border-radius: .4vw; margin-right: 1.4vw; font-size: 1.05vw; font-weight: 800;
-  text-align: center; line-height: 2.6vw; overflow: hidden; }
-.aitem .astate { font-size: 1vw; letter-spacing: .25em; color: #22e4ff; }
-.aitem.off { opacity: .45; }
-.aitem.off .astate { color: #ff7a93; }
-.aitem.moving { border-color: #ff4fd8; background: rgba(255, 79, 216, .16);
-  -webkit-transform: translateX(1.4vw); transform: translateX(1.4vw); }
-.aitem.moving .grip { color: #ff4fd8; }
-#scr-apps .head { position: absolute; left: 0; right: 0; top: 3.6vw; text-align: center; }
+.ftr { position: absolute; left: 4.4vw; right: 4.4vw; bottom: 2.2vw; height: 1.6vw; z-index: 20; font-size: .85vw; letter-spacing: .1em; }
+.ftr .grp > span { margin-right: 4vw; white-space: nowrap; }
+.ftr .grp.right > span { margin: 0 0 0 4vw; }
 
-/* ===== Launcher ===== */
-.topbar { position: absolute; left: 0; right: 0; top: 0; height: 6.4vw; padding: 0 4vw; }
-.logo { font-size: 2.3vw; font-weight: 700; letter-spacing: .55em; }
-.clock { font-size: 1.9vw; font-weight: 300; letter-spacing: .12em; margin-right: 2vw; }
-.datew { text-align: right; margin-right: 2.4vw; }
-.datew .d { font-size: 1vw; letter-spacing: .3em; color: #9a90bd; }
-.datew .w { font-size: 1.15vw; letter-spacing: .12em; color: #d9d2f2; margin-top: .25vw; }
-.avbtn { width: 3.8vw; height: 3.8vw; border-radius: 50%; font-size: 1.7vw; font-weight: 700; color: #0a0712; cursor: pointer;
-  -webkit-transition: -webkit-transform .12s, box-shadow .12s; transition: transform .12s, box-shadow .12s; }
-.avbtn.focus { -webkit-transform: scale(1.12); transform: scale(1.12); box-shadow: 0 0 0 .22vw #22e4ff, 0 0 1.8vw rgba(255, 79, 216, .6); }
+.sec { position: absolute; left: 0; right: 0; top: 7.6vw; bottom: 4.6vw; display: none; overflow: hidden; }
+.sec.on { display: block; }
 
-#home-scroll { position: absolute; left: 0; right: 0; top: 6.4vw; bottom: 0; overflow: hidden; padding: 0 4vw 4vw; }
-.hero { padding: 2.2vw 0 .6vw; }
-.hero .hello { font-size: 1.5vw; font-weight: 300; letter-spacing: .7em; color: #c9c0e6; }
-.hero .name { font-size: 6.6vw; font-weight: 800; letter-spacing: .06em; line-height: 1.05; white-space: nowrap; }
-.sect { font-size: 1.05vw; letter-spacing: .45em; color: #8c84a8; margin: 2vw 0 1.3vw; text-transform: uppercase; }
-.sect .sinfo { letter-spacing: .12em; color: #22e4ff; text-transform: none; font-size: 1.15vw; }
+/* ======================================================================
+   TRANSICIÓN "LOADING"
+   ====================================================================== */
+#loading { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 50; display: none; }
+#loading.on { display: block; }
+#loading .box { position: absolute; left: 0; right: 0; top: 50%; margin-top: -2.6vw; text-align: center; }
+#loading .word { font-size: 1.2vw; letter-spacing: .5em; margin-bottom: 1.2vw; }
+.loading-bar { font-size: 1.5vw; letter-spacing: .05em; white-space: nowrap; }
+.loading-bar .off { color: #2c2b28; }
+.loading-pct { font-size: .95vw; letter-spacing: .3em; margin-top: 1vw; }
+/* Bandas de "tracking" del vídeo, como al rebobinar */
+.track { position: absolute; left: 0; right: 0; height: 2.2vw; background-color: rgba(236,230,214,.06);
+  border-top: 1px solid rgba(236,230,214,.1); -webkit-animation: track .7s linear infinite; animation: track .7s linear infinite; }
+.track.t2 { height: 1vw; -webkit-animation-duration: .45s; animation-duration: .45s; -webkit-animation-delay: -.2s; animation-delay: -.2s; }
+@-webkit-keyframes track { from { -webkit-transform: translateY(-3vw); } to { -webkit-transform: translateY(56vw); } }
+@keyframes track { from { transform: translateY(-3vw); } to { transform: translateY(56vw); } }
+.lite .track { display: none; }
 
-/* Tarjetas de apps estilo Apple TV */
-#grid { width: 92vw; }
-.tile { position: relative; width: 16.4vw; height: 9.2vw; margin: 0 1.6vw 2.8vw 0; border-radius: .9vw; cursor: pointer;
-  -webkit-transition: -webkit-transform .14s, box-shadow .14s; transition: transform .14s, box-shadow .14s; }
-.tile .face { position: absolute; left: 0; top: 0; width: 100%; height: 100%; border-radius: .9vw; overflow: hidden;
-  box-shadow: inset 0 0 0 .1vw rgba(255, 255, 255, .12); }
-.tile .tlabel { font-size: 2.1vw; font-weight: 800; letter-spacing: -.01em; white-space: nowrap; }
-.tile .tlabel.long { font-size: 1.6vw; }
-.tile .logo-img { width: 72%; height: 56%; object-fit: contain; }
-.tile .logo-img.white { -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1); }
-.tile .ico-img { height: 62%; width: auto; max-width: 70%; object-fit: contain; border-radius: .6vw; }
-.tile .ban-img { width: 100%; height: 100%; object-fit: cover; }
-.tile .under { position: absolute; left: 0; right: 0; top: 100%; margin-top: .7vw; text-align: center;
-  font-size: 1.15vw; letter-spacing: .3em; text-transform: uppercase; color: #fff; visibility: hidden; }
-.tile.focus { -webkit-transform: scale(1.08); transform: scale(1.08); z-index: 2; }
-.tile.focus .face { box-shadow: 0 0 0 .25vw #22e4ff, 0 0 2.4vw rgba(255, 79, 216, .55); }
-.tile.focus .under { visibility: visible; }
-
-/* Letterboxd */
-.lbrow { overflow: hidden; padding: 1vw .8vw 1.6vw; margin: 0 -.8vw; white-space: nowrap; }
-.poster { display: inline-block; position: relative; width: 9vw; height: 13.5vw; margin-right: 1.3vw; border-radius: .5vw;
-  overflow: hidden; background: #140f22; vertical-align: top; cursor: pointer;
-  -webkit-transition: -webkit-transform .14s, box-shadow .14s; transition: transform .14s, box-shadow .14s; }
-.poster img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; }
-.poster .pt { position: absolute; left: 0; right: 0; top: 40%; padding: 0 .6vw; text-align: center; white-space: normal;
-  font-size: 1vw; color: #8c84a8; }
-.poster.focus { -webkit-transform: scale(1.08); transform: scale(1.08); box-shadow: 0 0 0 .22vw #22e4ff, 0 0 2vw rgba(255, 79, 216, .55); }
-.lbempty { font-size: 1.2vw; letter-spacing: .3em; color: #6e6491; padding: 2vw 0; }
-
-/* ===== Overlays ===== */
-.panel { background: #0c0917; border: .14vw solid rgba(177, 140, 255, .35); border-radius: 1vw; padding: 2.4vw 2.8vw;
-  box-shadow: 0 0 4vw rgba(255, 79, 216, .18); }
-#menu .panel { position: absolute; right: 4vw; top: 6.6vw; width: 26vw; padding: 1.4vw; }
-#menu .mhead { padding: .4vw .6vw 1.2vw; }
-#menu .mhead .avatar { width: 3.4vw; height: 3.4vw; font-size: 1.6vw; margin: 0 1vw 0 0; }
-.mitem { padding: 1vw 1.4vw; margin-bottom: .7vw; font-size: 1.35vw; letter-spacing: .14em; }
-.mitem.danger { color: #ff7a93; }
-#confirm .panel { width: 46vw; text-align: center; }
-#confirm .ctitle { font-size: 2vw; font-weight: 300; letter-spacing: .1em; margin-bottom: 1vw; }
-#confirm .cmsg { color: #9a90bd; margin-bottom: 2.4vw; }
-#confirm .btn { margin: 0 .6vw; }
-
-/* Teclado en pantalla */
-#kb .panel { width: 74vw; }
-#kb .ktitle { font-size: 1.05vw; letter-spacing: .4em; color: #9a90bd; margin-bottom: .8vw; text-transform: uppercase; }
-#kb .kdisp { font-size: 2.6vw; letter-spacing: .08em; padding: .8vw 1.2vw; margin-bottom: 1.6vw; min-height: 4.6vw;
-  border-bottom: .14vw solid #ff4fd8; white-space: nowrap; overflow: hidden; }
-#kb .kdisp.url { font-size: 1.7vw; letter-spacing: .02em; line-height: 2.9vw; }
-#kb .caret { display: inline-block; width: .2vw; height: 2.4vw; background: #22e4ff; margin-left: .2vw; vertical-align: middle;
-  -webkit-animation: blink 1s steps(1) infinite; animation: blink 1s steps(1) infinite; }
+/* ======================================================================
+   APPS · carrusel de cintas VHS
+   ====================================================================== */
+#sec-apps { overflow: hidden; }
+.car { position: relative; height: 32vw; margin-top: 1.4vw; -webkit-perspective: 110vw; perspective: 110vw; cursor: pointer; }
+.tape { position: absolute; left: 50%; top: 2.6vw; width: 19vw; height: 28.5vw; margin-left: -9.5vw;
+  -webkit-transition: -webkit-transform .5s cubic-bezier(.2,.7,.2,1), opacity .5s; transition: transform .5s cubic-bezier(.2,.7,.2,1), opacity .5s;
+  -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; }
+.tape.off { visibility: hidden; }
+/* Cinta asomando por arriba (solo la enfocada) */
+.tape .cass { position: absolute; left: 9%; right: 9%; top: -2.5vw; height: 3.2vw; border-radius: .5vw .5vw 0 0;
+  background-color: #141413; border: .1vw solid #262624; opacity: 0; -webkit-transition: opacity .4s; transition: opacity .4s; }
+.tape .cass .win { position: absolute; left: 28%; right: 28%; top: .5vw; height: 1.6vw; border-radius: .7vw;
+  background-image: linear-gradient(180deg, #4a4945, #22211f); }
+.tape .cass .reel { position: absolute; top: .55vw; width: 1.5vw; height: 1.5vw; border-radius: 50%; border: .25vw solid #2e2d2a; }
+.tape .cass .reel.l { left: 9%; } .tape .cass .reel.r { right: 9%; }
+.tape.f .cass { opacity: 1; }
+.tape .sleeve { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; border-radius: .25vw;
+  box-shadow: 0 1.6vw 3vw rgba(0,0,0,.7);
+  background-image: linear-gradient(160deg, rgba(255,255,255,.05), rgba(255,255,255,0) 40%, rgba(0,0,0,.25)); }
+.tape .inner { position: absolute; left: 6%; right: 6%; top: 3.5%; bottom: 3.5%; text-align: center; }
+.tape .band { padding: .45vw 0 .5vw; border-top: .12vw solid; border-bottom: .12vw solid; opacity: .9; }
+.tape .band img { height: .7vw; display: block; margin: 0 auto .2vw; }
+.tape .band b { font-weight: normal; font-size: 1.35vw; letter-spacing: -.01em; text-transform: none; }
+.tape .ttl { margin: .9vw 0 .7vw; height: 7.4vw; overflow: hidden; line-height: .9; letter-spacing: -.02em; }
+.tape .ttl span { display: inline-block; -webkit-transform: scale(.78, 1.3); transform: scale(.78, 1.3);
+  -webkit-transform-origin: 50% 0; transform-origin: 50% 0; white-space: nowrap; margin: 0 -8vw; }
+.tape .art { position: relative; height: 11vw; margin: 0 7%; border: .14vw solid; overflow: hidden; }
+.tape .art .dots { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: .55; background-size: .55vw .55vw; }
+.tape .art .big { position: absolute; left: 0; right: 0; top: 50%; margin-top: -4.6vw; font-size: 8vw; line-height: 1;
+  font-family: "JoiDisplay", Georgia, serif; text-transform: none; }
+.tape .foot { position: absolute; left: 0; right: 0; bottom: .2vw; }
+.tape .vhs { font-size: 1.15vw; padding: 0 .3vw; border: .12vw solid; letter-spacing: 0; }
+.tape .yr { font-size: .8vw; font-family: Georgia, serif; }
+.tape .reelic { width: 2.6vw; height: 1.6vw; }
+.tape .wear { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(assets/fx/wear.png);
+  background-size: 100% 100%; opacity: .85; pointer-events: none; }
+.tape .shade { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; opacity: 0;
+  -webkit-transition: opacity .5s; transition: opacity .5s; pointer-events: none; }
+.play-tape { position: absolute; left: 50%; top: 27.2vw; width: 11vw; margin-left: -5.5vw; text-align: center; font-size: .95vw; letter-spacing: .1em; z-index: 30;
+  padding: .35vw 0; background-color: rgba(14,14,13,.92); border: .1vw solid #e1262d;
+  -webkit-transition: opacity .25s; transition: opacity .25s; }
+.play-tape.hide { opacity: 0; }
+.car.focus .play-tape:after { content: "_"; -webkit-animation: blink 1s steps(1) infinite; animation: blink 1s steps(1) infinite; }
 @-webkit-keyframes blink { 50% { opacity: 0; } }
 @keyframes blink { 50% { opacity: 0; } }
-.krow { margin-bottom: .6vw; }
-.key { width: 6vw; height: 3.9vw; margin: 0 .3vw; font-size: 1.7vw; text-align: center; line-height: 3.6vw; }
-.key.wide { width: 15vw; font-size: 1.2vw; letter-spacing: .2em; }
-.key.ok { border-color: rgba(255, 79, 216, .6); }
-#kb .khint { margin-top: 1vw; font-size: .95vw; letter-spacing: .25em; color: #6e6491; text-align: center; }
-#kb .kmsg { color: #ff7a93; font-size: 1.05vw; letter-spacing: .15em; height: 1.4vw; }
+.tape-caption { text-align: center; margin-top: 1.8vw; height: 6vw; -webkit-transition: opacity .2s; transition: opacity .2s; }
+.tape-caption .name { font-size: .95vw; letter-spacing: .14em; margin-bottom: .6vw; }
+.tape-caption .desc { font-size: 1.2vw; letter-spacing: .08em; line-height: 1.35; width: 30vw; margin: 0 auto; }
+.tape-caption .cat { font-size: .85vw; margin-top: .5vw; letter-spacing: .14em; }
+.car-hint { position: absolute; left: 4.4vw; top: 15vw; font-size: .85vw; letter-spacing: .2em; }
+.car-hint.r { left: auto; right: 4.4vw; }
 
-/* Ficha de película */
-#film .panel { padding: 2.4vw; }
-#film .fposter { width: 19vw; height: 28.5vw; border-radius: .6vw; object-fit: cover; background: #140f22; margin-right: 3vw; }
-#film .finfo { width: 36vw; }
-#film .ftitle { font-size: 3.4vw; font-weight: 800; line-height: 1.05; margin: .8vw 0 .6vw; }
-#film .fyear { font-size: 1.6vw; color: #9a90bd; }
-#film .fstars { font-size: 3vw; letter-spacing: .15em; color: #22e4ff; margin: 1.4vw 0 1vw; }
-#film .fmeta { font-size: 1.15vw; letter-spacing: .2em; color: #d9d2f2; }
-#film .btn { margin-top: 2.6vw; }
+/* Filas de Letterboxd */
+#lb-rows { padding: 0 4.4vw 2vw; }
+.sect { font-size: .95vw; letter-spacing: .3em; margin: 2.2vw 0 1vw; }
+.sect .sinfo { letter-spacing: .1em; }
+.lbrow { position: relative; overflow: hidden; padding: 1vw .8vw 1.4vw; margin: 0 -.8vw; white-space: nowrap; }
+.pitem { display: inline-block; width: 8.6vw; margin-right: 1.2vw; vertical-align: top; cursor: pointer; white-space: normal; }
+.pitem .poster { position: relative; width: 8.6vw; height: 12.9vw; overflow: hidden; border-radius: .2vw;
+  -webkit-transition: -webkit-transform .14s; transition: transform .14s; }
+.pitem .poster img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; }
+.pitem .poster .pt { position: absolute; left: 0; right: 0; top: 38%; padding: 0 .5vw; text-align: center; font-size: .8vw; color: #858075; }
+.pitem.focus .poster { -webkit-transform: scale(1.08); transform: scale(1.08); box-shadow: 0 0 0 .18vw #ece6d6, 0 0 2vw rgba(236,230,214,.25); }
+.pmeta { margin-top: .9vw; height: 1.4vw; font-size: .9vw; letter-spacing: .06em; white-space: nowrap; overflow: hidden; text-align: center; }
+.pmeta .heart { margin-left: .3vw; }
+.lbempty { font-size: .95vw; letter-spacing: .25em; padding: 1.4vw 0; }
 
-/* Filas de Letterboxd: carátulas 2:3 con estrellas y corazón debajo */
-.lbsect .sect { margin-top: 1.6vw; }
-.lbrow { position: relative; }
-.pitem { display: inline-block; width: 9vw; margin-right: 1.3vw; vertical-align: top; cursor: pointer; white-space: normal; }
-.pitem .poster { display: block; margin: 0; width: 9vw; height: 13.5vw; }
-.pitem.focus .poster { -webkit-transform: scale(1.08); transform: scale(1.08); box-shadow: 0 0 0 .22vw #22e4ff, 0 0 2vw rgba(255, 79, 216, .55); }
-.pmeta { margin-top: 1vw; height: 1.5vw; font-size: 1.1vw; letter-spacing: .08em; color: #22e4ff; white-space: nowrap; overflow: hidden; text-align: center; }
-.pmeta .heart { color: #ff4fd8; margin-left: .4vw; }
-.pmeta.year { color: #8c84a8; }
+/* ======================================================================
+   NEWS WATCH
+   ====================================================================== */
+#globe { position: absolute; left: 50%; top: 50%; width: 30vw; height: 30vw; margin: -16vw 0 0 -15vw; }
+.nw-title { position: absolute; left: 0; right: 0; top: 50%; margin-top: -5.2vw; text-align: center; white-space: nowrap; z-index: 4;
+  -webkit-transition: -webkit-transform .9s cubic-bezier(.2,.7,.2,1); transition: transform .9s cubic-bezier(.2,.7,.2,1); }
+.nw-title .lyr { display: block; font-size: 8.4vw; line-height: 1; letter-spacing: -.02em; text-transform: none; }
+.nw-title .lyr.ab-r, .nw-title .lyr.ab-c { position: absolute; left: 0; right: 0; top: 0; opacity: .75; }
+.nw-title .lyr.ab-r { -webkit-transform: translate(-.35vw, 0); transform: translate(-.35vw, 0); }
+.nw-title .lyr.ab-c { -webkit-transform: translate(.35vw, .1vw); transform: translate(.35vw, .1vw); }
+.nw-title.up { -webkit-transform: translate(-37.4vw, -14.2vw) scale(.38); transform: translate(-37.4vw, -14.2vw) scale(.38); }
+.nw-cats { position: absolute; left: 4.4vw; top: 10.4vw; font-size: .95vw; letter-spacing: .14em; z-index: 6; opacity: 0;
+  -webkit-transition: opacity .5s .4s; transition: opacity .5s .4s; }
+.nw-cats .cat { display: block; margin-bottom: .45vw; }
+.nw-cats .cat.on:before { content: "■ "; }
+.nw-hint { position: absolute; right: 4.4vw; top: 10.4vw; text-align: right; line-height: 1.7; font-size: .8vw; letter-spacing: .2em; z-index: 6;
+  opacity: 0; -webkit-transition: opacity .5s .4s; transition: opacity .5s .4s; }
+.nw-ring { position: absolute; left: 50%; top: 50%; width: 0; height: 0; z-index: 5; }
+.nw-card { position: absolute; left: -4.2vw; top: -6.3vw; width: 8.4vw; height: 12.6vw; opacity: 0;
+  -webkit-transition: -webkit-transform .6s cubic-bezier(.2,.7,.2,1), opacity .6s; transition: transform .6s cubic-bezier(.2,.7,.2,1), opacity .6s; }
+.nw-card .bob { width: 100%; height: 100%; -webkit-animation: bob 5s ease-in-out infinite; animation: bob 5s ease-in-out infinite; }
+@-webkit-keyframes bob { 50% { -webkit-transform: translateY(-.7vw); } }
+@keyframes bob { 50% { transform: translateY(-.7vw); } }
+.lite .nw-card .bob { -webkit-animation: none; animation: none; }
+.nw-card .pc { position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: .2vw; box-shadow: 0 1vw 2vw rgba(0,0,0,.6); }
+.nw-card .pc img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; }
+.nw-card .pc .pt { position: absolute; left: 0; right: 0; top: 38%; padding: 0 .5vw; text-align: center; font-size: .75vw; color: #858075; }
+.nw-card .shade { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; pointer-events: none;
+  -webkit-transition: opacity .6s; transition: opacity .6s; }
+.nw-card.f .pc { box-shadow: 0 0 0 .15vw #ece6d6, 0 0 3vw rgba(236,230,214,.3); }
+.nw-info { position: absolute; left: 0; right: 0; bottom: 3.8vw; text-align: center; z-index: 6; opacity: 0;
+  -webkit-transition: opacity .3s; transition: opacity .3s; }
+.nw-info .t { font-size: 2.1vw; letter-spacing: -.01em; text-transform: none; }
+.nw-info .m { margin-top: .5vw; font-size: .9vw; letter-spacing: .14em; }
+.news-ready .nw-cats, .news-ready .nw-info, .news-ready .nw-hint { opacity: 1; }
+.nw-empty { position: absolute; left: 0; right: 0; top: 64%; text-align: center; font-size: .95vw; letter-spacing: .2em; z-index: 6; }
+.nw-tick { position: absolute; left: 0; right: 0; bottom: 0; height: 2.2vw; overflow: hidden; white-space: nowrap; z-index: 6;
+  border-top: .1vw solid rgba(236,230,214,.16); padding-top: .55vw; font-size: .9vw; letter-spacing: .14em; }
+.nw-tick .tt { display: inline-block; padding-left: 100%; -webkit-animation: tick 60s linear infinite; animation: tick 60s linear infinite; }
+@-webkit-keyframes tick { from { -webkit-transform: translateX(0); } to { -webkit-transform: translateX(-100%); } }
+@keyframes tick { from { transform: translateX(0); } to { transform: translateX(-100%); } }
 
-/* "Todas las apps" en la fila de favoritas */
-.tile.all .face { background: rgba(20, 14, 34, .75); border: .16vw dashed rgba(177, 140, 255, .55); box-shadow: none; }
-.tile.all .face { -webkit-flex-direction: column; flex-direction: column; }
-.tile.all .face .plus { font-size: 2.4vw; font-weight: 200; color: #b18cff; line-height: 1; margin-bottom: .5vw; }
-.tile.all .face .tlabel { font-size: 1.1vw; font-weight: 400; letter-spacing: .18em; text-transform: uppercase; color: #d9d2f2; }
-#film .fstars .heart { color: #ff4fd8; margin-left: .6vw; }
+/* Detalle (estreno o película de Letterboxd), como el layout de la referencia */
+#detail { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 35; display: none; }
+#detail.on { display: block; }
+#detail .img { position: absolute; right: 0; top: 0; bottom: 0; width: 52%; background-size: cover; background-position: center;
+  background-color: #151514; }
+#detail .img.poster { background-size: contain; background-repeat: no-repeat; }
+#detail .img .fade { position: absolute; left: 0; top: 0; bottom: 0; width: 30%;
+  background-image: linear-gradient(90deg, #0e0e0d, rgba(14,14,13,0)); }
+#detail .left { position: absolute; left: 6vw; top: 10vw; width: 38vw; }
+.det-meta .cell { display: inline-block; vertical-align: top; margin: 0 3.6vw 1.4vw 0; font-size: .85vw; letter-spacing: .1em; font-style: italic; }
+.det-meta .k { display: block; margin-bottom: .35vw; }
+.det-title { font-size: 3.6vw; line-height: 1.02; letter-spacing: -.02em; text-transform: none; margin: 2.2vw 0 1.6vw; }
+.det-title i { font-style: italic; }
+.det-text { font-size: .95vw; line-height: 1.55; letter-spacing: .04em; max-height: 9.6vw; overflow: hidden; }
+.det-link { display: inline-block; margin-top: 1.6vw; font-size: .95vw; letter-spacing: .12em; padding: .4vw .6vw; border: .1vw solid transparent; }
+.det-link.focus { border-color: #ece6d6; }
 
-/* Pantalla "Todas las apps": filas de 6 con inline-block */
-#scr-all .head { position: absolute; left: 0; right: 0; top: 3.4vw; text-align: center; }
-#all-grid { position: absolute; left: 4.6vw; right: 4vw; top: 9.6vw; bottom: 5.6vw; overflow: hidden; padding: 1.2vw .8vw; }
-.tile.small { display: inline-block; vertical-align: top; width: 13.6vw; height: 7.6vw; margin: 0 1.2vw 2.8vw 0; }
-.tile.small .tlabel { font-size: 1.55vw; }
-.tile.small .tlabel.long { font-size: 1.2vw; }
-.tile .fav-badge { position: absolute; right: .55vw; top: .35vw; z-index: 3; font-size: 1.35vw; color: #ffd84f;
-  text-shadow: 0 0 .5vw rgba(0, 0, 0, .9); }
+/* ======================================================================
+   PROFILE
+   ====================================================================== */
+.prof { position: absolute; left: 6vw; right: 38vw; top: 3vw; }
+.prof-av { width: 10vw; height: 10vw; border-radius: 50%; font-size: 5vw; color: #0e0e0d; margin-right: 3vw;
+  font-family: "JoiDisplay", Georgia, serif; text-transform: none; }
+.prof-name { font-size: 6vw; line-height: 1; letter-spacing: -.02em; text-transform: none; }
+.prof-info { margin-top: 3vw; }
+.prof-info .cell { display: inline-block; vertical-align: top; margin: 0 4vw 1.4vw 0; font-size: .95vw; letter-spacing: .1em; }
+.prof-info .k { display: block; margin-bottom: .4vw; font-style: italic; }
+.pmenu { position: absolute; right: 6vw; top: 3vw; width: 28vw; }
+.pmenu .mitem { padding: 1vw 1.4vw; margin-bottom: .8vw; font-size: 1vw; letter-spacing: .16em; }
 
-/* Ficha: reseña */
-#film .freview { max-height: 11vw; overflow: hidden; margin-top: 1.4vw; font-size: 1.2vw; line-height: 1.55; color: #d9d2f2;
-  white-space: pre-line; }
-#film .fhint { margin: 2.6vw 0 0 1.4vw; font-size: .95vw; letter-spacing: .2em; }
+/* ======================================================================
+   ¿QUIÉN ESTÁ VIENDO? · EDITOR · APPS · TODAS LAS APPS · TECLADO
+   ====================================================================== */
+#scr-who .head { position: absolute; left: 0; right: 0; top: 10vw; text-align: center; }
+#scr-who .head img { height: 2.4vw; display: block; margin: 0 auto 2vw; }
+#who-list { position: absolute; left: 0; right: 0; top: 22vw; }
+.pcard { width: 15vw; margin: 0 .6vw; text-align: center; cursor: pointer; }
+.avatar { width: 9vw; height: 9vw; margin: 0 auto; border-radius: 50%; font-size: 4.2vw; color: #0e0e0d;
+  font-family: "JoiDisplay", Georgia, serif; text-transform: none;
+  -webkit-transition: -webkit-transform .15s, box-shadow .15s; transition: transform .15s, box-shadow .15s; }
+.avatar.add { background: transparent; border: .14vw dashed #858075; color: #858075; }
+.pname { margin-top: 1.2vw; font-size: 1.6vw; text-transform: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pcard.focus .avatar { -webkit-transform: scale(1.08); transform: scale(1.08); box-shadow: 0 0 0 .22vw #ece6d6, 0 0 2.4vw rgba(236,230,214,.3); }
+.pcard.focus .pname:before { content: "■ "; color: #e1262d; font-size: .8em; }
 
-#toast { position: absolute; left: 50%; bottom: 4vw; width: 40vw; margin-left: -20vw; text-align: center; z-index: 40;
-  padding: 1vw 1.4vw; font-size: 1.3vw; letter-spacing: .12em; border-radius: .6vw; background: #140f22;
-  border: .14vw solid #ff4fd8; box-shadow: 0 0 2vw rgba(255, 79, 216, .4); display: none; }
+#ed-preview { position: absolute; left: 5vw; top: 9vw; width: 24vw; text-align: center; }
+#ed-preview .avatar { width: 14vw; height: 14vw; font-size: 7vw; }
+#ed-preview .pname { font-size: 2.4vw; margin-top: 1.6vw; }
+#ed-preview .kicker { margin-bottom: 2.4vw; }
+#ed-form { position: absolute; left: 33vw; right: 4vw; top: 6vw; bottom: 7vw; overflow: hidden; padding: 1vw; }
+.frow { margin-bottom: 1.3vw; }
+.flabel { width: 11vw; -webkit-flex: none; flex: none; font-size: .9vw; letter-spacing: .3em; }
+.field { padding: .8vw 1.3vw; font-size: 1.2vw; min-width: 20vw; letter-spacing: .08em; }
+.field .note { font-size: .8vw; margin-left: 1vw; letter-spacing: .14em; }
+.swatch { width: 3vw; height: 3vw; border-radius: 50%; margin-right: .9vw; cursor: pointer; text-align: center; border: .14vw solid transparent;
+  line-height: 2.7vw; font-size: 1.3vw; color: #0e0e0d; -webkit-transition: -webkit-transform .12s; transition: transform .12s; }
+.swatch.focus { -webkit-transform: scale(1.18); transform: scale(1.18); box-shadow: 0 0 0 .2vw #ece6d6; }
+.opt { width: 8.6vw; margin-right: .9vw; padding: .45vw; text-align: center; font-size: .8vw; letter-spacing: .15em; }
+.opt .optprev { height: 3.2vw; border-radius: .2vw; margin-bottom: .45vw; background-size: cover; background-position: center; }
+.btn.primary.focus { background-color: #e1262d; border-color: #e1262d; color: #ece6d6; }
+.btn.danger.focus, .mitem.danger.focus { background-color: #e1262d; border-color: #e1262d; color: #0e0e0d; }
+
+#scr-apps .head, #scr-all .head { position: absolute; left: 0; right: 0; top: 4.6vw; text-align: center; }
+#scr-apps .title, #scr-all .title { font-size: 3vw; margin-top: .6vw; }
+#ae-list { position: absolute; left: 22vw; right: 22vw; top: 11vw; bottom: 8vw; overflow: hidden; padding: 1vw; }
+.aitem { padding: .45vw 1.2vw; margin-bottom: .55vw; font-size: 1.15vw; }
+.aitem .grip { width: 2.4vw; }
+.aitem .achip { width: 5vw; height: 2.4vw; border-radius: .25vw; margin-right: 1.4vw; font-size: .8vw; text-transform: none;
+  text-align: center; line-height: 2.4vw; overflow: hidden; font-family: Georgia, serif; }
+.aitem .astate { font-size: .85vw; letter-spacing: .2em; }
+.aitem.off { opacity: .45; }
+.aitem.moving { border-color: #e1262d; -webkit-transform: translateX(1.2vw); transform: translateX(1.2vw); }
+
+#all-grid { position: absolute; left: 5vw; right: 4vw; top: 11vw; bottom: 7vw; overflow: hidden; padding: 1vw .8vw; }
+.tile { position: relative; display: inline-block; vertical-align: top; width: 13.6vw; height: 7.6vw; margin: 0 1.2vw 2.6vw 0;
+  border-radius: .4vw; cursor: pointer; -webkit-transition: -webkit-transform .14s; transition: transform .14s; }
+.tile .face { position: absolute; left: 0; top: 0; width: 100%; height: 100%; border-radius: .4vw; overflow: hidden;
+  box-shadow: inset 0 0 0 .1vw rgba(255,255,255,.12); }
+.tile .tlabel { font-size: 1.5vw; font-weight: bold; text-transform: none; letter-spacing: 0; white-space: nowrap; font-family: Arial, sans-serif; }
+.tile .tlabel.long { font-size: 1.15vw; }
+.tile .logo-img { width: 72%; height: 56%; object-fit: contain; }
+.tile .logo-img.white { -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1); }
+.tile .ico-img { height: 62%; width: auto; max-width: 70%; object-fit: contain; border-radius: .4vw; }
+.tile .ban-img { width: 100%; height: 100%; object-fit: cover; }
+.tile .under { position: absolute; left: 0; right: 0; top: 100%; margin-top: .6vw; text-align: center; font-size: .85vw;
+  letter-spacing: .2em; visibility: hidden; }
+.tile .fav-badge { position: absolute; right: .5vw; top: .3vw; z-index: 3; font-size: 1.2vw; color: #e1262d; text-shadow: 0 0 .4vw rgba(0,0,0,.9); }
+.tile.focus { -webkit-transform: scale(1.08); transform: scale(1.08); z-index: 2; }
+.tile.focus .face { box-shadow: 0 0 0 .2vw #ece6d6, 0 0 2vw rgba(236,230,214,.3); }
+.tile.focus .under { visibility: visible; }
+
+/* Ventanas (teclado, confirmación) */
+.panel { border: .12vw solid; border-radius: .4vw; padding: 2.4vw 2.8vw; box-shadow: 0 0 4vw rgba(0,0,0,.8); }
+#confirm .panel { width: 46vw; text-align: center; }
+#confirm .ctitle { font-size: 2.4vw; text-transform: none; margin-bottom: 1vw; font-family: "JoiDisplay", Georgia, serif; }
+#confirm .cmsg { margin-bottom: 2.2vw; font-size: .95vw; line-height: 1.5; color: #858075; }
+#kb .panel { width: 72vw; }
+#kb .ktitle { font-size: .9vw; letter-spacing: .35em; margin-bottom: .8vw; color: #858075; }
+.kdisp { font-size: 2.4vw; letter-spacing: .08em; padding: .6vw 1vw; margin-bottom: 1.4vw; min-height: 4.2vw;
+  border-bottom: .14vw solid; white-space: nowrap; overflow: hidden; text-transform: none; }
+.kdisp.url { font-size: 1.5vw; line-height: 2.8vw; }
+.kdisp-caret { display: inline-block; width: .9vw; height: .2vw; margin-left: .2vw; vertical-align: baseline;
+  -webkit-animation: blink 1s steps(1) infinite; animation: blink 1s steps(1) infinite; }
+.krow { margin-bottom: .55vw; }
+.key { width: 5.8vw; height: 3.7vw; margin: 0 .28vw; font-size: 1.5vw; text-align: center; line-height: 3.45vw; text-transform: none; }
+.key.wide { width: 14vw; font-size: 1vw; letter-spacing: .2em; text-transform: uppercase; }
+.kb-hint { margin-top: 1vw; font-size: .85vw; letter-spacing: .25em; text-align: center; }
+.kmsg { font-size: .95vw; letter-spacing: .14em; height: 1.4vw; }
+
+#toast { position: absolute; left: 50%; bottom: 6vw; width: 42vw; margin-left: -21vw; text-align: center; z-index: 55;
+  padding: .9vw 1.2vw; font-size: .95vw; letter-spacing: .14em; border: .12vw solid #e1262d; background-color: #0e0e0d; display: none; }
 </style>
 </head>
 <body>
 <div id="app">
+ <div id="screen">
   <div id="bg" class="bg"></div>
 
-  <!-- ¿Quién está viendo? -->
+  <!-- ===================== MARCO PRINCIPAL (APPS · NEWS WATCH · PROFILE) ===================== -->
+  <section id="scr-main" class="screen">
+    <header class="hdr row between">
+      <div class="side row">
+        <div class="hnav" id="h-home"><span class="sq">■</span>HOME</div>
+        <div class="tc" id="timecode">00:00:00</div>
+      </div>
+      <div class="hlogo">
+        <img src="assets/logos/joi.png" alt="JOI">
+        <div class="year"><span>YEAR</span><i class="rule"></i><span>2026</span></div>
+      </div>
+      <div class="side right row">
+        <div class="hnav" id="h-apps"><span class="sq">■</span>APPS</div>
+        <div class="hnav" id="h-news"><span class="sq">■</span>NEWS WATCH</div>
+        <div class="hnav" id="h-profile"><span class="sq">■</span>PROFILE</div>
+      </div>
+    </header>
+
+    <!-- APPS -->
+    <section id="sec-apps" class="sec scroller">
+      <div class="car" id="car">
+        <div class="car-hint dim">◀</div><div class="car-hint r dim">▶</div>
+        <div id="tapes"></div>
+        <div class="play-tape" id="play-tape">[PLAY TAPE]</div>
+      </div>
+      <div class="tape-caption" id="tape-caption">
+        <div class="name" id="tc-name"></div>
+        <div class="desc" id="tc-desc"></div>
+        <div class="cat" id="tc-cat"></div>
+      </div>
+      <div id="lb-rows"></div>
+    </section>
+
+    <!-- NEWS WATCH -->
+    <section id="sec-news" class="sec">
+      <canvas id="globe"></canvas>
+      <div class="nw-title serif" id="nw-title">
+        <span class="lyr ab-r">News Watch</span><span class="lyr ab-c">News Watch</span><span class="lyr">News Watch</span>
+      </div>
+      <div class="nw-cats" id="nw-cats">
+        <span class="cat" id="nw-c0">EN CINES</span>
+        <span class="cat" id="nw-c1">PRÓXIMAMENTE</span>
+      </div>
+      <div class="nw-hint" id="nw-hint">▲ ▼ CAMBIAR<br>◀ ▶ MOVER<br>OK FICHA</div>
+      <div class="nw-ring" id="nw-ring"></div>
+      <div class="nw-empty dim" id="nw-empty" style="display:none"></div>
+      <div class="nw-info" id="nw-info"><div class="t serif" id="nw-it"></div><div class="m" id="nw-im"></div></div>
+      <div class="nw-tick" id="nw-tick"><span class="tt" id="nw-tt"></span></div>
+    </section>
+
+    <!-- PROFILE -->
+    <section id="sec-profile" class="sec">
+      <div class="prof">
+        <div class="row">
+          <div class="prof-av row center" id="pf-av"><span>?</span></div>
+          <div>
+            <div class="kicker">Perfil</div>
+            <div class="prof-name" id="pf-name">—</div>
+          </div>
+        </div>
+        <div class="prof-info" id="pf-info"></div>
+      </div>
+      <div class="pmenu" id="pf-menu"></div>
+    </section>
+
+    <footer class="ftr row between">
+      <div class="grp row"><span id="f-time">--:-- CET</span><span>B&amp;W [OFF]</span></div>
+      <div class="grp right row"><span id="f-weather">MADRID · …</span><span id="f-profile">PERFIL: —</span></div>
+    </footer>
+  </section>
+
+  <!-- ===================== ¿QUIÉN ESTÁ VIENDO? ===================== -->
   <section id="scr-who" class="screen">
     <div class="head">
-      <div class="kicker">Joi</div>
+      <img src="assets/logos/joi.png" alt="JOI">
       <div class="title">¿Quién está viendo?</div>
     </div>
     <div id="who-list" class="row center"></div>
-    <div class="hints">◀ ▶ moverse &nbsp;·&nbsp; OK entrar</div>
+    <div class="hints">◀ ▶ MOVERSE · OK ENTRAR</div>
   </section>
 
-  <!-- Crear / editar perfil -->
+  <!-- ===================== CREAR / EDITAR PERFIL ===================== -->
   <section id="scr-editor" class="screen">
     <div id="ed-preview">
       <div class="kicker" id="ed-kicker">Nuevo perfil</div>
@@ -249,92 +468,75 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       <div class="pname" id="ed-name">—</div>
     </div>
     <div id="ed-form" class="scroller"></div>
-    <div class="hints">▲ ▼ ◀ ▶ moverse &nbsp;·&nbsp; OK elegir &nbsp;·&nbsp; ATRÁS cancelar</div>
+    <div class="hints">▲ ▼ ◀ ▶ MOVERSE · OK ELEGIR · ATRÁS CANCELAR</div>
   </section>
 
-  <!-- Elegir y ordenar apps -->
+  <!-- ===================== FAVORITAS Y ORDEN ===================== -->
   <section id="scr-apps" class="screen">
     <div class="head">
       <div class="kicker">Apps del perfil</div>
-      <div class="title" style="font-size:2.2vw">Favoritas y orden</div>
+      <div class="title">Favoritas y orden</div>
     </div>
     <div id="ae-list" class="scroller"></div>
     <div class="hints" id="ae-hints"></div>
   </section>
 
-  <!-- Launcher -->
-  <section id="scr-home" class="screen">
-    <div class="topbar row between">
-      <div class="logo holo">JOI</div>
-      <div class="row">
-        <div class="clock" id="clock">--:--</div>
-        <div class="datew">
-          <div class="d" id="date">---</div>
-          <div class="w" id="weather">---</div>
-        </div>
-        <div class="avbtn row center" id="avbtn"><span>?</span></div>
-      </div>
-    </div>
-    <div id="home-scroll" class="scroller">
-      <div class="hero">
-        <div class="hello">Bienvenido</div>
-        <div class="name holo" id="hero-name">---</div>
-      </div>
-      <div class="sect">Apps</div>
-      <div id="grid" class="row wrap"></div>
-      <div id="lb-rows"></div>
-    </div>
-  </section>
-
-  <!-- Todas las apps -->
+  <!-- ===================== TODAS LAS APPS ===================== -->
   <section id="scr-all" class="screen">
     <div class="head">
-      <div class="kicker">Joi</div>
-      <div class="title" style="font-size:2.2vw">Todas las apps</div>
+      <div class="kicker">Videoteca</div>
+      <div class="title">Todas las apps</div>
     </div>
     <div id="all-grid" class="scroller"></div>
-    <div class="hints">OK abrir &nbsp;·&nbsp; mantener OK o botón de color: ★ favorita &nbsp;·&nbsp; ATRÁS volver</div>
+    <div class="hints">OK ABRIR · MANTENER OK O BOTÓN DE COLOR: ★ FAVORITA · ATRÁS VOLVER</div>
   </section>
 
-  <!-- Menú del avatar -->
-  <div id="menu" class="ov"><div class="panel">
-    <div class="mhead row"><div class="avatar row center" id="menu-av"><span>?</span></div><div id="menu-name" class="pname" style="margin:0"></div></div>
-    <div id="menu-items"></div>
-  </div></div>
+  <!-- ===================== DETALLE (estreno / película) ===================== -->
+  <div id="detail" class="ov-solid">
+    <div class="img" id="det-img"><div class="fade"></div></div>
+    <div class="left">
+      <div class="det-meta" id="det-meta"></div>
+      <div class="det-title serif" id="det-title"></div>
+      <div class="det-text" id="det-text"></div>
+      <div class="det-link" id="det-close">[ATRÁS] VOLVER</div>
+    </div>
+  </div>
 
-  <!-- Confirmación -->
+  <!-- ===================== CONFIRMACIÓN ===================== -->
   <div id="confirm" class="ov"><div class="panel">
     <div class="ctitle" id="c-title"></div>
     <div class="cmsg" id="c-msg"></div>
     <div class="row center" id="c-btns"></div>
   </div></div>
 
-  <!-- Teclado en pantalla -->
+  <!-- ===================== TECLADO EN PANTALLA ===================== -->
   <div id="kb" class="ov"><div class="panel">
     <div class="ktitle" id="kb-title"></div>
     <div class="kdisp" id="kb-disp"></div>
     <div id="kb-keys"></div>
     <div class="kmsg" id="kb-msg"></div>
-    <div class="khint">OK escribe · ATRÁS borra / cancela</div>
+    <div class="kb-hint">OK ESCRIBE · ATRÁS BORRA / CANCELA</div>
   </div></div>
 
-  <!-- Ficha de película -->
-  <div id="film" class="ov"><div class="panel row">
-    <img id="f-poster" class="fposter" alt="" referrerpolicy="no-referrer">
-    <div class="finfo">
-      <div class="kicker" id="f-kicker">Diario · Letterboxd</div>
-      <div class="ftitle" id="f-title"></div>
-      <div class="fyear" id="f-year"></div>
-      <div class="fstars" id="f-stars"></div>
-      <div class="fmeta" id="f-meta"></div>
-      <div class="freview scroller" id="f-review"></div>
-      <div class="row"><div class="btn primary" id="f-close">✕ Cerrar</div><span class="dim fhint" id="f-hint"></span></div>
+  <!-- ===================== LOADING ===================== -->
+  <div id="loading">
+    <div class="track"></div><div class="track t2"></div>
+    <div class="box">
+      <div class="word">LOADING</div>
+      <div class="loading-bar" id="ld-bar"></div>
+      <div class="loading-pct" id="ld-pct">00%</div>
     </div>
-  </div></div>
+  </div>
 
   <div id="toast"></div>
-</div>
 
+  <!-- Capas de la tele -->
+  <div class="fx fx-noise-wrap"><div class="fx-noise"></div></div>
+  <div class="fx fx-flick"></div>
+  <div class="fx fx-scan"></div>
+  <div class="fx fx-vig"></div>
+ </div>
+</div>
 <script>
 (function () {
   'use strict';
@@ -342,85 +544,78 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   /* =====================================================================
      CONFIG · lista global de apps. Los perfiles solo eligen cuáles se
      muestran y en qué orden (por su id).
-       label    nombre en la tarjeta (si no hay logo)
-       bg / fg  color de fondo y del texto de la tarjeta
-       logos    logo completo: ruta del proyecto (media/logos/...) o nombre de
-                archivo de Wikimedia Commons; se prueban en orden
+       label     nombre               ink   color de "tinta" en su cinta VHS
+       desc      línea de descripción  bg/fg colores de su tarjeta en "Todas las apps"
+       logos     logo completo: ruta del proyecto (assets/logos/...) o nombre de
+                 archivo de Wikimedia Commons; se prueban en orden
        logoWhite pinta el logo en blanco (fondos oscuros)
-       domain   si ningún logo carga, se usa el icono de su web
-       url      destino en el navegador
-       pkg      paquetes Android (coma): dentro del APK abre la app nativa
-       fav      favorita por defecto en los perfiles nuevos
+       domain    si ningún logo carga, se usa el icono de su web
+       url       destino en el navegador · pkg paquetes Android (abre la app nativa en el APK)
+       fav       favorita por defecto en los perfiles nuevos
      ===================================================================== */
   var CONFIG = {
     apps: [
-      { id: 'youtube', fav: true, name: 'YOUTUBE', label: 'YouTube', domain: 'youtube.com',
-        bg: '#ffffff', fg: '#ff0033', logos: ['YouTube_Logo_2017.svg'],
+      { id: 'youtube', fav: true, name: 'YOUTUBE', label: 'YouTube', ink: '#ff3b3b', desc: 'Vídeos, creadores y directos',
+        domain: 'youtube.com', bg: '#ffffff', fg: '#ff0033', logos: ['YouTube_Logo_2017.svg'],
         url: 'https://www.youtube.com/tv',
         pkg: 'com.google.android.youtube.tv,com.amazon.firetv.youtube,com.google.android.youtube' },
-      { id: 'netflix', fav: true, name: 'NETFLIX', label: 'Netflix', domain: 'netflix.com',
-        bg: '#ffffff', fg: '#e50914', logos: ['Netflix_2015_logo.svg'],
+      { id: 'netflix', fav: true, name: 'NETFLIX', label: 'Netflix', ink: '#e8202a', desc: 'Series y películas originales',
+        domain: 'netflix.com', bg: '#ffffff', fg: '#e50914', logos: ['Netflix_2015_logo.svg'],
         url: 'https://www.netflix.com',
         pkg: 'com.netflix.ninja' },
-      { id: 'prime', fav: true, name: 'PRIME VIDEO', label: 'Prime Video', domain: 'primevideo.com',
-        bg: 'linear-gradient(135deg,#0b2a6f,#1a73e8)', fg: '#ffffff', logoWhite: true,
-        logos: ['media/logos/prime-video.png'],
+      { id: 'prime', fav: true, name: 'PRIME VIDEO', label: 'Prime Video', ink: '#3aa0ff', desc: 'Cine, series y deporte de Amazon',
+        domain: 'primevideo.com', bg: 'linear-gradient(135deg,#0b2a6f,#1a73e8)', fg: '#ffffff', logoWhite: true,
+        logos: ['assets/logos/prime-video.png'],
         url: 'https://www.primevideo.com',
         pkg: 'com.amazon.amazonvideo.livingroom,com.amazon.avod,com.amazon.avod.thirdpartyclient' },
-      { id: 'disney', fav: true, name: 'DISNEY+', label: 'Disney+', domain: 'disneyplus.com',
-        bg: 'linear-gradient(135deg,#071a4a,#1d4fb8)', fg: '#ffffff', logoWhite: true,
+      { id: 'disney', fav: true, name: 'DISNEY+', label: 'Disney+', ink: '#6b8cff', desc: 'Disney, Pixar, Marvel y Star Wars',
+        domain: 'disneyplus.com', bg: 'linear-gradient(135deg,#071a4a,#1d4fb8)', fg: '#ffffff', logoWhite: true,
         logos: ['Disney+_logo.svg', 'Disney_plus_logo.svg'],
         url: 'https://www.disneyplus.com',
         pkg: 'com.disney.disneyplus' },
-      { id: 'spotify', fav: true, name: 'SPOTIFY', label: 'Spotify', domain: 'spotify.com',
-        bg: '#121212', fg: '#1ed760', logos: ['Spotify_logo_with_text.svg', 'Spotify_logo_without_text.svg'],
+      { id: 'spotify', fav: true, name: 'SPOTIFY', label: 'Spotify', ink: '#2ee06f', desc: 'Música y pódcasts',
+        domain: 'spotify.com', bg: '#121212', fg: '#1ed760', logos: ['Spotify_logo_with_text.svg', 'Spotify_logo_without_text.svg'],
         url: 'https://open.spotify.com',
         pkg: 'com.spotify.tv.android,com.spotify.music' },
-      { id: 'twitch', fav: true, name: 'TWITCH', label: 'Twitch', domain: 'twitch.tv',
-        bg: '#0e0e10', fg: '#a970ff', logos: ['media/logos/twitch.png'],
+      { id: 'twitch', fav: true, name: 'TWITCH', label: 'Twitch', ink: '#a970ff', desc: 'Directos de juegos y charlas',
+        domain: 'twitch.tv', bg: '#0e0e10', fg: '#a970ff', logos: ['assets/logos/twitch.png'],
         url: 'https://www.twitch.tv',
         pkg: 'tv.twitch.android.app' },
-      { id: 'hbomax', fav: true, name: 'HBO MAX', label: 'HBO Max', domain: 'hbomax.com',
-        bg: 'linear-gradient(135deg,#1c0b6b,#5b2cf0)', fg: '#ffffff', logoWhite: true,
-        logos: ['media/logos/hbo-max.png'],
+      { id: 'hbomax', fav: true, name: 'HBO MAX', label: 'HBO Max', ink: '#8f6bff', desc: 'Series de HBO y cine de Warner',
+        domain: 'hbomax.com', bg: 'linear-gradient(135deg,#1c0b6b,#5b2cf0)', fg: '#ffffff', logoWhite: true,
+        logos: ['assets/logos/hbo-max.png'],
         url: 'https://play.hbomax.com',
         pkg: 'com.wbd.stream,com.hbo.hbonow' },
-      { id: 'internet', fav: true, name: 'NAVEGADOR', label: 'Internet', domain: 'google.com',
-        bg: '#ffffff', fg: '#1a73e8', logos: ['Google_2015_logo.svg'],
+      { id: 'internet', fav: true, name: 'NAVEGADOR', label: 'Internet', ink: '#d8d29a', desc: 'El navegador de la tele',
+        domain: 'google.com', bg: '#ffffff', fg: '#1a73e8', logos: ['Google_2015_logo.svg'],
         url: 'https://www.google.com',
         pkg: 'com.amazon.cloud9,com.android.chrome,org.mozilla.tv.firefox' },
-      // Sin logo: tarjeta con letras y colores
-      { id: 'appletv', name: 'APPLE TV', label: 'Apple TV', bg: '#000000', fg: '#ffffff',
-        url: 'https://tv.apple.com',
+      { id: 'appletv', name: 'APPLE TV', label: 'Apple TV', ink: '#e8e4da', desc: 'Originales de Apple TV+',
+        bg: '#000000', fg: '#ffffff', url: 'https://tv.apple.com',
         pkg: 'com.apple.atve.amazon.appletv,com.apple.atve.androidtv.appletv' },
-      { id: 'max', name: 'MAX', label: 'Max', bg: '#002be7', fg: '#ffffff',
-        url: 'https://play.max.com',
-        pkg: 'com.wbd.stream' },
-      { id: 'filmin', name: 'FILMIN', label: 'Filmin', bg: '#0d0d0d', fg: '#ffffff',
-        url: 'https://www.filmin.es',
+      { id: 'max', name: 'MAX', label: 'Max', ink: '#4d6bff', desc: 'Versión web de Max',
+        bg: '#002be7', fg: '#ffffff', url: 'https://play.max.com', pkg: 'com.wbd.stream' },
+      { id: 'filmin', name: 'FILMIN', label: 'Filmin', ink: '#f0ead8', desc: 'Cine de autor e independiente',
+        bg: '#0d0d0d', fg: '#ffffff', url: 'https://www.filmin.es',
         pkg: 'es.filmin.app,com.filmin.android,es.filmin.androidtv' },
-      { id: 'movistar', name: 'MOVISTAR PLUS+', label: 'Movistar Plus+', bg: 'linear-gradient(135deg,#061a3a,#0b4f8f)', fg: '#3fd5ff',
-        url: 'https://ver.movistarplus.es',
+      { id: 'movistar', name: 'MOVISTAR PLUS+', label: 'Movistar Plus+', ink: '#3fd5ff', desc: 'Televisión, fútbol y series',
+        bg: 'linear-gradient(135deg,#061a3a,#0b4f8f)', fg: '#3fd5ff', url: 'https://ver.movistarplus.es',
         pkg: 'es.plus.yomvi,es.movistarplus.androidtv' },
-      { id: 'skyshowtime', name: 'SKYSHOWTIME', label: 'SkyShowtime', bg: 'linear-gradient(135deg,#2b0a5c,#0a3a8c)', fg: '#ffffff',
-        url: 'https://www.skyshowtime.com',
+      { id: 'skyshowtime', name: 'SKYSHOWTIME', label: 'SkyShowtime', ink: '#b48cff', desc: 'Cine y series de Paramount y Universal',
+        bg: 'linear-gradient(135deg,#2b0a5c,#0a3a8c)', fg: '#ffffff', url: 'https://www.skyshowtime.com',
         pkg: 'com.skyshowtime.skyshowtime.google,com.skyshowtime.skyshowtime.amazon,com.skyshowtime.skyshowtime' },
-      { id: 'dazn', name: 'DAZN', label: 'DAZN', bg: '#0c161c', fg: '#f7ff1a',
-        url: 'https://www.dazn.com',
-        pkg: 'com.dazn' },
-      { id: 'rtve', name: 'RTVE PLAY', label: 'RTVE Play', bg: 'linear-gradient(135deg,#ff5a00,#e5007d)', fg: '#ffffff',
-        url: 'https://www.rtve.es/play/',
+      { id: 'dazn', name: 'DAZN', label: 'DAZN', ink: '#f7ff1a', desc: 'Deporte en directo',
+        bg: '#0c161c', fg: '#f7ff1a', url: 'https://www.dazn.com', pkg: 'com.dazn' },
+      { id: 'rtve', name: 'RTVE PLAY', label: 'RTVE Play', ink: '#ff6a1a', desc: 'La televisión pública a la carta',
+        bg: 'linear-gradient(135deg,#ff5a00,#e5007d)', fg: '#ffffff', url: 'https://www.rtve.es/play/',
         pkg: 'com.rtve.androidtv,com.rtve.alacarta' },
-      { id: 'atresplayer', name: 'ATRESPLAYER', label: 'Atresplayer', bg: '#ea5b0c', fg: '#ffffff',
-        url: 'https://www.atresplayer.com',
+      { id: 'atresplayer', name: 'ATRESPLAYER', label: 'Atresplayer', ink: '#ff8a2a', desc: 'Antena 3, laSexta y más',
+        bg: '#ea5b0c', fg: '#ffffff', url: 'https://www.atresplayer.com',
         pkg: 'com.a3.sgt,com.atresmedia.atresplayer.tv' },
-      { id: 'plex', name: 'PLEX', label: 'Plex', bg: '#1f1f1f', fg: '#e5a00d',
-        url: 'https://app.plex.tv',
-        pkg: 'com.plexapp.android' }
+      { id: 'plex', name: 'PLEX', label: 'Plex', ink: '#e5a00d', desc: 'Tu videoteca personal',
+        bg: '#1f1f1f', fg: '#e5a00d', url: 'https://app.plex.tv', pkg: 'com.plexapp.android' }
     ],
-    // Colores de avatar
     colors: ['#ff4fd8', '#a259ff', '#22e4ff', '#ff8a3d', '#2ee59d', '#ff4d6d', '#f5d742', '#5b7cfa'],
-    // Fondos predefinidos (degradados). 'photo' usa la URL del perfil.
     backgrounds: [
       { id: 'neon', name: 'NEÓN',
         css: 'radial-gradient(ellipse at 12% 8%, rgba(255,79,216,.30), rgba(255,79,216,0) 55%), ' +
@@ -435,7 +630,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
              'linear-gradient(180deg, #02050a 0%, #05121c 55%, #0a2131 100%)' }
     ],
     defaultCity: { name: 'Madrid', lat: 40.4168, lon: -3.7038 },
-    letterboxdData: 'data/letterboxd.json'
+    estrenosData: 'data/estrenos.json'
   };
 
   var bridge = window.TVBridge || null;     // existe solo dentro del APK de Android
@@ -443,8 +638,10 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   var BACK_KEYS = [8, 27, 461, 10009];
   var DAYS = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB'];
   var MONTHS = ['ENE', 'FEB', 'MAR', 'ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
+  var T0 = new Date().getTime();
 
   function $(id) { return document.getElementById(id); }
+  function now() { return new Date().getTime(); }
   function pad(n) { return (n < 10 ? '0' : '') + n; }
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -460,6 +657,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   function copy(o) { return JSON.parse(JSON.stringify(o)); }
   function isBack(k) { return BACK_KEYS.indexOf(k) !== -1; }
   function initial(name) { return (name || '?').charAt(0).toUpperCase(); }
+  function repeat(s, n) { return n > 0 ? new Array(n + 1).join(s) : ''; }
   function findApp(id) {
     for (var i = 0; i < CONFIG.apps.length; i++) if (CONFIG.apps[i].id === id) return CONFIG.apps[i];
     return null;
@@ -468,6 +666,13 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     for (var i = 0; i < CONFIG.backgrounds.length; i++) if (CONFIG.backgrounds[i].id === id) return CONFIG.backgrounds[i];
     return CONFIG.backgrounds[0];
   }
+  function rgba(hex, a) {
+    var m = /^#?([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i.exec(hex || '');
+    if (!m) return 'rgba(236,230,214,' + a + ')';
+    return 'rgba(' + parseInt(m[1], 16) + ',' + parseInt(m[2], 16) + ',' + parseInt(m[3], 16) + ',' + a + ')';
+  }
+  function setTransform(e, t) { e.style.webkitTransform = t; e.style.transform = t; }
+  function setClass(e, cls, on) { if (on) e.classList.add(cls); else e.classList.remove(cls); }
 
   var toastTimer = null;
   function toast(msg) {
@@ -492,12 +697,9 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     p.photo = p.photo || '';
     if (!p.city || typeof p.city.lat !== 'number') p.city = copy(CONFIG.defaultCity);
     p.hidden = p.hidden || [];
-    // Usuario de Letterboxd (opcional). El perfil de Marcos (o uno que tuviera la fila activada) trae marcus_cus.
     if (typeof p.lbUser !== 'string') p.lbUser = (p.lb || /^MARCOS$/i.test(p.name)) ? 'marcus_cus' : '';
     delete p.lb;
-    // Orden: el guardado, quitando apps que ya no existen y añadiendo las nuevas al final.
-    // Las favoritas son las que no están en hidden. Un perfil nuevo empieza con las fav: true;
-    // a uno que ya existía, las apps nuevas le llegan como no favoritas.
+    if (p.lite !== 'on' && p.lite !== 'off') p.lite = 'auto';   // modo ligero: auto / sí / no
     var fresh = !p.apps;
     for (i = 0; p.apps && i < p.apps.length; i++) if (findApp(p.apps[i]) && ids.indexOf(p.apps[i]) === -1) ids.push(p.apps[i]);
     for (i = 0; i < CONFIG.apps.length; i++) {
@@ -532,15 +734,45 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   }
   function newProfile() {
     var p = normalizeProfile({ id: 'p' + new Date().getTime().toString(36), color: CONFIG.colors[0] });
-    p.name = '';   // el perfil nuevo empieza sin nombre
+    p.name = '';
     return p;
+  }
+
+  /* =====================================================================
+     MODO LIGERO · si la tele no tiene transform 3D o va a tirones:
+     carrusel plano, globo quieto y sin capa de ruido. El perfil puede
+     forzarlo (SÍ / NO) o dejarlo en AUTO.
+     ===================================================================== */
+  var perf = { has3D: true, fps: 60, auto: false, on: false };
+
+  function detect3D() {
+    var s = document.createElement('div').style, has = false;
+    try { has = !!(window.WebKitCSSMatrix && ('m11' in new window.WebKitCSSMatrix())); } catch (e) {}
+    return has && (('WebkitPerspective' in s) || ('perspective' in s));
+  }
+  function probeFps(cb) {
+    var raf = window.requestAnimationFrame || window.webkitRequestAnimationFrame;
+    if (!raf) { cb(15); return; }
+    var n = 0, t0 = now();
+    raf(function f() {
+      n++;
+      if (now() - t0 < 900) raf(f);
+      else cb(Math.round(n * 1000 / (now() - t0)));
+    });
+  }
+  function applyLite() {
+    var p = main.p, mode = p ? p.lite : 'auto';
+    perf.on = mode === 'on' || (mode === 'auto' && perf.auto);
+    setClass(document.body, 'lite', perf.on);
+    if (main.sec === 'apps') layoutCarousel();
+    if (main.sec === 'news') { startGlobe(); layoutCards(); }
   }
 
   /* =====================================================================
      NAVEGACIÓN CON MANDO · cada pantalla da sus filas de elementos
      enfocables; flechas mueven, OK activa. Siempre hay uno enfocado.
      ===================================================================== */
-  var nav = null, navStack = [];
+  var nav = null, navStack = [], busy = false;
 
   function makeNav(rows, opts) {
     var clean = [];
@@ -598,10 +830,10 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   function moveV(d) {
     var r = nav.r + d;
     if (r < 0 || r >= nav.rows.length) return;
-    var cur = nav.el.getBoundingClientRect(), cx = cur.left + cur.width / 2;
-    var row = nav.rows[r], best = 0, bd = 1e9;
-    // Filas de botones: al entrar se empieza siempre por el principal (el primero)
-    if (row._first) { focusAt(r, 0); return; }
+    var row = nav.rows[r];
+    if (row._first) { focusAt(r, 0); return; }               // filas de botones: el principal
+    if (row._enter) { focusAt(r, row._enter()); return; }    // cabecera: la sección activa
+    var cur = nav.el.getBoundingClientRect(), cx = cur.left + cur.width / 2, best = 0, bd = 1e9;
     for (var i = 0; i < row.length; i++) {
       var b = row[i].getBoundingClientRect(), dx = Math.abs(b.left + b.width / 2 - cx);
       if (dx < bd) { bd = dx; best = i; }
@@ -612,35 +844,33 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   function animateScroll(box, prop, to) {
     to = Math.max(0, Math.round(to));
     if (box._anim) clearInterval(box._anim);
-    var from = box[prop], t0 = new Date().getTime(), dur = 200;
+    var from = box[prop], t0 = now(), dur = 220;
     box._to = to;
     if (Math.abs(to - from) < 1) { box._anim = null; return; }
     box._anim = setInterval(function () {
-      var k = Math.min(1, (new Date().getTime() - t0) / dur);
+      var k = Math.min(1, (now() - t0) / dur);
       box[prop] = from + (to - from) * (1 - Math.pow(1 - k, 3));
       if (k >= 1) { clearInterval(box._anim); box._anim = null; }
     }, 16);
   }
-  // Hace que el elemento enfocado quede a la vista dentro de su zona desplazable
-  // (vertical: .scroller, horizontal: .scroller-x), con scroll suave
+  // Mantiene lo enfocado a la vista (vertical: .scroller, horizontal: .scroller-x)
   function ensureVisible(e) {
     var pad = window.innerWidth * 0.02, p = e.parentNode;
     while (p && p !== document.body) {
       if (p.classList && (p.classList.contains('scroller') || p.classList.contains('scroller-x'))) {
         var er = e.getBoundingClientRect(), pr = p.getBoundingClientRect(), x = p.classList.contains('scroller-x');
         var prop = x ? 'scrollLeft' : 'scrollTop';
-        var pos = x ? er.left - pr.left + p.scrollLeft : er.top - pr.top + p.scrollTop;   // posición dentro del contenido
+        var pos = x ? er.left - pr.left + p.scrollLeft : er.top - pr.top + p.scrollTop;
         var size = x ? er.width : er.height, view = x ? pr.width : pr.height;
         var base = p._anim ? p._to : p[prop], to = base;
         if (pos + size > base + view - pad) to = pos + size - view + pad;
         else if (pos < base + pad) to = pos - pad;
-        if (!x && nav && nav.el === e && e._top) to = 0;    // primera fila: arriba del todo
+        if (!x && nav && nav.el === e && e._top) to = 0;
         if (to !== base) animateScroll(p, prop, to);
       }
       p = p.parentNode;
     }
   }
-  // Marca un elemento como enfocable: OK (o clic) ejecuta act
   function focusable(e, act, key) {
     e._act = act;
     if (key) e._key = key;
@@ -649,6 +879,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   }
 
   function handleKey(k) {
+    if (busy) return true;                                    // durante el LOADING no se hace nada
     if (!nav) return false;
     if (nav.onKey && nav.onKey(k)) return true;
     if (isBack(k)) { if (nav.onBack) nav.onBack(); return true; }
@@ -663,21 +894,19 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   document.addEventListener('keydown', function (e) {
     if (handleKey(e.keyCode)) e.preventDefault();
   });
-  // El APK llama aquí cuando se pulsa ATRÁS en el mando
-  window.__joiBack = function () { handleKey(27); };
+  window.__joiBack = function () { handleKey(27); };          // el APK llama aquí con ATRÁS
 
   function show(id) {
     var s = document.querySelectorAll('.screen');
     for (var i = 0; i < s.length; i++) s[i].classList.remove('on');
     $(id).classList.add('on');
   }
-  function overlay(id, on) { $(id).classList[on ? 'add' : 'remove']('on'); }
+  function overlay(id, on) { setClass($(id), 'on', on); }
 
-  /* ---------- Fondo ---------- */
   function setBg(p) {
     var b = $('bg');
     if (p && p.bg === 'photo' && p.photo) {
-      b.style.backgroundImage = 'linear-gradient(rgba(5,4,10,.55), rgba(5,4,10,.9)), url("' + p.photo + '")';
+      b.style.backgroundImage = 'linear-gradient(rgba(14,14,13,.55), rgba(14,14,13,.9)), url("' + p.photo + '")';
       b.style.backgroundSize = 'auto, cover';
       b.style.backgroundPosition = 'center, center';
     } else {
@@ -687,10 +916,142 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     }
   }
 
+  function exitApp() {
+    if (bridge && bridge.exitApp) { try { bridge.exitApp(); return; } catch (e) {} }
+    try { window.close(); } catch (e) {}
+    setTimeout(function () { toast('Fin de la cinta · cierra la app para salir'); }, 300);
+  }
+
+  /* =====================================================================
+     TRANSICIÓN "LOADING" · pantalla negra, barra de rayitas y porcentaje
+     (como mucho 0,8 s). Durante la carga se ignoran las teclas.
+     ===================================================================== */
+  var LD_BARS = 30;
+  function transition(cb) {
+    if (busy) return;
+    busy = true;
+    var L = $('loading'), t0 = now(), dur = perf.on ? 420 : 640;
+    function paint(pct) {
+      var f = Math.round(pct / 100 * LD_BARS);
+      $('ld-bar').innerHTML = '[<span class="on">' + repeat('|', f) + '</span><span class="off">' + repeat('|', LD_BARS - f) + '</span>]';
+      $('ld-pct').innerHTML = (pct < 10 ? '0' : '') + pct + '% <span class="rest">· JOI HOME VIDEO</span>';
+    }
+    paint(0);
+    L.classList.add('on');
+    var iv = setInterval(function () {
+      var k = Math.min(1, (now() - t0) / dur);
+      paint(Math.round((1 - Math.pow(1 - k, 2)) * 100));
+      if (k >= 1) {
+        clearInterval(iv);
+        cb();
+        setTimeout(function () { L.classList.remove('on'); busy = false; }, 90);
+      }
+    }, 40);
+  }
+
+  /* =====================================================================
+     MARCO PRINCIPAL · cabecera (HOME, timecode, logo, menú) y pie
+     ===================================================================== */
+  var main = { p: null, sec: null, hist: [] };
+  var SEC_IDX = { apps: 1, news: 2, profile: 3 };
+
+  function hdrRow() {
+    var row = [$('h-home'), $('h-apps'), $('h-news'), $('h-profile')];
+    focusable($('h-home'), function () { goSection('apps', true); });
+    focusable($('h-apps'), function () { goSection('apps', true); });
+    focusable($('h-news'), function () { goSection('news', true); });
+    focusable($('h-profile'), function () { goSection('profile', true); });
+    row._enter = function () { return SEC_IDX[main.sec] || 1; };
+    return row;
+  }
+
+  function enterMain(p, sec, instant) {
+    main.p = p;
+    main.hist = [];
+    main.sec = null;
+    applyLite();
+    setBg(p);
+    tickClock();
+    loadWeather(p);
+    var go = function () { show('scr-main'); showSection(sec || 'apps'); };
+    if (instant) go(); else transition(go);
+  }
+
+  function goSection(name, push) {
+    if (busy || name === main.sec) { if (name === main.sec) focusContent(); return; }
+    if (push && main.sec) main.hist.push(main.sec);
+    transition(function () { showSection(name); });
+  }
+
+  function showSection(name) {
+    if (main.sec === 'news' && name !== 'news') stopNews();
+    main.sec = name;
+    var secs = ['apps', 'news', 'profile'];
+    for (var i = 0; i < secs.length; i++) setClass($('sec-' + secs[i]), 'on', secs[i] === name);
+    setClass($('h-apps'), 'active', name === 'apps');
+    setClass($('h-news'), 'active', name === 'news');
+    setClass($('h-profile'), 'active', name === 'profile');
+    navStack = [];
+    if (name === 'apps') renderApps();
+    else if (name === 'news') renderNews();
+    else renderProfile();
+  }
+
+  function focusContent() { if (nav && nav.rows.length > 1) focusAt(1, nav.r === 1 ? nav.c : 0); }
+
+  // ATRÁS: vuelve a la sección anterior; solo sale de la app desde APPS
+  function mainBack() {
+    if (main.hist.length) goSection(main.hist.pop(), false);
+    else if (main.sec !== 'apps') goSection('apps', false);
+    else exitApp();
+  }
+
+  // Reloj, zona horaria y timecode (tiempo desde que se abrió la app)
+  function tzName(d) {
+    var off = -d.getTimezoneOffset() / 60;
+    if (off === 1) return 'CET';
+    if (off === 2) return 'CEST';
+    if (off === 0) return 'GMT';
+    return 'UTC' + (off > 0 ? '+' : '') + off;
+  }
+  function tickClock() {
+    var d = new Date();
+    $('f-time').textContent = pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + tzName(d);
+    if (main.p) $('f-profile').textContent = 'PERFIL: ' + main.p.name;
+  }
+  setInterval(tickClock, 10000);
+  setInterval(function () {
+    var s = Math.floor((now() - T0) / 1000);
+    $('timecode').textContent = pad(Math.floor(s / 3600)) + ':' + pad(Math.floor(s / 60) % 60) + ':' + pad(s % 60);
+  }, 1000);
+
+  var WCODES = { 0: 'DESPEJADO', 1: 'CASI DESPEJADO', 2: 'NUBES', 3: 'NUBLADO', 45: 'NIEBLA', 48: 'NIEBLA',
+    51: 'LLOVIZNA', 53: 'LLOVIZNA', 55: 'LLOVIZNA', 61: 'LLUVIA', 63: 'LLUVIA', 65: 'LLUVIA FUERTE',
+    71: 'NIEVE', 73: 'NIEVE', 75: 'NIEVE FUERTE', 80: 'CHUBASCOS', 81: 'CHUBASCOS', 82: 'CHUBASCOS', 95: 'TORMENTA', 96: 'TORMENTA', 99: 'TORMENTA' };
+  var weatherTimer = null;
+  function loadWeather(p) {
+    var c = p.city, label = c.name.toUpperCase();
+    $('f-weather').textContent = label + ' · …';
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=' + c.lat + '&longitude=' + c.lon);
+    xhr.onload = function () {
+      try {
+        var w = JSON.parse(xhr.responseText).current_weather;
+        if (main.p === p) $('f-weather').textContent = label + ' · ' + Math.round(w.temperature) + '° ' + (WCODES[w.weathercode] || '');
+      } catch (e) {}
+    };
+    xhr.onerror = function () { if (main.p === p) $('f-weather').textContent = label + ' · SIN SEÑAL'; };
+    xhr.send();
+    clearTimeout(weatherTimer);
+    weatherTimer = setTimeout(function () { if (main.p === p) loadWeather(p); }, 15 * 60 * 1000);
+  }
+
   /* =====================================================================
      ¿QUIÉN ESTÁ VIENDO?
      ===================================================================== */
   function renderWho() {
+    if (main.sec === 'news') stopNews();
+    main.sec = null;
     show('scr-who');
     setBg(null);
     navStack = [];
@@ -711,13 +1072,17 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     focusable(add, function () { renderEditor(newProfile(), true); });
     list.appendChild(add);
     row.push(add);
-    setNav(makeNav([row], { onBack: function () { try { window.close(); } catch (e) {} } }), 0, start);
+    // ATRÁS: si se vino desde PROFILE, se vuelve al perfil; si no, se sale
+    setNav(makeNav([row], { onBack: function () {
+      var p = main.p && getProfile(main.p.id);
+      if (p) enterMain(p, 'profile'); else exitApp();
+    } }), 0, start);
   }
 
   function enterProfile(id) {
     state.last = id;
     save();
-    renderHome(getProfile(id));
+    enterMain(getProfile(id), 'apps');
   }
 
   /* =====================================================================
@@ -726,6 +1091,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   var ed = null;   // { draft, isNew, cityMsg }
 
   function renderEditor(draft, isNew, focusOn) {
+    if (main.sec === 'news') stopNews();
     ed = { draft: draft, isNew: isNew, cityMsg: ed && ed.draft === draft ? ed.cityMsg : '' };
     show('scr-editor');
     setBg(draft);
@@ -783,7 +1149,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
         })(CONFIG.backgrounds[i]);
       }
       var po = el('div', 'opt' + (draft.bg === 'photo' ? ' sel' : ''),
-        '<div class="optprev" style="background:#140f22;line-height:3.6vw;font-size:1.6vw">URL</div><div class="optname">FOTO</div>');
+        '<div class="optprev" style="background-color:#1a1a18;line-height:3.2vw;font-size:1.3vw">URL</div><div class="optname">FOTO</div>');
       if (draft.photo) po.firstChild.style.backgroundImage = 'url("' + draft.photo + '")';
       focusable(po, function () {
         openKeyboard({ title: 'URL de la foto (https://…)', value: draft.photo || 'https://', mode: 'url', max: 500,
@@ -887,7 +1253,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     if (!replaced) state.profiles.push(d);
     state.last = d.id;
     save();
-    renderHome(d);
+    enterMain(d, ed.isNew ? 'apps' : 'profile');
   }
 
   function cancelEditor() {
@@ -896,7 +1262,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       renderWho();
     } else {
       var p = getProfile(ed.draft.id);
-      if (p) renderHome(p); else renderWho();
+      if (p) enterMain(p, 'profile'); else renderWho();
     }
   }
 
@@ -917,7 +1283,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
 
   /* =====================================================================
      EDITOR DE APPS · mostrar/ocultar y reordenar con el mando
-       OK = coger/soltar · ▲▼ con una cogida = moverla · ◀▶ = mostrar/ocultar
+       OK = coger/soltar · ▲▼ con una cogida = moverla · ◀▶ = favorita sí/no
      ===================================================================== */
   var aeMoving = false;
 
@@ -932,7 +1298,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
           '<span class="grip">≡</span>' +
           '<span class="achip" style="background:' + a.bg + ';color:' + a.fg + '">' + esc(a.label) + '</span>' +
           '<span class="grow">' + esc(a.label) + '</span>' +
-          '<span class="astate">' + (off ? 'NO' : '★ FAVORITA') + '</span>');
+          '<span class="astate">' + (off ? '[NO]' : '[★ FAVORITA]') + '</span>');
         it._idx = i;
         focusable(it, function () { aeMoving = !aeMoving; renderAppsEditor(i); });
         if (i === 0) it._top = true;
@@ -942,14 +1308,13 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     }
     var done = el('div', 'btn primary', 'Listo');
     done.style.marginTop = '1.2vw';
-    done.style.display = 'inline-block';
     focusable(done, closeAppsEditor);
     list.appendChild(done);
     rows.push([done]);
 
     $('ae-hints').innerHTML = aeMoving
-      ? '▲ ▼ cambiar de sitio &nbsp;·&nbsp; OK soltar'
-      : 'OK coger para mover &nbsp;·&nbsp; ◀ ▶ favorita sí / no &nbsp;·&nbsp; ATRÁS listo';
+      ? '▲ ▼ CAMBIAR DE SITIO &nbsp;·&nbsp; OK SOLTAR'
+      : 'OK COGER PARA MOVER &nbsp;·&nbsp; ◀ ▶ FAVORITA SÍ / NO &nbsp;·&nbsp; ATRÁS LISTO';
 
     setNav(makeNav(rows, { onBack: closeAppsEditor, onKey: appsEditorKey }), focusIdx || 0, 0);
   }
@@ -985,7 +1350,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   }
 
   /* =====================================================================
-     TECLADO EN PANTALLA (el de VIDAA va mal)
+     TECLADO EN PANTALLA (el de la tele va mal)
      ===================================================================== */
   var KB_NAME = [
     ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'],
@@ -1038,7 +1403,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     var d = $('kb-disp'), t = kb.text, url = kb.o.mode === 'url';
     d.className = 'kdisp' + (url ? ' url' : '');
     if (url && t.length > 52) t = '…' + t.substring(t.length - 51);
-    d.innerHTML = esc(t) + '<span class="caret"></span>';
+    d.innerHTML = esc(t) + '<span class="kdisp-caret"></span>';
   }
   function kbType(ch) {
     if (kb.text.length >= kb.o.max) return;
@@ -1084,29 +1449,8 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   });
 
   /* =====================================================================
-     MENÚ DEL AVATAR · CONFIRMACIÓN
+     CONFIRMACIÓN
      ===================================================================== */
-  function openMenu(p) {
-    $('menu-av').style.background = p.color;
-    $('menu-av').innerHTML = '<span>' + esc(initial(p.name)) + '</span>';
-    $('menu-name').textContent = p.name;
-    var box = $('menu-items'), rows = [];
-    box.innerHTML = '';
-    function item(label, act, cls) {
-      var m = el('div', 'mitem' + (cls ? ' ' + cls : ''), label);
-      focusable(m, act);
-      box.appendChild(m);
-      rows.push([m]);
-    }
-    item('Cambiar de perfil', function () { closeMenu(); renderWho(); });
-    item('Editar perfil', function () { closeMenu(); renderEditor(copy(p), false); });
-    item('Borrar perfil', function () { closeMenu(); askDelete(p); }, 'danger');
-    item('Cerrar', closeMenu);
-    overlay('menu', true);
-    pushNav(makeNav(rows, { onBack: closeMenu }));
-  }
-  function closeMenu() { overlay('menu', false); popNav(); }
-
   function confirmBox(title, msg, okLabel, onYes) {
     $('c-title').textContent = title;
     $('c-msg').textContent = msg;
@@ -1129,6 +1473,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
         if (state.profiles[i].id === p.id) { state.profiles.splice(i, 1); break; }
       }
       if (state.last === p.id) state.last = state.profiles.length ? state.profiles[0].id : null;
+      if (main.p && main.p.id === p.id) main.p = null;
       save();
       toast('Perfil borrado');
       if (state.profiles.length) renderWho(); else renderEditor(newProfile(), true);
@@ -1136,9 +1481,13 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   }
 
   /* =====================================================================
-     LAUNCHER
+     APPS · carrusel de cintas VHS. La enfocada va recta, grande y con
+     brillo; las de los lados giradas, pequeñas y oscuras. Al final, la
+     cinta "TODAS LAS APPS". Debajo, las filas de Letterboxd.
      ===================================================================== */
-  var home = null;   // { p, appRows, lbRows, info }
+  var ALL_TAPE = { id: '_all', all: true, name: 'TODAS LAS APPS', label: 'Todas las apps', ink: '#ece6d6',
+    desc: 'La videoteca completa · elige tus favoritas' };
+  var car = { tapes: [], items: [], idx: 0 };
 
   function visibleApps(p) {
     var out = [];
@@ -1148,50 +1497,115 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     return out;
   }
 
-  function renderHome(p) {
-    if (!p) { renderWho(); return; }
-    show('scr-home');
-    setBg(p);
-    navStack = [];
-    home = { p: p, appRows: [], lbRows: [], info: null };
-
-    var av = $('avbtn');
-    av.style.background = p.color;
-    av.innerHTML = '<span>' + esc(initial(p.name)) + '</span>';
-    focusable(av, function () { openMenu(p); });
-
-    var hn = $('hero-name');
-    hn.textContent = p.name;
-    hn.style.fontSize = Math.min(6.6, 70 / Math.max(6, p.name.length)) + 'vw';
-
-    // Fila principal: favoritas del perfil y, al final, "Todas las apps"
-    var grid = $('grid'), apps = visibleApps(p), tiles = [], row = [], i;
-    grid.innerHTML = '';
-    for (i = 0; i < apps.length; i++) tiles.push(buildTile(apps[i]));
-    var all = el('div', 'tile all', '<div class="face row center"><span class="plus">⊞</span><span class="tlabel">Todas las apps</span></div>' +
-      '<div class="under">Todas las apps</div>');
-    focusable(all, function () { renderAll(0); });
-    tiles.push(all);
-    for (i = 0; i < tiles.length; i++) {
-      if (i < 5) tiles[i]._top = true;
-      grid.appendChild(tiles[i]);
-      row.push(tiles[i]);
-      if (row.length === 5) { home.appRows.push(row); row = []; }
-    }
-    if (row.length) home.appRows.push(row);
-
-    $('lb-rows').innerHTML = '';
-    $('home-scroll').scrollTop = 0;
-
-    homeNav(1, 0);
-    tickClock();
-    loadWeather(p);
-    if (p.lbUser) loadLetterboxd(p);
+  function buildTape(a) {
+    var ink = a.ink || '#ece6d6', L = a.label.length;
+    var fs = Math.min(4.8, 26 / Math.max(L, 4));
+    var t = el('div', 'tape');
+    t.innerHTML =
+      '<div class="cass"><div class="reel l"></div><div class="win"></div><div class="reel r"></div></div>' +
+      '<div class="sleeve">' +
+        '<div class="inner">' +
+          '<div class="band" style="border-color:' + ink + '"><img src="assets/logos/joi.png" alt=""><b>Home Video</b></div>' +
+          '<div class="ttl" style="color:' + ink + ';font-size:' + fs.toFixed(2) + 'vw"><span>' + esc(a.label) + '</span></div>' +
+          '<div class="art" style="border-color:' + rgba(ink, .7) + '">' +
+            '<div class="dots" style="background-image:radial-gradient(' + ink + ' 35%, rgba(0,0,0,0) 36%)"></div>' +
+            '<div class="big" style="color:' + ink + '">' + (a.all ? '∞' : esc(initial(a.label))) + '</div>' +
+          '</div>' +
+          '<div class="foot row between"><span class="vhs" style="color:' + ink + ';border-color:' + ink + '">VHS</span>' +
+            '<span class="yr dim">JOI ©’26</span><span class="yr dim">SP·HQ</span></div>' +
+        '</div>' +
+        '<div class="wear"></div>' +
+      '</div>' +
+      '<div class="shade"></div>';
+    t.onclick = function () {
+      var i = car.tapes.indexOf(t);
+      if (i === car.idx) playTape(); else { car.idx = i; layoutCarousel(); }
+      focusEl($('car'));
+    };
+    return t;
   }
 
-  function homeNav(r, c) {
-    var rows = [[$('avbtn')]].concat(home.appRows).concat(home.lbRows);
-    setNav(makeNav(rows, { onBack: renderWho }), r, c);
+  function renderApps() {
+    var p = main.p, box = $('tapes'), i;
+    car.items = visibleApps(p);
+    car.items.push(ALL_TAPE);
+    car.tapes = [];
+    box.innerHTML = '';
+    for (i = 0; i < car.items.length; i++) {
+      var t = buildTape(car.items[i]);
+      box.appendChild(t);
+      car.tapes.push(t);
+    }
+    car.idx = Math.max(0, Math.min(car.items.length - 1, car.idx));
+    $('sec-apps').scrollTop = 0;
+    layoutCarousel();
+    if (main.lb && main.lb.user === p.lbUser) renderLetterboxd(main.lb.data, p.lbUser);
+    else {
+      $('lb-rows').innerHTML = '';
+      main.lbRows = [];
+      if (p.lbUser) loadLetterboxd(p);
+    }
+    appsNav(null);
+  }
+
+  function appsNav(keep) {
+    var c = $('car');
+    focusable(c, playTape);
+    c._top = true;
+    c._onfocus = function () { $('play-tape').classList.remove('hide'); };
+    var rows = [hdrRow(), [c]].concat(main.lbRows || []);
+    setNav(makeNav(rows, { onBack: mainBack, onKey: appsKey }), 1, 0);
+    if (keep && !focusEl(keep)) focusAt(1, 0);
+  }
+
+  function appsKey(k) {
+    if (nav.el === $('car') && (k === 37 || k === 39)) {
+      var to = car.idx + (k === 39 ? 1 : -1);
+      if (to >= 0 && to < car.tapes.length) { car.idx = to; layoutCarousel(); }
+      return true;
+    }
+    if (nav.el !== $('car')) $('play-tape').classList.add('hide');
+    return false;
+  }
+
+  function playTape() {
+    var a = car.items[car.idx];
+    if (!a) return;
+    if (a.all) renderAll(0); else open(a);
+  }
+
+  // Coloca cada cinta: transform y opacity solamente (3D o plano en modo ligero)
+  function layoutCarousel() {
+    var V = window.innerWidth / 100, n = car.tapes.length;
+    for (var i = 0; i < n; i++) {
+      var t = car.tapes[i], d = i - car.idx, ad = Math.abs(d), s = d < 0 ? -1 : 1, tr;
+      setClass(t, 'f', d === 0);
+      setClass(t, 'off', ad > 4);
+      if (d === 0) tr = perf.on ? 'translate(0,0) scale(1.06)' : 'translate3d(0,0,0) rotateY(0deg) scale(1.06)';
+      else {
+        var x = s * (perf.on ? 18.5 + (ad - 1) * 12 : 15.5 + (ad - 1) * 10) * V, sc = Math.max(.5, .8 - (ad - 1) * .08);
+        tr = perf.on
+          ? 'translate(' + Math.round(x) + 'px,' + Math.round(1.2 * V) + 'px) scale(' + sc + ')'
+          : 'translate3d(' + Math.round(x) + 'px,' + Math.round(1.2 * V) + 'px,' + Math.round(-ad * 5 * V) + 'px) rotateY(' + (-s * 38) + 'deg) scale(' + sc + ')';
+      }
+      setTransform(t, tr);
+      t.style.zIndex = 20 - ad;
+      t.style.opacity = ad > 3 ? 0 : 1;
+      t.lastChild.style.opacity = d === 0 ? 0 : Math.min(.82, .42 + ad * .14);
+      t.firstChild.nextSibling.style.boxShadow = d === 0
+        ? '0 0 0 .14vw ' + rgba(car.items[i].ink, .55) + ', 0 0 4vw ' + rgba(car.items[i].ink, .28) + ', 0 2vw 3vw rgba(0,0,0,.8)'
+        : '0 1.6vw 3vw rgba(0,0,0,.7)';
+    }
+    var a = car.items[car.idx];
+    if (!a) return;
+    $('tc-name').textContent = a.name;
+    $('tc-desc').textContent = a.desc || '';
+    $('tc-cat').textContent = a.all
+      ? 'VIDEOTECA · ' + CONFIG.apps.length + ' APPS'
+      : 'CINTA ' + pad(car.idx + 1) + ' / ' + pad(car.items.length - 1) + ' · ★ FAVORITA';
+    var hints = $('car').querySelectorAll('.car-hint');
+    hints[0].style.visibility = car.idx === 0 ? 'hidden' : 'visible';
+    hints[1].style.visibility = car.idx === car.items.length - 1 ? 'hidden' : 'visible';
   }
 
   /* =====================================================================
@@ -1201,13 +1615,14 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
   var hold = { pending: false, timer: null, el: null };
 
   function renderAll(focusIdx) {
-    var p = home.p, g = $('all-grid'), rows = [], row = [];
+    var p = main.p, g = $('all-grid'), rows = [], row = [];
+    if (main.sec === 'news') stopNews();
+    main.sec = null;
     show('scr-all');
     g.innerHTML = '';
     for (var i = 0; i < CONFIG.apps.length; i++) {
       (function (a, i) {
         var t = buildTile(a);
-        t.className += ' small';
         t._app = a;
         if (p.hidden.indexOf(a.id) === -1) t.appendChild(el('div', 'fav-badge', '★'));
         if (i < 6) t._top = true;
@@ -1220,8 +1635,12 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     }
     if (row.length) rows.push(row);
     focusIdx = focusIdx || 0;
-    setNav(makeNav(rows, { onBack: function () { renderHome(getProfile(p.id)); }, onKey: allKey }),
+    setNav(makeNav(rows, { onBack: function () { returnMain('apps'); }, onKey: allKey }),
       Math.floor(focusIdx / 6), focusIdx % 6);
+  }
+
+  function returnMain(sec) {
+    transition(function () { show('scr-main'); showSection(sec); });
   }
 
   function allKey(k) {
@@ -1232,7 +1651,6 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       hold.el = nav.el;
       hold.timer = setTimeout(function () {
         hold.pending = false;
-        hold.long = true;
         toggleFav(hold.el);
       }, 650);
       return true;
@@ -1247,12 +1665,11 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       hold.pending = false;
       if (hold.el && hold.el._app) open(hold.el._app);
     }
-    hold.long = false;
   });
 
   function toggleFav(t) {
     if (!t || !t._app) return;
-    var p = getProfile(home.p.id), id = t._app.id, h = p.hidden.indexOf(id), idx = 0, i;
+    var p = main.p, id = t._app.id, h = p.hidden.indexOf(id), idx = 0, i;
     for (i = 0; i < CONFIG.apps.length; i++) if (CONFIG.apps[i].id === id) idx = i;
     if (h !== -1) {
       // Pasa a favorita: se coloca detrás de la última favorita
@@ -1267,7 +1684,6 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       p.hidden.push(id);
       toast(t._app.label + ' quitada de favoritas');
     }
-    home.p = p;
     save();
     renderAll(idx);
   }
@@ -1298,7 +1714,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     var tries = [], i;
     for (i = 0; a.logos && i < a.logos.length; i++) {
       var f = a.logos[i];
-      tries.push({ url: /^(https?:|media\/)/.test(f) ? f : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f), full: true });
+      tries.push({ url: /^(https?:|assets\/)/.test(f) ? f : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f), full: true });
     }
     if (a.domain) tries.push({ url: 'https://www.google.com/s2/favicons?sz=256&domain=' + encodeURIComponent(a.domain), full: false });
     (function attempt(n) {
@@ -1329,42 +1745,13 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
     }, 350);
   }
 
-  /* ---------- Reloj y tiempo ---------- */
-  function tickClock() {
-    var d = new Date();
-    $('clock').textContent = pad(d.getHours()) + ':' + pad(d.getMinutes());
-    $('date').textContent = DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()];
-  }
-  setInterval(tickClock, 10000);
-
-  var WCODES = { 0: 'Despejado', 1: 'Casi despejado', 2: 'Nubes', 3: 'Nublado', 45: 'Niebla', 48: 'Niebla',
-    51: 'Llovizna', 53: 'Llovizna', 55: 'Llovizna', 61: 'Lluvia', 63: 'Lluvia', 65: 'Lluvia fuerte',
-    71: 'Nieve', 73: 'Nieve', 75: 'Nieve fuerte', 80: 'Chubascos', 81: 'Chubascos', 82: 'Chubascos', 95: 'Tormenta', 96: 'Tormenta', 99: 'Tormenta' };
-  var weatherTimer = null;
-  function loadWeather(p) {
-    var c = p.city;
-    $('weather').textContent = c.name.toUpperCase() + ' · …';
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://api.open-meteo.com/v1/forecast?current_weather=true&latitude=' + c.lat + '&longitude=' + c.lon);
-    xhr.onload = function () {
-      try {
-        var w = JSON.parse(xhr.responseText).current_weather;
-        if (home && home.p === p) $('weather').textContent = c.name.toUpperCase() + ' · ' + Math.round(w.temperature) + '° ' + (WCODES[w.weathercode] || '');
-      } catch (e) {}
-    };
-    xhr.onerror = function () { if (home && home.p === p) $('weather').textContent = c.name.toUpperCase() + ' · SIN CONEXIÓN'; };
-    xhr.send();
-    clearTimeout(weatherTimer);
-    weatherTimer = setTimeout(function () { if (home && home.p === p) loadWeather(p); }, 15 * 60 * 1000);
-  }
-
   /* =====================================================================
      LETTERBOXD · la tele no puede pedir a letterboxd.com (CORS); una tarea
      de GitHub deja cada 6 h data/letterboxd/USUARIO.json en esta misma web.
      Filas: "Visto recientemente" y una por cada lista. Las carátulas se
      cargan poco a poco: solo las visibles y las siguientes.
      ===================================================================== */
-  var LB_AHEAD = 8;
+  var LB_AHEAD = 8, lbInfo = null;
 
   function stars(r) {
     if (r == null) return '';
@@ -1377,42 +1764,41 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
 
   function loadLetterboxd(p) {
     var user = p.lbUser, xhr = new XMLHttpRequest();
-    xhr.open('GET', 'data/letterboxd/' + encodeURIComponent(user) + '.json?t=' + new Date().getTime());
+    xhr.open('GET', 'data/letterboxd/' + encodeURIComponent(user) + '.json?t=' + now());
     xhr.onload = function () {
       var d = null;
       try { d = xhr.status === 200 ? JSON.parse(xhr.responseText) : null; } catch (e) {}
-      if (home && home.p === p) renderLetterboxd(d, user);
+      main.lb = { user: user, data: d };
+      if (main.p === p && main.sec === 'apps') { renderLetterboxd(d, user); appsNav(nav ? nav.el : null); }
     };
-    xhr.onerror = function () { if (home && home.p === p) renderLetterboxd(null, user); };
+    xhr.onerror = function () {
+      if (main.p === p && main.sec === 'apps') { renderLetterboxd(null, user); appsNav(nav ? nav.el : null); }
+    };
     xhr.send();
   }
 
   function renderLetterboxd(d, user) {
     var box = $('lb-rows'), i;
     box.innerHTML = '';
-    home.lbRows = [];
+    main.lbRows = [];
+    lbInfo = null;
     if (!d || (!(d.diary && d.diary.length) && !(d.lists && d.lists.length))) {
-      box.innerHTML = '<div class="sect">Letterboxd · @' + esc(user) + '</div>' +
+      box.innerHTML = '<div class="sect">[LETTERBOXD] @' + esc(user) + '</div>' +
         '<div class="lbempty">' + (d ? 'Todavía no hay pelis en el diario ni listas' :
           'Sin datos todavía · se actualizan cada 6 horas') + '</div>';
-    } else {
-      if (d.diary && d.diary.length) addLbRow(box, 'Visto recientemente', d.diary, true);
-      for (i = 0; d.lists && i < d.lists.length; i++) {
-        if (d.lists[i].films && d.lists[i].films.length) addLbRow(box, d.lists[i].name, d.lists[i].films, false, d.lists[i]);
-      }
-      for (i = 0; i < home.lbRows.length; i++) home.lbRows[i]._next = home.lbRows[i + 1] || null;
-      if (home.lbRows[0]) lazyRow(home.lbRows[0], LB_AHEAD);
-      if (home.lbRows[1]) lazyRow(home.lbRows[1], LB_AHEAD);
+      return;
     }
-    // Rehacer la navegación conservando el foco actual
-    var keep = nav ? nav.el : null;
-    homeNav(1, 0);
-    if (keep && !focusEl(keep)) focusAt(1, 0);
+    if (d.diary && d.diary.length) addLbRow(box, 'Visto recientemente', d.diary, true);
+    for (i = 0; d.lists && i < d.lists.length; i++) {
+      if (d.lists[i].films && d.lists[i].films.length) addLbRow(box, d.lists[i].name, d.lists[i].films, false, d.lists[i]);
+    }
+    for (i = 0; i < main.lbRows.length; i++) main.lbRows[i]._next = main.lbRows[i + 1] || null;
+    if (main.lbRows[0]) lazyRow(main.lbRows[0], LB_AHEAD);
   }
 
   function addLbRow(box, title, films, diary, list) {
     var sect = el('div', 'lbsect'), info = el('span', 'sinfo', '');
-    var head = el('div', 'sect row between', '<span>' + esc(title) + (list && list.count ? ' · ' + list.count + ' pelis' : '') + '</span>');
+    var head = el('div', 'sect row between', '<span>[' + esc(title) + ']' + (list && list.count ? ' · ' + list.count + ' PELIS' : '') + '</span>');
     head.appendChild(info);
     var rowEl = el('div', 'lbrow scroller-x'), items = [];
     sect.appendChild(head);
@@ -1436,8 +1822,9 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
         it.firstChild.appendChild(img);
         focusable(it, function () { openFilm(f, diary, list); });
         it._onfocus = function () {
-          if (home.info && home.info !== info) home.info.textContent = '';
-          home.info = info;
+          $('play-tape').classList.add('hide');
+          if (lbInfo && lbInfo !== info) lbInfo.textContent = '';
+          lbInfo = info;
           info.textContent = f.title + (f.year ? ' (' + f.year + ')' : '');
           lazyRow(items, i + LB_AHEAD);
           if (items._next) lazyRow(items._next, LB_AHEAD);
@@ -1446,7 +1833,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
         items.push(it);
       })(films[i], i);
     }
-    home.lbRows.push(items);
+    main.lbRows.push(items);
   }
 
   function lazyRow(items, upto) {
@@ -1454,44 +1841,354 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1
       if (items[i]._src && !items[i]._loaded) { items[i]._loaded = true; items[i]._img.src = items[i]._src; }
     }
   }
-
-  function openFilm(f, diary, list) {
-    $('f-poster').src = f.poster || '';
-    $('f-kicker').textContent = diary ? 'Diario · Letterboxd' : 'Lista · ' + (list ? list.name : 'Letterboxd');
-    $('f-title').textContent = f.title;
-    $('f-year').textContent = f.year || '';
-    $('f-stars').innerHTML = diary ? esc(f.rating != null ? stars(f.rating) : 'Sin nota') + (f.liked ? '<span class="heart">♥</span>' : '') : '';
-    $('f-stars').style.display = diary ? 'block' : 'none';
-    var meta = [];
-    if (f.watched) meta.push('VISTA EL ' + fmtDate(f.watched));
-    if (f.rewatch) meta.push('REVISIONADO');
-    $('f-meta').textContent = meta.join('  ·  ');
-    var rv = $('f-review');
-    rv.textContent = f.review || '';
-    rv.style.display = f.review ? 'block' : 'none';
-    rv.scrollTop = 0;
-    $('f-hint').textContent = '';
-    overlay('film', true);
-    var b = $('f-close');
-    focusable(b, closeFilm);
-    pushNav(makeNav([[b]], { onBack: closeFilm, onKey: function (k) {
-      // ▲▼ desplazan la reseña si es larga
-      if (k === 38 || k === 40) { animateScroll(rv, 'scrollTop', rv.scrollTop + (k === 40 ? 1 : -1) * window.innerWidth * 0.06); return true; }
-      return k === 37 || k === 39;
-    } }));
-    if (f.review && rv.scrollHeight > rv.clientHeight + 2) $('f-hint').textContent = '▲ ▼ LEER RESEÑA';
-  }
-  function closeFilm() { overlay('film', false); popNav(); }
-  $('film').onclick = function (e) { if (e.target === $('film')) closeFilm(); };
   // Al salir de una fila de carátulas, se borra el título que mostraba su cabecera
   document.addEventListener('keydown', function () {
-    if (home && home.info && nav && nav.el && !/pitem/.test(nav.el.className)) { home.info.textContent = ''; home.info = null; }
+    if (lbInfo && nav && nav.el && !/pitem/.test(nav.el.className)) { lbInfo.textContent = ''; lbInfo = null; }
   });
 
   /* =====================================================================
-     ARRANQUE · sin perfiles (o sin almacenamiento) se empieza creando uno
+     FICHA (película de Letterboxd o estreno): titular serif a la izquierda,
+     datos [ENTRE CORCHETES] en mono e imagen grande a la derecha
+     ===================================================================== */
+  function cell(k, v) { return '<div class="cell"><span class="k">[' + esc(k) + ']</span>' + v + '</div>'; }
+
+  function openDetail(o) {
+    var im = $('det-img');
+    im.className = 'img' + (o.poster ? ' poster' : '');
+    im.style.backgroundImage = o.img ? 'url("' + o.img + '")' : 'none';
+    $('det-meta').innerHTML = o.meta;
+    $('det-title').innerHTML = o.title;
+    var tx = $('det-text');
+    tx.innerHTML = o.text || '';
+    tx.scrollTop = 0;
+    overlay('detail', true);
+    var b = $('det-close');
+    b.innerHTML = '[ATRÁS] VOLVER';
+    focusable(b, closeDetail);
+    pushNav(makeNav([[b]], { onBack: closeDetail, onKey: function (k) {
+      // ▲▼ desplazan el texto si es largo
+      if (k === 38 || k === 40) { animateScroll(tx, 'scrollTop', tx.scrollTop + (k === 40 ? 1 : -1) * window.innerWidth * 0.05); return true; }
+      return k === 37 || k === 39;
+    } }));
+    if (tx.scrollHeight > tx.clientHeight + 2) b.innerHTML = '[ATRÁS] VOLVER &nbsp;·&nbsp; ▲ ▼ LEER';
+  }
+  function closeDetail() { overlay('detail', false); popNav(); }
+
+  function openFilm(f, diary, list) {
+    var meta = cell(diary ? 'DIARIO' : 'LISTA', diary ? 'LETTERBOXD' : esc(list ? list.name : 'LETTERBOXD'));
+    if (f.year) meta += cell('AÑO', esc(f.year));
+    if (diary) meta += cell('NOTA', (f.rating != null ? esc(stars(f.rating)) : 'SIN NOTA') + (f.liked ? ' <span class="accent">♥</span>' : ''));
+    if (f.watched) meta += cell(f.rewatch ? 'REVISIONADA' : 'VISTA', esc(fmtDate(f.watched)));
+    openDetail({ img: f.poster, poster: true, meta: meta, title: esc(f.title),
+      text: f.review ? esc(f.review) : '<span class="dim">' + (diary ? 'Sin reseña.' : '') + '</span>' });
+  }
+
+  /* =====================================================================
+     NEWS WATCH · estrenos en cines de España (data/estrenos.json, lo
+     genera una tarea de GitHub cada 12 h con TMDB).
+       intro: "NEWS WATCH" con aberración cromática y un globo de alambre
+       luego: carátulas flotando alrededor del globo (máx. 12)
+       ◀▶ carátula · ▲▼ EN CINES / PRÓXIMAMENTE · OK ficha
+     ===================================================================== */
+  var NW_MAX = 12;
+  var news = { data: null, loading: false, cat: 0, idx: 0, cards: [], list: [], timer: null, seen: false };
+
+  function loadEstrenos(cb) {
+    if (news.data) { cb(); return; }
+    if (news.loading) return;
+    news.loading = true;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', CONFIG.estrenosData + '?t=' + now());
+    xhr.onload = function () {
+      news.loading = false;
+      try { news.data = xhr.status === 200 ? JSON.parse(xhr.responseText) : null; } catch (e) { news.data = null; }
+      if (!news.data) news.data = { empty: true };
+      cb();
+    };
+    xhr.onerror = function () { news.loading = false; news.data = { empty: true, offline: true }; cb(); };
+    xhr.send();
+  }
+
+  function renderNews() {
+    var s = $('sec-news'), intro = news.seen ? 250 : 1300;
+    s.classList.remove('news-ready');
+    $('nw-title').classList.remove('up');
+    $('nw-ring').innerHTML = '';
+    $('nw-empty').style.display = 'none';
+    news.cards = [];
+    startGlobe();
+    var ring = $('nw-ring');
+    focusable(ring, function () { var m = news.list[news.idx]; if (m) openEstreno(m); });
+    setNav(makeNav([hdrRow(), [ring]], { onBack: mainBack, onKey: newsKey }), 1, 0);
+    clearTimeout(news.timer);
+    news.timer = setTimeout(function () {
+      if (main.sec !== 'news') return;
+      news.seen = true;
+      $('nw-title').classList.add('up');
+      loadEstrenos(function () {
+        if (main.sec !== 'news') return;
+        news.timer = setTimeout(function () {
+          if (main.sec !== 'news') return;
+          s.classList.add('news-ready');
+          buildTicker();
+          showCat(news.cat);
+        }, 450);
+      });
+    }, intro);
+  }
+
+  function stopNews() {
+    clearTimeout(news.timer);
+    stopGlobe();
+  }
+
+  function catList(c) {
+    var d = news.data;
+    if (!d || d.empty) return [];
+    return ((c === 0 ? d.now_playing : d.upcoming) || []).slice(0, NW_MAX);
+  }
+
+  function showCat(c) {
+    news.cat = c;
+    news.list = catList(c);
+    news.idx = 0;
+    setClass($('nw-c0'), 'on', c === 0);
+    setClass($('nw-c1'), 'on', c === 1);
+    var ring = $('nw-ring'), i;
+    ring.innerHTML = '';
+    news.cards = [];
+    for (i = 0; i < news.list.length; i++) {
+      (function (m, i) {
+        var card = el('div', 'nw-card',
+          '<div class="bob"><div class="pc"><div class="pt">' + esc(m.title) + '</div></div></div><div class="shade"></div>');
+        card.firstChild.style.webkitAnimationDelay = (-i * .7) + 's';
+        card.firstChild.style.animationDelay = (-i * .7) + 's';
+        if (m.poster) {
+          var img = document.createElement('img');
+          img.alt = '';
+          img.onerror = function () { img.style.display = 'none'; };
+          img.src = m.poster;
+          card.firstChild.firstChild.appendChild(img);
+        }
+        card.onclick = function () {
+          if (i === news.idx) openEstreno(m); else { news.idx = i; layoutCards(); }
+          focusEl($('nw-ring'));
+        };
+        ring.appendChild(card);
+        news.cards.push(card);
+      })(news.list[i], i);
+    }
+    var empty = $('nw-empty');
+    if (!news.list.length) {
+      empty.style.display = 'block';
+      empty.textContent = news.data && news.data.offline ? 'SIN SEÑAL · NO SE PUDIERON CARGAR LOS ESTRENOS'
+        : 'SIN DATOS TODAVÍA · LA CARTELERA SE ACTUALIZA CADA 12 HORAS';
+    } else empty.style.display = 'none';
+    // Aparecen escalonadas
+    setTimeout(layoutCards, 30);
+  }
+
+  // Carátulas en una elipse alrededor del globo; la enfocada, delante y en el centro
+  function layoutCards() {
+    var n = news.cards.length, V = window.innerWidth / 100;
+    if (!n) { $('nw-it').textContent = ''; $('nw-im').textContent = ''; return; }
+    for (var i = 0; i < n; i++) {
+      var k = i - news.idx;
+      if (k > n / 2) k -= n;
+      if (k < -n / 2) k += n;
+      var a = k * 2 * Math.PI / Math.max(n, 6), depth = (Math.cos(a) + 1) / 2;   // 1 delante, 0 detrás
+      var x = Math.sin(a) * 28 * V, y = (1 - depth) * -5.5 * V - (k === 0 ? 0 : 1.2 * V);
+      var sc = k === 0 ? 1.45 : .5 + depth * .38;
+      var c = news.cards[i];
+      setTransform(c, 'translate(' + Math.round(x) + 'px,' + Math.round(y) + 'px) scale(' + sc.toFixed(3) + ')');
+      c.style.zIndex = Math.round(depth * 20) + (k === 0 ? 10 : 0);
+      c.style.opacity = 1;
+      c.lastChild.style.opacity = k === 0 ? 0 : (.25 + (1 - depth) * .55).toFixed(2);
+      setClass(c, 'f', k === 0);
+    }
+    var m = news.list[news.idx], bits = [];
+    $('nw-it').textContent = m.title;
+    bits.push((news.cat === 0 ? 'EN CINES DESDE ' : 'ESTRENO ') + fmtDate(m.release_date));
+    if (m.vote_average) bits.push('★ ' + m.vote_average.toFixed(1));
+    if (m.genres && m.genres.length) bits.push(m.genres.slice(0, 2).join(' / ').toUpperCase());
+    $('nw-im').textContent = '[' + pad(news.idx + 1) + '/' + pad(n) + ']  ' + bits.join('  ·  ');
+  }
+
+  function newsKey(k) {
+    if (nav.el !== $('nw-ring')) return false;
+    if (k === 37 || k === 39) {
+      var n = news.cards.length;
+      if (n) { news.idx = (news.idx + (k === 39 ? 1 : n - 1)) % n; layoutCards(); }
+      return true;
+    }
+    if (!$('sec-news').classList.contains('news-ready')) return k !== 38;
+    if (k === 40 && news.cat === 0) { showCat(1); return true; }
+    if (k === 38 && news.cat === 1) { showCat(0); return true; }
+    return k === 40;   // ▲ desde EN CINES sube a la cabecera
+  }
+
+  function openEstreno(m) {
+    var meta = cell(news.cat === 0 ? 'EN CINES' : 'ESTRENO', esc(fmtDate(m.release_date) || 'POR CONFIRMAR'));
+    meta += cell('NOTA', m.vote_average ? esc(m.vote_average.toFixed(1)) + ' / 10' : 'SIN VOTOS');
+    if (m.genres && m.genres.length) meta += cell('GÉNERO', esc(m.genres.slice(0, 3).join(' · ').toUpperCase()));
+    openDetail({ img: m.backdrop || m.poster, poster: !m.backdrop, meta: meta, title: esc(m.title),
+      text: m.overview ? esc(m.overview) : '<span class="dim">Sin sinopsis en español todavía.</span>' });
+  }
+
+  // Cinta de abajo: estrenos de esta semana (o lo que haya en cartel)
+  function buildTicker() {
+    var d = news.data, all = [], seen = {}, out = [], i;
+    if (!d || d.empty) { $('nw-tt').textContent = 'NEWS WATCH · SIN DATOS DE CARTELERA TODAVÍA'; return; }
+    all = (d.now_playing || []).concat(d.upcoming || []);
+    var t = now(), from = t - 4 * 864e5, to = t + 7 * 864e5;
+    for (i = 0; i < all.length; i++) {
+      var m = all[i], ms = Date.parse(m.release_date || '');
+      if (seen[m.id] || isNaN(ms) || ms < from || ms > to) continue;
+      seen[m.id] = true;
+      out.push(m);
+    }
+    if (out.length < 3) out = (d.now_playing || []).slice(0, 8);
+    out.sort(function (a, b) { return a.release_date < b.release_date ? -1 : 1; });
+    var parts = [];
+    for (i = 0; i < out.length; i++) {
+      var dm = /^(\d{4})-(\d{2})-(\d{2})/.exec(out[i].release_date || '');
+      parts.push('ESTRENO · ' + out[i].title.toUpperCase() + (dm ? ' · ' + parseInt(dm[3], 10) + ' ' + MONTHS[parseInt(dm[2], 10) - 1] : ''));
+    }
+    var txt = parts.join('   /   ');
+    $('nw-tt').textContent = txt + '   /   ' + txt;
+  }
+
+  /* ---------- Globo de alambre (canvas 2D, máx. 30 fps, parado si no se ve) ---------- */
+  var globe = { on: false, rot: 0, last: 0, raf: 0 };
+  var rAF = window.requestAnimationFrame || window.webkitRequestAnimationFrame || function (f) { return setTimeout(function () { f(now()); }, 33); };
+  var cAF = window.cancelAnimationFrame || window.webkitCancelAnimationFrame || clearTimeout;
+
+  function startGlobe() {
+    var cv = $('globe'), w = cv.offsetWidth;
+    if (!w) return;
+    if (cv.width !== w) { cv.width = w; cv.height = w; }
+    stopGlobe();
+    drawGlobe();
+    if (perf.on) return;                 // modo ligero: globo quieto
+    globe.on = true;
+    globe.last = 0;
+    globe.raf = rAF(globeFrame);
+  }
+  function stopGlobe() {
+    globe.on = false;
+    if (globe.raf) cAF(globe.raf);
+    globe.raf = 0;
+  }
+  function globeFrame(ts) {
+    if (!globe.on) return;
+    ts = ts || now();
+    if (!globe.last || ts - globe.last >= 33) {
+      globe.rot += globe.last ? (ts - globe.last) * 0.00018 : 0;
+      globe.last = ts;
+      drawGlobe();
+    }
+    globe.raf = rAF(globeFrame);
+  }
+  function drawGlobe() {
+    var cv = $('globe'), g = cv.getContext && cv.getContext('2d');
+    if (!g) return;
+    var W = cv.width, r = W * 0.46, cx = W / 2, cy = W / 2, tilt = 0.38, ct = Math.cos(tilt), st = Math.sin(tilt);
+    var front = [], back = [], i, j;
+    g.clearRect(0, 0, W, W);
+    function proj(lat, lon) {
+      var x = Math.cos(lat) * Math.sin(lon), y = Math.sin(lat), z = Math.cos(lat) * Math.cos(lon);
+      return [cx + x * r, cy - (y * ct - z * st) * r, y * st + z * ct];
+    }
+    function line(pts) {
+      for (var k = 1; k < pts.length; k++) {
+        var a = pts[k - 1], b = pts[k];
+        ((a[2] + b[2]) > 0 ? front : back).push(a[0], a[1], b[0], b[1]);
+      }
+    }
+    for (i = 0; i < 12; i++) {                       // meridianos
+      var lon = i * Math.PI / 6 + globe.rot, pts = [];
+      for (j = 0; j <= 24; j++) pts.push(proj(-Math.PI / 2 + j * Math.PI / 24, lon));
+      line(pts);
+    }
+    for (i = -2; i <= 2; i++) {                      // paralelos
+      var lat = i * Math.PI / 7.2, pp = [];
+      for (j = 0; j <= 40; j++) pp.push(proj(lat, j * Math.PI / 20 + globe.rot));
+      line(pp);
+    }
+    function stroke(segs, style, lw) {
+      g.beginPath();
+      for (var k = 0; k < segs.length; k += 4) { g.moveTo(segs[k], segs[k + 1]); g.lineTo(segs[k + 2], segs[k + 3]); }
+      g.strokeStyle = style;
+      g.lineWidth = lw;
+      g.stroke();
+    }
+    stroke(back, 'rgba(236,230,214,.10)', 1);
+    stroke(front, 'rgba(236,230,214,.42)', 1);
+    g.beginPath();
+    g.arc(cx, cy, r, 0, Math.PI * 2);
+    g.strokeStyle = 'rgba(236,230,214,.5)';
+    g.lineWidth = 1.2;
+    g.stroke();
+  }
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) stopGlobe();
+    else if (main.sec === 'news' && $('scr-main').classList.contains('on')) startGlobe();
+  });
+
+  /* =====================================================================
+     PROFILE
+     ===================================================================== */
+  var LITE_LABEL = { auto: 'AUTO', on: 'SÍ', off: 'NO' };
+
+  function renderProfile(focusKeyName) {
+    var p = main.p, menu = $('pf-menu'), rows = [hdrRow()];
+    $('pf-av').style.background = p.color;
+    $('pf-av').innerHTML = '<span>' + esc(initial(p.name)) + '</span>';
+    $('pf-name').textContent = p.name;
+    var favs = p.apps.length - p.hidden.length, bg = p.bg === 'photo' ? 'FOTO' : findBg(p.bg).name;
+    $('pf-info').innerHTML =
+      cell('CIUDAD', esc(p.city.name.toUpperCase())) +
+      cell('FAVORITAS', favs + ' / ' + p.apps.length) +
+      cell('FONDO', esc(bg)) +
+      cell('LETTERBOXD', p.lbUser ? '@' + esc(p.lbUser) : 'NO') +
+      cell('MODO LIGERO', LITE_LABEL[p.lite] + (p.lite === 'auto' ? (perf.on ? ' · ACTIVO' : ' · INACTIVO') : '')) +
+      cell('TELE', (perf.has3D ? '3D SÍ' : '3D NO') + ' · ' + perf.fps + ' FPS');
+    menu.innerHTML = '';
+    function item(label, act, key, cls) {
+      var m = el('div', 'mitem' + (cls ? ' ' + cls : ''), label);
+      focusable(m, act, key);
+      menu.appendChild(m);
+      rows.push([m]);
+    }
+    item('Editar perfil', function () { renderEditor(copy(p), false); }, 'edit');
+    item('Favoritas y orden', function () { renderEditor(copy(p), false); renderAppsEditor(0); }, 'apps');
+    item('Modo ligero: [' + LITE_LABEL[p.lite] + ']', function () {
+      p.lite = p.lite === 'auto' ? 'on' : p.lite === 'on' ? 'off' : 'auto';
+      save();
+      applyLite();
+      renderProfile('lite');
+      toast('Modo ligero: ' + LITE_LABEL[p.lite] + (p.lite === 'auto' ? (perf.on ? ' (activo en esta tele)' : ' (no hace falta en esta tele)') : ''));
+    }, 'lite');
+    item('Cambiar de perfil', function () { renderWho(); }, 'who');
+    item('Borrar perfil', function () { askDelete(p); }, 'del', 'danger');
+    setNav(makeNav(rows, { onBack: mainBack }), 1, 0);
+    if (focusKeyName) focusKey(focusKeyName);
+  }
+
+  /* =====================================================================
+     ARRANQUE · sin perfiles (o sin almacenamiento) se empieza creando uno.
+     Mientras, se mide si la tele aguanta el 3D (si no: modo ligero).
      ===================================================================== */
   load();
+  perf.has3D = detect3D();
+  perf.auto = !perf.has3D;
+  setClass(document.body, 'lite', perf.auto);
+  setTimeout(function () { probeFps(function (fps) {
+    perf.fps = fps;
+    perf.auto = !perf.has3D || fps < 30;
+    applyLite();
+    if (main.sec === 'profile' && !navStack.length) renderProfile(nav.el && nav.el._key);
+  }); }, 1500);
   if (!state.profiles.length) renderEditor(newProfile(), true);
   else renderWho();
 })();
