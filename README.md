@@ -61,4 +61,4 @@ web y paquete Android). Los perfiles solo eligen cuáles se muestran y en qué o
 
 ## En el stick
 
-Ver `INSTALL-STICK.md`. El APK carga esta web, así que los cambios llegan sin reinstalar.
+Ver `INSTALL-STICK.md` (Fire TV) o `INSTALL-CHROMECAST.md` (Chromecast). El APK carga esta web, así que los cambios llegan sin reinstalar.
