@@ -1,526 +1,667 @@
 {
- "actualizado": "2026-10-22T14:13:19.017Z",
- "source": "sensacine",
+ "actualizado": "2026-10-22T16:40:11.309Z",
+ "source": "tmdb",
  "now_playing": [
   {
-   "id": "sc1000024810",
-   "title": "La Bola Negra",
-   "release_date": "2026-09-25",
-   "overview": "La historia sigue las vidas interconectadas de tres hombres que transcurren en tres épocas completamente distintas. A lo largo del tiempo, sus tres existencias se descubren íntimamente ligadas por las vivencias del deseo y la sexualidad. Asimismo, los tres protagonistas comparten un trasfondo marcado de forma profunda por el dolor y la herencia. En medio de sus recorridos vitales, las trayectorias de los personajes entran en contacto directo con una célebre creación. Se trata concretamente de una de las últimas obras dramáticas que dejó inacabadas Federico García Lorca. A través de este eje literario, el argumento explora el impacto que las pasiones ejercen a lo largo de las generaciones. Las búsquedas emocionales de cada uno de ellos convergen en un relato centrado en la memoria, la identidad y los sentimientos. De este modo, la trama teje un entramado donde el legado cultural y el sufrimiento marcan de forma definitiva sus destinos.",
-   "vote_average": 7.4,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/50/36/503680a28350a667b4b542fc43e21fce.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/50/36/503680a28350a667b4b542fc43e21fce.jpg"
-  },
-  {
-   "id": "sc1000000085",
-   "title": "En el corazón de la bestia",
-   "release_date": "2026-09-25",
-   "overview": "Tras ser herido en combate, un ex soldado de Fuerzas Especiales se queda perdido en Alaska junto a su fiel perro militar. Heridos, solos y perseguidos por los peligros de la naturaleza, ambos deberán confiar en su entrenamiento, su vínculo inquebrantable y su instinto de supervivencia para superar desafíos extremos y encontrar el camino de regreso a casa. A cada paso, el frío, la soledad y viejos fantasmas del pasado pondrán a prueba su resistencia. Una historia de lealtad, coraje y redención en el corazón del frío indómito.",
-   "vote_average": 5.8,
-   "genres": [
-    "Acción",
-    "Aventura"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/06/8b/068b23e941178cfd676278b44064f0e9.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/06/8b/068b23e941178cfd676278b44064f0e9.jpg"
-  },
-  {
-   "id": "sc314939",
+   "id": 1153576,
    "title": "Street Fighter",
    "release_date": "2026-10-16",
-   "overview": "Legendary produce esta nueva versión de acción real de Street Fighter, una de las sagas más icónicas e influyentes de la historia de los videojuegos. Los juegos giran en torno a un torneo internacional de artes marciales en el que luchadores de todo el mundo compiten para demostrar su fuerza y sus habilidades. La franquicia ganó popularidad masiva con el lanzamiento de Street Fighter II en 1991, que introdujo mecánicas revolucionarias como los ataques combinados y los movimientos especiales, e influyó enormemente en los juegos de arcade y las consolas domésticas. Los títulos posteriores han ampliado el universo del juego, introduciendo nuevos personajes, argumentos complejos y gráficos y mecánicas de juego mejorados.",
-   "vote_average": 5,
+   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
+   "vote_average": 6.3,
    "genres": [
     "Acción",
-    "Artes Marciales"
+    "Fantasía"
    ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/d1/e5/d1e5f1f4509e27eecbfe74e3b4f8ff14.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/d1/e5/d1e5f1f4509e27eecbfe74e3b4f8ff14.jpg"
+   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
+   "providers": [],
+   "trailer": "-MJAfIMUQ5s",
+   "fondo": "https://image.tmdb.org/t/p/original/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg"
   },
   {
-   "id": "sc1000016901",
-   "title": "Clayface",
-   "release_date": "2026-10-22",
-   "overview": "Para el prometedor actor Matt Hagen (Tom Rhys Harries), parece que por fin se avecina su gran oportunidad en Gotham City. Sin embargo, justo cuando sus sueños están a punto de hacerse realidad, es víctima de una brutal agresión: un gánster le desfigura gravemente el rostro, destruyendo así no solo su aspecto, sino también sus perspectivas profesionales. En busca de una última esperanza, Hagen acude a una científica que ha desarrollado una novedosa tecnología reconstructiva. El procedimiento experimental consigue, efectivamente, restaurarle el rostro, pero conlleva efectos secundarios inesperados y de graves consecuencias. Su cuerpo se transforma en una sustancia arcillosa capaz de deformarse y adaptarse. De repente, Matt tiene que aprender a lidiar con unas capacidades que cambian radicalmente su vida. Mientras intenta hacerse con el control de su nuevo cuerpo, se enfrenta a las trascendentales consecuencias del experimento y a los retos que plantea su nueva existencia.",
-   "vote_average": 8,
+   "id": 1101412,
+   "title": "Fall 2: Deadpoint",
+   "release_date": "2026-09-25",
+   "overview": "Tras perder a su intrépida hermana Shiloh, Jax, profundamente dolida, emprende una peligrosa escalada con Luce, una vieja amiga de Shiloh, para honrar su memoria. Mientras caminan sobre la cuerda floja por los peligrosos tablones del monte Kwan, un aterrador desprendimiento de rocas les deja varados a 1.500 metros de altura. En medio de vértigos, verdades oscuras y giros crueles, Jax debe enfrentarse a sus miedos más profundos para luchar por la supervivencia y el final.",
+   "vote_average": 7.3,
    "genres": [
-    "Drama",
-    "Suspense",
-    "Terror"
+    "Suspense"
    ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/d5/9b/d59b14aafe094bf46d7f4b8eef0e62d3.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/d5/9b/d59b14aafe094bf46d7f4b8eef0e62d3.jpg"
+   "poster": "https://image.tmdb.org/t/p/w342/ccBIyg1ITvuCDr4eMeEH0ZgNh4t.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg",
+   "providers": [],
+   "trailer": "Krs0VDIjhmE",
+   "fondo": "https://image.tmdb.org/t/p/original/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg"
   },
   {
-   "id": "sc1000023068",
+   "id": 1400837,
    "title": "La otra madre",
    "release_date": "2026-10-09",
-   "overview": "Bela es una niña de ocho años que vive en una casa junto a su padre, su madre y su abuela. Sin embargo, la aparente tranquilidad de su hogar se ve amenazada por una inquietante presencia, una entidad de carácter malévolo que acecha de cerca a la pequeña y cuya paciencia se está agotando de forma alarmante. La única salvación posible para Bela radica en la fuerte unión de su familia. El gran problema surge cuando el matrimonio de sus padres empieza a tambalearse y a sufrir una crisis profunda que debilita su protección. Esta adaptación de la novela de terror de Josh Malerman (autor de Bird Box ) esta dirigida por Rob Savage, protagonizada por Jessica Chastain y producida por el aclamado maestro del género James Wan.",
-   "vote_average": 5.4,
+   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
+   "vote_average": 5.9,
    "genres": [
     "Terror"
    ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/52/31/5231f1507e0a6fb9b6b2c0e4f49f9c41.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/52/31/5231f1507e0a6fb9b6b2c0e4f49f9c41.jpg"
+   "poster": "https://image.tmdb.org/t/p/w342/vsde9OnhjFMlJz8Wi6Z6drZ7GG5.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+   "providers": [],
+   "trailer": "ocV7K_B67lQ",
+   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
   },
   {
-   "id": "sc318791",
+   "id": 1255833,
    "title": "Whalefall",
    "release_date": "2026-10-16",
-   "overview": "Después del fallecimiento de su padre (Josh Brolin), el joven Jay Gardiner (Austin Abrams) emprende un viaje a la costa de California con el propósito de cumplir una misión profundamente personal relacionada con su despedida. Sin embargo, lo que comienza como un acto de duelo se transforma en una inesperada lucha por la supervivencia cuando una gigantesca ballena lo engulle accidentalmente. Atrapado en el interior del animal y con el tiempo corriendo en su contra debido al limitado suministro de oxígeno, Jay deberá enfrentarse a sus miedos, a los recuerdos de su padre y a las enseñanzas que este le transmitió durante toda su vida. En una situación extrema, esas lecciones se convertirán en su única esperanza para encontrar una salida y aferrarse a la vida.",
-   "vote_average": 5.6,
-   "genres": [
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/9d/51/9d51169e1a0c9827cb7ec014efc9357b.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/9d/51/9d51169e1a0c9827cb7ec014efc9357b.jpg"
-  },
-  {
-   "id": "sc1000025872",
-   "title": "La maleta",
-   "release_date": "2026-10-16",
-   "overview": "Laura y Nacho se conocen en un vuelo y comparten una conexión fugaz. Al llegar, Laura propone un juego: si su maleta sale primero, tendrán una cita esa noche. Nacho acepta, pero Laura, impaciente por prolongar el encuentro, toma la primera maleta que aparece, sin saber que pertenece a un grupo de terroristas. Lo que empieza como una comedia romántica da un giro inesperado, convirtiéndose en una trepidante aventura llena de enredos, peligro y humor, donde ambos se verán obligados a colaborar para salir con vida.",
-   "vote_average": 6,
-   "genres": [
-    "Comedia"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/3b/7c/3b7c13fc7b2b95daafb4161c10a6fa3c.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/3b/7c/3b7c13fc7b2b95daafb4161c10a6fa3c.jpg"
-  },
-  {
-   "id": "sc317219",
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja decide invitar a sus vecinos a casa para compartir una noche aparentemente inocente. Sin embargo, lo que comienza como una velada tranquila se transforma en una intensa exploración emocional cuando salen a la luz deseos ocultos y una sexualidad inexplorada. A través de conversaciones y situaciones inesperadas, los personajes se enfrentan a sus propias inseguridades y a la fragilidad de los vínculos humanos. Esta historia provocadora se mete de lleno en las complejidades de las relaciones modernas.",
-   "vote_average": 6.4,
-   "genres": [
-    "Comedia"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/a2/ee/a2eeaab1a8fbd9366a23e93c2b4d74b2.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/a2/ee/a2eeaab1a8fbd9366a23e93c2b4d74b2.jpg"
-  },
-  {
-   "id": "sc1000015739",
-   "title": "Verity: La sombra de un engaño",
-   "release_date": "2026-10-02",
-   "overview": "Lowen Ashleigh es una escritora en apuros que la contrata como escritora fantasma por Jeremy Crawford para continuar la exitosa saga de su esposa Verity, incapacitada tras un misterioso accidente. Al instalarse en la casa de los Crawford para revisar los manuscritos, Lowen descubre una autobiografía oculta que muestra oscuros y perturbadores secretos sobre Verity, su pasado y la tragedia que marcó a la familia. Atrapada entre la atracción por Jeremy y el miedo creciente hacia la verdadera Verity, Lowen deberá decidir qué verdades revelar.",
-   "vote_average": 5.6,
-   "genres": [
-    "Drama",
-    "Romántico",
-    "Suspense"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/83/dd/83dd20e842335c1d3f44521e65a3fbe0.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/83/dd/83dd20e842335c1d3f44521e65a3fbe0.jpg"
-  },
-  {
-   "id": "sc1000045397",
-   "title": "Leones en invierno",
-   "release_date": "2026-10-22",
-   "overview": "La repentina muerte de una hija sacude por completo la vida de sus padres y pone de manifiesto las distintas formas en las que cada uno afronta un dolor imposible de asumir. Mientras ambos intentan sobrevivir a la pérdida, el padre comienza a derrumbarse emocionalmente, liberando una violencia y una oscuridad interior que llevaba años reprimiendo y que creía enterradas en su pasado. Impulsado por una necesidad obsesiva de descubrir lo ocurrido y obtener justicia por sus propios medios, se verá arrastrado hacia una peligrosa red de corrupción, influencias y crimen organizado. Al mismo tiempo que los responsables intentan ocultar la verdad a cualquier precio, él irá dejando atrás sus límites morales y cruzando fronteras cada vez más peligrosas, avanzando por un camino del que ya no podrá regresar. Porque hay pocas cosas más temibles que un padre dispuesto a proteger a sus hijos… salvo uno que ya no tiene nada que perder.",
-   "vote_average": 0,
+   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
+   "vote_average": 6.5,
    "genres": [
     "Suspense"
    ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/cd/15/cd150ed9e8a6c41cedaf09ba7df24452.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/cd/15/cd150ed9e8a6c41cedaf09ba7df24452.jpg"
+   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+   "providers": [],
+   "trailer": "5webTf9wplE",
+   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
   },
   {
-   "id": "sc1000018854",
-   "title": "Resident Evil",
+   "id": 1228834,
+   "title": "Operación Teherán",
    "release_date": "2026-09-18",
-   "overview": "En esta nueva historia dentro del universo de Resident Evil, seguimos a Bryan (Austin Abrams), un repartidor de material médico que lleva una vida aparentemente normal y alejada de cualquier peligro. Sin embargo, su rutina da un giro brutal cuando, sin darse cuenta, queda atrapado en una situación mucho más grande y aterradora de lo que podía imaginar. A lo largo de una noche fatídica, la ciudad comienza a desmoronarse en medio del caos, mientras una amenaza descontrolada se extiende rápidamente. Bryan se ve obligado a emprender una carrera desesperada por la supervivencia, envuelto en una sucesión de persecuciones, encuentros violentos y situaciones límite, donde cada decisión puede ser la diferencia entre vivir o morir.",
-   "vote_average": 8.6,
+   "overview": "Tras el final de la guerra en Afganistán, un grupo de exoperadores de la CIA se han quedado marcados por la violencia, el abandono y la culpa. Sin patria ni propósitos a corto plazo, aceptan una última misión y viajan a Teherán para llevar a cabo un golpe arriesgado e ilegal que podría ser su opción para perdonarse a sí mismos o para acabar del todo. Mientras el pasado los persigue y la desconfianza entre ellos va en aumento, la operación se transforma en una prueba moral en la que tendrán que decidir si ser soldados obedientes o son hombres dispuestos a recuperar el control de sus vidas.",
+   "vote_average": 6.5,
    "genres": [
+    "Acción",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5uB1PWP3QHEcgMXKChsaYmtTUkQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+   "providers": [],
+   "trailer": "C5BqIzjMmJw",
+   "fondo": "https://image.tmdb.org/t/p/original/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg"
+  },
+  {
+   "id": 1423191,
+   "title": "Resident Evil",
+   "release_date": "2026-09-17",
+   "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
+   "vote_average": 7.3,
+   "genres": [
+    "Terror",
     "Ciencia ficción",
-    "Suspense",
-    "Terror"
+    "Aventura"
    ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/40/92/4092e505c00d28878024f17b01002c9c.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/40/92/4092e505c00d28878024f17b01002c9c.jpg"
+   "poster": "https://image.tmdb.org/t/p/w342/vrLEVObLGbUinE4sC4Lqao2dK0E.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "providers": [],
+   "trailer": "d6oszs7f5aI",
+   "fondo": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
   },
   {
-   "id": "sc1000029292",
-   "title": "Arriba Tutto",
-   "release_date": "2026-10-22",
-   "overview": "En 1905, la vida de Michi, un niño de siete años, se quiebra tras la violenta muerte de su padre, un artista ambulante que le enseñó a descubrir magia y humor en cada rincón. Con el paso del tiempo, Michi se transforma en un hombre amargado y consumido por el rencor, incapaz de recordar aquella visión luminosa del mundo. Todo cambia con una aparición inesperada y el reencuentro con Conchita, su amor de la infancia, quien lo impulsa a recuperar la inocencia perdida. Renovado, Michi emprende una aventura en la que intentará cumplir la promesa de amor que una vez le hizo.",
-   "vote_average": 0,
+   "id": 1248832,
+   "title": "Digger",
+   "release_date": "2026-10-02",
+   "overview": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo.",
+   "vote_average": 7.5,
    "genres": [
-    "Comedia dramática"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/0f/52/0f520aa65c045f4df6c54646fc6f59d8.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/0f/52/0f520aa65c045f4df6c54646fc6f59d8.jpg"
-  },
-  {
-   "id": "sc296642",
-   "title": "La isla olvidada",
-   "release_date": "2026-09-25",
-   "overview": "Un grupo de personajes se encuentra en una isla mágica de la mitología filipina que había permanecido olvidada durante mucho tiempo.",
-   "vote_average": 6.4,
-   "genres": [
-    "Animación",
-    "Aventura",
-    "Comedia"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/ee/16/ee161d327f52a9e974075b7c17d32d10.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc1000026649",
-   "title": "El precio de la red",
-   "release_date": "2026-10-09",
-   "overview": "Se basa en \"The Facebook Files\", que revelan los secretos y controversias internas de Facebook. La película explora cómo estas revelaciones afectan a la compañía y a la sociedad.",
-   "vote_average": 5.4,
-   "genres": [
+    "Comedia",
     "Drama"
    ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/39/2c/392c8d9d27d778a79dab9c257005723c.jpg",
-   "backdrop": ""
+   "poster": "https://image.tmdb.org/t/p/w342/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+   "providers": [],
+   "trailer": "xU2jWSsaWY0",
+   "fondo": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg"
   },
   {
-   "id": "sc257425",
-   "title": "Tadeo Jones y la lámpara maravillosa",
-   "release_date": "2026-08-26",
-   "overview": "Tadeo y Sara deben impedir que Momia, celoso de haber perdido protagonismo, altere la historia tras viajar al pasado. Su aventura los lleva desde Londres hasta Paititi, Grecia y la cueva de Alí Babá, para devolver al grupo a su época.",
-   "vote_average": 6.2,
-   "genres": [
-    "Animación",
-    "Aventura",
-    "Comedia"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/fc/10/fc10c8292f7da73bf3b3b234d7a50539.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc1000004723",
-   "title": "Mascotas al rescate",
+   "id": 1281331,
+   "title": "El Precio de la Red",
    "release_date": "2026-10-09",
-   "overview": "Unos animales de compañía, atrapados en un tren lanzado a toda velocidad, deberán frustrar los planes de Hans, un tejón rencoroso en busca de venganza. Mientras el choque parece inevitable, los animales pueden contar con Falcon, un mapache pícaro e ingenioso, dispuesto a todo para salvarlos.",
-   "vote_average": 6,
+   "overview": "Explora las prácticas internas de Facebook, la difusión de información falsa, el impacto en la salud mental de los adolescentes y la conexión con los eventos del 6 de enero en el Capitolio.",
+   "vote_average": 7,
    "genres": [
-    "Animación",
-    "Aventura",
-    "Comedia"
+    "Drama",
+    "Suspense"
    ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/7e/5a/7e5a08438494d1ccf4f933fecdcc3b61.jpg",
-   "backdrop": ""
+   "poster": "https://image.tmdb.org/t/p/w342/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+   "providers": [],
+   "trailer": "cNbAPdz04UE",
+   "fondo": "https://image.tmdb.org/t/p/original/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg"
   },
   {
-   "id": "sc267335",
-   "title": "Coyote vs. ACME",
+   "id": 1204680,
+   "title": "Coyote vs. Acme",
    "release_date": "2026-09-18",
-   "overview": "Cansado de que los productos defectuosos de Acme arruinen sus planes, el Coyote contrata a un abogado para demandar a la corporación, ahora dirigida por un despiadado exjefe de su defensor. Juntos forjarán una inesperada amistad mientras luchan en los tribunales.",
+   "overview": "Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
+   "vote_average": 7.5,
+   "genres": [
+    "Comedia",
+    "Aventura",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/vWFz9spZFBkJvForuYrKK2ntOLB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
+   "providers": [],
+   "trailer": "WQRoa6l4bwI",
+   "fondo": "https://image.tmdb.org/t/p/original/7GOW6jod9lLurW5utokAatxg7ql.jpg"
+  },
+  {
+   "id": 1263337,
+   "title": "En el corazón de la bestia",
+   "release_date": "2026-09-25",
+   "overview": "Tras sobrevivir a un brutal accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate Odín intentan intentarán regresar a la civilización desde un remoto lugar en medio de los parajes salvajes de Alaska.",
+   "vote_average": 7.4,
+   "genres": [
+    "Aventura",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/h9Ql2vsltCOuf44c28nInxjzL2m.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bicMU6xVD5deVyKP2azpyx7xkmH.jpg",
+   "providers": [],
+   "trailer": "HGzLlMvkLnI",
+   "fondo": "https://image.tmdb.org/t/p/original/bicMU6xVD5deVyKP2azpyx7xkmH.jpg"
+  },
+  {
+   "id": 1283515,
+   "title": "Verity. La sombra de un engaño",
+   "release_date": "2026-10-02",
+   "overview": "Lowen Ashleigh es contratada como escritora fantasma por Jeremy Crawford para escribir las novelas de su esposa Verity, autora de bestsellers, impedida tras un accidente. Lowen descubre las inquietantes verdades de Verity mientras reside en casa de los Crawford para trabajar.",
+   "vote_average": 6.4,
+   "genres": [
+    "Misterio",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+   "providers": [],
+   "trailer": "P-QWhkimt50",
+   "fondo": "https://image.tmdb.org/t/p/original/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg"
+  },
+  {
+   "id": 1465063,
+   "title": "La isla olvidada",
+   "release_date": "2026-09-25",
+   "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
    "vote_average": 7.8,
    "genres": [
     "Animación",
     "Aventura",
-    "Comedia"
+    "Fantasía",
+    "Comedia",
+    "Familia"
    ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/18/4e/184e275eb73de363b01c7c3637407fcd.jpg",
-   "backdrop": ""
+   "poster": "https://image.tmdb.org/t/p/w342/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+   "providers": [],
+   "trailer": "uW2uWXiBpIs",
+   "fondo": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg"
   },
   {
-   "id": "sc1000051082",
-   "title": "NAZA",
-   "release_date": "2026-10-09",
-   "overview": "Rodado secretamente durante tres años en las azoteas de Tel Aviv, este documental investiga los mecanismos calculados detrás del asesinato de civiles palestinos en Gaza. A través de esta investigación, los cineastas exploran el sistema que permite la deshumanización y apelan a la sociedad sobre la responsabilidad colectiva de romper el silencio.",
-   "vote_average": 8.8,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/03/fc/03fcb4c628f5b737befdce071625f938.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc327174",
-   "title": "Digger",
-   "release_date": "2026-10-02",
-   "overview": "El hombre más poderoso del mundo provoca un desastre que amenaza a la humanidad. Para redimirse, emprende una misión arriesgada con el objetivo de convertirse en su salvador.",
-   "vote_average": 5.8,
-   "genres": [
-    "Acción",
-    "Comedia"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/0f/c9/0fc9092d6e2afd046417684533c535c4.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc1000004500",
-   "title": "Chopin",
+   "id": 1244523,
+   "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
-   "overview": "Tras convertirse en la gran estrella de las noches parisinas, el virtuoso pianista polaco Chopin descubre que sus días están contados cuando sus pulmones empiezan a sangrar. Consciente de su trágico destino, la composición se convierte en su única obsesión en una desesperada carrera contra el tiempo por revolucionar la historia de la música.",
-   "vote_average": 5.6,
+   "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
+   "vote_average": 5.5,
+   "genres": [
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/hClFn5adaXOgmxrZyxixoKiBHEZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
+   "providers": [],
+   "trailer": "MQKqgFVU4dQ",
+   "fondo": "https://image.tmdb.org/t/p/original/ug82yegbLgpat7COIhqhQ4W8ZBx.jpg"
+  },
+  {
+   "id": 1422041,
+   "title": "La bola negra",
+   "release_date": "2026-09-25",
+   "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
+   "vote_average": 8.3,
    "genres": [
     "Drama",
-    "Música"
+    "Bélica"
    ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/66/f0/66f06823c21b63a58063151ae4676310.jpg",
-   "backdrop": ""
+   "poster": "https://image.tmdb.org/t/p/w342/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+   "providers": [],
+   "trailer": "9NNU-vSeOB0",
+   "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
+  },
+  {
+   "id": 1572116,
+   "title": "Monstruosa Mia",
+   "release_date": "2026-10-16",
+   "overview": "Mia, de 12 años, y su desaliñada rata mascota, Quentin, son enviadas a la misteriosa Academia Rotwood tras acumular demasiados problemas en la escuela. El nuevo colegio le pone los pelos de punta, ¡y Mia necesita encontrar la forma de escapar antes de que los alumnos se den cuenta de que ella no es un monstruo como ellos! Sin embargo, el subdirector Van Vlad siente una especial aversión por los humanos, y Mia teme que él haya descubierto su farsa...",
+   "vote_average": 8.9,
+   "genres": [
+    "Animación",
+    "Fantasía",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
+   "providers": [],
+   "trailer": "CbqDABPksnw",
+   "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
+  },
+  {
+   "id": 1122573,
+   "title": "En la zona gris",
+   "release_date": "2026-09-18",
+   "overview": "Un equipo encubierto de agentes de élite viven en la sombra, tan cómodos manejando el poder y la influencia como armas automáticas y explosivos de gran potencia. Cuando un déspota roba una fortuna de mil millones de dólares, son enviados a recuperarla en lo que para cualquier otro sería una misión suicida. Lo que comienza como un atraco imposible empeora aún más y se convierte en una guerra total de estrategia, engaño y supervivencia.",
+   "vote_average": 7.5,
+   "genres": [
+    "Acción",
+    "Suspense",
+    "Crimen"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/kQik7Yfcs3O8dCBpIUGSdXOMOnQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+   "providers": [],
+   "trailer": "Unsa8AcHo0A",
+   "fondo": "https://image.tmdb.org/t/p/original/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg"
+  },
+  {
+   "id": 950028,
+   "title": "La invitación",
+   "release_date": "2026-10-16",
+   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
+   "vote_average": 7.2,
+   "genres": [
+    "Comedia",
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+   "providers": [],
+   "trailer": "nelkiuezJxg",
+   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
+  },
+  {
+   "id": 1594914,
+   "title": "Lucky Strike",
+   "release_date": "2026-10-02",
+   "overview": "Un soldado estadounidense gravemente herido lucha por sobrevivir, durante la II Guerra Mundial, detrás de las líneas enemigas en la Bélgica devastada por la guerra durante la brutal Batalla de las Ardenas. Aislado y obligado a afrontar unas condiciones extremas, debe confiar en su ingenio, su entrenamiento militar y una radio dañada como su única esperanza para evadir a las tropas enemigas que lo buscan. Mientras enfrenta el peligro constante, su objetivo es desesperadamente restablecer contacto con su unidad antes de que sea demasiado tarde.",
+   "vote_average": 6.6,
+   "genres": [
+    "Acción",
+    "Bélica"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/c4az2YuhUDmGTRYjsYdD3tFjwuG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
+   "providers": [],
+   "trailer": "vtEnjikCXyA",
+   "fondo": "https://image.tmdb.org/t/p/original/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg"
+  },
+  {
+   "id": 1542261,
+   "title": "Doraemon: Nobita y el nuevo castillo del diablo submarino",
+   "release_date": "2026-10-09",
+   "overview": "Nobita y sus amigos descubren un castillo submarino secreto repleto de misterios y riquezas. Con los ingeniosos artilugios de Doraemon, se sumergen en una aventura oceánica que combina humor, trabajo en equipo e imaginación en un impresionante mundo acuático.",
+   "vote_average": 6.8,
+   "genres": [
+    "Animación",
+    "Aventura",
+    "Fantasía",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/wPzyoIvJBOXFnuGWgu09gnlO26K.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pxd9rc03EMMln3tVFdfd427Fpsi.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/pxd9rc03EMMln3tVFdfd427Fpsi.jpg"
+  },
+  {
+   "id": 1318413,
+   "title": "Tiempo de victoria",
+   "release_date": "2026-09-18",
+   "overview": "Quedan 72 horas para el Día D y todo está listo salvo un elemento clave: el tiempo. El capitán James Stagg, jefe del servicio meteorológico británico, recibe el encargo de elaborar el pronóstico más trascendental de la historia. Unas condiciones climáticas adversas podrían arruinar la mayor invasión marítima de la historia, mientras que cualquier retraso podría suponer que los servicios de inteligencia alemanes descubran sus intenciones. El general Dwight D. Eisenhower deberá tomar la decisión que determine el destino de la Segunda Guerra Mundial.",
+   "vote_average": 7.7,
+   "genres": [
+    "Suspense",
+    "Historia",
+    "Bélica"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/byKFPj2xvKkqMKQ4i0Ayq6N7Z9E.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
+   "providers": [],
+   "trailer": "AlB1rAHviO4",
+   "fondo": "https://image.tmdb.org/t/p/original/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg"
   }
  ],
  "upcoming": [
   {
-   "id": "sc296439",
-   "title": "Wildwood",
-   "release_date": "2026-10-23",
-   "overview": "Prue McKeel y su compañero de clase Curtis se ven arrastrados a un bosque mágico oculto después de que Mac, el hermano pequeño de Prue, sea secuestrado por una bandada de cuervos. Estas aves responden a Alexandra, una mujer misteriosa que parece controlar el bosque. En su búsqueda, los dos amigos deberán adentrarse en un mundo lleno de criaturas mágicas y peligros inesperados, donde cada paso les muestra secretos antiguos. Juntos tendrán que reunir la valentía necesaria para enfrentarse a Alexandra y rescatar a Mac antes de que sea demasiado tarde.",
+   "id": 1437396,
+   "title": "Tu madre, tu madre, tu madre",
+   "release_date": "2026-10-28",
+   "overview": "Latif, un sicario profundamente religioso, lucha por equilibrar el trabajo, la fe y su papel como padre. Tras la muerte de su esposa, emprende un viaje desesperado por Houston para proteger a sus hijos, enfrentándose tanto a las fuerzas que lo acorralan como a las creencias que amenazan con desmoronarse en su interior.",
+   "vote_average": 7.6,
+   "genres": [
+    "Acción",
+    "Crimen",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+   "providers": [],
+   "trailer": "uEcoV-ngH38",
+   "fondo": "https://image.tmdb.org/t/p/original/jiFLiatBtBALlAzV5R72gzspBad.jpg"
+  },
+  {
+   "id": 1515139,
+   "title": "Back to the Beginning: La despedida de Ozzy",
+   "release_date": "2026-10-28",
+   "overview": "Back to the Beginning fue un concierto benéfico de la banda inglesa de heavy metal Black Sabbath, acompañados por más artistas. Tuvo lugar el 5 de julio de 2025 en Villa Park en Aston, Birmingham, Inglaterra, muy cerca de donde se formó la banda en 1968. El evento concluyó con las últimas actuaciones en vivo tanto de Black Sabbath como del cantante Ozzy Osbourne; también marcó la primera vez desde 2005 que la formación original de la banda (Osbourne, Tony Iommi, Geezer Butler y Bill Ward) había actuado juntos en vivo. Osbourne, que ya no podía caminar debido a la enfermedad avanzada de Parkinson, cantaba mientras estaba sentada en un trono. Diecisiete días después del espectáculo, Osbourne murió a la edad de 76 años. El beneficio recaudado ascendió a 140 millones de euros, y será donado a Acorns Children's Hospice, Birmingham Children's Hospital y Cure Parkinson.",
+   "vote_average": 0,
+   "genres": [
+    "Música",
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iO8vwdtmOivoyUguheJtDLXp2Gq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/hFIhPUW8oO2EJYXLAuWFMJBzjsR.jpg",
+   "providers": [],
+   "trailer": "REqdAeNUIho",
+   "fondo": "https://image.tmdb.org/t/p/original/hFIhPUW8oO2EJYXLAuWFMJBzjsR.jpg"
+  },
+  {
+   "id": 1058424,
+   "title": "Hope",
+   "release_date": "2026-10-30",
+   "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
+   "vote_average": 6.9,
+   "genres": [
+    "Ciencia ficción",
+    "Misterio",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/lkWqvj24NG3vEgu19ZQ9erG3Vj7.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg",
+   "providers": [],
+   "trailer": "OFaJzL83y0Q",
+   "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
+  },
+  {
+   "id": 977942,
+   "title": "El hombre que desafió al rey",
+   "release_date": "2026-10-30",
+   "overview": "En la Inglaterra del siglo XIV, asolada por la peste, un campesino desencadena una rebelión contra el rey Ricardo II y se convierte involuntariamente en una leyenda de la resistencia.",
+   "vote_average": 7.9,
+   "genres": [
+    "Acción",
+    "Drama",
+    "Historia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/rveEjlQQ0LlyyPk8ev2pHBmQPZZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+   "providers": [],
+   "trailer": "qM2Pk44x0Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg"
+  },
+  {
+   "id": 1284046,
+   "title": "Aniquilación",
+   "release_date": "2026-10-30",
+   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
+   "vote_average": 5.7,
+   "genres": [
+    "Acción",
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+   "providers": [],
+   "trailer": "AMLCbpM1fRQ",
+   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
+  },
+  {
+   "id": 858035,
+   "title": "Klara y el Sol",
+   "release_date": "2026-10-30",
+   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
+   "vote_average": 6.2,
+   "genres": [
+    "Ciencia ficción",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+   "providers": [],
+   "trailer": "v-Gy7zfOqAg",
+   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
+  },
+  {
+   "id": 1564614,
+   "title": "Leviticus",
+   "release_date": "2026-10-30",
+   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
+   "vote_average": 6.8,
+   "genres": [
+    "Terror",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/tGS5jugRsn7KwZLrvkqWeMtR7nB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+   "providers": [],
+   "trailer": "WXuK0vlFxII",
+   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
+  },
+  {
+   "id": 1195803,
+   "title": "Wicker",
+   "release_date": "2026-10-30",
+   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+   "vote_average": 6.2,
+   "genres": [
+    "Romance",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+   "providers": [],
+   "trailer": "jA5zfiikcu8",
+   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
+  },
+  {
+   "id": 1477104,
+   "title": "La Oveja Shaun: Misión Calabaza",
+   "release_date": "2026-10-30",
+   "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
+   "vote_average": 7.3,
+   "genres": [
+    "Animación",
+    "Comedia",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+   "providers": [],
+   "trailer": "daZMq0AyOMc",
+   "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
+  },
+  {
+   "id": 1404684,
+   "title": "Tiempos de ilusión",
+   "release_date": "2026-10-30",
+   "overview": "1985. Vincent, de casi 13 años, vive en las afueras de París en el seno de una familia de clase media, entre un hermano mayor distante y unos padres en conflicto constante. Aunque ya no es un niño pero tampoco un adulto, la película sigue sus reflexiones y dudas sobre la identidad, la amistad y la familia, así como sus interrogantes acerca de la religión, el deseo y el amor.",
+   "vote_average": 7.3,
+   "genres": [
+    "Comedia",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/l1fhfzNclQcp4oBz550KMY0CTre.jpg",
+   "providers": [],
+   "trailer": "vZtK0AdeXk8",
+   "fondo": "https://image.tmdb.org/t/p/original/3ZJW3mLqfG8kBxt6illE8I2qW7t.jpg"
+  },
+  {
+   "id": 1548369,
+   "title": "Gungo y Los Juegos Cavernícolas",
+   "release_date": "2026-10-30",
+   "overview": "",
    "vote_average": 0,
    "genres": [
     "Animación",
-    "Aventura",
-    "Familia"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/bb/9e/bb9e0b0fd1d0aa920597d9dc358b2688.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/bb/9e/bb9e0b0fd1d0aa920597d9dc358b2688.jpg"
-  },
-  {
-   "id": "sc1000048763",
-   "title": "Ali G: Kién es yo?",
-   "release_date": "2026-10-23",
-   "overview": "El excéntrico rapero británico Ali G (Sacha Baron Cohen) regresa a la escena para protagonizar su propio y descabellado documental. Cumpliendo con todos los estereotipos de su personaje, busca demostrar su gran relevancia en el mundo del espectáculo. Durante su recorrido, el protagonista se involucra en insólitas situaciones reales, como intentar vender marihuana a los asistentes de Wimbledon. Mediante la fórmula del falso documental, la historia difumina constantemente la frontera entre la realidad y la ficción. El rapero (Sacha Baron Cohen) interactúa con personas desprevenidas en apariciones públicas grabadas completamente en secreto. Estas vivencias improvisadas se combinan con escenas plenamente guionizadas llenas de su característico humor absurdo. A través de su disparatado relato, la cinta expone las estrafalarias aventuras y pretensiones del extravagante músico. De este modo, la película ofrece una divertida propuesta metacinematográfica centrada en la caótica vida de su protagonista.",
-   "vote_average": 0,
-   "genres": [
-    "Comedia"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/60/88/608877b7c4e49838bd5f2c2f74bb5f2c.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/60/88/608877b7c4e49838bd5f2c2f74bb5f2c.jpg"
-  },
-  {
-   "id": "sc1000026622",
-   "title": "Sentido y sensibilidad",
-   "release_date": "2026-10-23",
-   "overview": "Ambientada en la Inglaterra de la época georgiana, este clásico de Jane Austen narra la historia del acaudalado señor Dashwood, quien fallece dejando a su segunda esposa y a sus tres hijas en una situación económica bastante precaria debido a las estrictas leyes de herencia de la época. Obligadas a abandonar su hogar, las damas se mudan a una modesta cabaña en el campo. Allí, las dos hijas mayores, enfrentando el choque entre la necesidad económica y sus propios sentimientos, compiten por la atención de diversos pretendientes en una búsqueda constante por encontrar el verdadero amor.",
-   "vote_average": 7,
-   "genres": [
-    "Drama",
-    "Histórico",
-    "Romántico"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/dd/6c/dd6cdf49f2119ce554deb7cdda6bf838.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/dd/6c/dd6cdf49f2119ce554deb7cdda6bf838.jpg"
-  },
-  {
-   "id": "sc1000001481",
-   "title": "Los niños están bien",
-   "release_date": "2026-10-23",
-   "overview": "Una noche de verano, Suzanne aparece sin avisar en casa de su hermana Jeanne, acompañada de sus dos hijos pequeños. El reencuentro resulta desconcertante: llevan meses sin verse y, desde el primer momento, Jeanne percibe en Suzanne una inquietante distancia, como si estuviera ausente, perdida en sus propios pensamientos. A la mañana siguiente, la sorpresa se transforma en desconcierto cuando Jeanne descubre que su hermana se ha marchado, dejando atrás a los niños y una breve nota como única explicación. La incredulidad pronto da paso a la angustia y la rabia: en la gendarmería le informan de que no pueden iniciar una búsqueda, ya que Suzanne se ha ido por voluntad propia.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/c6/27/c627e3da435842ee44c20d7a9ff74ec5.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/c6/27/c627e3da435842ee44c20d7a9ff74ec5.jpg"
-  },
-  {
-   "id": "sc1000039229",
-   "title": "El samurái y el prisionero",
-   "release_date": "2026-10-23",
-   "overview": "Cuando el señor Murashige Araki se rebela contra el tiránico Nobunaga Oda, queda sitiado en su propio castillo. Aislado, una serie de misteriosos crímenes desatan la desconfianza en su corte, obligándole a forjar una incómoda alianza con Kanbei Kuroda, un peligroso y brillante estratega que se encuentra encarcelado en las mazmorras de la fortaleza. Con el apoyo de su esposa Chiyoho y de sus generales más leales, Murashige debe descubrir al traidor antes del inminente colapso. Adaptación de la novela Kokurojo de Honobu Yonezawa, este thriller de época está dirigido por el aclamado cineasta Kiyoshi Kurosawa (Cure, Pulse), quien despliega aquí su habitual atmósfera de tensión moral, espacio y silencio.",
-   "vote_average": 0,
-   "genres": [
-    "Drama",
-    "Histórico",
-    "Suspense"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/0f/90/0f90bb4f6d764903db6caaa201897e1d.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/0f/90/0f90bb4f6d764903db6caaa201897e1d.jpg"
-  },
-  {
-   "id": "sc1000027149",
-   "title": "Blue Heron",
-   "release_date": "2026-10-23",
-   "overview": "A finales de los años 90, la pequeña Sasha, de ocho años, se traslada con su familia a una nueva casa en la isla de Vancouver. La llegada al nuevo hogar parece ofrecer un entorno apacible para el comienzo de una nueva etapa. Sin embargo, la vida cotidiana se ve paulatinamente alterada por el comportamiento cada vez más impredecible de Jeremy, el hijo mayor. Desesperados ante la inestabilidad de la situación, los padres se ven obligados a tomar una complicada decisión. En medio de la creciente tensión, la niña se aferra a un talismán robado a su hermano: un llavero con una garza azul. Años después, la protagonista evoca sus vivencias infantiles para intentar descifrar el enigma que rodeaba al joven. A través de sus propios recuerdos, la historia reconstruye las rupturas y las marcas que transformaron a la familia. De este modo, el relato explora la fragilidad de la memoria y el valor de los lazos que perduran con el tiempo.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/a9/a2/a9a2a8e3aa716234560b3468cc7b623d.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/a9/a2/a9a2a8e3aa716234560b3468cc7b623d.jpg"
-  },
-  {
-   "id": "sc1000020312",
-   "title": "Moscas",
-   "release_date": "2026-10-23",
-   "overview": "Olga alquila una habitación de su casa a un hombre cuya mujer está ingresada en un hospital cercano. Parece un ama¡cuerdo sencillo y temporal, hasta que Olga descubre que el inquilino ha estado escondiendo a su hijo pequeño en la habitación. La presencia del niño irrumpe en la rutina controlada por Olga y desestabiliza su aparente calma. A medida que la convivencia va avanzando, las fronteras entre lo privado y lo compartido van desapareciendo y las vidas de los tres se mezclan. Así, Olga se ve obligada a enfrentarse a un vínculo que no había previsto.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/00/6f/006f7615fee25b3168da5e86558a6ae5.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/00/6f/006f7615fee25b3168da5e86558a6ae5.jpg"
-  },
-  {
-   "id": "sc1000053349",
-   "title": "200 vidas, Paco Rabal",
-   "release_date": "2026-10-23",
-   "overview": "A través de su propia voz rescatada de casetes inéditos y grabaciones en super 8, Francisco Rabal (Paco Rabal) repasa su vida, anhelos y contradicciones. El relato aborda sus humildes orígenes en la Cuesta de Gos hasta convertirse en el gran galán del cine español de los años cincuenta. Su paso al estrellato internacional despega tras protagonizar para Luis Buñuel títulos fundamentales como Nazarín y Viridiana. A lo largo de su impresionante filmografía de más de doscientos títulos, el actor trabaja a las órdenes de prestigiosos cineastas de alcance internacional. El recorrido cinematográfico rememora además grandes hitos de su carrera, como la Palma de Oro recibida en Cannes por su papel de Azarías en Los Santos inocentes. Pese a su compromiso político durante la época franquista, la narración explora sus vivencias íntimas, viajes y rodajes alrededor del mundo. La travesía evoca también sus reflexiones y el momento de su fallecimiento en Burdeos, guardando un paralelismo con la figura de Goya, a quien interpretó en varias ocasiones. De este modo, la obra traza un valioso retrato sobre la trayectoria de una figura imprescindible del cine a partir de sus propios recuerdos y diversos testimonios.",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/90/74/90747031b7c51b469a986fda22785a61.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/90/74/90747031b7c51b469a986fda22785a61.jpg"
-  },
-  {
-   "id": "sc780",
-   "title": "La Reina Kelly",
-   "release_date": "2026-10-23",
-   "overview": "El príncipe Wolfram (Walter Byron) es el primo y el prometido de la enajenada reina Regina V de Kronberg (Seena Owen). Esta decide castigarle cruelmente a él por sus escapadas nocturnas con otras mujeres. La lección consiste en ir de maniobras bajo el sol durante toda una jornada. Yendo por el camino de Kambach, se cruza con un grupo de monjas y jóvenes novicias. Su interés quedará rápidamente focalizado en la espontánea Patricia Kelly (Kitty Kelly), cuyos leotardos no estaban muy bien ajustados. Wolfram se enamora casi al instante de su belleza y decide secuestrarla del convento esa misma noche para llevarla a sus aposentos y rendirse al amor mutuo. Cuando la reina les pilla, manda azotar a Kelly y expulsarla del castillo. A él no le depara mejor destino: el encarcelamiento por no querer casarse con la reina.",
-   "vote_average": 5.8,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/a0/d1/a0d1805857fa71eeb846b649bd7a2870.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/a0/d1/a0d1805857fa71eeb846b649bd7a2870.jpg"
-  },
-  {
-   "id": "sc1000045886",
-   "title": "El poder del Rosario",
-   "release_date": "2026-10-23",
-   "overview": "Helena (Bella Maria Benetti) es una niña dulce y devota que anhela conocer a su padre ausente. Su madre, Sandra (Bárbara Marinho), decide afrontar las heridas del pasado para propiciar el reencuentro con Roberto (Tarcizio Rafael). Sin embargo, de camino al esperado encuentro, la pequeña y su madre sufren un trágico accidente de tráfico. Mientras la niña se debate entre la vida y la muerte en el hospital, su madre enfrenta la impotencia desde la fe. La tragedia conmueve a André (Alexandre Machafer), un fotógrafo de éxito desvinculado por completo de la religión. El hallazgo de un rosario ensangrentado en el lugar del siniestro inicia en el fotógrafo una profunda transformación. En el centro médico, las vidas de varios desconocidos marcados por el dolor comienzan a entrelazarse. De este modo, una incipiente cadena de oración abre paso a una historia de perdón, reconciliación y esperanza.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/16/bd/16bdb026b63dac9845c054c26e3ac2b8.jpg",
-   "backdrop": "https://es.web.img2.acsta.net/img/16/bd/16bdb026b63dac9845c054c26e3ac2b8.jpg"
-  },
-  {
-   "id": "sc1000027716",
-   "title": "Ozzy & Black Sabbath: Back To The Beginning",
-   "release_date": "2026-10-28",
-   "overview": "La película documenta el multitudinario concierto de despedida celebrado el 5 de julio de 2025 en el estadio del Aston Villa en Birmingham. La cita reúne sobre el escenario tras veinte años de separación a los miembros de Black Sabbath con Ozzy Osbourne, Tony Iommi, Geezer Butler y Bill Ward. El evento adquiere una trascendencia histórica al tratarse de la última actuación en directo de Ozzy Osbourne antes de su fallecimiento. La emblemática velada en la ciudad natal del vocalista abarrota el recinto con cuarenta y cuatro mil seguidores del heavy metal. Reconocidas agrupaciones como Metallica, Guns N' Roses, Slayer, Pantera y Tool participan rindiendo tributo al pionero grupo. El largometraje combina la potente energía de las interpretaciones en directo con un acceso exclusivo a secuencias filmadas entre bastidores. Destacadas figuras de la música como James Hetfield o Phil Anselmo ofrecen sinceros testimonios sobre la profunda influencia del grupo en sus vidas. De este modo, culmina como un conmovedor homenaje a la trayectoria y al legado imperecedero de los maestros del género.",
-   "vote_average": 0,
-   "genres": [
-    "Concierto",
-    "Documental"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/45/33/45334ae21bf74c2f22a7beb7a05dfae3.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/45/33/45334ae21bf74c2f22a7beb7a05dfae3.jpg"
-  },
-  {
-   "id": "sc314882",
-   "title": "Hope",
-   "release_date": "2026-10-30",
-   "overview": "En Hope Harbor, un pequeño y aislado pueblo situado cerca de la Zona Desmilitarizada, la calma cotidiana se ve abruptamente alterada cuando el jefe del puesto policial, Bum-seok, comienza a recibir inquietantes reportes de los habitantes: un tigre habría sido avistado en los alrededores. Lo que en un principio parece un rumor difícil de creer pronto se transforma en una amenaza que desata el miedo y la confusión entre la población. A medida que el pánico se extiende y la tensión crece en la comunidad, Bum-seok se ve obligado a investigar los hechos y a enfrentarse a una situación cada vez más difícil de controlar, en la que la frontera entre lo real y lo improbable comienza a difuminarse.",
-   "vote_average": 6,
-   "genres": [
-    "Acción",
-    "Ciencia ficción",
-    "Suspense"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/13/a2/13a2fb348356175c95a1caba9e65bc4e.jpg",
-   "backdrop": "https://es.web.img3.acsta.net/img/13/a2/13a2fb348356175c95a1caba9e65bc4e.jpg"
-  },
-  {
-   "id": "sc322884",
-   "title": "Wicker",
-   "release_date": "2026-10-30",
-   "overview": "Una pescadora marginada vive aislada en un pueblo costero donde es rechazada por su aspecto y su forma de ser. Harta de las burlas y el juicio social decide encargar un marido de mimbre como desafío a las normas y reflejo de su soledad.",
-   "vote_average": 0,
-   "genres": [
     "Comedia",
-    "Drama",
-    "Fantasía"
+    "Aventura"
    ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/da/e9/dae9125404c35775d5fdcffddca12d35.jpg",
-   "backdrop": ""
+   "poster": "https://image.tmdb.org/t/p/w342/gv9Mmo1jhwtHfEoNKIUVy1EWzpg.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
   },
   {
-   "id": "sc1000037443",
-   "title": "Leviticus",
-   "release_date": "2026-10-30",
-   "overview": "Dos adolescentes sometidos a terapia de conversión despiertan a una entidad sobrenatural que toma la forma de su amor prohibido. Para sobrevivir, deberán enfrentarse tanto al monstruo que los persigue como al fanatismo de su propia comunidad.",
-   "vote_average": 6,
-   "genres": [
-    "Romántico",
-    "Terror"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/f4/3c/f43cdca64ebb9a2e9969d80b39dbd6dd.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc1000005692",
+   "id": 1365224,
    "title": "Karateka",
    "release_date": "2026-10-30",
-   "overview": "Sandra Sánchez, superando el rechazo del sistema, se convierte en la mejor karateka de todos los tiempos. A los 39 años, con el apoyo de su entrenador y pareja, conquista el oro olímpico, desafiando las expectativas y dejando una huella imborrable en la historia del Karate.",
+   "overview": "Biopic sobre la inspiradora historia de la campeona olímpica Sandra Sánchez, la mejor karateka de todos los tiempos.",
    "vote_average": 0,
    "genres": [
-    "Biopic"
-   ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/06/b4/06b49b331f56b60d6cfd5971c9af4820.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc1000015954",
-   "title": "Tiempos de ilusión",
-   "release_date": "2026-10-30",
-   "overview": "1985, Vincent, un joven que vive en un barrio de clase media, lidia con la distancia de su hermano mayor y los conflictos entre sus padres. Atrapado en la transición entre la infancia y la madurez, se enfrenta a dudas en torno a su identidad, la religión, la amistad y el deseo.",
-   "vote_average": 0,
-   "genres": [
-    "Comedia dramática"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/6e/43/6e43cb7112995b111d22cae911f28637.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc1000002534",
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército debe proteger a su hija cuando unas máquinas asesinas escapan de una base secreta y convierten el entorno en una zona de alto riesgo. Mientras huye, lucha contra el tiempo para sobrevivir y detener una amenaza imparable.",
-   "vote_average": 0,
-   "genres": [
-    "Acción",
-    "Ciencia ficción",
-    "Suspense"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/c0/7d/c07dab66cf6be156b445e8a0a0c77b44.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc315883",
-   "title": "Klara y el Sol",
-   "release_date": "2026-10-30",
-   "overview": "Klara, una amiga artificial, llega a un hogar para acompañar a Josie, una adolescente enferma, y aprende a comprender las emociones humanas. Convencida del poder del amor, intentará salvarla mientras descubre los límites entre lo programado y lo humano.",
-   "vote_average": 0,
-   "genres": [
-    "Ciencia ficción",
-    "Comedia",
     "Drama"
    ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/68/72/6872e9eebc53cc004d135fc09bf28fff.jpg",
-   "backdrop": ""
+   "poster": "https://image.tmdb.org/t/p/w342/bJh97VEUn9TWygQSrOOyJrwQXek.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/s8Kp6nJa6HtsUoHXFxG2wrN7PAw.jpg",
+   "providers": [],
+   "trailer": "W0QNH-Nb9O4",
+   "fondo": "https://image.tmdb.org/t/p/original/s8Kp6nJa6HtsUoHXFxG2wrN7PAw.jpg"
   },
   {
-   "id": "sc1000014318",
-   "title": "Victorian Psycho",
-   "release_date": "2026-10-30",
-   "overview": "En 1858, la llegada de la institutriz Winifred Notty a Ensor House genera una ola de sospechas y temor. A medida que los empleados desaparecen, la mansión se sumerge en una atmósfera de misterio y amenaza latente.",
-   "vote_average": 0,
-   "genres": [
-    "Histórico",
-    "Suspense",
-    "Terror"
-   ],
-   "poster": "https://es.web.img3.acsta.net/c_342_456/img/e1/47/e1470a73a868af1f17a83939a2135d5e.jpg",
-   "backdrop": ""
-  },
-  {
-   "id": "sc1000031144",
+   "id": 1547311,
    "title": "Esta soledad",
    "release_date": "2026-10-30",
-   "overview": "Leo y Lorea terminan su relación tras cinco años, cargando con heridas personales y familiares. Entre la precariedad y el desencanto, buscan reconstruirse en medio de una generación que llega tarde a todo.",
+   "overview": "Tras el final de una relación después de cinco años, los dos miembros de la misma intentan salir adelante, lidiando con los problemas en sus vidas personales.",
    "vote_average": 0,
    "genres": [
-    "Drama",
-    "Romántico"
+    "Drama"
    ],
-   "poster": "https://es.web.img2.acsta.net/c_342_456/img/0a/ff/0aff57c813af18324168b5493875dc7d.jpg",
-   "backdrop": ""
+   "poster": "https://image.tmdb.org/t/p/w342/gDsAXwxRwH9nQCv1z5GvqVwPnTI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zppmTC0qSPBV7zJmzzXkt3aCuyj.jpg",
+   "providers": [],
+   "trailer": "Z73fH3guhYQ",
+   "fondo": "https://image.tmdb.org/t/p/original/zppmTC0qSPBV7zJmzzXkt3aCuyj.jpg"
+  },
+  {
+   "id": 1775906,
+   "title": "Öngörülemeyenler Listesi",
+   "release_date": "2026-10-31",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Animación",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/cldm1wNJnUkp6oUVOLFsV68heqh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ctYSnZoIGqow4txdITts8JmTjTT.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/ctYSnZoIGqow4txdITts8JmTjTT.jpg"
+  },
+  {
+   "id": 1748404,
+   "title": "Always Yours, Never Mine",
+   "release_date": "2026-11-01",
+   "overview": "",
+   "vote_average": 4,
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/sDAbgrVhhdQxkPQwtBWpGhVtJ5b.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg",
+   "providers": [],
+   "trailer": "mI2_DVu08dI",
+   "fondo": "https://image.tmdb.org/t/p/original/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg"
+  },
+  {
+   "id": 1381071,
+   "title": "Godzilla Minus Zero",
+   "release_date": "2026-11-06",
+   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
+   "vote_average": 0,
+   "genres": [
+    "Ciencia ficción",
+    "Terror",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/taoPyKQTXh0FSwO5rin8Djrt20C.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+   "providers": [],
+   "trailer": "pWJjYoqVSjQ",
+   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
+  },
+  {
+   "id": 656908,
+   "title": "Ramayana: El Nacimiento de una Leyenda",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Fantasía",
+    "Acción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ks72NqTPhpupk207NXiqmZIQQVI.jpg",
+   "providers": [],
+   "trailer": "tPf0_b026Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
+  },
+  {
+   "id": 1117898,
+   "title": "El gato con sombrero",
+   "release_date": "2026-11-06",
+   "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
+   "vote_average": 0,
+   "genres": [
+    "Animación",
+    "Comedia",
+    "Aventura",
+    "Fantasía",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+   "providers": [],
+   "trailer": "bRMu8S6FQ9c",
+   "fondo": "https://image.tmdb.org/t/p/original/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg"
+  },
+  {
+   "id": 1241803,
+   "title": "Los miserables",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 6.9,
+   "genres": [
+    "Historia",
+    "Romance",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/tY3CoBNTCpvJayVRLqIIGDa4Ep8.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg",
+   "providers": [],
+   "trailer": "PyBTjrK43Hg",
+   "fondo": "https://image.tmdb.org/t/p/original/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg"
+  },
+  {
+   "id": 1468846,
+   "title": "Species (Sanguine)",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Ciencia ficción",
+    "Terror"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/fDvZvNmLIwUcKKQ4Cfb6TmQJM7M.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/jySTVXi8UDajVgYh01KavKtY4YJ.jpg"
   }
  ],
  "region": "ES"
