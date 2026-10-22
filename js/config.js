@@ -14,13 +14,12 @@ var LAUNCHER_CONFIG = {
       greeting: 'BIENVENIDO',        // texto pequeño encima del nombre
       weather: { place: 'MADRID', lat: 40.4168, lon: -3.7038 },
       // 'local:archivo.mp4' = vídeo copiado en el stick (carpeta Download), a color.
-      // Si no está (o estás en el PC), se usa fallbackVideo con el estilo CRT.
+      // Si no está (o estás en el PC), la bienvenida se queda sin vídeo.
       video: 'local:bienvenida.mp4',
-      fallbackVideo: 'media/welcome.mp4',
       theme: 'green'                 // green | cyan | amber
     }
     // Ejemplo para otro perfil:
-    // { id: 'invitado', name: 'INVITADO', greeting: 'BIENVENIDO', weather:{place:'MADRID',lat:40.41,lon:-3.70}, video:'media/welcome.mp4', theme:'cyan' }
+    // { id: 'invitado', name: 'INVITADO', greeting: 'BIENVENIDO', weather:{place:'MADRID',lat:40.41,lon:-3.70}, theme:'cyan' }
   ],
 
   // ---- APPS ----
@@ -59,8 +58,8 @@ var LAUNCHER_CONFIG = {
       url: 'https://open.spotify.com',
       pkg: 'com.spotify.tv.android,com.spotify.music' },
     { name: 'TWITCH', label: 'Twitch', domain: 'twitch.tv', icon: 'twitch',
-      bg: '#9146ff', fg: '#ffffff', logoWhite: true,
-      logos: ['Twitch_logo.svg', 'Twitch_logo_(wordmark_only).svg', 'Twitch_Glitch_Logo_Purple.svg'],
+      bg: '#0e0e10', fg: '#a970ff',
+      logos: ['media/logos/twitch.png'],
       url: 'https://www.twitch.tv',
       pkg: 'tv.twitch.android.app' },
     { name: 'HBO MAX', label: 'HBO Max', domain: 'hbomax.com', icon: 'max',
