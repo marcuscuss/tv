@@ -384,3 +384,11 @@ html, body {
 .film-stars { font-size: 70px; letter-spacing: 6px; color: var(--fg); margin: 22px 0 14px; }
 .film-meta { font-size: 28px; letter-spacing: 2px; }
 .film-close { margin-top: 40px; }
+
+/* Botón de cerrar de la ficha: visible, pulsable y resaltado como lo elegido */
+.film-close { display: inline-block; margin-top: 40px; padding: 12px 28px; font-size: 28px; letter-spacing: 3px;
+  background: var(--fg); color: var(--bg); text-shadow: none; cursor: pointer; border-radius: 6px; }
+.film-close:hover { filter: brightness(1.15); }
+.film-hint { margin-top: 14px; }
+.film { cursor: pointer; }
+.film-box { cursor: default; }

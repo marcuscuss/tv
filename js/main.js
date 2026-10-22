@@ -673,6 +673,9 @@
     setTimeout(fit, 300); setTimeout(fit, 1000); setTimeout(fit, 2500);
     document.addEventListener('keydown', onKey);
     buildProfiles();
+    // Ficha de película: se cierra con el botón o pulsando fuera de ella
+    $('film-close').addEventListener('click', closeFilm);
+    $('film').addEventListener('click', function (e) { if (e.target === $('film')) closeFilm(); });
     document.querySelector('.col-main').addEventListener('wheel', function (e) {
       if (screen !== 'launcher' || filmOpen) return;
       if (e.deltaY > 0 && zone === 'apps' && lbItems.length) enterLb(0);
