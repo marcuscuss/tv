@@ -127,7 +127,8 @@ function parseRss(xml) {
 function parseListsPage(html, user) {
   const lists = [];
   const seen = new Set();
-  const re = new RegExp('href=["\']/' + user + '/list/([^/"\']+)/["\']', 'gi');
+  // Enlaces relativos (/usuario/list/x/) o absolutos (https://letterboxd.com/usuario/list/x/)
+  const re = new RegExp('href=["\'](?:https?://letterboxd\\.com)?/' + user + '/list/([^/"\'?#]+)/?["\']', 'gi');
   let m;
   while ((m = re.exec(html))) {
     const slug = m[1];
@@ -135,7 +136,7 @@ function parseListsPage(html, user) {
     seen.add(slug);
     // Bloque de esta lista: desde su enlace hasta el enlace de la siguiente
     const start = m.index;
-    const nextRe = new RegExp('href=["\']/' + user + '/list/(?!' + slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '/)[^/"\']+/["\']', 'i');
+    const nextRe = new RegExp('href=["\'](?:https?://letterboxd\\.com)?/' + user + '/list/(?!' + slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '/)[^/"\'?#]+/?["\']', 'i');
     const rest = html.slice(start + m[0].length);
     const n = nextRe.exec(rest);
     const block = n ? rest.slice(0, n.index) : rest.slice(0, 4000);
@@ -223,8 +224,16 @@ async function processUser(user) {
   // b) Listas
   let lists = null;
   try {
-    lists = parseListsPage(await get(BASE + '/' + user + '/lists/'), user);
+    const listsHtml = await get(BASE + '/' + user + '/lists/');
+    lists = parseListsPage(listsHtml, user);
     log('listas encontradas: ' + lists.length);
+    if (!lists.length) {
+      // Diagnóstico: ¿la página no tiene listas o el formato es otro?
+      const t = /<title>([^<]*)<\/title>/i.exec(listsHtml);
+      const sample = (listsHtml.match(/href=["'][^"']*\/list\/[^"']*["']/gi) || []).slice(0, 5);
+      log('  (página de ' + listsHtml.length + ' bytes, título: "' + (t ? decode(t[1]).trim() : '?') + '", enlaces /list/: ' +
+        JSON.stringify(sample) + ', "no lists": ' + /no lists|hasn.t created any lists|no ha creado/i.test(listsHtml) + ')');
+    }
   } catch (e) {
     log('AVISO listas: ' + e.message + ' (se conservan las anteriores)');
   }
