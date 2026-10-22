@@ -152,11 +152,14 @@ img { border: 0; }
    ====================================================================== */
 #loading { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 50; display: none; }
 #loading.on { display: block; }
-#loading .box { position: absolute; left: 0; right: 0; top: 50%; margin-top: -2.6vw; text-align: center; }
-#loading .word { font-size: 1.2vw; letter-spacing: .5em; margin-bottom: 1.2vw; }
-.loading-bar { font-size: 1.5vw; letter-spacing: .05em; white-space: nowrap; }
-.loading-bar .off { color: #2c2b28; }
-.loading-pct { font-size: .95vw; letter-spacing: .3em; margin-top: 1vw; }
+#loading .box { position: absolute; left: 4.4vw; right: 4.4vw; bottom: 4.6vw; }
+#loading .word, #loading .loading-pct { font-size: .85vw; letter-spacing: .12em; }
+/* Barra de rayitas finas: las tenues de fondo y las claras encima, recortadas con transform */
+.ldt { position: relative; height: 1.1vw; margin-top: .6vw; overflow: hidden;
+  background-image: repeating-linear-gradient(90deg, rgba(236,230,214,.18) 0, rgba(236,230,214,.18) 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) .42vw); }
+.ldt-on { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; -webkit-transform: translateX(-100%); transform: translateX(-100%); }
+.ldt-in { position: absolute; left: 0; top: 0; width: 100%; height: 100%; -webkit-transform: translateX(100%); transform: translateX(100%);
+  background-image: repeating-linear-gradient(90deg, #ece6d6 0, #ece6d6 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) .42vw); }
 /* Bandas de "tracking" del vídeo, como al rebobinar */
 .track { position: absolute; left: 0; right: 0; height: 2.2vw; background-color: rgba(236,230,214,.06);
   border-top: 1px solid rgba(236,230,214,.1); -webkit-animation: track .7s linear infinite; animation: track .7s linear infinite; }
@@ -584,6 +587,12 @@ img { border: 0; }
 .oop .ln .c { display: inline-block; width: 13vw; margin-right: 1vw; color: #858075; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: top; }
 .oop .ln.focus .h, .oop .ln.focus .c { color: #0e0e0d; }
 
+/* Destello rojo al reproducir una cinta */
+#tint { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 54; pointer-events: none; display: none;
+  background-color: rgba(200, 52, 12, .5); background-image: linear-gradient(180deg, rgba(255,140,40,.25), rgba(120,10,0,.35)); }
+#tint.on { display: block; }
+#screen.jolt > .screen.on { -webkit-transform: translateX(1.6vw); transform: translateX(1.6vw); }
+
 /* Señal débil, interferencia (Halloween) y nieve (Navidad) */
 #snow { position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 52; pointer-events: none; display: none; }
 #screen.glitch > .screen.on { -webkit-transform: translate(1.4vw, -.4vw) skewX(-4deg); transform: translate(1.4vw, -.4vw) skewX(-4deg); }
@@ -775,9 +784,8 @@ img { border: 0; }
   <div id="loading">
     <div class="track"></div><div class="track t2"></div>
     <div class="box">
-      <div class="word">LOADING</div>
-      <div class="loading-bar" id="ld-bar"></div>
-      <div class="loading-pct" id="ld-pct">00%</div>
+      <div class="row between"><span class="word">LOADING</span><span class="loading-pct" id="ld-pct">0</span></div>
+      <div class="ldt"><div class="ldt-on" id="ld-on"><div class="ldt-in" id="ld-in"></div></div></div>
     </div>
   </div>
 
@@ -793,6 +801,8 @@ img { border: 0; }
 
   <!-- ÚLTIMA HORA -->
   <div id="alert"><div class="k">● Última hora</div><div class="t" id="alert-t"></div><div class="h">OK PARA VER · ATRÁS CERRAR</div></div>
+
+  <div id="tint"></div>
 
   <!-- Zapping: estática y número de canal -->
   <canvas id="static" width="192" height="108"></canvas>
@@ -1233,15 +1243,14 @@ img { border: 0; }
      TRANSICIÓN "LOADING" · pantalla negra, barra de rayitas y porcentaje
      (como mucho 0,8 s). Durante la carga se ignoran las teclas.
      ===================================================================== */
-  var LD_BARS = 30;
   function transition(cb) {
     if (busy) return;
     busy = true;
     var L = $('loading'), t0 = now(), dur = perf.on ? 420 : 640;
     function paint(pct) {
-      var f = Math.round(pct / 100 * LD_BARS);
-      $('ld-bar').innerHTML = '[<span class="on">' + repeat('|', f) + '</span><span class="off">' + repeat('|', LD_BARS - f) + '</span>]';
-      $('ld-pct').innerHTML = (pct < 10 ? '0' : '') + pct + '% <span class="rest">· JOI HOME VIDEO</span>';
+      setTransform($('ld-on'), 'translateX(' + (pct - 100) + '%)');
+      setTransform($('ld-in'), 'translateX(' + (100 - pct) + '%)');
+      $('ld-pct').textContent = pct;
     }
     paint(0);
     L.classList.add('on');
@@ -1367,6 +1376,16 @@ img { border: 0; }
       if (m[order[i]]) h += '<span><i class="ck-' + order[i] + '"></i>' + esc(m[order[i]].label()) + '</span>';
     }
     $('f-keys').innerHTML = h;
+  }
+
+  /* ---------- Al reproducir una cinta: destello rojo con la imagen temblando (como en Arc) ---------- */
+  function tapeFlash(cb) {
+    var t = $('tint'), sc = $('screen');
+    t.className = 'on';
+    if (!perf.on) sc.classList.add('jolt');
+    setTimeout(function () { sc.classList.remove('jolt'); }, 140);
+    setTimeout(function () { t.className = ''; }, 420);
+    setTimeout(cb, 260);
   }
 
   /* ---------- Zapping: medio segundo de estática y número de canal ---------- */
@@ -2020,20 +2039,21 @@ img { border: 0; }
     if (!a) return;
     if (a.all) renderAll(0);
     else if (a.qvh) openQvh();
-    else { sfx('clack'); open(a); }
+    else { sfx('clack'); tapeFlash(function () { open(a); }); }
   }
 
   // Coloca cada cinta: transform y opacity solamente (3D o plano en modo ligero)
+  var WHEEL_R = 92, WHEEL_STEP = 0.218;          // radio de la rueda (vw) y separación entre cintas (rad)
   function layoutCarousel() {
     var V = window.innerWidth / 100, n = car.tapes.length;
     for (var i = 0; i < n; i++) {
       var t = car.tapes[i], d = i - car.idx, ad = Math.abs(d), s = d < 0 ? -1 : 1, tr;
       setClass(t, 'f', d === 0);
       setClass(t, 'off', ad > 4);
-      // Como en la referencia: cintas casi pegadas, casi del mismo tamaño; las de los
-      // lados oscuras, un poco giradas (el borde de fuera más cerca) e inclinadas.
-      var x = s * (ad ? 19.8 + (ad - 1) * 19 : 0) * V, y = (ad ? .5 + ad * .35 : -.9) * V;
-      var sc = d === 0 ? 1.03 : .96 - (ad - 1) * .03, rz = ad ? s * (1.6 + ad * .8) : 0;
+      // Como en la referencia: las cintas van sobre una rueda grande. La del centro
+      // recta y algo levantada; las de los lados se inclinan y bajan cuanto más lejos.
+      var th = d * WHEEL_STEP, x = Math.sin(th) * WHEEL_R * V, y = ((1 - Math.cos(th)) * WHEEL_R + (d === 0 ? -.9 : .5)) * V;
+      var sc = d === 0 ? 1.03 : .97 - (ad - 1) * .02, rz = th * 180 / Math.PI;
       tr = perf.on
         ? 'translate(' + Math.round(x) + 'px,' + Math.round(y) + 'px) rotate(' + rz + 'deg) scale(' + sc + ')'
         : 'translate3d(' + Math.round(x) + 'px,' + Math.round(y) + 'px,' + Math.round(-ad * 2.5 * V) + 'px) rotateY(' + (ad ? -s * 15 : 0) + 'deg) rotate(' + rz + 'deg) scale(' + sc + ')';
@@ -2318,6 +2338,7 @@ img { border: 0; }
        ◀▶ carátula · ▲▼ EN CINES / PRÓXIMAMENTE · OK ficha
      ===================================================================== */
   var NW_MAX = 12;
+  var NW_LAT = [0.55, -0.45, 0.2, -0.7, 0.75, -0.15, 0.4, -0.6, 0.05, 0.65, -0.3];   // alturas de las carátulas en la esfera
   CH_KEYS.news = {
     r: { label: function () { return news.cat === 0 ? 'VER PRÓXIMAMENTE' : 'VER EN CINES'; }, act: function () {
       if ($('sec-news').classList.contains('news-ready')) { showCat(1 - news.cat); renderKeys(); }
@@ -2439,11 +2460,15 @@ img { border: 0; }
       var k = i - news.idx;
       if (k > n / 2) k -= n;
       if (k < -n / 2) k += n;
-      var a = k * 2 * Math.PI / Math.max(n, 6), depth = (Math.cos(a) + 1) / 2;   // 1 delante, 0 detrás
-      var x = Math.sin(a) * 28 * V, y = (1 - depth) * -5.5 * V - (k === 0 ? 0 : 1.2 * V);
-      var sc = k === 0 ? 1.45 : .5 + depth * .38;
+      // Como en la referencia: cada carátula "pegada" a la esfera, a distinta altura
+      // (latitud) y con la inclinación que le toca; la enfocada, delante y en el centro.
+      var a = k * 2 * Math.PI / Math.max(n, 6), lat = k === 0 ? 0 : NW_LAT[(i % NW_LAT.length)];
+      var depth = (Math.cos(a) * Math.cos(lat) + 1) / 2;                       // 1 delante, 0 detrás
+      var x = Math.sin(a) * Math.cos(lat) * 27 * V, y = -Math.sin(lat) * 15 * V;
+      var sc = k === 0 ? 1.45 : .45 + depth * .45;
+      var rz = k === 0 ? 0 : (Math.sin(a) * -14 + lat * 22), sx = k === 0 ? 1 : .55 + .45 * Math.abs(Math.cos(a));
       var c = news.cards[i];
-      setTransform(c, 'translate(' + Math.round(x) + 'px,' + Math.round(y) + 'px) scale(' + sc.toFixed(3) + ')');
+      setTransform(c, 'translate(' + Math.round(x) + 'px,' + Math.round(y) + 'px) rotate(' + rz.toFixed(1) + 'deg) scale(' + (sc * sx).toFixed(3) + ',' + sc.toFixed(3) + ')');
       c.style.zIndex = Math.round(depth * 20) + (k === 0 ? 10 : 0);
       c.style.opacity = 1;
       c.lastChild.style.opacity = k === 0 ? 0 : (.25 + (1 - depth) * .55).toFixed(2);
@@ -3149,7 +3174,7 @@ img { border: 0; }
     var play = el('div', 'btn primary', esc(v && findApp(v.app) ? (theme.textos.play || '[PLAY TAPE]') + ' · ' + v.tag : (m.trailer ? '[PLAY TAPE] · TRÁILER' : '[PLAY TAPE]')));
     focusable(play, function () {
       sfx('clack');
-      if (v && findApp(v.app)) open(findApp(v.app));
+      if (v && findApp(v.app)) tapeFlash(function () { open(findApp(v.app)); });
       else if (m.trailer) openTrailer(m.trailer);
       else toast('No sé dónde verla todavía');
     });
