@@ -1,0 +1,22 @@
+name: Diagnóstico temporal
+on:
+  workflow_dispatch:
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tipografías Typekit
+        run: curl -sS https://use.typekit.net/bna2shh.css -H "Referer: https://marcuscuss.github.io/" | grep -E "font-family|font-weight|font-style|font-stretch" | sort | uniq -c
+      - name: SensaCine cartelera
+        run: |
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+          for u in https://www.sensacine.com/peliculas/en-cartelera/cines/ https://www.sensacine.com/peliculas/proximamente/ ; do
+            echo "=== $u"; curl -sSL -A "$UA" -o p.html -w "%{http_code} %{size_download}\n" "$u"
+            grep -o 'class="card entity-card[^"]*"' p.html | head -3
+            python3 - <<'P'
+          import re
+          s=open('p.html',encoding='utf-8',errors='ignore').read()
+          i=s.find('entity-card')
+          print(s[i-200:i+4000])
+          P
+          done
