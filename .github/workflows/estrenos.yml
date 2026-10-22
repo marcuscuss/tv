@@ -2,7 +2,7 @@ name: Actualizar estrenos
 
 # Cada 12 horas (y a mano desde la pestaña Actions) descarga de TMDB la
 # cartelera y los próximos estrenos de cines en España → data/estrenos.json.
-# Necesita el secreto TMDB_API_KEY (Settings → Secrets and variables → Actions).
+# Con el secreto TMDB_API_KEY usa TMDB; sin él, la cartelera de SensaCine.
 on:
   schedule:
     - cron: '41 */12 * * *'

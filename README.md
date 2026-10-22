@@ -23,14 +23,15 @@ Web: https://marcuscuss.github.io/tv/
 ## Colores y tipografías
 
 Todos los colores están en el bloque `/* PALETA */` al principio del CSS de `index.html`.
-Las tipografías van en `assets/fonts` (familias `JoiDisplay` y `JoiMono`); mientras no estén, se usan Georgia y Courier.
+Tipografías de Adobe Fonts (kit `bna2shh`): TT Travels Next y PT Mono; si no cargan, Georgia y Courier.
 Logos en `assets/logos`.
 
 ## Estrenos (NEWS WATCH)
 
-`.github/workflows/estrenos.yml` ejecuta `scripts/estrenos.js` cada 12 horas (y a mano desde Actions):
-pide a TMDB `now_playing` y `upcoming` de España y guarda `data/estrenos.json`. Necesita el secreto
-`TMDB_API_KEY` (Settings → Secrets and variables → Actions). Si falla, se conserva el archivo anterior.
+`.github/workflows/estrenos.yml` ejecuta `scripts/estrenos.js` cada 12 horas (y a mano desde Actions)
+y guarda `data/estrenos.json` con lo que hay en cines y los próximos estrenos en España.
+Sin clave usa la cartelera de SensaCine; si se añade el secreto `TMDB_API_KEY`
+(Settings → Secrets and variables → Actions) usa TMDB. Si falla, se conserva el archivo anterior.
 
 ## Letterboxd
 

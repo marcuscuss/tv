@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Joi</title>
+<link rel="stylesheet" href="https://use.typekit.net/bna2shh.css">
 <!--
   JOI · launcher para TV con estética de tele CRT / VHS.
   Todo en este archivo + la carpeta /assets. Sin frameworks, sin build, sin librerías.
@@ -45,12 +46,12 @@ body, .hnav, .tc, .ftr, .serif, .title, .tape .ttl, .tape-caption .desc, .key, .
   border-color: #ece6d6; background-color: #ece6d6; color: #0e0e0d; }
 
 /* ======================================================================
-   TIPOGRAFÍAS · las definitivas irán en /assets/fonts (JoiDisplay y JoiMono).
-   Mientras tanto: Georgia y Courier.
+   TIPOGRAFÍAS · Adobe Fonts (kit bna2shh): TT Travels Next para titulares y
+   PT Mono para el texto pequeño. Si no cargan: Georgia y Courier.
    ====================================================================== */
 .serif, .title, .tape .ttl, .tape .band b, .hero-name, .nw-title, .det-title, .prof-name, .pname, .tape .vhs {
-  font-family: "JoiDisplay", Georgia, "Times New Roman", serif; }
-body, .mono { font-family: "JoiMono", "Courier New", Courier, monospace; }
+  font-family: "tt-travels-next", Georgia, "Times New Roman", serif; }
+body, .mono { font-family: "pt-mono", "Courier New", Courier, monospace; }
 
 /* ======================================================================
    BASE
@@ -120,8 +121,8 @@ img { border: 0; }
 .hnav .sq { visibility: hidden; margin-right: .5vw; }
 .hnav.active .sq { visibility: visible; }
 .tc { font-size: 1vw; letter-spacing: .12em; margin-left: 4vw; }
-.hlogo { position: absolute; left: 50%; top: -.2vw; width: 12vw; margin-left: -6vw; text-align: center; }
-.hlogo img { height: 2.6vw; display: block; margin: 0 auto; }
+.hlogo { position: absolute; left: 50%; top: -.4vw; width: 20vw; margin-left: -10vw; text-align: center; }
+.hlogo img { height: 4.4vw; display: block; margin: 0 auto; }
 .hlogo .year { margin-top: .55vw; font-size: .78vw; letter-spacing: .14em; }
 .hlogo .year i { display: inline-block; width: 3.6vw; height: 1px; vertical-align: middle; margin: 0 .5vw; border-top: 1px solid; }
 .hdr .rule { border-color: rgba(236,230,214,.3); }
@@ -155,19 +156,22 @@ img { border: 0; }
    APPS · carrusel de cintas VHS
    ====================================================================== */
 #sec-apps { overflow: hidden; }
-.car { position: relative; height: 32vw; margin-top: 1.4vw; -webkit-perspective: 110vw; perspective: 110vw; cursor: pointer; }
+.car { position: relative; height: 31vw; margin-top: 2.4vw; -webkit-perspective: 110vw; perspective: 110vw; cursor: pointer; }
 .tape { position: absolute; left: 50%; top: 2.6vw; width: 19vw; height: 28.5vw; margin-left: -9.5vw;
-  -webkit-transition: -webkit-transform .5s cubic-bezier(.2,.7,.2,1), opacity .5s; transition: transform .5s cubic-bezier(.2,.7,.2,1), opacity .5s;
+  -webkit-transition: -webkit-transform .8s cubic-bezier(.22,.75,.18,1), opacity .8s; transition: transform .8s cubic-bezier(.22,.75,.18,1), opacity .8s;
   -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; }
 .tape.off { visibility: hidden; }
 /* Cinta asomando por arriba (solo la enfocada) */
-.tape .cass { position: absolute; left: 9%; right: 9%; top: -2.5vw; height: 3.2vw; border-radius: .5vw .5vw 0 0;
-  background-color: #141413; border: .1vw solid #262624; opacity: 0; -webkit-transition: opacity .4s; transition: opacity .4s; }
+.tape .cass { position: absolute; left: 7%; right: 7%; top: -2.7vw; height: 3.4vw; border-radius: .5vw .5vw 0 0;
+  background-color: #141413; border: .1vw solid #2e2d2a;
+  -webkit-transform: translateY(2.8vw); transform: translateY(2.8vw);
+  -webkit-transition: -webkit-transform .22s ease-in; transition: transform .22s ease-in; }
 .tape .cass .win { position: absolute; left: 28%; right: 28%; top: .5vw; height: 1.6vw; border-radius: .7vw;
   background-image: linear-gradient(180deg, #4a4945, #22211f); }
 .tape .cass .reel { position: absolute; top: .55vw; width: 1.5vw; height: 1.5vw; border-radius: 50%; border: .25vw solid #2e2d2a; }
 .tape .cass .reel.l { left: 9%; } .tape .cass .reel.r { right: 9%; }
-.tape.f .cass { opacity: 1; }
+.tape.f .cass { -webkit-transform: translateY(0); transform: translateY(0);
+  -webkit-transition: -webkit-transform .55s cubic-bezier(.2,.8,.2,1) .45s; transition: transform .55s cubic-bezier(.2,.8,.2,1) .45s; }
 .tape .sleeve { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; border-radius: .25vw;
   box-shadow: 0 1.6vw 3vw rgba(0,0,0,.7);
   background-image: linear-gradient(160deg, rgba(255,255,255,.05), rgba(255,255,255,0) 40%, rgba(0,0,0,.25)); }
@@ -175,13 +179,13 @@ img { border: 0; }
 .tape .band { padding: .45vw 0 .5vw; border-top: .12vw solid; border-bottom: .12vw solid; opacity: .9; }
 .tape .band img { height: .7vw; display: block; margin: 0 auto .2vw; }
 .tape .band b { font-weight: normal; font-size: 1.35vw; letter-spacing: -.01em; text-transform: none; }
-.tape .ttl { margin: .9vw 0 .7vw; height: 7.4vw; overflow: hidden; line-height: .9; letter-spacing: -.02em; }
+.tape .ttl { margin: .9vw 0 .7vw; height: 7.4vw; overflow: hidden; line-height: .9; letter-spacing: -.02em; font-weight: 700; }
 .tape .ttl span { display: inline-block; -webkit-transform: scale(.78, 1.3); transform: scale(.78, 1.3);
   -webkit-transform-origin: 50% 0; transform-origin: 50% 0; white-space: nowrap; margin: 0 -8vw; }
 .tape .art { position: relative; height: 11vw; margin: 0 7%; border: .14vw solid; overflow: hidden; }
 .tape .art .dots { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: .55; background-size: .55vw .55vw; }
 .tape .art .big { position: absolute; left: 0; right: 0; top: 50%; margin-top: -4.6vw; font-size: 8vw; line-height: 1;
-  font-family: "JoiDisplay", Georgia, serif; text-transform: none; }
+  font-family: "tt-travels-next", Georgia, serif; text-transform: none; }
 .tape .foot { position: absolute; left: 0; right: 0; bottom: .2vw; }
 .tape .vhs { font-size: 1.15vw; padding: 0 .3vw; border: .12vw solid; letter-spacing: 0; }
 .tape .yr { font-size: .8vw; font-family: Georgia, serif; }
@@ -189,22 +193,23 @@ img { border: 0; }
 .tape .wear { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(assets/fx/wear.png);
   background-size: 100% 100%; opacity: .85; pointer-events: none; }
 .tape .shade { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; opacity: 0;
-  -webkit-transition: opacity .5s; transition: opacity .5s; pointer-events: none; }
-.play-tape { position: absolute; left: 50%; top: 27.2vw; width: 11vw; margin-left: -5.5vw; text-align: center; font-size: .95vw; letter-spacing: .1em; z-index: 30;
+  -webkit-transition: opacity .8s; transition: opacity .8s; pointer-events: none; }
+.play-tape { position: absolute; left: 50%; top: 25.4vw; width: 11vw; margin-left: -5.5vw; text-align: center; font-size: .95vw; letter-spacing: .1em; z-index: 30;
   padding: .35vw 0; background-color: rgba(14,14,13,.92); border: .1vw solid #e1262d;
   -webkit-transition: opacity .25s; transition: opacity .25s; }
 .play-tape.hide { opacity: 0; }
 .car.focus .play-tape:after { content: "_"; -webkit-animation: blink 1s steps(1) infinite; animation: blink 1s steps(1) infinite; }
 @-webkit-keyframes blink { 50% { opacity: 0; } }
 @keyframes blink { 50% { opacity: 0; } }
-.tape-caption { text-align: center; margin-top: 1.8vw; height: 6vw; -webkit-transition: opacity .2s; transition: opacity .2s; }
+.tape-caption { text-align: center; margin-top: .9vw; height: 6vw; -webkit-transition: opacity .2s; transition: opacity .2s; }
 .tape-caption .name { font-size: .95vw; letter-spacing: .14em; margin-bottom: .6vw; }
 .tape-caption .desc { font-size: 1.2vw; letter-spacing: .08em; line-height: 1.35; width: 30vw; margin: 0 auto; }
 .tape-caption .cat { font-size: .85vw; margin-top: .5vw; letter-spacing: .14em; }
-.car-hint { position: absolute; left: 4.4vw; top: 15vw; font-size: .85vw; letter-spacing: .2em; }
+.car-hint { display: none; position: absolute; left: 4.4vw; top: 15vw; font-size: .85vw; letter-spacing: .2em; }
 .car-hint.r { left: auto; right: 4.4vw; }
 
 /* Filas de Letterboxd */
+.lb-peek { text-align: center; font-size: .8vw; letter-spacing: .3em; color: #858075; height: 1.2vw; }
 #lb-rows { padding: 0 4.4vw 2vw; }
 .sect { font-size: .95vw; letter-spacing: .3em; margin: 2.2vw 0 1vw; }
 .sect .sinfo { letter-spacing: .1em; }
@@ -222,14 +227,23 @@ img { border: 0; }
 /* ======================================================================
    NEWS WATCH
    ====================================================================== */
-#globe { position: absolute; left: 50%; top: 50%; width: 30vw; height: 30vw; margin: -16vw 0 0 -15vw; }
-.nw-title { position: absolute; left: 0; right: 0; top: 50%; margin-top: -5.2vw; text-align: center; white-space: nowrap; z-index: 4;
-  -webkit-transition: -webkit-transform .9s cubic-bezier(.2,.7,.2,1); transition: transform .9s cubic-bezier(.2,.7,.2,1); }
-.nw-title .lyr { display: block; font-size: 8.4vw; line-height: 1; letter-spacing: -.02em; text-transform: none; }
-.nw-title .lyr.ab-r, .nw-title .lyr.ab-c { position: absolute; left: 0; right: 0; top: 0; opacity: .75; }
-.nw-title .lyr.ab-r { -webkit-transform: translate(-.35vw, 0); transform: translate(-.35vw, 0); }
-.nw-title .lyr.ab-c { -webkit-transform: translate(.35vw, .1vw); transform: translate(.35vw, .1vw); }
-.nw-title.up { -webkit-transform: translate(-37.4vw, -14.2vw) scale(.38); transform: translate(-37.4vw, -14.2vw) scale(.38); }
+#globe { position: absolute; left: 50%; top: 50%; width: 34vw; height: 34vw; margin: -18vw 0 0 -17vw; }
+/* Título de la intro: sube desde abajo con ecos de color y luego "pasa" al globo */
+.nw-title { position: absolute; left: 0; right: 0; top: 50%; margin-top: -4.4vw; text-align: center; white-space: nowrap; z-index: 4;
+  -webkit-transition: opacity .7s; transition: opacity .7s; }
+.nw-title .lyr { display: block; font-size: 6.4vw; line-height: 1; letter-spacing: -.01em;
+  text-shadow: 0 0 1.4vw rgba(236,230,214,.45);
+  -webkit-transition: -webkit-transform 1s cubic-bezier(.2,.75,.2,1), opacity .5s; transition: transform 1s cubic-bezier(.2,.75,.2,1), opacity .5s; }
+.nw-title .lyr.ab-r, .nw-title .lyr.ab-c, .nw-title .lyr.ab-e { position: absolute; left: 0; right: 0; top: 0; opacity: .7; text-shadow: none; }
+.nw-title .lyr.ab-e { color: rgba(236,230,214,.35); }
+.nw-title .lyr.ab-r { -webkit-transform: translate(-.3vw, 0); transform: translate(-.3vw, 0); -webkit-transition-delay: .07s; transition-delay: .07s; }
+.nw-title .lyr.ab-c { -webkit-transform: translate(.3vw, .08vw); transform: translate(.3vw, .08vw); -webkit-transition-delay: .14s; transition-delay: .14s; }
+.nw-title .lyr.ab-e { -webkit-transform: translate(0, 0); transform: translate(0, 0); -webkit-transition-delay: .21s; transition-delay: .21s; }
+.nw-title.pre .lyr { -webkit-transform: translate(0, 16vw); transform: translate(0, 16vw); opacity: 0; }
+.nw-title.pre .lyr.ab-r { -webkit-transform: translate(-.3vw, 19vw); transform: translate(-.3vw, 19vw); }
+.nw-title.pre .lyr.ab-c { -webkit-transform: translate(.3vw, 22vw); transform: translate(.3vw, 22vw); }
+.nw-title.pre .lyr.ab-e { -webkit-transform: translate(0, 25vw); transform: translate(0, 25vw); }
+.nw-title.gone { opacity: 0; }
 .nw-cats { position: absolute; left: 4.4vw; top: 10.4vw; font-size: .95vw; letter-spacing: .14em; z-index: 6; opacity: 0;
   -webkit-transition: opacity .5s .4s; transition: opacity .5s .4s; }
 .nw-cats .cat { display: block; margin-bottom: .45vw; }
@@ -283,7 +297,7 @@ img { border: 0; }
    ====================================================================== */
 .prof { position: absolute; left: 6vw; right: 38vw; top: 3vw; }
 .prof-av { width: 10vw; height: 10vw; border-radius: 50%; font-size: 5vw; color: #0e0e0d; margin-right: 3vw;
-  font-family: "JoiDisplay", Georgia, serif; text-transform: none; }
+  font-family: "tt-travels-next", Georgia, serif; text-transform: none; }
 .prof-name { font-size: 6vw; line-height: 1; letter-spacing: -.02em; text-transform: none; }
 .prof-info { margin-top: 3vw; }
 .prof-info .cell { display: inline-block; vertical-align: top; margin: 0 4vw 1.4vw 0; font-size: .95vw; letter-spacing: .1em; }
@@ -299,7 +313,7 @@ img { border: 0; }
 #who-list { position: absolute; left: 0; right: 0; top: 22vw; }
 .pcard { width: 15vw; margin: 0 .6vw; text-align: center; cursor: pointer; }
 .avatar { width: 9vw; height: 9vw; margin: 0 auto; border-radius: 50%; font-size: 4.2vw; color: #0e0e0d;
-  font-family: "JoiDisplay", Georgia, serif; text-transform: none;
+  font-family: "tt-travels-next", Georgia, serif; text-transform: none;
   -webkit-transition: -webkit-transform .15s, box-shadow .15s; transition: transform .15s, box-shadow .15s; }
 .avatar.add { background: transparent; border: .14vw dashed #858075; color: #858075; }
 .pname { margin-top: 1.2vw; font-size: 1.6vw; text-transform: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -355,7 +369,7 @@ img { border: 0; }
 /* Ventanas (teclado, confirmación) */
 .panel { border: .12vw solid; border-radius: .4vw; padding: 2.4vw 2.8vw; box-shadow: 0 0 4vw rgba(0,0,0,.8); }
 #confirm .panel { width: 46vw; text-align: center; }
-#confirm .ctitle { font-size: 2.4vw; text-transform: none; margin-bottom: 1vw; font-family: "JoiDisplay", Georgia, serif; }
+#confirm .ctitle { font-size: 2.4vw; text-transform: none; margin-bottom: 1vw; font-family: "tt-travels-next", Georgia, serif; }
 #confirm .cmsg { margin-bottom: 2.2vw; font-size: .95vw; line-height: 1.5; color: #858075; }
 #kb .panel { width: 72vw; }
 #kb .ktitle { font-size: .9vw; letter-spacing: .35em; margin-bottom: .8vw; color: #858075; }
@@ -388,7 +402,6 @@ img { border: 0; }
       </div>
       <div class="hlogo">
         <img src="assets/logos/joi.png" alt="JOI">
-        <div class="year"><span>YEAR</span><i class="rule"></i><span>2026</span></div>
       </div>
       <div class="side right row">
         <div class="hnav" id="h-apps"><span class="sq">■</span>APPS</div>
@@ -409,6 +422,7 @@ img { border: 0; }
         <div class="desc" id="tc-desc"></div>
         <div class="cat" id="tc-cat"></div>
       </div>
+      <div class="lb-peek" id="lb-peek"></div>
       <div id="lb-rows"></div>
     </section>
 
@@ -416,7 +430,7 @@ img { border: 0; }
     <section id="sec-news" class="sec">
       <canvas id="globe"></canvas>
       <div class="nw-title serif" id="nw-title">
-        <span class="lyr ab-r">News Watch</span><span class="lyr ab-c">News Watch</span><span class="lyr">News Watch</span>
+        <span class="lyr ab-e">NEWS WATCH</span><span class="lyr ab-r">NEWS WATCH</span><span class="lyr ab-c">NEWS WATCH</span><span class="lyr">NEWS WATCH</span>
       </div>
       <div class="nw-cats" id="nw-cats">
         <span class="cat" id="nw-c0">EN CINES</span>
@@ -1498,15 +1512,17 @@ img { border: 0; }
   }
 
   function buildTape(a) {
-    var ink = a.ink || '#ece6d6', L = a.label.length;
-    var fs = Math.min(4.8, 26 / Math.max(L, 4));
+    var ink = a.ink || '#ece6d6', words = a.label.split(' '), L = 0, i;
+    if (words.length > 2) words = [words[0], words.slice(1).join(' ')];
+    for (i = 0; i < words.length; i++) L = Math.max(L, words[i].length);
+    var fs = Math.min(words.length > 1 ? 3.2 : 4.8, 26 / Math.max(L, 4));
     var t = el('div', 'tape');
     t.innerHTML =
       '<div class="cass"><div class="reel l"></div><div class="win"></div><div class="reel r"></div></div>' +
       '<div class="sleeve">' +
         '<div class="inner">' +
           '<div class="band" style="border-color:' + ink + '"><img src="assets/logos/joi.png" alt=""><b>Home Video</b></div>' +
-          '<div class="ttl" style="color:' + ink + ';font-size:' + fs.toFixed(2) + 'vw"><span>' + esc(a.label) + '</span></div>' +
+          '<div class="ttl" style="color:' + ink + ';font-size:' + fs.toFixed(2) + 'vw"><span>' + esc(words[0]) + (words[1] ? '<br>' + esc(words[1]) : '') + '</span></div>' +
           '<div class="art" style="border-color:' + rgba(ink, .7) + '">' +
             '<div class="dots" style="background-image:radial-gradient(' + ink + ' 35%, rgba(0,0,0,0) 36%)"></div>' +
             '<div class="big" style="color:' + ink + '">' + (a.all ? '∞' : esc(initial(a.label))) + '</div>' +
@@ -1539,10 +1555,11 @@ img { border: 0; }
     car.idx = Math.max(0, Math.min(car.items.length - 1, car.idx));
     $('sec-apps').scrollTop = 0;
     layoutCarousel();
-    if (main.lb && main.lb.user === p.lbUser) renderLetterboxd(main.lb.data, p.lbUser);
+    if (main.lb && main.lb.user === p.lbUser && main.lb.data) renderLetterboxd(main.lb.data, p.lbUser);
     else {
-      $('lb-rows').innerHTML = '';
       main.lbRows = [];
+      $('lb-peek').textContent = '';
+      $('lb-rows').innerHTML = p.lbUser ? '<div class="sect">[LETTERBOXD] @' + esc(p.lbUser) + '</div><div class="lbempty">Cargando el diario…</div>' : '';
       if (p.lbUser) loadLetterboxd(p);
     }
     appsNav(null);
@@ -1581,17 +1598,17 @@ img { border: 0; }
       var t = car.tapes[i], d = i - car.idx, ad = Math.abs(d), s = d < 0 ? -1 : 1, tr;
       setClass(t, 'f', d === 0);
       setClass(t, 'off', ad > 4);
-      if (d === 0) tr = perf.on ? 'translate(0,0) scale(1.06)' : 'translate3d(0,0,0) rotateY(0deg) scale(1.06)';
-      else {
-        var x = s * (perf.on ? 18.5 + (ad - 1) * 12 : 15.5 + (ad - 1) * 10) * V, sc = Math.max(.5, .8 - (ad - 1) * .08);
-        tr = perf.on
-          ? 'translate(' + Math.round(x) + 'px,' + Math.round(1.2 * V) + 'px) scale(' + sc + ')'
-          : 'translate3d(' + Math.round(x) + 'px,' + Math.round(1.2 * V) + 'px,' + Math.round(-ad * 5 * V) + 'px) rotateY(' + (-s * 38) + 'deg) scale(' + sc + ')';
-      }
+      // Como en la referencia: cintas casi pegadas, casi del mismo tamaño; las de los
+      // lados oscuras, un poco giradas (el borde de fuera más cerca) e inclinadas.
+      var x = s * (ad ? 21.6 + (ad - 1) * 20.8 : 0) * V, y = (ad ? .5 + ad * .35 : -.9) * V;
+      var sc = d === 0 ? 1.03 : .96 - (ad - 1) * .03, rz = ad ? s * (1.6 + ad * .8) : 0;
+      tr = perf.on
+        ? 'translate(' + Math.round(x) + 'px,' + Math.round(y) + 'px) rotate(' + rz + 'deg) scale(' + sc + ')'
+        : 'translate3d(' + Math.round(x) + 'px,' + Math.round(y) + 'px,' + Math.round(-ad * 2.5 * V) + 'px) rotateY(' + (ad ? -s * 15 : 0) + 'deg) rotate(' + rz + 'deg) scale(' + sc + ')';
       setTransform(t, tr);
       t.style.zIndex = 20 - ad;
       t.style.opacity = ad > 3 ? 0 : 1;
-      t.lastChild.style.opacity = d === 0 ? 0 : Math.min(.82, .42 + ad * .14);
+      t.lastChild.style.opacity = d === 0 ? 0 : Math.min(.86, .66 + (ad - 1) * .1);
       t.firstChild.nextSibling.style.boxShadow = d === 0
         ? '0 0 0 .14vw ' + rgba(car.items[i].ink, .55) + ', 0 0 4vw ' + rgba(car.items[i].ink, .28) + ', 0 2vw 3vw rgba(0,0,0,.8)'
         : '0 1.6vw 3vw rgba(0,0,0,.7)';
@@ -1782,6 +1799,7 @@ img { border: 0; }
     box.innerHTML = '';
     main.lbRows = [];
     lbInfo = null;
+    $('lb-peek').textContent = user ? '▼ LETTERBOXD · @' + user.toUpperCase() : '';
     if (!d || (!(d.diary && d.diary.length) && !(d.lists && d.lists.length))) {
       box.innerHTML = '<div class="sect">[LETTERBOXD] @' + esc(user) + '</div>' +
         '<div class="lbempty">' + (d ? 'Todavía no hay pelis en el diario ni listas' :
@@ -1909,32 +1927,42 @@ img { border: 0; }
     xhr.send();
   }
 
+  // Intro (como la referencia): el título sube con ecos de color, el globo se abre
+  // desde una línea vertical y el texto pasa a girar alrededor del globo.
   function renderNews() {
-    var s = $('sec-news'), intro = news.seen ? 250 : 1300;
+    var s = $('sec-news'), t = $('nw-title'), first = !news.seen;
     s.classList.remove('news-ready');
-    $('nw-title').classList.remove('up');
     $('nw-ring').innerHTML = '';
     $('nw-empty').style.display = 'none';
     news.cards = [];
-    startGlobe();
+    clearTimeout(news.timer);
     var ring = $('nw-ring');
     focusable(ring, function () { var m = news.list[news.idx]; if (m) openEstreno(m); });
     setNav(makeNav([hdrRow(), [ring]], { onBack: mainBack, onKey: newsKey }), 1, 0);
-    clearTimeout(news.timer);
+    var tn = now();
+    if (first) {
+      t.className = 'nw-title serif pre';
+      globe.tOpen = tn + 1100;
+      globe.tText = tn + 2000;
+      globe.until = tn + 2900;
+      setTimeout(function () { t.className = 'nw-title serif'; }, 60);
+      setTimeout(function () { if (main.sec === 'news') t.className = 'nw-title serif gone'; }, 2050);
+    } else {
+      t.className = 'nw-title serif gone';
+      globe.tOpen = globe.tText = tn - 5000;
+      globe.until = tn;
+    }
+    startGlobe();
     news.timer = setTimeout(function () {
       if (main.sec !== 'news') return;
       news.seen = true;
-      $('nw-title').classList.add('up');
       loadEstrenos(function () {
         if (main.sec !== 'news') return;
-        news.timer = setTimeout(function () {
-          if (main.sec !== 'news') return;
-          s.classList.add('news-ready');
-          buildTicker();
-          showCat(news.cat);
-        }, 450);
+        s.classList.add('news-ready');
+        buildTicker();
+        showCat(news.cat);
       });
-    }, intro);
+    }, first ? 2700 : 250);
   }
 
   function stopNews() {
@@ -2059,9 +2087,10 @@ img { border: 0; }
   }
 
   /* ---------- Globo de alambre (canvas 2D, máx. 30 fps, parado si no se ve) ---------- */
-  var globe = { on: false, rot: 0, last: 0, raf: 0 };
+  var globe = { on: false, rot: 0, last: 0, raf: 0, tOpen: 0, tText: 0, until: 0 };
   var rAF = window.requestAnimationFrame || window.webkitRequestAnimationFrame || function (f) { return setTimeout(function () { f(now()); }, 33); };
   var cAF = window.cancelAnimationFrame || window.webkitCancelAnimationFrame || clearTimeout;
+  var RING_TXT = 'NEWS WATCH · NEWS WATCH · ';
 
   function startGlobe() {
     var cv = $('globe'), w = cv.offsetWidth;
@@ -2069,7 +2098,6 @@ img { border: 0; }
     if (cv.width !== w) { cv.width = w; cv.height = w; }
     stopGlobe();
     drawGlobe();
-    if (perf.on) return;                 // modo ligero: globo quieto
     globe.on = true;
     globe.last = 0;
     globe.raf = rAF(globeFrame);
@@ -2081,23 +2109,30 @@ img { border: 0; }
   }
   function globeFrame(ts) {
     if (!globe.on) return;
-    ts = ts || now();
-    if (!globe.last || ts - globe.last >= 33) {
-      globe.rot += globe.last ? (ts - globe.last) * 0.00018 : 0;
+    ts = now();
+    if (!globe.last || ts - globe.last >= 33) {        // máx. 30 fps
+      if (!perf.on) globe.rot += globe.last ? (ts - globe.last) * 0.00022 : 0;
       globe.last = ts;
       drawGlobe();
+      if (perf.on && ts > globe.until + 100) { globe.on = false; globe.raf = 0; return; }   // ligero: quieto tras la intro
     }
     globe.raf = rAF(globeFrame);
+  }
+  function ease(t0, dur) {
+    var k = Math.max(0, Math.min(1, (now() - t0) / dur));
+    return 1 - Math.pow(1 - k, 3);
   }
   function drawGlobe() {
     var cv = $('globe'), g = cv.getContext && cv.getContext('2d');
     if (!g) return;
-    var W = cv.width, r = W * 0.46, cx = W / 2, cy = W / 2, tilt = 0.38, ct = Math.cos(tilt), st = Math.sin(tilt);
+    var open = ease(globe.tOpen, 800), txt = ease(globe.tText, 700);
+    var W = cv.width, r = W * 0.44, cx = W / 2, cy = W / 2, tilt = 0.32, ct = Math.cos(tilt), st = Math.sin(tilt);
     var front = [], back = [], i, j;
     g.clearRect(0, 0, W, W);
+    if (open <= 0) return;
     function proj(lat, lon) {
       var x = Math.cos(lat) * Math.sin(lon), y = Math.sin(lat), z = Math.cos(lat) * Math.cos(lon);
-      return [cx + x * r, cy - (y * ct - z * st) * r, y * st + z * ct];
+      return [cx + x * r * open, cy - (y * ct - z * st) * r, y * st + z * ct];
     }
     function line(pts) {
       for (var k = 1; k < pts.length; k++) {
@@ -2123,12 +2158,42 @@ img { border: 0; }
       g.stroke();
     }
     stroke(back, 'rgba(236,230,214,.10)', 1);
-    stroke(front, 'rgba(236,230,214,.42)', 1);
+    stroke(front, 'rgba(236,230,214,' + (.42 + (1 - open) * .4).toFixed(2) + ')', 1);
+    g.save();
+    g.translate(cx, cy);
+    g.scale(Math.max(open, .01), 1);
     g.beginPath();
-    g.arc(cx, cy, r, 0, Math.PI * 2);
-    g.strokeStyle = 'rgba(236,230,214,.5)';
+    g.arc(0, 0, r, 0, Math.PI * 2);
+    g.restore();
+    g.strokeStyle = 'rgba(236,230,214,.55)';
     g.lineWidth = 1.2;
     g.stroke();
+    if (txt > 0) drawRingText(g, cx, cy, r * 1.06, st, txt);
+  }
+  // "NEWS WATCH" alrededor del ecuador: delante se lee, detrás se ve del revés y tenue
+  function drawRingText(g, cx, cy, R, st, alpha) {
+    var fs = Math.round(R * 0.36), i, ws = [], tot = 0;
+    g.font = '700 ' + fs + 'px "tt-travels-next", Georgia, serif';
+    g.textAlign = 'center';
+    g.textBaseline = 'middle';
+    for (i = 0; i < RING_TXT.length; i++) { ws.push(g.measureText(RING_TXT.charAt(i)).width); tot += ws[i]; }
+    var k = Math.PI * 2 / tot, acc = 0, pass, sh = Math.min(1, alpha);
+    for (pass = 0; pass < 2; pass++) {               // primero lo de atrás, luego lo de delante
+      acc = 0;
+      for (i = 0; i < RING_TXT.length; i++) {
+        var lon = -globe.rot * 1.3 + (acc + ws[i] / 2) * k, z = Math.cos(lon);
+        acc += ws[i];
+        if ((pass === 0) !== (z < 0)) continue;
+        var ch = RING_TXT.charAt(i);
+        if (ch === ' ') continue;
+        g.save();
+        g.translate(cx + Math.sin(lon) * R, cy + z * st * R * .3);
+        g.scale(z, 1);
+        g.fillStyle = z < 0 ? 'rgba(236,230,214,' + (.22 * sh).toFixed(3) + ')' : 'rgba(236,230,214,' + (.95 * sh).toFixed(3) + ')';
+        g.fillText(ch, 0, 0);
+        g.restore();
+      }
+    }
   }
   document.addEventListener('visibilitychange', function () {
     if (document.hidden) stopGlobe();

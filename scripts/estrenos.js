@@ -4,8 +4,9 @@
  * Pide a TMDB la cartelera (now_playing) y los próximos estrenos (upcoming)
  * con region=ES y language=es-ES, y guarda data/estrenos.json.
  *
- * Necesita la variable TMDB_API_KEY (secreto del repositorio). Vale la
- * "API Key" (v3) o el "API Read Access Token" (v4, empieza por eyJ).
+ * Con la variable TMDB_API_KEY (secreto del repositorio; vale la "API Key" v3
+ * o el "API Read Access Token" v4) usa TMDB. Sin clave, lee la cartelera de
+ * SensaCine (en cines y próximos estrenos en España).
  * Si algo falla, se conserva el archivo anterior. Solo escribe si cambia.
  */
 'use strict';
@@ -59,11 +60,103 @@ async function spainDate(id, fallback) {
   return fallback || '';
 }
 
-async function main() {
-  if (!KEY) {
-    console.error('Falta TMDB_API_KEY: añádelo en Settings → Secrets and variables → Actions.');
-    process.exit(1);
+/* ---------- SensaCine (sin clave) ---------- */
+const SC = 'https://www.sensacine.com';
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+const MESES = { enero: 1, febrero: 2, marzo: 3, abril: 4, mayo: 5, junio: 6, julio: 7, agosto: 8,
+  septiembre: 9, setiembre: 9, octubre: 10, noviembre: 11, diciembre: 12 };
+
+function clean(t) {
+  return String(t || '').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&#(\d+);/g, (m, n) => String.fromCharCode(+n))
+    .replace(/\s+/g, ' ').trim();
+}
+function esDate(t) {
+  const m = /(\d{1,2}) de ([a-zé]+) de (\d{4})/i.exec(t || '');
+  if (!m || !MESES[m[2].toLowerCase()]) return '';
+  return m[3] + '-' + String(MESES[m[2].toLowerCase()]).padStart(2, '0') + '-' + m[1].padStart(2, '0');
+}
+async function page(url) {
+  const res = await fetch(url, { headers: { 'User-Agent': UA, 'Accept-Language': 'es-ES,es;q=0.9' } });
+  if (!res.ok) throw new Error(url + ' → HTTP ' + res.status);
+  return res.text();
+}
+function parseCards(html) {
+  const out = [];
+  const parts = html.split(/<div class="card entity-card entity-card-list/).slice(1);
+  for (const p of parts) {
+    const link = /class="meta-title-link"[^>]*href="(\/peliculas\/pelicula-(\d+)\/)"[^>]*>([\s\S]*?)<\/a>/.exec(p);
+    if (!link) continue;
+    const img = /class="thumbnail-img"[^>]*?(?:data-src|src)="(https:[^"]+)"/.exec(p);
+    const info = /meta-body-info">([\s\S]*?)<\/div>/.exec(p);
+    const genres = [];
+    if (info) {
+      const re = /dark-grey-link"[^>]*>([^<]+)</g;
+      let g;
+      while ((g = re.exec(info[1]))) genres.push(clean(g[1]));
+    }
+    const note = /stareval-note">\s*([\d,]+)\s*</.exec(p);
+    const syn = /class="content-txt[^"]*"[^>]*>([\s\S]*?)<\/div>/.exec(p);
+    let poster = img ? img[1] : '';
+    if (poster && /^data:/.test(poster)) poster = '';
+    poster = poster.replace(/\/c_\d+_\d+\//, '/c_342_456/');
+    out.push({
+      id: 'sc' + link[2],
+      title: clean(link[3]),
+      release_date: esDate(info ? clean(info[1]) : ''),
+      overview: syn ? clean(syn[1]) : '',
+      vote_average: note ? Math.round(parseFloat(note[1].replace(',', '.')) * 20) / 10 : 0,
+      genres,
+      poster,
+      backdrop: '',
+      url: SC + link[1],
+    });
   }
+  return out;
+}
+// La ficha trae sinopsis completa e imagen grande (og:image)
+async function enrich(m) {
+  try {
+    const h = await page(m.url);
+    const og = /<meta property="og:image" content="([^"]+)"/.exec(h);
+    if (og) m.backdrop = og[1];
+    const syn = /<section[^>]*synopsis[\s\S]*?<div class="content-txt[^"]*"[^>]*>([\s\S]*?)<\/div>/.exec(h) ||
+      /<meta name="description" content="([^"]+)"/.exec(h);
+    if (syn && clean(syn[1]).length > m.overview.length) m.overview = clean(syn[1]);
+  } catch (e) { /* se queda con lo de la lista */ }
+  delete m.url;
+  return m;
+}
+async function sensacine() {
+  const today = new Date().toISOString().slice(0, 10);
+  let now = [], up = [];
+  for (const p of [1, 2]) {
+    try { now = now.concat(parseCards(await page(SC + '/peliculas/en-cartelera/cines/' + (p > 1 ? '?page=' + p : '')))); } catch (e) { if (p === 1) throw e; }
+    try { up = up.concat(parseCards(await page(SC + '/peliculas/estrenos/' + (p > 1 ? '?page=' + p : '')))); } catch (e) { console.log('Estrenos p' + p + ': ' + e.message); }
+  }
+  const seen = new Set();
+  const uniq = (l) => l.filter((m) => !seen.has(m.id) && seen.add(m.id));
+  now = uniq(now.filter((m) => !m.release_date || m.release_date <= today)).slice(0, MAX);
+  up = uniq(up.filter((m) => m.release_date > today))
+    .sort((a, b) => (a.release_date < b.release_date ? -1 : 1)).slice(0, MAX);
+  console.log('SensaCine: ' + now.length + ' en cines, ' + up.length + ' próximamente');
+  for (const m of now.slice(0, 12).concat(up.slice(0, 12))) { await enrich(m); await sleep(400); }
+  for (const m of now.concat(up)) delete m.url;
+  return { source: 'sensacine', now_playing: now, upcoming: up };
+}
+
+async function main() {
+  let data;
+  if (KEY) data = await fromTmdb();
+  else {
+    console.log('Sin TMDB_API_KEY: se usa SensaCine');
+    data = await sensacine();
+  }
+  if (!data.now_playing.length && !data.upcoming.length) throw new Error('No se encontraron películas');
+  await save(data);
+}
+
+async function fromTmdb() {
   const genresRes = await tmdb('/genre/movie/list', { language: 'es-ES' });
   const genres = {};
   for (const g of genresRes.genres || []) genres[g.id] = g.name;
@@ -108,10 +201,11 @@ async function main() {
     .sort((a, b) => (a.release_date < b.release_date ? -1 : 1)).slice(0, MAX);
 
   for (const m of nowPlaying.concat(upcoming)) { delete m.popularity; delete m.kind; }
+  return { source: 'tmdb', now_playing: nowPlaying, upcoming };
+}
 
-  if (!nowPlaying.length && !upcoming.length) throw new Error('TMDB no devolvió películas');
-
-  const data = { region: 'ES', now_playing: nowPlaying, upcoming };
+async function save(data) {
+  data.region = 'ES';
   let prev = null;
   try { prev = JSON.parse(fs.readFileSync(OUT, 'utf8')); } catch (e) { /* no había archivo */ }
   if (prev && JSON.stringify({ ...prev, updated: undefined }) === JSON.stringify({ ...data, updated: undefined })) {
@@ -121,7 +215,7 @@ async function main() {
   data.updated = new Date().toISOString();
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(data, null, 1) + '\n');
-  console.log('Guardado: ' + nowPlaying.length + ' en cines, ' + upcoming.length + ' próximamente');
+  console.log('Guardado: ' + data.now_playing.length + ' en cines, ' + data.upcoming.length + ' próximamente');
 }
 
 main().catch((e) => {
