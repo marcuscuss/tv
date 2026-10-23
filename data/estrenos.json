@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T17:17:46.336Z",
+ "actualizado": "2026-10-23T21:31:39.402Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -53,7 +53,7 @@
    "title": "Clayface",
    "release_date": "2026-10-23",
    "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Terror",
     "Suspense",
@@ -234,7 +234,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.9,
+   "vote_average": 8.7,
    "genres": [
     "Animación",
     "Aventura",
@@ -382,22 +382,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
   },
   {
-   "id": 858035,
-   "title": "Klara y el Sol",
-   "release_date": "2026-10-30",
-   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
-   "vote_average": 6.2,
-   "genres": [
-    "Ciencia ficción",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
-   "providers": [],
-   "trailer": "v-Gy7zfOqAg",
-   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
-  },
-  {
    "id": 1284046,
    "title": "Aniquilación",
    "release_date": "2026-10-30",
@@ -413,6 +397,22 @@
    "providers": [],
    "trailer": "AMLCbpM1fRQ",
    "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
+  },
+  {
+   "id": 858035,
+   "title": "Klara y el Sol",
+   "release_date": "2026-10-30",
+   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
+   "vote_average": 6.6,
+   "genres": [
+    "Ciencia ficción",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+   "providers": [],
+   "trailer": "v-Gy7zfOqAg",
+   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
   },
   {
    "id": 977942,
@@ -432,6 +432,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg"
   },
   {
+   "id": 1195803,
+   "title": "Wicker",
+   "release_date": "2026-10-30",
+   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+   "vote_average": 6.5,
+   "genres": [
+    "Romance",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+   "providers": [],
+   "trailer": "jA5zfiikcu8",
+   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
+  },
+  {
    "id": 1564614,
    "title": "Leviticus",
    "release_date": "2026-10-30",
@@ -448,28 +465,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
   },
   {
-   "id": 1195803,
-   "title": "Wicker",
-   "release_date": "2026-10-30",
-   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 6.3,
-   "genres": [
-    "Romance",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
-   "providers": [],
-   "trailer": "jA5zfiikcu8",
-   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
-  },
-  {
    "id": 1477104,
    "title": "La Oveja Shaun: Misión Calabaza",
    "release_date": "2026-10-30",
    "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.4,
+   "vote_average": 7.5,
    "genres": [
     "Animación",
     "Comedia",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T17:18:04.478Z",
+ "actualizado": "2026-10-23T21:32:06.388Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -127,6 +127,28 @@
      "trailer": "qWb6opYnPTo"
     },
     {
+     "id": 324544,
+     "title": "Tierras perdidas",
+     "year": "2025",
+     "release_date": "2025-02-27",
+     "overview": "Basada en el relato de George R. R. Martin. Una reina (Amara Okereke), desesperada por encontrar la felicidad en el amor, envía a la poderosa bruja Gray Alys (Milla Jovovich) a las Tierras Perdidas, en busca de un poder mágico que permite a una persona transformarse en un hombre lobo. Con el misterioso cazador Boyce (Dave Bautista), que la apoya en la lucha contra criaturas oscuras y despiadadas, Gray deambula por un mundo inquietante y peligroso. Pero solo ella sabe que, cada deseo que se concede, tiene consecuencias inimaginables.",
+     "vote_average": 6.3,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Fantasía",
+      "Terror"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/sLDxndoqFWwJEq7iEdYQBzPjUDQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "CMyrp5Vk3mU"
+    },
+    {
      "id": 321068,
      "title": "Mythica 1: Una proeza heroica",
      "year": "2014",
@@ -187,27 +209,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "ZPfYZg1-jh8"
-    },
-    {
-     "id": 324544,
-     "title": "Tierras perdidas",
-     "year": "2025",
-     "release_date": "2025-02-27",
-     "overview": "Basada en el relato de George R. R. Martin. Una reina (Amara Okereke), desesperada por encontrar la felicidad en el amor, envía a la poderosa bruja Gray Alys (Milla Jovovich) a las Tierras Perdidas, en busca de un poder mágico que permite a una persona transformarse en un hombre lobo. Con el misterioso cazador Boyce (Dave Bautista), que la apoya en la lucha contra criaturas oscuras y despiadadas, Gray deambula por un mundo inquietante y peligroso. Pero solo ella sabe que, cada deseo que se concede, tiene consecuencias inimaginables.",
-     "vote_average": 6.3,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Fantasía"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/sLDxndoqFWwJEq7iEdYQBzPjUDQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/oI5uHu7lrQ0mBBH1c8OHCAkCq4x.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "CMyrp5Vk3mU"
     },
     {
      "id": 340442,
@@ -1814,6 +1815,23 @@
      "trailer": "D3oC17nILkw"
     },
     {
+     "id": 37793,
+     "title": "Ghosts",
+     "year": "1997",
+     "release_date": "1997-09-04",
+     "overview": "Un extraño hombre vive en una misteriosa mansión en una colina que el pueblo cree encantada. Un día, el alcalde del lugar con los pueblerinos decide afrontar sus miedos visitando el tenebroso lugar.",
+     "vote_average": 8.1,
+     "genres": [
+      "Música",
+      "Terror"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aLMS2GWnJwkAADd8Dnl2dK1eg13.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
+     "providers": [],
+     "trailer": "7vqAKLP4igQ"
+    },
+    {
      "id": 1375646,
      "title": "Colony",
      "year": "2026",
@@ -1830,23 +1848,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "providers": [],
      "trailer": "LW6dpj1uCK8"
-    },
-    {
-     "id": 37793,
-     "title": "Ghosts",
-     "year": "1997",
-     "release_date": "1997-09-04",
-     "overview": "Un extraño hombre vive en una misteriosa mansión en una colina que el pueblo cree encantada. Un día, el alcalde del lugar con los pueblerinos decide afrontar sus miedos visitando el tenebroso lugar.",
-     "vote_average": 8.1,
-     "genres": [
-      "Música",
-      "Terror"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/aLMS2GWnJwkAADd8Dnl2dK1eg13.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
-     "providers": [],
-     "trailer": "7vqAKLP4igQ"
     },
     {
      "id": 1091,
@@ -3630,32 +3631,6 @@
     "trailer": "6SN9-6uST80"
    },
    {
-    "id": 5994,
-    "title": "Family Man",
-    "year": "2000",
-    "release_date": "2000-12-12",
-    "overview": "Jack Campbell es un egocéntrico broker de Wall Street cuya única obsesión es el trabajo y una vida llena de lujo. Tras un incidente en una tienda el día de Nochebuena, se despierta viviendo otra vida: es un humilde vendedor de neumáticos de Nueva Jersey, casado con su antigua novia Kate, a la que había abandonado hacía años para que no obstaculizara su carrera en el mundo de las finanzas.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Drama",
-     "Romance",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/f0nMpSWmT1o1INXl1ZMe78bz9i.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total ",
-     "Atres Player",
-     "Tivify",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "Hzw-p2PfBeU"
-   },
-   {
     "id": 364,
     "title": "Batman vuelve",
     "year": "1992",
@@ -3677,26 +3652,6 @@
     "trailer": "Or9AB6Gnruc"
    },
    {
-    "id": 9489,
-    "title": "Tienes un e-mail",
-    "year": "1998",
-    "release_date": "1998-12-18",
-    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "AKlhYZ-HqKs"
-   },
-   {
     "id": 81188,
     "title": "El origen de los guardianes",
     "year": "2012",
@@ -3715,26 +3670,6 @@
     "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
     "providers": [],
     "trailer": "e4bdD8owgDU"
-   },
-   {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.8,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
    },
    {
     "id": 360920,
@@ -3761,29 +3696,70 @@
     "trailer": "_UOh0UX3alI"
    },
    {
-    "id": 5255,
-    "title": "Polar Express",
-    "year": "2004",
-    "release_date": "2004-11-10",
-    "overview": "Esta es la historia de un jovencito en la víspera de Navidad quien aborda un poderoso y mágico tren que se dirige al hogar de Papá Noel, en el Polo Norte. Lo que se desarrolla es una aventura que sigue al dubitativo niño, quien toma un tren extraordinario al Polo Norte; durante este viaje, se embarca en una experiencia de autodescubrimiento que le muestra que las maravillas de la vida nunca se desvanecen para quienes creen.",
-    "vote_average": 6.7,
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.8,
     "genres": [
-     "Aventura",
-     "Animación",
-     "Familia",
-     "Fantasía"
+     "Terror"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
     "providers": [
      "Amazon Prime Video",
-     "Movistar Plus+ Ficción Total ",
-     "HBO Max",
      "Amazon Prime Video with Ads",
-     "HBO Max Amazon Channel"
+     "AMC Channels Amazon Channel"
     ],
-    "trailer": "4XkHPphBN_Q"
+    "trailer": "Y2u6m2W428g"
+   },
+   {
+    "id": 5994,
+    "title": "Family Man",
+    "year": "2000",
+    "release_date": "2000-12-12",
+    "overview": "Jack Campbell es un egocéntrico broker de Wall Street cuya única obsesión es el trabajo y una vida llena de lujo. Tras un incidente en una tienda el día de Nochebuena, se despierta viviendo otra vida: es un humilde vendedor de neumáticos de Nueva Jersey, casado con su antigua novia Kate, a la que había abandonado hacía años para que no obstaculizara su carrera en el mundo de las finanzas.",
+    "vote_average": 6.8,
+    "genres": [
+     "Comedia",
+     "Drama",
+     "Romance",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/f0nMpSWmT1o1INXl1ZMe78bz9i.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Movistar Plus+",
+     "Movistar Plus+ Ficción Total ",
+     "Atres Player",
+     "Tivify",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "Hzw-p2PfBeU"
+   },
+   {
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
+    "genres": [
+     "Comedia",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "AKlhYZ-HqKs"
    },
    {
     "id": 8871,
@@ -3825,6 +3801,31 @@
      "Filmin"
     ],
     "trailer": "iLR3gZrU2Xo"
+   },
+   {
+    "id": 5255,
+    "title": "Polar Express",
+    "year": "2004",
+    "release_date": "2004-11-10",
+    "overview": "Esta es la historia de un jovencito en la víspera de Navidad quien aborda un poderoso y mágico tren que se dirige al hogar de Papá Noel, en el Polo Norte. Lo que se desarrolla es una aventura que sigue al dubitativo niño, quien toma un tren extraordinario al Polo Norte; durante este viaje, se embarca en una experiencia de autodescubrimiento que le muestra que las maravillas de la vida nunca se desvanecen para quienes creen.",
+    "vote_average": 6.7,
+    "genres": [
+     "Aventura",
+     "Animación",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Movistar Plus+ Ficción Total ",
+     "HBO Max",
+     "Amazon Prime Video with Ads",
+     "HBO Max Amazon Channel"
+    ],
+    "trailer": "4XkHPphBN_Q"
    }
   ],
   "romance": [
