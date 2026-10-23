@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T11:50:56.664Z",
+ "actualizado": "2026-10-23T17:17:46.336Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -53,7 +53,7 @@
    "title": "Clayface",
    "release_date": "2026-10-23",
    "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-   "vote_average": 7.3,
+   "vote_average": 7.5,
    "genres": [
     "Terror",
     "Suspense",
@@ -150,7 +150,7 @@
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.3,
+   "vote_average": 7.2,
    "genres": [
     "Drama",
     "Romance"
@@ -300,7 +300,7 @@
    "title": "En la zona gris",
    "release_date": "2026-09-18",
    "overview": "Un equipo encubierto de agentes de élite viven en la sombra, tan cómodos manejando el poder y la influencia como armas automáticas y explosivos de gran potencia. Cuando un déspota roba una fortuna de mil millones de dólares, son enviados a recuperarla en lo que para cualquier otro sería una misión suicida. Lo que comienza como un atraco imposible empeora aún más y se convierte en una guerra total de estrategia, engaño y supervivencia.",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Acción",
     "Suspense",
@@ -382,21 +382,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
   },
   {
-   "id": 977942,
-   "title": "El hombre que desafió al rey",
+   "id": 858035,
+   "title": "Klara y el Sol",
    "release_date": "2026-10-30",
-   "overview": "En la Inglaterra del siglo XIV, asolada por la peste, un campesino desencadena una rebelión contra el rey Ricardo II y se convierte involuntariamente en una leyenda de la resistencia.",
-   "vote_average": 7.9,
+   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
+   "vote_average": 6.2,
    "genres": [
-    "Acción",
-    "Drama",
-    "Historia"
+    "Ciencia ficción",
+    "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/rveEjlQQ0LlyyPk8ev2pHBmQPZZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
    "providers": [],
-   "trailer": "qM2Pk44x0Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg"
+   "trailer": "v-Gy7zfOqAg",
+   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
   },
   {
    "id": 1284046,
@@ -416,20 +415,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
-   "id": 858035,
-   "title": "Klara y el Sol",
+   "id": 977942,
+   "title": "El hombre que desafió al rey",
    "release_date": "2026-10-30",
-   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
-   "vote_average": 6.2,
+   "overview": "En la Inglaterra del siglo XIV, asolada por la peste, un campesino desencadena una rebelión contra el rey Ricardo II y se convierte involuntariamente en una leyenda de la resistencia.",
+   "vote_average": 7.9,
    "genres": [
-    "Ciencia ficción",
-    "Drama"
+    "Acción",
+    "Drama",
+    "Historia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/rveEjlQQ0LlyyPk8ev2pHBmQPZZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
    "providers": [],
-   "trailer": "v-Gy7zfOqAg",
-   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
+   "trailer": "qM2Pk44x0Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg"
   },
   {
    "id": 1564614,
@@ -641,7 +641,7 @@
     "Familia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg"

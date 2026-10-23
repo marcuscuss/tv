@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T11:51:16.480Z",
+ "actualizado": "2026-10-23T17:18:04.478Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -625,22 +625,6 @@
      "trailer": "pVQFWvm_fbU"
     },
     {
-     "id": 309425,
-     "title": "El poder de la cruz",
-     "year": "2015",
-     "release_date": "2015-03-20",
-     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
-     "vote_average": 6.8,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
-     "providers": [],
-     "trailer": "ogIX2Q7tEdc"
-    },
-    {
      "id": 1585,
      "title": "¡Qué bello es vivir!",
      "year": "1946",
@@ -661,20 +645,20 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
-     "id": 88875,
-     "title": "El efecto de los rayos gamma  sobre las margaritas",
-     "year": "1972",
-     "release_date": "1972-12-20",
-     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
-     "vote_average": 7.3,
+     "id": 309425,
+     "title": "El poder de la cruz",
+     "year": "2015",
+     "release_date": "2015-03-20",
+     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
+     "vote_average": 6.8,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
      "providers": [],
-     "trailer": "9U7z35zbxPk"
+     "trailer": "ogIX2Q7tEdc"
     },
     {
      "id": 345938,
@@ -696,26 +680,6 @@
      "trailer": "Ouc9W0GRlQw"
     },
     {
-     "id": 520318,
-     "title": "Fátima, la película",
-     "year": "2020",
-     "release_date": "2020-08-13",
-     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
-     "vote_average": 7.2,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "PvokEpA439o"
-    },
-    {
      "id": 29989,
      "title": "Skin",
      "year": "2009",
@@ -732,6 +696,22 @@
       "Filmin"
      ],
      "trailer": "wbj691Z1Z1E"
+    },
+    {
+     "id": 88875,
+     "title": "El efecto de los rayos gamma  sobre las margaritas",
+     "year": "1972",
+     "release_date": "1972-12-20",
+     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
+     "vote_average": 7.3,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "providers": [],
+     "trailer": "9U7z35zbxPk"
     },
     {
      "id": 1217690,
@@ -806,22 +786,6 @@
      "trailer": "B1xClEljavQ"
     },
     {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "providers": [],
-     "trailer": "JxTFqsy5Pxs"
-    },
-    {
      "id": 25062,
      "title": "Un sabor a miel",
      "year": "1961",
@@ -836,6 +800,22 @@
      "fondo": "https://image.tmdb.org/t/p/original/qWdqgsJ1x9zwMwMeQLhkxOzK1Hg.jpg",
      "providers": [],
      "trailer": "y7LK_-rUfdU"
+    },
+    {
+     "id": 29697,
+     "title": "Confianza en la cosecha",
+     "year": "2006",
+     "release_date": "2006-10-27",
+     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
+     "vote_average": 7.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "providers": [],
+     "trailer": "JxTFqsy5Pxs"
     },
     {
      "id": 159389,
@@ -853,6 +833,22 @@
      "fondo": "https://image.tmdb.org/t/p/original/diF927vBIYi1uQxVpdx7W7wUuIr.jpg",
      "providers": [],
      "trailer": "42ImcufMB5Y"
+    },
+    {
+     "id": 38557,
+     "title": "Cuando el río crece",
+     "year": "1984",
+     "release_date": "1984-12-01",
+     "overview": "Tom y Mae Garvey se niegan a vender su granja a pesar de las presiones de las autoridades locales que pretenden inundar los terrenos que están a orillas del río. El encargado de presionar a los Garvey resulta ser John Wade, un antiguo pretendiente de Mae. La tensión desencadena un enfrentamiento en las riberas del río en plena crecida.",
+     "vote_average": 6.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/tJdgFpNUN1If0zYjFCLjUvmPJPo.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
+     "providers": [],
+     "trailer": "2fzExjAHQ2Q"
     }
    ]
   },
@@ -1830,7 +1826,7 @@
       "Ciencia ficción"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "providers": [],
      "trailer": "LW6dpj1uCK8"
@@ -2196,7 +2192,6 @@
      "providers": [
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
-      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "Z86bQ-Arguc"
@@ -2441,6 +2436,7 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "SkyShowtime",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "xxSo8ZEvzE8"
@@ -3139,6 +3135,7 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "SkyShowtime",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "xxSo8ZEvzE8"
