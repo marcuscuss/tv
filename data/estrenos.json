@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T05:03:49.104Z",
+ "actualizado": "2026-10-23T11:50:56.664Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -38,7 +38,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.9,
+   "vote_average": 5.8,
    "genres": [
     "Terror"
    ],
@@ -47,6 +47,23 @@
    "providers": [],
    "trailer": "ocV7K_B67lQ",
    "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
+  },
+  {
+   "id": 1400940,
+   "title": "Clayface",
+   "release_date": "2026-10-23",
+   "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
+   "vote_average": 7.3,
+   "genres": [
+    "Terror",
+    "Suspense",
+    "Ciencia ficción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+   "providers": [],
+   "trailer": "WGOv9Pzh9cE",
+   "fondo": "https://image.tmdb.org/t/p/original/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg"
   },
   {
    "id": 1255833,
@@ -62,23 +79,6 @@
    "providers": [],
    "trailer": "5webTf9wplE",
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
-  },
-  {
-   "id": 1400940,
-   "title": "Clayface",
-   "release_date": "2026-10-23",
-   "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-   "vote_average": 7.5,
-   "genres": [
-    "Terror",
-    "Suspense",
-    "Ciencia ficción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
-   "providers": [],
-   "trailer": "WGOv9Pzh9cE",
-   "fondo": "https://image.tmdb.org/t/p/original/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg"
   },
   {
    "id": 1228834,
@@ -127,7 +127,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
    "providers": [],
    "trailer": "xU2jWSsaWY0",
-   "fondo": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg"
   },
   {
    "id": 1281331,
@@ -230,6 +230,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg"
   },
   {
+   "id": 791523,
+   "title": "Wildwood: El Bosque Salvaje",
+   "release_date": "2026-10-23",
+   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
+   "vote_average": 8.9,
+   "genres": [
+    "Animación",
+    "Aventura",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+   "providers": [],
+   "trailer": "qWX1ba0f-Qg",
+   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
+  },
+  {
    "id": 1244523,
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
@@ -260,23 +277,6 @@
    "providers": [],
    "trailer": "9NNU-vSeOB0",
    "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
-  },
-  {
-   "id": 791523,
-   "title": "Wildwood: El Bosque Salvaje",
-   "release_date": "2026-10-23",
-   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.8,
-   "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
-   "providers": [],
-   "trailer": "qWX1ba0f-Qg",
-   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
    "id": 1572116,
@@ -396,7 +396,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg",
    "providers": [],
    "trailer": "qM2Pk44x0Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/y0reRTsewsPh0ePtgvDeLIsb5Wk.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg"
   },
   {
    "id": 1284046,
@@ -644,7 +644,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg",
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
-   "fondo": "https://image.tmdb.org/t/p/original/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg"
   },
   {
    "id": 1241803,
