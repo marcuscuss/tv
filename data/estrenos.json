@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T21:45:30.270Z",
+ "actualizado": "2026-10-23T05:03:49.104Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -64,6 +64,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
   },
   {
+   "id": 1400940,
+   "title": "Clayface",
+   "release_date": "2026-10-23",
+   "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
+   "vote_average": 7.5,
+   "genres": [
+    "Terror",
+    "Suspense",
+    "Ciencia ficción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+   "providers": [],
+   "trailer": "WGOv9Pzh9cE",
+   "fondo": "https://image.tmdb.org/t/p/original/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg"
+  },
+  {
    "id": 1228834,
    "title": "Operación Teherán",
    "release_date": "2026-09-18",
@@ -107,7 +124,7 @@
     "Drama"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
    "providers": [],
    "trailer": "xU2jWSsaWY0",
    "fondo": "https://image.tmdb.org/t/p/original/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg"
@@ -127,6 +144,22 @@
    "providers": [],
    "trailer": "cNbAPdz04UE",
    "fondo": "https://image.tmdb.org/t/p/original/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg"
+  },
+  {
+   "id": 1503762,
+   "title": "Sentido y sensibilidad",
+   "release_date": "2026-10-23",
+   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
+   "vote_average": 7.3,
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
+   "providers": [],
+   "trailer": "GMwdcpKOOyY",
+   "fondo": "https://image.tmdb.org/t/p/original/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg"
   },
   {
    "id": 1204680,
@@ -201,7 +234,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 5.5,
+   "vote_average": 5.9,
    "genres": [
     "Terror",
     "Suspense"
@@ -227,6 +260,23 @@
    "providers": [],
    "trailer": "9NNU-vSeOB0",
    "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
+  },
+  {
+   "id": 791523,
+   "title": "Wildwood: El Bosque Salvaje",
+   "release_date": "2026-10-23",
+   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
+   "vote_average": 8.8,
+   "genres": [
+    "Animación",
+    "Aventura",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+   "providers": [],
+   "trailer": "qWX1ba0f-Qg",
+   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
    "id": 1572116,
@@ -278,57 +328,6 @@
    "providers": [],
    "trailer": "nelkiuezJxg",
    "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
-  },
-  {
-   "id": 1594914,
-   "title": "Lucky Strike",
-   "release_date": "2026-10-02",
-   "overview": "Un soldado estadounidense gravemente herido lucha por sobrevivir, durante la II Guerra Mundial, detrás de las líneas enemigas en la Bélgica devastada por la guerra durante la brutal Batalla de las Ardenas. Aislado y obligado a afrontar unas condiciones extremas, debe confiar en su ingenio, su entrenamiento militar y una radio dañada como su única esperanza para evadir a las tropas enemigas que lo buscan. Mientras enfrenta el peligro constante, su objetivo es desesperadamente restablecer contacto con su unidad antes de que sea demasiado tarde.",
-   "vote_average": 6.6,
-   "genres": [
-    "Acción",
-    "Bélica"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/c4az2YuhUDmGTRYjsYdD3tFjwuG.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
-   "providers": [],
-   "trailer": "vtEnjikCXyA",
-   "fondo": "https://image.tmdb.org/t/p/original/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg"
-  },
-  {
-   "id": 1542261,
-   "title": "Doraemon: Nobita y el nuevo castillo del diablo submarino",
-   "release_date": "2026-10-09",
-   "overview": "Nobita y sus amigos descubren un castillo submarino secreto repleto de misterios y riquezas. Con los ingeniosos artilugios de Doraemon, se sumergen en una aventura oceánica que combina humor, trabajo en equipo e imaginación en un impresionante mundo acuático.",
-   "vote_average": 6.8,
-   "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/wPzyoIvJBOXFnuGWgu09gnlO26K.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pxd9rc03EMMln3tVFdfd427Fpsi.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/pxd9rc03EMMln3tVFdfd427Fpsi.jpg"
-  },
-  {
-   "id": 1318413,
-   "title": "Tiempo de victoria",
-   "release_date": "2026-09-18",
-   "overview": "Quedan 72 horas para el Día D y todo está listo salvo un elemento clave: el tiempo. El capitán James Stagg, jefe del servicio meteorológico británico, recibe el encargo de elaborar el pronóstico más trascendental de la historia. Unas condiciones climáticas adversas podrían arruinar la mayor invasión marítima de la historia, mientras que cualquier retraso podría suponer que los servicios de inteligencia alemanes descubran sus intenciones. El general Dwight D. Eisenhower deberá tomar la decisión que determine el destino de la Segunda Guerra Mundial.",
-   "vote_average": 7.7,
-   "genres": [
-    "Suspense",
-    "Historia",
-    "Bélica"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/byKFPj2xvKkqMKQ4i0Ayq6N7Z9E.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
-   "providers": [],
-   "trailer": "AlB1rAHviO4",
-   "fondo": "https://image.tmdb.org/t/p/original/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg"
   }
  ],
  "upcoming": [

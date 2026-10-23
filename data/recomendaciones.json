@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T21:45:50.848Z",
+ "actualizado": "2026-10-23T05:04:19.387Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -651,7 +651,7 @@
      ],
      "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/3q35nBLCIdEbxYfsr7D5ocYQXKz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/3q35nBLCIdEbxYfsr7D5ocYQXKz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
      "providers": [
       "Filmin"
      ],
@@ -861,41 +861,23 @@
    },
    "items": [
     {
-     "id": 717980,
-     "title": "Embaucadores",
-     "year": "2023",
-     "release_date": "2023-02-10",
-     "overview": "Esta película explora los secretos de la ciudad de Nueva York, desde los áticos de la Quinta Avenida hasta los rincones sombríos de Queens. Los motivos son sospechosos y las expectativas cambian cuando nada es lo que parece.",
+     "id": 549509,
+     "title": "The Brutalist",
+     "year": "2024",
+     "release_date": "2024-12-20",
+     "overview": "Cuando el visionario arquitecto László Toth y su esposa Erzsébet huyen de la Europa de posguerra en 1947 para reconstruir su legado y ver el nacimiento de la América moderna, sus vidas cambian a causa de un misterioso y adinerado cliente.",
      "vote_average": 6.9,
      "genres": [
-      "Crimen",
-      "Suspense"
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/uqOaJvWbTEHzISjyx3XibRI8Va9.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/cG5QZHyIRJXqo53YA41gbNMlpIM.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/cG5QZHyIRJXqo53YA41gbNMlpIM.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/3BwkIAjAdQY5Nn4HqDuXue5IZx6.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/hmZnqijPaaACjenDkrbWcCmcADI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hmZnqijPaaACjenDkrbWcCmcADI.jpg",
      "providers": [
-      "Apple TV",
-      "Apple TV Amazon Channel"
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total "
      ],
-     "trailer": "r00ldaPQbjs"
-    },
-    {
-     "id": 1175351,
-     "title": "Bosco",
-     "year": "2024",
-     "release_date": "2024-02-02",
-     "overview": "Cuenta la historia de Quawntay “Bosco” Adams. Sentenciado a 35 años por intento de posesión de marihuana, Adams escapó milagrosamente con la ayuda de una mujer mayor que conoció a través de un anuncio de corazones solitarios.",
-     "vote_average": 6.8,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/dXjSeS3w97setnrNv4m6tlqqXzn.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
-     "providers": [],
-     "trailer": "Pz7s3YPS7nk"
+     "trailer": "vna5bN96xJg"
     },
     {
      "id": 1578,
@@ -918,49 +900,25 @@
      "trailer": "G5RHRg6zEhY"
     },
     {
-     "id": 504562,
-     "title": "Huérfanos de Brooklyn",
+     "id": 473033,
+     "title": "Diamantes en bruto",
      "year": "2019",
-     "release_date": "2019-10-31",
-     "overview": "Nueva York, 1957. Lionel Essrog, un detective privado que convive con el síndrome de Tourette, trata de resolver el asesinato de su mentor y mejor amigo, armado solo con vagas pistas y la fuerza de su mente obsesiva.",
-     "vote_average": 6.7,
+     "release_date": "2019-12-13",
+     "overview": "Howard Ratner es el propietario de una joyería ubicada en el barrio de los diamantes de la ciudad de Nueva York que vende en exclusiva a ricos y famosos. Un día se produce un importante robo que le obliga a tener que afrontar una deuda económica que no está preparado para pagar.",
+     "vote_average": 7.2,
      "genres": [
       "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/eQEy8Fe6ZnmwNzOh0CLZ1eR2oIX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/xMHeU84wLQ9uH9acJ0oPgdii9wO.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/budSWJ4zaRdkTBRHxmSP4aGp3G0.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "HBO Max Amazon Channel"
-     ],
-     "trailer": "Fru8IkuDp_k"
-    },
-    {
-     "id": 1359,
-     "title": "American Psycho",
-     "year": "2000",
-     "release_date": "2000-04-13",
-     "overview": "En un mundo moralmente plano en el que la ropa tiene más sentido que la piel, Patrick Bateman es un espécimen soberbiamente elaborado que cumple todos los requisitos de Master del Universo, desde el diseño de su vestuario hasta el de sus productos químicos. Es prácticamente perfecto, como casi todos en su mundo e intenta desesperadamente encajar en él. Cuando más intenta ser como cualquier otro hombre adinerado de Wall Street, más anónimo se vuelve y menos control tiene sobre sus terribles instintos y su insaciable sed de sangre, que lo arrastra a una vorágine en la que los objetos valen más que el cuerpo y el alma de una persona.",
-     "vote_average": 7.4,
-     "genres": [
       "Suspense",
-      "Drama",
       "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/ySPCri7VfAjbLLkMKs7Zjn6Njco.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/5oaMV2q0qzxkIW2ukU3lldLu5q2.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/5oaMV2q0qzxkIW2ukU3lldLu5q2.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/c3PF6aC1TflMoxckXikRmeV8MLq.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eGljNfNCrPhFYG2RXXmmE0OKu5.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eGljNfNCrPhFYG2RXXmmE0OKu5.jpg",
      "providers": [
       "Netflix",
-      "Disney Plus",
-      "Netflix Standard with Ads",
-      "AMC Channels Amazon Channel",
-      "Lionsgate+ Amazon Channel"
+      "Netflix Standard with Ads"
      ],
-     "trailer": "81mibtQWWBg"
+     "trailer": "gIjvydY048w"
     },
     {
      "id": 396371,
@@ -984,6 +942,43 @@
      "trailer": "e3U3TrLo3tQ"
     },
     {
+     "id": 95608,
+     "title": "Canción de Nueva York",
+     "year": "2017",
+     "release_date": "2017-07-27",
+     "overview": "Un joven (Callum Turner) recién licenciado de Nueva York descubre que su despótico padre (Pierce Brosnan) está teniendo una aventura con una atractiva joven (Kate Beckinsale). Tratando de detenerlo, acabará involucrado sentimentalmente con ella.",
+     "vote_average": 6.3,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/cq9iBxggxWfNoU4avORT32c6rvv.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/orYYkVBbTB7ZAqxmzlQLIHqENqM.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/orYYkVBbTB7ZAqxmzlQLIHqENqM.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "MWkdM2ZGah0"
+    },
+    {
+     "id": 1920,
+     "title": "Delito de pasión",
+     "year": "1956",
+     "release_date": "1956-12-28",
+     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "providers": [],
+     "trailer": "jJi9mUp_KeM"
+    },
+    {
      "id": 928270,
      "title": "Ola de Calor",
      "year": "2022",
@@ -1001,135 +996,127 @@
      "trailer": "t-yhbvVpPgI"
     },
     {
-     "id": 20857,
-     "title": "Hardball",
-     "year": "2001",
-     "release_date": "2001-09-14",
-     "overview": "Conor (Keanu Reeves), un aficionado a las apuestas cuyos presentimientos fallan siempre, pasa por un grave apuro económico. La única solución para saldar sus deudas es entrenar a un equipo infantil de béisbol de un conflictivo barrio de Chicago. El problema es que a Conor no le gustan mucho los niños, pero sí su maestra, la atractiva señorita Wilkes (Diane Lane). (FILMAFFINITY)",
+     "id": 9357,
+     "title": "Retratos de una obsesión",
+     "year": "2002",
+     "release_date": "2002-08-21",
+     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
+     "providers": [],
+     "trailer": "eWzILZ6wE9Y"
+    },
+    {
+     "id": 471506,
+     "title": "La viuda",
+     "year": "2019",
+     "release_date": "2019-02-28",
+     "overview": "Frances es una dulce e ingenua joven que, tras la muerte de su madre, se muda a Manhattan. Cuando encuentra en el metro un bolso extraviado, decide entregárselo a su legítima dueña, Greta, una pianista viuda con una desesperada necesidad de compañía. Rápidamente se convierten en amigas, pero su amistad cambia cuando se descubren las siniestras intenciones de Greta.",
      "vote_average": 6.5,
      "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/lpe5eazfSur86SJQul7eQQmUYJ3.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/oONWvm6kBDVXakj8aELlTohpkUT.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vzvUVT8p8Fs5gMOeHmO9U0sGHt3.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "63OFSv2LGlU"
-    },
-    {
-     "id": 489243,
-     "title": "El proyecto colibrí",
-     "year": "2019",
-     "release_date": "2019-03-15",
-     "overview": "Un hombre y su primo intentan hacerse millonarios mediante la construcción de un cable de fibra óptica entre Kansas y Nueva Jersey, mientras su antiguo jefe intenta evitar que lo consigan.",
-     "vote_average": 6.2,
-     "genres": [
+      "Misterio",
       "Suspense",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/uRRuhlqmzGnxugvA257Rt3dzvaz.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/4N6eXAhEm2rdwyMUrY2c4c7lTfO.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/4N6eXAhEm2rdwyMUrY2c4c7lTfO.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/vsNUxeOiRDyS3FDJMroRcJOcjXm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
      "providers": [],
-     "trailer": "3-IlhKbakFA"
+     "trailer": "9sLHK4ccHGQ"
     },
     {
-     "id": 184341,
-     "title": "Manos de piedra",
-     "year": "2016",
-     "release_date": "2016-08-26",
-     "overview": "Biopic sobre el boxeador panameño Roberto \"Manos de Piedra\" Durán, quien es mundialmente reconocido como el mejor peso ligero de todos los tiempos, y también catalogado por muchos como uno de los más grandes boxeadores latinoamericanos y uno de los mejores libra por libra de la historia del boxeo.",
-     "vote_average": 6.6,
+     "id": 1175351,
+     "title": "Bosco",
+     "year": "2024",
+     "release_date": "2024-02-02",
+     "overview": "Cuenta la historia de Quawntay “Bosco” Adams. Sentenciado a 35 años por intento de posesión de marihuana, Adams escapó milagrosamente con la ayuda de una mujer mayor que conoció a través de un anuncio de corazones solitarios.",
+     "vote_average": 6.8,
      "genres": [
-      "Drama"
+      "Drama",
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/jno7F2SixgYRygFsOC6gVdVPUyu.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lVDDXGuuu2WiqQCyXMsLe513FNP.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lVDDXGuuu2WiqQCyXMsLe513FNP.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/dXjSeS3w97setnrNv4m6tlqqXzn.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
      "providers": [],
-     "trailer": "KeP5YVVkQV8"
+     "trailer": "Pz7s3YPS7nk"
     },
     {
-     "id": 11873,
-     "title": "El color del dinero",
-     "year": "1986",
-     "release_date": "1986-10-17",
-     "overview": "Eddie Felson, antiguo campeón de billar retirado, vive de su negocio de licores. Un día, en una sala de juego, conoce a Vincent, un joven jugador de billar, que aún no ha encontrado un oponente de su talla, y que siempre va acompañado de su novia, que es la que se encarga de las apuestas que se hacen a favor de Vincent.",
-     "vote_average": 6.9,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/eGtURb1zBDPtaoo3umzM5ZH8dvH.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/hhCp6ZLDjS5wUHkGg7k3VGvH3Xm.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hhCp6ZLDjS5wUHkGg7k3VGvH3Xm.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "HgLvznCiNUo"
-    },
-    {
-     "id": 50839,
-     "title": "Margin Call",
-     "year": "2011",
-     "release_date": "2011-09-28",
-     "overview": "Ambientada en el arriesgado mundo de las altas finanzas, es un thriller dramático que compromete a las figuras clave de un banco de inversión durante las turbulentas 24 horas previas al inicio de la crisis financiera de 2008. Cuando Peter Sullivan, un analista junior, revela información que podría probar la caída de la empresa, origina una toma de decisiones en cadena tanto morales como financieras que producen un terremoto en las vidas de los implicados en el inminente desastre.",
-     "vote_average": 6.9,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/lb79wPjijIXf1ZE6KhWVGUtv9AF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/fIriCG54pJZoMGvoHHLCPn5y7Cx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/fIriCG54pJZoMGvoHHLCPn5y7Cx.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "L1dMqRfrhCY"
-    },
-    {
-     "id": 1013601,
-     "title": "The Alto Knights",
-     "year": "2025",
-     "release_date": "2025-03-19",
-     "overview": "Vito Genovese y Frank Costello, un par de italoamericanos que dirigen dos familias criminales separadas a mediados del siglo XX. Genovese intentó asesinar a Costello en 1957, aunque Costello se retiró de la mafia.",
-     "vote_average": 6.2,
+     "id": 1429,
+     "title": "La última noche",
+     "year": "2002",
+     "release_date": "2002-12-19",
+     "overview": "Empieza la cuenta atrás: Monty Brogan está a punto de perder la libertad. En tan sólo 24 horas deberá entrar en prisión, donde pasará siete interminables años. Monty, el que fue en su día el rey de Manhattan, tendrá que decir adiós a las luces de los flashes, a sus sueños de grandeza y al único tren de vida que conoce, una vida que le abrió las puertas de los clubes más elegantes de Nueva York pero que también lo alejó de las personas que más lo querían.",
+     "vote_average": 7.3,
      "genres": [
       "Crimen",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/hsLpyMFE350vNekH6Ol1VUNUqL0.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iveeHEGtkq0dBJZtOcoK650sZ6x.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iveeHEGtkq0dBJZtOcoK650sZ6x.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "60uDrJuG-zo"
+     "poster": "https://image.tmdb.org/t/p/w342/9rSCPAEJ35BK5YbK5Asr0JkjB5n.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
+     "providers": [],
+     "trailer": "5TBu6e1IC_0"
     },
     {
-     "id": 473033,
-     "title": "Diamantes en bruto",
-     "year": "2019",
-     "release_date": "2019-12-13",
-     "overview": "Howard Ratner es el propietario de una joyería ubicada en el barrio de los diamantes de la ciudad de Nueva York que vende en exclusiva a ricos y famosos. Un día se produce un importante robo que le obliga a tener que afrontar una deuda económica que no está preparado para pagar.",
-     "vote_average": 7.2,
+     "id": 20540,
+     "title": "El prestamista",
+     "year": "1965",
+     "release_date": "1965-04-20",
+     "overview": "Un superviviente del exterminio judío regenta una tienda de préstamos en el neoyorquino barrio de Harlem. Los espeluznantes y dolorosos recuerdos del campo de exterminio dominan completamente su vida.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/yRnEOQD4h9GASpynMTfUKPIdPcP.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "XKvzeCwMCgc"
+    },
+    {
+     "id": 84338,
+     "title": "Simon Killer",
+     "year": "2012",
+     "release_date": "2012-04-12",
+     "overview": "Un graduado reciente en la universidad va a París después de romper una relación con su novia que duraba 5 años. Una vez allí, se enamora de una joven prostituta y comienza un viaje fatídico.",
+     "vote_average": 5.9,
      "genres": [
       "Drama",
-      "Suspense",
-      "Crimen"
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/c3PF6aC1TflMoxckXikRmeV8MLq.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eGljNfNCrPhFYG2RXXmmE0OKu5.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/eGljNfNCrPhFYG2RXXmmE0OKu5.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/32SUAJ7JP9Jvb251J8tf9U2Si6m.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
      "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
+      "Filmin"
      ],
-     "trailer": "gIjvydY048w"
+     "trailer": "VJICFO4lbtQ"
+    },
+    {
+     "id": 235271,
+     "title": "Perversa adicción",
+     "year": "2014",
+     "release_date": "2014-10-10",
+     "overview": "La adicción al sexo de Zoe Reynard, una exitosa mujer de negocios, amenaza con arruinar su vida familiar junto a su marido y sus dos hijos.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oyxiBAFDXVgy8iUFPLksWwUWtEA.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "providers": [],
+     "trailer": "ZdZ0lUxunbA"
     }
    ]
   },
@@ -3831,7 +3818,7 @@
     ],
     "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w780/3q35nBLCIdEbxYfsr7D5ocYQXKz.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/3q35nBLCIdEbxYfsr7D5ocYQXKz.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
     "providers": [
      "Filmin"
     ],
