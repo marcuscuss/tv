@@ -112,30 +112,39 @@ img { border: 0; }
 /* ======================================================================
    CABECERA Y PIE FIJOS
    ====================================================================== */
-/* Cabecera en cápsula alargada con efecto "liquid glass" (medidas del diseño: 2000 px = 100vw) */
-.hdr { position: absolute; left: 2.1vw; right: 1.65vw; top: 2.15vw; height: 5.1vw; z-index: 20; padding: 0 1.5vw 0 1.9vw;
-  border-radius: 2.55vw; border: 1px solid rgba(255,255,255,.7);
-  background-color: rgba(255,255,255,.12);
-  -webkit-backdrop-filter: blur(14px) saturate(160%); backdrop-filter: blur(14px) saturate(160%);
+/* Cabecera (medidas del diseño: 1556 px = 100vw): el logo JOI //BETA suelto arriba a la izquierda y,
+   arriba a la derecha, una cápsula "liquid glass" con la hora, la ciudad y el usuario. Los canales
+   (/APPS /NEWS /CINE /DEPORTES) van plegados dentro de la cápsula y se despliegan al subir a la cabecera. */
+.hdr { position: absolute; left: 0; right: 0; top: 0; height: 9vw; z-index: 20; pointer-events: none;
   -webkit-transition: -webkit-transform .5s cubic-bezier(.2,.7,.2,1), opacity .4s; transition: transform .5s cubic-bezier(.2,.7,.2,1), opacity .4s; }
-.lite .hdr { -webkit-backdrop-filter: none; backdrop-filter: none; background-color: rgba(30,30,30,.55); }
+.hdr > * { pointer-events: auto; }
 #scr-main.hdr-up .hdr { -webkit-transform: translateY(-9vw); transform: translateY(-9vw); opacity: 0; }
-.hb-logo { height: 100%; padding: 0 .3vw; cursor: pointer; -webkit-align-items: center; align-items: center; }
-.hb-logo img { height: 1.9vw; display: block; }
-.hb-logo .beta { -webkit-align-self: flex-start; align-self: flex-start; margin: 1.5vw 0 0 .25vw; font-size: .7vw; letter-spacing: .02em;
+.hb-logo { position: absolute; left: 4.35vw; top: 4.05vw; cursor: pointer; -webkit-align-items: flex-start; align-items: flex-start; }
+.hb-logo img { height: 2.06vw; display: block; }
+.hb-logo .beta { margin: .2vw 0 0 .15vw; font-size: .55vw; letter-spacing: .02em; line-height: 1;
   font-family: "pt-mono", "Courier New", monospace; }
-.hb-logo.focus img { opacity: .7; }
-.hb-nav { height: 100%; }
-.hnav { width: 4.9vw; height: 1.65vw; line-height: 1.5vw; margin-left: .2vw; padding: 0; text-align: center; font-size: .95vw; letter-spacing: 0;
-  cursor: pointer; border: .06vw solid rgba(255,255,255,.9); border-radius: 0; font-family: "pt-mono", "Courier New", monospace;
-  text-transform: uppercase; }
-#h-sport { width: 6.75vw; }
+.hb-logo.focus img { opacity: .6; }
+.hb-cap { position: absolute; right: 5.4vw; top: 3.2vw; height: 3.66vw; padding: 0 .3vw 0 1.15vw; border-radius: .55vw;
+  border: 1px solid rgba(255,255,255,.75);
+  background-image: linear-gradient(90deg, rgba(255,255,255,.10), rgba(255,255,255,.22) 55%, rgba(255,255,255,.06));
+  -webkit-backdrop-filter: blur(14px) saturate(160%); backdrop-filter: blur(14px) saturate(160%); }
+.lite .hb-cap, .fire .hb-cap { -webkit-backdrop-filter: none; backdrop-filter: none; background-image: none; background-color: rgba(28,28,28,.6); }
+.hb-nav { overflow: hidden; max-width: 0; opacity: 0;
+  -webkit-transition: max-width .45s cubic-bezier(.2,.7,.2,1), opacity .3s; transition: max-width .45s cubic-bezier(.2,.7,.2,1), opacity .3s; }
+.hdr.open .hb-nav { max-width: 30vw; opacity: 1; }
+.hnav { -webkit-flex-shrink: 0; flex-shrink: 0; width: 4.9vw; height: 1.65vw; line-height: 1.5vw; margin-right: .3vw; padding: 0; text-align: center;
+  font-size: .95vw; letter-spacing: 0; cursor: pointer; border: .06vw solid rgba(255,255,255,.9); border-radius: 0;
+  font-family: "pt-mono", "Courier New", monospace; text-transform: uppercase; }
+#h-sport { width: 6.75vw; margin-right: 1.2vw; }
 .hnav.active { background-color: rgba(255,255,255,.18); }
-.hb-user { width: 3.8vw; height: 3.7vw; margin-left: 1.75vw; border-radius: .45vw; background-color: #ffffff; cursor: pointer;
+.hb-clock { width: 5.6vw; }
+.hb-time { font-family: "tt-travels-next", Georgia, serif; font-weight: 500; font-size: 1.45vw; line-height: 1; letter-spacing: .02em; }
+.hb-city { margin-top: .2vw; font-size: .3vw; letter-spacing: .06em; line-height: 1; font-family: "pt-mono", "Courier New", monospace; }
+.hb-user { width: 3.1vw; height: 3vw; margin-left: .55vw; border-radius: .35vw; background-color: #ffffff; cursor: pointer;
   text-align: center; overflow: hidden; }
-.hb-user .hb-name { display: block; margin-top: 1vw; font-size: .42vw; letter-spacing: .04em; color: #000000; white-space: nowrap; overflow: hidden; }
+.hb-user .hb-name { display: block; margin-top: 1.25vw; font-size: .3vw; letter-spacing: .04em; color: #000000; white-space: nowrap; overflow: hidden; }
 .hb-user .hb-av { display: none; }
-.hb-user.focus { box-shadow: 0 0 0 .15vw #000000, 0 0 0 .3vw #ffffff; }
+.hb-user.focus { box-shadow: 0 0 0 .12vw #000000, 0 0 0 .26vw #ffffff; }
 #timecode { letter-spacing: .12em; }
 
 .ftr { position: absolute; left: 4.4vw; right: 4.4vw; bottom: 2.2vw; height: 1.6vw; z-index: 20; font-size: .85vw; letter-spacing: .1em; }
@@ -202,11 +211,12 @@ img { border: 0; }
   font-size: 7vw; line-height: .98; letter-spacing: .02em; text-transform: uppercase; color: #ffffff; overflow: hidden; max-height: 7.1vw;
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; }
 #hero .ht.two { max-height: 14vw; -webkit-line-clamp: 2; }
+.nomed #hero .ht, .nomed .tape .tt, .nomed .det-title, .nomed .hb-time { -webkit-text-stroke: .022em currentColor; }
 #hero .hsub { margin: .4vw 0 0; font-size: .95vw; letter-spacing: .08em; text-transform: uppercase; font-family: "pt-mono", "Courier New", monospace; }
 #hero .hp { margin-top: 1.7vw; }
 #hero .hp .pill { -webkit-justify-content: center; justify-content: center; min-width: 6.6vw; height: 2.6vw; margin-right: .5vw; padding: 0 .9vw;
   border: 1px solid rgba(255,255,255,.9); border-radius: .5vw; font-size: .8vw; letter-spacing: .04em; cursor: pointer; white-space: nowrap; }
-#hero .hp .pill img { height: 1.5vw; max-width: 5vw; display: block; -webkit-filter: brightness(0) invert(1); filter: brightness(0) invert(1); }
+#hero .hp .pill img { height: 1.5vw; max-width: 5vw; display: block; }
 #hero .hp .pill.focus { background-color: #ffffff; color: #000000; border-color: #ffffff; }
 #hero .hp .pill.focus img { -webkit-filter: brightness(0); filter: brightness(0); }
 #hero .hp .pill.ghost { border-color: rgba(255,255,255,.45); }
@@ -226,37 +236,26 @@ img { border: 0; }
   -webkit-transition: -webkit-transform .8s cubic-bezier(.22,.75,.18,1), opacity .8s; transition: transform .8s cubic-bezier(.22,.75,.18,1), opacity .8s;
   -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; }
 .tape.off { visibility: hidden; }
-/* Cinta asomando por arriba (solo la enfocada) */
-.tape .cass { display: none; position: absolute; left: 7%; right: 7%; top: -2.7vw; height: 3.4vw; border-radius: .5vw .5vw 0 0;
-  background-color: #141413; border: .1vw solid #2e2d2a;
-  -webkit-transform: translateY(2.8vw); transform: translateY(2.8vw);
-  -webkit-transition: -webkit-transform .22s ease-in; transition: transform .22s ease-in; }
-.tape .cass .win { position: absolute; left: 28%; right: 28%; top: .5vw; height: 1.6vw; border-radius: .7vw;
-  background-image: linear-gradient(180deg, #4a4945, #22211f); }
-.tape .cass .reel { position: absolute; top: .55vw; width: 1.5vw; height: 1.5vw; border-radius: 50%; border: .25vw solid #2e2d2a; }
-.tape .cass .reel.l { left: 9%; } .tape .cass .reel.r { right: 9%; }
-.tape.f .cass { -webkit-transform: translateY(0); transform: translateY(0);
-  -webkit-transition: -webkit-transform .55s cubic-bezier(.2,.8,.2,1) .45s; transition: transform .55s cubic-bezier(.2,.8,.2,1) .45s; }
-.tape .sleeve { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; border-radius: .25vw;
-  box-shadow: 0 1.6vw 3vw rgba(0,0,0,.7);
-  background-image: linear-gradient(160deg, rgba(255,255,255,.05), rgba(255,255,255,0) 40%, rgba(0,0,0,.25)); }
-.tape .inner { position: absolute; left: 6%; right: 6%; top: 3.5%; bottom: 3.5%; text-align: center; }
-.tape .band { padding: .45vw 0 .5vw; border-top: .12vw solid; border-bottom: .12vw solid; opacity: .9; }
-.tape .band img { height: .7vw; display: block; margin: 0 auto .2vw; }
-.tape .band b { font-weight: normal; font-size: 1.35vw; letter-spacing: -.01em; text-transform: none; }
-.tape .ttl { margin: .9vw 0 .7vw; height: 7.9vw; overflow: hidden; line-height: .9; letter-spacing: -.02em; font-weight: 700; }
-.tape .ttl span { display: inline-block; -webkit-transform: scale(.78, 1.3); transform: scale(.78, 1.3);
-  -webkit-transform-origin: 50% 0; transform-origin: 50% 0; white-space: nowrap; margin: 0 -8vw; }
-.tape .art { position: relative; height: 9.7vw; margin: 0 7%; border: .14vw solid; overflow: hidden; }
-.tape .art .dots { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: .55; background-size: .55vw .55vw; }
-.tape .art .big { position: absolute; left: 0; right: 0; top: 50%; margin-top: -3.9vw; font-size: 6.8vw; line-height: 1;
-  font-family: "tt-travels-next", Georgia, serif; text-transform: none; }
-.tape .foot { position: absolute; left: 0; right: 0; bottom: .2vw; }
-.tape .vhs { font-size: 1.15vw; padding: 0 .3vw; border: .12vw solid; letter-spacing: 0; }
-.tape .yr { font-size: .8vw; font-family: Georgia, serif; }
-.tape .reelic { width: 2.6vw; height: 1.6vw; }
-.tape .wear { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(assets/fx/wear.png);
-  background-size: 100% 100%; opacity: .85; pointer-events: none; }
+/* Carátula (diseño de 836 × 1118): negra, JOI arriba a la izquierda, el logo de la app en blanco
+   en el centro, el texto de fábrica alineado a la derecha, la muesca blanca del lomo y el logo VHS. */
+.tape .sleeve { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; border-radius: .2vw;
+  border: 1px solid rgba(255,255,255,.2); -webkit-box-sizing: border-box; box-sizing: border-box; box-shadow: 0 1.6vw 3vw rgba(0,0,0,.7); }
+.tape .tj { position: absolute; left: 5.5%; top: 4%; width: 36.4%; display: block; }
+.tape .tl { position: absolute; left: 12.5%; right: 4.8%; top: 39%; height: 15%;
+  display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center;
+  -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; }
+.tape .tl img { display: block; max-width: 100%; max-height: 100%; }
+.tape .tl.sq { left: 30%; right: 22%; top: 36%; height: 21%; }
+.tape .tt { width: 100%; text-align: center; color: #ffffff; text-transform: uppercase; white-space: nowrap;
+  font-family: "tt-travels-next", Georgia, serif; font-weight: 500; line-height: .98; letter-spacing: .02em; }
+.tape .tx { position: absolute; right: 22.7%; top: 62%; text-align: right; white-space: nowrap; color: #ffffff;
+  font-family: "pt-mono", "Courier New", monospace; font-size: .4vw; line-height: 1.32; letter-spacing: .02em; }
+.tape .tx i { display: block; height: .55vw; }
+.tape .notch { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.tape .tv { position: absolute; left: 11.5%; top: 85.2%; width: 23%; }
+.tape .tv img { display: block; width: 100%; }
+.tape .tv span { display: block; margin-top: .12vw; text-align: right; color: #ffffff; white-space: nowrap;
+  font-family: "pt-mono", "Courier New", monospace; font-size: .43vw; letter-spacing: .04em; line-height: 1; }
 .tape .shade { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; opacity: 0;
   -webkit-transition: opacity .8s; transition: opacity .8s; pointer-events: none; }
 .play-tape { display: none; position: absolute; left: 50%; top: 23vw; width: 11vw; margin-left: -5.5vw; text-align: center; font-size: .95vw; letter-spacing: .1em; z-index: 30;
@@ -642,10 +641,8 @@ img { border: 0; }
    MODO FIRE TV · fuera lo que más le cuesta a su GPU (desenfoques, sombras
    grandes, texturas superpuestas) y capas propias para lo que se anima
    ====================================================================== */
-.fire .hdr { -webkit-backdrop-filter: none; backdrop-filter: none; background-color: rgba(24,24,24,.62); }
 .fire .tape { will-change: transform; }
 .fire .tape .sleeve, .fire .mcard, .fire .pitem .poster, .fire .nw-card .pc, .fire .panel { box-shadow: none; }
-.fire .tape .wear { display: none; }
 .fire .nw-title .lyr, .fire #osd .n, .fire #osd .l { text-shadow: none; }
 .fire #hero .hi { will-change: opacity, transform; }
 .fire #sec-apps > * { will-change: transform; }
@@ -693,13 +690,16 @@ img { border: 0; }
 
   <!-- ===================== MARCO PRINCIPAL (APPS · NEWS WATCH · PROFILE) ===================== -->
   <section id="scr-main" class="screen">
-    <header class="hdr row between" id="hdr">
-      <div class="hb-logo row" id="h-home"><img src="assets/logos/joi.png" alt="JOI"><span class="beta">//BETA</span></div>
-      <div class="hb-nav row">
-        <div class="hnav" id="h-apps">/APPS</div>
-        <div class="hnav" id="h-news">/NEWS</div>
-        <div class="hnav" id="h-cine">/CINE</div>
-        <div class="hnav" id="h-sport">/DEPORTES</div>
+    <header class="hdr" id="hdr">
+      <div class="hb-logo row" id="h-home"><img src="assets/logos/joi.svg" alt="JOI"><span class="beta">//BETA</span></div>
+      <div class="hb-cap row" id="hb-cap">
+        <div class="hb-nav row">
+          <div class="hnav" id="h-apps">/APPS</div>
+          <div class="hnav" id="h-news">/NEWS</div>
+          <div class="hnav" id="h-cine">/CINE</div>
+          <div class="hnav" id="h-sport">/DEPORTES</div>
+        </div>
+        <div class="hb-clock"><div class="hb-time" id="hb-time">--:--</div><div class="hb-city" id="hb-city">MADRID</div></div>
         <div class="hb-user" id="h-profile"><span class="hb-name" id="hb-name">USUARIO</span><span class="hb-av" id="hb-av">?</span></div>
       </div>
     </header>
@@ -710,7 +710,7 @@ img { border: 0; }
         <div class="hi" id="hero-img"></div><div class="g1"></div><div class="g2"></div>
         <div class="info" id="hero-info"></div>
       </div>
-      <div class="coll-head" id="coll-head"><img src="assets/logos/vhs-collection.png" alt="JOI VHS COLLECTION"></div>
+      <div class="coll-head" id="coll-head"><img src="assets/logos/vhs-collection.svg" alt="JOI VHS COLLECTION"></div>
       <div class="car" id="car">
         <div class="car-hint dim">◀</div><div class="car-hint r dim">▶</div>
         <div id="tapes"></div>
@@ -779,7 +779,7 @@ img { border: 0; }
   <!-- ===================== ¿QUIÉN ESTÁ VIENDO? ===================== -->
   <section id="scr-who" class="screen">
     <div class="head">
-      <img src="assets/logos/joi.png" alt="JOI">
+      <img src="assets/logos/joi.svg" alt="JOI">
       <div class="title">¿Quién está viendo?</div>
     </div>
     <div id="who-list" class="row center"></div>
@@ -1000,6 +1000,31 @@ img { border: 0; }
     return /AFT[A-Z]|AmazonWebAppPlatform|Silk\//.test(navigator.userAgent) || /[?&]fire=1/.test(window.location.search);
   })();
   if (FIRE) document.documentElement.className += ' fire';
+
+  // Los títulos van en TT Travels Next Medium (500). Si el kit de Adobe Fonts no trae ese grosor,
+  // el navegador pinta la Regular (400): se nota porque miden igual. Entonces se engorda el trazo
+  // un pelo (clase "nomed") para igualar la Medium. En cuanto el kit la incluya, se quita sola.
+  function checkMedium() {
+    var probe = document.createElement('div'), w = [], i;
+    probe.style.cssText = 'position:absolute;left:-9999px;top:0;visibility:hidden;white-space:nowrap;font-size:100px;font-family:"tt-travels-next",Georgia,serif';
+    for (i = 0; i < 3; i++) {
+      var sp = document.createElement('span');
+      sp.style.fontWeight = [400, 500, 700][i];
+      sp.textContent = 'TIERRAS PERDIDAS DUNE';
+      probe.appendChild(sp);
+      probe.appendChild(document.createElement('br'));
+    }
+    document.body.appendChild(probe);
+    for (i = 0; i < 3; i++) w.push(probe.childNodes[i * 2].offsetWidth);
+    document.body.removeChild(probe);
+    if (w[0] === w[2]) return;                         // la fuente aún no ha cargado: no se decide
+    var el0 = document.documentElement;
+    if (w[0] === w[1]) { if (!/\bnomed\b/.test(el0.className)) el0.className += ' nomed'; }
+    else el0.className = el0.className.replace(/\s*\bnomed\b/g, '');
+  }
+  setTimeout(checkMedium, 1500);
+  setTimeout(checkMedium, 5000);
+  window.addEventListener('load', checkMedium);
   var STORE_KEY = 'joi.v1';
   var BACK_KEYS = [8, 27, 461, 10009];
   var DAYS = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB'];
@@ -1176,6 +1201,8 @@ img { border: 0; }
     ensureVisible(nav.el);
     if (nav.el._onfocus) nav.el._onfocus();
     if (nav.onFocusRow) nav.onFocusRow(r);
+    // Los canales de la cabecera solo se despliegan mientras el foco está arriba
+    setClass($('hdr'), 'open', !!nav.rows[r]._hdr);
   }
   function focusEl(target) {
     if (!nav) return false;
@@ -1359,6 +1386,7 @@ img { border: 0; }
     focusable($('h-sport'), function () { goSection('sport', true); });
     focusable($('h-profile'), function () { goSection('profile', true); });
     row._enter = function () { return SEC_IDX[main.sec] || 1; };
+    row._hdr = true;
     return row;
   }
 
@@ -1471,6 +1499,8 @@ img { border: 0; }
   function tickClock() {
     var d = new Date();
     $('f-time').textContent = pad(d.getHours()) + ':' + pad(d.getMinutes()) + ' ' + tzName(d);
+    $('hb-time').textContent = pad(d.getHours()) + ':' + pad(d.getMinutes());
+    $('hb-city').textContent = String((main.p && main.p.city && main.p.city.name) || CONFIG.defaultCity.name).toUpperCase();
     if (main.p) {
       $('f-profile').textContent = 'PERFIL: ' + main.p.name;
       $('hb-name').textContent = main.p.name;
@@ -1992,26 +2022,23 @@ img { border: 0; }
     return out;
   }
 
+  // Logos en blanco de cada app para la carátula; las que no tienen, llevan su nombre
+  var TAPE_LOGO = { youtube: 1, netflix: 1, prime: 1, disney: 1, spotify: 1, hbomax: 1, max: 1, internet: 1,
+    appletv: 1, filmin: 1, movistar: 1, dazn: 1, rtve: 1, plex: 1, twitch: 2 };      // 2 = logo cuadrado
   function buildTape(a) {
-    var ink = a.ink || '#ffffff', words = a.label.split(' '), L = 0, i;
-    if (words.length > 2) words = [words[0], words.slice(1).join(' ')];
+    var txt = a.all ? 'Todas las apps' : a.qvh ? '¿Qué vemos hoy?' : a.label, words = txt.split(' '), L = 0, i;
+    if (words.length > 2) words = [words.slice(0, Math.ceil(words.length / 2)).join(' '), words.slice(Math.ceil(words.length / 2)).join(' ')];
     for (i = 0; i < words.length; i++) L = Math.max(L, words[i].length);
-    var fs = Math.min(words.length > 1 ? 3.4 : 5.1, 28 / Math.max(L, 4));
+    var fs = Math.min(3.1, 25 / Math.max(L, 5)), kind = !a.all && !a.qvh && TAPE_LOGO[a.id];
     var t = el('div', 'tape');
     t.innerHTML =
-      '<div class="cass"><div class="reel l"></div><div class="win"></div><div class="reel r"></div></div>' +
       '<div class="sleeve">' +
-        '<div class="inner">' +
-          '<div class="band" style="border-color:' + ink + '"><img src="assets/logos/joi.png" alt=""><b>Home Video</b></div>' +
-          '<div class="ttl" style="color:' + ink + ';font-size:' + fs.toFixed(2) + 'vw"><span>' + esc(words[0]) + (words[1] ? '<br>' + esc(words[1]) : '') + '</span></div>' +
-          '<div class="art" style="border-color:' + rgba(ink, .7) + '">' +
-            '<div class="dots" style="background-image:radial-gradient(' + ink + ' 35%, rgba(0,0,0,0) 36%)"></div>' +
-            '<div class="big" style="color:' + ink + '">' + (a.all ? '∞' : a.qvh ? '?' : esc(initial(a.label))) + '</div>' +
-          '</div>' +
-          '<div class="foot row between"><span class="vhs" style="color:' + ink + ';border-color:' + ink + '">VHS</span>' +
-            '<span class="yr dim">JOI ©’26</span><span class="yr dim">SP·HQ</span></div>' +
-        '</div>' +
-        '<div class="wear"></div>' +
+        '<img class="tj" src="assets/logos/joi.svg" alt="">' +
+        (kind ? '<div class="tl' + (kind === 2 ? ' sq' : '') + '"><img src="assets/logos/w/' + a.id + '.svg" alt=""></div>'
+              : '<div class="tl"><div class="tt" style="font-size:' + fs.toFixed(2) + 'vw">' + esc(words[0]) + (words[1] ? '<br>' + esc(words[1]) : '') + '</div></div>') +
+        '<div class="tx">DURABLE &amp; EXCELLENT VIDEO CASSETTE<br>CASSETTE VIDEO PERFORMATE<i></i>FOR SUPERB PICTURE QUALITY<br>POUR UNE QUALITE D’IMAGE SUPERIEURE</div>' +
+        '<svg class="notch" viewBox="0 0 836 1118" preserveAspectRatio="none"><polygon points="836,640 718,726 718,952 836,1038" fill="#ffffff"/></svg>' +
+        '<div class="tv"><img src="assets/logos/vhs.svg" alt="VHS"><span>PAM SECAM</span></div>' +
         (theme.lazo ? '<div class="bow-v"></div><div class="bow-h"></div><div class="bow">✿</div>' : '') +
         (theme.textos.sello && !theme.oro ? '<div class="stamp">' + esc(theme.textos.sello) + '</div>' : '') +
         (theme.oro ? '<div class="seal"><span>' + esc(theme.textos.sello) + '</span></div>' : '') +
@@ -2157,7 +2184,7 @@ img { border: 0; }
     info.innerHTML = '';
     if (!m) {
       img.style.backgroundImage = 'none';
-      info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.png" alt=""><span>//RECOMENDATIONS</span></div><div class="empty">Cargando recomendaciones…</div>';
+      info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.svg" alt=""><span>//RECOMENDATIONS</span></div><div class="empty">Cargando recomendaciones…</div>';
       return;
     }
     hero.m = m;
@@ -2165,7 +2192,7 @@ img { border: 0; }
     // Título principal (antes de ":" o " - ") en grande y el resto como subtítulo
     var full = String(m.title || ''), cut = full.search(/:\s| - | – /), t = cut > 2 ? full.substring(0, cut) : full;
     var sub = cut > 2 ? full.substring(cut).replace(/^[:\s–-]+/, '') : '';
-    info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.png" alt=""><span>' + (m._src === 'cine' ? '//ESTRENOS' : '//RECOMENDATIONS') + '</span></div>' +
+    info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.svg" alt=""><span>' + (m._src === 'cine' ? '//ESTRENOS' : '//RECOMENDATIONS') + '</span></div>' +
       '<div class="ht' + (t.length > 13 ? ' two' : '') + '">' + esc(t) + '</div>' + (sub ? '<div class="hsub">' + esc(sub) + '</div>' : '') +
       '<div class="hp row" id="hero-pills"></div>';
     var box = $('hero-pills'), list = provList(m), i;
@@ -2208,7 +2235,7 @@ img { border: 0; }
   }
   // Logo de la plataforma en blanco dentro de la cápsula (si no carga, queda el nombre)
   function heroLogo(pill, a) {
-    var tries = ['assets/logos/plat/' + a.id + '.png'], f = a.logos && a.logos[0];   // logos en blanco (PNG)
+    var tries = ['assets/logos/w/' + a.id + '.svg'], f = a.logos && a.logos[0];   // logos en blanco (vectoriales: nítidos a cualquier tamaño)
     if (f) tries.push(/^(https?:|assets\/)/.test(f) ? f : 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f));
     (function attempt(n) {
       if (n >= tries.length) return;
@@ -2268,7 +2295,7 @@ img { border: 0; }
       t.style.zIndex = 20 - ad;
       t.style.opacity = ad > 3 ? 0 : 1;
       t.lastChild.style.opacity = 0;
-      t.firstChild.nextSibling.style.boxShadow = d === 0 && nav && nav.el === $('car') ? '0 0 0 .2vw #ffffff' : 'none';
+      t.firstChild.style.boxShadow = d === 0 && nav && nav.el === $('car') ? '0 0 0 .2vw #ffffff' : 'none';
     }
     var a = car.items[car.idx];
     if (!a) return;
