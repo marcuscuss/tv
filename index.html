@@ -224,6 +224,13 @@ img { border: 0; }
 
 /* VHS COLLECTION · logo y cintas (aparece al bajar) */
 /* El logo está escondido bajo una línea invisible y, al bajar, sube suave hasta su sitio */
+/* Fondo de videoclub ochentero detrás de las cintas: aparece al bajar (imagen fija, barata para el Fire) */
+.vc-bg { position: absolute; left: 0; right: 0; top: 50vw; height: 62vw; opacity: 0; background: #000000 url(assets/fx/videoclub.jpg) center 30% / cover no-repeat;
+  -webkit-transition: opacity 1.2s ease .1s; transition: opacity 1.2s ease .1s; }
+.vc-sh { position: absolute; left: 0; top: 0; width: 100%; height: 100%;
+  background-image: linear-gradient(180deg, #000000 0%, rgba(0,0,0,.55) 18%, rgba(0,0,0,.42) 50%, rgba(0,0,0,.6) 82%, #000000 100%); }
+#sec-apps.away .vc-bg { opacity: 1; }
+.fire .vc-bg { will-change: opacity, transform; }
 .coll-head { position: relative; height: 7.9vw; margin-top: 2vw; text-align: center; overflow: hidden; }
 .coll-head img { height: 7.5vw; display: inline-block; margin-left: 4.4vw; opacity: 0;
   -webkit-transform: translateY(105%); transform: translateY(105%);
@@ -243,8 +250,9 @@ img { border: 0; }
 .tape .tl { position: absolute; left: 12.5%; right: 4.8%; top: 39%; height: 15%;
   display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center;
   -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; }
-.tape .tl img { display: block; max-width: 100%; max-height: 100%; }
-.tape .tl.sq { left: 30%; right: 22%; top: 36%; height: 21%; }
+.tape .tl img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.tape .tl.sq { left: 32%; right: 22%; top: 35%; height: 22%; }
+.tape .tl.tw { left: 8%; right: 8%; top: 29%; height: 28%; }
 .tape .tt { width: 100%; text-align: center; color: #ffffff; text-transform: uppercase; white-space: nowrap;
   font-family: "tt-travels-next", Georgia, serif; font-weight: 900; line-height: .98; letter-spacing: .02em; }
 .tape .tx { position: absolute; right: 22.7%; top: 62%; text-align: right; white-space: nowrap; color: #ffffff;
@@ -705,6 +713,7 @@ img { border: 0; }
 
     <!-- APPS -->
     <section id="sec-apps" class="sec">
+      <div class="vc-bg" id="vc-bg"><div class="vc-sh"></div></div>
       <div id="hero">
         <div class="hi" id="hero-img"></div><div class="g1"></div><div class="g2"></div>
         <div class="info" id="hero-info"></div>
@@ -2002,15 +2011,14 @@ img { border: 0; }
     appletv: 1, filmin: 1, movistar: 1, dazn: 1, rtve: 1, plex: 1, twitch: 2 };      // 2 = logo cuadrado
   function buildTape(a) {
     var txt = a.all ? 'Todas las apps' : a.qvh ? '¿Qué vemos hoy?' : a.label, words = txt.split(' '), L = 0, i;
-    if (words.length > 2) words = [words.slice(0, Math.ceil(words.length / 2)).join(' '), words.slice(Math.ceil(words.length / 2)).join(' ')];
     for (i = 0; i < words.length; i++) L = Math.max(L, words[i].length);
-    var fs = Math.min(2.9, 21 / Math.max(L, 5)), kind = !a.all && !a.qvh && TAPE_LOGO[a.id];
+    var fs = Math.min(2.8, 15 / Math.max(L, 4)), kind = !a.all && !a.qvh && TAPE_LOGO[a.id];
     var t = el('div', 'tape');
     t.innerHTML =
       '<div class="sleeve">' +
         '<img class="tj" src="assets/logos/joi.svg" alt="">' +
         (kind ? '<div class="tl' + (kind === 2 ? ' sq' : '') + '"><img src="assets/logos/w/' + a.id + '.svg" alt=""></div>'
-              : '<div class="tl"><div class="tt" style="font-size:' + fs.toFixed(2) + 'vw">' + esc(words[0]) + (words[1] ? '<br>' + esc(words[1]) : '') + '</div></div>') +
+              : '<div class="tl tw"><div class="tt" style="font-size:' + fs.toFixed(2) + 'vw">' + words.map(esc).join('<br>') + '</div></div>') +
         '<div class="tx">DURABLE &amp; EXCELLENT VIDEO CASSETTE<br>CASSETTE VIDEO PERFORMATE<i></i>FOR SUPERB PICTURE QUALITY<br>POUR UNE QUALITE D’IMAGE SUPERIEURE</div>' +
         '<svg class="notch" viewBox="0 0 836 1118" preserveAspectRatio="none"><polygon points="836,640 718,726 718,952 836,1038" fill="#ffffff"/></svg>' +
         '<div class="tv"><img src="assets/logos/vhs.svg" alt="VHS"><span>PAM SECAM</span></div>' +
@@ -2027,6 +2035,19 @@ img { border: 0; }
     return t;
   }
 
+  function fitTape(t) {
+    var tt = t.querySelector('.tt'), n = 0;
+    if (!tt) return;
+    var box = tt.parentNode, fs = parseFloat(tt.style.fontSize);
+    while (n++ < 30 && fs > .6 && (tt.scrollWidth > box.clientWidth || tt.offsetHeight > box.clientHeight)) {
+      fs *= .93;
+      tt.style.fontSize = fs.toFixed(2) + 'vw';
+    }
+  }
+  // La fuente de Adobe llega más tarde: se vuelve a encajar cuando ya está
+  function refitTapes() { for (var i = 0; i < car.tapes.length; i++) fitTape(car.tapes[i]); }
+  window.addEventListener('load', refitTapes);
+  setTimeout(refitTapes, 3000);
   function renderApps() {
     var p = main.p, box = $('tapes'), i;
     car.items = visibleApps(p);
@@ -2038,6 +2059,7 @@ img { border: 0; }
       var t = buildTape(car.items[i]);
       box.appendChild(t);
       car.tapes.push(t);
+      fitTape(t);
     }
     car.idx = Math.max(0, Math.min(car.items.length - 1, car.idx));
     appsScroll(0, 0);
