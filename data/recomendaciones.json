@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T21:32:06.388Z",
+ "actualizado": "2026-10-24T04:49:07.571Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -578,24 +578,27 @@
      "trailer": "4BImDtyAIA0"
     },
     {
-     "id": 453395,
-     "title": "Doctor Strange en el multiverso de la locura",
-     "year": "2022",
-     "release_date": "2022-05-04",
-     "overview": "Viaja a lo desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para enfrentarse a un nuevo y misterioso adversario.",
-     "vote_average": 7.2,
+     "id": 1452,
+     "title": "Superman Returns",
+     "year": "2006",
+     "release_date": "2006-06-28",
+     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
+     "vote_average": 5.8,
      "genres": [
-      "Fantasía",
+      "Ciencia ficción",
       "Acción",
       "Aventura"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/1w3MlLZPqr2Pm5loQ9h2gJwenMr.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
      "providers": [
-      "Disney Plus"
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads"
      ],
-     "trailer": "LZbQJVO1Dk8"
+     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -3716,6 +3719,26 @@
     "trailer": "Y2u6m2W428g"
    },
    {
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
+    "genres": [
+     "Comedia",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "AKlhYZ-HqKs"
+   },
+   {
     "id": 5994,
     "title": "Family Man",
     "year": "2000",
@@ -3740,26 +3763,6 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "Hzw-p2PfBeU"
-   },
-   {
-    "id": 9489,
-    "title": "Tienes un e-mail",
-    "year": "1998",
-    "release_date": "1998-12-18",
-    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "AKlhYZ-HqKs"
    },
    {
     "id": 8871,
