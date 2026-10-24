@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T16:05:58.177Z",
+ "actualizado": "2026-10-24T20:59:21.613Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -1823,23 +1823,6 @@
      "trailer": "D3oC17nILkw"
     },
     {
-     "id": 37793,
-     "title": "Ghosts",
-     "year": "1997",
-     "release_date": "1997-09-04",
-     "overview": "Un extraño hombre vive en una misteriosa mansión en una colina que el pueblo cree encantada. Un día, el alcalde del lugar con los pueblerinos decide afrontar sus miedos visitando el tenebroso lugar.",
-     "vote_average": 8.1,
-     "genres": [
-      "Música",
-      "Terror"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/aLMS2GWnJwkAADd8Dnl2dK1eg13.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
-     "providers": [],
-     "trailer": "7vqAKLP4igQ"
-    },
-    {
      "id": 1375646,
      "title": "Colony",
      "year": "2026",
@@ -1856,6 +1839,23 @@
      "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "providers": [],
      "trailer": "LW6dpj1uCK8"
+    },
+    {
+     "id": 37793,
+     "title": "Ghosts",
+     "year": "1997",
+     "release_date": "1997-09-04",
+     "overview": "Un extraño hombre vive en una misteriosa mansión en una colina que el pueblo cree encantada. Un día, el alcalde del lugar con los pueblerinos decide afrontar sus miedos visitando el tenebroso lugar.",
+     "vote_average": 8.1,
+     "genres": [
+      "Música",
+      "Terror"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aLMS2GWnJwkAADd8Dnl2dK1eg13.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mYi8ZYtHaoEBSJU8pbOAjfATUtF.jpg",
+     "providers": [],
+     "trailer": "7vqAKLP4igQ"
     },
     {
      "id": 1091,

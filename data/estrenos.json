@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T16:05:25.745Z",
+ "actualizado": "2026-10-24T20:58:53.640Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -387,7 +387,7 @@
    "title": "Aniquilación",
    "release_date": "2026-10-30",
    "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.7,
+   "vote_average": 5.6,
    "genres": [
     "Acción",
     "Terror",
@@ -454,7 +454,7 @@
    "title": "La Oveja Shaun: Misión Calabaza",
    "release_date": "2026-10-30",
    "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.5,
+   "vote_average": 7.4,
    "genres": [
     "Animación",
     "Ciencia ficción",
@@ -605,10 +605,10 @@
     "Aventura"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/f5Lq2ndFETM1V5RNmFhpl2FKrHL.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/f5Lq2ndFETM1V5RNmFhpl2FKrHL.jpg"
   },
   {
    "id": 1117898,
