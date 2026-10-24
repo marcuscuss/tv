@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T11:17:41.414Z",
+ "actualizado": "2026-10-24T16:05:58.177Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -345,7 +345,8 @@
      "fondo": "https://image.tmdb.org/t/p/original/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg",
      "providers": [
       "Netflix",
-      "Disney Plus"
+      "Disney Plus",
+      "Tivify"
      ],
      "trailer": "oMpJJ6GMj68"
     },
@@ -798,7 +799,10 @@
      "poster": "https://image.tmdb.org/t/p/w342/tepSMfphoTvHb3csDNV22lON6kK.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/7xbAPWP9utLRecydyFSBaQ0PYGZ.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/7xbAPWP9utLRecydyFSBaQ0PYGZ.jpg",
-     "providers": [],
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
      "trailer": "UdBBjFQYzwA"
     },
     {
@@ -3044,9 +3048,7 @@
      "poster": "https://image.tmdb.org/t/p/w342/oiqKEhEfxl9knzWXvWecJKN3aj6.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-     "providers": [
-      "Tivify"
-     ],
+     "providers": [],
      "trailer": "aSEPD9w_dLM"
     },
     {
@@ -3594,26 +3596,6 @@
     "trailer": "RcER0_lZ2F4"
    },
    {
-    "id": 772,
-    "title": "Solo en casa 2: Perdido en Nueva York",
-    "year": "1992",
-    "release_date": "1992-11-15",
-    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Familia",
-     "Aventura"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "VfBCYaGu7Ts"
-   },
-   {
     "id": 331482,
     "title": "Mujercitas",
     "year": "2019",
@@ -3635,25 +3617,24 @@
     "trailer": "6SN9-6uST80"
    },
    {
-    "id": 364,
-    "title": "Batman vuelve",
+    "id": 772,
+    "title": "Solo en casa 2: Perdido en Nueva York",
     "year": "1992",
-    "release_date": "1992-06-19",
-    "overview": "Gotham City se enfrenta a dos nuevos y peculiares criminales: el diabólico y siniestro Pingüino, una criatura solitaria y extrañamente deformada, y la hermosa y seductora -aunque letalmente peligrosa- Catwoman. Batman se deberá enfrentar a Pingüino, que quiere convertirse en el amo de la ciudad.",
-    "vote_average": 7,
+    "release_date": "1992-11-15",
+    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
+    "vote_average": 6.8,
     "genres": [
-     "Acción",
-     "Fantasía"
+     "Comedia",
+     "Familia",
+     "Aventura"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/i5xLIx2vkisiLPQqaeI3uiSaG1b.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/7x4SNxO5HWArighxxFeet5sn3il.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
     "providers": [
-     "Movistar Plus+ Ficción Total ",
-     "HBO Max",
-     "HBO Max Amazon Channel"
+     "Disney Plus"
     ],
-    "trailer": "Or9AB6Gnruc"
+    "trailer": "VfBCYaGu7Ts"
    },
    {
     "id": 81188,
@@ -3718,6 +3699,27 @@
      "AMC Channels Amazon Channel"
     ],
     "trailer": "Y2u6m2W428g"
+   },
+   {
+    "id": 364,
+    "title": "Batman vuelve",
+    "year": "1992",
+    "release_date": "1992-06-19",
+    "overview": "Gotham City se enfrenta a dos nuevos y peculiares criminales: el diabólico y siniestro Pingüino, una criatura solitaria y extrañamente deformada, y la hermosa y seductora -aunque letalmente peligrosa- Catwoman. Batman se deberá enfrentar a Pingüino, que quiere convertirse en el amo de la ciudad.",
+    "vote_average": 7,
+    "genres": [
+     "Acción",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/i5xLIx2vkisiLPQqaeI3uiSaG1b.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+    "providers": [
+     "Movistar Plus+ Ficción Total ",
+     "HBO Max",
+     "HBO Max Amazon Channel"
+    ],
+    "trailer": "Or9AB6Gnruc"
    },
    {
     "id": 9489,
@@ -3969,9 +3971,7 @@
     "poster": "https://image.tmdb.org/t/p/w342/oiqKEhEfxl9knzWXvWecJKN3aj6.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
     "fondo": "https://image.tmdb.org/t/p/original/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-    "providers": [
-     "Tivify"
-    ],
+    "providers": [],
     "trailer": "aSEPD9w_dLM"
    },
    {
@@ -4234,9 +4234,7 @@
    "fondo": "https://image.tmdb.org/t/p/original/8VyTWJrNEyV2MTWvniDVp0MpOAe.jpg",
    "providers": [
     "Movistar Plus+",
-    "Movistar Plus+ Ficción Total ",
-    "HBO Max",
-    "HBO Max Amazon Channel"
+    "Movistar Plus+ Ficción Total "
    ],
    "trailer": "lZyASo3yaTA",
    "rating": 3.5,
