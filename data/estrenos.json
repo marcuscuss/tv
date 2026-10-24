@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T04:48:35.946Z",
+ "actualizado": "2026-10-24T11:17:12.386Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -22,7 +22,7 @@
    "title": "Street Fighter",
    "release_date": "2026-10-16",
    "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.3,
+   "vote_average": 6.4,
    "genres": [
     "Acción",
     "Fantasía"
@@ -72,7 +72,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.8,
+   "vote_average": 5.9,
    "genres": [
     "Terror"
    ],
@@ -102,7 +102,7 @@
    "title": "Operación Teherán",
    "release_date": "2026-09-18",
    "overview": "Tras el final de la guerra en Afganistán, un grupo de exoperadores de la CIA se han quedado marcados por la violencia, el abandono y la culpa. Sin patria ni propósitos a corto plazo, aceptan una última misión y viajan a Teherán para llevar a cabo un golpe arriesgado e ilegal que podría ser su opción para perdonarse a sí mismos o para acabar del todo. Mientras el pasado los persigue y la desconfianza entre ellos va en aumento, la operación se transforma en una prueba moral en la que tendrán que decidir si ser soldados obedientes o son hombres dispuestos a recuperar el control de sus vidas.",
-   "vote_average": 6.5,
+   "vote_average": 6.4,
    "genres": [
     "Acción",
     "Suspense"
@@ -199,7 +199,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.3,
+   "vote_average": 8.4,
    "genres": [
     "Animación",
     "Aventura",
@@ -256,7 +256,7 @@
     "Drama",
     "Bélica"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/t1azKLExwUxKj6v6m2L535evuRa.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
    "providers": [],
    "trailer": "9NNU-vSeOB0",
@@ -296,23 +296,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
-   "id": 1122573,
-   "title": "En la zona gris",
-   "release_date": "2026-09-18",
-   "overview": "Un equipo encubierto de agentes de élite viven en la sombra, tan cómodos manejando el poder y la influencia como armas automáticas y explosivos de gran potencia. Cuando un déspota roba una fortuna de mil millones de dólares, son enviados a recuperarla en lo que para cualquier otro sería una misión suicida. Lo que comienza como un atraco imposible empeora aún más y se convierte en una guerra total de estrategia, engaño y supervivencia.",
-   "vote_average": 7.5,
-   "genres": [
-    "Acción",
-    "Suspense",
-    "Crimen"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/kQik7Yfcs3O8dCBpIUGSdXOMOnQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
-   "providers": [],
-   "trailer": "Unsa8AcHo0A",
-   "fondo": "https://image.tmdb.org/t/p/original/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg"
-  },
-  {
    "id": 950028,
    "title": "La invitación",
    "release_date": "2026-10-16",
@@ -328,6 +311,23 @@
    "providers": [],
    "trailer": "nelkiuezJxg",
    "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
+  },
+  {
+   "id": 1122573,
+   "title": "En la zona gris",
+   "release_date": "2026-09-18",
+   "overview": "Un equipo encubierto de agentes de élite viven en la sombra, tan cómodos manejando el poder y la influencia como armas automáticas y explosivos de gran potencia. Cuando un déspota roba una fortuna de mil millones de dólares, son enviados a recuperarla en lo que para cualquier otro sería una misión suicida. Lo que comienza como un atraco imposible empeora aún más y se convierte en una guerra total de estrategia, engaño y supervivencia.",
+   "vote_average": 7.5,
+   "genres": [
+    "Acción",
+    "Suspense",
+    "Crimen"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/kQik7Yfcs3O8dCBpIUGSdXOMOnQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+   "providers": [],
+   "trailer": "Unsa8AcHo0A",
+   "fondo": "https://image.tmdb.org/t/p/original/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg"
   }
  ],
  "upcoming": [
@@ -371,7 +371,7 @@
    "title": "Klara y el Sol",
    "release_date": "2026-10-30",
    "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
-   "vote_average": 6.2,
+   "vote_average": 6.3,
    "genres": [
     "Ciencia ficción",
     "Drama"
@@ -454,7 +454,7 @@
    "title": "La Oveja Shaun: Misión Calabaza",
    "release_date": "2026-10-30",
    "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.4,
+   "vote_average": 7.5,
    "genres": [
     "Animación",
     "Ciencia ficción",
@@ -605,10 +605,10 @@
     "Aventura"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ks72NqTPhpupk207NXiqmZIQQVI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
   },
   {
    "id": 1117898,
