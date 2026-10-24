@@ -138,7 +138,7 @@ img { border: 0; }
 #h-sport { width: 6.75vw; margin-right: 1.2vw; }
 .hnav.active { background-color: rgba(255,255,255,.18); }
 .hb-clock { width: 5.6vw; }
-.hb-time { font-family: "tt-travels-next", Georgia, serif; font-weight: 500; font-size: 1.45vw; line-height: 1; letter-spacing: .02em; }
+.hb-time { font-family: "tt-travels-next", Georgia, serif; font-weight: 400; font-size: 1.45vw; line-height: 1; letter-spacing: .02em; }
 .hb-city { margin-top: .2vw; font-size: .3vw; letter-spacing: .06em; line-height: 1; font-family: "pt-mono", "Courier New", monospace; }
 .hb-user { width: 3.1vw; height: 3vw; margin-left: .55vw; border-radius: .35vw; background-color: #ffffff; cursor: pointer;
   text-align: center; overflow: hidden; }
@@ -207,11 +207,10 @@ img { border: 0; }
 #hero .hk { -webkit-align-items: flex-end; align-items: flex-end; height: 1.3vw; }
 #hero .hk img { height: 1.25vw; display: block; margin-right: .65vw; }
 #hero .hk span { font-size: .9vw; letter-spacing: .02em; font-family: "pt-mono", "Courier New", monospace; line-height: 1; }
-#hero .ht { margin: .9vw 0 0 -.3vw; max-width: 80vw; font-family: "tt-travels-next", Georgia, serif; font-weight: 500;
+#hero .ht { margin: .9vw 0 0 -.3vw; max-width: 80vw; font-family: "tt-travels-next", Georgia, serif; font-weight: 900;
   font-size: 7vw; line-height: .98; letter-spacing: .02em; text-transform: uppercase; color: #ffffff; overflow: hidden; max-height: 7.1vw;
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1; }
 #hero .ht.two { max-height: 14vw; -webkit-line-clamp: 2; }
-.nomed #hero .ht, .nomed .tape .tt, .nomed .det-title, .nomed .hb-time { -webkit-text-stroke: .022em currentColor; }
 #hero .hsub { margin: .4vw 0 0; font-size: .95vw; letter-spacing: .08em; text-transform: uppercase; font-family: "pt-mono", "Courier New", monospace; }
 #hero .hp { margin-top: 1.7vw; }
 #hero .hp .pill { -webkit-justify-content: center; justify-content: center; min-width: 6.6vw; height: 2.6vw; margin-right: .5vw; padding: 0 .9vw;
@@ -247,7 +246,7 @@ img { border: 0; }
 .tape .tl img { display: block; max-width: 100%; max-height: 100%; }
 .tape .tl.sq { left: 30%; right: 22%; top: 36%; height: 21%; }
 .tape .tt { width: 100%; text-align: center; color: #ffffff; text-transform: uppercase; white-space: nowrap;
-  font-family: "tt-travels-next", Georgia, serif; font-weight: 500; line-height: .98; letter-spacing: .02em; }
+  font-family: "tt-travels-next", Georgia, serif; font-weight: 900; line-height: .98; letter-spacing: .02em; }
 .tape .tx { position: absolute; right: 22.7%; top: 62%; text-align: right; white-space: nowrap; color: #ffffff;
   font-family: "pt-mono", "Courier New", monospace; font-size: .4vw; line-height: 1.32; letter-spacing: .02em; }
 .tape .tx i { display: block; height: .55vw; }
@@ -351,7 +350,7 @@ img { border: 0; }
 .det-meta .cell { display: inline-block; vertical-align: top; margin: 0 3.6vw 1.4vw 0; font-size: .85vw; letter-spacing: .1em; font-style: italic; }
 .det-meta .k { display: block; margin-bottom: .35vw; }
 .det-title { font-size: 3.6vw; line-height: .98; letter-spacing: .02em; text-transform: uppercase; margin: 2.2vw 0 1.6vw;
-  font-family: "tt-travels-next", Georgia, serif; font-weight: 500; }
+  font-family: "tt-travels-next", Georgia, serif; font-weight: 900; }
 .det-title i { font-style: italic; }
 .det-text { font-size: .95vw; line-height: 1.55; letter-spacing: .04em; max-height: 11vw; overflow: hidden; }
 .det-hint { margin-top: .6vw; font-size: .8vw; letter-spacing: .2em; }
@@ -1001,30 +1000,6 @@ img { border: 0; }
   })();
   if (FIRE) document.documentElement.className += ' fire';
 
-  // Los títulos van en TT Travels Next Medium (500). Si el kit de Adobe Fonts no trae ese grosor,
-  // el navegador pinta la Regular (400): se nota porque miden igual. Entonces se engorda el trazo
-  // un pelo (clase "nomed") para igualar la Medium. En cuanto el kit la incluya, se quita sola.
-  function checkMedium() {
-    var probe = document.createElement('div'), w = [], i;
-    probe.style.cssText = 'position:absolute;left:-9999px;top:0;visibility:hidden;white-space:nowrap;font-size:100px;font-family:"tt-travels-next",Georgia,serif';
-    for (i = 0; i < 3; i++) {
-      var sp = document.createElement('span');
-      sp.style.fontWeight = [400, 500, 700][i];
-      sp.textContent = 'TIERRAS PERDIDAS DUNE';
-      probe.appendChild(sp);
-      probe.appendChild(document.createElement('br'));
-    }
-    document.body.appendChild(probe);
-    for (i = 0; i < 3; i++) w.push(probe.childNodes[i * 2].offsetWidth);
-    document.body.removeChild(probe);
-    if (w[0] === w[2]) return;                         // la fuente aún no ha cargado: no se decide
-    var el0 = document.documentElement;
-    if (w[0] === w[1]) { if (!/\bnomed\b/.test(el0.className)) el0.className += ' nomed'; }
-    else el0.className = el0.className.replace(/\s*\bnomed\b/g, '');
-  }
-  setTimeout(checkMedium, 1500);
-  setTimeout(checkMedium, 5000);
-  window.addEventListener('load', checkMedium);
   var STORE_KEY = 'joi.v1';
   var BACK_KEYS = [8, 27, 461, 10009];
   var DAYS = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB'];
@@ -2029,7 +2004,7 @@ img { border: 0; }
     var txt = a.all ? 'Todas las apps' : a.qvh ? '¿Qué vemos hoy?' : a.label, words = txt.split(' '), L = 0, i;
     if (words.length > 2) words = [words.slice(0, Math.ceil(words.length / 2)).join(' '), words.slice(Math.ceil(words.length / 2)).join(' ')];
     for (i = 0; i < words.length; i++) L = Math.max(L, words[i].length);
-    var fs = Math.min(3.1, 25 / Math.max(L, 5)), kind = !a.all && !a.qvh && TAPE_LOGO[a.id];
+    var fs = Math.min(2.9, 21 / Math.max(L, 5)), kind = !a.all && !a.qvh && TAPE_LOGO[a.id];
     var t = el('div', 'tape');
     t.innerHTML =
       '<div class="sleeve">' +
@@ -2193,7 +2168,7 @@ img { border: 0; }
     var full = String(m.title || ''), cut = full.search(/:\s| - | – /), t = cut > 2 ? full.substring(0, cut) : full;
     var sub = cut > 2 ? full.substring(cut).replace(/^[:\s–-]+/, '') : '';
     info.innerHTML = '<div class="hk row"><img src="assets/logos/joi.svg" alt=""><span>' + (m._src === 'cine' ? '//ESTRENOS' : '//RECOMENDATIONS') + '</span></div>' +
-      '<div class="ht' + (t.length > 13 ? ' two' : '') + '">' + esc(t) + '</div>' + (sub ? '<div class="hsub">' + esc(sub) + '</div>' : '') +
+      '<div class="ht' + (t.length > 11 ? ' two' : '') + '">' + esc(t) + '</div>' + (sub ? '<div class="hsub">' + esc(sub) + '</div>' : '') +
       '<div class="hp row" id="hero-pills"></div>';
     var box = $('hero-pills'), list = provList(m), i;
     if (m._src === 'cine' && !list.length) {
