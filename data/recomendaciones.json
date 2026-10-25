@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T11:47:11.298Z",
+ "actualizado": "2026-10-25T16:35:27.987Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -354,26 +354,6 @@
      "trailer": "oMpJJ6GMj68"
     },
     {
-     "id": 640146,
-     "title": "Ant-Man y la Avispa: Quantumanía",
-     "year": "2023",
-     "release_date": "2023-02-15",
-     "overview": "La pareja de superhéroes Scott Lang y Hope van Dyne regresa para continuar sus aventuras como Ant-Man y la Avispa. Los dos, junto a los padres de Hope, Hank Pym y Janet van Dyne y la hija de Scott, Cassie Lang, se dedican a explorar el Mundo Cuántico, interactuando con nuevas y extrañas criaturas y embarcándose en una aventura que les llevará más allá de los límites de lo que creían posible.",
-     "vote_average": 6.2,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/lKHy0ntGPdQeFwvNq8gK1D0anEr.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "G4ZV8qfskfA"
-    },
-    {
      "id": 271110,
      "title": "Capitán América: Civil War",
      "year": "2016",
@@ -392,6 +372,28 @@
       "Disney Plus"
      ],
      "trailer": "6aWYmFCRsEI"
+    },
+    {
+     "id": 580489,
+     "title": "Venom: habrá matanza",
+     "year": "2021",
+     "release_date": "2021-09-30",
+     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+     "vote_average": 6.7,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "hbfadtw-fjs"
     },
     {
      "id": 298618,
@@ -1347,6 +1349,7 @@
      "fondo": "https://image.tmdb.org/t/p/original/5qNhPotZXSVh00Mo2Z954tYXFXg.jpg",
      "providers": [
       "Amazon Prime Video",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "wQs35Rka34A"
@@ -3123,7 +3126,7 @@
      "year": "2026",
      "release_date": "2026-09-07",
      "overview": "Un exsoldado se ve envuelto en una brutal carrera contrarreloj cuando una entrega médica crucial los convierte, a él y a su inesperada compañera, en el objetivo de un cártel despiadado. A medida que la misión se transforma en una cacería mortal, cada desvío, retraso y bala los acerca más al fracaso. Acosados ​​por la traición desde todos los frentes, deberán sobrevivir a la persecución y entregar su carga para salvar la vida de una niña.",
-     "vote_average": 8.4,
+     "vote_average": 8.3,
      "genres": [
       "Acción",
       "Comedia"
@@ -4245,8 +4248,10 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/8VyTWJrNEyV2MTWvniDVp0MpOAe.jpg",
    "fondo": "https://image.tmdb.org/t/p/original/8VyTWJrNEyV2MTWvniDVp0MpOAe.jpg",
    "providers": [
+    "Netflix",
     "Movistar Plus+",
-    "Movistar Plus+ Ficción Total "
+    "Movistar Plus+ Ficción Total ",
+    "Netflix Standard with Ads"
    ],
    "trailer": "lZyASo3yaTA",
    "rating": 3.5,
