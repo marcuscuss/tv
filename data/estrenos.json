@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T11:46:56.470Z",
+ "actualizado": "2026-10-25T20:58:51.162Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -55,7 +55,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.9,
+   "vote_average": 5.8,
    "genres": [
     "Terror"
    ],

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T16:35:27.987Z",
+ "actualizado": "2026-10-25T20:59:12.856Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -326,7 +326,6 @@
       "Disney Plus",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
-      "Tivify",
       "HBO Max Amazon Channel"
      ],
      "trailer": "Df00ZNYEcAY"
@@ -564,6 +563,26 @@
      "trailer": "4BImDtyAIA0"
     },
     {
+     "id": 453395,
+     "title": "Doctor Strange en el multiverso de la locura",
+     "year": "2022",
+     "release_date": "2022-05-04",
+     "overview": "Viaja a lo desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para enfrentarse a un nuevo y misterioso adversario.",
+     "vote_average": 7.2,
+     "genres": [
+      "Fantasía",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/1w3MlLZPqr2Pm5loQ9h2gJwenMr.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg",
+     "providers": [
+      "Disney Plus"
+     ],
+     "trailer": "LZbQJVO1Dk8"
+    },
+    {
      "id": 1452,
      "title": "Superman Returns",
      "year": "2006",
@@ -585,26 +604,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "zVCozSQj8TQ"
-    },
-    {
-     "id": 453395,
-     "title": "Doctor Strange en el multiverso de la locura",
-     "year": "2022",
-     "release_date": "2022-05-04",
-     "overview": "Viaja a lo desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para enfrentarse a un nuevo y misterioso adversario.",
-     "vote_average": 7.2,
-     "genres": [
-      "Fantasía",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1w3MlLZPqr2Pm5loQ9h2gJwenMr.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "LZbQJVO1Dk8"
     }
    ]
   },
@@ -3588,26 +3587,24 @@
     "trailer": "XXxC0Geijzs"
    },
    {
-    "id": 845781,
-    "title": "Red One",
-    "year": "2024",
-    "release_date": "2024-10-31",
-    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
-    "vote_average": 6.9,
+    "id": 772,
+    "title": "Solo en casa 2: Perdido en Nueva York",
+    "year": "1992",
+    "release_date": "1992-11-15",
+    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
+    "vote_average": 6.8,
     "genres": [
-     "Acción",
-     "Aventura",
      "Comedia",
-     "Fantasía"
+     "Familia",
+     "Aventura"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
     "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
+     "Disney Plus"
     ],
-    "trailer": "RcER0_lZ2F4"
+    "trailer": "VfBCYaGu7Ts"
    },
    {
     "id": 331482,
@@ -3631,44 +3628,46 @@
     "trailer": "6SN9-6uST80"
    },
    {
-    "id": 772,
-    "title": "Solo en casa 2: Perdido en Nueva York",
-    "year": "1992",
-    "release_date": "1992-11-15",
-    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Familia",
-     "Aventura"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "VfBCYaGu7Ts"
-   },
-   {
-    "id": 81188,
-    "title": "El origen de los guardianes",
-    "year": "2012",
-    "release_date": "2012-11-21",
-    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
-    "vote_average": 7.4,
+    "id": 845781,
+    "title": "Red One",
+    "year": "2024",
+    "release_date": "2024-10-31",
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "vote_average": 6.9,
     "genres": [
      "Acción",
      "Aventura",
-     "Animación",
-     "Familia",
+     "Comedia",
      "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "providers": [],
-    "trailer": "e4bdD8owgDU"
+    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "RcER0_lZ2F4"
+   },
+   {
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.8,
+    "genres": [
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
+    ],
+    "trailer": "Y2u6m2W428g"
    },
    {
     "id": 360920,
@@ -3695,68 +3694,6 @@
     "trailer": "_UOh0UX3alI"
    },
    {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.8,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
-   },
-   {
-    "id": 364,
-    "title": "Batman vuelve",
-    "year": "1992",
-    "release_date": "1992-06-19",
-    "overview": "Gotham City se enfrenta a dos nuevos y peculiares criminales: el diabólico y siniestro Pingüino, una criatura solitaria y extrañamente deformada, y la hermosa y seductora -aunque letalmente peligrosa- Catwoman. Batman se deberá enfrentar a Pingüino, que quiere convertirse en el amo de la ciudad.",
-    "vote_average": 7,
-    "genres": [
-     "Acción",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/i5xLIx2vkisiLPQqaeI3uiSaG1b.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/7x4SNxO5HWArighxxFeet5sn3il.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/7x4SNxO5HWArighxxFeet5sn3il.jpg",
-    "providers": [
-     "Movistar Plus+ Ficción Total ",
-     "HBO Max",
-     "HBO Max Amazon Channel"
-    ],
-    "trailer": "Or9AB6Gnruc"
-   },
-   {
-    "id": 9489,
-    "title": "Tienes un e-mail",
-    "year": "1998",
-    "release_date": "1998-12-18",
-    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Tivify",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "AKlhYZ-HqKs"
-   },
-   {
     "id": 5994,
     "title": "Family Man",
     "year": "2000",
@@ -3780,6 +3717,84 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "Hzw-p2PfBeU"
+   },
+   {
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
+    "genres": [
+     "Comedia",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Tivify",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "AKlhYZ-HqKs"
+   },
+   {
+    "id": 81188,
+    "title": "El origen de los guardianes",
+    "year": "2012",
+    "release_date": "2012-11-21",
+    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
+    "vote_average": 7.4,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Animación",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "providers": [],
+    "trailer": "e4bdD8owgDU"
+   },
+   {
+    "id": 1621,
+    "title": "Entre pillos anda el juego",
+    "year": "1983",
+    "release_date": "1983-06-07",
+    "overview": "Dos hombres de negocios sostienen distintas tesis sobre las condiciones de la naturaleza humana. Para uno es cuestión de genética, para el otro es cuestión de educación. Para corroborar sus teorías hacen una apuesta para lo cual cambian los destinos de dos personas socialmente antagónicas.",
+    "vote_average": 7.2,
+    "genres": [
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/bwmqcucVleqUTKUKw7K3hlvUGKC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
+    "providers": [],
+    "trailer": "rxz036jbrmI"
+   },
+   {
+    "id": 364,
+    "title": "Batman vuelve",
+    "year": "1992",
+    "release_date": "1992-06-19",
+    "overview": "Gotham City se enfrenta a dos nuevos y peculiares criminales: el diabólico y siniestro Pingüino, una criatura solitaria y extrañamente deformada, y la hermosa y seductora -aunque letalmente peligrosa- Catwoman. Batman se deberá enfrentar a Pingüino, que quiere convertirse en el amo de la ciudad.",
+    "vote_average": 7,
+    "genres": [
+     "Acción",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/i5xLIx2vkisiLPQqaeI3uiSaG1b.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+    "providers": [
+     "Movistar Plus+ Ficción Total ",
+     "HBO Max",
+     "HBO Max Amazon Channel"
+    ],
+    "trailer": "Or9AB6Gnruc"
    },
    {
     "id": 8871,
@@ -3821,31 +3836,6 @@
      "Filmin"
     ],
     "trailer": "iLR3gZrU2Xo"
-   },
-   {
-    "id": 5255,
-    "title": "Polar Express",
-    "year": "2004",
-    "release_date": "2004-11-10",
-    "overview": "Esta es la historia de un jovencito en la víspera de Navidad quien aborda un poderoso y mágico tren que se dirige al hogar de Papá Noel, en el Polo Norte. Lo que se desarrolla es una aventura que sigue al dubitativo niño, quien toma un tren extraordinario al Polo Norte; durante este viaje, se embarca en una experiencia de autodescubrimiento que le muestra que las maravillas de la vida nunca se desvanecen para quienes creen.",
-    "vote_average": 6.7,
-    "genres": [
-     "Aventura",
-     "Animación",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+ Ficción Total ",
-     "HBO Max",
-     "Amazon Prime Video with Ads",
-     "HBO Max Amazon Channel"
-    ],
-    "trailer": "4XkHPphBN_Q"
    }
   ],
   "romance": [
