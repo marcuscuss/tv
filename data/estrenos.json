@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T04:56:49.062Z",
+ "actualizado": "2026-10-25T11:46:56.470Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -55,7 +55,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.8,
+   "vote_average": 5.9,
    "genres": [
     "Terror"
    ],
@@ -118,7 +118,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.7,
+   "vote_average": 8.8,
    "genres": [
     "Animación",
     "Aventura",
@@ -363,23 +363,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg",
    "providers": [],
    "trailer": "OFaJzL83y0Q",
-   "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
-  },
-  {
-   "id": 858035,
-   "title": "Klara y el Sol",
-   "release_date": "2026-10-30",
-   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
-   "vote_average": 6.3,
-   "genres": [
-    "Ciencia ficción",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
-   "providers": [],
-   "trailer": "v-Gy7zfOqAg",
-   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg"
   },
   {
    "id": 1284046,
@@ -397,6 +381,22 @@
    "providers": [],
    "trailer": "AMLCbpM1fRQ",
    "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
+  },
+  {
+   "id": 858035,
+   "title": "Klara y el Sol",
+   "release_date": "2026-10-30",
+   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
+   "vote_average": 5.4,
+   "genres": [
+    "Ciencia ficción",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
+   "providers": [],
+   "trailer": "v-Gy7zfOqAg",
+   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
   },
   {
    "id": 977942,
@@ -420,7 +420,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 6.9,
+   "vote_average": 7.2,
    "genres": [
     "Romance",
     "Fantasía",
