@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T20:59:12.856Z",
+ "actualizado": "2026-10-26T05:00:39.020Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -175,6 +175,30 @@
      "trailer": "CMyrp5Vk3mU"
     },
     {
+     "id": 17897,
+     "title": "El viaje fantástico de Simbad",
+     "year": "1973",
+     "release_date": "1973-12-20",
+     "overview": "Simbad, Príncipe de Bagdad y marino legendario, encuentra un curioso mapa y con él se embarca rumbo a la isla de Lemuria junto a una bella esclava, Margiana, y al Gran Visir de Marabia. El Príncipe Koura, un mago oscuro que intenta hacerse con el poder en Marabia manipulando a espíritus del mal, los persigue, tratando de detener a Simbad en su búsqueda. Simbad llega a Lemuria a pesar del encantamiento que Koura ha lanzado sobre el mascarón de proa de su barco, que le hace cobrar vida. En Lemuria, Simbad y su fiel tripulación se encuentran con una estatua de seis brazos blandiendo una espada, con un centauro de un ojo y con un grifo.",
+     "vote_average": 6.7,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Drama",
+      "Fantasía",
+      "Familia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/s29SGisFfyQxNyhNJLt9hx0sC57.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "Filmin"
+     ],
+     "trailer": "A3kVFY9llNo"
+    },
+    {
      "id": 340442,
      "title": "El guardián de la reliquia",
      "year": "2017",
@@ -203,7 +227,7 @@
      "year": "2025",
      "release_date": "2025-10-10",
      "overview": "El reino de Abraxeon está siendo asediado por los Dreadites, heraldos del hechicero Nekromemnon, muerto hace mucho tiempo. Cuando Deathstalker recupera un amuleto maldito de un campo de batalla sembrado de cadáveres, queda marcado por la magia negra y es perseguido por monstruosos asesinos de todo tipo. Para sobrevivir, debe romper la maldición y enfrentarse al mal naciente.",
-     "vote_average": 5.8,
+     "vote_average": 5.9,
      "genres": [
       "Fantasía",
       "Acción",
@@ -275,28 +299,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/hgg4VH9vtujHTh87wI5KIYNSwPy.jpg",
      "providers": [],
      "trailer": "pbP0Iqxu9b0"
-    },
-    {
-     "id": 11828,
-     "title": "Erik el vikingo",
-     "year": "1989",
-     "release_date": "1989-09-01",
-     "overview": "Erik el Vikingo (Tim Robbins) está cansado de los saqueos, las violaciones y de los cielos grises. Decide entonces reunir guerreros de su pueblo y todos embarcan en un viaje peligroso a Valhalla, para pedir los dioses que acaben con la Edad de Ragnorok y que dejen a su gente ver la luz del sol otra vez. Del director de las comedias del grupo Monty Python.",
-     "vote_average": 5.9,
-     "genres": [
-      "Aventura",
-      "Fantasía",
-      "Comedia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/b0zQNIlFN50VjW7t8AmkG14jtXa.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rZlMfuYPGxtyxOUzNLLF4iyM0lF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDtReYSFYUgWnAapK1InZLcOXLc.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin"
-     ],
-     "trailer": "Gdq8u9lTdlA"
     }
    ]
   },
@@ -448,7 +450,7 @@
       "Ciencia ficción"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/6QBRnyvJHD7slOlX6aukvMwcEu.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1RWLMyC9KcFfcaoViMiJGSSZzzr.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jJvrPQAHFKmz4pVano4UtWTsRgA.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/1RWLMyC9KcFfcaoViMiJGSSZzzr.jpg",
      "providers": [
       "Disney Plus"
@@ -3655,7 +3657,7 @@
     "year": "2024",
     "release_date": "2024-10-09",
     "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.8,
+    "vote_average": 6.7,
     "genres": [
      "Terror"
     ],

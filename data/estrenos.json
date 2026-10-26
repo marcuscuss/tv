@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T20:58:51.162Z",
+ "actualizado": "2026-10-26T05:00:06.333Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -22,7 +22,7 @@
    "title": "Clayface",
    "release_date": "2026-10-23",
    "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-   "vote_average": 7.6,
+   "vote_average": 7.5,
    "genres": [
     "Terror",
     "Suspense",
@@ -118,7 +118,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.8,
+   "vote_average": 8.7,
    "genres": [
     "Animación",
     "Aventura",
@@ -200,7 +200,7 @@
    "title": "En el corazón de la bestia",
    "release_date": "2026-09-25",
    "overview": "Tras sobrevivir a un brutal accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate Odín intentan intentarán regresar a la civilización desde un remoto lugar en medio de los parajes salvajes de Alaska.",
-   "vote_average": 7.4,
+   "vote_average": 7.3,
    "genres": [
     "Aventura",
     "Suspense"
@@ -232,7 +232,7 @@
    "title": "La isla olvidada",
    "release_date": "2026-09-25",
    "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
-   "vote_average": 7.8,
+   "vote_average": 7.7,
    "genres": [
     "Animación",
     "Aventura",
@@ -387,7 +387,7 @@
    "title": "Klara y el Sol",
    "release_date": "2026-10-30",
    "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
-   "vote_average": 5.4,
+   "vote_average": 5.5,
    "genres": [
     "Ciencia ficción",
     "Drama"
@@ -420,7 +420,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.2,
+   "vote_average": 7.6,
    "genres": [
     "Romance",
     "Fantasía",
@@ -431,6 +431,23 @@
    "providers": [],
    "trailer": "jA5zfiikcu8",
    "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
+  },
+  {
+   "id": 1477104,
+   "title": "La Oveja Shaun: Misión Calabaza",
+   "release_date": "2026-10-30",
+   "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
+   "vote_average": 7.3,
+   "genres": [
+    "Animación",
+    "Ciencia ficción",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+   "providers": [],
+   "trailer": "daZMq0AyOMc",
+   "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
   },
   {
    "id": 1564614,
@@ -447,23 +464,6 @@
    "providers": [],
    "trailer": "WXuK0vlFxII",
    "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
-  },
-  {
-   "id": 1477104,
-   "title": "La Oveja Shaun: Misión Calabaza",
-   "release_date": "2026-10-30",
-   "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.4,
-   "genres": [
-    "Animación",
-    "Ciencia ficción",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-   "providers": [],
-   "trailer": "daZMq0AyOMc",
-   "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
   },
   {
    "id": 1404684,
@@ -633,7 +633,7 @@
    "title": "Los miserables",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 7.1,
+   "vote_average": 7.2,
    "genres": [
     "Historia",
     "Romance",
@@ -646,20 +646,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg"
   },
   {
-   "id": 1649403,
-   "title": "George Michael: The Faith Tour",
+   "id": 1405002,
+   "title": "Fiesta Pagäna",
    "release_date": "2026-11-06",
-   "overview": "",
+   "overview": "Narra la historia jamás contada de Mägo de Oz, la banda que revolucionó el rock español al fusionar el heavy metal con el folk celta.",
    "vote_average": 0,
    "genres": [
-    "Música",
-    "Documental"
+    "Drama",
+    "Música"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/LXqHnaJ4ffkcx5YCuJN1noxkhr.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/WGH8A7l5pQHlO13A7QJ2t4mjvN.jpg",
+   "backdrop": "",
    "providers": [],
-   "trailer": "H_NwyHRY9yk",
-   "fondo": "https://image.tmdb.org/t/p/original/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg"
+   "trailer": "",
+   "fondo": ""
   }
  ],
  "region": "ES"
