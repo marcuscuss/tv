@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T05:00:06.333Z",
+ "actualizado": "2026-10-26T13:20:28.230Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -22,7 +22,7 @@
    "title": "Clayface",
    "release_date": "2026-10-23",
    "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Terror",
     "Suspense",
@@ -51,19 +51,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg"
   },
   {
-   "id": 1400837,
-   "title": "La otra madre",
-   "release_date": "2026-10-09",
-   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.8,
+   "id": 1423191,
+   "title": "Resident Evil",
+   "release_date": "2026-09-17",
+   "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
+   "vote_average": 7.3,
    "genres": [
-    "Terror"
+    "Terror",
+    "Ciencia ficción",
+    "Aventura"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/vsde9OnhjFMlJz8Wi6Z6drZ7GG5.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/vrLEVObLGbUinE4sC4Lqao2dK0E.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
    "providers": [],
-   "trailer": "ocV7K_B67lQ",
-   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
+   "trailer": "d6oszs7f5aI",
+   "fondo": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
   },
   {
    "id": 1228834,
@@ -82,21 +84,36 @@
    "fondo": "https://image.tmdb.org/t/p/original/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg"
   },
   {
-   "id": 1423191,
-   "title": "Resident Evil",
-   "release_date": "2026-09-17",
-   "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
-   "vote_average": 7.3,
+   "id": 1400837,
+   "title": "La otra madre",
+   "release_date": "2026-10-09",
+   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
+   "vote_average": 5.8,
    "genres": [
-    "Terror",
-    "Ciencia ficción",
-    "Aventura"
+    "Terror"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/vrLEVObLGbUinE4sC4Lqao2dK0E.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/vsde9OnhjFMlJz8Wi6Z6drZ7GG5.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
    "providers": [],
-   "trailer": "d6oszs7f5aI",
-   "fondo": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
+   "trailer": "ocV7K_B67lQ",
+   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
+  },
+  {
+   "id": 791523,
+   "title": "Wildwood: El Bosque Salvaje",
+   "release_date": "2026-10-23",
+   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
+   "vote_average": 8.9,
+   "genres": [
+    "Animación",
+    "Aventura",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+   "providers": [],
+   "trailer": "qWX1ba0f-Qg",
+   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
    "id": 1255833,
@@ -112,23 +129,6 @@
    "providers": [],
    "trailer": "5webTf9wplE",
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
-  },
-  {
-   "id": 791523,
-   "title": "Wildwood: El Bosque Salvaje",
-   "release_date": "2026-10-23",
-   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.7,
-   "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
-   "providers": [],
-   "trailer": "qWX1ba0f-Qg",
-   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
    "id": 1248832,
@@ -163,22 +163,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg"
   },
   {
-   "id": 1503762,
-   "title": "Sentido y sensibilidad",
-   "release_date": "2026-10-23",
-   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.2,
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
-   "providers": [],
-   "trailer": "GMwdcpKOOyY",
-   "fondo": "https://image.tmdb.org/t/p/original/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg"
-  },
-  {
    "id": 1204680,
    "title": "Coyote vs. Acme",
    "release_date": "2026-09-18",
@@ -196,11 +180,27 @@
    "fondo": "https://image.tmdb.org/t/p/original/7GOW6jod9lLurW5utokAatxg7ql.jpg"
   },
   {
+   "id": 1503762,
+   "title": "Sentido y sensibilidad",
+   "release_date": "2026-10-23",
+   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
+   "vote_average": 7.2,
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
+   "providers": [],
+   "trailer": "GMwdcpKOOyY",
+   "fondo": "https://image.tmdb.org/t/p/original/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg"
+  },
+  {
    "id": 1263337,
    "title": "En el corazón de la bestia",
    "release_date": "2026-09-25",
    "overview": "Tras sobrevivir a un brutal accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate Odín intentan intentarán regresar a la civilización desde un remoto lugar en medio de los parajes salvajes de Alaska.",
-   "vote_average": 7.3,
+   "vote_average": 7.4,
    "genres": [
     "Aventura",
     "Suspense"
@@ -212,20 +212,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/bicMU6xVD5deVyKP2azpyx7xkmH.jpg"
   },
   {
-   "id": 1283515,
-   "title": "Verity. La sombra de un engaño",
-   "release_date": "2026-10-02",
-   "overview": "Lowen Ashleigh es contratada como escritora fantasma por Jeremy Crawford para escribir las novelas de su esposa Verity, autora de bestsellers, impedida tras un accidente. Lowen descubre las inquietantes verdades de Verity mientras reside en casa de los Crawford para trabajar.",
-   "vote_average": 6.4,
+   "id": 1422041,
+   "title": "La bola negra",
+   "release_date": "2026-09-25",
+   "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
+   "vote_average": 8.1,
    "genres": [
-    "Misterio",
-    "Suspense"
+    "Drama",
+    "Bélica"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
    "providers": [],
-   "trailer": "P-QWhkimt50",
-   "fondo": "https://image.tmdb.org/t/p/original/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg"
+   "trailer": "9NNU-vSeOB0",
+   "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
   },
   {
    "id": 1465063,
@@ -247,20 +247,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg"
   },
   {
-   "id": 1422041,
-   "title": "La bola negra",
-   "release_date": "2026-09-25",
-   "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
-   "vote_average": 8.1,
+   "id": 1283515,
+   "title": "Verity. La sombra de un engaño",
+   "release_date": "2026-10-02",
+   "overview": "Lowen Ashleigh es contratada como escritora fantasma por Jeremy Crawford para escribir las novelas de su esposa Verity, autora de bestsellers, impedida tras un accidente. Lowen descubre las inquietantes verdades de Verity mientras reside en casa de los Crawford para trabajar.",
+   "vote_average": 6.4,
    "genres": [
-    "Drama",
-    "Bélica"
+    "Misterio",
+    "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/t1azKLExwUxKj6v6m2L535evuRa.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
    "providers": [],
-   "trailer": "9NNU-vSeOB0",
-   "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
+   "trailer": "P-QWhkimt50",
+   "fondo": "https://image.tmdb.org/t/p/original/9qxyrJfjk577ym5WD6HCDmunoyO.jpg"
   },
   {
    "id": 1244523,
@@ -279,23 +279,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/ug82yegbLgpat7COIhqhQ4W8ZBx.jpg"
   },
   {
-   "id": 950028,
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
-   "vote_average": 7.2,
-   "genres": [
-    "Comedia",
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
-   "providers": [],
-   "trailer": "nelkiuezJxg",
-   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
-  },
-  {
    "id": 1572116,
    "title": "Monstruosa Mia",
    "release_date": "2026-10-16",
@@ -311,6 +294,23 @@
    "providers": [],
    "trailer": "CbqDABPksnw",
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
+  },
+  {
+   "id": 950028,
+   "title": "La invitación",
+   "release_date": "2026-10-16",
+   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
+   "vote_average": 7.2,
+   "genres": [
+    "Comedia",
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+   "providers": [],
+   "trailer": "nelkiuezJxg",
+   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
   },
   {
    "id": 1594914,
@@ -387,7 +387,7 @@
    "title": "Klara y el Sol",
    "release_date": "2026-10-30",
    "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
-   "vote_average": 5.5,
+   "vote_average": 5.8,
    "genres": [
     "Ciencia ficción",
     "Drama"
@@ -420,7 +420,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.6,
+   "vote_average": 7.8,
    "genres": [
     "Romance",
     "Fantasía",
