@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T13:20:28.230Z",
+ "actualizado": "2026-10-26T22:46:50.233Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -65,7 +65,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
    "providers": [],
    "trailer": "d6oszs7f5aI",
-   "fondo": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/vqNSvCFknXObgqn7nOFrJVEeGht.jpg"
   },
   {
    "id": 1228834,
@@ -103,7 +103,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.9,
+   "vote_average": 8.8,
    "genres": [
     "Animación",
     "Aventura",
@@ -193,14 +193,14 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/nrLVr8C2pkbOGwXKay2xrxvlHmh.jpg",
    "providers": [],
    "trailer": "GMwdcpKOOyY",
-   "fondo": "https://image.tmdb.org/t/p/original/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
    "id": 1263337,
    "title": "En el corazón de la bestia",
    "release_date": "2026-09-25",
    "overview": "Tras sobrevivir a un brutal accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate Odín intentan intentarán regresar a la civilización desde un remoto lugar en medio de los parajes salvajes de Alaska.",
-   "vote_average": 7.4,
+   "vote_average": 7.3,
    "genres": [
     "Aventura",
     "Suspense"
@@ -232,7 +232,7 @@
    "title": "La isla olvidada",
    "release_date": "2026-09-25",
    "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
-   "vote_average": 7.7,
+   "vote_average": 7.6,
    "genres": [
     "Animación",
     "Aventura",
@@ -257,7 +257,7 @@
     "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
    "providers": [],
    "trailer": "P-QWhkimt50",
    "fondo": "https://image.tmdb.org/t/p/original/9qxyrJfjk577ym5WD6HCDmunoyO.jpg"
@@ -317,7 +317,7 @@
    "title": "Lucky Strike",
    "release_date": "2026-10-02",
    "overview": "Un soldado estadounidense gravemente herido lucha por sobrevivir, durante la II Guerra Mundial, detrás de las líneas enemigas en la Bélgica devastada por la guerra durante la brutal Batalla de las Ardenas. Aislado y obligado a afrontar unas condiciones extremas, debe confiar en su ingenio, su entrenamiento militar y una radio dañada como su única esperanza para evadir a las tropas enemigas que lo buscan. Mientras enfrenta el peligro constante, su objetivo es desesperadamente restablecer contacto con su unidad antes de que sea demasiado tarde.",
-   "vote_average": 6.6,
+   "vote_average": 6.5,
    "genres": [
     "Acción",
     "Bélica"
@@ -399,23 +399,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
   },
   {
-   "id": 977942,
-   "title": "El hombre que desafió al rey",
-   "release_date": "2026-10-30",
-   "overview": "En la Inglaterra del siglo XIV, asolada por la peste, un campesino desencadena una rebelión contra el rey Ricardo II y se convierte involuntariamente en una leyenda de la resistencia.",
-   "vote_average": 7.9,
-   "genres": [
-    "Acción",
-    "Drama",
-    "Historia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/rveEjlQQ0LlyyPk8ev2pHBmQPZZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
-   "providers": [],
-   "trailer": "qM2Pk44x0Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg"
-  },
-  {
    "id": 1195803,
    "title": "Wicker",
    "release_date": "2026-10-30",
@@ -466,22 +449,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
   },
   {
-   "id": 1404684,
-   "title": "Tiempos de ilusión",
-   "release_date": "2026-10-30",
-   "overview": "1985. Vincent, de casi 13 años, vive en las afueras de París en el seno de una familia de clase media, entre un hermano mayor distante y unos padres en conflicto constante. Aunque ya no es un niño pero tampoco un adulto, la película sigue sus reflexiones y dudas sobre la identidad, la amistad y la familia, así como sus interrogantes acerca de la religión, el deseo y el amor.",
-   "vote_average": 7.3,
-   "genres": [
-    "Comedia",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/l1fhfzNclQcp4oBz550KMY0CTre.jpg",
-   "providers": [],
-   "trailer": "vZtK0AdeXk8",
-   "fondo": "https://image.tmdb.org/t/p/original/3ZJW3mLqfG8kBxt6illE8I2qW7t.jpg"
-  },
-  {
    "id": 1548369,
    "title": "Gungo y Los Juegos Cavernícolas",
    "release_date": "2026-10-30",
@@ -497,6 +464,22 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
+  },
+  {
+   "id": 1404684,
+   "title": "Tiempos de ilusión",
+   "release_date": "2026-10-30",
+   "overview": "1985. Vincent, de casi 13 años, vive en las afueras de París en el seno de una familia de clase media, entre un hermano mayor distante y unos padres en conflicto constante. Aunque ya no es un niño pero tampoco un adulto, la película sigue sus reflexiones y dudas sobre la identidad, la amistad y la familia, así como sus interrogantes acerca de la religión, el deseo y el amor.",
+   "vote_average": 7.3,
+   "genres": [
+    "Comedia",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/l1fhfzNclQcp4oBz550KMY0CTre.jpg",
+   "providers": [],
+   "trailer": "vZtK0AdeXk8",
+   "fondo": "https://image.tmdb.org/t/p/original/3ZJW3mLqfG8kBxt6illE8I2qW7t.jpg"
   },
   {
    "id": 1365224,
@@ -660,6 +643,22 @@
    "providers": [],
    "trailer": "",
    "fondo": ""
+  },
+  {
+   "id": 1649403,
+   "title": "George Michael: The Faith Tour",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Música",
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/LXqHnaJ4ffkcx5YCuJN1noxkhr.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg",
+   "providers": [],
+   "trailer": "H_NwyHRY9yk",
+   "fondo": "https://image.tmdb.org/t/p/original/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg"
   }
  ],
  "region": "ES"

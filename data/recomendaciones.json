@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T13:20:44.401Z",
+ "actualizado": "2026-10-26T22:47:17.543Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -50,7 +50,8 @@
      "providers": [
       "Disney Plus",
       "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
+      "Movistar Plus+ Ficción Total ",
+      "Tivify"
      ],
      "trailer": "mwLBes2Gr8E"
     },
@@ -1808,6 +1809,24 @@
      "trailer": "38jQFZ00Cwo"
     },
     {
+     "id": 1375646,
+     "title": "Colony",
+     "year": "2026",
+     "release_date": "2026-05-21",
+     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
+     "vote_average": 8.2,
+     "genres": [
+      "Terror",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "providers": [],
+     "trailer": "LW6dpj1uCK8"
+    },
+    {
      "id": 348,
      "title": "Alien: El octavo pasajero",
      "year": "1979",
@@ -1826,24 +1845,6 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "D3oC17nILkw"
-    },
-    {
-     "id": 1375646,
-     "title": "Colony",
-     "year": "2026",
-     "release_date": "2026-05-21",
-     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
-     "vote_average": 8.2,
-     "genres": [
-      "Terror",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "providers": [],
-     "trailer": "LW6dpj1uCK8"
     },
     {
      "id": 37793,
@@ -1907,6 +1908,25 @@
      "trailer": "ksOiRS2YO1U"
     },
     {
+     "id": 116322,
+     "title": "La leyenda de la llorona",
+     "year": "2011",
+     "release_date": "2011-10-21",
+     "overview": "Leo San Juan, a un año de haber derrotado al espíritu de La Nahuala, se enfrenta ahora a su primera gran misión: liberar a Xochimilco de La Llorona, el espíritu de una mujer que durante cientos de años ha asolado a la comunidad y ha secuestrado a decenas de niños. Con la ayuda de El Alebrije, Don Andrés y los niños Calaca, Leo planea vencerla. Sin embargo, el poder de ella hará que nuestro héroe y sus aliados se separen, enfrentando cada quien por su lado los peligros que aparecen en un Xochimilco embrujado por las lágrimas de La Llorona y las fuerzas obscuras que, desde la antigüedad, acechan detrás de este terrible monstruo.",
+     "vote_average": 7.9,
+     "genres": [
+      "Animación",
+      "Familia",
+      "Fantasía",
+      "Terror"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/vBiqoYfDIWKKzZTiQScqgCO09UD.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
+     "providers": [],
+     "trailer": "JnMRKl2x4ss"
+    },
+    {
      "id": 234,
      "title": "El gabinete del doctor Caligari",
      "year": "1920",
@@ -1929,25 +1949,6 @@
       "Artiflix"
      ],
      "trailer": "6_uvMK0dbMY"
-    },
-    {
-     "id": 116322,
-     "title": "La leyenda de la llorona",
-     "year": "2011",
-     "release_date": "2011-10-21",
-     "overview": "Leo San Juan, a un año de haber derrotado al espíritu de La Nahuala, se enfrenta ahora a su primera gran misión: liberar a Xochimilco de La Llorona, el espíritu de una mujer que durante cientos de años ha asolado a la comunidad y ha secuestrado a decenas de niños. Con la ayuda de El Alebrije, Don Andrés y los niños Calaca, Leo planea vencerla. Sin embargo, el poder de ella hará que nuestro héroe y sus aliados se separen, enfrentando cada quien por su lado los peligros que aparecen en un Xochimilco embrujado por las lágrimas de La Llorona y las fuerzas obscuras que, desde la antigüedad, acechan detrás de este terrible monstruo.",
-     "vote_average": 7.9,
-     "genres": [
-      "Animación",
-      "Familia",
-      "Fantasía",
-      "Terror"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/vBiqoYfDIWKKzZTiQScqgCO09UD.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
-     "providers": [],
-     "trailer": "JnMRKl2x4ss"
     },
     {
      "id": 10728,
@@ -2806,9 +2807,11 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
      "providers": [
+      "Amazon Prime Video",
       "Disney Plus",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
+      "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
      "trailer": "h-9RYiqyqjk"
@@ -2875,9 +2878,11 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
      "providers": [
+      "Amazon Prime Video",
       "Disney Plus",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
+      "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
      "trailer": "3GJp6p_mgPo"
@@ -2930,28 +2935,24 @@
      "trailer": "NC9M8QYRZpE"
     },
     {
-     "id": 324857,
-     "title": "Spider-Man: un nuevo universo",
-     "year": "2018",
-     "release_date": "2018-12-06",
-     "overview": "En un universo paralelo donde Peter Parker ha muerto, un joven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk construye el 'Super Colisionador' trae a una versión alternativa de Peter Parker que tratará de enseñar a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo:  cuatro versiones alternativas buscan regresar a su universo antes de que toda la realidad se colapse.",
+     "id": 1383731,
+     "title": "Instinto protector",
+     "year": "2026",
+     "release_date": "2026-02-20",
+     "overview": "La vida pacífica de Nikki, una exheroína de guerra, se ve destrozada cuando su hija es secuestrada. Inmersa en el submundo criminal mientras es perseguida por policías y militares, debe luchar para rescatar a su hija.",
      "vote_average": 8.4,
      "genres": [
-      "Animación",
       "Acción",
-      "Aventura",
-      "Ciencia ficción"
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/xRMZikjAHNFebD1FLRqgDZeGV4a.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/xfyBQzFOixFzzOHHGr8HFnHR8Hm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
      "providers": [
-      "Disney Plus",
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "HBO Max Amazon Channel"
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
      ],
-     "trailer": "qLObEn9IK20"
+     "trailer": "IRKGIuL3728"
     }
    ]
   },
@@ -3198,23 +3199,6 @@
      "trailer": "AYxCeeA3LaI"
     },
     {
-     "id": 644479,
-     "title": "Dedicada A Mi Ex",
-     "year": "2019",
-     "release_date": "2019-11-01",
-     "overview": "La película cuenta la historia de Ariel, un joven de 21 años que decide formar una banda de rock para competir por un premio de diez mil dólares en un concurso de bandas musicales, esta es la última opción cuando intenta obtener dinero para salvar su relación. y se reúne con su ex novia, que se rompe debido al viaje que debe hacer a Finlandia para una pasantía. Ariel con su amiga Ortega, decide hacer un casting para encontrar a los otros miembros de la banda, aunque no saben nada de música, formando así una banda con miembros que tienen personalidades diversas y opuestas.",
-     "vote_average": 8.3,
-     "genres": [
-      "Drama",
-      "Comedia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
-     "providers": [],
-     "trailer": "hU2DASqjvi4"
-    },
-    {
      "id": 3082,
      "title": "Tiempos modernos",
      "year": "1936",
@@ -3234,6 +3218,25 @@
       "Acontra Plus Amazon Channel"
      ],
      "trailer": "NNznUyDmSFc"
+    },
+    {
+     "id": 42269,
+     "title": "Una mujer y tres hombres",
+     "year": "1974",
+     "release_date": "1974-12-21",
+     "overview": "Amarga crónica de la historia de Italia, desde la posguerra hasta los años setenta, narrada a través de un grupo de amigos de izquierdas que se conocieron cuando en 1944 lucharon contra los nazis. Este retrato del idealismo, pero también de la inevitable pérdida de las ilusiones a causa del acomodamiento burgués, fue el primer éxito internacional del realizador italiano Ettore Scola.",
+     "vote_average": 8.3,
+     "genres": [
+      "Drama",
+      "Comedia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oz9q8fI9j5dcxowuFagFzhaiK2z.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/2Kkqmy3EpXqBDqv1vvsNXX3pwww.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/2Kkqmy3EpXqBDqv1vvsNXX3pwww.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "GFaFeuPep5w"
     }
    ]
   },
@@ -3602,6 +3605,26 @@
     "trailer": "VfBCYaGu7Ts"
    },
    {
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.7,
+    "genres": [
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
+    ],
+    "trailer": "Y2u6m2W428g"
+   },
+   {
     "id": 331482,
     "title": "Mujercitas",
     "year": "2019",
@@ -3645,26 +3668,6 @@
     "trailer": "RcER0_lZ2F4"
    },
    {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.7,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
-   },
-   {
     "id": 360920,
     "title": "El Grinch",
     "year": "2018",
@@ -3687,31 +3690,6 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "_UOh0UX3alI"
-   },
-   {
-    "id": 5994,
-    "title": "Family Man",
-    "year": "2000",
-    "release_date": "2000-12-12",
-    "overview": "Jack Campbell es un egocéntrico broker de Wall Street cuya única obsesión es el trabajo y una vida llena de lujo. Tras un incidente en una tienda el día de Nochebuena, se despierta viviendo otra vida: es un humilde vendedor de neumáticos de Nueva Jersey, casado con su antigua novia Kate, a la que había abandonado hacía años para que no obstaculizara su carrera en el mundo de las finanzas.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Drama",
-     "Romance",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/f0nMpSWmT1o1INXl1ZMe78bz9i.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total ",
-     "Atres Player",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "Hzw-p2PfBeU"
    },
    {
     "id": 9489,
@@ -3755,6 +3733,31 @@
     "trailer": "e4bdD8owgDU"
    },
    {
+    "id": 5994,
+    "title": "Family Man",
+    "year": "2000",
+    "release_date": "2000-12-12",
+    "overview": "Jack Campbell es un egocéntrico broker de Wall Street cuya única obsesión es el trabajo y una vida llena de lujo. Tras un incidente en una tienda el día de Nochebuena, se despierta viviendo otra vida: es un humilde vendedor de neumáticos de Nueva Jersey, casado con su antigua novia Kate, a la que había abandonado hacía años para que no obstaculizara su carrera en el mundo de las finanzas.",
+    "vote_average": 6.8,
+    "genres": [
+     "Comedia",
+     "Drama",
+     "Romance",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/f0nMpSWmT1o1INXl1ZMe78bz9i.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Movistar Plus+",
+     "Movistar Plus+ Ficción Total ",
+     "Atres Player",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "Hzw-p2PfBeU"
+   },
+   {
     "id": 1621,
     "title": "Entre pillos anda el juego",
     "year": "1983",
@@ -3771,25 +3774,49 @@
     "trailer": "rxz036jbrmI"
    },
    {
-    "id": 364,
-    "title": "Batman vuelve",
-    "year": "1992",
-    "release_date": "1992-06-19",
-    "overview": "Gotham City se enfrenta a dos nuevos y peculiares criminales: el diabólico y siniestro Pingüino, una criatura solitaria y extrañamente deformada, y la hermosa y seductora -aunque letalmente peligrosa- Catwoman. Batman se deberá enfrentar a Pingüino, que quiere convertirse en el amo de la ciudad.",
-    "vote_average": 7,
+    "id": 5255,
+    "title": "Polar Express",
+    "year": "2004",
+    "release_date": "2004-11-10",
+    "overview": "Esta es la historia de un jovencito en la víspera de Navidad quien aborda un poderoso y mágico tren que se dirige al hogar de Papá Noel, en el Polo Norte. Lo que se desarrolla es una aventura que sigue al dubitativo niño, quien toma un tren extraordinario al Polo Norte; durante este viaje, se embarca en una experiencia de autodescubrimiento que le muestra que las maravillas de la vida nunca se desvanecen para quienes creen.",
+    "vote_average": 6.7,
     "genres": [
-     "Acción",
+     "Aventura",
+     "Animación",
+     "Familia",
      "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/i5xLIx2vkisiLPQqaeI3uiSaG1b.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/7x4SNxO5HWArighxxFeet5sn3il.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/7x4SNxO5HWArighxxFeet5sn3il.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
     "providers": [
+     "Amazon Prime Video",
      "Movistar Plus+ Ficción Total ",
      "HBO Max",
+     "Amazon Prime Video with Ads",
      "HBO Max Amazon Channel"
     ],
-    "trailer": "Or9AB6Gnruc"
+    "trailer": "4XkHPphBN_Q"
+   },
+   {
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
+    "genres": [
+     "Drama",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "providers": [
+     "Filmin"
+    ],
+    "trailer": "iLR3gZrU2Xo"
    },
    {
     "id": 8871,
@@ -3811,26 +3838,6 @@
      "SkyShowtime"
     ],
     "trailer": "SL0YugjtkiI"
-   },
-   {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
    }
   ],
   "romance": [
@@ -4147,8 +4154,8 @@
     "Aventura"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/vrLEVObLGbUinE4sC4Lqao2dK0E.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
-   "fondo": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/vqNSvCFknXObgqn7nOFrJVEeGht.jpg",
+   "fondo": "https://image.tmdb.org/t/p/original/vqNSvCFknXObgqn7nOFrJVEeGht.jpg",
    "providers": [],
    "trailer": "d6oszs7f5aI",
    "rating": 4,
@@ -4282,6 +4289,7 @@
    "fondo": "https://image.tmdb.org/t/p/original/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
    "providers": [
     "Amazon Prime Video",
+    "Tivify",
     "Amazon Prime Video with Ads"
    ],
    "trailer": "iUQ8eULI_Vk",
