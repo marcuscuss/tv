@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T12:27:45.726Z",
+ "actualizado": "2026-10-27T22:25:51.861Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -1114,6 +1114,7 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/1eM6CsDTwRmxgnigzz8pitLlUKJ.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/rryoh1cEJpUE3TfioxlGJlWIgOl.jpg",
      "providers": [
+      "Tivify",
       "AMC Channels Amazon Channel"
      ],
      "trailer": "5Vah3WwkfWE"
@@ -1226,8 +1227,8 @@
       "Suspense"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/prNsmrvXbLaFDq8p5XHBMowhd9A.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/bdI6U1mT0kCdTJ6TWtiFxQ42GSn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/bdI6U1mT0kCdTJ6TWtiFxQ42GSn.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
      "providers": [],
      "trailer": "OGP02DvsqXc"
     },
@@ -1768,6 +1769,24 @@
      "trailer": "UbW7nOThWuE"
     },
     {
+     "id": 1375646,
+     "title": "Colony",
+     "year": "2026",
+     "release_date": "2026-05-21",
+     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
+     "vote_average": 8.2,
+     "genres": [
+      "Terror",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "providers": [],
+     "trailer": "LW6dpj1uCK8"
+    },
+    {
      "id": 694,
      "title": "El resplandor",
      "year": "1980",
@@ -1809,24 +1828,6 @@
       "Filmin"
      ],
      "trailer": "38jQFZ00Cwo"
-    },
-    {
-     "id": 1375646,
-     "title": "Colony",
-     "year": "2026",
-     "release_date": "2026-05-21",
-     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
-     "vote_average": 8.2,
-     "genres": [
-      "Terror",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "providers": [],
-     "trailer": "LW6dpj1uCK8"
     },
     {
      "id": 348,
@@ -2232,28 +2233,6 @@
      "trailer": "tXploxlYWL4"
     },
     {
-     "id": 274,
-     "title": "El silencio de los corderos",
-     "year": "1991",
-     "release_date": "1991-02-14",
-     "overview": "Clarice Starling, del FBI, se aventura a una prisión de máxima seguridad para analizar el cerebro enfermo de Hannibal Lecter, un psiquiatra convertido en caníbal.",
-     "vote_average": 8.3,
-     "genres": [
-      "Crimen",
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/8FdQQ3cUCs9goEOr1qUFaHackoJ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Tivify",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "5SKgu_gXPQ4"
-    },
-    {
      "id": 1419406,
      "title": "Escuadrón letal",
      "year": "2025",
@@ -2274,6 +2253,28 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "HZXVnn6GnVM"
+    },
+    {
+     "id": 274,
+     "title": "El silencio de los corderos",
+     "year": "1991",
+     "release_date": "1991-02-14",
+     "overview": "Clarice Starling, del FBI, se aventura a una prisión de máxima seguridad para analizar el cerebro enfermo de Hannibal Lecter, un psiquiatra convertido en caníbal.",
+     "vote_average": 8.3,
+     "genres": [
+      "Crimen",
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/8FdQQ3cUCs9goEOr1qUFaHackoJ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "5SKgu_gXPQ4"
     },
     {
      "id": 567,
@@ -3222,23 +3223,24 @@
      "trailer": "NNznUyDmSFc"
     },
     {
-     "id": 42269,
-     "title": "Una mujer y tres hombres",
-     "year": "1974",
-     "release_date": "1974-12-21",
-     "overview": "Amarga crónica de la historia de Italia, desde la posguerra hasta los años setenta, narrada a través de un grupo de amigos de izquierdas que se conocieron cuando en 1944 lucharon contra los nazis. Este retrato del idealismo, pero también de la inevitable pérdida de las ilusiones a causa del acomodamiento burgués, fue el primer éxito internacional del realizador italiano Ettore Scola.",
+     "id": 914,
+     "title": "El gran dictador",
+     "year": "1940",
+     "release_date": "1940-10-15",
+     "overview": "Un humilde barbero judío tiene un parecido asombroso con el dictador de la nación Tomania, que promete sacar adelante y que culpa a los judíos de la situación del país. El dictador ataca al país fronterizo, pero es confundido con el barbero por sus propios guardias, siendo ingresado en un campo de concentración. Simultáneamente, el pobre barbero es confundido con el dictador...",
      "vote_average": 8.3,
      "genres": [
-      "Drama",
-      "Comedia"
+      "Comedia",
+      "Bélica"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/oz9q8fI9j5dcxowuFagFzhaiK2z.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/2Kkqmy3EpXqBDqv1vvsNXX3pwww.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/2Kkqmy3EpXqBDqv1vvsNXX3pwww.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/aM2fdyNhsa3UYYCtkm9pGXQ0Q1R.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/c8Pi8F1FzpNebtgXcSjC9nWCdSW.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/c8Pi8F1FzpNebtgXcSjC9nWCdSW.jpg",
      "providers": [
-      "Filmin"
+      "Acontra Plus",
+      "Acontra Plus Amazon Channel"
      ],
-     "trailer": "GFaFeuPep5w"
+     "trailer": "i1C6qZVeFtA"
     }
    ]
   },
@@ -3282,6 +3284,7 @@
      "providers": [
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
+      "fuboTV",
       "HBO Max",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
@@ -3452,27 +3455,6 @@
      "trailer": "oIZ4U21DRlM"
     },
     {
-     "id": 372058,
-     "title": "Your Name.",
-     "year": "2016",
-     "release_date": "2016-07-01",
-     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
-     "vote_average": 8.5,
-     "genres": [
-      "Animación",
-      "Romance",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "TYku4P7MHdo"
-    },
-    {
      "id": 157336,
      "title": "Interstellar",
      "year": "2014",
@@ -3495,6 +3477,27 @@
       "HBO Max Amazon Channel"
      ],
      "trailer": "UoSSbmD9vqc"
+    },
+    {
+     "id": 372058,
+     "title": "Your Name.",
+     "year": "2016",
+     "release_date": "2016-07-01",
+     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
+     "vote_average": 8.5,
+     "genres": [
+      "Animación",
+      "Romance",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "TYku4P7MHdo"
     },
     {
      "id": 496243,
@@ -3607,26 +3610,6 @@
     "trailer": "VfBCYaGu7Ts"
    },
    {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.7,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
-   },
-   {
     "id": 331482,
     "title": "Mujercitas",
     "year": "2019",
@@ -3648,26 +3631,24 @@
     "trailer": "6SN9-6uST80"
    },
    {
-    "id": 845781,
-    "title": "Red One",
+    "id": 1034541,
+    "title": "Terrifier 3",
     "year": "2024",
-    "release_date": "2024-10-31",
-    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
-    "vote_average": 6.9,
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.7,
     "genres": [
-     "Acción",
-     "Aventura",
-     "Comedia",
-     "Fantasía"
+     "Terror"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
     "providers": [
      "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
     ],
-    "trailer": "RcER0_lZ2F4"
+    "trailer": "Y2u6m2W428g"
    },
    {
     "id": 360920,
@@ -3694,45 +3675,26 @@
     "trailer": "_UOh0UX3alI"
    },
    {
-    "id": 9489,
-    "title": "Tienes un e-mail",
-    "year": "1998",
-    "release_date": "1998-12-18",
-    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Tivify",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "AKlhYZ-HqKs"
-   },
-   {
-    "id": 81188,
-    "title": "El origen de los guardianes",
-    "year": "2012",
-    "release_date": "2012-11-21",
-    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
-    "vote_average": 7.4,
+    "id": 845781,
+    "title": "Red One",
+    "year": "2024",
+    "release_date": "2024-10-31",
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "vote_average": 6.9,
     "genres": [
      "Acción",
      "Aventura",
-     "Animación",
-     "Familia",
+     "Comedia",
      "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "providers": [],
-    "trailer": "e4bdD8owgDU"
+    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "RcER0_lZ2F4"
    },
    {
     "id": 5994,
@@ -3776,6 +3738,88 @@
     "trailer": "rxz036jbrmI"
    },
    {
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
+    "genres": [
+     "Comedia",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Tivify",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "AKlhYZ-HqKs"
+   },
+   {
+    "id": 81188,
+    "title": "El origen de los guardianes",
+    "year": "2012",
+    "release_date": "2012-11-21",
+    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
+    "vote_average": 7.4,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Animación",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "providers": [],
+    "trailer": "e4bdD8owgDU"
+   },
+   {
+    "id": 8871,
+    "title": "El Grinch",
+    "year": "2000",
+    "release_date": "2000-11-17",
+    "overview": "Cada año, en Navidad, los lugareños perturban su pacífica soledad con celebraciones cada vez más desmesuradas, luminosas y ruidosas. Cuando los Quién declaran que ese año van a preparar una Navidad el triple de grande, el Grinch se da cuenta de que solo hay un modo de recuperar algo de paz y silencio: robar la Navidad. Para ello, decide hacerse pasar por Santa Claus en Nochebuena, haciéndose con un reno muy peculiar para tirar de su trineo. Mientras tanto, en Villa Quién, una dulce niña llamada Cindy-Lou, desbordante de espíritu navideño, planea con sus amigos atrapar a Papá Noel durante su visita en Nochebuena para darle las gracias por ayudar a su trabajadora madre. Sin embargo, a medida que se acerca la noche mágica, sus buenas intenciones amenazan con chocar con las del Grinch, mucho más perversas.",
+    "vote_average": 6.8,
+    "genres": [
+     "Familia",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dj6U3KbuwcjMuDir1bUHp0yDcuB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "providers": [
+     "Movistar Plus+ Ficción Total ",
+     "SkyShowtime"
+    ],
+    "trailer": "SL0YugjtkiI"
+   },
+   {
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
+    "genres": [
+     "Drama",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "providers": [
+     "Filmin"
+    ],
+    "trailer": "iLR3gZrU2Xo"
+   },
+   {
     "id": 5255,
     "title": "Polar Express",
     "year": "2004",
@@ -3799,47 +3843,6 @@
      "HBO Max Amazon Channel"
     ],
     "trailer": "4XkHPphBN_Q"
-   },
-   {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
-   },
-   {
-    "id": 8871,
-    "title": "El Grinch",
-    "year": "2000",
-    "release_date": "2000-11-17",
-    "overview": "Cada año, en Navidad, los lugareños perturban su pacífica soledad con celebraciones cada vez más desmesuradas, luminosas y ruidosas. Cuando los Quién declaran que ese año van a preparar una Navidad el triple de grande, el Grinch se da cuenta de que solo hay un modo de recuperar algo de paz y silencio: robar la Navidad. Para ello, decide hacerse pasar por Santa Claus en Nochebuena, haciéndose con un reno muy peculiar para tirar de su trineo. Mientras tanto, en Villa Quién, una dulce niña llamada Cindy-Lou, desbordante de espíritu navideño, planea con sus amigos atrapar a Papá Noel durante su visita en Nochebuena para darle las gracias por ayudar a su trabajadora madre. Sin embargo, a medida que se acerca la noche mágica, sus buenas intenciones amenazan con chocar con las del Grinch, mucho más perversas.",
-    "vote_average": 6.8,
-    "genres": [
-     "Familia",
-     "Comedia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/dj6U3KbuwcjMuDir1bUHp0yDcuB.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "providers": [
-     "Movistar Plus+ Ficción Total ",
-     "SkyShowtime"
-    ],
-    "trailer": "SL0YugjtkiI"
    }
   ],
   "romance": [

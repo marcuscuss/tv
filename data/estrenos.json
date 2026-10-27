@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T05:17:13.631Z",
+ "actualizado": "2026-10-27T22:25:25.453Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -200,7 +200,7 @@
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.2,
+   "vote_average": 7.3,
    "genres": [
     "Drama",
     "Romance"
@@ -225,14 +225,14 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
    "providers": [],
    "trailer": "P-QWhkimt50",
-   "fondo": "https://image.tmdb.org/t/p/original/9qxyrJfjk577ym5WD6HCDmunoyO.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/zrGI2Lm89fgR5ntysKLmEPgNrdV.jpg"
   },
   {
    "id": 1465063,
    "title": "La isla olvidada",
    "release_date": "2026-09-25",
    "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
-   "vote_average": 7.6,
+   "vote_average": 7.5,
    "genres": [
     "Animación",
     "Aventura",
@@ -256,7 +256,7 @@
     "Drama",
     "Bélica"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/t1azKLExwUxKj6v6m2L535evuRa.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
    "providers": [],
    "trailer": "9NNU-vSeOB0",
@@ -353,7 +353,7 @@
    "title": "Hope",
    "release_date": "2026-10-30",
    "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
-   "vote_average": 6.8,
+   "vote_average": 6.7,
    "genres": [
     "Ciencia ficción",
     "Misterio",
@@ -449,6 +449,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
   },
   {
+   "id": 1404684,
+   "title": "Tiempos de ilusión",
+   "release_date": "2026-10-30",
+   "overview": "1985. Vincent, de casi 13 años, vive en las afueras de París en el seno de una familia de clase media, entre un hermano mayor distante y unos padres en conflicto constante. Aunque ya no es un niño pero tampoco un adulto, la película sigue sus reflexiones y dudas sobre la identidad, la amistad y la familia, así como sus interrogantes acerca de la religión, el deseo y el amor.",
+   "vote_average": 7.3,
+   "genres": [
+    "Comedia",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/l1fhfzNclQcp4oBz550KMY0CTre.jpg",
+   "providers": [],
+   "trailer": "vZtK0AdeXk8",
+   "fondo": "https://image.tmdb.org/t/p/original/3ZJW3mLqfG8kBxt6illE8I2qW7t.jpg"
+  },
+  {
    "id": 1548369,
    "title": "Gungo y Los Juegos Cavernícolas",
    "release_date": "2026-10-30",
@@ -464,22 +480,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
-  },
-  {
-   "id": 1404684,
-   "title": "Tiempos de ilusión",
-   "release_date": "2026-10-30",
-   "overview": "1985. Vincent, de casi 13 años, vive en las afueras de París en el seno de una familia de clase media, entre un hermano mayor distante y unos padres en conflicto constante. Aunque ya no es un niño pero tampoco un adulto, la película sigue sus reflexiones y dudas sobre la identidad, la amistad y la familia, así como sus interrogantes acerca de la religión, el deseo y el amor.",
-   "vote_average": 7.3,
-   "genres": [
-    "Comedia",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/l1fhfzNclQcp4oBz550KMY0CTre.jpg",
-   "providers": [],
-   "trailer": "vZtK0AdeXk8",
-   "fondo": "https://image.tmdb.org/t/p/original/3ZJW3mLqfG8kBxt6illE8I2qW7t.jpg"
   },
   {
    "id": 1365224,
@@ -612,6 +612,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg"
   },
   {
+   "id": 1405002,
+   "title": "Fiesta Pagäna",
+   "release_date": "2026-11-06",
+   "overview": "Narra la historia jamás contada de Mägo de Oz, la banda que revolucionó el rock español al fusionar el heavy metal con el folk celta.",
+   "vote_average": 0,
+   "genres": [
+    "Drama",
+    "Música"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/WGH8A7l5pQHlO13A7QJ2t4mjvN.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
+  },
+  {
    "id": 1241803,
    "title": "Los miserables",
    "release_date": "2026-11-06",
@@ -627,22 +643,6 @@
    "providers": [],
    "trailer": "PyBTjrK43Hg",
    "fondo": "https://image.tmdb.org/t/p/original/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg"
-  },
-  {
-   "id": 1405002,
-   "title": "Fiesta Pagäna",
-   "release_date": "2026-11-06",
-   "overview": "Narra la historia jamás contada de Mägo de Oz, la banda que revolucionó el rock español al fusionar el heavy metal con el folk celta.",
-   "vote_average": 0,
-   "genres": [
-    "Drama",
-    "Música"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/WGH8A7l5pQHlO13A7QJ2t4mjvN.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
   },
   {
    "id": 1649403,
