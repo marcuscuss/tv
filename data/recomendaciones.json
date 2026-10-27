@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T22:47:17.543Z",
+ "actualizado": "2026-10-27T12:27:45.726Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -130,42 +130,6 @@
      "trailer": "vCMdNkT5KVM"
     },
     {
-     "id": 388191,
-     "title": "Mythica 4: La corona de hierro",
-     "year": "2016",
-     "release_date": "2016-05-14",
-     "overview": "Cuando el equipo de héroes secuestra un carro de combate a vapor, la joven maga Marek consigue robar la pieza final de la todopoderosa Darkspore y se embarca en una carrera desesperada para entregar el artefacto maldito bajo la custodia de los dioses. Durante su huida se ven atrapados en entre un equipo de implacables mercenarios de élite y una trinidad de los demonios, en ese momento, Marek debe aprender a creer en sí misma antes de que sus amigos esten muertos y la Darkspore se pierda, y evitar que el nigromante mal (Szorlok) se unan a la Darkspore e inunde el mundo de los vivos con sus legiones de muertos vivientes.",
-     "vote_average": 5.9,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Fantasía"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/8y3G8g7E7SXZ74XDt6gaxyfELse.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/csGtdiy96oNLLh2rcXzj77ZWL91.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/csGtdiy96oNLLh2rcXzj77ZWL91.jpg",
-     "providers": [],
-     "trailer": "2uU_EoIj3tw"
-    },
-    {
-     "id": 322484,
-     "title": "Game of Thrones The IMAX Experience",
-     "year": "2015",
-     "release_date": "2015-01-29",
-     "overview": "El primer episodio de esta proyección IMAX se lleva a cabo íntegramente en The Wall with the Night's Watch, superando irremediablemente en número a medida que intentan defender Castle Black de Wildings y presenta una de las escenas de batalla más feroces e intensas jamás filmadas para televisión. El segundo episodio, que también es el final de temporada, presenta a Dany enfrentando las realidades de gobernar un reino, Bran aprendiendo la sorprendente realidad de su destino y Tyrion enfrentando la verdad de su desafortunada situación.",
-     "vote_average": 8.6,
-     "genres": [
-      "Drama",
-      "Fantasía",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/f2FAIM29opSocIEvNvT7Muinga0.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
-     "providers": [],
-     "trailer": "qWb6opYnPTo"
-    },
-    {
      "id": 1966,
      "title": "Alejandro Magno",
      "year": "2004",
@@ -210,23 +174,22 @@
      "trailer": "M0w2jr3ftHU"
     },
     {
-     "id": 31510,
-     "title": "Ben-Hur",
-     "year": "1925",
-     "release_date": "1925-12-25",
-     "overview": "En los años del Imperio Romano del reinado de Augusto y su sucesor Tiberio, Judá Ben-Hur, hijo de una familia noble de Jerusalén, y Mesala, tribuno romano que dirige los ejércitos de ocupación, se han convertido en enemigos irreconciliables. Acusado de atentar contra la vida del nuevo gobernador romano, Mesala le encarcela junto a su familia. Cuando se llevan a Ben-Hur a galeras, un joven llamado Jesús de Nazaret se apiada de él y le da de beber.",
-     "vote_average": 7.3,
+     "id": 322484,
+     "title": "Game of Thrones The IMAX Experience",
+     "year": "2015",
+     "release_date": "2015-01-29",
+     "overview": "El primer episodio de esta proyección IMAX se lleva a cabo íntegramente en The Wall with the Night's Watch, superando irremediablemente en número a medida que intentan defender Castle Black de Wildings y presenta una de las escenas de batalla más feroces e intensas jamás filmadas para televisión. El segundo episodio, que también es el final de temporada, presenta a Dany enfrentando las realidades de gobernar un reino, Bran aprendiendo la sorprendente realidad de su destino y Tyrion enfrentando la verdad de su desafortunada situación.",
+     "vote_average": 8.6,
      "genres": [
-      "Aventura",
       "Drama",
-      "Romance",
+      "Fantasía",
       "Acción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/x65AGnMC5gS1VVf6BKbhJMQ3F6t.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/e7ooaJr9DbLIubHOycjoXG47F2S.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/e7ooaJr9DbLIubHOycjoXG47F2S.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/f2FAIM29opSocIEvNvT7Muinga0.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
      "providers": [],
-     "trailer": "ftxWZZQs-j4"
+     "trailer": "qWb6opYnPTo"
     },
     {
      "id": 324544,
@@ -251,29 +214,6 @@
      "trailer": "CMyrp5Vk3mU"
     },
     {
-     "id": 308504,
-     "title": "Los últimos caballeros",
-     "year": "2015",
-     "release_date": "2015-04-03",
-     "overview": "La historia gira en torno a una banda de guerreros que buscará venganza después de la muerte de su maestro a manos de un emperador corrupto...",
-     "vote_average": 6.4,
-     "genres": [
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mEMAwrg2KqWBcorjVH0pTvNOBfx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Atres Player",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "QStraY8MdKk"
-    },
-    {
      "id": 1253000,
      "title": "Deathstalker",
      "year": "2025",
@@ -293,6 +233,68 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "fAdo8drjc_M"
+    },
+    {
+     "id": 1911,
+     "title": "El guerrero nº 13",
+     "year": "1999",
+     "release_date": "1999-08-13",
+     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
+     "vote_average": 6.7,
+     "genres": [
+      "Aventura",
+      "Historia",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "providers": [
+      "Disney Plus",
+      "Tivify"
+     ],
+     "trailer": "RikXt796p2o"
+    },
+    {
+     "id": 340442,
+     "title": "El guardián de la reliquia",
+     "year": "2017",
+     "release_date": "2017-04-23",
+     "overview": "Una pequeña banda de monjes católicos mantiene una rutina solemne en una remota costa irlandesa. Entonces llega un extraño. Viene vestido con las ropas blancas de la orden cisterciense, con papeles y exigiendo lo impensable. Los irlandeses no tienen cabida para discutir. \"Roma ha hablado\", dice el cisterciense. \"No hay debate\". Viajando por un campo irlandés del siglo XIII lleno de clanes en guerra y conquistadores normandos, los monjes llevan la reliquia más sagrada de su tierra a Roma. La peregrinación ofrece al joven miembro del grupo una lección profunda, de fervor religioso y salvajismo de hombres que se ven a sí mismos como soldados con una causa, que centran su ambición en un objeto único y poderoso.",
+     "vote_average": 6,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/tIujNNzBxAm37vOPpW4lTJLZpmZ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/tSar2P8bHqVzTP9IKlnjGnpQ5lf.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/tSar2P8bHqVzTP9IKlnjGnpQ5lf.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Acontra Plus",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "MQZ7_Uo0OI0"
+    },
+    {
+     "id": 639933,
+     "title": "El hombre del norte",
+     "year": "2022",
+     "release_date": "2022-04-07",
+     "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
+     "vote_average": 7,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qZYvF1M7y8Gfp4S6OBHbYfB0Lgc.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qZYvF1M7y8Gfp4S6OBHbYfB0Lgc.jpg",
+     "providers": [],
+     "trailer": "7HZ4tBQEiB0"
     }
    ]
   },
@@ -628,22 +630,6 @@
      "trailer": "pVQFWvm_fbU"
     },
     {
-     "id": 88875,
-     "title": "El efecto de los rayos gamma  sobre las margaritas",
-     "year": "1972",
-     "release_date": "1972-12-20",
-     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
-     "vote_average": 7.3,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
-     "providers": [],
-     "trailer": "9U7z35zbxPk"
-    },
-    {
      "id": 1585,
      "title": "¡Qué bello es vivir!",
      "year": "1946",
@@ -662,6 +648,42 @@
       "Filmin"
      ],
      "trailer": "iLR3gZrU2Xo"
+    },
+    {
+     "id": 520318,
+     "title": "Fátima, la película",
+     "year": "2020",
+     "release_date": "2020-08-13",
+     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
+     "vote_average": 7.2,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "PvokEpA439o"
+    },
+    {
+     "id": 88875,
+     "title": "El efecto de los rayos gamma  sobre las margaritas",
+     "year": "1972",
+     "release_date": "1972-12-20",
+     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
+     "vote_average": 7.3,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "providers": [],
+     "trailer": "9U7z35zbxPk"
     },
     {
      "id": 345938,
@@ -752,20 +774,20 @@
      "trailer": "UdBBjFQYzwA"
     },
     {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
+     "id": 29697,
+     "title": "Confianza en la cosecha",
+     "year": "2006",
+     "release_date": "2006-10-27",
+     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
+     "vote_average": 7.4,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
      "providers": [],
-     "trailer": "YuMBAq-ROh4"
+     "trailer": "JxTFqsy5Pxs"
     },
     {
      "id": 127373,
@@ -785,22 +807,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "B1xClEljavQ"
-    },
-    {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "providers": [],
-     "trailer": "JxTFqsy5Pxs"
     },
     {
      "id": 1243381,
@@ -824,6 +830,22 @@
      "trailer": "CvP0RWCsr18"
     },
     {
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
+     "providers": [],
+     "trailer": "YuMBAq-ROh4"
+    },
+    {
      "id": 159389,
      "title": "Rubia, sexy, alta",
      "year": "2012",
@@ -839,23 +861,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/diF927vBIYi1uQxVpdx7W7wUuIr.jpg",
      "providers": [],
      "trailer": "42ImcufMB5Y"
-    },
-    {
-     "id": 67809,
-     "title": "Normal",
-     "year": "2003",
-     "release_date": "2003-01-21",
-     "overview": "Irma y Roy Unserwood (Lange y Wilkinson) son un matrimonio trabajador y muy religioso que acaba de celebrar sus bodas de plata. Durante todo ese tiempo Roy le ha ocultado a Irma un secreto muy íntimo: que él, en realidad, es una mujer atrapada en el cuerpo de un hombre y que sólo podrá alcanzar la serenidad si cambia de sexo. Así que Roy no tendrá más remedio que reconocer la situación ante sus amigos, sus compañeros de trabajo y sus propios hijos.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama",
-      "Película de TV"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/jIVHUZYRGW7HHirQUTen4anfYZN.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/tqK8vlWnxpOLPoE6AF6Smf8EGY1.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/alXpW39uE6ooMAux43BFptzyp8W.jpg",
-     "providers": [],
-     "trailer": "DdWur61dvqI"
     }
    ]
   },
@@ -1019,25 +1024,6 @@
      "trailer": "9sLHK4ccHGQ"
     },
     {
-     "id": 84338,
-     "title": "Simon Killer",
-     "year": "2012",
-     "release_date": "2012-04-12",
-     "overview": "Un graduado reciente en la universidad va a París después de romper una relación con su novia que duraba 5 años. Una vez allí, se enamora de una joven prostituta y comienza un viaje fatídico.",
-     "vote_average": 5.9,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/32SUAJ7JP9Jvb251J8tf9U2Si6m.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "VJICFO4lbtQ"
-    },
-    {
      "id": 1429,
      "title": "La última noche",
      "year": "2002",
@@ -1072,6 +1058,25 @@
      "trailer": "ZdZ0lUxunbA"
     },
     {
+     "id": 84338,
+     "title": "Simon Killer",
+     "year": "2012",
+     "release_date": "2012-04-12",
+     "overview": "Un graduado reciente en la universidad va a París después de romper una relación con su novia que duraba 5 años. Una vez allí, se enamora de una joven prostituta y comienza un viaje fatídico.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/32SUAJ7JP9Jvb251J8tf9U2Si6m.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "VJICFO4lbtQ"
+    },
+    {
      "id": 9280,
      "title": "Femme Fatale",
      "year": "2002",
@@ -1094,27 +1099,6 @@
      "trailer": "qTbcKBdDyBg"
     },
     {
-     "id": 19171,
-     "title": "Miedo súbito",
-     "year": "1952",
-     "release_date": "1952-08-07",
-     "overview": "El actor Lester Blaine prácticamente consiguió el papel principal en la nueva obra de Myra Hudson cuando Myra lo veta porque, para ella, no parece un 'protagonista romántico'. En un tren de Nueva York a San Francisco, Blaine se propone demostrarle a Myra que está equivocada... teniendo un romance con ella. ¿Es sincero o tiene un oscuro motivo oculto? La respuesta provoca un juego del gato y el ratón; pero ¿quién es el gato y quién el ratón?",
-     "vote_average": 7.2,
-     "genres": [
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/wlhoqwcX1ldOUPoLUZ1C2T7uU09.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "aB2w51F0t74"
-    },
-    {
      "id": 311667,
      "title": "Manhattan nocturno",
      "year": "2016",
@@ -1133,6 +1117,29 @@
       "AMC Channels Amazon Channel"
      ],
      "trailer": "5Vah3WwkfWE"
+    },
+    {
+     "id": 436932,
+     "title": "El último asalto",
+     "year": "2017",
+     "release_date": "2017-05-12",
+     "overview": "El excampeón de boxeo juvenil Jimmy McCabe, después de tocar fondo, regresa a su club de boxeo de la infancia.",
+     "vote_average": 6.1,
+     "genres": [
+      "Acción",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/mAASEjNqOwkWgvIbfjXSFTpiqVC.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/dJDQp5KVM0AeyiM4IWlkwrYJJma.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/dJDQp5KVM0AeyiM4IWlkwrYJJma.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "90CBEWV-pP0"
     }
    ]
   },
@@ -1305,26 +1312,27 @@
      "trailer": "dgWfyFgEsO8"
     },
     {
-     "id": 25690,
-     "title": "The Blackout (Oculto en la memoria)",
-     "year": "1997",
-     "release_date": "1997-06-11",
-     "overview": "Tras ser abandonado por su mujer, Matty (Matthew Modine), una gran estrella cinematográfica, se refugia en un mundo de orgías, corrupción y alcohol, hundiéndose en un oscuro túnel del que no saldrá en mucho tiempo. Dieciocho meses después, está completamente recuperado y se ha casado con Susan (Claudia Schiffer). Todo marcha bien hasta que unos extraños sueños, en los que aparece una mujer asesina, empiezan a torturarlo. Obsesionado por un pasado que no recuerda, vuelve a Miami con la esperanza de desenterrar los recuerdos ocultos en su memoria.",
-     "vote_average": 5.8,
+     "id": 396461,
+     "title": "Lo que esconde Silver Lake",
+     "year": "2018",
+     "release_date": "2018-08-08",
+     "overview": "En su apartamento de urbanización prototipo de Los Angeles, Sam (Andrew Garﬁeld) anda por la vida muerto de aburrimiento. Ningún aliciente hasta ese día en que descubre a una nueva vecina sexy, deslumbrante, inquietante, misteriosa y, de repente, desaparecida. Y aún hay mayores rarezas esperando a Sam, porque por el barrio anda suelto un asesino de perros...",
+     "vote_average": 6.3,
      "genres": [
+      "Crimen",
       "Drama",
       "Misterio"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/r3YvXUgD5yjwVEqSieWfwyR6SS2.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vyT3N9WnldkCfojnCnZzcfVl6ma.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vyT3N9WnldkCfojnCnZzcfVl6ma.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/x4pN1IVuK0o5Y0nkKWtJQhwJqo8.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/44dgugY6wBUFfJdaVOhNfr6E5g3.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/44dgugY6wBUFfJdaVOhNfr6E5g3.jpg",
      "providers": [
-      "Amazon Prime Video",
-      "FlixOlé",
-      "FlixOlé Amazon Channel",
-      "Amazon Prime Video with Ads"
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "Filmin",
+      "MUBI"
      ],
-     "trailer": "S2PqjYSirus"
+     "trailer": "U84SbxKc6W8"
     },
     {
      "id": 8066,
@@ -1347,29 +1355,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "wQs35Rka34A"
-    },
-    {
-     "id": 396461,
-     "title": "Lo que esconde Silver Lake",
-     "year": "2018",
-     "release_date": "2018-08-08",
-     "overview": "En su apartamento de urbanización prototipo de Los Angeles, Sam (Andrew Garﬁeld) anda por la vida muerto de aburrimiento. Ningún aliciente hasta ese día en que descubre a una nueva vecina sexy, deslumbrante, inquietante, misteriosa y, de repente, desaparecida. Y aún hay mayores rarezas esperando a Sam, porque por el barrio anda suelto un asesino de perros...",
-     "vote_average": 6.3,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/x4pN1IVuK0o5Y0nkKWtJQhwJqo8.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/44dgugY6wBUFfJdaVOhNfr6E5g3.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/44dgugY6wBUFfJdaVOhNfr6E5g3.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin",
-      "MUBI"
-     ],
-     "trailer": "U84SbxKc6W8"
     },
     {
      "id": 1052,
@@ -1430,6 +1415,24 @@
       "Filmin"
      ],
      "trailer": "_-NGkn9aupw"
+    },
+    {
+     "id": 11761,
+     "title": "El misterio de Peacock",
+     "year": "2010",
+     "release_date": "2010-04-20",
+     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "providers": [],
+     "trailer": "NPEzcAG4E5s"
     }
    ]
   },
@@ -1484,24 +1487,6 @@
      "trailer": "xyNVTkemjgQ"
     },
     {
-     "id": 36373,
-     "title": "M",
-     "year": "1951",
-     "release_date": "1951-03-01",
-     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
-     "vote_average": 6.5,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "providers": [],
-     "trailer": "IovfalMQ6lQ"
-    },
-    {
      "id": 587986,
      "title": "Ventajas de viajar en tren",
      "year": "2019",
@@ -1524,21 +1509,22 @@
      "trailer": "FgS_tWjkLN4"
     },
     {
-     "id": 20637,
-     "title": "Pánico",
-     "year": "2000",
-     "release_date": "2000-12-01",
-     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
-     "vote_average": 6.2,
+     "id": 36373,
+     "title": "M",
+     "year": "1951",
+     "release_date": "1951-03-01",
+     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
+     "vote_average": 6.5,
      "genres": [
       "Crimen",
-      "Drama"
+      "Drama",
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
      "providers": [],
-     "trailer": "h6qvVd-jg4Y"
+     "trailer": "IovfalMQ6lQ"
     },
     {
      "id": 127521,
@@ -1559,23 +1545,21 @@
      "trailer": "ioIknR8KQmk"
     },
     {
-     "id": 862552,
-     "title": "El asesino del ritual",
-     "year": "2023",
-     "release_date": "2023-03-09",
-     "overview": "Un detective al borde de la jubilación se une a un profesor de estudios africanos para localizar a un asesino en serie que está realizando la antigua práctica de magia negra de Muti.",
-     "vote_average": 5.8,
+     "id": 20637,
+     "title": "Pánico",
+     "year": "2000",
+     "release_date": "2000-12-01",
+     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
+     "vote_average": 6.2,
      "genres": [
-      "Misterio",
-      "Suspense",
-      "Acción",
+      "Crimen",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/dv1V0r6p9PeaOZlvaITDhTTyVKs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
      "providers": [],
-     "trailer": "DIa__DpZX9U"
+     "trailer": "h6qvVd-jg4Y"
     },
     {
      "id": 20482,
@@ -1599,26 +1583,45 @@
      "trailer": "-RN_BvyNpS8"
     },
     {
-     "id": 30014,
-     "title": "La casa del río",
-     "year": "1950",
-     "release_date": "1950-03-23",
-     "overview": "Stephen Byrne, un escritor fracasado, aprovechando la ausencia de su mujer, intenta seducir a una criada, a la que mata involuntariamente. A continuación convence a su hermano para que le ayude a deshacerse del cadáver. (FILMAFFINITY)",
-     "vote_average": 6.8,
+     "id": 46041,
+     "title": "Conspiración en Berlín",
+     "year": "1966",
+     "release_date": "1966-11-10",
+     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
+     "vote_average": 5.9,
      "genres": [
       "Suspense",
-      "Crimen",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "FlixOlé",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "yakSWyVSNUs"
+    },
+    {
+     "id": 862552,
+     "title": "El asesino del ritual",
+     "year": "2023",
+     "release_date": "2023-03-09",
+     "overview": "Un detective al borde de la jubilación se une a un profesor de estudios africanos para localizar a un asesino en serie que está realizando la antigua práctica de magia negra de Muti.",
+     "vote_average": 5.8,
+     "genres": [
+      "Misterio",
+      "Suspense",
+      "Acción",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/yvHfKSDYIxRVDpOnM3yqOjtnTzK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
-     "providers": [
-      "Filmin",
-      "MUBI",
-      "MUBI Amazon Channel"
-     ],
-     "trailer": ""
+     "poster": "https://image.tmdb.org/t/p/w342/dv1V0r6p9PeaOZlvaITDhTTyVKs.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
+     "providers": [],
+     "trailer": "DIa__DpZX9U"
     },
     {
      "id": 1621552,
@@ -1663,6 +1666,24 @@
      "trailer": "I-wlmGEXJAM"
     },
     {
+     "id": 48129,
+     "title": "Run, perseguido por todos",
+     "year": "1991",
+     "release_date": "1991-02-01",
+     "overview": "Después de una pelea en un casino a causa de una partida de póker, un estudiante es acusado injustamente del asesinato del hijo de un jefe de la mafia. A partir de ese momento, el joven tendrá que huir no sólo de los sicarios del gángster, sino también de todos los policías corruptos de la ciudad. (FILMAFFINITY)",
+     "vote_average": 6,
+     "genres": [
+      "Acción",
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/1zlFPRgfnhdUD04siut4BWGo0tf.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8N1nF47M1TI2UmlkpBI54WFwiYm.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8N1nF47M1TI2UmlkpBI54WFwiYm.jpg",
+     "providers": [],
+     "trailer": "gpcO-cUR_1A"
+    },
+    {
      "id": 950063,
      "title": "El diablo que conoces",
      "year": "2022",
@@ -1683,43 +1704,24 @@
      "trailer": "eb_ZpN98pg8"
     },
     {
-     "id": 48129,
-     "title": "Run, perseguido por todos",
-     "year": "1991",
-     "release_date": "1991-02-01",
-     "overview": "Después de una pelea en un casino a causa de una partida de póker, un estudiante es acusado injustamente del asesinato del hijo de un jefe de la mafia. A partir de ese momento, el joven tendrá que huir no sólo de los sicarios del gángster, sino también de todos los policías corruptos de la ciudad. (FILMAFFINITY)",
-     "vote_average": 6,
-     "genres": [
-      "Acción",
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1zlFPRgfnhdUD04siut4BWGo0tf.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8N1nF47M1TI2UmlkpBI54WFwiYm.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8N1nF47M1TI2UmlkpBI54WFwiYm.jpg",
-     "providers": [],
-     "trailer": "gpcO-cUR_1A"
-    },
-    {
-     "id": 613099,
-     "title": "Legado en los huesos",
-     "year": "2019",
-     "release_date": "2019-12-05",
-     "overview": "En esta continuación de El guardián invisible Amaia Salazar, inspectora de homicidios de la Policía Foral, tendrá que seguir los pasos de un tarttalo (un ser que según la mitología local caza pastores y doncellas) a la vez que descubre por primera vez lo que implica la maternidad. Pero ni siquiera el nacimiento de su primer hijo hace que se alejen los fantasmas del pasado, esos que creía exiliados a otro mundo…",
+     "id": 1145725,
+     "title": "Duplicidad, de Tyler Perry",
+     "year": "2025",
+     "release_date": "2025-03-19",
+     "overview": "La brillante abogada Marley se enfrenta a su caso más personal cuando le encargan que descubra la verdad sobre el asesinato del marido de su mejor amiga, Fela. Con ayuda de su novio, un antiguo policía que ahora es detective privado, las pesquisas de Marley sobre lo que realmente ocurrió la llevan por un peligroso laberinto de engaños y traiciones.",
      "vote_average": 6.6,
      "genres": [
       "Suspense",
-      "Crimen",
-      "Misterio"
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/r9t2himGKFSKWjjUdpRLFQkafj7.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/isazfkX14Unin8m6meZMfm7QDfn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/isazfkX14Unin8m6meZMfm7QDfn.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/k4fJun2pJ70BBFMgGAZddk3m7sg.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qSh3Aav8Kcoe2D2Azr8Bh1J0HAa.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qSh3Aav8Kcoe2D2Azr8Bh1J0HAa.jpg",
      "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
      ],
-     "trailer": "vv-at2_dfwk"
+     "trailer": "i6NvYfJwq-U"
     }
    ]
   }
