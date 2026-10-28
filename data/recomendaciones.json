@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T13:14:05.652Z",
+ "actualizado": "2026-10-28T22:42:25.248Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -767,7 +767,7 @@
      "year": "2024",
      "release_date": "2024-12-19",
      "overview": "El ex-Green Beret Jeff Eriksson acepta un trabajo como jefe de seguridad en un elaborado complejo de preparación, 'The Homestead', mientras el mundo se desmorona. En el interior se enfrentan a guerras por recursos y conflictos ideológicos, mientras que en el exterior reina el caos. En medio del caos, la unidad y las verdades olvidadas emergen a medida que el amor crece en lugares inesperados y la comunidad se esfuerza por cultivar la tierra y defenderse de la destrucción inminente.",
-     "vote_average": 6.5,
+     "vote_average": 6.4,
      "genres": [
       "Drama"
      ],
@@ -2128,24 +2128,6 @@
      "trailer": "aIo4Adm96EA"
     },
     {
-     "id": 539,
-     "title": "Psicosis",
-     "year": "1960",
-     "release_date": "1960-06-22",
-     "overview": "Una joven secretaria, tras cometer un robo, se marcha de la ciudad y conduce durante horas, parando para descansar en un pequeño motel de carretera regentado por un joven llamado Norman. Todo parece normal y tranquilo en el apartado motel y en la casa de al lado en la que viven Norman y su madre pero, mientras está en la ducha, la joven es asesinada salvajemente a cuchilladas.",
-     "vote_average": 8.4,
-     "genres": [
-      "Terror",
-      "Suspense",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xFbnc2QPG5H5gYWsGbZT4q8Akya.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
-     "providers": [],
-     "trailer": "mC2gOyWuSEY"
-    },
-    {
      "id": 1383731,
      "title": "Instinto protector",
      "year": "2026",
@@ -2164,6 +2146,24 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "IRKGIuL3728"
+    },
+    {
+     "id": 539,
+     "title": "Psicosis",
+     "year": "1960",
+     "release_date": "1960-06-22",
+     "overview": "Una joven secretaria, tras cometer un robo, se marcha de la ciudad y conduce durante horas, parando para descansar en un pequeño motel de carretera regentado por un joven llamado Norman. Todo parece normal y tranquilo en el apartado motel y en la casa de al lado en la que viven Norman y su madre pero, mientras está en la ducha, la joven es asesinada salvajemente a cuchilladas.",
+     "vote_average": 8.4,
+     "genres": [
+      "Terror",
+      "Suspense",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xFbnc2QPG5H5gYWsGbZT4q8Akya.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+     "providers": [],
+     "trailer": "mC2gOyWuSEY"
     },
     {
      "id": 12493,
@@ -3604,6 +3604,26 @@
     "trailer": "VfBCYaGu7Ts"
    },
    {
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.7,
+    "genres": [
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
+    ],
+    "trailer": "Y2u6m2W428g"
+   },
+   {
     "id": 331482,
     "title": "Mujercitas",
     "year": "2019",
@@ -3623,26 +3643,6 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "6SN9-6uST80"
-   },
-   {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.7,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
    },
    {
     "id": 360920,
@@ -3691,31 +3691,6 @@
     "trailer": "RcER0_lZ2F4"
    },
    {
-    "id": 5994,
-    "title": "Family Man",
-    "year": "2000",
-    "release_date": "2000-12-12",
-    "overview": "Jack Campbell es un egocéntrico broker de Wall Street cuya única obsesión es el trabajo y una vida llena de lujo. Tras un incidente en una tienda el día de Nochebuena, se despierta viviendo otra vida: es un humilde vendedor de neumáticos de Nueva Jersey, casado con su antigua novia Kate, a la que había abandonado hacía años para que no obstaculizara su carrera en el mundo de las finanzas.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Drama",
-     "Romance",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/f0nMpSWmT1o1INXl1ZMe78bz9i.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total ",
-     "Atres Player",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "Hzw-p2PfBeU"
-   },
-   {
     "id": 1621,
     "title": "Entre pillos anda el juego",
     "year": "1983",
@@ -3732,25 +3707,24 @@
     "trailer": "rxz036jbrmI"
    },
    {
-    "id": 9489,
-    "title": "Tienes un e-mail",
-    "year": "1998",
-    "release_date": "1998-12-18",
-    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
-    "vote_average": 6.7,
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
     "genres": [
-     "Comedia",
-     "Romance"
+     "Drama",
+     "Familia",
+     "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
     "providers": [
-     "Amazon Prime Video",
-     "Tivify",
-     "Amazon Prime Video with Ads"
+     "Filmin"
     ],
-    "trailer": "AKlhYZ-HqKs"
+    "trailer": "iLR3gZrU2Xo"
    },
    {
     "id": 81188,
@@ -3771,6 +3745,27 @@
     "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
     "providers": [],
     "trailer": "e4bdD8owgDU"
+   },
+   {
+    "id": 899112,
+    "title": "Noche de paz",
+    "year": "2022",
+    "release_date": "2022-11-30",
+    "overview": "Cuando un equipo de mercenarios irrumpe en Nochebuena dentro de un complejo familiar adinerado y toma como rehenes a todos los que están dentro, no estaban preparados para un defensor sorpresa: Santa Claus (David Harbour) está en el edificio y a punto de demostrar por qué este Santa Claus, no es ningún santo.",
+    "vote_average": 7.2,
+    "genres": [
+     "Acción",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/piA9ny345UyIMGp0lKYtPJ3RKCa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
+    "providers": [
+     "Netflix",
+     "Netflix Standard with Ads"
+    ],
+    "trailer": "MUDqcnalsLg"
    },
    {
     "id": 8871,
@@ -3794,49 +3789,50 @@
     "trailer": "SL0YugjtkiI"
    },
    {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
-   },
-   {
-    "id": 5255,
-    "title": "Polar Express",
-    "year": "2004",
-    "release_date": "2004-11-10",
-    "overview": "Esta es la historia de un jovencito en la víspera de Navidad quien aborda un poderoso y mágico tren que se dirige al hogar de Papá Noel, en el Polo Norte. Lo que se desarrolla es una aventura que sigue al dubitativo niño, quien toma un tren extraordinario al Polo Norte; durante este viaje, se embarca en una experiencia de autodescubrimiento que le muestra que las maravillas de la vida nunca se desvanecen para quienes creen.",
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
     "vote_average": 6.7,
     "genres": [
-     "Aventura",
-     "Animación",
-     "Familia",
-     "Fantasía"
+     "Comedia",
+     "Romance"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
     "providers": [
      "Amazon Prime Video",
-     "Movistar Plus+ Ficción Total ",
-     "HBO Max",
-     "Amazon Prime Video with Ads",
-     "HBO Max Amazon Channel"
+     "Tivify",
+     "Amazon Prime Video with Ads"
     ],
-    "trailer": "4XkHPphBN_Q"
+    "trailer": "AKlhYZ-HqKs"
+   },
+   {
+    "id": 5994,
+    "title": "Family Man",
+    "year": "2000",
+    "release_date": "2000-12-12",
+    "overview": "Jack Campbell es un egocéntrico broker de Wall Street cuya única obsesión es el trabajo y una vida llena de lujo. Tras un incidente en una tienda el día de Nochebuena, se despierta viviendo otra vida: es un humilde vendedor de neumáticos de Nueva Jersey, casado con su antigua novia Kate, a la que había abandonado hacía años para que no obstaculizara su carrera en el mundo de las finanzas.",
+    "vote_average": 6.8,
+    "genres": [
+     "Comedia",
+     "Drama",
+     "Romance",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/f0nMpSWmT1o1INXl1ZMe78bz9i.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Movistar Plus+",
+     "Movistar Plus+ Ficción Total ",
+     "Atres Player",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "Hzw-p2PfBeU"
    }
   ],
   "romance": [
