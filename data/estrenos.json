@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T22:25:25.453Z",
+ "actualizado": "2026-10-28T05:56:31.702Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -35,37 +35,38 @@
    "fondo": "https://image.tmdb.org/t/p/original/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg"
   },
   {
-   "id": 1423191,
-   "title": "Resident Evil",
-   "release_date": "2026-09-17",
-   "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
-   "vote_average": 7.3,
+   "id": 791523,
+   "title": "Wildwood: El Bosque Salvaje",
+   "release_date": "2026-10-23",
+   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
+   "vote_average": 8.6,
    "genres": [
-    "Terror",
-    "Ciencia ficción",
-    "Aventura"
+    "Animación",
+    "Aventura",
+    "Fantasía"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/vrLEVObLGbUinE4sC4Lqao2dK0E.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/vqNSvCFknXObgqn7nOFrJVEeGht.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
    "providers": [],
-   "trailer": "d6oszs7f5aI",
-   "fondo": "https://image.tmdb.org/t/p/original/vqNSvCFknXObgqn7nOFrJVEeGht.jpg"
+   "trailer": "qWX1ba0f-Qg",
+   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
-   "id": 1228834,
-   "title": "Operación Teherán",
-   "release_date": "2026-09-18",
-   "overview": "Tras el final de la guerra en Afganistán, un grupo de exoperadores de la CIA se han quedado marcados por la violencia, el abandono y la culpa. Sin patria ni propósitos a corto plazo, aceptan una última misión y viajan a Teherán para llevar a cabo un golpe arriesgado e ilegal que podría ser su opción para perdonarse a sí mismos o para acabar del todo. Mientras el pasado los persigue y la desconfianza entre ellos va en aumento, la operación se transforma en una prueba moral en la que tendrán que decidir si ser soldados obedientes o son hombres dispuestos a recuperar el control de sus vidas.",
-   "vote_average": 6.1,
+   "id": 1283515,
+   "title": "Verity. La sombra de un engaño",
+   "release_date": "2026-10-02",
+   "overview": "Lowen Ashleigh es contratada como escritora fantasma por Jeremy Crawford para escribir las novelas de su esposa Verity, autora de bestsellers, impedida tras un accidente. Lowen descubre las inquietantes verdades de Verity mientras reside en casa de los Crawford para trabajar.",
+   "vote_average": 6.4,
    "genres": [
-    "Acción",
-    "Suspense"
+    "Misterio",
+    "Suspense",
+    "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/5uB1PWP3QHEcgMXKChsaYmtTUkQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
    "providers": [],
-   "trailer": "C5BqIzjMmJw",
-   "fondo": "https://image.tmdb.org/t/p/original/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg"
+   "trailer": "P-QWhkimt50",
+   "fondo": "https://image.tmdb.org/t/p/original/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg"
   },
   {
    "id": 1153576,
@@ -84,21 +85,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg"
   },
   {
-   "id": 791523,
-   "title": "Wildwood: El Bosque Salvaje",
-   "release_date": "2026-10-23",
-   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.6,
+   "id": 1465063,
+   "title": "La Isla Olvidada",
+   "release_date": "2026-09-25",
+   "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
+   "vote_average": 7.6,
    "genres": [
     "Animación",
     "Aventura",
-    "Fantasía"
+    "Fantasía",
+    "Comedia",
+    "Familia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
    "providers": [],
-   "trailer": "qWX1ba0f-Qg",
-   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
+   "trailer": "uW2uWXiBpIs",
+   "fondo": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg"
   },
   {
    "id": 1400837,
@@ -116,6 +119,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
   },
   {
+   "id": 1503762,
+   "title": "Sentido y sensibilidad",
+   "release_date": "2026-10-23",
+   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
+   "vote_average": 7.4,
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+   "providers": [],
+   "trailer": "GMwdcpKOOyY",
+   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
+  },
+  {
    "id": 1255833,
    "title": "Whalefall",
    "release_date": "2026-10-16",
@@ -129,39 +148,6 @@
    "providers": [],
    "trailer": "5webTf9wplE",
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
-  },
-  {
-   "id": 1248832,
-   "title": "Digger",
-   "release_date": "2026-10-02",
-   "overview": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo.",
-   "vote_average": 7.5,
-   "genres": [
-    "Comedia",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
-   "providers": [],
-   "trailer": "xU2jWSsaWY0",
-   "fondo": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg"
-  },
-  {
-   "id": 1204680,
-   "title": "Coyote vs. Acme",
-   "release_date": "2026-09-18",
-   "overview": "Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
-   "vote_average": 7.5,
-   "genres": [
-    "Comedia",
-    "Aventura",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/vWFz9spZFBkJvForuYrKK2ntOLB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7GOW6jod9lLurW5utokAatxg7ql.jpg",
-   "providers": [],
-   "trailer": "WQRoa6l4bwI",
-   "fondo": "https://image.tmdb.org/t/p/original/7GOW6jod9lLurW5utokAatxg7ql.jpg"
   },
   {
    "id": 1263337,
@@ -180,71 +166,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/bicMU6xVD5deVyKP2azpyx7xkmH.jpg"
   },
   {
-   "id": 1281331,
-   "title": "El Precio de la Red",
-   "release_date": "2026-10-09",
-   "overview": "Explora las prácticas internas de Facebook, la difusión de información falsa, el impacto en la salud mental de los adolescentes y la conexión con los eventos del 6 de enero en el Capitolio.",
-   "vote_average": 7,
-   "genres": [
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
-   "providers": [],
-   "trailer": "cNbAPdz04UE",
-   "fondo": "https://image.tmdb.org/t/p/original/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg"
-  },
-  {
-   "id": 1503762,
-   "title": "Sentido y sensibilidad",
-   "release_date": "2026-10-23",
-   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.3,
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
-   "providers": [],
-   "trailer": "GMwdcpKOOyY",
-   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
-  },
-  {
-   "id": 1283515,
-   "title": "Verity. La sombra de un engaño",
+   "id": 1248832,
+   "title": "Digger",
    "release_date": "2026-10-02",
-   "overview": "Lowen Ashleigh es contratada como escritora fantasma por Jeremy Crawford para escribir las novelas de su esposa Verity, autora de bestsellers, impedida tras un accidente. Lowen descubre las inquietantes verdades de Verity mientras reside en casa de los Crawford para trabajar.",
-   "vote_average": 6.4,
-   "genres": [
-    "Misterio",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/t1rkXeUMJzsCS142ctqzbz4zGq7.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
-   "providers": [],
-   "trailer": "P-QWhkimt50",
-   "fondo": "https://image.tmdb.org/t/p/original/zrGI2Lm89fgR5ntysKLmEPgNrdV.jpg"
-  },
-  {
-   "id": 1465063,
-   "title": "La isla olvidada",
-   "release_date": "2026-09-25",
-   "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
+   "overview": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo.",
    "vote_average": 7.5,
    "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía",
     "Comedia",
-    "Familia"
+    "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
    "providers": [],
-   "trailer": "uW2uWXiBpIs",
-   "fondo": "https://image.tmdb.org/t/p/original/cNICUho5uiAGkfCAQq1ihyaMla4.jpg"
+   "trailer": "xU2jWSsaWY0",
+   "fondo": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg"
   },
   {
    "id": 1422041,
@@ -263,6 +198,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
   },
   {
+   "id": 1281331,
+   "title": "El Precio de la Red",
+   "release_date": "2026-10-09",
+   "overview": "Explora las prácticas internas de Facebook, la difusión de información falsa, el impacto en la salud mental de los adolescentes y la conexión con los eventos del 6 de enero en el Capitolio.",
+   "vote_average": 7,
+   "genres": [
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+   "providers": [],
+   "trailer": "cNbAPdz04UE",
+   "fondo": "https://image.tmdb.org/t/p/original/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg"
+  },
+  {
    "id": 1244523,
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
@@ -277,6 +228,24 @@
    "providers": [],
    "trailer": "MQKqgFVU4dQ",
    "fondo": "https://image.tmdb.org/t/p/original/ug82yegbLgpat7COIhqhQ4W8ZBx.jpg"
+  },
+  {
+   "id": 1437396,
+   "title": "Tu madre, tu madre, tu madre",
+   "release_date": "2026-10-28",
+   "overview": "Latif, un sicario profundamente religioso, lucha por equilibrar el trabajo, la fe y su papel como padre. Tras la muerte de su esposa, emprende un viaje desesperado por Houston para proteger a sus hijos, enfrentándose tanto a las fuerzas que lo acorralan como a las creencias que amenazan con desmoronarse en su interior.",
+   "vote_average": 7.6,
+   "genres": [
+    "Acción",
+    "Crimen",
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+   "providers": [],
+   "trailer": "uEcoV-ngH38",
+   "fondo": "https://image.tmdb.org/t/p/original/jiFLiatBtBALlAzV5R72gzspBad.jpg"
   },
   {
    "id": 1572116,
@@ -327,127 +296,42 @@
    "providers": [],
    "trailer": "vtEnjikCXyA",
    "fondo": "https://image.tmdb.org/t/p/original/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg"
+  },
+  {
+   "id": 1542261,
+   "title": "Doraemon: Nobita y el nuevo castillo del diablo submarino",
+   "release_date": "2026-10-09",
+   "overview": "Nobita y sus amigos descubren un castillo submarino secreto repleto de misterios y riquezas. Con los ingeniosos artilugios de Doraemon, se sumergen en una aventura oceánica que combina humor, trabajo en equipo e imaginación en un impresionante mundo acuático.",
+   "vote_average": 6.9,
+   "genres": [
+    "Animación",
+    "Aventura",
+    "Fantasía",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/wPzyoIvJBOXFnuGWgu09gnlO26K.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pxd9rc03EMMln3tVFdfd427Fpsi.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/pxd9rc03EMMln3tVFdfd427Fpsi.jpg"
+  },
+  {
+   "id": 1727734,
+   "title": "Ali G: Kién es yo?",
+   "release_date": "2026-10-23",
+   "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
+   "vote_average": 6.8,
+   "genres": [
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+   "providers": [],
+   "trailer": "pV32AcPa-iA",
+   "fondo": "https://image.tmdb.org/t/p/original/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg"
   }
  ],
  "upcoming": [
-  {
-   "id": 1437396,
-   "title": "Tu madre, tu madre, tu madre",
-   "release_date": "2026-10-28",
-   "overview": "Latif, un sicario profundamente religioso, lucha por equilibrar el trabajo, la fe y su papel como padre. Tras la muerte de su esposa, emprende un viaje desesperado por Houston para proteger a sus hijos, enfrentándose tanto a las fuerzas que lo acorralan como a las creencias que amenazan con desmoronarse en su interior.",
-   "vote_average": 7.6,
-   "genres": [
-    "Acción",
-    "Crimen",
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
-   "providers": [],
-   "trailer": "uEcoV-ngH38",
-   "fondo": "https://image.tmdb.org/t/p/original/jiFLiatBtBALlAzV5R72gzspBad.jpg"
-  },
-  {
-   "id": 1058424,
-   "title": "Hope",
-   "release_date": "2026-10-30",
-   "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
-   "vote_average": 6.7,
-   "genres": [
-    "Ciencia ficción",
-    "Misterio",
-    "Acción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/lkWqvj24NG3vEgu19ZQ9erG3Vj7.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg",
-   "providers": [],
-   "trailer": "OFaJzL83y0Q",
-   "fondo": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg"
-  },
-  {
-   "id": 1284046,
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
-   "genres": [
-    "Acción",
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-   "providers": [],
-   "trailer": "AMLCbpM1fRQ",
-   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
-  },
-  {
-   "id": 858035,
-   "title": "Klara y el Sol",
-   "release_date": "2026-10-30",
-   "overview": "Una niña robot, creada con el propósito de prevenir la soledad, se propone salvar a una familia de humanos con el corazón roto.",
-   "vote_average": 5.7,
-   "genres": [
-    "Ciencia ficción",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/5bHjVU75RMNAbfYRZidFwuDjniD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg",
-   "providers": [],
-   "trailer": "v-Gy7zfOqAg",
-   "fondo": "https://image.tmdb.org/t/p/original/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg"
-  },
-  {
-   "id": 1195803,
-   "title": "Wicker",
-   "release_date": "2026-10-30",
-   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.9,
-   "genres": [
-    "Romance",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
-   "providers": [],
-   "trailer": "jA5zfiikcu8",
-   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
-  },
-  {
-   "id": 1477104,
-   "title": "La Oveja Shaun: Misión Calabaza",
-   "release_date": "2026-10-30",
-   "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.3,
-   "genres": [
-    "Animación",
-    "Ciencia ficción",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-   "providers": [],
-   "trailer": "daZMq0AyOMc",
-   "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
-  },
-  {
-   "id": 1564614,
-   "title": "Leviticus",
-   "release_date": "2026-10-30",
-   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
-   "vote_average": 6.8,
-   "genres": [
-    "Terror",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/tGS5jugRsn7KwZLrvkqWeMtR7nB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
-   "providers": [],
-   "trailer": "WXuK0vlFxII",
-   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
-  },
   {
    "id": 1404684,
    "title": "Tiempos de ilusión",
@@ -541,22 +425,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/ctYSnZoIGqow4txdITts8JmTjTT.jpg"
-  },
-  {
-   "id": 1748404,
-   "title": "Always Yours, Never Mine",
-   "release_date": "2026-11-01",
-   "overview": "",
-   "vote_average": 5,
-   "genres": [
-    "Romance",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/sDAbgrVhhdQxkPQwtBWpGhVtJ5b.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg",
-   "providers": [],
-   "trailer": "mI2_DVu08dI",
-   "fondo": "https://image.tmdb.org/t/p/original/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg"
   },
   {
    "id": 1381071,
@@ -659,6 +527,133 @@
    "providers": [],
    "trailer": "H_NwyHRY9yk",
    "fondo": "https://image.tmdb.org/t/p/original/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg"
+  },
+  {
+   "id": 1217954,
+   "title": "Lucy Lost",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Aventura",
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Bélica"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ucEnLbYQDdzE0bjGPhnVEbdu7kd.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg",
+   "providers": [],
+   "trailer": "tfSC5woL_ik",
+   "fondo": "https://image.tmdb.org/t/p/original/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg"
+  },
+  {
+   "id": 1468846,
+   "title": "Species (Sanguine)",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Ciencia ficción",
+    "Terror"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/fDvZvNmLIwUcKKQ4Cfb6TmQJM7M.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/jySTVXi8UDajVgYh01KavKtY4YJ.jpg"
+  },
+  {
+   "id": 1755565,
+   "title": "11",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/7pksyM5i9GeCJzlDscQ5te13vaL.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
+  },
+  {
+   "id": 1371661,
+   "title": "Sacamantecas",
+   "release_date": "2026-11-06",
+   "overview": "Álava, finales del siglo XIX. Mientras la III Guerra Carlista agoniza, varias mujeres aparecen estranguladas en las afueras de Vitoria. Ángela Berrosteguieta, hermana de una de las víctimas, llega en busca de justicia, decidida a demostrar que Juan Díaz de Garayo, un campesino analfabeto, es el responsable de los crímenes. Sin embargo, Pío Pinedo, jefe de los alguaciles, se enfrenta a la falta de recursos en tiempos de guerra y a la presión de las autoridades, que prefieren ocultar la creciente ola de asesinatos.",
+   "vote_average": 0,
+   "genres": [
+    "Drama",
+    "Historia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/7338FnwdzX9oNpODZIJH1OliUGV.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rs4w35BjZU8L2CihVNIyGIrxU2W.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/rs4w35BjZU8L2CihVNIyGIrxU2W.jpg"
+  },
+  {
+   "id": 1522071,
+   "title": "Ruega por nosotras",
+   "release_date": "2026-11-06",
+   "overview": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/vgAae3dWzJoFuGQbRaKvSCmogDq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
+   "providers": [],
+   "trailer": "JYAoX8VqKw0",
+   "fondo": "https://image.tmdb.org/t/p/original/dcms6atcKVzYPMWJwvltYkaq2zf.jpg"
+  },
+  {
+   "id": 1662674,
+   "title": "L'ombra d'algú",
+   "release_date": "2026-11-06",
+   "overview": "Un cineasta pierde el sentido de su ser cuando una tarde en la montaña de Montjuic la vida le cambia para siempre.",
+   "vote_average": 0,
+   "genres": [
+    "Ciencia ficción",
+    "Drama",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/eqDwlJK2F0vlXpvnaN3Nvw0tt71.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/uiGseurlguR2S2szCKd7HBQjXTY.jpg",
+   "providers": [],
+   "trailer": "CVU32pWU6YU",
+   "fondo": "https://image.tmdb.org/t/p/original/uiGseurlguR2S2szCKd7HBQjXTY.jpg"
+  },
+  {
+   "id": 1745146,
+   "title": "Tunnel Vision",
+   "release_date": "2026-11-07",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/43ShkCuMKVjUf5f52g2FRFbPePO.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pjLlciAYMGUT6wmSPP7OXOkq4Jq.jpg",
+   "providers": [],
+   "trailer": "q_Rs3VZHWKM",
+   "fondo": "https://image.tmdb.org/t/p/original/pjLlciAYMGUT6wmSPP7OXOkq4Jq.jpg"
+  },
+  {
+   "id": 1802770,
+   "title": "EXO PLANET #6 - EXhOrizon [dot] in CINEMAS",
+   "release_date": "2026-11-08",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [],
+   "poster": "",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
   }
  ],
  "region": "ES"
