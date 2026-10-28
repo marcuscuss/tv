@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T05:56:31.702Z",
+ "actualizado": "2026-10-28T13:13:35.678Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -320,112 +320,18 @@
    "title": "Ali G: Kién es yo?",
    "release_date": "2026-10-23",
    "overview": "Tras veinte años dedicados a «relajarse, fumar y follar», Ali G se queda atónito al descubrir que Julie, su novia de toda la vida, está embarazada de ocho meses. Ante la perspectiva de tener una boca más que alimentar, deja de holgazanear y pone rumbo a Estados Unidos para recuperar su antigua gloria... pero pronto se topa con adversarios que acabarán amenazando su propia existencia y la de su hijo.",
-   "vote_average": 6.8,
+   "vote_average": 7,
    "genres": [
     "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qp8SJuT4E8jOU0yb6L3d1dXMgA0.jpg",
    "providers": [],
    "trailer": "pV32AcPa-iA",
    "fondo": "https://image.tmdb.org/t/p/original/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg"
   }
  ],
  "upcoming": [
-  {
-   "id": 1404684,
-   "title": "Tiempos de ilusión",
-   "release_date": "2026-10-30",
-   "overview": "1985. Vincent, de casi 13 años, vive en las afueras de París en el seno de una familia de clase media, entre un hermano mayor distante y unos padres en conflicto constante. Aunque ya no es un niño pero tampoco un adulto, la película sigue sus reflexiones y dudas sobre la identidad, la amistad y la familia, así como sus interrogantes acerca de la religión, el deseo y el amor.",
-   "vote_average": 7.3,
-   "genres": [
-    "Comedia",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/l1fhfzNclQcp4oBz550KMY0CTre.jpg",
-   "providers": [],
-   "trailer": "vZtK0AdeXk8",
-   "fondo": "https://image.tmdb.org/t/p/original/3ZJW3mLqfG8kBxt6illE8I2qW7t.jpg"
-  },
-  {
-   "id": 1548369,
-   "title": "Gungo y Los Juegos Cavernícolas",
-   "release_date": "2026-10-30",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Animación",
-    "Comedia",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gv9Mmo1jhwtHfEoNKIUVy1EWzpg.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
-  },
-  {
-   "id": 1365224,
-   "title": "Karateka",
-   "release_date": "2026-10-30",
-   "overview": "Biopic sobre la inspiradora historia de la campeona olímpica Sandra Sánchez, la mejor karateka de todos los tiempos.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bJh97VEUn9TWygQSrOOyJrwQXek.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/s8Kp6nJa6HtsUoHXFxG2wrN7PAw.jpg",
-   "providers": [],
-   "trailer": "W0QNH-Nb9O4",
-   "fondo": "https://image.tmdb.org/t/p/original/s8Kp6nJa6HtsUoHXFxG2wrN7PAw.jpg"
-  },
-  {
-   "id": 1547311,
-   "title": "Esta soledad",
-   "release_date": "2026-10-30",
-   "overview": "Tras el final de una relación después de cinco años, los dos miembros de la misma intentan salir adelante, lidiando con los problemas en sus vidas personales.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gDsAXwxRwH9nQCv1z5GvqVwPnTI.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/zppmTC0qSPBV7zJmzzXkt3aCuyj.jpg",
-   "providers": [],
-   "trailer": "Z73fH3guhYQ",
-   "fondo": "https://image.tmdb.org/t/p/original/zppmTC0qSPBV7zJmzzXkt3aCuyj.jpg"
-  },
-  {
-   "id": 1549854,
-   "title": "You no Mashallah!",
-   "release_date": "2026-10-30",
-   "overview": "Usman es un joven emigrante sin papeles que, como tantos otros, llegó a Europa en busca de una vida mejor. Sin embargo, lo único que Europa tiene para él es una vida precaria. Vive en un piso de camas calientes y trabaja como repartidor de comida a domicilio. En tan solo 24 horas el delicado equilibrio que le sostiene va a dar un vuelco, obligándole a tomar una decisión drástica para sobrevivir y, quizá, seguir buscando su sueño.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/8FJZua0beCvx5TpLBRPtzK8CEoB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/m9lo7xJcoBlBDwfWJ57JmELYHKE.jpg",
-   "providers": [],
-   "trailer": "cMvJC3H4zDw",
-   "fondo": "https://image.tmdb.org/t/p/original/m9lo7xJcoBlBDwfWJ57JmELYHKE.jpg"
-  },
-  {
-   "id": 1775906,
-   "title": "Öngörülemeyenler Listesi",
-   "release_date": "2026-10-31",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Animación",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/cldm1wNJnUkp6oUVOLFsV68heqh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ctYSnZoIGqow4txdITts8JmTjTT.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/ctYSnZoIGqow4txdITts8JmTjTT.jpg"
-  },
   {
    "id": 1381071,
    "title": "Godzilla Minus Zero",
@@ -455,10 +361,10 @@
     "Aventura"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/f5Lq2ndFETM1V5RNmFhpl2FKrHL.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/shbnPhKP5MfD5jzQjNpNySY7nJD.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/f5Lq2ndFETM1V5RNmFhpl2FKrHL.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/shbnPhKP5MfD5jzQjNpNySY7nJD.jpg"
   },
   {
    "id": 1117898,
@@ -510,7 +416,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg",
    "providers": [],
    "trailer": "PyBTjrK43Hg",
-   "fondo": "https://image.tmdb.org/t/p/original/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/lQQVChBZQoC3iirkn9U9gfFiDHJ.jpg"
   },
   {
    "id": 1649403,
@@ -654,6 +560,103 @@
    "providers": [],
    "trailer": "",
    "fondo": ""
+  },
+  {
+   "id": 1784105,
+   "title": "Cecilia,  una luz de mañana",
+   "release_date": "2026-11-09",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [],
+   "poster": "https://image.tmdb.org/t/p/w342/uW9sQBjQkm7nMUNNmWBKrrOGrkS.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "uqZdn75PrHs",
+   "fondo": ""
+  },
+  {
+   "id": 891621,
+   "title": "Caballo Salvaje Nueve",
+   "release_date": "2026-11-13",
+   "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
+   "vote_average": 9,
+   "genres": [
+    "Comedia",
+    "Crimen",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ulvGcZer26aBaNG0s4IEJGyyLIq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+   "providers": [],
+   "trailer": "kqxuamKxRTo",
+   "fondo": "https://image.tmdb.org/t/p/original/b17UWf3LqHgKolQkXckne32qv0.jpg"
+  },
+  {
+   "id": 1567605,
+   "title": "Scrooge y los fantasmas de la Navidad",
+   "release_date": "2026-11-13",
+   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+   "vote_average": 0,
+   "genres": [
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg",
+   "providers": [],
+   "trailer": "l_Ozo1xUgbU",
+   "fondo": "https://image.tmdb.org/t/p/original/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg"
+  },
+  {
+   "id": 1124142,
+   "title": "Los rivales de Amziah King",
+   "release_date": "2026-11-13",
+   "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
+   "vote_average": 6.7,
+   "genres": [
+    "Crimen",
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gINcZnpbBboaT5cMYGJiWi6Og3Y.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+   "providers": [],
+   "trailer": "GwSvAyaMGMo",
+   "fondo": "https://image.tmdb.org/t/p/original/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg"
+  },
+  {
+   "id": 1437511,
+   "title": "Como Robar un Banco",
+   "release_date": "2026-11-13",
+   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
+   "vote_average": 0,
+   "genres": [
+    "Acción",
+    "Crimen",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xghtLO90cQPybH85aw1C3bZ2P3.jpg",
+   "providers": [],
+   "trailer": "tKtg0S1rm2M",
+   "fondo": "https://image.tmdb.org/t/p/original/xghtLO90cQPybH85aw1C3bZ2P3.jpg"
+  },
+  {
+   "id": 1427833,
+   "title": "A Mouse Hunt for Christmas",
+   "release_date": "2026-11-13",
+   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
+   "vote_average": 6.6,
+   "genres": [
+    "Familia",
+    "Animación",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
   }
  ],
  "region": "ES"
