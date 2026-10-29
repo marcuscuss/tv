@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T22:42:25.248Z",
+ "actualizado": "2026-10-29T06:01:15.527Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -961,23 +961,6 @@
      "trailer": "t-yhbvVpPgI"
     },
     {
-     "id": 9357,
-     "title": "Retratos de una obsesión",
-     "year": "2002",
-     "release_date": "2002-08-21",
-     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
-     "providers": [],
-     "trailer": "eWzILZ6wE9Y"
-    },
-    {
      "id": 471506,
      "title": "La viuda",
      "year": "2019",
@@ -1132,6 +1115,26 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "90CBEWV-pP0"
+    },
+    {
+     "id": 1965,
+     "title": "Un crimen perfecto",
+     "year": "1998",
+     "release_date": "1998-06-05",
+     "overview": "Steven Taylor, un industrial millonario que atraviesa un mal momento financiero, está casado con Emily, una joven adinerada de familia rica que mantiene un pasional romance con David, un artista bohemio. Tras conocer la infidelidad de su esposa, Steve averigua también el turbio pasado del amante, un estafador que seduce a mujeres ricas, y entonces le encarga que asesine a su esposa... Remake del clásico de Hitchcok \"Crimen perfecto\" (Dial M for Murder, 1954).",
+     "vote_average": 6.6,
+     "genres": [
+      "Crimen",
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rfm9EtbaUWDzQAFfShb7X1uSczU.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/dNW7ftcqEAvKmDkuRPaLC4gnhwJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/dNW7ftcqEAvKmDkuRPaLC4gnhwJ.jpg",
+     "providers": [
+      "Atres Player"
+     ],
+     "trailer": "aaQ8YI-rX2s"
     }
    ]
   },

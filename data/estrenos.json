@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T22:42:09.981Z",
+ "actualizado": "2026-10-29T06:00:54.544Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -35,23 +35,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/VnT9D7NogVWrmN2UuT30exIYPh.jpg"
   },
   {
-   "id": 791523,
-   "title": "Wildwood: El Bosque Salvaje",
-   "release_date": "2026-10-23",
-   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.6,
-   "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
-   "providers": [],
-   "trailer": "qWX1ba0f-Qg",
-   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
-  },
-  {
    "id": 1283515,
    "title": "Verity. La sombra de un engaño",
    "release_date": "2026-10-02",
@@ -67,6 +50,23 @@
    "providers": [],
    "trailer": "P-QWhkimt50",
    "fondo": "https://image.tmdb.org/t/p/original/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg"
+  },
+  {
+   "id": 791523,
+   "title": "Wildwood: El Bosque Salvaje",
+   "release_date": "2026-10-23",
+   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
+   "vote_average": 8.6,
+   "genres": [
+    "Animación",
+    "Aventura",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+   "providers": [],
+   "trailer": "qWX1ba0f-Qg",
+   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
    "id": 1153576,
@@ -135,21 +135,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
-   "id": 1255833,
-   "title": "Whalefall",
-   "release_date": "2026-10-16",
-   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
-   "vote_average": 6.6,
-   "genres": [
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-   "providers": [],
-   "trailer": "5webTf9wplE",
-   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
-  },
-  {
    "id": 1263337,
    "title": "En el corazón de la bestia",
    "release_date": "2026-09-25",
@@ -182,11 +167,26 @@
    "fondo": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg"
   },
   {
+   "id": 1255833,
+   "title": "Whalefall",
+   "release_date": "2026-10-16",
+   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
+   "vote_average": 6.6,
+   "genres": [
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+   "providers": [],
+   "trailer": "5webTf9wplE",
+   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
+  },
+  {
    "id": 1422041,
    "title": "La bola negra",
    "release_date": "2026-09-25",
    "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
-   "vote_average": 8.1,
+   "vote_average": 8,
    "genres": [
     "Drama",
     "Bélica"
@@ -333,6 +333,23 @@
  ],
  "upcoming": [
   {
+   "id": 656908,
+   "title": "Ramayana: El Nacimiento de una Leyenda",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Fantasía",
+    "Acción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg",
+   "providers": [],
+   "trailer": "tPf0_b026Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/shbnPhKP5MfD5jzQjNpNySY7nJD.jpg"
+  },
+  {
    "id": 1381071,
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
@@ -348,23 +365,6 @@
    "providers": [],
    "trailer": "pWJjYoqVSjQ",
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
-  },
-  {
-   "id": 656908,
-   "title": "Ramayana: El Nacimiento de una Leyenda",
-   "release_date": "2026-11-06",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Fantasía",
-    "Acción",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/shbnPhKP5MfD5jzQjNpNySY7nJD.jpg",
-   "providers": [],
-   "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/shbnPhKP5MfD5jzQjNpNySY7nJD.jpg"
   },
   {
    "id": 1117898,
@@ -575,6 +575,22 @@
    "fondo": ""
   },
   {
+   "id": 1421562,
+   "title": "¡Qué Bella Intensidad!",
+   "release_date": "2026-11-10",
+   "overview": "Un joven introvertido contrata un servicio llamado “Epizos” el cual busca sustituir con actores a relaciones sentimentales pasadas. Cuando Adán contrata este servicio, la persona que toca su puerta es directamente a quien buscaba sustituir.",
+   "vote_average": 0,
+   "genres": [
+    "Drama",
+    "Misterio"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/h2M1cDxuue81dhFfli5syi2DhL0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lDVbwlVKRBgnWszOghkDn3viTrh.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/lDVbwlVKRBgnWszOghkDn3viTrh.jpg"
+  },
+  {
    "id": 891621,
    "title": "Caballo Salvaje Nueve",
    "release_date": "2026-11-13",
@@ -640,23 +656,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
-  },
-  {
-   "id": 1437511,
-   "title": "Como robar un banco",
-   "release_date": "2026-11-13",
-   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 0,
-   "genres": [
-    "Acción",
-    "Crimen",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xghtLO90cQPybH85aw1C3bZ2P3.jpg",
-   "providers": [],
-   "trailer": "tKtg0S1rm2M",
-   "fondo": "https://image.tmdb.org/t/p/original/xghtLO90cQPybH85aw1C3bZ2P3.jpg"
   }
  ],
  "region": "ES"
