@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T06:00:54.544Z",
+ "actualizado": "2026-10-29T13:20:45.324Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -29,10 +29,10 @@
     "Ciencia ficción"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/VnT9D7NogVWrmN2UuT30exIYPh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
    "providers": [],
    "trailer": "WGOv9Pzh9cE",
-   "fondo": "https://image.tmdb.org/t/p/original/VnT9D7NogVWrmN2UuT30exIYPh.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
   },
   {
    "id": 1283515,
@@ -73,7 +73,7 @@
    "title": "Street Fighter",
    "release_date": "2026-10-16",
    "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.4,
+   "vote_average": 6.3,
    "genres": [
     "Acción",
     "Fantasía"
@@ -347,7 +347,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/shbnPhKP5MfD5jzQjNpNySY7nJD.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
   },
   {
    "id": 1381071,
