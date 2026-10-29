@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T13:21:17.763Z",
+ "actualizado": "2026-10-29T22:53:01.777Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -233,8 +233,8 @@
       "Fantasía"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/qZYvF1M7y8Gfp4S6OBHbYfB0Lgc.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qZYvF1M7y8Gfp4S6OBHbYfB0Lgc.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
      "providers": [],
      "trailer": "7HZ4tBQEiB0"
     },
@@ -1122,7 +1122,8 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/dNW7ftcqEAvKmDkuRPaLC4gnhwJ.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/dNW7ftcqEAvKmDkuRPaLC4gnhwJ.jpg",
      "providers": [
-      "Atres Player"
+      "Atres Player",
+      "Tivify"
      ],
      "trailer": "aaQ8YI-rX2s"
     },
@@ -2147,6 +2148,24 @@
      "trailer": "aIo4Adm96EA"
     },
     {
+     "id": 539,
+     "title": "Psicosis",
+     "year": "1960",
+     "release_date": "1960-06-22",
+     "overview": "Una joven secretaria, tras cometer un robo, se marcha de la ciudad y conduce durante horas, parando para descansar en un pequeño motel de carretera regentado por un joven llamado Norman. Todo parece normal y tranquilo en el apartado motel y en la casa de al lado en la que viven Norman y su madre pero, mientras está en la ducha, la joven es asesinada salvajemente a cuchilladas.",
+     "vote_average": 8.4,
+     "genres": [
+      "Terror",
+      "Suspense",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xFbnc2QPG5H5gYWsGbZT4q8Akya.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+     "providers": [],
+     "trailer": "mC2gOyWuSEY"
+    },
+    {
      "id": 1383731,
      "title": "Instinto protector",
      "year": "2026",
@@ -2165,24 +2184,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "IRKGIuL3728"
-    },
-    {
-     "id": 539,
-     "title": "Psicosis",
-     "year": "1960",
-     "release_date": "1960-06-22",
-     "overview": "Una joven secretaria, tras cometer un robo, se marcha de la ciudad y conduce durante horas, parando para descansar en un pequeño motel de carretera regentado por un joven llamado Norman. Todo parece normal y tranquilo en el apartado motel y en la casa de al lado en la que viven Norman y su madre pero, mientras está en la ducha, la joven es asesinada salvajemente a cuchilladas.",
-     "vote_average": 8.4,
-     "genres": [
-      "Terror",
-      "Suspense",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xFbnc2QPG5H5gYWsGbZT4q8Akya.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
-     "providers": [],
-     "trailer": "mC2gOyWuSEY"
     },
     {
      "id": 12493,
@@ -2248,28 +2249,6 @@
      "trailer": "tXploxlYWL4"
     },
     {
-     "id": 1419406,
-     "title": "Escuadrón letal",
-     "year": "2025",
-     "release_date": "2025-08-16",
-     "overview": "Unos astutos y traicioneros ladrones desafian a la Policía Judicial de Macao. La Policía, que se encontraba en una dura batalla, invita de nuevo al experto en rastreo Huang De Zhong, retirado desde hace muchos años, a unir fuerzas con la joven élite del Departamento de Investigación Criminal de la Policía Judicial. Bajo la colisión de las técnicas tradicionales de rastreo y la alta tecnología, la policía y los criminales luchan con ingenio y valentía, y se lanzan a un duelo entre el bien y el mal parecido al juego del gato y el ratón.",
-     "vote_average": 8.3,
-     "genres": [
-      "Acción",
-      "Crimen",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/ftBCLqEhDvgKRcux0fk5TriVhMD.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "HZXVnn6GnVM"
-    },
-    {
      "id": 274,
      "title": "El silencio de los corderos",
      "year": "1991",
@@ -2290,6 +2269,28 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "5SKgu_gXPQ4"
+    },
+    {
+     "id": 1419406,
+     "title": "Escuadrón letal",
+     "year": "2025",
+     "release_date": "2025-08-16",
+     "overview": "Unos astutos y traicioneros ladrones desafian a la Policía Judicial de Macao. La Policía, que se encontraba en una dura batalla, invita de nuevo al experto en rastreo Huang De Zhong, retirado desde hace muchos años, a unir fuerzas con la joven élite del Departamento de Investigación Criminal de la Policía Judicial. Bajo la colisión de las técnicas tradicionales de rastreo y la alta tecnología, la policía y los criminales luchan con ingenio y valentía, y se lanzan a un duelo entre el bien y el mal parecido al juego del gato y el ratón.",
+     "vote_average": 8.3,
+     "genres": [
+      "Acción",
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/ftBCLqEhDvgKRcux0fk5TriVhMD.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/4BtL2vvEufDXDP4u6xQjjQ1Y2aT.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total "
+     ],
+     "trailer": "HZXVnn6GnVM"
     },
     {
      "id": 567,
@@ -2328,7 +2329,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/mHG7dpLb0ZScSY3LpP443IHRmjy.jpg",
      "providers": [
       "Acontra Plus",
-      "Tivify",
       "Animebox Channel Amazon Channel"
      ],
      "trailer": "RS3fB6KLz8A"
@@ -2606,24 +2606,6 @@
      "trailer": "Vjl9ApttZE8"
     },
     {
-     "id": 1375646,
-     "title": "Colony",
-     "year": "2026",
-     "release_date": "2026-05-21",
-     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
-     "vote_average": 8.2,
-     "genres": [
-      "Terror",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "providers": [],
-     "trailer": "LW6dpj1uCK8"
-    },
-    {
      "id": 1124,
      "title": "El truco final (El prestigio)",
      "year": "2006",
@@ -2643,6 +2625,24 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "DHoXum3M9eE"
+    },
+    {
+     "id": 1375646,
+     "title": "Colony",
+     "year": "2026",
+     "release_date": "2026-05-21",
+     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
+     "vote_average": 8.2,
+     "genres": [
+      "Terror",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "providers": [],
+     "trailer": "LW6dpj1uCK8"
     }
    ]
   },
@@ -3134,23 +3134,6 @@
      "trailer": "wDVdgnhiNlY"
     },
     {
-     "id": 1377237,
-     "title": "Entrega al límite",
-     "year": "2026",
-     "release_date": "2026-09-07",
-     "overview": "Un exsoldado se ve envuelto en una brutal carrera contrarreloj cuando una entrega médica crucial los convierte, a él y a su inesperada compañera, en el objetivo de un cártel despiadado. A medida que la misión se transforma en una cacería mortal, cada desvío, retraso y bala los acerca más al fracaso. Acosados ​​por la traición desde todos los frentes, deberán sobrevivir a la persecución y entregar su carga para salvar la vida de una niña.",
-     "vote_average": 8.3,
-     "genres": [
-      "Acción",
-      "Comedia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/pmjSjZtFOYDWhAs4B2AbBE8hTQf.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-     "providers": [],
-     "trailer": "B6Z9MM1LhEA"
-    },
-    {
      "id": 105,
      "title": "Regreso al futuro",
      "year": "1985",
@@ -3173,6 +3156,23 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "xxSo8ZEvzE8"
+    },
+    {
+     "id": 1377237,
+     "title": "Entrega al límite",
+     "year": "2026",
+     "release_date": "2026-09-07",
+     "overview": "Un exsoldado se ve envuelto en una brutal carrera contrarreloj cuando una entrega médica crucial los convierte, a él y a su inesperada compañera, en el objetivo de un cártel despiadado. A medida que la misión se transforma en una cacería mortal, cada desvío, retraso y bala los acerca más al fracaso. Acosados ​​por la traición desde todos los frentes, deberán sobrevivir a la persecución y entregar su carga para salvar la vida de una niña.",
+     "vote_average": 8.3,
+     "genres": [
+      "Acción",
+      "Comedia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pmjSjZtFOYDWhAs4B2AbBE8hTQf.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
+     "providers": [],
+     "trailer": "B6Z9MM1LhEA"
     },
     {
      "id": 614945,
@@ -3583,6 +3583,26 @@
     "trailer": "IoYahD_xNR0"
    },
    {
+    "id": 772,
+    "title": "Solo en casa 2: Perdido en Nueva York",
+    "year": "1992",
+    "release_date": "1992-11-15",
+    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
+    "vote_average": 6.8,
+    "genres": [
+     "Comedia",
+     "Familia",
+     "Aventura"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "VfBCYaGu7Ts"
+   },
+   {
     "id": 927,
     "title": "Gremlins",
     "year": "1984",
@@ -3602,26 +3622,6 @@
      "Movistar Plus+ Ficción Total "
     ],
     "trailer": "XXxC0Geijzs"
-   },
-   {
-    "id": 772,
-    "title": "Solo en casa 2: Perdido en Nueva York",
-    "year": "1992",
-    "release_date": "1992-11-15",
-    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Familia",
-     "Aventura"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "VfBCYaGu7Ts"
    },
    {
     "id": 1034541,
@@ -3665,6 +3665,28 @@
     "trailer": "6SN9-6uST80"
    },
    {
+    "id": 845781,
+    "title": "Red One",
+    "year": "2024",
+    "release_date": "2024-10-31",
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "vote_average": 6.9,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "RcER0_lZ2F4"
+   },
+   {
     "id": 360920,
     "title": "El Grinch",
     "year": "2018",
@@ -3689,62 +3711,25 @@
     "trailer": "_UOh0UX3alI"
    },
    {
-    "id": 845781,
-    "title": "Red One",
-    "year": "2024",
-    "release_date": "2024-10-31",
-    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
-    "vote_average": 6.9,
+    "id": 899112,
+    "title": "Noche de paz",
+    "year": "2022",
+    "release_date": "2022-11-30",
+    "overview": "Cuando un equipo de mercenarios irrumpe en Nochebuena dentro de un complejo familiar adinerado y toma como rehenes a todos los que están dentro, no estaban preparados para un defensor sorpresa: Santa Claus (David Harbour) está en el edificio y a punto de demostrar por qué este Santa Claus, no es ningún santo.",
+    "vote_average": 7.2,
     "genres": [
      "Acción",
-     "Aventura",
      "Comedia",
      "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/piA9ny345UyIMGp0lKYtPJ3RKCa.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
     "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
+     "Netflix",
+     "Netflix Standard with Ads"
     ],
-    "trailer": "RcER0_lZ2F4"
-   },
-   {
-    "id": 1621,
-    "title": "Entre pillos anda el juego",
-    "year": "1983",
-    "release_date": "1983-06-07",
-    "overview": "Dos hombres de negocios sostienen distintas tesis sobre las condiciones de la naturaleza humana. Para uno es cuestión de genética, para el otro es cuestión de educación. Para corroborar sus teorías hacen una apuesta para lo cual cambian los destinos de dos personas socialmente antagónicas.",
-    "vote_average": 7.2,
-    "genres": [
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/bwmqcucVleqUTKUKw7K3hlvUGKC.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
-    "providers": [],
-    "trailer": "rxz036jbrmI"
-   },
-   {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
+    "trailer": "MUDqcnalsLg"
    },
    {
     "id": 81188,
@@ -3767,25 +3752,65 @@
     "trailer": "e4bdD8owgDU"
    },
    {
-    "id": 899112,
-    "title": "Noche de paz",
-    "year": "2022",
-    "release_date": "2022-11-30",
-    "overview": "Cuando un equipo de mercenarios irrumpe en Nochebuena dentro de un complejo familiar adinerado y toma como rehenes a todos los que están dentro, no estaban preparados para un defensor sorpresa: Santa Claus (David Harbour) está en el edificio y a punto de demostrar por qué este Santa Claus, no es ningún santo.",
-    "vote_average": 7.2,
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
     "genres": [
-     "Acción",
-     "Comedia",
+     "Drama",
+     "Familia",
      "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/piA9ny345UyIMGp0lKYtPJ3RKCa.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
     "providers": [
-     "Netflix",
-     "Netflix Standard with Ads"
+     "Filmin"
     ],
-    "trailer": "MUDqcnalsLg"
+    "trailer": "iLR3gZrU2Xo"
+   },
+   {
+    "id": 1621,
+    "title": "Entre pillos anda el juego",
+    "year": "1983",
+    "release_date": "1983-06-07",
+    "overview": "Dos hombres de negocios sostienen distintas tesis sobre las condiciones de la naturaleza humana. Para uno es cuestión de genética, para el otro es cuestión de educación. Para corroborar sus teorías hacen una apuesta para lo cual cambian los destinos de dos personas socialmente antagónicas.",
+    "vote_average": 7.2,
+    "genres": [
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/bwmqcucVleqUTKUKw7K3hlvUGKC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
+    "providers": [],
+    "trailer": "rxz036jbrmI"
+   },
+   {
+    "id": 5255,
+    "title": "Polar Express",
+    "year": "2004",
+    "release_date": "2004-11-10",
+    "overview": "Esta es la historia de un jovencito en la víspera de Navidad quien aborda un poderoso y mágico tren que se dirige al hogar de Papá Noel, en el Polo Norte. Lo que se desarrolla es una aventura que sigue al dubitativo niño, quien toma un tren extraordinario al Polo Norte; durante este viaje, se embarca en una experiencia de autodescubrimiento que le muestra que las maravillas de la vida nunca se desvanecen para quienes creen.",
+    "vote_average": 6.7,
+    "genres": [
+     "Aventura",
+     "Animación",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Movistar Plus+ Ficción Total ",
+     "HBO Max",
+     "Amazon Prime Video with Ads",
+     "HBO Max Amazon Channel"
+    ],
+    "trailer": "4XkHPphBN_Q"
    },
    {
     "id": 8871,
@@ -3828,31 +3853,6 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "AKlhYZ-HqKs"
-   },
-   {
-    "id": 5994,
-    "title": "Family Man",
-    "year": "2000",
-    "release_date": "2000-12-12",
-    "overview": "Jack Campbell es un egocéntrico broker de Wall Street cuya única obsesión es el trabajo y una vida llena de lujo. Tras un incidente en una tienda el día de Nochebuena, se despierta viviendo otra vida: es un humilde vendedor de neumáticos de Nueva Jersey, casado con su antigua novia Kate, a la que había abandonado hacía años para que no obstaculizara su carrera en el mundo de las finanzas.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Drama",
-     "Romance",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/f0nMpSWmT1o1INXl1ZMe78bz9i.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total ",
-     "Atres Player",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "Hzw-p2PfBeU"
    }
   ],
   "romance": [
