@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T13:12:22.586Z",
+ "actualizado": "2026-10-30T22:29:41.375Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -108,7 +108,7 @@
    "title": "Street Fighter",
    "release_date": "2026-10-16",
    "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.4,
+   "vote_average": 6.3,
    "genres": [
     "Acción",
     "Fantasía"
@@ -158,7 +158,6 @@
    "vote_average": 5.6,
    "genres": [
     "Acción",
-    "Terror",
     "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
@@ -284,7 +283,7 @@
    "title": "La oveja Shaun: Misión calabaza",
    "release_date": "2026-10-30",
    "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.4,
+   "vote_average": 7.3,
    "genres": [
     "Animación",
     "Ciencia ficción",
@@ -338,7 +337,7 @@
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 0,
+   "vote_average": 10,
    "genres": [
     "Fantasía",
     "Acción",
@@ -372,7 +371,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 10,
+   "vote_average": 8.5,
    "genres": [
     "Animación",
     "Comedia",
@@ -385,6 +384,23 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg"
+  },
+  {
+   "id": 1241803,
+   "title": "Los miserables",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 7.2,
+   "genres": [
+    "Historia",
+    "Romance",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/jwRMUI6rGjAwkXHEqBlSnViT6gG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg",
+   "providers": [],
+   "trailer": "PyBTjrK43Hg",
+   "fondo": "https://image.tmdb.org/t/p/original/lQQVChBZQoC3iirkn9U9gfFiDHJ.jpg"
   },
   {
    "id": 1649403,
@@ -403,25 +419,8 @@
    "fondo": "https://image.tmdb.org/t/p/original/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg"
   },
   {
-   "id": 1241803,
-   "title": "Los miserables",
-   "release_date": "2026-11-06",
-   "overview": "",
-   "vote_average": 7.2,
-   "genres": [
-    "Historia",
-    "Romance",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/tY3CoBNTCpvJayVRLqIIGDa4Ep8.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/2IAY24dGrbGnafJ3ENXmCDTDvxg.jpg",
-   "providers": [],
-   "trailer": "PyBTjrK43Hg",
-   "fondo": "https://image.tmdb.org/t/p/original/lQQVChBZQoC3iirkn9U9gfFiDHJ.jpg"
-  },
-  {
    "id": 1217954,
-   "title": "Lucy Lost",
+   "title": "Le Mystère Lucy Lost",
    "release_date": "2026-11-06",
    "overview": "",
    "vote_average": 0,
@@ -432,27 +431,11 @@
     "Fantasía",
     "Bélica"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/ucEnLbYQDdzE0bjGPhnVEbdu7kd.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/nngRbX3VsYZwG9zT7VOKYWRlP33.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg",
    "providers": [],
    "trailer": "tfSC5woL_ik",
    "fondo": "https://image.tmdb.org/t/p/original/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg"
-  },
-  {
-   "id": 1405002,
-   "title": "Fiesta Pagäna",
-   "release_date": "2026-11-06",
-   "overview": "Narra la historia jamás contada de Mägo de Oz, la banda que revolucionó el rock español al fusionar el heavy metal con el folk celta.",
-   "vote_average": 0,
-   "genres": [
-    "Drama",
-    "Música"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/WGH8A7l5pQHlO13A7QJ2t4mjvN.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
   },
   {
    "id": 1468846,
@@ -471,20 +454,35 @@
    "fondo": "https://image.tmdb.org/t/p/original/jySTVXi8UDajVgYh01KavKtY4YJ.jpg"
   },
   {
-   "id": 1755565,
-   "title": "11",
+   "id": 1405002,
+   "title": "Fiesta Pagäna",
    "release_date": "2026-11-06",
-   "overview": "",
+   "overview": "Narra la historia jamás contada de Mägo de Oz, la banda que revolucionó el rock español al fusionar el heavy metal con el folk celta.",
    "vote_average": 0,
    "genres": [
-    "Terror",
-    "Suspense"
+    "Drama",
+    "Música"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/7pksyM5i9GeCJzlDscQ5te13vaL.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/WGH8A7l5pQHlO13A7QJ2t4mjvN.jpg",
    "backdrop": "",
    "providers": [],
    "trailer": "",
    "fondo": ""
+  },
+  {
+   "id": 1522071,
+   "title": "Ruega por nosotras",
+   "release_date": "2026-11-06",
+   "overview": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/vgAae3dWzJoFuGQbRaKvSCmogDq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
+   "providers": [],
+   "trailer": "JYAoX8VqKw0",
+   "fondo": "https://image.tmdb.org/t/p/original/dcms6atcKVzYPMWJwvltYkaq2zf.jpg"
   },
   {
    "id": 1371661,
@@ -503,19 +501,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/rs4w35BjZU8L2CihVNIyGIrxU2W.jpg"
   },
   {
-   "id": 1522071,
-   "title": "Ruega por nosotras",
+   "id": 1755565,
+   "title": "11",
    "release_date": "2026-11-06",
-   "overview": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación.",
+   "overview": "",
    "vote_average": 0,
    "genres": [
-    "Drama"
+    "Terror",
+    "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/vgAae3dWzJoFuGQbRaKvSCmogDq.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/7pksyM5i9GeCJzlDscQ5te13vaL.jpg",
+   "backdrop": "",
    "providers": [],
-   "trailer": "JYAoX8VqKw0",
-   "fondo": "https://image.tmdb.org/t/p/original/dcms6atcKVzYPMWJwvltYkaq2zf.jpg"
+   "trailer": "",
+   "fondo": ""
   },
   {
    "id": 1662674,
@@ -602,10 +601,10 @@
     "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg",
    "providers": [],
    "trailer": "l_Ozo1xUgbU",
-   "fondo": "https://image.tmdb.org/t/p/original/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg"
   },
   {
    "id": 891621,
@@ -642,21 +641,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
   },
   {
-   "id": 1124142,
-   "title": "Los rivales de Amziah King",
+   "id": 1437511,
+   "title": "Como robar un banco",
    "release_date": "2026-11-13",
-   "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
-   "vote_average": 6.7,
+   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
+   "vote_average": 0,
    "genres": [
+    "Acción",
     "Crimen",
-    "Drama",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/gINcZnpbBboaT5cMYGJiWi6Og3Y.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xghtLO90cQPybH85aw1C3bZ2P3.jpg",
    "providers": [],
-   "trailer": "GwSvAyaMGMo",
-   "fondo": "https://image.tmdb.org/t/p/original/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg"
+   "trailer": "tKtg0S1rm2M",
+   "fondo": "https://image.tmdb.org/t/p/original/xghtLO90cQPybH85aw1C3bZ2P3.jpg"
   }
  ],
  "region": "ES"

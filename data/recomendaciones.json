@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T13:12:54.843Z",
+ "actualizado": "2026-10-30T22:30:09.640Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -1489,7 +1489,7 @@
      "year": "2026",
      "release_date": "2026-04-16",
      "overview": "Un inesperado incidente de tráfico deja a su hijo en estado crítico. El padre, enfurecido, se adentra en una oscura espiral de confusión emocional y venganza.",
-     "vote_average": 5.8,
+     "vote_average": 5.9,
      "genres": [
       "Suspense",
       "Crimen",
@@ -1885,6 +1885,25 @@
      "trailer": "GigeANz21rk"
     },
     {
+     "id": 116322,
+     "title": "La leyenda de la llorona",
+     "year": "2011",
+     "release_date": "2011-10-21",
+     "overview": "Leo San Juan, a un año de haber derrotado al espíritu de La Nahuala, se enfrenta ahora a su primera gran misión: liberar a Xochimilco de La Llorona, el espíritu de una mujer que durante cientos de años ha asolado a la comunidad y ha secuestrado a decenas de niños. Con la ayuda de El Alebrije, Don Andrés y los niños Calaca, Leo planea vencerla. Sin embargo, el poder de ella hará que nuestro héroe y sus aliados se separen, enfrentando cada quien por su lado los peligros que aparecen en un Xochimilco embrujado por las lágrimas de La Llorona y las fuerzas obscuras que, desde la antigüedad, acechan detrás de este terrible monstruo.",
+     "vote_average": 8,
+     "genres": [
+      "Animación",
+      "Familia",
+      "Fantasía",
+      "Terror"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/vBiqoYfDIWKKzZTiQScqgCO09UD.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
+     "providers": [],
+     "trailer": "JnMRKl2x4ss"
+    },
+    {
      "id": 14836,
      "title": "Los mundos de Coraline",
      "year": "2009",
@@ -1905,25 +1924,6 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "ksOiRS2YO1U"
-    },
-    {
-     "id": 116322,
-     "title": "La leyenda de la llorona",
-     "year": "2011",
-     "release_date": "2011-10-21",
-     "overview": "Leo San Juan, a un año de haber derrotado al espíritu de La Nahuala, se enfrenta ahora a su primera gran misión: liberar a Xochimilco de La Llorona, el espíritu de una mujer que durante cientos de años ha asolado a la comunidad y ha secuestrado a decenas de niños. Con la ayuda de El Alebrije, Don Andrés y los niños Calaca, Leo planea vencerla. Sin embargo, el poder de ella hará que nuestro héroe y sus aliados se separen, enfrentando cada quien por su lado los peligros que aparecen en un Xochimilco embrujado por las lágrimas de La Llorona y las fuerzas obscuras que, desde la antigüedad, acechan detrás de este terrible monstruo.",
-     "vote_average": 8,
-     "genres": [
-      "Animación",
-      "Familia",
-      "Fantasía",
-      "Terror"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/vBiqoYfDIWKKzZTiQScqgCO09UD.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
-     "providers": [],
-     "trailer": "JnMRKl2x4ss"
     },
     {
      "id": 234,
@@ -2586,24 +2586,6 @@
      "trailer": "Vjl9ApttZE8"
     },
     {
-     "id": 1375646,
-     "title": "Colony",
-     "year": "2026",
-     "release_date": "2026-05-21",
-     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
-     "vote_average": 8.2,
-     "genres": [
-      "Terror",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "providers": [],
-     "trailer": "LW6dpj1uCK8"
-    },
-    {
      "id": 1124,
      "title": "El truco final (El prestigio)",
      "year": "2006",
@@ -2623,6 +2605,24 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "DHoXum3M9eE"
+    },
+    {
+     "id": 1375646,
+     "title": "Colony",
+     "year": "2026",
+     "release_date": "2026-05-21",
+     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
+     "vote_average": 8.2,
+     "genres": [
+      "Terror",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "providers": [],
+     "trailer": "LW6dpj1uCK8"
     }
    ]
   },
@@ -2931,24 +2931,28 @@
      "trailer": "NC9M8QYRZpE"
     },
     {
-     "id": 1383731,
-     "title": "Instinto protector",
-     "year": "2026",
-     "release_date": "2026-02-20",
-     "overview": "La vida pacífica de Nikki, una exheroína de guerra, se ve destrozada cuando su hija es secuestrada. Inmersa en el submundo criminal mientras es perseguida por policías y militares, debe luchar para rescatar a su hija.",
+     "id": 324857,
+     "title": "Spider-Man: un nuevo universo",
+     "year": "2018",
+     "release_date": "2018-12-06",
+     "overview": "En un universo paralelo donde Peter Parker ha muerto, un joven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk construye el 'Super Colisionador' trae a una versión alternativa de Peter Parker que tratará de enseñar a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo:  cuatro versiones alternativas buscan regresar a su universo antes de que toda la realidad se colapse.",
      "vote_average": 8.4,
      "genres": [
+      "Animación",
       "Acción",
-      "Suspense"
+      "Aventura",
+      "Ciencia ficción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/xfyBQzFOixFzzOHHGr8HFnHR8Hm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/xRMZikjAHNFebD1FLRqgDZeGV4a.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
      "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
+      "Disney Plus",
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "HBO Max Amazon Channel"
      ],
-     "trailer": "IRKGIuL3728"
+     "trailer": "qLObEn9IK20"
     }
    ]
   },
@@ -3583,6 +3587,26 @@
     "trailer": "VfBCYaGu7Ts"
    },
    {
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.7,
+    "genres": [
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
+    ],
+    "trailer": "Y2u6m2W428g"
+   },
+   {
     "id": 927,
     "title": "Gremlins",
     "year": "1984",
@@ -3604,26 +3628,6 @@
     "trailer": "XXxC0Geijzs"
    },
    {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.7,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
-   },
-   {
     "id": 331482,
     "title": "Mujercitas",
     "year": "2019",
@@ -3643,6 +3647,28 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "6SN9-6uST80"
+   },
+   {
+    "id": 845781,
+    "title": "Red One",
+    "year": "2024",
+    "release_date": "2024-10-31",
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "vote_average": 6.9,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "RcER0_lZ2F4"
    },
    {
     "id": 360920,
@@ -3669,28 +3695,6 @@
     "trailer": "_UOh0UX3alI"
    },
    {
-    "id": 845781,
-    "title": "Red One",
-    "year": "2024",
-    "release_date": "2024-10-31",
-    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
-    "vote_average": 6.9,
-    "genres": [
-     "Acción",
-     "Aventura",
-     "Comedia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "RcER0_lZ2F4"
-   },
-   {
     "id": 899112,
     "title": "Noche de paz",
     "year": "2022",
@@ -3712,24 +3716,25 @@
     "trailer": "MUDqcnalsLg"
    },
    {
-    "id": 81188,
-    "title": "El origen de los guardianes",
-    "year": "2012",
-    "release_date": "2012-11-21",
-    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
-    "vote_average": 7.4,
+    "id": 8871,
+    "title": "El Grinch",
+    "year": "2000",
+    "release_date": "2000-11-17",
+    "overview": "Cada año, en Navidad, los lugareños perturban su pacífica soledad con celebraciones cada vez más desmesuradas, luminosas y ruidosas. Cuando los Quién declaran que ese año van a preparar una Navidad el triple de grande, el Grinch se da cuenta de que solo hay un modo de recuperar algo de paz y silencio: robar la Navidad. Para ello, decide hacerse pasar por Santa Claus en Nochebuena, haciéndose con un reno muy peculiar para tirar de su trineo. Mientras tanto, en Villa Quién, una dulce niña llamada Cindy-Lou, desbordante de espíritu navideño, planea con sus amigos atrapar a Papá Noel durante su visita en Nochebuena para darle las gracias por ayudar a su trabajadora madre. Sin embargo, a medida que se acerca la noche mágica, sus buenas intenciones amenazan con chocar con las del Grinch, mucho más perversas.",
+    "vote_average": 6.8,
     "genres": [
-     "Acción",
-     "Aventura",
-     "Animación",
      "Familia",
+     "Comedia",
      "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "providers": [],
-    "trailer": "e4bdD8owgDU"
+    "poster": "https://image.tmdb.org/t/p/w342/dj6U3KbuwcjMuDir1bUHp0yDcuB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "providers": [
+     "Movistar Plus+ Ficción Total ",
+     "SkyShowtime"
+    ],
+    "trailer": "SL0YugjtkiI"
    },
    {
     "id": 1585,
@@ -3752,6 +3757,26 @@
     "trailer": "iLR3gZrU2Xo"
    },
    {
+    "id": 81188,
+    "title": "El origen de los guardianes",
+    "year": "2012",
+    "release_date": "2012-11-21",
+    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
+    "vote_average": 7.4,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Animación",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "providers": [],
+    "trailer": "e4bdD8owgDU"
+   },
+   {
     "id": 1621,
     "title": "Entre pillos anda el juego",
     "year": "1983",
@@ -3766,6 +3791,26 @@
     "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
     "providers": [],
     "trailer": "rxz036jbrmI"
+   },
+   {
+    "id": 774752,
+    "title": "Guardianes de la Galaxia: especial felices fiestas",
+    "year": "2022",
+    "release_date": "2022-11-24",
+    "overview": "Con la misión de hacer que Quill tenga una Navidad inolvidable, los Guardianes se dirigen a la Tierra en busca del regalo perfecto.",
+    "vote_average": 7.1,
+    "genres": [
+     "Comedia",
+     "Ciencia ficción",
+     "Aventura"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/sjAPtPnAyIbYvCPcEsLQfBlL2ho.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "rixO-vZR__g"
    },
    {
     "id": 5255,
@@ -3791,48 +3836,6 @@
      "HBO Max Amazon Channel"
     ],
     "trailer": "4XkHPphBN_Q"
-   },
-   {
-    "id": 8871,
-    "title": "El Grinch",
-    "year": "2000",
-    "release_date": "2000-11-17",
-    "overview": "Cada año, en Navidad, los lugareños perturban su pacífica soledad con celebraciones cada vez más desmesuradas, luminosas y ruidosas. Cuando los Quién declaran que ese año van a preparar una Navidad el triple de grande, el Grinch se da cuenta de que solo hay un modo de recuperar algo de paz y silencio: robar la Navidad. Para ello, decide hacerse pasar por Santa Claus en Nochebuena, haciéndose con un reno muy peculiar para tirar de su trineo. Mientras tanto, en Villa Quién, una dulce niña llamada Cindy-Lou, desbordante de espíritu navideño, planea con sus amigos atrapar a Papá Noel durante su visita en Nochebuena para darle las gracias por ayudar a su trabajadora madre. Sin embargo, a medida que se acerca la noche mágica, sus buenas intenciones amenazan con chocar con las del Grinch, mucho más perversas.",
-    "vote_average": 6.8,
-    "genres": [
-     "Familia",
-     "Comedia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/dj6U3KbuwcjMuDir1bUHp0yDcuB.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "providers": [
-     "Movistar Plus+ Ficción Total ",
-     "SkyShowtime"
-    ],
-    "trailer": "SL0YugjtkiI"
-   },
-   {
-    "id": 9489,
-    "title": "Tienes un e-mail",
-    "year": "1998",
-    "release_date": "1998-12-18",
-    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Tivify",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "AKlhYZ-HqKs"
    }
   ],
   "romance": [
@@ -4124,7 +4127,7 @@
     "Ciencia ficción"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/ur2yYTVGPkEDmLdoQ1Obm2RKXuU.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
    "fondo": "https://image.tmdb.org/t/p/original/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
    "providers": [
     "Movistar Plus+ Ficción Total ",
