@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T06:02:12.766Z",
+ "actualizado": "2026-10-30T13:12:22.586Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -592,6 +592,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/lDVbwlVKRBgnWszOghkDn3viTrh.jpg"
   },
   {
+   "id": 1567605,
+   "title": "Scrooge y los fantasmas de la Navidad",
+   "release_date": "2026-11-13",
+   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+   "vote_average": 0,
+   "genres": [
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg",
+   "providers": [],
+   "trailer": "l_Ozo1xUgbU",
+   "fondo": "https://image.tmdb.org/t/p/original/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg"
+  },
+  {
    "id": 891621,
    "title": "Caballo Salvaje Nueve",
    "release_date": "2026-11-13",
@@ -609,20 +625,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/b17UWf3LqHgKolQkXckne32qv0.jpg"
   },
   {
-   "id": 1567605,
-   "title": "Scrooge y los fantasmas de la Navidad",
+   "id": 1427833,
+   "title": "A Mouse Hunt for Christmas",
    "release_date": "2026-11-13",
-   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 0,
+   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
+   "vote_average": 6.6,
    "genres": [
-    "Fantasía",
+    "Familia",
+    "Animación",
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
    "providers": [],
-   "trailer": "l_Ozo1xUgbU",
-   "fondo": "https://image.tmdb.org/t/p/original/6VlTpWnm6DjNlK1NKFv1o4eMU33.jpg"
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
   },
   {
    "id": 1124142,
@@ -640,23 +657,6 @@
    "providers": [],
    "trailer": "GwSvAyaMGMo",
    "fondo": "https://image.tmdb.org/t/p/original/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg"
-  },
-  {
-   "id": 1427833,
-   "title": "A Mouse Hunt for Christmas",
-   "release_date": "2026-11-13",
-   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
-   "vote_average": 6.6,
-   "genres": [
-    "Familia",
-    "Animación",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
   }
  ],
  "region": "ES"
