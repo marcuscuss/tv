@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T05:57:26.687Z",
+ "actualizado": "2026-10-31T12:47:57.352Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -52,23 +52,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/nGau0KBOaRILSK5MqFcuTfv7GMl.jpg"
   },
   {
-   "id": 1400940,
-   "title": "Clayface",
-   "release_date": "2026-10-23",
-   "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-   "vote_average": 7.5,
-   "genres": [
-    "Terror",
-    "Suspense",
-    "Ciencia ficción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
-   "providers": [],
-   "trailer": "WGOv9Pzh9cE",
-   "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
-  },
-  {
    "id": 1283515,
    "title": "Verity. La sombra de un engaño",
    "release_date": "2026-10-02",
@@ -83,6 +66,23 @@
    "providers": [],
    "trailer": "P-QWhkimt50",
    "fondo": "https://image.tmdb.org/t/p/original/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg"
+  },
+  {
+   "id": 1400940,
+   "title": "Clayface",
+   "release_date": "2026-10-23",
+   "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
+   "vote_average": 7.4,
+   "genres": [
+    "Terror",
+    "Suspense",
+    "Ciencia ficción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+   "providers": [],
+   "trailer": "WGOv9Pzh9cE",
+   "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
   },
   {
    "id": 1465063,
@@ -108,7 +108,7 @@
    "title": "Street Fighter",
    "release_date": "2026-10-16",
    "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.4,
+   "vote_average": 6.3,
    "genres": [
     "Acción",
     "Fantasía"
@@ -121,7 +121,7 @@
   },
   {
    "id": 1503762,
-   "title": "Sentido y sensibilidad",
+   "title": "Sentido y Sensibilidad",
    "release_date": "2026-10-23",
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
    "vote_average": 7.4,
@@ -141,7 +141,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.9,
+   "vote_average": 5.8,
    "genres": [
     "Terror"
    ],
@@ -184,6 +184,39 @@
    "fondo": "https://image.tmdb.org/t/p/original/bicMU6xVD5deVyKP2azpyx7xkmH.jpg"
   },
   {
+   "id": 1422041,
+   "title": "La bola negra",
+   "release_date": "2026-09-25",
+   "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
+   "vote_average": 8.1,
+   "genres": [
+    "Drama",
+    "Bélica"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/t1azKLExwUxKj6v6m2L535evuRa.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+   "providers": [],
+   "trailer": "9NNU-vSeOB0",
+   "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
+  },
+  {
+   "id": 1195803,
+   "title": "Wicker",
+   "release_date": "2026-10-30",
+   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+   "vote_average": 7.7,
+   "genres": [
+    "Romance",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+   "providers": [],
+   "trailer": "jA5zfiikcu8",
+   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
+  },
+  {
    "id": 1248832,
    "title": "Digger",
    "release_date": "2026-10-02",
@@ -213,39 +246,6 @@
    "providers": [],
    "trailer": "5webTf9wplE",
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
-  },
-  {
-   "id": 1195803,
-   "title": "Wicker",
-   "release_date": "2026-10-30",
-   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.8,
-   "genres": [
-    "Romance",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
-   "providers": [],
-   "trailer": "jA5zfiikcu8",
-   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
-  },
-  {
-   "id": 1422041,
-   "title": "La bola negra",
-   "release_date": "2026-09-25",
-   "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
-   "vote_average": 8,
-   "genres": [
-    "Drama",
-    "Bélica"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/t1azKLExwUxKj6v6m2L535evuRa.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
-   "providers": [],
-   "trailer": "9NNU-vSeOB0",
-   "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
   },
   {
    "id": 1281331,
