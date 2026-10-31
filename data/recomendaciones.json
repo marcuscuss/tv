@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T12:48:19.372Z",
+ "actualizado": "2026-10-31T21:45:11.345Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -898,6 +898,7 @@
      "fondo": "https://image.tmdb.org/t/p/original/wgq2oA1aJiawBlRDIU8agXk7DQQ.jpg",
      "providers": [
       "Amazon Prime Video",
+      "Filmin",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "G5RHRg6zEhY"
@@ -938,8 +939,6 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/rHcBZ6ZKCe4FalWHyvBGsyMsh0k.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/rHcBZ6ZKCe4FalWHyvBGsyMsh0k.jpg",
      "providers": [
-      "Netflix",
-      "Netflix Standard with Ads",
       "Lionsgate+ Amazon Channel"
      ],
      "trailer": "e3U3TrLo3tQ"
@@ -1213,7 +1212,9 @@
      "poster": "https://image.tmdb.org/t/p/w342/rzcigN8ujeVJiEKGP3y3mJybvii.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
-     "providers": [],
+     "providers": [
+      "Filmin"
+     ],
      "trailer": "SECSDOK58Vc"
     },
     {
@@ -1883,25 +1884,6 @@
      "trailer": "GigeANz21rk"
     },
     {
-     "id": 116322,
-     "title": "La leyenda de la llorona",
-     "year": "2011",
-     "release_date": "2011-10-21",
-     "overview": "Leo San Juan, a un año de haber derrotado al espíritu de La Nahuala, se enfrenta ahora a su primera gran misión: liberar a Xochimilco de La Llorona, el espíritu de una mujer que durante cientos de años ha asolado a la comunidad y ha secuestrado a decenas de niños. Con la ayuda de El Alebrije, Don Andrés y los niños Calaca, Leo planea vencerla. Sin embargo, el poder de ella hará que nuestro héroe y sus aliados se separen, enfrentando cada quien por su lado los peligros que aparecen en un Xochimilco embrujado por las lágrimas de La Llorona y las fuerzas obscuras que, desde la antigüedad, acechan detrás de este terrible monstruo.",
-     "vote_average": 8,
-     "genres": [
-      "Animación",
-      "Familia",
-      "Fantasía",
-      "Terror"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/vBiqoYfDIWKKzZTiQScqgCO09UD.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
-     "providers": [],
-     "trailer": "JnMRKl2x4ss"
-    },
-    {
      "id": 14836,
      "title": "Los mundos de Coraline",
      "year": "2009",
@@ -2006,6 +1988,28 @@
       "HBO Max Amazon Channel"
      ],
      "trailer": "o7UFmdCgDEc"
+    },
+    {
+     "id": 805,
+     "title": "La semilla del diablo",
+     "year": "1968",
+     "release_date": "1968-06-12",
+     "overview": "Una joven pareja, Rosemary y Guy, se muda a un infame edificio de apartamentos de Nueva York, conocido por aterradoras leyendas y misteriosos sucesos, con el propósito de formar una familia.",
+     "vote_average": 7.8,
+     "genres": [
+      "Drama",
+      "Terror",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/1PbbUmtP8SnGRCTvTzqfj5aj0xK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qszuXKhzYR24oRpsmh7eZaPbvL8.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qszuXKhzYR24oRpsmh7eZaPbvL8.jpg",
+     "providers": [
+      "Movistar Plus+ Ficción Total ",
+      "Filmin",
+      "SkyShowtime"
+     ],
+     "trailer": "pwLKIcB0zDw"
     }
    ]
   },
@@ -2076,7 +2080,9 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
      "providers": [
+      "Netflix",
       "Amazon Prime Video",
+      "Netflix Standard with Ads",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "-PtU49Aol00"
@@ -2242,6 +2248,7 @@
      "fondo": "https://image.tmdb.org/t/p/original/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
      "providers": [
       "Amazon Prime Video",
+      "Filmin",
       "Tivify",
       "Amazon Prime Video with Ads"
      ],
@@ -3011,7 +3018,9 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
      "providers": [
+      "Netflix",
       "Amazon Prime Video",
+      "Netflix Standard with Ads",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "-PtU49Aol00"
@@ -3071,7 +3080,8 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
      "providers": [
-      "Atres Player"
+      "Atres Player",
+      "ViX Premium Amazon Channel"
      ],
      "trailer": "HK0FizurLk0"
     },
@@ -3450,6 +3460,27 @@
      "trailer": "oIZ4U21DRlM"
     },
     {
+     "id": 372058,
+     "title": "Your Name.",
+     "year": "2016",
+     "release_date": "2016-07-01",
+     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
+     "vote_average": 8.5,
+     "genres": [
+      "Animación",
+      "Romance",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "TYku4P7MHdo"
+    },
+    {
      "id": 157336,
      "title": "Interstellar",
      "year": "2014",
@@ -3474,27 +3505,6 @@
      "trailer": "UoSSbmD9vqc"
     },
     {
-     "id": 372058,
-     "title": "Your Name.",
-     "year": "2016",
-     "release_date": "2016-07-01",
-     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
-     "vote_average": 8.5,
-     "genres": [
-      "Animación",
-      "Romance",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "TYku4P7MHdo"
-    },
-    {
      "id": 496243,
      "title": "Parásitos",
      "year": "2019",
@@ -3510,7 +3520,9 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
      "providers": [
+      "Netflix",
       "Amazon Prime Video",
+      "Netflix Standard with Ads",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "-PtU49Aol00"
@@ -3630,7 +3642,7 @@
     "year": "2019",
     "release_date": "2019-12-25",
     "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
-    "vote_average": 7.8,
+    "vote_average": 7.9,
     "genres": [
      "Drama",
      "Romance"
@@ -3734,26 +3746,6 @@
     "trailer": "SL0YugjtkiI"
    },
    {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
-   },
-   {
     "id": 81188,
     "title": "El origen de los guardianes",
     "year": "2012",
@@ -3774,40 +3766,24 @@
     "trailer": "e4bdD8owgDU"
    },
    {
-    "id": 1621,
-    "title": "Entre pillos anda el juego",
-    "year": "1983",
-    "release_date": "1983-06-07",
-    "overview": "Dos hombres de negocios sostienen distintas tesis sobre las condiciones de la naturaleza humana. Para uno es cuestión de genética, para el otro es cuestión de educación. Para corroborar sus teorías hacen una apuesta para lo cual cambian los destinos de dos personas socialmente antagónicas.",
-    "vote_average": 7.2,
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
     "genres": [
-     "Comedia"
+     "Drama",
+     "Familia",
+     "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/bwmqcucVleqUTKUKw7K3hlvUGKC.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
-    "providers": [],
-    "trailer": "rxz036jbrmI"
-   },
-   {
-    "id": 774752,
-    "title": "Guardianes de la Galaxia: especial felices fiestas",
-    "year": "2022",
-    "release_date": "2022-11-24",
-    "overview": "Con la misión de hacer que Quill tenga una Navidad inolvidable, los Guardianes se dirigen a la Tierra en busca del regalo perfecto.",
-    "vote_average": 7.1,
-    "genres": [
-     "Comedia",
-     "Ciencia ficción",
-     "Aventura"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/sjAPtPnAyIbYvCPcEsLQfBlL2ho.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
     "providers": [
-     "Disney Plus"
+     "Filmin"
     ],
-    "trailer": "rixO-vZR__g"
+    "trailer": "iLR3gZrU2Xo"
    },
    {
     "id": 5255,
@@ -3833,6 +3809,46 @@
      "HBO Max Amazon Channel"
     ],
     "trailer": "4XkHPphBN_Q"
+   },
+   {
+    "id": 774752,
+    "title": "Guardianes de la Galaxia: especial felices fiestas",
+    "year": "2022",
+    "release_date": "2022-11-24",
+    "overview": "Con la misión de hacer que Quill tenga una Navidad inolvidable, los Guardianes se dirigen a la Tierra en busca del regalo perfecto.",
+    "vote_average": 7.1,
+    "genres": [
+     "Comedia",
+     "Ciencia ficción",
+     "Aventura"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/sjAPtPnAyIbYvCPcEsLQfBlL2ho.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "rixO-vZR__g"
+   },
+   {
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
+    "genres": [
+     "Comedia",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "AKlhYZ-HqKs"
    }
   ],
   "romance": [
@@ -3990,7 +4006,8 @@
     "backdrop": "https://image.tmdb.org/t/p/w780/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
     "fondo": "https://image.tmdb.org/t/p/original/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
     "providers": [
-     "Atres Player"
+     "Atres Player",
+     "ViX Premium Amazon Channel"
     ],
     "trailer": "HK0FizurLk0"
    },
