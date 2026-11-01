@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01T17:59:19.408Z",
+ "actualizado": "2026-11-01T22:12:07.215Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -31,7 +31,7 @@
     "Acción"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/lkWqvj24NG3vEgu19ZQ9erG3Vj7.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/j96rurZqmBjyY37Fncl3IB0qJNe.jpg",
    "providers": [],
    "trailer": "OFaJzL83y0Q",
    "fondo": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg"
@@ -72,7 +72,7 @@
    "title": "Clayface",
    "release_date": "2026-10-23",
    "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-   "vote_average": 7.5,
+   "vote_average": 7.4,
    "genres": [
     "Terror",
     "Suspense",
@@ -89,7 +89,7 @@
    "title": "La isla olvidada",
    "release_date": "2026-09-25",
    "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
-   "vote_average": 7.7,
+   "vote_average": 7.8,
    "genres": [
     "Animación",
     "Aventura",
@@ -97,7 +97,7 @@
     "Comedia",
     "Familia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/s6zlUeVNSZcIFt0nBLGdrDbBMMH.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
    "providers": [],
    "trailer": "uW2uWXiBpIs",
@@ -405,23 +405,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/lQQVChBZQoC3iirkn9U9gfFiDHJ.jpg"
   },
   {
-   "id": 1217954,
-   "title": "Le Mystère Lucy Lost",
+   "id": 1468846,
+   "title": "Species (Sanguine)",
    "release_date": "2026-11-06",
    "overview": "",
    "vote_average": 0,
    "genres": [
-    "Aventura",
-    "Animación",
-    "Familia",
-    "Fantasía",
-    "Bélica"
+    "Ciencia ficción",
+    "Terror"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/nngRbX3VsYZwG9zT7VOKYWRlP33.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/fDvZvNmLIwUcKKQ4Cfb6TmQJM7M.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
    "providers": [],
-   "trailer": "tfSC5woL_ik",
-   "fondo": "https://image.tmdb.org/t/p/original/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg"
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/jySTVXi8UDajVgYh01KavKtY4YJ.jpg"
   },
   {
    "id": 1649403,
@@ -440,20 +437,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg"
   },
   {
-   "id": 1468846,
-   "title": "Species (Sanguine)",
+   "id": 1217954,
+   "title": "Le Mystère Lucy Lost",
    "release_date": "2026-11-06",
    "overview": "",
    "vote_average": 0,
    "genres": [
-    "Ciencia ficción",
-    "Terror"
+    "Aventura",
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Bélica"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/fDvZvNmLIwUcKKQ4Cfb6TmQJM7M.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/jySTVXi8UDajVgYh01KavKtY4YJ.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/nngRbX3VsYZwG9zT7VOKYWRlP33.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg",
    "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/jySTVXi8UDajVgYh01KavKtY4YJ.jpg"
+   "trailer": "tfSC5woL_ik",
+   "fondo": "https://image.tmdb.org/t/p/original/lhb1NoiKScRaApfn9rqaG9uS4MY.jpg"
   },
   {
    "id": 1405002,
