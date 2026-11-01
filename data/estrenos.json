@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T21:44:43.540Z",
+ "actualizado": "2026-11-01T06:25:56.956Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -137,6 +137,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
+   "id": 1422041,
+   "title": "La bola negra",
+   "release_date": "2026-09-25",
+   "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
+   "vote_average": 8,
+   "genres": [
+    "Drama",
+    "Bélica"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/t1azKLExwUxKj6v6m2L535evuRa.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+   "providers": [],
+   "trailer": "9NNU-vSeOB0",
+   "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
+  },
+  {
    "id": 1400837,
    "title": "La otra madre",
    "release_date": "2026-10-09",
@@ -182,22 +198,6 @@
    "providers": [],
    "trailer": "HGzLlMvkLnI",
    "fondo": "https://image.tmdb.org/t/p/original/bicMU6xVD5deVyKP2azpyx7xkmH.jpg"
-  },
-  {
-   "id": 1422041,
-   "title": "La bola negra",
-   "release_date": "2026-09-25",
-   "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
-   "vote_average": 8.1,
-   "genres": [
-    "Drama",
-    "Bélica"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/t1azKLExwUxKj6v6m2L535evuRa.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
-   "providers": [],
-   "trailer": "9NNU-vSeOB0",
-   "fondo": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg"
   },
   {
    "id": 1195803,
@@ -372,7 +372,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 8.5,
+   "vote_average": 7.7,
    "genres": [
     "Animación",
     "Comedia",
@@ -391,7 +391,7 @@
    "title": "Los miserables",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 7.2,
+   "vote_average": 7.1,
    "genres": [
     "Historia",
     "Romance",
