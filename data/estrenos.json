@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T06:27:05.099Z",
+ "actualizado": "2026-11-02T21:48:50.713Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -7,7 +7,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.7,
+   "vote_average": 8.6,
    "genres": [
     "Animación",
     "Aventura",
@@ -56,7 +56,7 @@
    "title": "Verity. La sombra de un engaño",
    "release_date": "2026-10-02",
    "overview": "Lowen Ashleigh es contratada como escritora fantasma por Jeremy Crawford para escribir las novelas de su esposa Verity, autora de bestsellers, impedida tras un accidente. Lowen descubre las inquietantes verdades de Verity mientras reside en casa de los Crawford para trabajar.",
-   "vote_average": 6.8,
+   "vote_average": 6.9,
    "genres": [
     "Misterio",
     "Suspense"
@@ -89,7 +89,7 @@
    "title": "La isla olvidada",
    "release_date": "2026-09-25",
    "overview": "Dos amigas se quedan varadas en el místico mundo de Nakali, donde su único escape podría costarles su vida compartida de recuerdos.",
-   "vote_average": 7.9,
+   "vote_average": 8,
    "genres": [
     "Animación",
     "Aventura",
@@ -108,7 +108,7 @@
    "title": "La bola negra",
    "release_date": "2026-09-25",
    "overview": "Las vidas interconectadas de tres hombres en tres épocas distintas, tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia.",
-   "vote_average": 8,
+   "vote_average": 8.1,
    "genres": [
     "Drama",
     "Bélica"
@@ -140,7 +140,7 @@
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.3,
+   "vote_average": 7.2,
    "genres": [
     "Romance",
     "Drama",
@@ -205,7 +205,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.6,
+   "vote_average": 7.5,
    "genres": [
     "Romance",
     "Fantasía",
@@ -269,7 +269,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.2,
+   "vote_average": 6.4,
    "genres": [
     "Terror",
     "Suspense"
@@ -348,14 +348,14 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/bkhPaFOiqc9GeLMdf1D44KbozRH.jpg"
   },
   {
    "id": 1381071,
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
    "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 0,
+   "vote_average": 10,
    "genres": [
     "Ciencia ficción",
     "Terror",
@@ -408,7 +408,7 @@
    "title": "Species (Sanguine)",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 0,
+   "vote_average": 4,
    "genres": [
     "Ciencia ficción",
     "Terror"
@@ -612,13 +612,13 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8.7,
+   "vote_average": 8.9,
    "genres": [
     "Comedia",
     "Crimen",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/ulvGcZer26aBaNG0s4IEJGyyLIq.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/bLDrHn76oiNYiELv1qw3Tfdkqc8.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
    "providers": [],
    "trailer": "kqxuamKxRTo",
