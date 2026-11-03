@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02T21:49:08.213Z",
+ "actualizado": "2026-11-03T06:59:58.170Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -1507,6 +1507,27 @@
      "trailer": "xyNVTkemjgQ"
     },
     {
+     "id": 20482,
+     "title": "La ciudad desnuda",
+     "year": "1948",
+     "release_date": "1948-03-04",
+     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
+     "vote_average": 7.2,
+     "genres": [
+      "Crimen",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "-RN_BvyNpS8"
+    },
+    {
      "id": 587986,
      "title": "Ventajas de viajar en tren",
      "year": "2019",
@@ -1703,27 +1724,6 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "zgNOS5ofQhw"
-    },
-    {
-     "id": 395458,
-     "title": "Suburbicon",
-     "year": "2017",
-     "release_date": "2017-10-26",
-     "overview": "Un misterio criminal ambientado en un tranquilo pueblo familiar norteamericano durante los años 50, donde lo mejor y lo peor de la humanidad se ve reflejado en las vidas de la gente corriente. Cuando un allanamiento de morada se vuelve mortal, una familia aparentemente perfecta empezará a hacer uso del chantaje, la venganza y la traición.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Crimen",
-      "Drama",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/dL1GOIX3gs3GzZLDs4mg3fjjUOV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/dmgFJdivUmV4vGLkbPD49KVjlHx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/dmgFJdivUmV4vGLkbPD49KVjlHx.jpg",
-     "providers": [
-      "Tivify"
-     ],
-     "trailer": "gan6ThmgVCQ"
     }
    ]
   }
@@ -1771,7 +1771,7 @@
     },
     {
      "id": 1375646,
-     "title": "Colony",
+     "title": "Zona cero",
      "year": "2026",
      "release_date": "2026-05-21",
      "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
