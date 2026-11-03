@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T06:59:38.618Z",
+ "actualizado": "2026-11-03T19:38:50.971Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -7,7 +7,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.6,
+   "vote_average": 8.5,
    "genres": [
     "Animación",
     "Aventura",
@@ -131,7 +131,7 @@
     "Historia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
    "providers": [],
    "trailer": "GMwdcpKOOyY",
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
@@ -253,7 +253,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.2,
+   "vote_average": 6.3,
    "genres": [
     "Terror",
     "Suspense"
@@ -281,24 +281,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg"
   },
   {
-   "id": 1437396,
-   "title": "Tu madre, tu madre, tu madre",
-   "release_date": "2026-10-28",
-   "overview": "Latif, un sicario profundamente religioso, lucha por equilibrar el trabajo, la fe y su papel como padre. Tras la muerte de su esposa, emprende un viaje desesperado por Houston para proteger a sus hijos, enfrentándose tanto a las fuerzas que lo acorralan como a las creencias que amenazan con desmoronarse en su interior.",
-   "vote_average": 7.3,
-   "genres": [
-    "Acción",
-    "Crimen",
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/jiFLiatBtBALlAzV5R72gzspBad.jpg",
-   "providers": [],
-   "trailer": "uEcoV-ngH38",
-   "fondo": "https://image.tmdb.org/t/p/original/jiFLiatBtBALlAzV5R72gzspBad.jpg"
-  },
-  {
    "id": 1477104,
    "title": "La oveja Shaun: Misión calabaza",
    "release_date": "2026-10-30",
@@ -307,7 +289,8 @@
    "genres": [
     "Animación",
     "Ciencia ficción",
-    "Comedia"
+    "Comedia",
+    "Familia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
@@ -331,32 +314,31 @@
    "providers": [],
    "trailer": "CbqDABPksnw",
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
+  },
+  {
+   "id": 1594914,
+   "title": "Lucky Strike",
+   "release_date": "2026-10-02",
+   "overview": "Un soldado estadounidense gravemente herido lucha por sobrevivir, durante la II Guerra Mundial, detrás de las líneas enemigas en la Bélgica devastada por la guerra durante la brutal Batalla de las Ardenas. Aislado y obligado a afrontar unas condiciones extremas, debe confiar en su ingenio, su entrenamiento militar y una radio dañada como su única esperanza para evadir a las tropas enemigas que lo buscan. Mientras enfrenta el peligro constante, su objetivo es desesperadamente restablecer contacto con su unidad antes de que sea demasiado tarde.",
+   "vote_average": 6.6,
+   "genres": [
+    "Bélica",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/c4az2YuhUDmGTRYjsYdD3tFjwuG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
+   "providers": [],
+   "trailer": "vtEnjikCXyA",
+   "fondo": "https://image.tmdb.org/t/p/original/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg"
   }
  ],
  "upcoming": [
-  {
-   "id": 656908,
-   "title": "Ramayana: El Nacimiento de una Leyenda",
-   "release_date": "2026-11-06",
-   "overview": "",
-   "vote_average": 10,
-   "genres": [
-    "Fantasía",
-    "Acción",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bkhPaFOiqc9GeLMdf1D44KbozRH.jpg",
-   "providers": [],
-   "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/bkhPaFOiqc9GeLMdf1D44KbozRH.jpg"
-  },
   {
    "id": 1381071,
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
    "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 9.3,
+   "vote_average": 9.5,
    "genres": [
     "Ciencia ficción",
     "Terror",
@@ -369,11 +351,28 @@
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
   },
   {
+   "id": 656908,
+   "title": "Ramayana: El Nacimiento de una Leyenda",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 8,
+   "genres": [
+    "Fantasía",
+    "Acción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bkhPaFOiqc9GeLMdf1D44KbozRH.jpg",
+   "providers": [],
+   "trailer": "tPf0_b026Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/bkhPaFOiqc9GeLMdf1D44KbozRH.jpg"
+  },
+  {
    "id": 1117898,
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7.7,
+   "vote_average": 7.2,
    "genres": [
     "Aventura",
     "Animación",
@@ -472,6 +471,21 @@
    "fondo": ""
   },
   {
+   "id": 1522071,
+   "title": "Ruega por nosotras",
+   "release_date": "2026-11-06",
+   "overview": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/vgAae3dWzJoFuGQbRaKvSCmogDq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
+   "providers": [],
+   "trailer": "JYAoX8VqKw0",
+   "fondo": "https://image.tmdb.org/t/p/original/dcms6atcKVzYPMWJwvltYkaq2zf.jpg"
+  },
+  {
    "id": 1371661,
    "title": "Sacamantecas",
    "release_date": "2026-11-06",
@@ -502,21 +516,6 @@
    "providers": [],
    "trailer": "",
    "fondo": ""
-  },
-  {
-   "id": 1522071,
-   "title": "Ruega por nosotras",
-   "release_date": "2026-11-06",
-   "overview": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/vgAae3dWzJoFuGQbRaKvSCmogDq.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
-   "providers": [],
-   "trailer": "JYAoX8VqKw0",
-   "fondo": "https://image.tmdb.org/t/p/original/dcms6atcKVzYPMWJwvltYkaq2zf.jpg"
   },
   {
    "id": 1662674,
@@ -593,22 +592,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/lDVbwlVKRBgnWszOghkDn3viTrh.jpg"
   },
   {
-   "id": 1567605,
-   "title": "Scrooge y los fantasmas de la Navidad",
-   "release_date": "2026-11-13",
-   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 0,
-   "genres": [
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg",
-   "providers": [],
-   "trailer": "l_Ozo1xUgbU",
-   "fondo": "https://image.tmdb.org/t/p/original/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg"
-  },
-  {
    "id": 891621,
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
@@ -626,21 +609,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/b17UWf3LqHgKolQkXckne32qv0.jpg"
   },
   {
-   "id": 1427833,
-   "title": "A Mouse Hunt for Christmas",
+   "id": 1567605,
+   "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
-   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
-   "vote_average": 6.6,
+   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+   "vote_average": 0,
    "genres": [
-    "Familia",
-    "Animación",
+    "Fantasía",
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg",
    "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
+   "trailer": "l_Ozo1xUgbU",
+   "fondo": "https://image.tmdb.org/t/p/original/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg"
   },
   {
    "id": 1437511,
@@ -658,6 +640,23 @@
    "providers": [],
    "trailer": "tKtg0S1rm2M",
    "fondo": "https://image.tmdb.org/t/p/original/xghtLO90cQPybH85aw1C3bZ2P3.jpg"
+  },
+  {
+   "id": 1427833,
+   "title": "A Mouse Hunt for Christmas",
+   "release_date": "2026-11-13",
+   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
+   "vote_average": 6.6,
+   "genres": [
+    "Familia",
+    "Animación",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
   }
  ],
  "region": "ES"
