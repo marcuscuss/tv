@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T19:39:22.506Z",
+ "actualizado": "2026-11-04T06:43:16.807Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -627,61 +627,6 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
-     "id": 345938,
-     "title": "La cabaña",
-     "year": "2017",
-     "release_date": "2017-03-02",
-     "overview": "Después de sufrir una tragedia familiar, Mack Phillips cae en una profunda depresión que le lleva a cuestionar todas sus creencias. Sumido en una crisis de fe, recibe una enigmática carta donde un misterioso personaje le cita en una cabaña abandonada en lo más profundo de los bosques de Oregón. A pesar de sus dudas, Mack viaja a la cabaña, donde se encontrará con alguien inesperado. Este encuentro conducirá a Mack a enfrentarse a importantes verdades, que no sólo transformarán su comprensión de la tragedia sino que harán que su vida cambie para siempre.",
-     "vote_average": 7.5,
-     "genres": [
-      "Drama",
-      "Familia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/d7qG9sdCTo3uBeWXpxKehplvr8B.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/bAup7FGUlmNVOuhZFlLgmDPo0Eg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/zHfmIQDe1oVFSW2p1ZAnq7j7Fuy.jpg",
-     "providers": [
-      "Lionsgate+ Amazon Channel"
-     ],
-     "trailer": "Ouc9W0GRlQw"
-    },
-    {
-     "id": 520318,
-     "title": "Fátima, la película",
-     "year": "2020",
-     "release_date": "2020-08-13",
-     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
-     "vote_average": 7.2,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "PvokEpA439o"
-    },
-    {
-     "id": 309425,
-     "title": "El poder de la cruz",
-     "year": "2015",
-     "release_date": "2015-03-20",
-     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
-     "vote_average": 6.8,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
-     "providers": [],
-     "trailer": "ogIX2Q7tEdc"
-    },
-    {
      "id": 430446,
      "title": "Come Sunday",
      "year": "2018",
@@ -701,6 +646,41 @@
      "trailer": "pVQFWvm_fbU"
     },
     {
+     "id": 345938,
+     "title": "La cabaña",
+     "year": "2017",
+     "release_date": "2017-03-02",
+     "overview": "Después de sufrir una tragedia familiar, Mack Phillips cae en una profunda depresión que le lleva a cuestionar todas sus creencias. Sumido en una crisis de fe, recibe una enigmática carta donde un misterioso personaje le cita en una cabaña abandonada en lo más profundo de los bosques de Oregón. A pesar de sus dudas, Mack viaja a la cabaña, donde se encontrará con alguien inesperado. Este encuentro conducirá a Mack a enfrentarse a importantes verdades, que no sólo transformarán su comprensión de la tragedia sino que harán que su vida cambie para siempre.",
+     "vote_average": 7.5,
+     "genres": [
+      "Drama",
+      "Familia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/d7qG9sdCTo3uBeWXpxKehplvr8B.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/bAup7FGUlmNVOuhZFlLgmDPo0Eg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/zHfmIQDe1oVFSW2p1ZAnq7j7Fuy.jpg",
+     "providers": [
+      "Lionsgate+ Amazon Channel"
+     ],
+     "trailer": "Ouc9W0GRlQw"
+    },
+    {
+     "id": 309425,
+     "title": "El poder de la cruz",
+     "year": "2015",
+     "release_date": "2015-03-20",
+     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
+     "vote_average": 6.8,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
+     "providers": [],
+     "trailer": "ogIX2Q7tEdc"
+    },
+    {
      "id": 127373,
      "title": "¿Qué hacemos con Maisie?",
      "year": "2013",
@@ -718,6 +698,22 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "B1xClEljavQ"
+    },
+    {
+     "id": 88875,
+     "title": "El efecto de los rayos gamma  sobre las margaritas",
+     "year": "1972",
+     "release_date": "1972-12-20",
+     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
+     "vote_average": 7.3,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "providers": [],
+     "trailer": "9U7z35zbxPk"
     },
     {
      "id": 1217690,
@@ -757,20 +753,20 @@
      "trailer": "wbj691Z1Z1E"
     },
     {
-     "id": 88875,
-     "title": "El efecto de los rayos gamma  sobre las margaritas",
-     "year": "1972",
-     "release_date": "1972-12-20",
-     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
-     "vote_average": 7.3,
+     "id": 44655,
+     "title": "Susana la perversa",
+     "year": "1951",
+     "release_date": "1951-04-11",
+     "overview": "Susana escapa del reformatorio donde ha estado encerrada por quince años y llega la hacienda de don Guadalupe. Allí, la joven seducirá a todos los hombres del rumbo, incluyendo al joven Alberto, hijo de don Guadalupe, al caporal Jesús y al propio hacendado.",
+     "vote_average": 6.8,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/ifJB11s7JLor1SHZkfCyCcRaB3t.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/atNiMTTg211WNG5Jv7S2Fs23j0h.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/atNiMTTg211WNG5Jv7S2Fs23j0h.jpg",
      "providers": [],
-     "trailer": "9U7z35zbxPk"
+     "trailer": "b3aPdGKS8ko"
     },
     {
      "id": 1243381,
@@ -794,20 +790,20 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
      "providers": [],
-     "trailer": "JxTFqsy5Pxs"
+     "trailer": "YuMBAq-ROh4"
     },
     {
      "id": 467433,
@@ -826,6 +822,22 @@
      "trailer": "QzNuMWxPo80"
     },
     {
+     "id": 29697,
+     "title": "Confianza en la cosecha",
+     "year": "2006",
+     "release_date": "2006-10-27",
+     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
+     "vote_average": 7.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "providers": [],
+     "trailer": "JxTFqsy5Pxs"
+    },
+    {
      "id": 249660,
      "title": "Dios no esta muerto",
      "year": "2014",
@@ -840,22 +852,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/8pl2t8FvYHHEAT6ly8YtJJWd1bn.jpg",
      "providers": [],
      "trailer": "N0MwZxNuzmU"
-    },
-    {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
-     "providers": [],
-     "trailer": "YuMBAq-ROh4"
     }
    ]
   },
@@ -946,25 +942,6 @@
      "trailer": "e3U3TrLo3tQ"
     },
     {
-     "id": 84338,
-     "title": "Simon Killer",
-     "year": "2012",
-     "release_date": "2012-04-12",
-     "overview": "Un graduado reciente en la universidad va a París después de romper una relación con su novia que duraba 5 años. Una vez allí, se enamora de una joven prostituta y comienza un viaje fatídico.",
-     "vote_average": 5.9,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/32SUAJ7JP9Jvb251J8tf9U2Si6m.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "VJICFO4lbtQ"
-    },
-    {
      "id": 95608,
      "title": "Canción de Nueva York",
      "year": "2017",
@@ -982,6 +959,43 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "MWkdM2ZGah0"
+    },
+    {
+     "id": 1920,
+     "title": "Delito de pasión",
+     "year": "1956",
+     "release_date": "1956-12-28",
+     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "providers": [],
+     "trailer": "jJi9mUp_KeM"
+    },
+    {
+     "id": 84338,
+     "title": "Simon Killer",
+     "year": "2012",
+     "release_date": "2012-04-12",
+     "overview": "Un graduado reciente en la universidad va a París después de romper una relación con su novia que duraba 5 años. Una vez allí, se enamora de una joven prostituta y comienza un viaje fatídico.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/32SUAJ7JP9Jvb251J8tf9U2Si6m.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "VJICFO4lbtQ"
     },
     {
      "id": 928270,
@@ -1070,27 +1084,6 @@
      "trailer": "ZdZ0lUxunbA"
     },
     {
-     "id": 9280,
-     "title": "Femme Fatale",
-     "year": "2002",
-     "release_date": "2002-04-30",
-     "overview": "En la inauguración del festival de cine de Cannes, una de las invitadas de lujo, una famosa y extravagante supermodelo, luce un valioso body de diamantes. Laura Ash utiliza toda su astucia para seducir a la modelo y robarle la joya, pero traiciona a su banda, al huir con el botín. Durante su fuga, encuentra a una mujer idéntica a ella que se suicida después la muerte de su marido y su única hija. Laura decide adoptar su identidad para salir de Francia y empezar una nueva vida. (FILMAFFINITY)",
-     "vote_average": 6.2,
-     "genres": [
-      "Misterio",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xWt4tDUkzhyK4gKIKXbe3RkPsOm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rc0n0PItBZK4ptPNEuSRv83Noee.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rc0n0PItBZK4ptPNEuSRv83Noee.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "FlixOlé"
-     ],
-     "trailer": "qTbcKBdDyBg"
-    },
-    {
      "id": 311667,
      "title": "Manhattan nocturno",
      "year": "2016",
@@ -1111,25 +1104,25 @@
      "trailer": "5Vah3WwkfWE"
     },
     {
-     "id": 1965,
-     "title": "Un crimen perfecto",
-     "year": "1998",
-     "release_date": "1998-06-05",
-     "overview": "Steven Taylor, un industrial millonario que atraviesa un mal momento financiero, está casado con Emily, una joven adinerada de familia rica que mantiene un pasional romance con David, un artista bohemio. Tras conocer la infidelidad de su esposa, Steve averigua también el turbio pasado del amante, un estafador que seduce a mujeres ricas, y entonces le encarga que asesine a su esposa... Remake del clásico de Hitchcok \"Crimen perfecto\" (Dial M for Murder, 1954).",
-     "vote_average": 6.6,
+     "id": 9280,
+     "title": "Femme Fatale",
+     "year": "2002",
+     "release_date": "2002-04-30",
+     "overview": "En la inauguración del festival de cine de Cannes, una de las invitadas de lujo, una famosa y extravagante supermodelo, luce un valioso body de diamantes. Laura Ash utiliza toda su astucia para seducir a la modelo y robarle la joya, pero traiciona a su banda, al huir con el botín. Durante su fuga, encuentra a una mujer idéntica a ella que se suicida después la muerte de su marido y su única hija. Laura decide adoptar su identidad para salir de Francia y empezar una nueva vida. (FILMAFFINITY)",
+     "vote_average": 6.2,
      "genres": [
+      "Misterio",
       "Crimen",
-      "Suspense",
-      "Drama"
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/rfm9EtbaUWDzQAFfShb7X1uSczU.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/dNW7ftcqEAvKmDkuRPaLC4gnhwJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/dNW7ftcqEAvKmDkuRPaLC4gnhwJ.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/xWt4tDUkzhyK4gKIKXbe3RkPsOm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rc0n0PItBZK4ptPNEuSRv83Noee.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rc0n0PItBZK4ptPNEuSRv83Noee.jpg",
      "providers": [
-      "Atres Player",
-      "Tivify"
+      "Movistar Plus+ Ficción Total ",
+      "FlixOlé"
      ],
-     "trailer": "aaQ8YI-rX2s"
+     "trailer": "qTbcKBdDyBg"
     }
    ]
   },
@@ -2596,6 +2589,24 @@
      "trailer": "Vjl9ApttZE8"
     },
     {
+     "id": 1375646,
+     "title": "Zona cero",
+     "year": "2026",
+     "release_date": "2026-05-21",
+     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
+     "vote_average": 8.2,
+     "genres": [
+      "Terror",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "providers": [],
+     "trailer": "LW6dpj1uCK8"
+    },
+    {
      "id": 1124,
      "title": "El truco final (El prestigio)",
      "year": "2006",
@@ -2615,24 +2626,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "DHoXum3M9eE"
-    },
-    {
-     "id": 1375646,
-     "title": "Zona cero",
-     "year": "2026",
-     "release_date": "2026-05-21",
-     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
-     "vote_average": 8.2,
-     "genres": [
-      "Terror",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "providers": [],
-     "trailer": "LW6dpj1uCK8"
     }
    ]
   },
@@ -4179,7 +4172,7 @@
    "year": "2026",
    "release_date": "2026-09-16",
    "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
-   "vote_average": 7.3,
+   "vote_average": 7.5,
    "genres": [
     "Terror",
     "Ciencia ficción",
