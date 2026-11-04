@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T06:42:43.215Z",
+ "actualizado": "2026-11-04T19:54:04.481Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -122,7 +122,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.2,
+   "vote_average": 6.3,
    "genres": [
     "Terror",
     "Suspense",
@@ -337,148 +337,11 @@
  ],
  "upcoming": [
   {
-   "id": 1405002,
-   "title": "Fiesta Pagäna",
-   "release_date": "2026-11-06",
-   "overview": "Narra la historia jamás contada de Mägo de Oz, la banda que revolucionó el rock español al fusionar el heavy metal con el folk celta.",
-   "vote_average": 0,
-   "genres": [
-    "Drama",
-    "Música"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/WGH8A7l5pQHlO13A7QJ2t4mjvN.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
-   "id": 1522071,
-   "title": "Ruega por nosotras",
-   "release_date": "2026-11-06",
-   "overview": "En 1974, Ana, una chica barcelonesa de 19 años, es puesta en manos del Patronato de Protección a la Mujer y trasladada a un reformatorio regentado por monjas en Madrid. Allí, es sometida a un brutal régimen disciplinario, y tratará de sobrevivir buscando consuelo y apoyo en la amistad de otras chicas en su misma situación.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/vgAae3dWzJoFuGQbRaKvSCmogDq.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dcms6atcKVzYPMWJwvltYkaq2zf.jpg",
-   "providers": [],
-   "trailer": "JYAoX8VqKw0",
-   "fondo": "https://image.tmdb.org/t/p/original/dcms6atcKVzYPMWJwvltYkaq2zf.jpg"
-  },
-  {
-   "id": 1371661,
-   "title": "Sacamantecas",
-   "release_date": "2026-11-06",
-   "overview": "Álava, finales del siglo XIX. Mientras la III Guerra Carlista agoniza, varias mujeres aparecen estranguladas en las afueras de Vitoria. Ángela Berrosteguieta, hermana de una de las víctimas, llega en busca de justicia, decidida a demostrar que Juan Díaz de Garayo, un campesino analfabeto, es el responsable de los crímenes. Sin embargo, Pío Pinedo, jefe de los alguaciles, se enfrenta a la falta de recursos en tiempos de guerra y a la presión de las autoridades, que prefieren ocultar la creciente ola de asesinatos.",
-   "vote_average": 0,
-   "genres": [
-    "Drama",
-    "Historia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/7338FnwdzX9oNpODZIJH1OliUGV.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rs4w35BjZU8L2CihVNIyGIrxU2W.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/rs4w35BjZU8L2CihVNIyGIrxU2W.jpg"
-  },
-  {
-   "id": 1755565,
-   "title": "11",
-   "release_date": "2026-11-06",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/7pksyM5i9GeCJzlDscQ5te13vaL.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
-   "id": 1662674,
-   "title": "L'ombra d'algú",
-   "release_date": "2026-11-06",
-   "overview": "Un cineasta pierde el sentido de su ser cuando una tarde en la montaña de Montjuic la vida le cambia para siempre.",
-   "vote_average": 0,
-   "genres": [
-    "Ciencia ficción",
-    "Drama",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/eqDwlJK2F0vlXpvnaN3Nvw0tt71.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/uiGseurlguR2S2szCKd7HBQjXTY.jpg",
-   "providers": [],
-   "trailer": "CVU32pWU6YU",
-   "fondo": "https://image.tmdb.org/t/p/original/uiGseurlguR2S2szCKd7HBQjXTY.jpg"
-  },
-  {
-   "id": 1745146,
-   "title": "Tunnel Vision",
-   "release_date": "2026-11-07",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/43ShkCuMKVjUf5f52g2FRFbPePO.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pjLlciAYMGUT6wmSPP7OXOkq4Jq.jpg",
-   "providers": [],
-   "trailer": "q_Rs3VZHWKM",
-   "fondo": "https://image.tmdb.org/t/p/original/pjLlciAYMGUT6wmSPP7OXOkq4Jq.jpg"
-  },
-  {
-   "id": 1802770,
-   "title": "EXO PLANET #6 - EXhOrizon [dot] in CINEMAS",
-   "release_date": "2026-11-08",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [],
-   "poster": "",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
-   "id": 1784105,
-   "title": "Cecilia,  una luz de mañana",
-   "release_date": "2026-11-09",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [],
-   "poster": "https://image.tmdb.org/t/p/w342/uW9sQBjQkm7nMUNNmWBKrrOGrkS.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "uqZdn75PrHs",
-   "fondo": ""
-  },
-  {
-   "id": 1421562,
-   "title": "¡Qué Bella Intensidad!",
-   "release_date": "2026-11-10",
-   "overview": "Un joven introvertido contrata un servicio llamado “Epizos” el cual busca sustituir con actores a relaciones sentimentales pasadas. Cuando Adán contrata este servicio, la persona que toca su puerta es directamente a quien buscaba sustituir.",
-   "vote_average": 0,
-   "genres": [
-    "Drama",
-    "Misterio"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/h2M1cDxuue81dhFfli5syi2DhL0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lDVbwlVKRBgnWszOghkDn3viTrh.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/lDVbwlVKRBgnWszOghkDn3viTrh.jpg"
-  },
-  {
    "id": 891621,
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 9,
+   "vote_average": 8.9,
    "genres": [
     "Comedia",
     "Crimen",
@@ -495,7 +358,7 @@
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 0,
+   "vote_average": 4,
    "genres": [
     "Fantasía",
     "Comedia"
@@ -524,23 +387,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/xghtLO90cQPybH85aw1C3bZ2P3.jpg"
   },
   {
-   "id": 1427833,
-   "title": "A Mouse Hunt for Christmas",
-   "release_date": "2026-11-13",
-   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
-   "vote_average": 6.6,
-   "genres": [
-    "Familia",
-    "Animación",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
-  },
-  {
    "id": 1124142,
    "title": "Los rivales de Amziah King",
    "release_date": "2026-11-13",
@@ -556,6 +402,23 @@
    "providers": [],
    "trailer": "GwSvAyaMGMo",
    "fondo": "https://image.tmdb.org/t/p/original/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg"
+  },
+  {
+   "id": 1427833,
+   "title": "A Mouse Hunt for Christmas",
+   "release_date": "2026-11-13",
+   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
+   "vote_average": 6.6,
+   "genres": [
+    "Familia",
+    "Animación",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
   },
   {
    "id": 1379486,
@@ -637,6 +500,21 @@
    "fondo": ""
   },
   {
+   "id": 1812576,
+   "title": "Nininbaori",
+   "release_date": "2026-11-14",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ovhR7tmXhG3rxuUXcatGKpfS1Zr.jpg",
+   "providers": [],
+   "trailer": "wlI3P6sRwBY",
+   "fondo": "https://image.tmdb.org/t/p/original/ovhR7tmXhG3rxuUXcatGKpfS1Zr.jpg"
+  },
+  {
    "id": 1806793,
    "title": "Love?",
    "release_date": "2026-11-17",
@@ -650,6 +528,138 @@
    "providers": [],
    "trailer": "",
    "fondo": ""
+  },
+  {
+   "id": 1232569,
+   "title": "Pinocho: Desatado",
+   "release_date": "2026-11-20",
+   "overview": "Gepetto le regala para el cumple de su nieto James un titere llamado Pinocho, aunque no sabian que estaria desquiciado, donde buscaria matar a quien fuera junto con su consciencia llamada Pepe Grillo para convertirse en un niño de verdad",
+   "vote_average": 6.4,
+   "genres": [
+    "Terror",
+    "Fantasía",
+    "Misterio"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gdR1YLb7697IQZMdmA1EIJYFm9h.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7RsPdXLDNugDIlwXPVeeprNfMx.jpg",
+   "providers": [],
+   "trailer": "NPLgD0dNQ8c",
+   "fondo": "https://image.tmdb.org/t/p/original/9MGOeVMglNF2UrKABMXSg6cZAMw.jpg"
+  },
+  {
+   "id": 1300968,
+   "title": "Los Juegos del Hambre: Amanecer en la cosecha",
+   "release_date": "2026-11-20",
+   "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la siega de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
+   "vote_average": 0,
+   "genres": [
+    "Ciencia ficción",
+    "Acción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/nijGyrqQbDhSGss4uugQokvBAsG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+   "providers": [],
+   "trailer": "71wxo7pAKVE",
+   "fondo": "https://image.tmdb.org/t/p/original/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg"
+  },
+  {
+   "id": 1240889,
+   "title": "Adolescencia, sexo y muerte en campamento Miasma",
+   "release_date": "2026-11-20",
+   "overview": "Tras años de secuelas cutres y un fandom en declive, la franquicia slasher 'Camp Miasma' es puesta en manos de una joven y entusiasta directora para que la resucite. Pero cuando visita a la estrella de la película original, una actriz que ahora vive recluida y envuelta en misterio, las dos caen en una espiral de sangre, deseo, miedo y delirio.",
+   "vote_average": 6.1,
+   "genres": [
+    "Comedia",
+    "Terror",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
+   "providers": [],
+   "trailer": "j9TsiTgYZGw",
+   "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
+  },
+  {
+   "id": 1308767,
+   "title": "Young Washington",
+   "release_date": "2026-11-20",
+   "overview": "Antes de liderar una nación, George Washington era un joven soldado en un conflicto global. Con alianzas desmoronándose y la guerra acercándose, debe elegir en quién confiar y enfrentar al líder en que se está convirtiendo.",
+   "vote_average": 7.7,
+   "genres": [
+    "Historia",
+    "Bélica",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/sOglmM6VNC3qKQl7FKYRqQYj7Jq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+   "providers": [],
+   "trailer": "LJek-kc384w",
+   "fondo": "https://image.tmdb.org/t/p/original/mj3RFamNUleZB94zMWgGnJkQCAH.jpg"
+  },
+  {
+   "id": 947493,
+   "title": "Chico de hierro",
+   "release_date": "2026-11-20",
+   "overview": "En la Francia rural, Christophe (10 años) intenta estar a la altura de su padre, un hombre rígido y distante, en la granja familiar. Sin embargo, el niño empieza a inclinarse y a desplomarse sin previo aviso: en el tractor, en la escuela, durante la cena... Un médico encuentra la solución: Christophe debe llevar un corsé de hierro para mantenerse erguido. Obligado a reinventar su vida lejos de la granja, Christophe descubre una nueva pasión por la música, conoce a una nueva amiga y la sigue en sus primeras travesuras. Pero ¿acaso servirá todo esto para corregir lo que está desequilibrado?",
+   "vote_average": 8,
+   "genres": [
+    "Animación",
+    "Drama",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qMryViRTIek9SkkOPjNMfnbCuI6.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/qMryViRTIek9SkkOPjNMfnbCuI6.jpg"
+  },
+  {
+   "id": 1176962,
+   "title": "Rose",
+   "release_date": "2026-11-20",
+   "overview": "En medio de la agitación de la Guerra de los Treinta Años, un misterioso soldado aparece en una apartada aldea protestante afirmando ser el heredero de una mansión abandonada hace mucho tiempo. Su búsqueda de reconocimiento y aceptación se ve complicada por un secreto: ha llegado a la aldea bajo una identidad y un nombre falsos, y fingiendo pertenecer a otro género. Sin embargo, Rose —que es el verdadero nombre del soldado— no se detendrá ante nada para lograr sus objetivos.",
+   "vote_average": 7.6,
+   "genres": [
+    "Drama",
+    "Historia",
+    "Bélica"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/flnb7COkqD4dZNZiCacNkai22vz.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg",
+   "providers": [],
+   "trailer": "hQGIx7gk_uc",
+   "fondo": "https://image.tmdb.org/t/p/original/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg"
+  },
+  {
+   "id": 1437939,
+   "title": "Ooh la la! ¿Quién lo hubiera pensado?",
+   "release_date": "2026-11-20",
+   "overview": "",
+   "vote_average": 5.3,
+   "genres": [
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/4dN9kXTNqvssrbF81viFoPnW2pt.jpg",
+   "providers": [],
+   "trailer": "cIlv1HQAc14",
+   "fondo": "https://image.tmdb.org/t/p/original/4dN9kXTNqvssrbF81viFoPnW2pt.jpg"
+  },
+  {
+   "id": 1578646,
+   "title": "Scavenger",
+   "release_date": "2026-11-20",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Ciencia ficción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bP6aQWLNigK06TYxyrtHwS63ruo.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/icdSfduEYHfXSlGq0V62zmnsE1m.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/icdSfduEYHfXSlGq0V62zmnsE1m.jpg"
   }
  ],
  "region": "ES"

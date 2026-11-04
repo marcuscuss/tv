@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T06:43:16.807Z",
+ "actualizado": "2026-11-04T19:54:21.023Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -109,31 +109,6 @@
      "trailer": "uDp1pBwrqKE"
     },
     {
-     "id": 1966,
-     "title": "Alejandro Magno",
-     "year": "2004",
-     "release_date": "2004-11-21",
-     "overview": "Fue muchas cosas para muchas personas: un apuesto rey guerrero lleno de la ambición, el coraje y la arrogancia de la juventud, encabezando a su pequeño ejército contra las gigantescas fuerzas persas… un hijo que buscaba desesperadamente la aprobación de su severo padre, endurecido por las batallas, y que se debatía entre su lealtad a éste y su amor por su madre… un conquistador despiadado que nunca perdió una batalla y empujó a sus soldados a los confines del mundo conocido… un visionario cuyos sueños, hazañas y destino dejaron huella a lo largo de la historia, ayudando a dar forma a nuestro mundo actual. Fue todo eso y más. Fue Alejandro Magno.",
-     "vote_average": 6,
-     "genres": [
-      "Bélica",
-      "Historia",
-      "Acción",
-      "Aventura",
-      "Drama",
-      "Romance"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/ff0oH0VnpszrqvBkg78zaFCUPts.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/h21dxRjtR7xOhyZljtSYeTETCht.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/h21dxRjtR7xOhyZljtSYeTETCht.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Atres Player",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "ZPfYZg1-jh8"
-    },
-    {
      "id": 184315,
      "title": "Hércules",
      "year": "2014",
@@ -173,49 +148,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "CMyrp5Vk3mU"
-    },
-    {
-     "id": 17897,
-     "title": "El viaje fantástico de Simbad",
-     "year": "1973",
-     "release_date": "1973-12-20",
-     "overview": "Simbad, Príncipe de Bagdad y marino legendario, encuentra un curioso mapa y con él se embarca rumbo a la isla de Lemuria junto a una bella esclava, Margiana, y al Gran Visir de Marabia. El Príncipe Koura, un mago oscuro que intenta hacerse con el poder en Marabia manipulando a espíritus del mal, los persigue, tratando de detener a Simbad en su búsqueda. Simbad llega a Lemuria a pesar del encantamiento que Koura ha lanzado sobre el mascarón de proa de su barco, que le hace cobrar vida. En Lemuria, Simbad y su fiel tripulación se encuentran con una estatua de seis brazos blandiendo una espada, con un centauro de un ojo y con un grifo.",
-     "vote_average": 6.7,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Drama",
-      "Fantasía",
-      "Familia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/s29SGisFfyQxNyhNJLt9hx0sC57.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin"
-     ],
-     "trailer": "A3kVFY9llNo"
-    },
-    {
-     "id": 31510,
-     "title": "Ben-Hur",
-     "year": "1925",
-     "release_date": "1925-12-25",
-     "overview": "En los años del Imperio Romano del reinado de Augusto y su sucesor Tiberio, Judá Ben-Hur, hijo de una familia noble de Jerusalén, y Mesala, tribuno romano que dirige los ejércitos de ocupación, se han convertido en enemigos irreconciliables. Acusado de atentar contra la vida del nuevo gobernador romano, Mesala le encarcela junto a su familia. Cuando se llevan a Ben-Hur a galeras, un joven llamado Jesús de Nazaret se apiada de él y le da de beber.",
-     "vote_average": 7.3,
-     "genres": [
-      "Aventura",
-      "Drama",
-      "Romance",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/x65AGnMC5gS1VVf6BKbhJMQ3F6t.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/e7ooaJr9DbLIubHOycjoXG47F2S.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/e7ooaJr9DbLIubHOycjoXG47F2S.jpg",
-     "providers": [],
-     "trailer": "ftxWZZQs-j4"
     },
     {
      "id": 1911,
@@ -298,6 +230,66 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "MQZ7_Uo0OI0"
+    },
+    {
+     "id": 11527,
+     "title": "Excalibur",
+     "year": "1981",
+     "release_date": "1981-04-10",
+     "overview": "En los bosques que rodean el castillo de Tintagel, Uther Pendragon, tras una larga y cruenta guerra, le ruega al mago Merlín que le haga propicia la seducción de la novia de su nuevo aliado, el Duque de Cornwall. Merlín accede a sus deseos, pero con la condición de que el fruto de su lujuria sea para él. Esa misma noche, Arturo es concebido y, dieciocho años después, los nobles de un reino cuyo trono está vacío compiten para hacerse con el derecho de liberar la espada encantada, llamada Excalibur, de la piedra en la que fue incrustada al morir Uther.",
+     "vote_average": 7,
+     "genres": [
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oPAC1Bso6KsViv8YhzJ60pl9y04.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qrnNj4lCPcBzmeOaHb7pLV9JKyg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qrnNj4lCPcBzmeOaHb7pLV9JKyg.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total "
+     ],
+     "trailer": "vw8oPabVbeY"
+    },
+    {
+     "id": 11828,
+     "title": "Erik el vikingo",
+     "year": "1989",
+     "release_date": "1989-09-01",
+     "overview": "Erik el Vikingo (Tim Robbins) está cansado de los saqueos, las violaciones y de los cielos grises. Decide entonces reunir guerreros de su pueblo y todos embarcan en un viaje peligroso a Valhalla, para pedir los dioses que acaben con la Edad de Ragnorok y que dejen a su gente ver la luz del sol otra vez. Del director de las comedias del grupo Monty Python.",
+     "vote_average": 5.9,
+     "genres": [
+      "Aventura",
+      "Fantasía",
+      "Comedia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0zQNIlFN50VjW7t8AmkG14jtXa.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rZlMfuYPGxtyxOUzNLLF4iyM0lF.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDtReYSFYUgWnAapK1InZLcOXLc.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "Filmin"
+     ],
+     "trailer": "Gdq8u9lTdlA"
+    },
+    {
+     "id": 919355,
+     "title": "El Último Dragón (Dragon Knight)",
+     "year": "2022",
+     "release_date": "2022-03-21",
+     "overview": "Muchos años después de que se perdió la guerra y todos los dragones fueron asesinados, un caballero solitario viaja por las tierras de Agonos buscando formar un ejército contra el señor de los demonios Abaddon. Cuando la visión de un sanador revela que un dragón aún vive, y junto con un joven escudero entusiasta, el caballero parte en busca de la legendaria criatura. A medida que los ejércitos de Abaddon descienden sobre los reinos humanos, el dragón es su última esperanza para defenderse de la horda, antes de que arrase las tierras de los hombres. Pero, ¿existe la criatura? Y si lo hace, ¿luchará por ellos una vez más?",
+     "vote_average": 6.2,
+     "genres": [
+      "Fantasía",
+      "Aventura",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/1dtdayBxKoYsD3YjuRyi9lSRNcF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/l99dylTOAMkwKSr54X5ytiEtnLA.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/l99dylTOAMkwKSr54X5ytiEtnLA.jpg",
+     "providers": [],
+     "trailer": "vG9yfFy_nNU"
     }
    ]
   },
@@ -372,6 +364,29 @@
       "Disney Plus"
      ],
      "trailer": "G4ZV8qfskfA"
+    },
+    {
+     "id": 580489,
+     "title": "Venom: habrá matanza",
+     "year": "2021",
+     "release_date": "2021-09-30",
+     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+     "vote_average": 6.7,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "hbfadtw-fjs"
     },
     {
      "id": 271110,
@@ -475,6 +490,33 @@
      "trailer": "ISS-a7b0iHw"
     },
     {
+     "id": 141052,
+     "title": "Liga de la Justicia",
+     "year": "2017",
+     "release_date": "2017-11-15",
+     "overview": "Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes (Batman, Wonder Woman, Aquaman, Cyborg y Flash) puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas.",
+     "vote_average": 6.1,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/wUWqnavD8iGZ5F4xXhWlrtEzKjV.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
+     "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads",
+      "HBO Max Amazon Channel"
+     ],
+     "trailer": "bv0v2pmLea8"
+    },
+    {
      "id": 10138,
      "title": "Iron Man 2",
      "year": "2010",
@@ -553,49 +595,6 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
-    },
-    {
-     "id": 1452,
-     "title": "Superman Returns",
-     "year": "2006",
-     "release_date": "2006-06-28",
-     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
-     "vote_average": 5.8,
-     "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "providers": [
-      "Netflix",
-      "Amazon Prime Video",
-      "Netflix Standard with Ads",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "zVCozSQj8TQ"
-    },
-    {
-     "id": 986056,
-     "title": "Thunderbolts*",
-     "year": "2025",
-     "release_date": "2025-04-30",
-     "overview": "Un grupo de supervillanos poco convencional es reclutado para hacer misiones para el gobierno: Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster y John Walker. Después de verse atrapados en una trampa mortal urdida por Valentina Allegra de Fontaine, estos marginados deben embarcarse en una peligrosa misión que les obligará a enfrentarse a los recovecos más oscuros de su pasado.",
-     "vote_average": 7.3,
-     "genres": [
-      "Acción",
-      "Ciencia ficción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/yDWU8YyFkPnlVY627QXPvct8bz9.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "QCbzHZ1Q2lw"
     }
    ]
   },
@@ -1256,26 +1255,6 @@
      "trailer": "eU8ox73SWKY"
     },
     {
-     "id": 11644,
-     "title": "Impacto",
-     "year": "1981",
-     "release_date": "1981-07-24",
-     "overview": "El protagonista es un ingeniero de sonido que trabaja en películas de terror baratas. Una noche, mientras graba efectos sonoros, observa cómo un coche en el que viaja una pareja cae desde un puente a un río. A pesar de sus esfuerzos, sólo consigue salvar a la chica. Cuando se entera de que el hombre muerto era un candidato a la Presidencia de la Nación, recuerda haber escuchado un disparo antes del accidente y, entonces, empieza a sospechar que fue un atentado.",
-     "vote_average": 7.3,
-     "genres": [
-      "Crimen",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/vbHo8X0Zpny7rSovAdAEJeXVRwK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
-     "providers": [
-      "MGM Plus Amazon Channel"
-     ],
-     "trailer": "dgWfyFgEsO8"
-    },
-    {
      "id": 396461,
      "title": "Lo que esconde Silver Lake",
      "year": "2018",
@@ -1297,6 +1276,26 @@
       "MUBI"
      ],
      "trailer": "U84SbxKc6W8"
+    },
+    {
+     "id": 11644,
+     "title": "Impacto",
+     "year": "1981",
+     "release_date": "1981-07-24",
+     "overview": "El protagonista es un ingeniero de sonido que trabaja en películas de terror baratas. Una noche, mientras graba efectos sonoros, observa cómo un coche en el que viaja una pareja cae desde un puente a un río. A pesar de sus esfuerzos, sólo consigue salvar a la chica. Cuando se entera de que el hombre muerto era un candidato a la Presidencia de la Nación, recuerda haber escuchado un disparo antes del accidente y, entonces, empieza a sospechar que fue un atentado.",
+     "vote_average": 7.3,
+     "genres": [
+      "Crimen",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/vbHo8X0Zpny7rSovAdAEJeXVRwK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
+     "providers": [
+      "MGM Plus Amazon Channel"
+     ],
+     "trailer": "dgWfyFgEsO8"
     },
     {
      "id": 8066,
@@ -1360,6 +1359,24 @@
      "trailer": "PRENEOHlcbw"
     },
     {
+     "id": 11761,
+     "title": "El misterio de Peacock",
+     "year": "2010",
+     "release_date": "2010-04-20",
+     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "providers": [],
+     "trailer": "NPEzcAG4E5s"
+    },
+    {
      "id": 66113,
      "title": "Una chica perfecta",
      "year": "2009",
@@ -1405,23 +1422,6 @@
       "HBO Max Amazon Channel"
      ],
      "trailer": "iVdehGAy4zA"
-    },
-    {
-     "id": 146015,
-     "title": "El Doble",
-     "year": "2014",
-     "release_date": "2014-04-03",
-     "overview": "Adaptación contemporánea de la novela de Dostoievski sobre un burócrata que empieza a perder la cabeza cuando un doble exacto a él aparece trabajando en su misma oficina y parece tener intenciones de suplantarle.",
-     "vote_average": 6.5,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/7kNcpmP1Pe9fWLKEbEOX5GEWueC.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
-     "providers": [],
-     "trailer": "mzw0wEcsfxE"
     }
    ]
   },
@@ -1476,27 +1476,6 @@
      "trailer": "jHtGZS-TFOI"
     },
     {
-     "id": 364615,
-     "title": "Toro",
-     "year": "2016",
-     "release_date": "2016-04-22",
-     "overview": "Dos hermanos se reencuentran después de cinco años. Uno ha estado en la cárcel. El otro, tras robar a un peligroso perista, huye con su pequeña hija Diana. Los tres emprenden un viaje por una Andalucía mítica, violenta y salvaje. Un viaje en el que reaparecen las viejas heridas del pasado y en el que los hermanos se ven obligados a reconciliarse para poder salvar la vida.",
-     "vote_average": 6,
-     "genres": [
-      "Drama",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/4VTgL6uCdR90w1qKInmidWSd3OB.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/410blM5fXyd6EbKUjVw5xtz7pK4.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/410blM5fXyd6EbKUjVw5xtz7pK4.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "s81KeWlio-I"
-    },
-    {
      "id": 127521,
      "title": "6 balas",
      "year": "2012",
@@ -1513,6 +1492,49 @@
      "fondo": "https://image.tmdb.org/t/p/original/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
      "providers": [],
      "trailer": "ioIknR8KQmk"
+    },
+    {
+     "id": 587986,
+     "title": "Ventajas de viajar en tren",
+     "year": "2019",
+     "release_date": "2019-11-08",
+     "overview": "Después de internar a su trastornado marido en un remoto hospital psiquiátrico, la editora de libros Helga Pato regresa a casa en tren, donde conoce a un hombre misterioso que dice ser psiquiatra.",
+     "vote_average": 6.5,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6C8uJnxoBZVYY7iueExVL423RLI.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Movistar Plus+ Ficción Total ",
+      "SkyShowtime",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "FgS_tWjkLN4"
+    },
+    {
+     "id": 651589,
+     "title": "Hasta el cielo",
+     "year": "2020",
+     "release_date": "2020-12-18",
+     "overview": "El día que Ángel habló con Estrella en aquella discoteca, su vida cambió para siempre. Tras una pelea con Poli, el posesivo novio de la chica, éste descubre que Ángel tiene talento para meterse en problemas y, lo más importante, para salir de ellos. Por eso, le anima a unirse a una banda de atracadores que tiene en jaque a toda la policía de Madrid. Ángel comienza a escalar rápidamente en una pirámide de atracos, dinero negro, negocios turbios y abogados corruptos que le llevarán a ser acorralado por Duque, un incansable detective que no parará hasta acabar con su carrera. Desoyendo los consejos de su gente, Ángel consigue ascender hasta convertirse en el protegido de Rogelio, uno de los tipos que controla el mercado negro de la ciudad. Con éste y Sole, hija del capo, Ángel descubrirá que el precio del poder es alto y que pronto tendrá que decidir entre su futuro como atracador y el amor de su vida, Estrella.",
+     "vote_average": 6.1,
+     "genres": [
+      "Acción",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/4wBsYozsXBlG7Lx4NO7ycDWnnUs.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "I-wlmGEXJAM"
     },
     {
      "id": 20637,
@@ -1573,25 +1595,25 @@
      "trailer": "DIa__DpZX9U"
     },
     {
-     "id": 651589,
-     "title": "Hasta el cielo",
-     "year": "2020",
-     "release_date": "2020-12-18",
-     "overview": "El día que Ángel habló con Estrella en aquella discoteca, su vida cambió para siempre. Tras una pelea con Poli, el posesivo novio de la chica, éste descubre que Ángel tiene talento para meterse en problemas y, lo más importante, para salir de ellos. Por eso, le anima a unirse a una banda de atracadores que tiene en jaque a toda la policía de Madrid. Ángel comienza a escalar rápidamente en una pirámide de atracos, dinero negro, negocios turbios y abogados corruptos que le llevarán a ser acorralado por Duque, un incansable detective que no parará hasta acabar con su carrera. Desoyendo los consejos de su gente, Ángel consigue ascender hasta convertirse en el protegido de Rogelio, uno de los tipos que controla el mercado negro de la ciudad. Con éste y Sole, hija del capo, Ángel descubrirá que el precio del poder es alto y que pronto tendrá que decidir entre su futuro como atracador y el amor de su vida, Estrella.",
-     "vote_average": 6.1,
+     "id": 364615,
+     "title": "Toro",
+     "year": "2016",
+     "release_date": "2016-04-22",
+     "overview": "Dos hermanos se reencuentran después de cinco años. Uno ha estado en la cárcel. El otro, tras robar a un peligroso perista, huye con su pequeña hija Diana. Los tres emprenden un viaje por una Andalucía mítica, violenta y salvaje. Un viaje en el que reaparecen las viejas heridas del pasado y en el que los hermanos se ven obligados a reconciliarse para poder salvar la vida.",
+     "vote_average": 6,
      "genres": [
-      "Acción",
       "Drama",
+      "Crimen",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/4wBsYozsXBlG7Lx4NO7ycDWnnUs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/4VTgL6uCdR90w1qKInmidWSd3OB.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/410blM5fXyd6EbKUjVw5xtz7pK4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/410blM5fXyd6EbKUjVw5xtz7pK4.jpg",
      "providers": [
       "Netflix",
       "Netflix Standard with Ads"
      ],
-     "trailer": "I-wlmGEXJAM"
+     "trailer": "s81KeWlio-I"
     },
     {
      "id": 1621552,
@@ -1615,28 +1637,6 @@
      "trailer": "Rk0efhpa-5Y"
     },
     {
-     "id": 587986,
-     "title": "Ventajas de viajar en tren",
-     "year": "2019",
-     "release_date": "2019-11-08",
-     "overview": "Después de internar a su trastornado marido en un remoto hospital psiquiátrico, la editora de libros Helga Pato regresa a casa en tren, donde conoce a un hombre misterioso que dice ser psiquiatra.",
-     "vote_average": 6.5,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6C8uJnxoBZVYY7iueExVL423RLI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+ Ficción Total ",
-      "SkyShowtime",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "FgS_tWjkLN4"
-    },
-    {
      "id": 613099,
      "title": "Legado en los huesos",
      "year": "2019",
@@ -1656,6 +1656,27 @@
       "Netflix Standard with Ads"
      ],
      "trailer": "vv-at2_dfwk"
+    },
+    {
+     "id": 157351,
+     "title": "La verdad sobre Emmanuel",
+     "year": "2013",
+     "release_date": "2013-04-26",
+     "overview": "Emanuel (Scodelario) es una chica de diecisiete años que se ofrece a cuidar al bebé de Linda (Biel), su nueva vecina. La cuestión es que ambas están bastante desequilibradas: mientras que Emanuel cree ver en Linda a su difunta madre, lo que le ocurre a Linda es que tiene un muñeco al que cuida como si fuera su hijo muerto. (FILMAFFINITY)",
+     "vote_average": 6,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/z98jqAlVlnXyYnTlC95Na8FQXHF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mFhaWSCPSidNjsLD0yzwypajDvS.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mFhaWSCPSidNjsLD0yzwypajDvS.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Acontra Plus",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "f3b_XVosLfU"
     },
     {
      "id": 48129,
@@ -1694,27 +1715,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "i6NvYfJwq-U"
-    },
-    {
-     "id": 970347,
-     "title": "The Killer",
-     "year": "2024",
-     "release_date": "2024-08-22",
-     "overview": "Zee es una temida asesina a sueldo conocida como “la Reina de los Muertos”, pero cuando se niega a asesinar a una joven ciega, se encuentra perseguida tanto por sus colegas criminales como por un decidido detective de policía.",
-     "vote_average": 6.3,
-     "genres": [
-      "Acción",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6PCnxKZZIVRanWb710pNpYVkCSw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/tCQfubckzzcuCbsGugkpLhfjS5z.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/tCQfubckzzcuCbsGugkpLhfjS5z.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "zgNOS5ofQhw"
     }
    ]
   }
@@ -2528,26 +2528,6 @@
      "trailer": "Zd8Jw1Z_j4w"
     },
     {
-     "id": 299536,
-     "title": "Vengadores: Infinity War",
-     "year": "2018",
-     "release_date": "2018-04-25",
-     "overview": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?",
-     "vote_average": 8.2,
-     "genres": [
-      "Aventura",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "-f5PwE_Q8Fs"
-    },
-    {
      "id": 299534,
      "title": "Vengadores: Endgame",
      "year": "2019",
@@ -2566,6 +2546,26 @@
       "Disney Plus"
      ],
      "trailer": "Ib847Q7C9AU"
+    },
+    {
+     "id": 299536,
+     "title": "Vengadores: Infinity War",
+     "year": "2018",
+     "release_date": "2018-04-25",
+     "overview": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?",
+     "vote_average": 8.2,
+     "genres": [
+      "Aventura",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+     "providers": [
+      "Disney Plus"
+     ],
+     "trailer": "-f5PwE_Q8Fs"
     },
     {
      "id": 283566,
@@ -2623,6 +2623,7 @@
      "fondo": "https://image.tmdb.org/t/p/original/yaExZh6qE2cfyK3o4kAMEq0mkgy.jpg",
      "providers": [
       "Amazon Prime Video",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "DHoXum3M9eE"
@@ -3165,27 +3166,6 @@
      "trailer": "B6Z9MM1LhEA"
     },
     {
-     "id": 614945,
-     "title": "Mensajes de voz para Isabelle",
-     "year": "2026",
-     "release_date": "2026-06-20",
-     "overview": "Una joven deja mensajes de voz bastante explícitos a su difunta hermana, sin saber que los recibe un desconocido que comienza a enamorarse de ella.",
-     "vote_average": 8.3,
-     "genres": [
-      "Romance",
-      "Comedia",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/ohIYxdaO7WV1zsSPFZVddWNEWkk.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "9mi3YVYm3ZU"
-    },
-    {
      "id": 820067,
      "title": "Las Quintillizas: La Película",
      "year": "2022",
@@ -3246,6 +3226,27 @@
       "Acontra Plus Amazon Channel"
      ],
      "trailer": "i1C6qZVeFtA"
+    },
+    {
+     "id": 614945,
+     "title": "Mensajes de voz para Isabelle",
+     "year": "2026",
+     "release_date": "2026-06-20",
+     "overview": "Una joven deja mensajes de voz bastante explícitos a su difunta hermana, sin saber que los recibe un desconocido que comienza a enamorarse de ella.",
+     "vote_average": 8.3,
+     "genres": [
+      "Romance",
+      "Comedia",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/ohIYxdaO7WV1zsSPFZVddWNEWkk.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "9mi3YVYm3ZU"
     }
    ]
   },
@@ -3357,6 +3358,27 @@
      "trailer": "TEN-2uTi2c0"
     },
     {
+     "id": 1630423,
+     "title": "Sangre asesina",
+     "year": "2026",
+     "release_date": "2026-05-06",
+     "overview": "A una mujer le espera una bala con su nombre por culpa de su extraño grupo sanguíneo, pero encuentra cobijo en los brazos del asesino al que ama, y juntos luchan por sobrevivir.",
+     "vote_average": 8.6,
+     "genres": [
+      "Acción",
+      "Drama",
+      "Romance"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/16TvbhCP8CfiGEbxcbtQLYWO6WG.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": ""
+    },
+    {
      "id": 240,
      "title": "El padrino II",
      "year": "1974",
@@ -3377,27 +3399,6 @@
       "SkyShowtime"
      ],
      "trailer": "rMT8b3MJ-RI"
-    },
-    {
-     "id": 1630423,
-     "title": "Sangre asesina",
-     "year": "2026",
-     "release_date": "2026-05-06",
-     "overview": "A una mujer le espera una bala con su nombre por culpa de su extraño grupo sanguíneo, pero encuentra cobijo en los brazos del asesino al que ama, y juntos luchan por sobrevivir.",
-     "vote_average": 8.6,
-     "genres": [
-      "Acción",
-      "Drama",
-      "Romance"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/16TvbhCP8CfiGEbxcbtQLYWO6WG.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": ""
     },
     {
      "id": 424,
@@ -3638,6 +3639,7 @@
     "fondo": "https://image.tmdb.org/t/p/original/5lWIYxYEqWi8j3ZloxXntw3ImBo.jpg",
     "providers": [
      "Amazon Prime Video",
+     "Disney Plus",
      "Movistar Plus+ Ficción Total ",
      "SkyShowtime",
      "Amazon Prime Video with Ads"
@@ -3666,27 +3668,6 @@
     "trailer": "6SN9-6uST80"
    },
    {
-    "id": 927,
-    "title": "Gremlins",
-    "year": "1984",
-    "release_date": "1984-06-08",
-    "overview": "Rand es un viajante que un día regala a su hijo Billy una tierna y extraña criatura, un mogwai. El inocente regalo, sin embargo, será el origen de toda una ola de gamberradas y fechorías en un pequeño pueblo de Estados Unidos. Todo empieza cuando son infringidas, una tras otra, las tres reglas básicas que deben seguirse para cuidar a un mogwai: no darle de comer después de medianoche, no mojarlo y evitar que le dé la luz del Sol.",
-    "vote_average": 7.1,
-    "genres": [
-     "Fantasía",
-     "Terror",
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/73Lf0JYHyWyZQGu04wvzzM3hh0l.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
-    "providers": [
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total "
-    ],
-    "trailer": "XXxC0Geijzs"
-   },
-   {
     "id": 8871,
     "title": "El Grinch",
     "year": "2000",
@@ -3703,6 +3684,7 @@
     "fondo": "https://image.tmdb.org/t/p/original/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
     "providers": [
      "Amazon Prime Video",
+     "Disney Plus",
      "Movistar Plus+ Ficción Total ",
      "SkyShowtime",
      "Amazon Prime Video with Ads"
@@ -3732,6 +3714,27 @@
     "trailer": "RcER0_lZ2F4"
    },
    {
+    "id": 927,
+    "title": "Gremlins",
+    "year": "1984",
+    "release_date": "1984-06-08",
+    "overview": "Rand es un viajante que un día regala a su hijo Billy una tierna y extraña criatura, un mogwai. El inocente regalo, sin embargo, será el origen de toda una ola de gamberradas y fechorías en un pequeño pueblo de Estados Unidos. Todo empieza cuando son infringidas, una tras otra, las tres reglas básicas que deben seguirse para cuidar a un mogwai: no darle de comer después de medianoche, no mojarlo y evitar que le dé la luz del Sol.",
+    "vote_average": 7.1,
+    "genres": [
+     "Fantasía",
+     "Terror",
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/73Lf0JYHyWyZQGu04wvzzM3hh0l.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
+    "providers": [
+     "Movistar Plus+",
+     "Movistar Plus+ Ficción Total "
+    ],
+    "trailer": "XXxC0Geijzs"
+   },
+   {
     "id": 1585,
     "title": "¡Qué bello es vivir!",
     "year": "1946",
@@ -3750,6 +3753,26 @@
      "Filmin"
     ],
     "trailer": "iLR3gZrU2Xo"
+   },
+   {
+    "id": 81188,
+    "title": "El origen de los guardianes",
+    "year": "2012",
+    "release_date": "2012-11-21",
+    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
+    "vote_average": 7.4,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Animación",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
+    "providers": [],
+    "trailer": "e4bdD8owgDU"
    },
    {
     "id": 899112,
@@ -3771,26 +3794,6 @@
      "Netflix Standard with Ads"
     ],
     "trailer": "MUDqcnalsLg"
-   },
-   {
-    "id": 81188,
-    "title": "El origen de los guardianes",
-    "year": "2012",
-    "release_date": "2012-11-21",
-    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
-    "vote_average": 7.4,
-    "genres": [
-     "Acción",
-     "Aventura",
-     "Animación",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "providers": [],
-    "trailer": "e4bdD8owgDU"
    },
    {
     "id": 5255,
@@ -3818,48 +3821,40 @@
     "trailer": "4XkHPphBN_Q"
    },
    {
-    "id": 454467,
-    "title": "Noelle",
-    "year": "2019",
-    "release_date": "2019-11-12",
-    "overview": "es una comedia navideña ambientada en el Polo Norte, en una época en la que Santa se prepara para retirarse y transmitir los reinados a su hijo Nick Claus. Sin embargo, el estrés de su futuro papel comienza a afectar a Nick, que no siente tan arraigado el espíritu navideño como los demás miembros de su familia.",
-    "vote_average": 6.6,
-    "genres": [
-     "Familia",
-     "Comedia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/ljxeeVQJra8O4slFsmmnf5NgFx4.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/AtwEQgJ07mzy7WvfQcLfjdKgaXT.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/AtwEQgJ07mzy7WvfQcLfjdKgaXT.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "by6fEd1M6Wc"
-   },
-   {
-    "id": 508,
-    "title": "Love Actually",
-    "year": "2003",
-    "release_date": "2003-09-07",
-    "overview": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. 'Love Actually' es una manera abreviada de decir 'Love Actually Is All Around' y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor.",
-    "vote_average": 7.1,
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
     "genres": [
      "Comedia",
-     "Romance",
-     "Drama"
+     "Romance"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/5WtOVkLobHRf4RADiRTkF0js7sR.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
     "providers": [
      "Amazon Prime Video",
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total ",
-     "Filmin",
      "Amazon Prime Video with Ads"
     ],
-    "trailer": "r3mJrSA1x5s"
+    "trailer": "AKlhYZ-HqKs"
+   },
+   {
+    "id": 1621,
+    "title": "Entre pillos anda el juego",
+    "year": "1983",
+    "release_date": "1983-06-07",
+    "overview": "Dos hombres de negocios sostienen distintas tesis sobre las condiciones de la naturaleza humana. Para uno es cuestión de genética, para el otro es cuestión de educación. Para corroborar sus teorías hacen una apuesta para lo cual cambian los destinos de dos personas socialmente antagónicas.",
+    "vote_average": 7.2,
+    "genres": [
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/bwmqcucVleqUTKUKw7K3hlvUGKC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
+    "providers": [],
+    "trailer": "rxz036jbrmI"
    }
   ],
   "romance": [
