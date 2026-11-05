@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T07:00:56.533Z",
+ "actualizado": "2026-11-05T20:07:03.409Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -122,7 +122,7 @@
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.3,
+   "vote_average": 7.2,
    "genres": [
     "Romance",
     "Drama",
@@ -156,7 +156,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.6,
+   "vote_average": 7.7,
    "genres": [
     "Romance",
     "Fantasía",
@@ -283,23 +283,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
   },
   {
-   "id": 950028,
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
-   "vote_average": 7.2,
-   "genres": [
-    "Comedia",
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
-   "providers": [],
-   "trailer": "nelkiuezJxg",
-   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
-  },
-  {
    "id": 1140521,
    "title": "El árbol muy muy lejano",
    "release_date": "2026-10-09",
@@ -333,6 +316,24 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/pxd9rc03EMMln3tVFdfd427Fpsi.jpg"
+  },
+  {
+   "id": 964849,
+   "title": "Nightborn",
+   "release_date": "2026-10-16",
+   "overview": "En el bosque finlandés, Saga y su esposo Jon se embarcan en un nuevo capítulo como padres. La alegría de Saga se ve ensombrecida por las sospechas sobre su bebé, provocando una ruptura mientras ella se enfrenta a la inquietante verdad.",
+   "vote_average": 6,
+   "genres": [
+    "Terror"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iuWjbhgwjE4GIegCxWcu70d9FUl.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg",
+   "providers": [
+    "Movistar Plus+",
+    "Movistar Plus+ Ficción Total "
+   ],
+   "trailer": "dWePsu_Kd9c",
+   "fondo": "https://image.tmdb.org/t/p/original/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg"
   }
  ],
  "upcoming": [
@@ -341,7 +342,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8.8,
+   "vote_average": 8.9,
    "genres": [
     "Comedia",
     "Crimen",
@@ -391,7 +392,7 @@
    "title": "Los rivales de Amziah King",
    "release_date": "2026-11-13",
    "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
-   "vote_average": 6.7,
+   "vote_average": 6.8,
    "genres": [
     "Crimen",
     "Drama",
@@ -408,7 +409,7 @@
    "title": "A Mouse Hunt for Christmas",
    "release_date": "2026-11-13",
    "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
-   "vote_average": 6.6,
+   "vote_average": 6.5,
    "genres": [
     "Familia",
     "Animación",
@@ -435,21 +436,6 @@
    "providers": [],
    "trailer": "sDiFol_2j2I",
    "fondo": "https://image.tmdb.org/t/p/original/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg"
-  },
-  {
-   "id": 1506401,
-   "title": "El niño",
-   "release_date": "2026-11-13",
-   "overview": "Narra la historia de Mariaje y Nicasio, madre y abuelo de uno de los niños que fallecieron en la explosión de gas.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/6wLVChqjN2qsZ3uolEmetkCuzeO.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/kkierrbus8z4QpsexmSg8QSKqak.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/kkierrbus8z4QpsexmSg8QSKqak.jpg"
   },
   {
    "id": 13534,
@@ -513,6 +499,21 @@
    "providers": [],
    "trailer": "wlI3P6sRwBY",
    "fondo": "https://image.tmdb.org/t/p/original/ovhR7tmXhG3rxuUXcatGKpfS1Zr.jpg"
+  },
+  {
+   "id": 1806793,
+   "title": "Love?",
+   "release_date": "2026-11-17",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
   },
   {
    "id": 1232569,
@@ -583,23 +584,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/mj3RFamNUleZB94zMWgGnJkQCAH.jpg"
   },
   {
-   "id": 947493,
-   "title": "Chico de hierro",
-   "release_date": "2026-11-20",
-   "overview": "En la Francia rural, Christophe (10 años) intenta estar a la altura de su padre, un hombre rígido y distante, en la granja familiar. Sin embargo, el niño empieza a inclinarse y a desplomarse sin previo aviso: en el tractor, en la escuela, durante la cena... Un médico encuentra la solución: Christophe debe llevar un corsé de hierro para mantenerse erguido. Obligado a reinventar su vida lejos de la granja, Christophe descubre una nueva pasión por la música, conoce a una nueva amiga y la sigue en sus primeras travesuras. Pero ¿acaso servirá todo esto para corregir lo que está desequilibrado?",
-   "vote_average": 8,
-   "genres": [
-    "Animación",
-    "Drama",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/qMryViRTIek9SkkOPjNMfnbCuI6.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/qMryViRTIek9SkkOPjNMfnbCuI6.jpg"
-  },
-  {
    "id": 1176962,
    "title": "Rose",
    "release_date": "2026-11-20",
@@ -615,6 +599,23 @@
    "providers": [],
    "trailer": "hQGIx7gk_uc",
    "fondo": "https://image.tmdb.org/t/p/original/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg"
+  },
+  {
+   "id": 947493,
+   "title": "Chico de hierro",
+   "release_date": "2026-11-20",
+   "overview": "En la Francia rural, Christophe (10 años) intenta estar a la altura de su padre, un hombre rígido y distante, en la granja familiar. Sin embargo, el niño empieza a inclinarse y a desplomarse sin previo aviso: en el tractor, en la escuela, durante la cena... Un médico encuentra la solución: Christophe debe llevar un corsé de hierro para mantenerse erguido. Obligado a reinventar su vida lejos de la granja, Christophe descubre una nueva pasión por la música, conoce a una nueva amiga y la sigue en sus primeras travesuras. Pero ¿acaso servirá todo esto para corregir lo que está desequilibrado?",
+   "vote_average": 8,
+   "genres": [
+    "Animación",
+    "Drama",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qMryViRTIek9SkkOPjNMfnbCuI6.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/qMryViRTIek9SkkOPjNMfnbCuI6.jpg"
   },
   {
    "id": 1437939,
