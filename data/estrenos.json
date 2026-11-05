@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T19:54:04.481Z",
+ "actualizado": "2026-11-05T07:00:56.533Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -70,23 +70,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
   },
   {
-   "id": 1503762,
-   "title": "Sentido y sensibilidad",
-   "release_date": "2026-10-23",
-   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.3,
-   "genres": [
-    "Romance",
-    "Drama",
-    "Historia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
-   "providers": [],
-   "trailer": "GMwdcpKOOyY",
-   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
-  },
-  {
    "id": 1400837,
    "title": "La otra madre",
    "release_date": "2026-10-09",
@@ -135,6 +118,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
   },
   {
+   "id": 1503762,
+   "title": "Sentido y sensibilidad",
+   "release_date": "2026-10-23",
+   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
+   "vote_average": 7.3,
+   "genres": [
+    "Romance",
+    "Drama",
+    "Historia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
+   "providers": [],
+   "trailer": "GMwdcpKOOyY",
+   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
+  },
+  {
    "id": 1284046,
    "title": "Aniquilación",
    "release_date": "2026-10-30",
@@ -156,7 +156,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Romance",
     "Fantasía",
@@ -267,6 +267,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
+   "id": 1564614,
+   "title": "Leviticus",
+   "release_date": "2026-10-30",
+   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
+   "vote_average": 6.8,
+   "genres": [
+    "Terror",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/tGS5jugRsn7KwZLrvkqWeMtR7nB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+   "providers": [],
+   "trailer": "WXuK0vlFxII",
+   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
+  },
+  {
    "id": 950028,
    "title": "La invitación",
    "release_date": "2026-10-16",
@@ -284,20 +300,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
   },
   {
-   "id": 1564614,
-   "title": "Leviticus",
-   "release_date": "2026-10-30",
-   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
-   "vote_average": 6.8,
+   "id": 1140521,
+   "title": "El árbol muy muy lejano",
+   "release_date": "2026-10-09",
+   "overview": "Polly, Tim, y sus tres hijos son una familia moderna que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico y a sus extraordinarios y excéntricos habitantes.",
+   "vote_average": 6.7,
    "genres": [
-    "Terror",
-    "Romance"
+    "Aventura",
+    "Familia",
+    "Fantasía"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/tGS5jugRsn7KwZLrvkqWeMtR7nB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/fpW5GntifGxAG7Js99Wdhq9K0s5.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
    "providers": [],
-   "trailer": "WXuK0vlFxII",
-   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
+   "trailer": "qsrMA7Eovaw",
+   "fondo": "https://image.tmdb.org/t/p/original/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg"
   },
   {
    "id": 1542261,
@@ -316,23 +333,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/pxd9rc03EMMln3tVFdfd427Fpsi.jpg"
-  },
-  {
-   "id": 1140521,
-   "title": "El árbol muy muy lejano",
-   "release_date": "2026-10-09",
-   "overview": "Polly, Tim, y sus tres hijos son una familia moderna que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico y a sus extraordinarios y excéntricos habitantes.",
-   "vote_average": 6.7,
-   "genres": [
-    "Aventura",
-    "Familia",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fpW5GntifGxAG7Js99Wdhq9K0s5.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
-   "providers": [],
-   "trailer": "qsrMA7Eovaw",
-   "fondo": "https://image.tmdb.org/t/p/original/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg"
   }
  ],
  "upcoming": [
@@ -341,7 +341,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8.9,
+   "vote_average": 8.8,
    "genres": [
     "Comedia",
     "Crimen",
@@ -515,26 +515,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/ovhR7tmXhG3rxuUXcatGKpfS1Zr.jpg"
   },
   {
-   "id": 1806793,
-   "title": "Love?",
-   "release_date": "2026-11-17",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
    "id": 1232569,
    "title": "Pinocho: Desatado",
    "release_date": "2026-11-20",
    "overview": "Gepetto le regala para el cumple de su nieto James un titere llamado Pinocho, aunque no sabian que estaria desquiciado, donde buscaria matar a quien fuera junto con su consciencia llamada Pepe Grillo para convertirse en un niño de verdad",
-   "vote_average": 6.4,
+   "vote_average": 6.5,
    "genres": [
     "Terror",
     "Fantasía",
@@ -660,6 +645,22 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/icdSfduEYHfXSlGq0V62zmnsE1m.jpg"
+  },
+  {
+   "id": 1736705,
+   "title": "El mal padre",
+   "release_date": "2026-11-20",
+   "overview": "Después de años distanciados, el célebre escritor y académico Santiago Balmes reúne a sus tres hijos para pedirles un último deseo: pasar las Navidades en la casa donde veraneaban de niños.",
+   "vote_average": 0,
+   "genres": [
+    "Comedia",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/g8JgLE6obZIf57O8nfBTSHHEQ27.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
   }
  ],
  "region": "ES"

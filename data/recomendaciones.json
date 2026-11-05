@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T19:54:21.023Z",
+ "actualizado": "2026-11-05T07:01:25.914Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -960,24 +960,6 @@
      "trailer": "MWkdM2ZGah0"
     },
     {
-     "id": 1920,
-     "title": "Delito de pasión",
-     "year": "1956",
-     "release_date": "1956-12-28",
-     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "providers": [],
-     "trailer": "jJi9mUp_KeM"
-    },
-    {
      "id": 84338,
      "title": "Simon Killer",
      "year": "2012",
@@ -1049,6 +1031,24 @@
      "trailer": "eWzILZ6wE9Y"
     },
     {
+     "id": 1920,
+     "title": "Delito de pasión",
+     "year": "1956",
+     "release_date": "1956-12-28",
+     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "providers": [],
+     "trailer": "jJi9mUp_KeM"
+    },
+    {
      "id": 1429,
      "title": "La última noche",
      "year": "2002",
@@ -1083,26 +1083,6 @@
      "trailer": "ZdZ0lUxunbA"
     },
     {
-     "id": 311667,
-     "title": "Manhattan nocturno",
-     "year": "2016",
-     "release_date": "2016-05-20",
-     "overview": "Porter Wren es un periodista dedicado a los tabloides, pues posee un apetito insaciable por el escándalo. En casa es un marido encantador y un padre ejemplar, pero cuando conoce a una seductora desconocida que lo invita a resolver un complicado asesinato, su rutina cambia por completo. De esta forma se ve envuelto en un desagradable caso de obsesión sexual y chantaje, que acaba poniendo en peligro su puesto de trabajo, su matrimonio y su vida.",
-     "vote_average": 5.9,
-     "genres": [
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/8TGxxLoNr8hhm4xgpYoA51KPdVO.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1eM6CsDTwRmxgnigzz8pitLlUKJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rryoh1cEJpUE3TfioxlGJlWIgOl.jpg",
-     "providers": [
-      "AMC Channels Amazon Channel"
-     ],
-     "trailer": "5Vah3WwkfWE"
-    },
-    {
      "id": 9280,
      "title": "Femme Fatale",
      "year": "2002",
@@ -1122,6 +1102,26 @@
       "FlixOlé"
      ],
      "trailer": "qTbcKBdDyBg"
+    },
+    {
+     "id": 311667,
+     "title": "Manhattan nocturno",
+     "year": "2016",
+     "release_date": "2016-05-20",
+     "overview": "Porter Wren es un periodista dedicado a los tabloides, pues posee un apetito insaciable por el escándalo. En casa es un marido encantador y un padre ejemplar, pero cuando conoce a una seductora desconocida que lo invita a resolver un complicado asesinato, su rutina cambia por completo. De esta forma se ve envuelto en un desagradable caso de obsesión sexual y chantaje, que acaba poniendo en peligro su puesto de trabajo, su matrimonio y su vida.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/8TGxxLoNr8hhm4xgpYoA51KPdVO.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/1eM6CsDTwRmxgnigzz8pitLlUKJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rryoh1cEJpUE3TfioxlGJlWIgOl.jpg",
+     "providers": [
+      "AMC Channels Amazon Channel"
+     ],
+     "trailer": "5Vah3WwkfWE"
     }
    ]
   },
@@ -2749,7 +2749,7 @@
      "year": "2025",
      "release_date": "2025-09-19",
      "overview": "Denji trabajaba como cazador de demonios para la yakuza, tratando de saldar la deuda que había heredado de sus padres, pero la yakuza lo traicionó y lo mató. Antes de perder el conocimiento, Pochita, el perro-demonio motosierra de Denji, hizo un trato con él y le salvó la vida. Así se fusionaron, creando al imparable Chainsaw Man. Ahora, en medio de una brutal guerra entre demonios, cazadores y enemigos secretos, una misteriosa chica llamada Reze irrumpe en su mundo y Denji se enfrenta a su batalla más mortífera, impulsado por el amor, en un mundo donde la supervivencia no conoce reglas.",
-     "vote_average": 8.5,
+     "vote_average": 8.6,
      "genres": [
       "Animación",
       "Acción",
@@ -3921,7 +3921,7 @@
     "year": "2025",
     "release_date": "2025-09-19",
     "overview": "Denji trabajaba como cazador de demonios para la yakuza, tratando de saldar la deuda que había heredado de sus padres, pero la yakuza lo traicionó y lo mató. Antes de perder el conocimiento, Pochita, el perro-demonio motosierra de Denji, hizo un trato con él y le salvó la vida. Así se fusionaron, creando al imparable Chainsaw Man. Ahora, en medio de una brutal guerra entre demonios, cazadores y enemigos secretos, una misteriosa chica llamada Reze irrumpe en su mundo y Denji se enfrenta a su batalla más mortífera, impulsado por el amor, en un mundo donde la supervivencia no conoce reglas.",
-    "vote_average": 8.5,
+    "vote_average": 8.6,
     "genres": [
      "Animación",
      "Acción",
