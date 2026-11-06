@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T20:07:03.409Z",
+ "actualizado": "2026-11-06T07:00:38.876Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -53,6 +53,40 @@
    "fondo": "https://image.tmdb.org/t/p/original/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg"
   },
   {
+   "id": 656908,
+   "title": "Ramayana: El Nacimiento de una Leyenda",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 6.6,
+   "genres": [
+    "Fantasía",
+    "Acción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+   "providers": [],
+   "trailer": "tPf0_b026Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
+  },
+  {
+   "id": 1381071,
+   "title": "Godzilla Minus Zero",
+   "release_date": "2026-11-06",
+   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
+   "vote_average": 8.3,
+   "genres": [
+    "Ciencia ficción",
+    "Terror",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/taoPyKQTXh0FSwO5rin8Djrt20C.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+   "providers": [],
+   "trailer": "E-Q2tEgJ1ZI",
+   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
+  },
+  {
    "id": 1400940,
    "title": "Clayface",
    "release_date": "2026-10-23",
@@ -68,6 +102,23 @@
    "providers": [],
    "trailer": "WGOv9Pzh9cE",
    "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
+  },
+  {
+   "id": 1244523,
+   "title": "Boiuna: La leyenda del Amazonas",
+   "release_date": "2026-10-16",
+   "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
+   "vote_average": 6.3,
+   "genres": [
+    "Terror",
+    "Suspense",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/hClFn5adaXOgmxrZyxixoKiBHEZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
+   "providers": [],
+   "trailer": "MQKqgFVU4dQ",
+   "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
   },
   {
    "id": 1400837,
@@ -101,23 +152,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg"
   },
   {
-   "id": 1244523,
-   "title": "Boiuna: La leyenda del Amazonas",
-   "release_date": "2026-10-16",
-   "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.3,
-   "genres": [
-    "Terror",
-    "Suspense",
-    "Acción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/hClFn5adaXOgmxrZyxixoKiBHEZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
-   "providers": [],
-   "trailer": "MQKqgFVU4dQ",
-   "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
-  },
-  {
    "id": 1503762,
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
@@ -132,7 +166,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
    "providers": [],
    "trailer": "GMwdcpKOOyY",
-   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg"
   },
   {
    "id": 1284046,
@@ -183,6 +217,25 @@
    "providers": [],
    "trailer": "xU2jWSsaWY0",
    "fondo": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg"
+  },
+  {
+   "id": 1117898,
+   "title": "El gato con sombrero",
+   "release_date": "2026-11-06",
+   "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
+   "vote_average": 7.1,
+   "genres": [
+    "Animación",
+    "Fantasía",
+    "Comedia",
+    "Aventura",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+   "providers": [],
+   "trailer": "bRMu8S6FQ9c",
+   "fondo": "https://image.tmdb.org/t/p/original/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg"
   },
   {
    "id": 1255833,
@@ -281,59 +334,6 @@
    "providers": [],
    "trailer": "WXuK0vlFxII",
    "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
-  },
-  {
-   "id": 1140521,
-   "title": "El árbol muy muy lejano",
-   "release_date": "2026-10-09",
-   "overview": "Polly, Tim, y sus tres hijos son una familia moderna que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico y a sus extraordinarios y excéntricos habitantes.",
-   "vote_average": 6.7,
-   "genres": [
-    "Aventura",
-    "Familia",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fpW5GntifGxAG7Js99Wdhq9K0s5.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
-   "providers": [],
-   "trailer": "qsrMA7Eovaw",
-   "fondo": "https://image.tmdb.org/t/p/original/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg"
-  },
-  {
-   "id": 1542261,
-   "title": "Doraemon: Nobita y el nuevo castillo del diablo submarino",
-   "release_date": "2026-10-09",
-   "overview": "Nobita y sus amigos descubren un castillo submarino secreto repleto de misterios y riquezas. Con los ingeniosos artilugios de Doraemon, se sumergen en una aventura oceánica que combina humor, trabajo en equipo e imaginación en un impresionante mundo acuático.",
-   "vote_average": 6.9,
-   "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/wPzyoIvJBOXFnuGWgu09gnlO26K.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pxd9rc03EMMln3tVFdfd427Fpsi.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/pxd9rc03EMMln3tVFdfd427Fpsi.jpg"
-  },
-  {
-   "id": 964849,
-   "title": "Nightborn",
-   "release_date": "2026-10-16",
-   "overview": "En el bosque finlandés, Saga y su esposo Jon se embarcan en un nuevo capítulo como padres. La alegría de Saga se ve ensombrecida por las sospechas sobre su bebé, provocando una ruptura mientras ella se enfrenta a la inquietante verdad.",
-   "vote_average": 6,
-   "genres": [
-    "Terror"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/iuWjbhgwjE4GIegCxWcu70d9FUl.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg",
-   "providers": [
-    "Movistar Plus+",
-    "Movistar Plus+ Ficción Total "
-   ],
-   "trailer": "dWePsu_Kd9c",
-   "fondo": "https://image.tmdb.org/t/p/original/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg"
   }
  ],
  "upcoming": [
@@ -342,7 +342,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8.9,
+   "vote_average": 8.6,
    "genres": [
     "Comedia",
     "Crimen",
@@ -392,7 +392,7 @@
    "title": "Los rivales de Amziah King",
    "release_date": "2026-11-13",
    "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
-   "vote_average": 6.8,
+   "vote_average": 6.7,
    "genres": [
     "Crimen",
     "Drama",
@@ -438,6 +438,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg"
   },
   {
+   "id": 1506401,
+   "title": "El niño",
+   "release_date": "2026-11-13",
+   "overview": "Narra la historia de Mariaje y Nicasio, madre y abuelo de uno de los niños que fallecieron en la explosión de gas.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6wLVChqjN2qsZ3uolEmetkCuzeO.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kkierrbus8z4QpsexmSg8QSKqak.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/kkierrbus8z4QpsexmSg8QSKqak.jpg"
+  },
+  {
    "id": 13534,
    "title": "Cómo robar un banco",
    "release_date": "2026-11-13",
@@ -453,21 +468,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/A8hw3Crc3kUTFAtaJMfXK62yeaP.jpg"
-  },
-  {
-   "id": 1736731,
-   "title": "Muguruza FM 40 Tour",
-   "release_date": "2026-11-13",
-   "overview": "Cuatro décadas después de subir por primera vez a un escenario, Fermin Muguruza se embarca en su última gira a gran escala: un viaje colectivo para celebrar 40 años de música, compromiso y resistencia cultural. Este documental musical capta el pulso de ese viaje: conciertos con el aforo completo, muchos kilómetros en la carretera, distintos encuentros a lo largo del camino y una energía compartida que ha trascendido generaciones, desde las bandas Kortatu y Negu Gorriak hasta su actual carrera en solitario.",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/8wtF8PKOLibEZsgKOvK1UMFTbpu.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "6U4AvYL6i4Y",
-   "fondo": ""
   },
   {
    "id": 1720175,
@@ -486,6 +486,21 @@
    "fondo": ""
   },
   {
+   "id": 1736731,
+   "title": "Muguruza FM 40 Tour",
+   "release_date": "2026-11-13",
+   "overview": "Cuatro décadas después de subir por primera vez a un escenario, Fermin Muguruza se embarca en su última gira a gran escala: un viaje colectivo para celebrar 40 años de música, compromiso y resistencia cultural. Este documental musical capta el pulso de ese viaje: conciertos con el aforo completo, muchos kilómetros en la carretera, distintos encuentros a lo largo del camino y una energía compartida que ha trascendido generaciones, desde las bandas Kortatu y Negu Gorriak hasta su actual carrera en solitario.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8wtF8PKOLibEZsgKOvK1UMFTbpu.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "6U4AvYL6i4Y",
+   "fondo": ""
+  },
+  {
    "id": 1812576,
    "title": "Nininbaori",
    "release_date": "2026-11-14",
@@ -499,21 +514,6 @@
    "providers": [],
    "trailer": "wlI3P6sRwBY",
    "fondo": "https://image.tmdb.org/t/p/original/ovhR7tmXhG3rxuUXcatGKpfS1Zr.jpg"
-  },
-  {
-   "id": 1806793,
-   "title": "Love?",
-   "release_date": "2026-11-17",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
   },
   {
    "id": 1232569,

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05T20:07:24.802Z",
+ "actualizado": "2026-11-06T07:01:10.873Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -60,7 +60,7 @@
      "year": "2011",
      "release_date": "2011-11-10",
      "overview": "Enloquecido por el poder, el brutal rey Hiperión ha declarado la guerra a los hombres. Después de reunir a un ejército sediento de sangre formado por soldados que él mismo mandó desfigurar, Hiperión quema Grecia mientras busca un arma de poder inconcebible: el legendario arco Epiro, hecho por Ares en el Olimpo. El hombre que posea ese arco podrá liberar a los Titanes, que están encerrados en el monte Tártaro desde el principio de los tiempos, y claman venganza. Sin embargo, en manos de Hiperión, el arco significaría la destrucción de la raza humana y la aniquilación de los dioses. La ley prohíbe que los dioses se entrometan en los conflictos humanos, y nada pueden hacer para detener al rey. Pero la esperanza renace cuando Zeus encomienda al campesino Teseo la misión de acabar con Hiperión.",
-     "vote_average": 6.1,
+     "vote_average": 6,
      "genres": [
       "Fantasía",
       "Acción",
@@ -628,22 +628,6 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
-     "id": 309425,
-     "title": "El poder de la cruz",
-     "year": "2015",
-     "release_date": "2015-03-20",
-     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
-     "vote_average": 6.8,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
-     "providers": [],
-     "trailer": "ogIX2Q7tEdc"
-    },
-    {
      "id": 345938,
      "title": "La cabaña",
      "year": "2017",
@@ -663,24 +647,20 @@
      "trailer": "Ouc9W0GRlQw"
     },
     {
-     "id": 520318,
-     "title": "Fátima, la película",
-     "year": "2020",
-     "release_date": "2020-08-13",
-     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
-     "vote_average": 7.2,
+     "id": 309425,
+     "title": "El poder de la cruz",
+     "year": "2015",
+     "release_date": "2015-03-20",
+     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
+     "vote_average": 6.8,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "PvokEpA439o"
+     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
+     "providers": [],
+     "trailer": "ogIX2Q7tEdc"
     },
     {
      "id": 127373,
@@ -719,6 +699,25 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "UdBBjFQYzwA"
+    },
+    {
+     "id": 430446,
+     "title": "Come Sunday",
+     "year": "2018",
+     "release_date": "2018-01-21",
+     "overview": "El evangelista Carlton Pearson es expulsado de su iglesia por predicar que no existe el infierno. Su revelación crea controversia y lo pierde todo. Poco a poco tendrá que reconstruir su vida y encontrar su propia fe.",
+     "vote_average": 5.8,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oucoXiLsc07YryywgjddmU3YoDV.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "pVQFWvm_fbU"
     },
     {
      "id": 29989,
@@ -760,23 +759,36 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 430446,
-     "title": "Come Sunday",
-     "year": "2018",
-     "release_date": "2018-01-21",
-     "overview": "El evangelista Carlton Pearson es expulsado de su iglesia por predicar que no existe el infierno. Su revelación crea controversia y lo pierde todo. Poco a poco tendrá que reconstruir su vida y encontrar su propia fe.",
-     "vote_average": 5.8,
+     "id": 44655,
+     "title": "Susana la perversa",
+     "year": "1951",
+     "release_date": "1951-04-11",
+     "overview": "Susana escapa del reformatorio donde ha estado encerrada por quince años y llega la hacienda de don Guadalupe. Allí, la joven seducirá a todos los hombres del rumbo, incluyendo al joven Alberto, hijo de don Guadalupe, al caporal Jesús y al propio hacendado.",
+     "vote_average": 6.8,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/oucoXiLsc07YryywgjddmU3YoDV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
+     "poster": "https://image.tmdb.org/t/p/w342/ifJB11s7JLor1SHZkfCyCcRaB3t.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/atNiMTTg211WNG5Jv7S2Fs23j0h.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/atNiMTTg211WNG5Jv7S2Fs23j0h.jpg",
+     "providers": [],
+     "trailer": "b3aPdGKS8ko"
+    },
+    {
+     "id": 467433,
+     "title": "Una cuestión de fe",
+     "year": "2017",
+     "release_date": "2017-09-29",
+     "overview": "Cuando la tragedia golpea a tres familias, su destino les obliga a descubrir el amor, la gracia y la compasión de Dios, pues los desafíos del destino pueden hacer que renazcan sus creencias.",
+     "vote_average": 7.5,
+     "genres": [
+      "Drama"
      ],
-     "trailer": "pVQFWvm_fbU"
+     "poster": "https://image.tmdb.org/t/p/w342/iWAANrMSUsPyEcy9MHcRCyikN4Q.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "providers": [],
+     "trailer": "QzNuMWxPo80"
     },
     {
      "id": 793285,
@@ -795,57 +807,6 @@
      "trailer": "YuMBAq-ROh4"
     },
     {
-     "id": 249660,
-     "title": "Dios no esta muerto",
-     "year": "2014",
-     "release_date": "2014-03-21",
-     "overview": "Película cristiana sobre un estudiante devoto Josh Wheaton (Shane Harper) que desde su primer día se ve retado por su dogmático profesor de filosofía, el Sr. Radisson (Kevin Sorbo), para probar la existencia de Dios.",
-     "vote_average": 6,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/qgcoPSP51XWN4i5KuXpkYM1fryn.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8pl2t8FvYHHEAT6ly8YtJJWd1bn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8pl2t8FvYHHEAT6ly8YtJJWd1bn.jpg",
-     "providers": [],
-     "trailer": "N0MwZxNuzmU"
-    },
-    {
-     "id": 32636,
-     "title": "Vania en la calle 42",
-     "year": "1994",
-     "release_date": "1994-10-19",
-     "overview": "El grupo de teatro de André Gregory se dispone a interpretar El Tio Vania, la famosa obra de Anton Chejov, en una adaptación del dramaturgo David Mamet. El teatro está abandonado y la compañía ha prescindido de la ambientación y del vestuario. Mientras, Louis Malle registra todo con la cámara. Es un planteamiento sencillo que introduce en la magia del teatro, donde los atores pasan de un momento a otro de ser personas a ser personajes, y donde cada línea de diálogo se vive con una intensidad imposible de encontrar en cualquier otro sitio.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/2mV0u67LAsFG2F80HCkrD6o6Sru.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/llXsPTScDIdQjgsescQyKaIZA6l.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wNWP5jnbaHmpBIYIiuZvXRe8VZW.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus"
-     ],
-     "trailer": "hJxvpLrp4yA"
-    },
-    {
-     "id": 25062,
-     "title": "Un sabor a miel",
-     "year": "1961",
-     "release_date": "1961-10-01",
-     "overview": "Una chica de 17 años vive en un barrio obrero inglés con su madre, una mujer alcohólica y promiscua que la ignora por completo. Un día, tras la marcha de la madre con un nuevo novio, se hace amiga de un joven homosexual, que está dispuesto a cuidarla a ella y a su futuro hijo, pues la chica se ha quedado embarazada después de una aventura esporádica con un marinero.",
-     "vote_average": 7.1,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/5psrZNVZ9E6Eck7OtpO47A8zTbQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/zalZRF7sCtghHFg4xCBJfOqj0h5.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qWdqgsJ1x9zwMwMeQLhkxOzK1Hg.jpg",
-     "providers": [],
-     "trailer": "y7LK_-rUfdU"
-    },
-    {
      "id": 88875,
      "title": "El efecto de los rayos gamma  sobre las margaritas",
      "year": "1972",
@@ -860,6 +821,41 @@
      "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
      "providers": [],
      "trailer": "9U7z35zbxPk"
+    },
+    {
+     "id": 499338,
+     "title": "I Believe",
+     "year": "2019",
+     "release_date": "2019-06-06",
+     "overview": "Un niño de 9 años experimenta el poder de Dios de una manera sobrenatural.",
+     "vote_average": 7.8,
+     "genres": [
+      "Familia",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/lFeTYNVI1PYQqKj4FusJMplqd07.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/5Tw3Z9vcu1Hwo1CijEPineKPkFO.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/43aCQFMAZWt3AjzM30dcHiAW5p.jpg",
+     "providers": [],
+     "trailer": "amVlQozDJkI"
+    },
+    {
+     "id": 38557,
+     "title": "Cuando el río crece",
+     "year": "1984",
+     "release_date": "1984-12-01",
+     "overview": "Tom y Mae Garvey se niegan a vender su granja a pesar de las presiones de las autoridades locales que pretenden inundar los terrenos que están a orillas del río. El encargado de presionar a los Garvey resulta ser John Wade, un antiguo pretendiente de Mae. La tensión desencadena un enfrentamiento en las riberas del río en plena crecida.",
+     "vote_average": 6.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/tJdgFpNUN1If0zYjFCLjUvmPJPo.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
+     "providers": [
+      "Tivify"
+     ],
+     "trailer": "2fzExjAHQ2Q"
     }
    ]
   },
@@ -950,6 +946,23 @@
      "trailer": "e3U3TrLo3tQ"
     },
     {
+     "id": 928270,
+     "title": "Ola de Calor",
+     "year": "2022",
+     "release_date": "2022-01-17",
+     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
+     "vote_average": 6.2,
+     "genres": [
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "providers": [],
+     "trailer": "t-yhbvVpPgI"
+    },
+    {
      "id": 95608,
      "title": "Canción de Nueva York",
      "year": "2017",
@@ -988,23 +1001,6 @@
      "trailer": "VJICFO4lbtQ"
     },
     {
-     "id": 928270,
-     "title": "Ola de Calor",
-     "year": "2022",
-     "release_date": "2022-01-17",
-     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
-     "vote_average": 6.2,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "providers": [],
-     "trailer": "t-yhbvVpPgI"
-    },
-    {
      "id": 471506,
      "title": "La viuda",
      "year": "2019",
@@ -1040,24 +1036,6 @@
      "trailer": "eWzILZ6wE9Y"
     },
     {
-     "id": 1920,
-     "title": "Delito de pasión",
-     "year": "1956",
-     "release_date": "1956-12-28",
-     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "providers": [],
-     "trailer": "jJi9mUp_KeM"
-    },
-    {
      "id": 1429,
      "title": "La última noche",
      "year": "2002",
@@ -1090,6 +1068,24 @@
      "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
      "providers": [],
      "trailer": "ZdZ0lUxunbA"
+    },
+    {
+     "id": 1920,
+     "title": "Delito de pasión",
+     "year": "1956",
+     "release_date": "1956-12-28",
+     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "providers": [],
+     "trailer": "jJi9mUp_KeM"
     },
     {
      "id": 9280,
@@ -2873,7 +2869,7 @@
      "year": "2001",
      "release_date": "2001-12-18",
      "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media.",
-     "vote_average": 8.5,
+     "vote_average": 8.4,
      "genres": [
       "Aventura",
       "Fantasía",
