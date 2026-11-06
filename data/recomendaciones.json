@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T07:01:10.873Z",
+ "actualizado": "2026-11-06T19:33:48.067Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -73,45 +73,6 @@
      "trailer": "pE3yR8bZ1pY"
     },
     {
-     "id": 666750,
-     "title": "Dragonheart: Vengeance",
-     "year": "2021",
-     "release_date": "2021-03-01",
-     "overview": "Lukas, un verde agricultor cuya descendientes es asesinada por salvajes guerreros, se embarca en una divagación épica en averiguación de vendetta, formando un trío inasequible con un dragón majestuoso y un soldado fanfarrón llamado Darius.",
-     "vote_average": 6.8,
-     "genres": [
-      "Fantasía",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mPGAlXyPH21qg38GF1Ydd0xDg7B.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "SkyShowtime"
-     ],
-     "trailer": "GQtt2OKmH5o"
-    },
-    {
-     "id": 9610,
-     "title": "Conan, el destructor",
-     "year": "1984",
-     "release_date": "1984-06-29",
-     "overview": "La poderosa Reina Taramis promete a Conan hacer volver a su amada del reino de la muerte, pero le impone una condición: debe traerle un legendario cuerno incrustado de piedras preciosas y una bella y joven princesa. Lo que Conan ignora es que la Reina quiere utilizar el cuerno para despertar al durmiente dios Dagoth y sacrificarle a la joven princesa. Enfrentado con enemigos mortales y sobrenaturales, Conan debe convocar a las fuerzas del Bien para derrotar a Taramis e incluso al mismísimo dios Dagoth.",
-     "vote_average": 6.1,
-     "genres": [
-      "Aventura",
-      "Fantasía",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/7vwtQwywduJfG50SrxlhalpXsUx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "providers": [],
-     "trailer": "lpUb4tBnWPA"
-    },
-    {
      "id": 631939,
      "title": "The Legion",
      "year": "2020",
@@ -171,49 +132,6 @@
      "trailer": "CMyrp5Vk3mU"
     },
     {
-     "id": 308504,
-     "title": "Los últimos caballeros",
-     "year": "2015",
-     "release_date": "2015-04-03",
-     "overview": "La historia gira en torno a una banda de guerreros que buscará venganza después de la muerte de su maestro a manos de un emperador corrupto...",
-     "vote_average": 6.4,
-     "genres": [
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mEMAwrg2KqWBcorjVH0pTvNOBfx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Atres Player",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "QStraY8MdKk"
-    },
-    {
-     "id": 1911,
-     "title": "El guerrero nº 13",
-     "year": "1999",
-     "release_date": "1999-08-13",
-     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
-     "vote_average": 6.7,
-     "genres": [
-      "Aventura",
-      "Historia",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "RikXt796p2o"
-    },
-    {
      "id": 322484,
      "title": "Game of Thrones The IMAX Experience",
      "year": "2015",
@@ -232,6 +150,27 @@
      "trailer": "qWb6opYnPTo"
     },
     {
+     "id": 1911,
+     "title": "El guerrero nº 13",
+     "year": "1999",
+     "release_date": "1999-08-13",
+     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
+     "vote_average": 6.7,
+     "genres": [
+      "Aventura",
+      "Historia",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "providers": [
+      "Disney Plus",
+      "Tivify"
+     ],
+     "trailer": "RikXt796p2o"
+    },
+    {
      "id": 639933,
      "title": "El hombre del norte",
      "year": "2022",
@@ -246,8 +185,31 @@
      "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
-     "providers": [],
+     "providers": [
+      "Tivify"
+     ],
      "trailer": "7HZ4tBQEiB0"
+    },
+    {
+     "id": 1253000,
+     "title": "Deathstalker",
+     "year": "2025",
+     "release_date": "2025-10-10",
+     "overview": "El reino de Abraxeon está siendo asediado por los Dreadites, heraldos del hechicero Nekromemnon, muerto hace mucho tiempo. Cuando Deathstalker recupera un amuleto maldito de un campo de batalla sembrado de cadáveres, queda marcado por la magia negra y es perseguido por monstruosos asesinos de todo tipo. Para sobrevivir, debe romper la maldición y enfrentarse al mal naciente.",
+     "vote_average": 5.9,
+     "genres": [
+      "Fantasía",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/nEI3DnzQC1afAjJOAizx6UX27pL.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/7aiQebqYUHbs2wZPhsTznuMWyeH.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bNrQfC0Ovf84zmJZ48Q2jhDNNwu.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total "
+     ],
+     "trailer": "fAdo8drjc_M"
     },
     {
      "id": 340442,
@@ -273,25 +235,66 @@
      "trailer": "MQZ7_Uo0OI0"
     },
     {
-     "id": 1253000,
-     "title": "Deathstalker",
-     "year": "2025",
-     "release_date": "2025-10-10",
-     "overview": "El reino de Abraxeon está siendo asediado por los Dreadites, heraldos del hechicero Nekromemnon, muerto hace mucho tiempo. Cuando Deathstalker recupera un amuleto maldito de un campo de batalla sembrado de cadáveres, queda marcado por la magia negra y es perseguido por monstruosos asesinos de todo tipo. Para sobrevivir, debe romper la maldición y enfrentarse al mal naciente.",
+     "id": 11828,
+     "title": "Erik el vikingo",
+     "year": "1989",
+     "release_date": "1989-09-01",
+     "overview": "Erik el Vikingo (Tim Robbins) está cansado de los saqueos, las violaciones y de los cielos grises. Decide entonces reunir guerreros de su pueblo y todos embarcan en un viaje peligroso a Valhalla, para pedir los dioses que acaben con la Edad de Ragnorok y que dejen a su gente ver la luz del sol otra vez. Del director de las comedias del grupo Monty Python.",
      "vote_average": 5.9,
      "genres": [
+      "Aventura",
       "Fantasía",
-      "Acción",
-      "Aventura"
+      "Comedia"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/nEI3DnzQC1afAjJOAizx6UX27pL.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/7aiQebqYUHbs2wZPhsTznuMWyeH.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/bNrQfC0Ovf84zmJZ48Q2jhDNNwu.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/b0zQNIlFN50VjW7t8AmkG14jtXa.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rZlMfuYPGxtyxOUzNLLF4iyM0lF.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDtReYSFYUgWnAapK1InZLcOXLc.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "Filmin"
+     ],
+     "trailer": "Gdq8u9lTdlA"
+    },
+    {
+     "id": 11527,
+     "title": "Excalibur",
+     "year": "1981",
+     "release_date": "1981-04-10",
+     "overview": "En los bosques que rodean el castillo de Tintagel, Uther Pendragon, tras una larga y cruenta guerra, le ruega al mago Merlín que le haga propicia la seducción de la novia de su nuevo aliado, el Duque de Cornwall. Merlín accede a sus deseos, pero con la condición de que el fruto de su lujuria sea para él. Esa misma noche, Arturo es concebido y, dieciocho años después, los nobles de un reino cuyo trono está vacío compiten para hacerse con el derecho de liberar la espada encantada, llamada Excalibur, de la piedra en la que fue incrustada al morir Uther.",
+     "vote_average": 7,
+     "genres": [
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oPAC1Bso6KsViv8YhzJ60pl9y04.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qrnNj4lCPcBzmeOaHb7pLV9JKyg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qrnNj4lCPcBzmeOaHb7pLV9JKyg.jpg",
      "providers": [
       "Movistar Plus+",
       "Movistar Plus+ Ficción Total "
      ],
-     "trailer": "fAdo8drjc_M"
+     "trailer": "vw8oPabVbeY"
+    },
+    {
+     "id": 71282,
+     "title": "Los mares de China",
+     "year": "1935",
+     "release_date": "1935-08-09",
+     "overview": "Alan Gaskell (Clark Gable) es el capitán de un barco experto en cruzar los mares de China. Es un hombre experimentado, fuerte y aguerrido, al parecer de vuelta de todo. En cierta ocasión, el barco debe transportar un importante cargamento de oro desde Hong Kong hasta Singapur. Gaskell teme algo más peligroso que un tifón; el ataque, frecuente en la zona, de los piratas para hacerse con el botín.",
+     "vote_average": 6.3,
+     "genres": [
+      "Aventura",
+      "Acción",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/r2Lv8HMq6zhHEKYl2ymbAJnDoaq.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/5Dt59bozPx5H5afRUmkkPiCcdUD.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bixZ4bg50kwXOsDsw4a5zwTq74h.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "vCMdNkT5KVM"
     }
    ]
   },
@@ -1162,6 +1165,28 @@
      "trailer": "mV9l1enMqvk"
     },
     {
+     "id": 20482,
+     "title": "La ciudad desnuda",
+     "year": "1948",
+     "release_date": "1948-03-04",
+     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
+     "vote_average": 7.2,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "-RN_BvyNpS8"
+    },
+    {
      "id": 638,
      "title": "Carretera perdida",
      "year": "1997",
@@ -1238,6 +1263,28 @@
      "trailer": "eU8ox73SWKY"
     },
     {
+     "id": 8066,
+     "title": "Tránsito",
+     "year": "2005",
+     "release_date": "2005-09-24",
+     "overview": "Henry (Ryan Gosling), un joven mentalmente perturbado, le anuncia a Sam Forster, su psiquiatra (Ewan McGregor), que piensa suicidarse en un plazo de tres días, cosa que el psiquiatra intentará evitar. Por su parte, Henry se dedica a enturbiar la relación de Sam con su novia Lila (Naomi Watts), pintora y antigua paciente suya. Poco a poco, la sólida y arraigada racionalidad de Sam empieza a tambalearse. Sometido a situaciones cada vez más surrealistas, llega un momento en que ya no puede distinguir entre realidad y ficción, y su yo y el de Henry se confunden.",
+     "vote_average": 6.6,
+     "genres": [
+      "Misterio",
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eUNQJ0XKHoGDDQzj1Y4WhE5zAFJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/5qNhPotZXSVh00Mo2Z954tYXFXg.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "wQs35Rka34A"
+    },
+    {
      "id": 396461,
      "title": "Lo que esconde Silver Lake",
      "year": "2018",
@@ -1259,27 +1306,6 @@
       "MUBI"
      ],
      "trailer": "U84SbxKc6W8"
-    },
-    {
-     "id": 8066,
-     "title": "Tránsito",
-     "year": "2005",
-     "release_date": "2005-09-24",
-     "overview": "Henry (Ryan Gosling), un joven mentalmente perturbado, le anuncia a Sam Forster, su psiquiatra (Ewan McGregor), que piensa suicidarse en un plazo de tres días, cosa que el psiquiatra intentará evitar. Por su parte, Henry se dedica a enturbiar la relación de Sam con su novia Lila (Naomi Watts), pintora y antigua paciente suya. Poco a poco, la sólida y arraigada racionalidad de Sam empieza a tambalearse. Sometido a situaciones cada vez más surrealistas, llega un momento en que ya no puede distinguir entre realidad y ficción, y su yo y el de Henry se confunden.",
-     "vote_average": 6.6,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eUNQJ0XKHoGDDQzj1Y4WhE5zAFJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/5qNhPotZXSVh00Mo2Z954tYXFXg.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "wQs35Rka34A"
     },
     {
      "id": 11644,
@@ -1322,24 +1348,6 @@
      "trailer": "UuQN3rTi27I"
     },
     {
-     "id": 11761,
-     "title": "El misterio de Peacock",
-     "year": "2010",
-     "release_date": "2010-04-20",
-     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
-     "providers": [],
-     "trailer": "NPEzcAG4E5s"
-    },
-    {
      "id": 1052,
      "title": "Blow-Up",
      "year": "1966",
@@ -1358,6 +1366,23 @@
       "Filmin"
      ],
      "trailer": "PRENEOHlcbw"
+    },
+    {
+     "id": 146015,
+     "title": "El Doble",
+     "year": "2014",
+     "release_date": "2014-04-03",
+     "overview": "Adaptación contemporánea de la novela de Dostoievski sobre un burócrata que empieza a perder la cabeza cuando un doble exacto a él aparece trabajando en su misma oficina y parece tener intenciones de suplantarle.",
+     "vote_average": 6.5,
+     "genres": [
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/7kNcpmP1Pe9fWLKEbEOX5GEWueC.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
+     "providers": [],
+     "trailer": "mzw0wEcsfxE"
     },
     {
      "id": 141,
@@ -1386,42 +1411,22 @@
      "trailer": "iVdehGAy4zA"
     },
     {
-     "id": 870028,
-     "title": "El contable 2",
-     "year": "2025",
-     "release_date": "2025-04-23",
-     "overview": "Cuando un viejo conocido es asesinado, Wolff se ve obligado a resolver el caso. Al darse cuenta de que son necesarias medidas más extremas, Wolff recluta a su hermano Brax, distanciado y muy letal, para que le ayude. En colaboración con Marybeth Medina, descubren una conspiración mortal y se convierten en objetivo de una despiadada red de asesinos que no se detendrán ante nada para mantener sus secretos enterrados.",
-     "vote_average": 7.1,
+     "id": 11761,
+     "title": "El misterio de Peacock",
+     "year": "2010",
+     "release_date": "2010-04-20",
+     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
+     "vote_average": 6.1,
      "genres": [
+      "Drama",
       "Misterio",
-      "Crimen",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/jcV9YfjBRo6occxqeWtEiyWwMoG.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "Zh66xyiMZTY"
-    },
-    {
-     "id": 146015,
-     "title": "El Doble",
-     "year": "2014",
-     "release_date": "2014-04-03",
-     "overview": "Adaptación contemporánea de la novela de Dostoievski sobre un burócrata que empieza a perder la cabeza cuando un doble exacto a él aparece trabajando en su misma oficina y parece tener intenciones de suplantarle.",
-     "vote_average": 6.5,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/7kNcpmP1Pe9fWLKEbEOX5GEWueC.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
      "providers": [],
-     "trailer": "mzw0wEcsfxE"
+     "trailer": "NPEzcAG4E5s"
     }
    ]
   },
@@ -1433,283 +1438,287 @@
    },
    "items": [
     {
-     "id": 19621,
-     "title": "La venganza (The Hit)",
-     "year": "1984",
-     "release_date": "1984-09-07",
-     "overview": "Willie Parker, un antiguo gángster inglés que se convirtió en delator, vive desde hace diez años con una identidad falsa en una remota aldea española. Pero, cuando los mafiosos a los que traicionó descubren su paradero, le encargan a dos asesinos a sueldo que lo secuestren y lo trasladen a París. El plan se complica cuando, tras el rapto de Parker, la policía española empieza a perseguir a los criminales.",
-     "vote_average": 6.5,
-     "genres": [
-      "Drama",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/n8P13rEyvy6vPFmPaqUWAfbOZpk.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ylrd1QeNvaRXSmXwDLqhaGJ6S9K.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/ylrd1QeNvaRXSmXwDLqhaGJ6S9K.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "xyNVTkemjgQ"
-    },
-    {
-     "id": 1659087,
-     "title": "180",
-     "year": "2026",
-     "release_date": "2026-04-16",
-     "overview": "Un inesperado incidente de tráfico deja a su hijo en estado crítico. El padre, enfurecido, se adentra en una oscura espiral de confusión emocional y venganza.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/4nNuv41aosADsoQYYJDg7Y829YK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "jHtGZS-TFOI"
-    },
-    {
-     "id": 127521,
-     "title": "6 balas",
-     "year": "2012",
-     "release_date": "2012-09-11",
-     "overview": "El veterano mercenario Samson Gaul sabe que en el fragor de la batalla cada bala cuenta. Cuando sus acciones dieron como resultado la muerte de víctimas indefensas se retiró pero ahora es la última esperanza de Andrew Fayden un padre desesperado. Fayden sabe luchar pero solo no está preparado para encontrar a su hija en las corruptas calles de un país extranjero. Juntos, ambos guerreros, no se detendrán ante nada para destrozar la red criminal que se aprovecha de los inocentes.",
+     "id": 10056,
+     "title": "El beso del asesino",
+     "year": "1955",
+     "release_date": "1955-10-01",
+     "overview": "Un boxeador rescata a una cantante de las lascivas garras de su jefe. Intriga y melodrama para una película de bajo presupuesto producida, dirigida, escrita, fotografiada y montada por Stanley Kubrick.",
      "vote_average": 6.3,
      "genres": [
       "Suspense",
-      "Acción",
-      "Crimen"
+      "Crimen",
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/1ArlTk9TosvIJVmy9fwpD9XFRkw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "providers": [],
-     "trailer": "ioIknR8KQmk"
+     "poster": "https://image.tmdb.org/t/p/w342/wfFZ3eTDyJtOsCYzANC8ta51DR.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/7ZbNuSp186oxSjdtz5npRLLjVSb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yFi2LLXKbFN7bhLWmFNZLGOiiBe.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "W25UlE0C1-Y"
     },
     {
-     "id": 587986,
-     "title": "Ventajas de viajar en tren",
+     "id": 28297,
+     "title": "Fuerza bruta",
+     "year": "1947",
+     "release_date": "1947-07-16",
+     "overview": "Tras los muros de la penitenciaría Westgate imperan la violencia y el miedo. El capitán Munsey, alcaide de la prisión, mantiene hacinados a los convictos sometiéndoles a constantes torturas y vejaciones. Joe Collins y sus compañeros de celda, hartos de la situación, deciden organizar una fuga. Un plan temerario con muchas posibilidades de acabar en un baño de sangre.",
+     "vote_average": 7.3,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/x7UxipX2gWPYBAwAGAYtQScvyYP.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aJcr2XzbFt2jqKtCnlw9Po1ZA2f.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/7kEMRnWw5zZaXU0xbZmnOKTdgoM.jpg",
+     "providers": [
+      "Artiflix"
+     ],
+     "trailer": "uTn6pHKVpNc"
+    },
+    {
+     "id": 613092,
+     "title": "El crack cero",
      "year": "2019",
-     "release_date": "2019-11-08",
-     "overview": "Después de internar a su trastornado marido en un remoto hospital psiquiátrico, la editora de libros Helga Pato regresa a casa en tren, donde conoce a un hombre misterioso que dice ser psiquiatra.",
-     "vote_average": 6.5,
+     "release_date": "2019-10-04",
+     "overview": "Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.",
+     "vote_average": 6.7,
      "genres": [
       "Drama",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/6C8uJnxoBZVYY7iueExVL423RLI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/kzgPu2CMxBr4YZZxC1Off4cUfR9.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
      "providers": [
       "Amazon Prime Video",
-      "Movistar Plus+ Ficción Total ",
-      "SkyShowtime",
       "Amazon Prime Video with Ads"
      ],
-     "trailer": "FgS_tWjkLN4"
+     "trailer": "nYcq_Dy-EWw"
     },
     {
-     "id": 20637,
-     "title": "Pánico",
-     "year": "2000",
-     "release_date": "2000-12-01",
-     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
+     "id": 438396,
+     "title": "Orígenes secretos",
+     "year": "2020",
+     "release_date": "2020-08-28",
+     "overview": "En Madrid, España, un misterioso asesino en serie mata cruelmente a sus víctimas recreando la primera aparición de varios superhéroes de cómic. Cosme, un veterano inspector de policía que está a punto de retirarse, trabaja en el caso con el atormentado inspector David Valentín y su propio hijo Jorge Elías, un joven friki que posee una tienda de cómics.",
      "vote_average": 6.2,
      "genres": [
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "providers": [],
-     "trailer": "h6qvVd-jg4Y"
-    },
-    {
-     "id": 862552,
-     "title": "El asesino del ritual",
-     "year": "2023",
-     "release_date": "2023-03-09",
-     "overview": "Un detective al borde de la jubilación se une a un profesor de estudios africanos para localizar a un asesino en serie que está realizando la antigua práctica de magia negra de Muti.",
-     "vote_average": 5.8,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Acción",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/dv1V0r6p9PeaOZlvaITDhTTyVKs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
-     "providers": [],
-     "trailer": "DIa__DpZX9U"
-    },
-    {
-     "id": 1621552,
-     "title": "La captura",
-     "year": "2026",
-     "release_date": "2026-08-21",
-     "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
-     "vote_average": 8.8,
-     "genres": [
-      "Crimen",
-      "Acción",
+      "Drama",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/raVBwQY4Ru5yt0FDE4zDYSIlFgd.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/9NkIvN0A602Y4Ewa2h2dHSl8n9A.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qGZe9qTuydxyJYQ60XDtEckzLR8.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qGZe9qTuydxyJYQ60XDtEckzLR8.jpg",
      "providers": [
       "Netflix",
       "Netflix Standard with Ads"
      ],
-     "trailer": "Rk0efhpa-5Y"
+     "trailer": "VLubyNpveEs"
     },
     {
-     "id": 157351,
-     "title": "La verdad sobre Emmanuel",
-     "year": "2013",
-     "release_date": "2013-04-26",
-     "overview": "Emanuel (Scodelario) es una chica de diecisiete años que se ofrece a cuidar al bebé de Linda (Biel), su nueva vecina. La cuestión es que ambas están bastante desequilibradas: mientras que Emanuel cree ver en Linda a su difunta madre, lo que le ocurre a Linda es que tiene un muñeco al que cuida como si fuera su hijo muerto. (FILMAFFINITY)",
-     "vote_average": 6,
+     "id": 1215185,
+     "title": "La infiltrada",
+     "year": "2024",
+     "release_date": "2024-10-11",
+     "overview": "País Vasco, España, finales de los años noventa. Una joven policía consigue infiltrarse en la despiadada banda terrorista ETA.",
+     "vote_average": 7.1,
      "genres": [
       "Drama",
+      "Crimen",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/z98jqAlVlnXyYnTlC95Na8FQXHF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mFhaWSCPSidNjsLD0yzwypajDvS.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mFhaWSCPSidNjsLD0yzwypajDvS.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/xnME9c2PEtYGBDPO4lZXAVeEu0G.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/q6eSjGQVt97jClKgub0EXGiJ7EB.jpg",
      "providers": [
-      "Amazon Prime Video",
-      "Acontra Plus",
-      "Amazon Prime Video with Ads"
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "HBO Max Amazon Channel"
      ],
-     "trailer": "f3b_XVosLfU"
+     "trailer": "7fEmGjV0LXc"
     },
     {
-     "id": 48129,
-     "title": "Run, perseguido por todos",
-     "year": "1991",
-     "release_date": "1991-02-01",
-     "overview": "Después de una pelea en un casino a causa de una partida de póker, un estudiante es acusado injustamente del asesinato del hijo de un jefe de la mafia. A partir de ese momento, el joven tendrá que huir no sólo de los sicarios del gángster, sino también de todos los policías corruptos de la ciudad. (FILMAFFINITY)",
-     "vote_average": 6,
+     "id": 46041,
+     "title": "Conspiración en Berlín",
+     "year": "1966",
+     "release_date": "1966-11-10",
+     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
+     "vote_average": 5.9,
      "genres": [
-      "Acción",
       "Suspense",
       "Drama",
       "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/1zlFPRgfnhdUD04siut4BWGo0tf.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8N1nF47M1TI2UmlkpBI54WFwiYm.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8N1nF47M1TI2UmlkpBI54WFwiYm.jpg",
-     "providers": [],
-     "trailer": "gpcO-cUR_1A"
+     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "FlixOlé",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "yakSWyVSNUs"
     },
     {
-     "id": 613099,
-     "title": "Legado en los huesos",
-     "year": "2019",
-     "release_date": "2019-12-05",
-     "overview": "En esta continuación de El guardián invisible Amaia Salazar, inspectora de homicidios de la Policía Foral, tendrá que seguir los pasos de un tarttalo (un ser que según la mitología local caza pastores y doncellas) a la vez que descubre por primera vez lo que implica la maternidad. Pero ni siquiera el nacimiento de su primer hijo hace que se alejen los fantasmas del pasado, esos que creía exiliados a otro mundo…",
-     "vote_average": 6.6,
+     "id": 32080,
+     "title": "Los Implacables, Patrulla Especial",
+     "year": "1973",
+     "release_date": "1973-12-14",
+     "overview": "En Nueva York, para reforzar la lucha contra la mafia y los gángters, se ha creado un grupo especial de la Policía, formado por siete hombres, con total independencia y amparados en su anonimato. Son los \"seven-ups\", un grupo de élite que pronto se demuestra muy eficaz contra el crimen... El director Phillip D'Antoni -que no dirigió luego más películas- había sido el productor de éxitos similares anteriores como \"Bullitt\" (1968) and \"French Connection\"",
+     "vote_average": 6.3,
      "genres": [
       "Suspense",
       "Crimen",
       "Misterio"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/r9t2himGKFSKWjjUdpRLFQkafj7.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/isazfkX14Unin8m6meZMfm7QDfn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/isazfkX14Unin8m6meZMfm7QDfn.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "vv-at2_dfwk"
+     "poster": "https://image.tmdb.org/t/p/w342/7p8s3a1jdNfYeNFHj6z7p079iqf.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "providers": [],
+     "trailer": "JVmcBXVy8Og"
     },
     {
-     "id": 1145725,
-     "title": "Duplicidad, de Tyler Perry",
-     "year": "2025",
-     "release_date": "2025-03-19",
-     "overview": "La brillante abogada Marley se enfrenta a su caso más personal cuando le encargan que descubra la verdad sobre el asesinato del marido de su mejor amiga, Fela. Con ayuda de su novio, un antiguo policía que ahora es detective privado, las pesquisas de Marley sobre lo que realmente ocurrió la llevan por un peligroso laberinto de engaños y traiciones.",
-     "vote_average": 6.6,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/k4fJun2pJ70BBFMgGAZddk3m7sg.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/qSh3Aav8Kcoe2D2Azr8Bh1J0HAa.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qSh3Aav8Kcoe2D2Azr8Bh1J0HAa.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "i6NvYfJwq-U"
-    },
-    {
-     "id": 36373,
-     "title": "M",
-     "year": "1951",
-     "release_date": "1951-03-01",
-     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
+     "id": 35404,
+     "title": "El caso de Thelma Jordon",
+     "year": "1949",
+     "release_date": "1949-11-04",
+     "overview": "Una misteriosa mujer inicia un romance con el fiscal de distrito. Él intuye que ella le oculta algo, y sus sospechas se confirman con el hallazgo de un cadáver.",
      "vote_average": 6.5,
      "genres": [
-      "Crimen",
+      "Suspense",
       "Drama",
-      "Suspense"
+      "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "providers": [],
-     "trailer": "IovfalMQ6lQ"
+     "poster": "https://image.tmdb.org/t/p/w342/v7uKmQv99HmeObubOTcGlJLpfsX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rovH7UG8HOytV1lebx8R7DmL2xX.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rovH7UG8HOytV1lebx8R7DmL2xX.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "vrFXARH__0E"
     },
     {
-     "id": 970347,
-     "title": "The Killer",
-     "year": "2024",
-     "release_date": "2024-08-22",
-     "overview": "Zee es una temida asesina a sueldo conocida como “la Reina de los Muertos”, pero cuando se niega a asesinar a una joven ciega, se encuentra perseguida tanto por sus colegas criminales como por un decidido detective de policía.",
-     "vote_average": 6.3,
+     "id": 28663,
+     "title": "La fugitiva",
+     "year": "1950",
+     "release_date": "1950-11-10",
+     "overview": "Frank Johnson (Ross Elliott) es testigo de un asesinato mientras pasea una noche a su perro. El inspector Ferris (Robert Keith) le pide que declare ante el gran jurado, pero Frank decide huir. Su mujer, Eleanor (Ann Sheridan), que además piensa que en realidad huye de un matrimonio fracasado, obtiene la ayuda de un periodista, Danny Leggett (Dennis O'Keefe), para localizar a su marido. Pero ellos no son los únicos que le están buscando...",
+     "vote_average": 6.8,
      "genres": [
-      "Acción",
+      "Suspense",
+      "Crimen",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6wp0FpyQvYVphtUSvANiCarawop.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "3Uck_n3b7gc"
+    },
+    {
+     "id": 1464374,
+     "title": "Los Tigres",
+     "year": "2025",
+     "release_date": "2025-10-31",
+     "overview": "Antonio y Estrella son hermanos buzos. Él trabaja en obras marítimas, ella estudia la vida submarina y le asiste. Su precaria economía podría mejorar tras encontrar cocaína oculta en el casco de un barco fondeado en Huelva.",
+     "vote_average": 6.2,
+     "genres": [
       "Suspense",
       "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/6PCnxKZZIVRanWb710pNpYVkCSw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/tCQfubckzzcuCbsGugkpLhfjS5z.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/tCQfubckzzcuCbsGugkpLhfjS5z.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/etJ74W3D9ZdpIk67dRSmC0akhjm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ebrd6JoIAu7r8dCiI2Hze2DKGvv.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/ebrd6JoIAu7r8dCiI2Hze2DKGvv.jpg",
      "providers": [
       "Movistar Plus+",
       "Movistar Plus+ Ficción Total "
      ],
-     "trailer": "zgNOS5ofQhw"
+     "trailer": "xzSlunZIfPA"
     },
     {
-     "id": 395458,
-     "title": "Suburbicon",
-     "year": "2017",
-     "release_date": "2017-10-26",
-     "overview": "Un misterio criminal ambientado en un tranquilo pueblo familiar norteamericano durante los años 50, donde lo mejor y lo peor de la humanidad se ve reflejado en las vidas de la gente corriente. Cuando un allanamiento de morada se vuelve mortal, una familia aparentemente perfecta empezará a hacer uso del chantaje, la venganza y la traición.",
-     "vote_average": 5.9,
+     "id": 1128547,
+     "title": "Islands",
+     "year": "2025",
+     "release_date": "2025-05-08",
+     "overview": "Tom es entrenador de tenis en un lujoso hotel de la isla de Fuerteventura y llena el tiempo entre clases con alcohol y aventuras de una noche. La llegada de la familia Maguire saca a Tom de su rutina habitual, entabla una relación con Anne, su marido Dave y su hijo Anton. Tom no puede quitarse la sensación de que ya conoce a Anne de antes, y esta tensión crece entre ellos hasta que una noche Dave desaparece y la investigación policial señala a Anne y a Tom como sospechosos.",
+     "vote_average": 6.1,
      "genres": [
       "Suspense",
-      "Crimen",
       "Drama",
-      "Misterio"
+      "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/dL1GOIX3gs3GzZLDs4mg3fjjUOV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/dmgFJdivUmV4vGLkbPD49KVjlHx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/dmgFJdivUmV4vGLkbPD49KVjlHx.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/eLrpRK07s6muaFFi5cFZi20hFTF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
      "providers": [],
-     "trailer": "gan6ThmgVCQ"
+     "trailer": "MifpmLyraBE"
+    },
+    {
+     "id": 38751,
+     "title": "The Man Who Cheated Himself",
+     "year": "1950",
+     "release_date": "1950-12-26",
+     "overview": "Ed es un policía de San Francisco que vive un idilio secreto con una mujer casada llamada Lois. Cuando Lois mata a su marido, Ed se ve forzado a ocultar el crimen, de modo que decide hacer creer que el muerto recibió un disparo durante un robo. Pero las cosas no serán tan sencillas.",
+     "vote_average": 6.2,
+     "genres": [
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/jJKWfhHjDaFGSNvRnXx0Xxehhls.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/w0w3wqNo9HqPKtH1OEhHoQt6six.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/dB8k9HiVa7G284TWntSUzGDWcHV.jpg",
+     "providers": [
+      "Artiflix"
+     ],
+     "trailer": "hxcLsOJFjUQ"
+    },
+    {
+     "id": 20362,
+     "title": "Una vida marcada",
+     "year": "1948",
+     "release_date": "1948-09-29",
+     "overview": "Un astuto y peligroso delincuente que ha matado a un policía es perseguido por un teniente de homicidios que fue su compañero de juegos durante la infancia, cuando ambos vivían en el barrio italiano (Little Italy) de Nueva York.",
+     "vote_average": 6.7,
+     "genres": [
+      "Crimen",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/esgbW90eHtdRTdmBYgvwCt7nHAM.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/lRBd0Fa0eRtOHZssIuNHehqM3V1.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/lRBd0Fa0eRtOHZssIuNHehqM3V1.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "q8YJMqT977k"
+    },
+    {
+     "id": 16056,
+     "title": "Fragmentos",
+     "year": "2009",
+     "release_date": "2009-07-08",
+     "overview": "En una cafetería de Los Ángeles se produce un tiroteo en el que sobreviven varias personas, ninguna se conoce entre sí. Tras el suceso, se crea un vínculo entre todos ellos que cambiará por completo la vida que llevaban hasta ese extraño día.",
+     "vote_average": 5.9,
+     "genres": [
+      "Crimen",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/8Vhj70ttOb3BlDNvvSo6hzaAdtF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eW81T3E28s40VFW8AgAJPCZqE2X.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eW81T3E28s40VFW8AgAJPCZqE2X.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "s3qaqXwwGhs"
     }
    ]
   }
@@ -1874,7 +1883,8 @@
      "providers": [
       "Movistar Plus+",
       "Movistar Plus+ Ficción Total ",
-      "SkyShowtime"
+      "SkyShowtime",
+      "Sky Showtime Amazon Channel"
      ],
      "trailer": "GigeANz21rk"
     },
@@ -1964,27 +1974,6 @@
      "trailer": "3qFYjkFCxiE"
     },
     {
-     "id": 1304313,
-     "title": "La momia de Lee Cronin",
-     "year": "2026",
-     "release_date": "2026-04-15",
-     "overview": "Nueva versión del clásico 'La momia'. La joven hija de un periodista desaparece en el desierto sin dejar rastro. Ocho años más tarde, la familia rota se conmociona cuando ella es devuelta a ellos, y lo que debiera haber sido una reunión jubilosa se convierte en una auténtica pesadilla.",
-     "vote_average": 7.8,
-     "genres": [
-      "Terror",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/btXGqRlctQdbML6ifPmacZuykcC.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "HBO Max Amazon Channel"
-     ],
-     "trailer": "o7UFmdCgDEc"
-    },
-    {
      "id": 805,
      "title": "La semilla del diablo",
      "year": "1968",
@@ -2005,6 +1994,27 @@
       "SkyShowtime"
      ],
      "trailer": "pwLKIcB0zDw"
+    },
+    {
+     "id": 1304313,
+     "title": "La momia de Lee Cronin",
+     "year": "2026",
+     "release_date": "2026-04-15",
+     "overview": "Nueva versión del clásico 'La momia'. La joven hija de un periodista desaparece en el desierto sin dejar rastro. Ocho años más tarde, la familia rota se conmociona cuando ella es devuelta a ellos, y lo que debiera haber sido una reunión jubilosa se convierte en una auténtica pesadilla.",
+     "vote_average": 7.8,
+     "genres": [
+      "Terror",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/btXGqRlctQdbML6ifPmacZuykcC.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
+     "providers": [
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "HBO Max Amazon Channel"
+     ],
+     "trailer": "o7UFmdCgDEc"
     }
    ]
   },
@@ -2289,7 +2299,8 @@
      "fondo": "https://image.tmdb.org/t/p/original/5bN06p5OwRUEqcfrtNs5egV16yb.jpg",
      "providers": [
       "Movistar Plus+ Ficción Total ",
-      "SkyShowtime"
+      "SkyShowtime",
+      "Sky Showtime Amazon Channel"
      ],
      "trailer": "iZOTTxwzyMU"
     },
@@ -2336,9 +2347,11 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
      "providers": [
+      "Netflix",
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
+      "Netflix Standard with Ads",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
@@ -2451,7 +2464,8 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "SkyShowtime",
-      "Amazon Prime Video with Ads"
+      "Amazon Prime Video with Ads",
+      "Sky Showtime Amazon Channel"
      ],
      "trailer": "xxSo8ZEvzE8"
     },
@@ -2525,26 +2539,6 @@
      "trailer": "Zd8Jw1Z_j4w"
     },
     {
-     "id": 299536,
-     "title": "Vengadores: Infinity War",
-     "year": "2018",
-     "release_date": "2018-04-25",
-     "overview": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?",
-     "vote_average": 8.2,
-     "genres": [
-      "Aventura",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "-f5PwE_Q8Fs"
-    },
-    {
      "id": 299534,
      "title": "Vengadores: Endgame",
      "year": "2019",
@@ -2563,6 +2557,26 @@
       "Disney Plus"
      ],
      "trailer": "Ib847Q7C9AU"
+    },
+    {
+     "id": 299536,
+     "title": "Vengadores: Infinity War",
+     "year": "2018",
+     "release_date": "2018-04-25",
+     "overview": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?",
+     "vote_average": 8.2,
+     "genres": [
+      "Aventura",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+     "providers": [
+      "Disney Plus"
+     ],
+     "trailer": "-f5PwE_Q8Fs"
     },
     {
      "id": 283566,
@@ -2586,27 +2600,6 @@
      "trailer": "Vjl9ApttZE8"
     },
     {
-     "id": 1375646,
-     "title": "Zona cero",
-     "year": "2026",
-     "release_date": "2026-05-21",
-     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
-     "vote_average": 8.2,
-     "genres": [
-      "Terror",
-      "Acción",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "LW6dpj1uCK8"
-    },
-    {
      "id": 1124,
      "title": "El truco final (El prestigio)",
      "year": "2006",
@@ -2627,6 +2620,27 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "DHoXum3M9eE"
+    },
+    {
+     "id": 1375646,
+     "title": "Zona cero",
+     "year": "2026",
+     "release_date": "2026-05-21",
+     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
+     "vote_average": 8.2,
+     "genres": [
+      "Terror",
+      "Acción",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total "
+     ],
+     "trailer": "LW6dpj1uCK8"
     }
    ]
   },
@@ -2671,7 +2685,8 @@
      "fondo": "https://image.tmdb.org/t/p/original/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg",
      "providers": [
       "Movistar Plus+ Ficción Total ",
-      "SkyShowtime"
+      "SkyShowtime",
+      "Sky Showtime Amazon Channel"
      ],
      "trailer": "7b20GRFZBFE"
     },
@@ -2869,7 +2884,7 @@
      "year": "2001",
      "release_date": "2001-12-18",
      "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media.",
-     "vote_average": 8.4,
+     "vote_average": 8.5,
      "genres": [
       "Aventura",
       "Fantasía",
@@ -3143,47 +3158,10 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "SkyShowtime",
-      "Amazon Prime Video with Ads"
+      "Amazon Prime Video with Ads",
+      "Sky Showtime Amazon Channel"
      ],
      "trailer": "xxSo8ZEvzE8"
-    },
-    {
-     "id": 1377237,
-     "title": "Entrega al límite",
-     "year": "2026",
-     "release_date": "2026-09-07",
-     "overview": "Un exsoldado se ve envuelto en una brutal carrera contrarreloj cuando una entrega médica crucial los convierte, a él y a su inesperada compañera, en el objetivo de un cártel despiadado. A medida que la misión se transforma en una cacería mortal, cada desvío, retraso y bala los acerca más al fracaso. Acosados ​​por la traición desde todos los frentes, deberán sobrevivir a la persecución y entregar su carga para salvar la vida de una niña.",
-     "vote_average": 8.3,
-     "genres": [
-      "Acción",
-      "Comedia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/pmjSjZtFOYDWhAs4B2AbBE8hTQf.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-     "providers": [],
-     "trailer": "B6Z9MM1LhEA"
-    },
-    {
-     "id": 820067,
-     "title": "Las Quintillizas: La Película",
-     "year": "2022",
-     "release_date": "2022-05-20",
-     "overview": "Como tutor a tiempo parcial, a Fuutarou se le asigna la tarea de guiar a las cinco hermosas chicas, que están “a punto de suspender” y “odian los estudios”, hasta la “graduación”. Fuutarou se esfuerza por preparar el festival escolar mientras vigila los estudios de Ichika, que ha decidido tomarse una licencia para concentrarse en la actuación, y Yotsuba está aún más decidida que de costumbre a que sea un festival escolar sin remordimientos.  Fuutarou se siente animado por la decisión de Itsuki de no rendirse, y busca respuestas a los sentimientos de Nino, la determinación de Miku y sus sentimientos por Ichika, Yotsuba e Itsuki. Con cada uno de ellos con sus propios pensamientos y sentimientos, el primer día del festival escolar, el último evento de su vida en el instituto, finalmente comenzó. “Ven al salón de clases a las 15:00, el primer día del festival escolar”. Las quintillizas se reúnen en el aula y Fuutarou finalmente les informa que tomará una decisión…",
-     "vote_average": 8.3,
-     "genres": [
-      "Animación",
-      "Comedia",
-      "Romance"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6QsExD8uP3vLk64yLnxD8MSS4A6.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
-     "providers": [
-      "Crunchyroll",
-      "Crunchyroll Amazon Channel"
-     ],
-     "trailer": "AYxCeeA3LaI"
     },
     {
      "id": 3082,
@@ -3205,6 +3183,27 @@
       "Acontra Plus Amazon Channel"
      ],
      "trailer": "NNznUyDmSFc"
+    },
+    {
+     "id": 820067,
+     "title": "Las Quintillizas: La Película",
+     "year": "2022",
+     "release_date": "2022-05-20",
+     "overview": "Como tutor a tiempo parcial, a Fuutarou se le asigna la tarea de guiar a las cinco hermosas chicas, que están “a punto de suspender” y “odian los estudios”, hasta la “graduación”. Fuutarou se esfuerza por preparar el festival escolar mientras vigila los estudios de Ichika, que ha decidido tomarse una licencia para concentrarse en la actuación, y Yotsuba está aún más decidida que de costumbre a que sea un festival escolar sin remordimientos.  Fuutarou se siente animado por la decisión de Itsuki de no rendirse, y busca respuestas a los sentimientos de Nino, la determinación de Miku y sus sentimientos por Ichika, Yotsuba e Itsuki. Con cada uno de ellos con sus propios pensamientos y sentimientos, el primer día del festival escolar, el último evento de su vida en el instituto, finalmente comenzó. “Ven al salón de clases a las 15:00, el primer día del festival escolar”. Las quintillizas se reúnen en el aula y Fuutarou finalmente les informa que tomará una decisión…",
+     "vote_average": 8.3,
+     "genres": [
+      "Animación",
+      "Comedia",
+      "Romance"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6QsExD8uP3vLk64yLnxD8MSS4A6.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
+     "providers": [
+      "Crunchyroll",
+      "Crunchyroll Amazon Channel"
+     ],
+     "trailer": "AYxCeeA3LaI"
     },
     {
      "id": 614945,
@@ -3246,6 +3245,25 @@
       "Acontra Plus Amazon Channel"
      ],
      "trailer": "i1C6qZVeFtA"
+    },
+    {
+     "id": 42269,
+     "title": "Una mujer y tres hombres",
+     "year": "1974",
+     "release_date": "1974-12-21",
+     "overview": "Amarga crónica de la historia de Italia, desde la posguerra hasta los años setenta, narrada a través de un grupo de amigos de izquierdas que se conocieron cuando en 1944 lucharon contra los nazis. Este retrato del idealismo, pero también de la inevitable pérdida de las ilusiones a causa del acomodamiento burgués, fue el primer éxito internacional del realizador italiano Ettore Scola.",
+     "vote_average": 8.3,
+     "genres": [
+      "Drama",
+      "Comedia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oz9q8fI9j5dcxowuFagFzhaiK2z.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/2Kkqmy3EpXqBDqv1vvsNXX3pwww.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/2Kkqmy3EpXqBDqv1vvsNXX3pwww.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "GFaFeuPep5w"
     }
    ]
   },
@@ -3314,7 +3332,8 @@
       "Movistar Plus+ Ficción Total ",
       "Filmin",
       "SkyShowtime",
-      "Netflix Standard with Ads"
+      "Netflix Standard with Ads",
+      "Sky Showtime Amazon Channel"
      ],
      "trailer": "v72XprPxy3E"
     },
@@ -3395,7 +3414,8 @@
       "Netflix",
       "Movistar Plus+ Ficción Total ",
       "Filmin",
-      "SkyShowtime"
+      "SkyShowtime",
+      "Sky Showtime Amazon Channel"
      ],
      "trailer": "rMT8b3MJ-RI"
     },
@@ -3478,9 +3498,11 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
      "providers": [
+      "Netflix",
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
+      "Netflix Standard with Ads",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
@@ -3581,26 +3603,6 @@
     "trailer": "IoYahD_xNR0"
    },
    {
-    "id": 772,
-    "title": "Solo en casa 2: Perdido en Nueva York",
-    "year": "1992",
-    "release_date": "1992-11-15",
-    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
-    "vote_average": 6.8,
-    "genres": [
-     "Comedia",
-     "Familia",
-     "Aventura"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "VfBCYaGu7Ts"
-   },
-   {
     "id": 1034541,
     "title": "Terrifier 3",
     "year": "2024",
@@ -3619,6 +3621,26 @@
      "AMC Channels Amazon Channel"
     ],
     "trailer": "Y2u6m2W428g"
+   },
+   {
+    "id": 772,
+    "title": "Solo en casa 2: Perdido en Nueva York",
+    "year": "1992",
+    "release_date": "1992-11-15",
+    "overview": "En plenas fiestas navideñas, el pequeño Kevin y su familia están a punto de coger un avión para disfrutar de unas pequeñas vacaciones, pero Kevin se equivoca y embarca en un avión que lo lleva a Nueva York, donde vuelve a encontrarse solo y desprotegido.",
+    "vote_average": 6.8,
+    "genres": [
+     "Comedia",
+     "Familia",
+     "Aventura"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/7sdiRUyc0ANHJptPhsgb1KL6hoq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/8fnYJPoXxwAN4valDLgz2whMGTH.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "VfBCYaGu7Ts"
    },
    {
     "id": 331482,
@@ -3662,7 +3684,8 @@
      "Disney Plus",
      "Movistar Plus+ Ficción Total ",
      "SkyShowtime",
-     "Amazon Prime Video with Ads"
+     "Amazon Prime Video with Ads",
+     "Sky Showtime Amazon Channel"
     ],
     "trailer": "_UOh0UX3alI"
    },
@@ -3686,7 +3709,8 @@
      "Disney Plus",
      "Movistar Plus+ Ficción Total ",
      "SkyShowtime",
-     "Amazon Prime Video with Ads"
+     "Amazon Prime Video with Ads",
+     "Sky Showtime Amazon Channel"
     ],
     "trailer": "SL0YugjtkiI"
    },
@@ -3731,6 +3755,26 @@
      "Filmin"
     ],
     "trailer": "iLR3gZrU2Xo"
+   },
+   {
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
+    "genres": [
+     "Comedia",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "AKlhYZ-HqKs"
    },
    {
     "id": 5255,
@@ -3799,25 +3843,25 @@
     "trailer": "e4bdD8owgDU"
    },
    {
-    "id": 899112,
-    "title": "Noche de paz",
-    "year": "2022",
-    "release_date": "2022-11-30",
-    "overview": "Cuando un equipo de mercenarios irrumpe en Nochebuena dentro de un complejo familiar adinerado y toma como rehenes a todos los que están dentro, no estaban preparados para un defensor sorpresa: Santa Claus (David Harbour) está en el edificio y a punto de demostrar por qué este Santa Claus, no es ningún santo.",
-    "vote_average": 7.2,
+    "id": 17979,
+    "title": "Cuento de Navidad",
+    "year": "2009",
+    "release_date": "2009-11-04",
+    "overview": "Ebenezer Scrooge es un personaje malhumorado y gruñón que trata con desprecio y malos modales a su fiel empleado Bob Cratchit y a su alegre sobrino. Pero, cuando el espíritu de las Navidades pasadas, presentes y futuras lo arrastra a un viaje durante el cual descubre verdades que siempre se ha negado a ver, el corazón del viejo avaro se ilumina y se da cuenta de que debe actuar inmediatamente para contrarrestar tantos años de egoísmo y rencor. Adaptación del clásico de Charles Dickens.",
+    "vote_average": 6.9,
     "genres": [
-     "Acción",
-     "Comedia",
-     "Fantasía"
+     "Animación",
+     "Familia",
+     "Fantasía",
+     "Drama"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/piA9ny345UyIMGp0lKYtPJ3RKCa.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/sBOenwOZGRN5nZZGw4TxwtnfrEf.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/meN97hs1BtmChq16NFhWxOI8och.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
     "providers": [
-     "Netflix",
-     "Netflix Standard with Ads"
+     "Disney Plus"
     ],
-    "trailer": "MUDqcnalsLg"
+    "trailer": "j8jOwPbZ-W0"
    },
    {
     "id": 1621,
@@ -3834,28 +3878,6 @@
     "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
     "providers": [],
     "trailer": "rxz036jbrmI"
-   },
-   {
-    "id": 10719,
-    "title": "Elf",
-    "year": "2003",
-    "release_date": "2003-11-07",
-    "overview": "Una Nochebuena, en un orfanato, un bebé gatea dentro del saco de regalos de Santa Claus y acaba en el taller de éste en el Polo Norte. Aunque allí es adoptado y educado como un elfo, al crecer, se hace tres veces más grande que los habitantes de la región. Parece claro que nunca encajará en el mundo de los elfos; lo que necesita es encontrar a su verdadera familia. Con esta intención viaja a Nueva York, donde descubrirá que la vida no consiste sólo en patinar y comer dulces; así que vuelve a sentirse otra vez fuera lugar. Consigue, no obstante, encontrar a su padre, Walter, un editor de libros infantiles adicto al trabajo y al dinero que figura en la lista negra de Santa Claus. Buddy también encuentra a una nueva madre y descubre que su hermanastro de diez años no cree en los elfos ni en Santa Claus ni en las Navidades. En realidad todo el mundo parece haber olvidado el verdadero significado de la Navidad.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iJrvkckDP7MKfimogB6lNUfQRx.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
-    "providers": [
-     "Netflix",
-     "Disney Plus",
-     "Netflix Standard with Ads"
-    ],
-    "trailer": "14o38xfHlXc"
    }
   ],
   "romance": [
@@ -4309,7 +4331,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
    "providers": [
     "Amazon Prime Video",
-    "Tivify",
     "Amazon Prime Video with Ads"
    ],
    "trailer": "iUQ8eULI_Vk",

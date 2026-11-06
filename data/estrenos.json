@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T07:00:38.876Z",
+ "actualizado": "2026-11-06T19:33:30.260Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -74,7 +74,7 @@
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
    "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 8.3,
+   "vote_average": 8,
    "genres": [
     "Ciencia ficción",
     "Terror",
@@ -108,7 +108,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.3,
+   "vote_average": 6.2,
    "genres": [
     "Terror",
     "Suspense",
@@ -156,7 +156,7 @@
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.2,
+   "vote_average": 7.3,
    "genres": [
     "Romance",
     "Drama",
@@ -190,7 +190,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.7,
+   "vote_average": 7.6,
    "genres": [
     "Romance",
     "Fantasía",
@@ -223,13 +223,13 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7.1,
+   "vote_average": 7.2,
    "genres": [
     "Animación",
     "Fantasía",
-    "Comedia",
     "Aventura",
-    "Familia"
+    "Familia",
+    "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
@@ -342,7 +342,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8.6,
+   "vote_average": 8.5,
    "genres": [
     "Comedia",
     "Crimen",
@@ -392,7 +392,7 @@
    "title": "Los rivales de Amziah King",
    "release_date": "2026-11-13",
    "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
-   "vote_average": 6.7,
+   "vote_average": 6.8,
    "genres": [
     "Crimen",
     "Drama",
