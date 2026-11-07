@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-06T19:33:48.067Z",
+ "actualizado": "2026-11-07T06:14:37.931Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -60,7 +60,7 @@
      "year": "2011",
      "release_date": "2011-11-10",
      "overview": "Enloquecido por el poder, el brutal rey Hiperión ha declarado la guerra a los hombres. Después de reunir a un ejército sediento de sangre formado por soldados que él mismo mandó desfigurar, Hiperión quema Grecia mientras busca un arma de poder inconcebible: el legendario arco Epiro, hecho por Ares en el Olimpo. El hombre que posea ese arco podrá liberar a los Titanes, que están encerrados en el monte Tártaro desde el principio de los tiempos, y claman venganza. Sin embargo, en manos de Hiperión, el arco significaría la destrucción de la raza humana y la aniquilación de los dioses. La ley prohíbe que los dioses se entrometan en los conflictos humanos, y nada pueden hacer para detener al rey. Pero la esperanza renace cuando Zeus encomienda al campesino Teseo la misión de acabar con Hiperión.",
-     "vote_average": 6,
+     "vote_average": 6.1,
      "genres": [
       "Fantasía",
       "Acción",
@@ -949,23 +949,6 @@
      "trailer": "e3U3TrLo3tQ"
     },
     {
-     "id": 928270,
-     "title": "Ola de Calor",
-     "year": "2022",
-     "release_date": "2022-01-17",
-     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
-     "vote_average": 6.2,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "providers": [],
-     "trailer": "t-yhbvVpPgI"
-    },
-    {
      "id": 95608,
      "title": "Canción de Nueva York",
      "year": "2017",
@@ -983,6 +966,23 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "MWkdM2ZGah0"
+    },
+    {
+     "id": 928270,
+     "title": "Ola de Calor",
+     "year": "2022",
+     "release_date": "2022-01-17",
+     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
+     "vote_average": 6.2,
+     "genres": [
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "providers": [],
+     "trailer": "t-yhbvVpPgI"
     },
     {
      "id": 84338,
@@ -1112,24 +1112,29 @@
      "trailer": "qTbcKBdDyBg"
     },
     {
-     "id": 311667,
-     "title": "Manhattan nocturno",
-     "year": "2016",
-     "release_date": "2016-05-20",
-     "overview": "Porter Wren es un periodista dedicado a los tabloides, pues posee un apetito insaciable por el escándalo. En casa es un marido encantador y un padre ejemplar, pero cuando conoce a una seductora desconocida que lo invita a resolver un complicado asesinato, su rutina cambia por completo. De esta forma se ve envuelto en un desagradable caso de obsesión sexual y chantaje, que acaba poniendo en peligro su puesto de trabajo, su matrimonio y su vida.",
-     "vote_average": 5.9,
+     "id": 345,
+     "title": "Eyes Wide Shut",
+     "year": "1999",
+     "release_date": "1999-07-16",
+     "overview": "William Harford es un respetable médico neoyorquino cuya vida parece ir muy bien: está casado con una preciosa mujer, tiene una hija y tiene un trabajo que le gusta. Pero, al día siguiente de asistir a una fiesta, su esposa Alice le habla de unas fantasías eróticas y de cómo estuvo a punto de romper su matrimonio por un desconocido. Abrumado por esta confesión, acaba entrando en un local, donde un antiguo compañero le habla de una congregación secreta dedicada al hedonismo y al placer sin límites. A partir de entonces un mundo dominado por el sexo y el erotismo se abre ante él.",
+     "vote_average": 7.5,
      "genres": [
       "Drama",
-      "Misterio",
-      "Suspense"
+      "Suspense",
+      "Misterio"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/8TGxxLoNr8hhm4xgpYoA51KPdVO.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1eM6CsDTwRmxgnigzz8pitLlUKJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rryoh1cEJpUE3TfioxlGJlWIgOl.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/yPRAwhPyB0njl6hnuu3LG2iP9Nb.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aC6wW62V6b0csr5iUnbOjYAqfhg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aC6wW62V6b0csr5iUnbOjYAqfhg.jpg",
      "providers": [
-      "AMC Channels Amazon Channel"
+      "Amazon Prime Video",
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "Amazon Prime Video with Ads",
+      "HBO Max Amazon Channel"
      ],
-     "trailer": "5Vah3WwkfWE"
+     "trailer": "qku0sbMkFZo"
     }
    ]
   },
@@ -1285,6 +1290,26 @@
      "trailer": "wQs35Rka34A"
     },
     {
+     "id": 11644,
+     "title": "Impacto",
+     "year": "1981",
+     "release_date": "1981-07-24",
+     "overview": "El protagonista es un ingeniero de sonido que trabaja en películas de terror baratas. Una noche, mientras graba efectos sonoros, observa cómo un coche en el que viaja una pareja cae desde un puente a un río. A pesar de sus esfuerzos, sólo consigue salvar a la chica. Cuando se entera de que el hombre muerto era un candidato a la Presidencia de la Nación, recuerda haber escuchado un disparo antes del accidente y, entonces, empieza a sospechar que fue un atentado.",
+     "vote_average": 7.3,
+     "genres": [
+      "Crimen",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/vbHo8X0Zpny7rSovAdAEJeXVRwK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
+     "providers": [
+      "MGM Plus Amazon Channel"
+     ],
+     "trailer": "dgWfyFgEsO8"
+    },
+    {
      "id": 396461,
      "title": "Lo que esconde Silver Lake",
      "year": "2018",
@@ -1306,26 +1331,6 @@
       "MUBI"
      ],
      "trailer": "U84SbxKc6W8"
-    },
-    {
-     "id": 11644,
-     "title": "Impacto",
-     "year": "1981",
-     "release_date": "1981-07-24",
-     "overview": "El protagonista es un ingeniero de sonido que trabaja en películas de terror baratas. Una noche, mientras graba efectos sonoros, observa cómo un coche en el que viaja una pareja cae desde un puente a un río. A pesar de sus esfuerzos, sólo consigue salvar a la chica. Cuando se entera de que el hombre muerto era un candidato a la Presidencia de la Nación, recuerda haber escuchado un disparo antes del accidente y, entonces, empieza a sospechar que fue un atentado.",
-     "vote_average": 7.3,
-     "genres": [
-      "Crimen",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/vbHo8X0Zpny7rSovAdAEJeXVRwK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
-     "providers": [
-      "MGM Plus Amazon Channel"
-     ],
-     "trailer": "dgWfyFgEsO8"
     },
     {
      "id": 11507,
@@ -1368,21 +1373,22 @@
      "trailer": "PRENEOHlcbw"
     },
     {
-     "id": 146015,
-     "title": "El Doble",
-     "year": "2014",
-     "release_date": "2014-04-03",
-     "overview": "Adaptación contemporánea de la novela de Dostoievski sobre un burócrata que empieza a perder la cabeza cuando un doble exacto a él aparece trabajando en su misma oficina y parece tener intenciones de suplantarle.",
-     "vote_average": 6.5,
+     "id": 11761,
+     "title": "El misterio de Peacock",
+     "year": "2010",
+     "release_date": "2010-04-20",
+     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
+     "vote_average": 6.1,
      "genres": [
-      "Suspense",
-      "Drama"
+      "Drama",
+      "Misterio",
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/7kNcpmP1Pe9fWLKEbEOX5GEWueC.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
      "providers": [],
-     "trailer": "mzw0wEcsfxE"
+     "trailer": "NPEzcAG4E5s"
     },
     {
      "id": 141,
@@ -1411,22 +1417,21 @@
      "trailer": "iVdehGAy4zA"
     },
     {
-     "id": 11761,
-     "title": "El misterio de Peacock",
-     "year": "2010",
-     "release_date": "2010-04-20",
-     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
-     "vote_average": 6.1,
+     "id": 146015,
+     "title": "El Doble",
+     "year": "2014",
+     "release_date": "2014-04-03",
+     "overview": "Adaptación contemporánea de la novela de Dostoievski sobre un burócrata que empieza a perder la cabeza cuando un doble exacto a él aparece trabajando en su misma oficina y parece tener intenciones de suplantarle.",
+     "vote_average": 6.5,
      "genres": [
-      "Drama",
-      "Misterio",
-      "Suspense"
+      "Suspense",
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/7kNcpmP1Pe9fWLKEbEOX5GEWueC.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/19B3vwsPwLzHvSAo9uxC70QEkqW.jpg",
      "providers": [],
-     "trailer": "NPEzcAG4E5s"
+     "trailer": "mzw0wEcsfxE"
     }
    ]
   },
@@ -4066,25 +4071,6 @@
     "trailer": "JMyVSD6OvO8"
    },
    {
-    "id": 40096,
-    "title": "O Auto da Compadecida",
-    "year": "2000",
-    "release_date": "2000-09-15",
-    "overview": "En el interior del estado de Paríba, en el pueblo de Taperoá, viven João Grilo y Chicó, dos tipos muy pobres que van anunciando por las calles la mejor película del mundo, 'La Pasión de Cristo'. La sesión tiene éxito y ellos ganan algo de dinero pero siguen luchando por la supervivencia. João Grilo y Chicó planean nuevas tretas para conseguir algún dinero y se enfrentan a numeroso desafíos provocando múltiples confusiones causadas por la astucia de João Grilo, siempre acompañado de Chicó.",
-    "vote_average": 8.4,
-    "genres": [
-     "Comedia",
-     "Drama",
-     "Fantasía",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/y3IhuITELtprMhUd7bccu629rba.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
-    "providers": [],
-    "trailer": "wDVdgnhiNlY"
-   },
-   {
     "id": 378064,
     "title": "A Silent Voice",
     "year": "2016",
@@ -4104,6 +4090,25 @@
      "Crunchyroll Amazon Channel"
     ],
     "trailer": "JLixtembASE"
+   },
+   {
+    "id": 40096,
+    "title": "O Auto da Compadecida",
+    "year": "2000",
+    "release_date": "2000-09-15",
+    "overview": "En el interior del estado de Paríba, en el pueblo de Taperoá, viven João Grilo y Chicó, dos tipos muy pobres que van anunciando por las calles la mejor película del mundo, 'La Pasión de Cristo'. La sesión tiene éxito y ellos ganan algo de dinero pero siguen luchando por la supervivencia. João Grilo y Chicó planean nuevas tretas para conseguir algún dinero y se enfrentan a numeroso desafíos provocando múltiples confusiones causadas por la astucia de João Grilo, siempre acompañado de Chicó.",
+    "vote_average": 8.4,
+    "genres": [
+     "Comedia",
+     "Drama",
+     "Fantasía",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/y3IhuITELtprMhUd7bccu629rba.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+    "providers": [],
+    "trailer": "wDVdgnhiNlY"
    },
    {
     "id": 696374,
