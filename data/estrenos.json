@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T06:14:22.598Z",
+ "actualizado": "2026-11-07T13:21:36.787Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -74,7 +74,7 @@
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 7.1,
+   "vote_average": 7.5,
    "genres": [
     "Fantasía",
     "Acción",
@@ -91,7 +91,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.1,
+   "vote_average": 6.2,
    "genres": [
     "Terror",
     "Suspense",
@@ -156,7 +156,7 @@
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.3,
+   "vote_average": 7.2,
    "genres": [
     "Romance",
     "Drama",
@@ -185,7 +185,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
-   "fondo": "https://image.tmdb.org/t/p/original/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg"
   },
   {
    "id": 1284046,
@@ -320,21 +320,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
-   "id": 950028,
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
-   "vote_average": 7.2,
+   "id": 1564614,
+   "title": "Leviticus",
+   "release_date": "2026-10-30",
+   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
+   "vote_average": 6.8,
    "genres": [
-    "Comedia",
-    "Drama",
+    "Terror",
     "Romance"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/tGS5jugRsn7KwZLrvkqWeMtR7nB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
    "providers": [],
-   "trailer": "nelkiuezJxg",
-   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
+   "trailer": "WXuK0vlFxII",
+   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
   }
  ],
  "upcoming": [

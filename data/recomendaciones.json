@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T06:14:37.931Z",
+ "actualizado": "2026-11-07T13:22:07.078Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -73,6 +73,24 @@
      "trailer": "pE3yR8bZ1pY"
     },
     {
+     "id": 9610,
+     "title": "Conan, el destructor",
+     "year": "1984",
+     "release_date": "1984-06-29",
+     "overview": "La poderosa Reina Taramis promete a Conan hacer volver a su amada del reino de la muerte, pero le impone una condición: debe traerle un legendario cuerno incrustado de piedras preciosas y una bella y joven princesa. Lo que Conan ignora es que la Reina quiere utilizar el cuerno para despertar al durmiente dios Dagoth y sacrificarle a la joven princesa. Enfrentado con enemigos mortales y sobrenaturales, Conan debe convocar a las fuerzas del Bien para derrotar a Taramis e incluso al mismísimo dios Dagoth.",
+     "vote_average": 6.1,
+     "genres": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/7vwtQwywduJfG50SrxlhalpXsUx.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
+     "providers": [],
+     "trailer": "lpUb4tBnWPA"
+    },
+    {
      "id": 631939,
      "title": "The Legion",
      "year": "2020",
@@ -89,6 +107,24 @@
      "fondo": "https://image.tmdb.org/t/p/original/9NlswPRK5Kap6KVr59Feah9EBLP.jpg",
      "providers": [],
      "trailer": "uDp1pBwrqKE"
+    },
+    {
+     "id": 388191,
+     "title": "Mythica 4: La corona de hierro",
+     "year": "2016",
+     "release_date": "2016-05-14",
+     "overview": "Cuando el equipo de héroes secuestra un carro de combate a vapor, la joven maga Marek consigue robar la pieza final de la todopoderosa Darkspore y se embarca en una carrera desesperada para entregar el artefacto maldito bajo la custodia de los dioses. Durante su huida se ven atrapados en entre un equipo de implacables mercenarios de élite y una trinidad de los demonios, en ese momento, Marek debe aprender a creer en sí misma antes de que sus amigos esten muertos y la Darkspore se pierda, y evitar que el nigromante mal (Szorlok) se unan a la Darkspore e inunde el mundo de los vivos con sus legiones de muertos vivientes.",
+     "vote_average": 5.9,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/8y3G8g7E7SXZ74XDt6gaxyfELse.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/csGtdiy96oNLLh2rcXzj77ZWL91.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/csGtdiy96oNLLh2rcXzj77ZWL91.jpg",
+     "providers": [],
+     "trailer": "2uU_EoIj3tw"
     },
     {
      "id": 184315,
@@ -108,6 +144,24 @@
       "MGM Plus Amazon Channel"
      ],
      "trailer": "M0w2jr3ftHU"
+    },
+    {
+     "id": 322484,
+     "title": "Game of Thrones The IMAX Experience",
+     "year": "2015",
+     "release_date": "2015-01-29",
+     "overview": "El primer episodio de esta proyección IMAX se lleva a cabo íntegramente en The Wall with the Night's Watch, superando irremediablemente en número a medida que intentan defender Castle Black de Wildings y presenta una de las escenas de batalla más feroces e intensas jamás filmadas para televisión. El segundo episodio, que también es el final de temporada, presenta a Dany enfrentando las realidades de gobernar un reino, Bran aprendiendo la sorprendente realidad de su destino y Tyrion enfrentando la verdad de su desafortunada situación.",
+     "vote_average": 8.6,
+     "genres": [
+      "Drama",
+      "Fantasía",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/f2FAIM29opSocIEvNvT7Muinga0.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
+     "providers": [],
+     "trailer": "qWb6opYnPTo"
     },
     {
      "id": 324544,
@@ -130,86 +184,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "CMyrp5Vk3mU"
-    },
-    {
-     "id": 322484,
-     "title": "Game of Thrones The IMAX Experience",
-     "year": "2015",
-     "release_date": "2015-01-29",
-     "overview": "El primer episodio de esta proyección IMAX se lleva a cabo íntegramente en The Wall with the Night's Watch, superando irremediablemente en número a medida que intentan defender Castle Black de Wildings y presenta una de las escenas de batalla más feroces e intensas jamás filmadas para televisión. El segundo episodio, que también es el final de temporada, presenta a Dany enfrentando las realidades de gobernar un reino, Bran aprendiendo la sorprendente realidad de su destino y Tyrion enfrentando la verdad de su desafortunada situación.",
-     "vote_average": 8.6,
-     "genres": [
-      "Drama",
-      "Fantasía",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/f2FAIM29opSocIEvNvT7Muinga0.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
-     "providers": [],
-     "trailer": "qWb6opYnPTo"
-    },
-    {
-     "id": 1911,
-     "title": "El guerrero nº 13",
-     "year": "1999",
-     "release_date": "1999-08-13",
-     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
-     "vote_average": 6.7,
-     "genres": [
-      "Aventura",
-      "Historia",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "providers": [
-      "Disney Plus",
-      "Tivify"
-     ],
-     "trailer": "RikXt796p2o"
-    },
-    {
-     "id": 639933,
-     "title": "El hombre del norte",
-     "year": "2022",
-     "release_date": "2022-04-07",
-     "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
-     "vote_average": 7,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Fantasía"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
-     "providers": [
-      "Tivify"
-     ],
-     "trailer": "7HZ4tBQEiB0"
-    },
-    {
-     "id": 1253000,
-     "title": "Deathstalker",
-     "year": "2025",
-     "release_date": "2025-10-10",
-     "overview": "El reino de Abraxeon está siendo asediado por los Dreadites, heraldos del hechicero Nekromemnon, muerto hace mucho tiempo. Cuando Deathstalker recupera un amuleto maldito de un campo de batalla sembrado de cadáveres, queda marcado por la magia negra y es perseguido por monstruosos asesinos de todo tipo. Para sobrevivir, debe romper la maldición y enfrentarse al mal naciente.",
-     "vote_average": 5.9,
-     "genres": [
-      "Fantasía",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/nEI3DnzQC1afAjJOAizx6UX27pL.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/7aiQebqYUHbs2wZPhsTznuMWyeH.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/bNrQfC0Ovf84zmJZ48Q2jhDNNwu.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "fAdo8drjc_M"
     },
     {
      "id": 340442,
@@ -235,26 +209,66 @@
      "trailer": "MQZ7_Uo0OI0"
     },
     {
-     "id": 11828,
-     "title": "Erik el vikingo",
-     "year": "1989",
-     "release_date": "1989-09-01",
-     "overview": "Erik el Vikingo (Tim Robbins) está cansado de los saqueos, las violaciones y de los cielos grises. Decide entonces reunir guerreros de su pueblo y todos embarcan en un viaje peligroso a Valhalla, para pedir los dioses que acaben con la Edad de Ragnorok y que dejen a su gente ver la luz del sol otra vez. Del director de las comedias del grupo Monty Python.",
-     "vote_average": 5.9,
+     "id": 1911,
+     "title": "El guerrero nº 13",
+     "year": "1999",
+     "release_date": "1999-08-13",
+     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
+     "vote_average": 6.7,
      "genres": [
       "Aventura",
-      "Fantasía",
-      "Comedia"
+      "Historia",
+      "Acción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/b0zQNIlFN50VjW7t8AmkG14jtXa.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rZlMfuYPGxtyxOUzNLLF4iyM0lF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDtReYSFYUgWnAapK1InZLcOXLc.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "providers": [
+      "Disney Plus",
+      "Tivify"
+     ],
+     "trailer": "RikXt796p2o"
+    },
+    {
+     "id": 1253000,
+     "title": "Deathstalker",
+     "year": "2025",
+     "release_date": "2025-10-10",
+     "overview": "El reino de Abraxeon está siendo asediado por los Dreadites, heraldos del hechicero Nekromemnon, muerto hace mucho tiempo. Cuando Deathstalker recupera un amuleto maldito de un campo de batalla sembrado de cadáveres, queda marcado por la magia negra y es perseguido por monstruosos asesinos de todo tipo. Para sobrevivir, debe romper la maldición y enfrentarse al mal naciente.",
+     "vote_average": 5.9,
+     "genres": [
+      "Fantasía",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/nEI3DnzQC1afAjJOAizx6UX27pL.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/7aiQebqYUHbs2wZPhsTznuMWyeH.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bNrQfC0Ovf84zmJZ48Q2jhDNNwu.jpg",
      "providers": [
       "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin"
+      "Movistar Plus+ Ficción Total "
      ],
-     "trailer": "Gdq8u9lTdlA"
+     "trailer": "fAdo8drjc_M"
+    },
+    {
+     "id": 639933,
+     "title": "El hombre del norte",
+     "year": "2022",
+     "release_date": "2022-04-07",
+     "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
+     "vote_average": 7,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+     "providers": [
+      "Tivify"
+     ],
+     "trailer": "7HZ4tBQEiB0"
     },
     {
      "id": 11527,
@@ -275,26 +289,6 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "vw8oPabVbeY"
-    },
-    {
-     "id": 71282,
-     "title": "Los mares de China",
-     "year": "1935",
-     "release_date": "1935-08-09",
-     "overview": "Alan Gaskell (Clark Gable) es el capitán de un barco experto en cruzar los mares de China. Es un hombre experimentado, fuerte y aguerrido, al parecer de vuelta de todo. En cierta ocasión, el barco debe transportar un importante cargamento de oro desde Hong Kong hasta Singapur. Gaskell teme algo más peligroso que un tifón; el ataque, frecuente en la zona, de los piratas para hacerse con el botín.",
-     "vote_average": 6.3,
-     "genres": [
-      "Aventura",
-      "Acción",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/r2Lv8HMq6zhHEKYl2ymbAJnDoaq.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/5Dt59bozPx5H5afRUmkkPiCcdUD.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/bixZ4bg50kwXOsDsw4a5zwTq74h.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "vCMdNkT5KVM"
     }
    ]
   },
@@ -369,29 +363,6 @@
       "Disney Plus"
      ],
      "trailer": "G4ZV8qfskfA"
-    },
-    {
-     "id": 580489,
-     "title": "Venom: habrá matanza",
-     "year": "2021",
-     "release_date": "2021-09-30",
-     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
-     "vote_average": 6.7,
-     "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Disney Plus",
-      "Tivify",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "hbfadtw-fjs"
     },
     {
      "id": 271110,
@@ -600,6 +571,29 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
+    },
+    {
+     "id": 1452,
+     "title": "Superman Returns",
+     "year": "2006",
+     "release_date": "2006-06-28",
+     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
+     "vote_average": 5.8,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -704,25 +698,6 @@
      "trailer": "UdBBjFQYzwA"
     },
     {
-     "id": 430446,
-     "title": "Come Sunday",
-     "year": "2018",
-     "release_date": "2018-01-21",
-     "overview": "El evangelista Carlton Pearson es expulsado de su iglesia por predicar que no existe el infierno. Su revelación crea controversia y lo pierde todo. Poco a poco tendrá que reconstruir su vida y encontrar su propia fe.",
-     "vote_average": 5.8,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/oucoXiLsc07YryywgjddmU3YoDV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "pVQFWvm_fbU"
-    },
-    {
      "id": 29989,
      "title": "Skin",
      "year": "2009",
@@ -739,6 +714,22 @@
       "Filmin"
      ],
      "trailer": "wbj691Z1Z1E"
+    },
+    {
+     "id": 467433,
+     "title": "Una cuestión de fe",
+     "year": "2017",
+     "release_date": "2017-09-29",
+     "overview": "Cuando la tragedia golpea a tres familias, su destino les obliga a descubrir el amor, la gracia y la compasión de Dios, pues los desafíos del destino pueden hacer que renazcan sus creencias.",
+     "vote_average": 7.5,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/iWAANrMSUsPyEcy9MHcRCyikN4Q.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "providers": [],
+     "trailer": "QzNuMWxPo80"
     },
     {
      "id": 1243381,
@@ -762,6 +753,41 @@
      "trailer": "CvP0RWCsr18"
     },
     {
+     "id": 430446,
+     "title": "Come Sunday",
+     "year": "2018",
+     "release_date": "2018-01-21",
+     "overview": "El evangelista Carlton Pearson es expulsado de su iglesia por predicar que no existe el infierno. Su revelación crea controversia y lo pierde todo. Poco a poco tendrá que reconstruir su vida y encontrar su propia fe.",
+     "vote_average": 5.8,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oucoXiLsc07YryywgjddmU3YoDV.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "pVQFWvm_fbU"
+    },
+    {
+     "id": 550958,
+     "title": "Holy Lands",
+     "year": "2019",
+     "release_date": "2019-01-16",
+     "overview": "Cuando el judío fallecido y ex cardiólogo Harry (James Caan) repentinamente decide pasar su retiro como criador de cerdos en Nazaret, Israel, la mudanza conmociona profundamente a su familia y a sus nuevos vecinos. De vuelta en Nueva York, la ex esposa de Harry, Monica (Rosanna Arquette), está tratando de manejar las vidas de sus hijos adultos, Annabelle y David (Jonathan Rhys Meyers), así como la suya propia.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/qcRIVBS5pGDV2ZeKJZtVDQsgCxm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/6C9bSOkU7Z98xId5FASROjD1s61.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/etEASqqTlkBeI3HDNNq1utVK5xy.jpg",
+     "providers": [],
+     "trailer": ""
+    },
+    {
      "id": 44655,
      "title": "Susana la perversa",
      "year": "1951",
@@ -778,36 +804,20 @@
      "trailer": "b3aPdGKS8ko"
     },
     {
-     "id": 467433,
-     "title": "Una cuestión de fe",
-     "year": "2017",
-     "release_date": "2017-09-29",
-     "overview": "Cuando la tragedia golpea a tres familias, su destino les obliga a descubrir el amor, la gracia y la compasión de Dios, pues los desafíos del destino pueden hacer que renazcan sus creencias.",
-     "vote_average": 7.5,
+     "id": 29697,
+     "title": "Confianza en la cosecha",
+     "year": "2006",
+     "release_date": "2006-10-27",
+     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
+     "vote_average": 7.4,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/iWAANrMSUsPyEcy9MHcRCyikN4Q.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
      "providers": [],
-     "trailer": "QzNuMWxPo80"
-    },
-    {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
-     "providers": [],
-     "trailer": "YuMBAq-ROh4"
+     "trailer": "JxTFqsy5Pxs"
     },
     {
      "id": 88875,
@@ -826,39 +836,20 @@
      "trailer": "9U7z35zbxPk"
     },
     {
-     "id": 499338,
-     "title": "I Believe",
-     "year": "2019",
-     "release_date": "2019-06-06",
-     "overview": "Un niño de 9 años experimenta el poder de Dios de una manera sobrenatural.",
-     "vote_average": 7.8,
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
      "genres": [
-      "Familia",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/lFeTYNVI1PYQqKj4FusJMplqd07.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/5Tw3Z9vcu1Hwo1CijEPineKPkFO.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/43aCQFMAZWt3AjzM30dcHiAW5p.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
      "providers": [],
-     "trailer": "amVlQozDJkI"
-    },
-    {
-     "id": 38557,
-     "title": "Cuando el río crece",
-     "year": "1984",
-     "release_date": "1984-12-01",
-     "overview": "Tom y Mae Garvey se niegan a vender su granja a pesar de las presiones de las autoridades locales que pretenden inundar los terrenos que están a orillas del río. El encargado de presionar a los Garvey resulta ser John Wade, un antiguo pretendiente de Mae. La tensión desencadena un enfrentamiento en las riberas del río en plena crecida.",
-     "vote_average": 6.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/tJdgFpNUN1If0zYjFCLjUvmPJPo.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
-     "providers": [
-      "Tivify"
-     ],
-     "trailer": "2fzExjAHQ2Q"
+     "trailer": "YuMBAq-ROh4"
     }
    ]
   },
@@ -1484,26 +1475,6 @@
      "trailer": "uTn6pHKVpNc"
     },
     {
-     "id": 613092,
-     "title": "El crack cero",
-     "year": "2019",
-     "release_date": "2019-10-04",
-     "overview": "Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/kzgPu2CMxBr4YZZxC1Off4cUfR9.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "nYcq_Dy-EWw"
-    },
-    {
      "id": 438396,
      "title": "Orígenes secretos",
      "year": "2020",
@@ -1522,68 +1493,6 @@
       "Netflix Standard with Ads"
      ],
      "trailer": "VLubyNpveEs"
-    },
-    {
-     "id": 1215185,
-     "title": "La infiltrada",
-     "year": "2024",
-     "release_date": "2024-10-11",
-     "overview": "País Vasco, España, finales de los años noventa. Una joven policía consigue infiltrarse en la despiadada banda terrorista ETA.",
-     "vote_average": 7.1,
-     "genres": [
-      "Drama",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xnME9c2PEtYGBDPO4lZXAVeEu0G.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/q6eSjGQVt97jClKgub0EXGiJ7EB.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "HBO Max Amazon Channel"
-     ],
-     "trailer": "7fEmGjV0LXc"
-    },
-    {
-     "id": 46041,
-     "title": "Conspiración en Berlín",
-     "year": "1966",
-     "release_date": "1966-11-10",
-     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Drama",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "FlixOlé",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "yakSWyVSNUs"
-    },
-    {
-     "id": 32080,
-     "title": "Los Implacables, Patrulla Especial",
-     "year": "1973",
-     "release_date": "1973-12-14",
-     "overview": "En Nueva York, para reforzar la lucha contra la mafia y los gángters, se ha creado un grupo especial de la Policía, formado por siete hombres, con total independencia y amparados en su anonimato. Son los \"seven-ups\", un grupo de élite que pronto se demuestra muy eficaz contra el crimen... El director Phillip D'Antoni -que no dirigió luego más películas- había sido el productor de éxitos similares anteriores como \"Bullitt\" (1968) and \"French Connection\"",
-     "vote_average": 6.3,
-     "genres": [
-      "Suspense",
-      "Crimen",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/7p8s3a1jdNfYeNFHj6z7p079iqf.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
-     "providers": [],
-     "trailer": "JVmcBXVy8Og"
     },
     {
      "id": 35404,
@@ -1608,25 +1517,62 @@
      "trailer": "vrFXARH__0E"
     },
     {
-     "id": 28663,
-     "title": "La fugitiva",
-     "year": "1950",
-     "release_date": "1950-11-10",
-     "overview": "Frank Johnson (Ross Elliott) es testigo de un asesinato mientras pasea una noche a su perro. El inspector Ferris (Robert Keith) le pide que declare ante el gran jurado, pero Frank decide huir. Su mujer, Eleanor (Ann Sheridan), que además piensa que en realidad huye de un matrimonio fracasado, obtiene la ayuda de un periodista, Danny Leggett (Dennis O'Keefe), para localizar a su marido. Pero ellos no son los únicos que le están buscando...",
-     "vote_average": 6.8,
+     "id": 1215185,
+     "title": "La infiltrada",
+     "year": "2024",
+     "release_date": "2024-10-11",
+     "overview": "País Vasco, España, finales de los años noventa. Una joven policía consigue infiltrarse en la despiadada banda terrorista ETA.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xnME9c2PEtYGBDPO4lZXAVeEu0G.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/q6eSjGQVt97jClKgub0EXGiJ7EB.jpg",
+     "providers": [
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "HBO Max Amazon Channel"
+     ],
+     "trailer": "7fEmGjV0LXc"
+    },
+    {
+     "id": 32080,
+     "title": "Los Implacables, Patrulla Especial",
+     "year": "1973",
+     "release_date": "1973-12-14",
+     "overview": "En Nueva York, para reforzar la lucha contra la mafia y los gángters, se ha creado un grupo especial de la Policía, formado por siete hombres, con total independencia y amparados en su anonimato. Son los \"seven-ups\", un grupo de élite que pronto se demuestra muy eficaz contra el crimen... El director Phillip D'Antoni -que no dirigió luego más películas- había sido el productor de éxitos similares anteriores como \"Bullitt\" (1968) and \"French Connection\"",
+     "vote_average": 6.3,
      "genres": [
       "Suspense",
       "Crimen",
       "Misterio"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/6wp0FpyQvYVphtUSvANiCarawop.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
+     "poster": "https://image.tmdb.org/t/p/w342/7p8s3a1jdNfYeNFHj6z7p079iqf.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "providers": [],
+     "trailer": "JVmcBXVy8Og"
+    },
+    {
+     "id": 401545,
+     "title": "Todos lo saben",
+     "year": "2018",
+     "release_date": "2018-05-09",
+     "overview": "Laura viaja con su familia desde Buenos Aires a su pueblo natal, en España, para asistir a la boda de su hermana. Lo que iba a ser una breve visita familiar se verá trastocada por unos acontecimientos imprevistos, que sacudirán las vidas de los implicados.",
+     "vote_average": 6.5,
+     "genres": [
+      "Crimen",
+      "Misterio",
+      "Suspense"
      ],
-     "trailer": "3Uck_n3b7gc"
+     "poster": "https://image.tmdb.org/t/p/w342/xU7wchhbqfKwMR7y9EthYe7n0Gr.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/gJqQxpe03aIRZZjy8A4nbLtBpch.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/gJqQxpe03aIRZZjy8A4nbLtBpch.jpg",
+     "providers": [],
+     "trailer": "h9j_lraq8ko"
     },
     {
      "id": 1464374,
@@ -1649,22 +1595,47 @@
      "trailer": "xzSlunZIfPA"
     },
     {
-     "id": 1128547,
-     "title": "Islands",
-     "year": "2025",
-     "release_date": "2025-05-08",
-     "overview": "Tom es entrenador de tenis en un lujoso hotel de la isla de Fuerteventura y llena el tiempo entre clases con alcohol y aventuras de una noche. La llegada de la familia Maguire saca a Tom de su rutina habitual, entabla una relación con Anne, su marido Dave y su hijo Anton. Tom no puede quitarse la sensación de que ya conoce a Anne de antes, y esta tensión crece entre ellos hasta que una noche Dave desaparece y la investigación policial señala a Anne y a Tom como sospechosos.",
-     "vote_average": 6.1,
+     "id": 46041,
+     "title": "Conspiración en Berlín",
+     "year": "1966",
+     "release_date": "1966-11-10",
+     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
+     "vote_average": 5.9,
      "genres": [
       "Suspense",
       "Drama",
       "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/eLrpRK07s6muaFFi5cFZi20hFTF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
-     "providers": [],
-     "trailer": "MifpmLyraBE"
+     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "FlixOlé",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "yakSWyVSNUs"
+    },
+    {
+     "id": 28663,
+     "title": "La fugitiva",
+     "year": "1950",
+     "release_date": "1950-11-10",
+     "overview": "Frank Johnson (Ross Elliott) es testigo de un asesinato mientras pasea una noche a su perro. El inspector Ferris (Robert Keith) le pide que declare ante el gran jurado, pero Frank decide huir. Su mujer, Eleanor (Ann Sheridan), que además piensa que en realidad huye de un matrimonio fracasado, obtiene la ayuda de un periodista, Danny Leggett (Dennis O'Keefe), para localizar a su marido. Pero ellos no son los únicos que le están buscando...",
+     "vote_average": 6.8,
+     "genres": [
+      "Suspense",
+      "Crimen",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6wp0FpyQvYVphtUSvANiCarawop.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "3Uck_n3b7gc"
     },
     {
      "id": 38751,
@@ -1686,44 +1657,63 @@
      "trailer": "hxcLsOJFjUQ"
     },
     {
-     "id": 20362,
-     "title": "Una vida marcada",
-     "year": "1948",
-     "release_date": "1948-09-29",
-     "overview": "Un astuto y peligroso delincuente que ha matado a un policía es perseguido por un teniente de homicidios que fue su compañero de juegos durante la infancia, cuando ambos vivían en el barrio italiano (Little Italy) de Nueva York.",
-     "vote_average": 6.7,
+     "id": 1128547,
+     "title": "Islands",
+     "year": "2025",
+     "release_date": "2025-05-08",
+     "overview": "Tom es entrenador de tenis en un lujoso hotel de la isla de Fuerteventura y llena el tiempo entre clases con alcohol y aventuras de una noche. La llegada de la familia Maguire saca a Tom de su rutina habitual, entabla una relación con Anne, su marido Dave y su hijo Anton. Tom no puede quitarse la sensación de que ya conoce a Anne de antes, y esta tensión crece entre ellos hasta que una noche Dave desaparece y la investigación policial señala a Anne y a Tom como sospechosos.",
+     "vote_average": 6.1,
      "genres": [
-      "Crimen",
-      "Drama"
+      "Suspense",
+      "Drama",
+      "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/esgbW90eHtdRTdmBYgvwCt7nHAM.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lRBd0Fa0eRtOHZssIuNHehqM3V1.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lRBd0Fa0eRtOHZssIuNHehqM3V1.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/eLrpRK07s6muaFFi5cFZi20hFTF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
+     "providers": [],
+     "trailer": "MifpmLyraBE"
+    },
+    {
+     "id": 49334,
+     "title": "Me hicieron un fugitivo",
+     "year": "1947",
+     "release_date": "1947-06-27",
+     "overview": "Morgan se une a una banda dirigida por Narcy. En su primer encargo, huye de un accidente de coche después de matar a un policía. Pero acaba siendo reconocido como el conductor y es enviado a la cárcel. Buscando venganza se escapa y se dirige a Londres. En el camino lo ayuda una mujer (Sra. Fenshaw), que le encarga el asesinato de su marido...",
+     "vote_average": 6.6,
+     "genres": [
+      "Drama",
+      "Suspense",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/8B0F3y6WllFrfR0HiRCjrcIEc4o.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/s4Bcy370GvLHzkwSXZY76arZI97.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/s4Bcy370GvLHzkwSXZY76arZI97.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": ""
+    },
+    {
+     "id": 44902,
+     "title": "Pasos en la niebla",
+     "year": "1955",
+     "release_date": "1955-09-14",
+     "overview": "Inglaterra Victoriana, siglo XIX. Una chica bastante ambiciosa (Jean Simmons) trabaja como sirvienta en la sombría mansión de un inquietante aristócrata (Stewart Granger). Cuando la mujer de éste muere, la criada empieza a sospechar del señor y acaba chantajeándolo, a pesar de que con su actitud está corriendo un grave peligro.",
+     "vote_average": 7,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/2SuqVGEaRNitBjpSsXhIY2s8SPw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/in7cgT30mjG10Fnt18QleQhMZtW.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6ymykmdK2z04a8bD3jLmT4ZpjKv.jpg",
      "providers": [
       "Filmin"
      ],
-     "trailer": "q8YJMqT977k"
-    },
-    {
-     "id": 16056,
-     "title": "Fragmentos",
-     "year": "2009",
-     "release_date": "2009-07-08",
-     "overview": "En una cafetería de Los Ángeles se produce un tiroteo en el que sobreviven varias personas, ninguna se conoce entre sí. Tras el suceso, se crea un vínculo entre todos ellos que cambiará por completo la vida que llevaban hasta ese extraño día.",
-     "vote_average": 5.9,
-     "genres": [
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/8Vhj70ttOb3BlDNvvSo6hzaAdtF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eW81T3E28s40VFW8AgAJPCZqE2X.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/eW81T3E28s40VFW8AgAJPCZqE2X.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "s3qaqXwwGhs"
+     "trailer": "kceqv4Yu1sU"
     }
    ]
   }
@@ -1899,7 +1889,7 @@
      "year": "2009",
      "release_date": "2009-02-05",
      "overview": "Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa aventura empieza a tomar un cariz peligroso, su otra madre intenta mantenerla a su lado para siempre. Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.",
-     "vote_average": 7.9,
+     "vote_average": 8,
      "genres": [
       "Animación",
       "Familia",
@@ -2282,7 +2272,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
      "providers": [
       "Filmin",
-      "Tivify",
       "MGM Plus Amazon Channel"
      ],
      "trailer": "5SKgu_gXPQ4"
