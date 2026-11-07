@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T13:22:07.078Z",
+ "actualizado": "2026-11-07T22:00:50.154Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -50,7 +50,8 @@
      "providers": [
       "Disney Plus",
       "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
+      "Movistar Plus+ Ficción Total ",
+      "Tivify"
      ],
      "trailer": "mwLBes2Gr8E"
     },
@@ -1771,7 +1772,7 @@
       "Acción",
       "Ciencia ficción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/xGgRmpAVe1jmkZp5Z3SS4cKeMvp.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "providers": [
@@ -1839,7 +1840,8 @@
      "fondo": "https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
      "providers": [
       "Disney Plus",
-      "Movistar Plus+ Ficción Total "
+      "Movistar Plus+ Ficción Total ",
+      "Tivify"
      ],
      "trailer": "D3oC17nILkw"
     },
@@ -1991,25 +1993,24 @@
      "trailer": "pwLKIcB0zDw"
     },
     {
-     "id": 1304313,
-     "title": "La momia de Lee Cronin",
-     "year": "2026",
-     "release_date": "2026-04-15",
-     "overview": "Nueva versión del clásico 'La momia'. La joven hija de un periodista desaparece en el desierto sin dejar rastro. Ocho años más tarde, la familia rota se conmociona cuando ella es devuelta a ellos, y lo que debiera haber sido una reunión jubilosa se convierte en una auténtica pesadilla.",
+     "id": 49797,
+     "title": "Encontré al diablo",
+     "year": "2010",
+     "release_date": "2010-08-12",
+     "overview": "Kyung-chul es un psicópata peligroso que mata por placer y que ha cometido varios asesinatos con unos métodos diabólicos difíciles de imaginar. Sus víctimas son chicas jóvenes. La policía lleva tiempo intentando capturarlo. Un día, aparece asesinada la hija de un jefe de policía retirado. El novio de la chica, un agente secreto, jura vengarse.",
      "vote_average": 7.8,
      "genres": [
-      "Terror",
-      "Misterio"
+      "Suspense",
+      "Terror"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/btXGqRlctQdbML6ifPmacZuykcC.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/xugEpZk9YQ0DIz1aFvH5HGkqpZK.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/iTWdP2PIepE4pFSzZHCJnRo3JAD.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/dXDFWWxiEb6tg4ojMWQJrSI0Tun.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/dXDFWWxiEb6tg4ojMWQJrSI0Tun.jpg",
      "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "HBO Max Amazon Channel"
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total "
      ],
-     "trailer": "o7UFmdCgDEc"
+     "trailer": "xwWgp1bqVwE"
     }
    ]
   },
@@ -2533,26 +2534,6 @@
      "trailer": "Zd8Jw1Z_j4w"
     },
     {
-     "id": 299534,
-     "title": "Vengadores: Endgame",
-     "year": "2019",
-     "release_date": "2019-04-24",
-     "overview": "Tras el chasquido de Thanos que eliminó a la mitad de la vida en el universo, los Vengadores supervivientes quedan devastados y divididos. Cinco años después, una inesperada oportunidad les permite intentar revertir la catástrofe. Reuniéndose una vez más, los héroes emprenden una misión extrema que los obliga a viajar al pasado, enfrentarse a sus propias pérdidas y hacer sacrificios definitivos para restaurar el equilibrio del universo.",
-     "vote_average": 8.2,
-     "genres": [
-      "Aventura",
-      "Ciencia ficción",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "Ib847Q7C9AU"
-    },
-    {
      "id": 299536,
      "title": "Vengadores: Infinity War",
      "year": "2018",
@@ -2571,6 +2552,26 @@
       "Disney Plus"
      ],
      "trailer": "-f5PwE_Q8Fs"
+    },
+    {
+     "id": 299534,
+     "title": "Vengadores: Endgame",
+     "year": "2019",
+     "release_date": "2019-04-24",
+     "overview": "Tras el chasquido de Thanos que eliminó a la mitad de la vida en el universo, los Vengadores supervivientes quedan devastados y divididos. Cinco años después, una inesperada oportunidad les permite intentar revertir la catástrofe. Reuniéndose una vez más, los héroes emprenden una misión extrema que los obliga a viajar al pasado, enfrentarse a sus propias pérdidas y hacer sacrificios definitivos para restaurar el equilibrio del universo.",
+     "vote_average": 8.2,
+     "genres": [
+      "Aventura",
+      "Ciencia ficción",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+     "providers": [
+      "Disney Plus"
+     ],
+     "trailer": "Ib847Q7C9AU"
     },
     {
      "id": 283566,
@@ -2627,7 +2628,7 @@
       "Acción",
       "Ciencia ficción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/bWzwORubAQ40nvzsTZidle19Dbm.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/xGgRmpAVe1jmkZp5Z3SS4cKeMvp.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
      "providers": [
@@ -3179,27 +3180,6 @@
      "trailer": "NNznUyDmSFc"
     },
     {
-     "id": 820067,
-     "title": "Las Quintillizas: La Película",
-     "year": "2022",
-     "release_date": "2022-05-20",
-     "overview": "Como tutor a tiempo parcial, a Fuutarou se le asigna la tarea de guiar a las cinco hermosas chicas, que están “a punto de suspender” y “odian los estudios”, hasta la “graduación”. Fuutarou se esfuerza por preparar el festival escolar mientras vigila los estudios de Ichika, que ha decidido tomarse una licencia para concentrarse en la actuación, y Yotsuba está aún más decidida que de costumbre a que sea un festival escolar sin remordimientos.  Fuutarou se siente animado por la decisión de Itsuki de no rendirse, y busca respuestas a los sentimientos de Nino, la determinación de Miku y sus sentimientos por Ichika, Yotsuba e Itsuki. Con cada uno de ellos con sus propios pensamientos y sentimientos, el primer día del festival escolar, el último evento de su vida en el instituto, finalmente comenzó. “Ven al salón de clases a las 15:00, el primer día del festival escolar”. Las quintillizas se reúnen en el aula y Fuutarou finalmente les informa que tomará una decisión…",
-     "vote_average": 8.3,
-     "genres": [
-      "Animación",
-      "Comedia",
-      "Romance"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6QsExD8uP3vLk64yLnxD8MSS4A6.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
-     "providers": [
-      "Crunchyroll",
-      "Crunchyroll Amazon Channel"
-     ],
-     "trailer": "AYxCeeA3LaI"
-    },
-    {
      "id": 614945,
      "title": "Mensajes de voz para Isabelle",
      "year": "2026",
@@ -3258,6 +3238,27 @@
       "Filmin"
      ],
      "trailer": "GFaFeuPep5w"
+    },
+    {
+     "id": 820067,
+     "title": "Las Quintillizas: La Película",
+     "year": "2022",
+     "release_date": "2022-05-20",
+     "overview": "Como tutor a tiempo parcial, a Fuutarou se le asigna la tarea de guiar a las cinco hermosas chicas, que están “a punto de suspender” y “odian los estudios”, hasta la “graduación”. Fuutarou se esfuerza por preparar el festival escolar mientras vigila los estudios de Ichika, que ha decidido tomarse una licencia para concentrarse en la actuación, y Yotsuba está aún más decidida que de costumbre a que sea un festival escolar sin remordimientos.  Fuutarou se siente animado por la decisión de Itsuki de no rendirse, y busca respuestas a los sentimientos de Nino, la determinación de Miku y sus sentimientos por Ichika, Yotsuba e Itsuki. Con cada uno de ellos con sus propios pensamientos y sentimientos, el primer día del festival escolar, el último evento de su vida en el instituto, finalmente comenzó. “Ven al salón de clases a las 15:00, el primer día del festival escolar”. Las quintillizas se reúnen en el aula y Fuutarou finalmente les informa que tomará una decisión…",
+     "vote_average": 8.3,
+     "genres": [
+      "Animación",
+      "Comedia",
+      "Romance"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6QsExD8uP3vLk64yLnxD8MSS4A6.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/gcgKSyE2iqwfKWMDZ8TJPxeIu0P.jpg",
+     "providers": [
+      "Crunchyroll",
+      "Crunchyroll Amazon Channel"
+     ],
+     "trailer": "AYxCeeA3LaI"
     }
    ]
   },
@@ -3597,26 +3598,6 @@
     "trailer": "IoYahD_xNR0"
    },
    {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.7,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
-   },
-   {
     "id": 772,
     "title": "Solo en casa 2: Perdido en Nueva York",
     "year": "1992",
@@ -3635,6 +3616,27 @@
      "Disney Plus"
     ],
     "trailer": "VfBCYaGu7Ts"
+   },
+   {
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.7,
+    "genres": [
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Tivify",
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
+    ],
+    "trailer": "Y2u6m2W428g"
    },
    {
     "id": 331482,
@@ -3656,6 +3658,31 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "6SN9-6uST80"
+   },
+   {
+    "id": 8871,
+    "title": "El Grinch",
+    "year": "2000",
+    "release_date": "2000-11-17",
+    "overview": "Cada año, en Navidad, los lugareños perturban su pacífica soledad con celebraciones cada vez más desmesuradas, luminosas y ruidosas. Cuando los Quién declaran que ese año van a preparar una Navidad el triple de grande, el Grinch se da cuenta de que solo hay un modo de recuperar algo de paz y silencio: robar la Navidad. Para ello, decide hacerse pasar por Santa Claus en Nochebuena, haciéndose con un reno muy peculiar para tirar de su trineo. Mientras tanto, en Villa Quién, una dulce niña llamada Cindy-Lou, desbordante de espíritu navideño, planea con sus amigos atrapar a Papá Noel durante su visita en Nochebuena para darle las gracias por ayudar a su trabajadora madre. Sin embargo, a medida que se acerca la noche mágica, sus buenas intenciones amenazan con chocar con las del Grinch, mucho más perversas.",
+    "vote_average": 6.8,
+    "genres": [
+     "Familia",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dj6U3KbuwcjMuDir1bUHp0yDcuB.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Disney Plus",
+     "Movistar Plus+ Ficción Total ",
+     "SkyShowtime",
+     "Amazon Prime Video with Ads",
+     "Sky Showtime Amazon Channel"
+    ],
+    "trailer": "SL0YugjtkiI"
    },
    {
     "id": 360920,
@@ -3684,31 +3711,6 @@
     "trailer": "_UOh0UX3alI"
    },
    {
-    "id": 8871,
-    "title": "El Grinch",
-    "year": "2000",
-    "release_date": "2000-11-17",
-    "overview": "Cada año, en Navidad, los lugareños perturban su pacífica soledad con celebraciones cada vez más desmesuradas, luminosas y ruidosas. Cuando los Quién declaran que ese año van a preparar una Navidad el triple de grande, el Grinch se da cuenta de que solo hay un modo de recuperar algo de paz y silencio: robar la Navidad. Para ello, decide hacerse pasar por Santa Claus en Nochebuena, haciéndose con un reno muy peculiar para tirar de su trineo. Mientras tanto, en Villa Quién, una dulce niña llamada Cindy-Lou, desbordante de espíritu navideño, planea con sus amigos atrapar a Papá Noel durante su visita en Nochebuena para darle las gracias por ayudar a su trabajadora madre. Sin embargo, a medida que se acerca la noche mágica, sus buenas intenciones amenazan con chocar con las del Grinch, mucho más perversas.",
-    "vote_average": 6.8,
-    "genres": [
-     "Familia",
-     "Comedia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/dj6U3KbuwcjMuDir1bUHp0yDcuB.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Disney Plus",
-     "Movistar Plus+ Ficción Total ",
-     "SkyShowtime",
-     "Amazon Prime Video with Ads",
-     "Sky Showtime Amazon Channel"
-    ],
-    "trailer": "SL0YugjtkiI"
-   },
-   {
     "id": 845781,
     "title": "Red One",
     "year": "2024",
@@ -3731,26 +3733,6 @@
     "trailer": "RcER0_lZ2F4"
    },
    {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
-   },
-   {
     "id": 9489,
     "title": "Tienes un e-mail",
     "year": "1998",
@@ -3769,6 +3751,26 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "AKlhYZ-HqKs"
+   },
+   {
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
+    "genres": [
+     "Drama",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "providers": [
+     "Filmin"
+    ],
+    "trailer": "iLR3gZrU2Xo"
    },
    {
     "id": 5255,
@@ -3817,6 +3819,22 @@
     "trailer": "XXxC0Geijzs"
    },
    {
+    "id": 5825,
+    "title": "¡Socorro! Ya es Navidad",
+    "year": "1989",
+    "release_date": "1989-11-30",
+    "overview": "Clark Griswold, movido por un generoso y sentimental espíritu navideño, quiere sorprender a toda su familia con una gran fiesta. La suerte no suele acompañarlo y esta vez no va a ser diferente... Una sucesión de disparatados desastres convertirán la esperadísima sorpresa de Clark en un verdadero caos.",
+    "vote_average": 7.2,
+    "genres": [
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/qmyeMduOLqrNqBpAaMwC7Qivwoy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
+    "providers": [],
+    "trailer": "tLVd4ipC5Lc"
+   },
+   {
     "id": 81188,
     "title": "El origen de los guardianes",
     "year": "2012",
@@ -3837,41 +3855,26 @@
     "trailer": "e4bdD8owgDU"
    },
    {
-    "id": 17979,
-    "title": "Cuento de Navidad",
-    "year": "2009",
-    "release_date": "2009-11-04",
-    "overview": "Ebenezer Scrooge es un personaje malhumorado y gruñón que trata con desprecio y malos modales a su fiel empleado Bob Cratchit y a su alegre sobrino. Pero, cuando el espíritu de las Navidades pasadas, presentes y futuras lo arrastra a un viaje durante el cual descubre verdades que siempre se ha negado a ver, el corazón del viejo avaro se ilumina y se da cuenta de que debe actuar inmediatamente para contrarrestar tantos años de egoísmo y rencor. Adaptación del clásico de Charles Dickens.",
-    "vote_average": 6.9,
+    "id": 10719,
+    "title": "Elf",
+    "year": "2003",
+    "release_date": "2003-11-07",
+    "overview": "Una Nochebuena, en un orfanato, un bebé gatea dentro del saco de regalos de Santa Claus y acaba en el taller de éste en el Polo Norte. Aunque allí es adoptado y educado como un elfo, al crecer, se hace tres veces más grande que los habitantes de la región. Parece claro que nunca encajará en el mundo de los elfos; lo que necesita es encontrar a su verdadera familia. Con esta intención viaja a Nueva York, donde descubrirá que la vida no consiste sólo en patinar y comer dulces; así que vuelve a sentirse otra vez fuera lugar. Consigue, no obstante, encontrar a su padre, Walter, un editor de libros infantiles adicto al trabajo y al dinero que figura en la lista negra de Santa Claus. Buddy también encuentra a una nueva madre y descubre que su hermanastro de diez años no cree en los elfos ni en Santa Claus ni en las Navidades. En realidad todo el mundo parece haber olvidado el verdadero significado de la Navidad.",
+    "vote_average": 6.7,
     "genres": [
-     "Animación",
+     "Comedia",
      "Familia",
-     "Fantasía",
-     "Drama"
+     "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/meN97hs1BtmChq16NFhWxOI8och.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/iJrvkckDP7MKfimogB6lNUfQRx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
     "providers": [
-     "Disney Plus"
+     "Netflix",
+     "Disney Plus",
+     "Netflix Standard with Ads"
     ],
-    "trailer": "j8jOwPbZ-W0"
-   },
-   {
-    "id": 1621,
-    "title": "Entre pillos anda el juego",
-    "year": "1983",
-    "release_date": "1983-06-07",
-    "overview": "Dos hombres de negocios sostienen distintas tesis sobre las condiciones de la naturaleza humana. Para uno es cuestión de genética, para el otro es cuestión de educación. Para corroborar sus teorías hacen una apuesta para lo cual cambian los destinos de dos personas socialmente antagónicas.",
-    "vote_average": 7.2,
-    "genres": [
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/bwmqcucVleqUTKUKw7K3hlvUGKC.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/3FO1kbQmRlU1H6Kmn7sTfmd7mw9.jpg",
-    "providers": [],
-    "trailer": "rxz036jbrmI"
+    "trailer": "14o38xfHlXc"
    }
   ],
   "romance": [
@@ -4060,6 +4063,25 @@
     "trailer": "JMyVSD6OvO8"
    },
    {
+    "id": 40096,
+    "title": "O Auto da Compadecida",
+    "year": "2000",
+    "release_date": "2000-09-15",
+    "overview": "En el interior del estado de Paríba, en el pueblo de Taperoá, viven João Grilo y Chicó, dos tipos muy pobres que van anunciando por las calles la mejor película del mundo, 'La Pasión de Cristo'. La sesión tiene éxito y ellos ganan algo de dinero pero siguen luchando por la supervivencia. João Grilo y Chicó planean nuevas tretas para conseguir algún dinero y se enfrentan a numeroso desafíos provocando múltiples confusiones causadas por la astucia de João Grilo, siempre acompañado de Chicó.",
+    "vote_average": 8.4,
+    "genres": [
+     "Comedia",
+     "Drama",
+     "Fantasía",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/y3IhuITELtprMhUd7bccu629rba.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+    "providers": [],
+    "trailer": "wDVdgnhiNlY"
+   },
+   {
     "id": 378064,
     "title": "A Silent Voice",
     "year": "2016",
@@ -4079,25 +4101,6 @@
      "Crunchyroll Amazon Channel"
     ],
     "trailer": "JLixtembASE"
-   },
-   {
-    "id": 40096,
-    "title": "O Auto da Compadecida",
-    "year": "2000",
-    "release_date": "2000-09-15",
-    "overview": "En el interior del estado de Paríba, en el pueblo de Taperoá, viven João Grilo y Chicó, dos tipos muy pobres que van anunciando por las calles la mejor película del mundo, 'La Pasión de Cristo'. La sesión tiene éxito y ellos ganan algo de dinero pero siguen luchando por la supervivencia. João Grilo y Chicó planean nuevas tretas para conseguir algún dinero y se enfrentan a numeroso desafíos provocando múltiples confusiones causadas por la astucia de João Grilo, siempre acompañado de Chicó.",
-    "vote_average": 8.4,
-    "genres": [
-     "Comedia",
-     "Drama",
-     "Fantasía",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/y3IhuITELtprMhUd7bccu629rba.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
-    "providers": [],
-    "trailer": "wDVdgnhiNlY"
    },
    {
     "id": 696374,
@@ -4184,7 +4187,7 @@
    "year": "2026",
    "release_date": "2026-09-16",
    "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
-   "vote_average": 7.5,
+   "vote_average": 7.4,
    "genres": [
     "Terror",
     "Ciencia ficción",

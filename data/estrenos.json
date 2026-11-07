@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T13:21:36.787Z",
+ "actualizado": "2026-11-07T22:00:33.561Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -74,7 +74,7 @@
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Fantasía",
     "Acción",
@@ -158,9 +158,8 @@
    "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
    "vote_average": 7.2,
    "genres": [
-    "Romance",
     "Drama",
-    "Historia"
+    "Romance"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
@@ -375,7 +374,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 0,
+   "vote_average": 8,
    "genres": [
     "Acción",
     "Crimen",
@@ -438,21 +437,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
   },
   {
-   "id": 1506401,
-   "title": "El niño",
-   "release_date": "2026-11-13",
-   "overview": "Narra la historia de Mariaje y Nicasio, madre y abuelo de uno de los niños que fallecieron en la explosión de gas.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/6wLVChqjN2qsZ3uolEmetkCuzeO.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/kkierrbus8z4QpsexmSg8QSKqak.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/kkierrbus8z4QpsexmSg8QSKqak.jpg"
-  },
-  {
    "id": 13534,
    "title": "Cómo robar un banco",
    "release_date": "2026-11-13",
@@ -468,6 +452,21 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/A8hw3Crc3kUTFAtaJMfXK62yeaP.jpg"
+  },
+  {
+   "id": 1506401,
+   "title": "El niño",
+   "release_date": "2026-11-13",
+   "overview": "Narra la historia de Mariaje y Nicasio, madre y abuelo de uno de los niños que fallecieron en la explosión de gas.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/6wLVChqjN2qsZ3uolEmetkCuzeO.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kkierrbus8z4QpsexmSg8QSKqak.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/kkierrbus8z4QpsexmSg8QSKqak.jpg"
   },
   {
    "id": 1720175,
