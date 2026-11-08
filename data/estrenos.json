@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T06:19:47.310Z",
+ "actualizado": "2026-11-08T13:39:50.772Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -41,7 +41,7 @@
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
    "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 8.2,
+   "vote_average": 8.1,
    "genres": [
     "Ciencia ficción",
     "Terror",
@@ -168,7 +168,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
-   "fondo": "https://image.tmdb.org/t/p/original/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
   },
   {
    "id": 1503762,
@@ -348,7 +348,7 @@
     "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/bLDrHn76oiNYiELv1qw3Tfdkqc8.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
    "providers": [],
    "trailer": "kqxuamKxRTo",
    "fondo": "https://image.tmdb.org/t/p/original/b17UWf3LqHgKolQkXckne32qv0.jpg"
@@ -391,7 +391,7 @@
    "title": "Los rivales de Amziah King",
    "release_date": "2026-11-13",
    "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
-   "vote_average": 6.7,
+   "vote_average": 6.8,
    "genres": [
     "Crimen",
     "Drama",

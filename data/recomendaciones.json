@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T06:20:18.527Z",
+ "actualizado": "2026-11-08T13:40:07.220Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -74,6 +74,28 @@
      "trailer": "pE3yR8bZ1pY"
     },
     {
+     "id": 666750,
+     "title": "Dragonheart: Vengeance",
+     "year": "2021",
+     "release_date": "2021-03-01",
+     "overview": "Lukas, un verde agricultor cuya descendientes es asesinada por salvajes guerreros, se embarca en una divagación épica en averiguación de vendetta, formando un trío inasequible con un dragón majestuoso y un soldado fanfarrón llamado Darius.",
+     "vote_average": 6.8,
+     "genres": [
+      "Fantasía",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/mPGAlXyPH21qg38GF1Ydd0xDg7B.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
+     "providers": [
+      "Movistar Plus+ Ficción Total ",
+      "SkyShowtime",
+      "Sky Showtime Amazon Channel"
+     ],
+     "trailer": "GQtt2OKmH5o"
+    },
+    {
      "id": 9610,
      "title": "Conan, el destructor",
      "year": "1984",
@@ -128,23 +150,24 @@
      "trailer": "2uU_EoIj3tw"
     },
     {
-     "id": 184315,
-     "title": "Hércules",
-     "year": "2014",
-     "release_date": "2014-07-23",
-     "overview": "Hércules, como todos los héroes griegos, es un semidios. Tras realizar los terribles doce trabajos que le fueron impuestos y tras perder a su familia, decide darle la espalda a los dioses y encontrar consuelo en la búsqueda de aventuras. Gracias a sus andanzas, ha encontrado hombres afines que se han unido a él, pues comparten su amor por el combate y no temen la presencia constante de la muerte en sus vidas. El rey de Tracia pretende que estos hombres formen un ejército invencible. Adaptación de la novela gráfica de 2008 \"Hercules: The Thracian War\".",
-     "vote_average": 5.8,
+     "id": 71282,
+     "title": "Los mares de China",
+     "year": "1935",
+     "release_date": "1935-08-09",
+     "overview": "Alan Gaskell (Clark Gable) es el capitán de un barco experto en cruzar los mares de China. Es un hombre experimentado, fuerte y aguerrido, al parecer de vuelta de todo. En cierta ocasión, el barco debe transportar un importante cargamento de oro desde Hong Kong hasta Singapur. Gaskell teme algo más peligroso que un tifón; el ataque, frecuente en la zona, de los piratas para hacerse con el botín.",
+     "vote_average": 6.3,
      "genres": [
+      "Aventura",
       "Acción",
-      "Aventura"
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/2q9Ic0Q4vMcs2AbTE640fRuB0Qe.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/nl18gyzai02Tu99VkURu7kCFrR8.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/nl18gyzai02Tu99VkURu7kCFrR8.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/r2Lv8HMq6zhHEKYl2ymbAJnDoaq.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/5Dt59bozPx5H5afRUmkkPiCcdUD.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bixZ4bg50kwXOsDsw4a5zwTq74h.jpg",
      "providers": [
-      "MGM Plus Amazon Channel"
+      "Filmin"
      ],
-     "trailer": "M0w2jr3ftHU"
+     "trailer": "vCMdNkT5KVM"
     },
     {
      "id": 322484,
@@ -163,6 +186,25 @@
      "fondo": "https://image.tmdb.org/t/p/original/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
      "providers": [],
      "trailer": "qWb6opYnPTo"
+    },
+    {
+     "id": 184315,
+     "title": "Hércules",
+     "year": "2014",
+     "release_date": "2014-07-23",
+     "overview": "Hércules, como todos los héroes griegos, es un semidios. Tras realizar los terribles doce trabajos que le fueron impuestos y tras perder a su familia, decide darle la espalda a los dioses y encontrar consuelo en la búsqueda de aventuras. Gracias a sus andanzas, ha encontrado hombres afines que se han unido a él, pues comparten su amor por el combate y no temen la presencia constante de la muerte en sus vidas. El rey de Tracia pretende que estos hombres formen un ejército invencible. Adaptación de la novela gráfica de 2008 \"Hercules: The Thracian War\".",
+     "vote_average": 5.8,
+     "genres": [
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/2q9Ic0Q4vMcs2AbTE640fRuB0Qe.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/nl18gyzai02Tu99VkURu7kCFrR8.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/nl18gyzai02Tu99VkURu7kCFrR8.jpg",
+     "providers": [
+      "MGM Plus Amazon Channel"
+     ],
+     "trailer": "M0w2jr3ftHU"
     },
     {
      "id": 324544,
@@ -210,27 +252,6 @@
      "trailer": "MQZ7_Uo0OI0"
     },
     {
-     "id": 1911,
-     "title": "El guerrero nº 13",
-     "year": "1999",
-     "release_date": "1999-08-13",
-     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
-     "vote_average": 6.7,
-     "genres": [
-      "Aventura",
-      "Historia",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "providers": [
-      "Disney Plus",
-      "Tivify"
-     ],
-     "trailer": "RikXt796p2o"
-    },
-    {
      "id": 1253000,
      "title": "Deathstalker",
      "year": "2025",
@@ -252,44 +273,25 @@
      "trailer": "fAdo8drjc_M"
     },
     {
-     "id": 639933,
-     "title": "El hombre del norte",
-     "year": "2022",
-     "release_date": "2022-04-07",
-     "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
-     "vote_average": 7,
+     "id": 1911,
+     "title": "El guerrero nº 13",
+     "year": "1999",
+     "release_date": "1999-08-13",
+     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
+     "vote_average": 6.7,
      "genres": [
-      "Acción",
       "Aventura",
-      "Fantasía"
+      "Historia",
+      "Acción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
      "providers": [
+      "Disney Plus",
       "Tivify"
      ],
-     "trailer": "7HZ4tBQEiB0"
-    },
-    {
-     "id": 11527,
-     "title": "Excalibur",
-     "year": "1981",
-     "release_date": "1981-04-10",
-     "overview": "En los bosques que rodean el castillo de Tintagel, Uther Pendragon, tras una larga y cruenta guerra, le ruega al mago Merlín que le haga propicia la seducción de la novia de su nuevo aliado, el Duque de Cornwall. Merlín accede a sus deseos, pero con la condición de que el fruto de su lujuria sea para él. Esa misma noche, Arturo es concebido y, dieciocho años después, los nobles de un reino cuyo trono está vacío compiten para hacerse con el derecho de liberar la espada encantada, llamada Excalibur, de la piedra en la que fue incrustada al morir Uther.",
-     "vote_average": 7,
-     "genres": [
-      "Aventura",
-      "Fantasía"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/oPAC1Bso6KsViv8YhzJ60pl9y04.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/qrnNj4lCPcBzmeOaHb7pLV9JKyg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qrnNj4lCPcBzmeOaHb7pLV9JKyg.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "vw8oPabVbeY"
+     "trailer": "RikXt796p2o"
     }
    ]
   },
@@ -364,6 +366,29 @@
       "Disney Plus"
      ],
      "trailer": "G4ZV8qfskfA"
+    },
+    {
+     "id": 580489,
+     "title": "Venom: habrá matanza",
+     "year": "2021",
+     "release_date": "2021-09-30",
+     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+     "vote_average": 6.7,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "hbfadtw-fjs"
     },
     {
      "id": 271110,
@@ -572,29 +597,6 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
-    },
-    {
-     "id": 1452,
-     "title": "Superman Returns",
-     "year": "2006",
-     "release_date": "2006-06-28",
-     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
-     "vote_average": 5.8,
-     "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "providers": [
-      "Netflix",
-      "Amazon Prime Video",
-      "Netflix Standard with Ads",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -605,6 +607,22 @@
     "title": "Sundays"
    },
    "items": [
+    {
+     "id": 309425,
+     "title": "El poder de la cruz",
+     "year": "2015",
+     "release_date": "2015-03-20",
+     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
+     "vote_average": 6.8,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
+     "providers": [],
+     "trailer": "ogIX2Q7tEdc"
+    },
     {
      "id": 1585,
      "title": "¡Qué bello es vivir!",
@@ -626,6 +644,25 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
+     "id": 430446,
+     "title": "Come Sunday",
+     "year": "2018",
+     "release_date": "2018-01-21",
+     "overview": "El evangelista Carlton Pearson es expulsado de su iglesia por predicar que no existe el infierno. Su revelación crea controversia y lo pierde todo. Poco a poco tendrá que reconstruir su vida y encontrar su propia fe.",
+     "vote_average": 5.8,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oucoXiLsc07YryywgjddmU3YoDV.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "pVQFWvm_fbU"
+    },
+    {
      "id": 345938,
      "title": "La cabaña",
      "year": "2017",
@@ -645,20 +682,24 @@
      "trailer": "Ouc9W0GRlQw"
     },
     {
-     "id": 309425,
-     "title": "El poder de la cruz",
-     "year": "2015",
-     "release_date": "2015-03-20",
-     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
-     "vote_average": 6.8,
+     "id": 520318,
+     "title": "Fátima, la película",
+     "year": "2020",
+     "release_date": "2020-08-13",
+     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
+     "vote_average": 7.2,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
-     "providers": [],
-     "trailer": "ogIX2Q7tEdc"
+     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "PvokEpA439o"
     },
     {
      "id": 127373,
@@ -678,6 +719,38 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "B1xClEljavQ"
+    },
+    {
+     "id": 88875,
+     "title": "El efecto de los rayos gamma  sobre las margaritas",
+     "year": "1972",
+     "release_date": "1972-12-20",
+     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
+     "vote_average": 7.3,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
+     "providers": [],
+     "trailer": "9U7z35zbxPk"
+    },
+    {
+     "id": 467433,
+     "title": "Una cuestión de fe",
+     "year": "2017",
+     "release_date": "2017-09-29",
+     "overview": "Cuando la tragedia golpea a tres familias, su destino les obliga a descubrir el amor, la gracia y la compasión de Dios, pues los desafíos del destino pueden hacer que renazcan sus creencias.",
+     "vote_average": 7.5,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/iWAANrMSUsPyEcy9MHcRCyikN4Q.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "providers": [],
+     "trailer": "QzNuMWxPo80"
     },
     {
      "id": 1217690,
@@ -717,22 +790,6 @@
      "trailer": "wbj691Z1Z1E"
     },
     {
-     "id": 467433,
-     "title": "Una cuestión de fe",
-     "year": "2017",
-     "release_date": "2017-09-29",
-     "overview": "Cuando la tragedia golpea a tres familias, su destino les obliga a descubrir el amor, la gracia y la compasión de Dios, pues los desafíos del destino pueden hacer que renazcan sus creencias.",
-     "vote_average": 7.5,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/iWAANrMSUsPyEcy9MHcRCyikN4Q.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
-     "providers": [],
-     "trailer": "QzNuMWxPo80"
-    },
-    {
      "id": 1243381,
      "title": "María",
      "year": "2024",
@@ -754,89 +811,6 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 430446,
-     "title": "Come Sunday",
-     "year": "2018",
-     "release_date": "2018-01-21",
-     "overview": "El evangelista Carlton Pearson es expulsado de su iglesia por predicar que no existe el infierno. Su revelación crea controversia y lo pierde todo. Poco a poco tendrá que reconstruir su vida y encontrar su propia fe.",
-     "vote_average": 5.8,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/oucoXiLsc07YryywgjddmU3YoDV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/6EMqJu1wAKWtgO364odfkS3nzIP.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "pVQFWvm_fbU"
-    },
-    {
-     "id": 550958,
-     "title": "Holy Lands",
-     "year": "2019",
-     "release_date": "2019-01-16",
-     "overview": "Cuando el judío fallecido y ex cardiólogo Harry (James Caan) repentinamente decide pasar su retiro como criador de cerdos en Nazaret, Israel, la mudanza conmociona profundamente a su familia y a sus nuevos vecinos. De vuelta en Nueva York, la ex esposa de Harry, Monica (Rosanna Arquette), está tratando de manejar las vidas de sus hijos adultos, Annabelle y David (Jonathan Rhys Meyers), así como la suya propia.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/qcRIVBS5pGDV2ZeKJZtVDQsgCxm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/6C9bSOkU7Z98xId5FASROjD1s61.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/etEASqqTlkBeI3HDNNq1utVK5xy.jpg",
-     "providers": [],
-     "trailer": ""
-    },
-    {
-     "id": 44655,
-     "title": "Susana la perversa",
-     "year": "1951",
-     "release_date": "1951-04-11",
-     "overview": "Susana escapa del reformatorio donde ha estado encerrada por quince años y llega la hacienda de don Guadalupe. Allí, la joven seducirá a todos los hombres del rumbo, incluyendo al joven Alberto, hijo de don Guadalupe, al caporal Jesús y al propio hacendado.",
-     "vote_average": 6.8,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/ifJB11s7JLor1SHZkfCyCcRaB3t.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/atNiMTTg211WNG5Jv7S2Fs23j0h.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/atNiMTTg211WNG5Jv7S2Fs23j0h.jpg",
-     "providers": [],
-     "trailer": "b3aPdGKS8ko"
-    },
-    {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "providers": [],
-     "trailer": "JxTFqsy5Pxs"
-    },
-    {
-     "id": 88875,
-     "title": "El efecto de los rayos gamma  sobre las margaritas",
-     "year": "1972",
-     "release_date": "1972-12-20",
-     "overview": "Adaptación de una novela que ganó el premio Pulitzer. Narra la vida de una familia deprimente y depresiva. La madre, Beatrice, es una mujer desequilibrada; sus dos hijas son diametralmente opuestas: Ruth es una adolescente epiléptica y bastante alocada, Mathilda, la pequeña, es una excelente estudiante, muy inteligente y trabajadora. Además, parece estar dotada de una serenidad o de una especie de estoicismo que la inmuniza contra las terribles tormentas domésticas que tiene que soportar.",
-     "vote_average": 7.3,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/hFGpoV5hDewXyBvjd44ajO58Sxw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/oKBF72vHcsKDqGuC8rNyv5EVdCE.jpg",
-     "providers": [],
-     "trailer": "9U7z35zbxPk"
-    },
-    {
      "id": 793285,
      "title": "Dios no está muerto 4",
      "year": "2021",
@@ -851,6 +825,43 @@
      "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
      "providers": [],
      "trailer": "YuMBAq-ROh4"
+    },
+    {
+     "id": 38557,
+     "title": "Cuando el río crece",
+     "year": "1984",
+     "release_date": "1984-12-01",
+     "overview": "Tom y Mae Garvey se niegan a vender su granja a pesar de las presiones de las autoridades locales que pretenden inundar los terrenos que están a orillas del río. El encargado de presionar a los Garvey resulta ser John Wade, un antiguo pretendiente de Mae. La tensión desencadena un enfrentamiento en las riberas del río en plena crecida.",
+     "vote_average": 6.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/tJdgFpNUN1If0zYjFCLjUvmPJPo.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
+     "providers": [
+      "Tivify"
+     ],
+     "trailer": "2fzExjAHQ2Q"
+    },
+    {
+     "id": 32636,
+     "title": "Vania en la calle 42",
+     "year": "1994",
+     "release_date": "1994-10-19",
+     "overview": "El grupo de teatro de André Gregory se dispone a interpretar El Tio Vania, la famosa obra de Anton Chejov, en una adaptación del dramaturgo David Mamet. El teatro está abandonado y la compañía ha prescindido de la ambientación y del vestuario. Mientras, Louis Malle registra todo con la cámara. Es un planteamiento sencillo que introduce en la magia del teatro, donde los atores pasan de un momento a otro de ser personas a ser personajes, y donde cada línea de diálogo se vive con una intensidad imposible de encontrar en cualquier otro sitio.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/2mV0u67LAsFG2F80HCkrD6o6Sru.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/llXsPTScDIdQjgsescQyKaIZA6l.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wNWP5jnbaHmpBIYIiuZvXRe8VZW.jpg",
+     "providers": [
+      "Filmin",
+      "Acontra Plus"
+     ],
+     "trailer": "hJxvpLrp4yA"
     }
    ]
   },
@@ -960,21 +971,22 @@
      "trailer": "MWkdM2ZGah0"
     },
     {
-     "id": 928270,
-     "title": "Ola de Calor",
-     "year": "2022",
-     "release_date": "2022-01-17",
-     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
-     "vote_average": 6.2,
+     "id": 1920,
+     "title": "Delito de pasión",
+     "year": "1956",
+     "release_date": "1956-12-28",
+     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
+     "vote_average": 6.1,
      "genres": [
-      "Suspense",
-      "Drama"
+      "Drama",
+      "Crimen",
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
      "providers": [],
-     "trailer": "t-yhbvVpPgI"
+     "trailer": "jJi9mUp_KeM"
     },
     {
      "id": 84338,
@@ -996,22 +1008,21 @@
      "trailer": "VJICFO4lbtQ"
     },
     {
-     "id": 471506,
-     "title": "La viuda",
-     "year": "2019",
-     "release_date": "2019-02-28",
-     "overview": "Frances es una dulce e ingenua joven que, tras la muerte de su madre, se muda a Manhattan. Cuando encuentra en el metro un bolso extraviado, decide entregárselo a su legítima dueña, Greta, una pianista viuda con una desesperada necesidad de compañía. Rápidamente se convierten en amigas, pero su amistad cambia cuando se descubren las siniestras intenciones de Greta.",
-     "vote_average": 6.5,
+     "id": 928270,
+     "title": "Ola de Calor",
+     "year": "2022",
+     "release_date": "2022-01-17",
+     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
+     "vote_average": 6.2,
      "genres": [
-      "Misterio",
       "Suspense",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/vsNUxeOiRDyS3FDJMroRcJOcjXm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
      "providers": [],
-     "trailer": "9sLHK4ccHGQ"
+     "trailer": "t-yhbvVpPgI"
     },
     {
      "id": 9357,
@@ -1029,6 +1040,24 @@
      "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
      "providers": [],
      "trailer": "eWzILZ6wE9Y"
+    },
+    {
+     "id": 471506,
+     "title": "La viuda",
+     "year": "2019",
+     "release_date": "2019-02-28",
+     "overview": "Frances es una dulce e ingenua joven que, tras la muerte de su madre, se muda a Manhattan. Cuando encuentra en el metro un bolso extraviado, decide entregárselo a su legítima dueña, Greta, una pianista viuda con una desesperada necesidad de compañía. Rápidamente se convierten en amigas, pero su amistad cambia cuando se descubren las siniestras intenciones de Greta.",
+     "vote_average": 6.5,
+     "genres": [
+      "Misterio",
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/vsNUxeOiRDyS3FDJMroRcJOcjXm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
+     "providers": [],
+     "trailer": "9sLHK4ccHGQ"
     },
     {
      "id": 1429,
@@ -1065,22 +1094,24 @@
      "trailer": "ZdZ0lUxunbA"
     },
     {
-     "id": 1920,
-     "title": "Delito de pasión",
-     "year": "1956",
-     "release_date": "1956-12-28",
-     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
-     "vote_average": 6.1,
+     "id": 311667,
+     "title": "Manhattan nocturno",
+     "year": "2016",
+     "release_date": "2016-05-20",
+     "overview": "Porter Wren es un periodista dedicado a los tabloides, pues posee un apetito insaciable por el escándalo. En casa es un marido encantador y un padre ejemplar, pero cuando conoce a una seductora desconocida que lo invita a resolver un complicado asesinato, su rutina cambia por completo. De esta forma se ve envuelto en un desagradable caso de obsesión sexual y chantaje, que acaba poniendo en peligro su puesto de trabajo, su matrimonio y su vida.",
+     "vote_average": 5.9,
      "genres": [
       "Drama",
-      "Crimen",
+      "Misterio",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "providers": [],
-     "trailer": "jJi9mUp_KeM"
+     "poster": "https://image.tmdb.org/t/p/w342/8TGxxLoNr8hhm4xgpYoA51KPdVO.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/1eM6CsDTwRmxgnigzz8pitLlUKJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rryoh1cEJpUE3TfioxlGJlWIgOl.jpg",
+     "providers": [
+      "AMC Channels Amazon Channel"
+     ],
+     "trailer": "5Vah3WwkfWE"
     },
     {
      "id": 9280,
@@ -1097,36 +1128,8 @@
      "poster": "https://image.tmdb.org/t/p/w342/xWt4tDUkzhyK4gKIKXbe3RkPsOm.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/rc0n0PItBZK4ptPNEuSRv83Noee.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/rc0n0PItBZK4ptPNEuSRv83Noee.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "FlixOlé"
-     ],
+     "providers": [],
      "trailer": "qTbcKBdDyBg"
-    },
-    {
-     "id": 345,
-     "title": "Eyes Wide Shut",
-     "year": "1999",
-     "release_date": "1999-07-16",
-     "overview": "William Harford es un respetable médico neoyorquino cuya vida parece ir muy bien: está casado con una preciosa mujer, tiene una hija y tiene un trabajo que le gusta. Pero, al día siguiente de asistir a una fiesta, su esposa Alice le habla de unas fantasías eróticas y de cómo estuvo a punto de romper su matrimonio por un desconocido. Abrumado por esta confesión, acaba entrando en un local, donde un antiguo compañero le habla de una congregación secreta dedicada al hedonismo y al placer sin límites. A partir de entonces un mundo dominado por el sexo y el erotismo se abre ante él.",
-     "vote_average": 7.5,
-     "genres": [
-      "Drama",
-      "Suspense",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/yPRAwhPyB0njl6hnuu3LG2iP9Nb.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aC6wW62V6b0csr5iUnbOjYAqfhg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aC6wW62V6b0csr5iUnbOjYAqfhg.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "Amazon Prime Video with Ads",
-      "HBO Max Amazon Channel"
-     ],
-     "trailer": "qku0sbMkFZo"
     }
    ]
   },
@@ -1282,26 +1285,6 @@
      "trailer": "wQs35Rka34A"
     },
     {
-     "id": 11644,
-     "title": "Impacto",
-     "year": "1981",
-     "release_date": "1981-07-24",
-     "overview": "El protagonista es un ingeniero de sonido que trabaja en películas de terror baratas. Una noche, mientras graba efectos sonoros, observa cómo un coche en el que viaja una pareja cae desde un puente a un río. A pesar de sus esfuerzos, sólo consigue salvar a la chica. Cuando se entera de que el hombre muerto era un candidato a la Presidencia de la Nación, recuerda haber escuchado un disparo antes del accidente y, entonces, empieza a sospechar que fue un atentado.",
-     "vote_average": 7.3,
-     "genres": [
-      "Crimen",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/vbHo8X0Zpny7rSovAdAEJeXVRwK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
-     "providers": [
-      "MGM Plus Amazon Channel"
-     ],
-     "trailer": "dgWfyFgEsO8"
-    },
-    {
      "id": 396461,
      "title": "Lo que esconde Silver Lake",
      "year": "2018",
@@ -1325,24 +1308,24 @@
      "trailer": "U84SbxKc6W8"
     },
     {
-     "id": 11507,
-     "title": "Doble cuerpo",
-     "year": "1984",
-     "release_date": "1984-10-25",
-     "overview": "Jake es un actor de películas de terror de serie B que sufre claustrofobia. Tras mudarse de casa, descubre que una de sus vecinas se desnuda ante la ventana abierta. En su soledad, la observa cada noche con su telescopio y, en poco tiempo, acaba obsesionado.",
-     "vote_average": 6.7,
+     "id": 11644,
+     "title": "Impacto",
+     "year": "1981",
+     "release_date": "1981-07-24",
+     "overview": "El protagonista es un ingeniero de sonido que trabaja en películas de terror baratas. Una noche, mientras graba efectos sonoros, observa cómo un coche en el que viaja una pareja cae desde un puente a un río. A pesar de sus esfuerzos, sólo consigue salvar a la chica. Cuando se entera de que el hombre muerto era un candidato a la Presidencia de la Nación, recuerda haber escuchado un disparo antes del accidente y, entonces, empieza a sospechar que fue un atentado.",
+     "vote_average": 7.3,
      "genres": [
       "Crimen",
       "Misterio",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/kxh2LIMOdEc6CXUwIEwY6WxgfKr.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/h5QkdbRmG2VodOCSB0QMhSGcCkI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/h5QkdbRmG2VodOCSB0QMhSGcCkI.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/vbHo8X0Zpny7rSovAdAEJeXVRwK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/nk87CtgZ7wd86W37oJHGYAJbmLz.jpg",
      "providers": [
-      "Filmin"
+      "MGM Plus Amazon Channel"
      ],
-     "trailer": "UuQN3rTi27I"
+     "trailer": "dgWfyFgEsO8"
     },
     {
      "id": 1052,
@@ -1365,6 +1348,26 @@
      "trailer": "PRENEOHlcbw"
     },
     {
+     "id": 11507,
+     "title": "Doble cuerpo",
+     "year": "1984",
+     "release_date": "1984-10-25",
+     "overview": "Jake es un actor de películas de terror de serie B que sufre claustrofobia. Tras mudarse de casa, descubre que una de sus vecinas se desnuda ante la ventana abierta. En su soledad, la observa cada noche con su telescopio y, en poco tiempo, acaba obsesionado.",
+     "vote_average": 6.7,
+     "genres": [
+      "Crimen",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/kxh2LIMOdEc6CXUwIEwY6WxgfKr.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/h5QkdbRmG2VodOCSB0QMhSGcCkI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/h5QkdbRmG2VodOCSB0QMhSGcCkI.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "UuQN3rTi27I"
+    },
+    {
      "id": 11761,
      "title": "El misterio de Peacock",
      "year": "2010",
@@ -1383,30 +1386,25 @@
      "trailer": "NPEzcAG4E5s"
     },
     {
-     "id": 141,
-     "title": "Donnie Darko",
-     "year": "2001",
-     "release_date": "2001-01-19",
-     "overview": "Donnie es un chico americano dotado de gran inteligencia e imaginación. Tras escapar milagrosamente de una muerte casi segura, comienza a sufrir alucinaciones que lo llevan a actuar como nunca hubiera imaginado y a descubrir un mundo insólito a su alrededor, pues en sus visiones un gran conejito lo manipula para cometer una serie de crímenes.",
-     "vote_average": 7.8,
+     "id": 66113,
+     "title": "Una chica perfecta",
+     "year": "2009",
+     "release_date": "2009-03-14",
+     "overview": "La historía del macabro asesinato de una niña Australiana de 15 años que desapareció de un día para otro, y más tarde se descubrió que había sido la niñeria quién la mato.",
+     "vote_average": 6,
      "genres": [
-      "Fantasía",
       "Drama",
-      "Misterio"
+      "Suspense",
+      "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/1YjDHBC4v2O7IQDKYAiM8fOxzf3.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/esMWBFRQKazSK6tyA7J82wqCbTw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
      "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin",
-      "HBO Max",
       "Acontra Plus",
-      "Amazon Prime Video with Ads",
-      "HBO Max Amazon Channel"
+      "Acontra Plus Amazon Channel"
      ],
-     "trailer": "iVdehGAy4zA"
+     "trailer": "moqWW9plOtQ"
     },
     {
      "id": 146015,
@@ -1457,6 +1455,27 @@
      "trailer": "xyNVTkemjgQ"
     },
     {
+     "id": 60794,
+     "title": "El crack",
+     "year": "1981",
+     "release_date": "1981-03-26",
+     "overview": "El detective privado Germán Areta el Piojo es contratado por un cliente moribundo que antes de morir desea ver a su hija, perdida hace tiempo.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/thPZa2lHHV8wJu71kOHTR90OQ3p.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/p5cbr6otCjYv0WQlNbi8WNE133q.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/p5cbr6otCjYv0WQlNbi8WNE133q.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Acontra Plus",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": ""
+    },
+    {
      "id": 1659087,
      "title": "180",
      "year": "2026",
@@ -1496,6 +1515,45 @@
      "trailer": "ioIknR8KQmk"
     },
     {
+     "id": 651589,
+     "title": "Hasta el cielo",
+     "year": "2020",
+     "release_date": "2020-12-18",
+     "overview": "El día que Ángel habló con Estrella en aquella discoteca, su vida cambió para siempre. Tras una pelea con Poli, el posesivo novio de la chica, éste descubre que Ángel tiene talento para meterse en problemas y, lo más importante, para salir de ellos. Por eso, le anima a unirse a una banda de atracadores que tiene en jaque a toda la policía de Madrid. Ángel comienza a escalar rápidamente en una pirámide de atracos, dinero negro, negocios turbios y abogados corruptos que le llevarán a ser acorralado por Duque, un incansable detective que no parará hasta acabar con su carrera. Desoyendo los consejos de su gente, Ángel consigue ascender hasta convertirse en el protegido de Rogelio, uno de los tipos que controla el mercado negro de la ciudad. Con éste y Sole, hija del capo, Ángel descubrirá que el precio del poder es alto y que pronto tendrá que decidir entre su futuro como atracador y el amor de su vida, Estrella.",
+     "vote_average": 6.1,
+     "genres": [
+      "Acción",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/4wBsYozsXBlG7Lx4NO7ycDWnnUs.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "I-wlmGEXJAM"
+    },
+    {
+     "id": 36373,
+     "title": "M",
+     "year": "1951",
+     "release_date": "1951-03-01",
+     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
+     "vote_average": 6.5,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "providers": [],
+     "trailer": "IovfalMQ6lQ"
+    },
+    {
      "id": 587986,
      "title": "Ventajas de viajar en tren",
      "year": "2019",
@@ -1517,6 +1575,23 @@
       "Sky Showtime Amazon Channel"
      ],
      "trailer": "FgS_tWjkLN4"
+    },
+    {
+     "id": 20637,
+     "title": "Pánico",
+     "year": "2000",
+     "release_date": "2000-12-01",
+     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
+     "vote_average": 6.2,
+     "genres": [
+      "Crimen",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
+     "providers": [],
+     "trailer": "h6qvVd-jg4Y"
     },
     {
      "id": 20482,
@@ -1541,23 +1616,6 @@
      "trailer": "-RN_BvyNpS8"
     },
     {
-     "id": 20637,
-     "title": "Pánico",
-     "year": "2000",
-     "release_date": "2000-12-01",
-     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
-     "vote_average": 6.2,
-     "genres": [
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "providers": [],
-     "trailer": "h6qvVd-jg4Y"
-    },
-    {
      "id": 862552,
      "title": "El asesino del ritual",
      "year": "2023",
@@ -1575,6 +1633,28 @@
      "fondo": "https://image.tmdb.org/t/p/original/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
      "providers": [],
      "trailer": "DIa__DpZX9U"
+    },
+    {
+     "id": 46041,
+     "title": "Conspiración en Berlín",
+     "year": "1966",
+     "release_date": "1966-11-10",
+     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
+     "vote_average": 5.9,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "FlixOlé",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "yakSWyVSNUs"
     },
     {
      "id": 1621552,
@@ -1598,27 +1678,6 @@
      "trailer": "Rk0efhpa-5Y"
     },
     {
-     "id": 157351,
-     "title": "La verdad sobre Emmanuel",
-     "year": "2013",
-     "release_date": "2013-04-26",
-     "overview": "Emanuel (Scodelario) es una chica de diecisiete años que se ofrece a cuidar al bebé de Linda (Biel), su nueva vecina. La cuestión es que ambas están bastante desequilibradas: mientras que Emanuel cree ver en Linda a su difunta madre, lo que le ocurre a Linda es que tiene un muñeco al que cuida como si fuera su hijo muerto. (FILMAFFINITY)",
-     "vote_average": 6,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/z98jqAlVlnXyYnTlC95Na8FQXHF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mFhaWSCPSidNjsLD0yzwypajDvS.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mFhaWSCPSidNjsLD0yzwypajDvS.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Acontra Plus",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "f3b_XVosLfU"
-    },
-    {
      "id": 613099,
      "title": "Legado en los huesos",
      "year": "2019",
@@ -1640,26 +1699,6 @@
      "trailer": "vv-at2_dfwk"
     },
     {
-     "id": 1145725,
-     "title": "Duplicidad, de Tyler Perry",
-     "year": "2025",
-     "release_date": "2025-03-19",
-     "overview": "La brillante abogada Marley se enfrenta a su caso más personal cuando le encargan que descubra la verdad sobre el asesinato del marido de su mejor amiga, Fela. Con ayuda de su novio, un antiguo policía que ahora es detective privado, las pesquisas de Marley sobre lo que realmente ocurrió la llevan por un peligroso laberinto de engaños y traiciones.",
-     "vote_average": 6.6,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/k4fJun2pJ70BBFMgGAZddk3m7sg.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/qSh3Aav8Kcoe2D2Azr8Bh1J0HAa.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qSh3Aav8Kcoe2D2Azr8Bh1J0HAa.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "i6NvYfJwq-U"
-    },
-    {
      "id": 970347,
      "title": "The Killer",
      "year": "2024",
@@ -1679,43 +1718,6 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "zgNOS5ofQhw"
-    },
-    {
-     "id": 36373,
-     "title": "M",
-     "year": "1951",
-     "release_date": "1951-03-01",
-     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
-     "vote_average": 6.5,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "providers": [],
-     "trailer": "IovfalMQ6lQ"
-    },
-    {
-     "id": 395458,
-     "title": "Suburbicon",
-     "year": "2017",
-     "release_date": "2017-10-26",
-     "overview": "Un misterio criminal ambientado en un tranquilo pueblo familiar norteamericano durante los años 50, donde lo mejor y lo peor de la humanidad se ve reflejado en las vidas de la gente corriente. Cuando un allanamiento de morada se vuelve mortal, una familia aparentemente perfecta empezará a hacer uso del chantaje, la venganza y la traición.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Crimen",
-      "Drama",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/dL1GOIX3gs3GzZLDs4mg3fjjUOV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/dmgFJdivUmV4vGLkbPD49KVjlHx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/dmgFJdivUmV4vGLkbPD49KVjlHx.jpg",
-     "providers": [],
-     "trailer": "gan6ThmgVCQ"
     }
    ]
   }
@@ -1749,7 +1751,7 @@
      "year": "1983",
      "release_date": "1983-11-21",
      "overview": "Tras asistir a la proyección de una película, una pareja es atacada por una horda de zombies hambrientos de sangre. Legendario videoclip musical, uno de los más influyentes jamás realizados, que contó con una versión corta y otra larga, de 13 min, y que cuenta con una historia narrativa además del número musical de Jackson. En 2009 fue seleccionado por la Biblioteca del Congreso de los Estados Unidos como una de las obras cinematográficas más relevantes de la historia, y en 2017 fue restaurado en 3D y proyectado en el Festival de Cine de Venecia, en una versión supervisada por el propio John Landis.",
-     "vote_average": 8.3,
+     "vote_average": 8.2,
      "genres": [
       "Terror",
       "Música",
@@ -1798,8 +1800,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg",
      "providers": [
       "Netflix",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
       "Netflix Standard with Ads"
      ],
      "trailer": "A3q03BBwMp4"
@@ -1892,7 +1892,7 @@
      "year": "2009",
      "release_date": "2009-02-05",
      "overview": "Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa aventura empieza a tomar un cariz peligroso, su otra madre intenta mantenerla a su lado para siempre. Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.",
-     "vote_average": 8,
+     "vote_average": 7.9,
      "genres": [
       "Animación",
       "Familia",
@@ -3321,8 +3321,8 @@
       "Crimen"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/5HlLUsmsv60cZVTzVns9ICZD6zU.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/ejdD20cdHNFAYAN2DlqPToXKyzx.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg",
      "providers": [
       "Netflix",
       "Movistar Plus+ Ficción Total ",
@@ -3347,9 +3347,7 @@
      "poster": "https://image.tmdb.org/t/p/w342/3fTngLHmgVERMlVPeHUpyj9aUa8.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/3HaqAPZ0C8n6Hd5T86U53yJlBAN.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/3HaqAPZ0C8n6Hd5T86U53yJlBAN.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total "
-     ],
+     "providers": [],
      "trailer": "ijaLan082S8"
     },
     {
@@ -3820,22 +3818,6 @@
     "trailer": "XXxC0Geijzs"
    },
    {
-    "id": 5825,
-    "title": "¡Socorro! Ya es Navidad",
-    "year": "1989",
-    "release_date": "1989-11-30",
-    "overview": "Clark Griswold, movido por un generoso y sentimental espíritu navideño, quiere sorprender a toda su familia con una gran fiesta. La suerte no suele acompañarlo y esta vez no va a ser diferente... Una sucesión de disparatados desastres convertirán la esperadísima sorpresa de Clark en un verdadero caos.",
-    "vote_average": 7.2,
-    "genres": [
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/qmyeMduOLqrNqBpAaMwC7Qivwoy.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "providers": [],
-    "trailer": "tLVd4ipC5Lc"
-   },
-   {
     "id": 81188,
     "title": "El origen de los guardianes",
     "year": "2012",
@@ -3854,6 +3836,22 @@
     "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
     "providers": [],
     "trailer": "e4bdD8owgDU"
+   },
+   {
+    "id": 5825,
+    "title": "¡Socorro! Ya es Navidad",
+    "year": "1989",
+    "release_date": "1989-11-30",
+    "overview": "Clark Griswold, movido por un generoso y sentimental espíritu navideño, quiere sorprender a toda su familia con una gran fiesta. La suerte no suele acompañarlo y esta vez no va a ser diferente... Una sucesión de disparatados desastres convertirán la esperadísima sorpresa de Clark en un verdadero caos.",
+    "vote_average": 7.2,
+    "genres": [
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/qmyeMduOLqrNqBpAaMwC7Qivwoy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
+    "providers": [],
+    "trailer": "tLVd4ipC5Lc"
    },
    {
     "id": 508,
@@ -3912,9 +3910,7 @@
     "poster": "https://image.tmdb.org/t/p/w342/3fTngLHmgVERMlVPeHUpyj9aUa8.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w780/3HaqAPZ0C8n6Hd5T86U53yJlBAN.jpg",
     "fondo": "https://image.tmdb.org/t/p/original/3HaqAPZ0C8n6Hd5T86U53yJlBAN.jpg",
-    "providers": [
-     "Movistar Plus+ Ficción Total "
-    ],
+    "providers": [],
     "trailer": "ijaLan082S8"
    },
    {
