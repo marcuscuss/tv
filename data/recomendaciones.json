@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-08T13:40:07.220Z",
+ "actualizado": "2026-11-08T22:17:26.400Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -1433,291 +1433,286 @@
    },
    "items": [
     {
-     "id": 19621,
-     "title": "La venganza (The Hit)",
-     "year": "1984",
-     "release_date": "1984-09-07",
-     "overview": "Willie Parker, un antiguo gángster inglés que se convirtió en delator, vive desde hace diez años con una identidad falsa en una remota aldea española. Pero, cuando los mafiosos a los que traicionó descubren su paradero, le encargan a dos asesinos a sueldo que lo secuestren y lo trasladen a París. El plan se complica cuando, tras el rapto de Parker, la policía española empieza a perseguir a los criminales.",
-     "vote_average": 6.5,
-     "genres": [
-      "Drama",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/n8P13rEyvy6vPFmPaqUWAfbOZpk.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ylrd1QeNvaRXSmXwDLqhaGJ6S9K.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/ylrd1QeNvaRXSmXwDLqhaGJ6S9K.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "xyNVTkemjgQ"
-    },
-    {
-     "id": 60794,
-     "title": "El crack",
-     "year": "1981",
-     "release_date": "1981-03-26",
-     "overview": "El detective privado Germán Areta el Piojo es contratado por un cliente moribundo que antes de morir desea ver a su hija, perdida hace tiempo.",
-     "vote_average": 7.1,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/thPZa2lHHV8wJu71kOHTR90OQ3p.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/p5cbr6otCjYv0WQlNbi8WNE133q.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/p5cbr6otCjYv0WQlNbi8WNE133q.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Acontra Plus",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": ""
-    },
-    {
-     "id": 1659087,
-     "title": "180",
-     "year": "2026",
-     "release_date": "2026-04-16",
-     "overview": "Un inesperado incidente de tráfico deja a su hijo en estado crítico. El padre, enfurecido, se adentra en una oscura espiral de confusión emocional y venganza.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/4nNuv41aosADsoQYYJDg7Y829YK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "jHtGZS-TFOI"
-    },
-    {
-     "id": 127521,
-     "title": "6 balas",
-     "year": "2012",
-     "release_date": "2012-09-11",
-     "overview": "El veterano mercenario Samson Gaul sabe que en el fragor de la batalla cada bala cuenta. Cuando sus acciones dieron como resultado la muerte de víctimas indefensas se retiró pero ahora es la última esperanza de Andrew Fayden un padre desesperado. Fayden sabe luchar pero solo no está preparado para encontrar a su hija en las corruptas calles de un país extranjero. Juntos, ambos guerreros, no se detendrán ante nada para destrozar la red criminal que se aprovecha de los inocentes.",
+     "id": 10056,
+     "title": "El beso del asesino",
+     "year": "1955",
+     "release_date": "1955-10-01",
+     "overview": "Un boxeador rescata a una cantante de las lascivas garras de su jefe. Intriga y melodrama para una película de bajo presupuesto producida, dirigida, escrita, fotografiada y montada por Stanley Kubrick.",
      "vote_average": 6.3,
      "genres": [
       "Suspense",
-      "Acción",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1ArlTk9TosvIJVmy9fwpD9XFRkw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "providers": [],
-     "trailer": "ioIknR8KQmk"
-    },
-    {
-     "id": 651589,
-     "title": "Hasta el cielo",
-     "year": "2020",
-     "release_date": "2020-12-18",
-     "overview": "El día que Ángel habló con Estrella en aquella discoteca, su vida cambió para siempre. Tras una pelea con Poli, el posesivo novio de la chica, éste descubre que Ángel tiene talento para meterse en problemas y, lo más importante, para salir de ellos. Por eso, le anima a unirse a una banda de atracadores que tiene en jaque a toda la policía de Madrid. Ángel comienza a escalar rápidamente en una pirámide de atracos, dinero negro, negocios turbios y abogados corruptos que le llevarán a ser acorralado por Duque, un incansable detective que no parará hasta acabar con su carrera. Desoyendo los consejos de su gente, Ángel consigue ascender hasta convertirse en el protegido de Rogelio, uno de los tipos que controla el mercado negro de la ciudad. Con éste y Sole, hija del capo, Ángel descubrirá que el precio del poder es alto y que pronto tendrá que decidir entre su futuro como atracador y el amor de su vida, Estrella.",
-     "vote_average": 6.1,
-     "genres": [
-      "Acción",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/4wBsYozsXBlG7Lx4NO7ycDWnnUs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "I-wlmGEXJAM"
-    },
-    {
-     "id": 36373,
-     "title": "M",
-     "year": "1951",
-     "release_date": "1951-03-01",
-     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
-     "vote_average": 6.5,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "providers": [],
-     "trailer": "IovfalMQ6lQ"
-    },
-    {
-     "id": 587986,
-     "title": "Ventajas de viajar en tren",
-     "year": "2019",
-     "release_date": "2019-11-08",
-     "overview": "Después de internar a su trastornado marido en un remoto hospital psiquiátrico, la editora de libros Helga Pato regresa a casa en tren, donde conoce a un hombre misterioso que dice ser psiquiatra.",
-     "vote_average": 6.5,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6C8uJnxoBZVYY7iueExVL423RLI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+ Ficción Total ",
-      "SkyShowtime",
-      "Amazon Prime Video with Ads",
-      "Sky Showtime Amazon Channel"
-     ],
-     "trailer": "FgS_tWjkLN4"
-    },
-    {
-     "id": 20637,
-     "title": "Pánico",
-     "year": "2000",
-     "release_date": "2000-12-01",
-     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
-     "vote_average": 6.2,
-     "genres": [
       "Crimen",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "providers": [],
-     "trailer": "h6qvVd-jg4Y"
-    },
-    {
-     "id": 20482,
-     "title": "La ciudad desnuda",
-     "year": "1948",
-     "release_date": "1948-03-04",
-     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
-     "vote_average": 7.2,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
-     ],
-     "trailer": "-RN_BvyNpS8"
-    },
-    {
-     "id": 862552,
-     "title": "El asesino del ritual",
-     "year": "2023",
-     "release_date": "2023-03-09",
-     "overview": "Un detective al borde de la jubilación se une a un profesor de estudios africanos para localizar a un asesino en serie que está realizando la antigua práctica de magia negra de Muti.",
-     "vote_average": 5.8,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Acción",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/dv1V0r6p9PeaOZlvaITDhTTyVKs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
-     "providers": [],
-     "trailer": "DIa__DpZX9U"
-    },
-    {
-     "id": 46041,
-     "title": "Conspiración en Berlín",
-     "year": "1966",
-     "release_date": "1966-11-10",
-     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Drama",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/wfFZ3eTDyJtOsCYzANC8ta51DR.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/7ZbNuSp186oxSjdtz5npRLLjVSb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yFi2LLXKbFN7bhLWmFNZLGOiiBe.jpg",
      "providers": [
       "Amazon Prime Video",
-      "FlixOlé",
       "Amazon Prime Video with Ads"
      ],
-     "trailer": "yakSWyVSNUs"
+     "trailer": "W25UlE0C1-Y"
     },
     {
-     "id": 1621552,
-     "title": "La captura",
-     "year": "2026",
-     "release_date": "2026-08-21",
-     "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
-     "vote_average": 8.8,
+     "id": 438396,
+     "title": "Orígenes secretos",
+     "year": "2020",
+     "release_date": "2020-08-28",
+     "overview": "En Madrid, España, un misterioso asesino en serie mata cruelmente a sus víctimas recreando la primera aparición de varios superhéroes de cómic. Cosme, un veterano inspector de policía que está a punto de retirarse, trabaja en el caso con el atormentado inspector David Valentín y su propio hijo Jorge Elías, un joven friki que posee una tienda de cómics.",
+     "vote_average": 6.2,
      "genres": [
-      "Crimen",
-      "Acción",
+      "Drama",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/raVBwQY4Ru5yt0FDE4zDYSIlFgd.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/9NkIvN0A602Y4Ewa2h2dHSl8n9A.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qGZe9qTuydxyJYQ60XDtEckzLR8.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qGZe9qTuydxyJYQ60XDtEckzLR8.jpg",
      "providers": [
       "Netflix",
       "Netflix Standard with Ads"
      ],
-     "trailer": "Rk0efhpa-5Y"
+     "trailer": "VLubyNpveEs"
     },
     {
-     "id": 613099,
-     "title": "Legado en los huesos",
-     "year": "2019",
-     "release_date": "2019-12-05",
-     "overview": "En esta continuación de El guardián invisible Amaia Salazar, inspectora de homicidios de la Policía Foral, tendrá que seguir los pasos de un tarttalo (un ser que según la mitología local caza pastores y doncellas) a la vez que descubre por primera vez lo que implica la maternidad. Pero ni siquiera el nacimiento de su primer hijo hace que se alejen los fantasmas del pasado, esos que creía exiliados a otro mundo…",
-     "vote_average": 6.6,
+     "id": 32080,
+     "title": "Los Implacables, Patrulla Especial",
+     "year": "1973",
+     "release_date": "1973-12-14",
+     "overview": "En Nueva York, para reforzar la lucha contra la mafia y los gángters, se ha creado un grupo especial de la Policía, formado por siete hombres, con total independencia y amparados en su anonimato. Son los \"seven-ups\", un grupo de élite que pronto se demuestra muy eficaz contra el crimen... El director Phillip D'Antoni -que no dirigió luego más películas- había sido el productor de éxitos similares anteriores como \"Bullitt\" (1968) and \"French Connection\"",
+     "vote_average": 6.3,
      "genres": [
       "Suspense",
       "Crimen",
       "Misterio"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/r9t2himGKFSKWjjUdpRLFQkafj7.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/isazfkX14Unin8m6meZMfm7QDfn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/isazfkX14Unin8m6meZMfm7QDfn.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "vv-at2_dfwk"
+     "poster": "https://image.tmdb.org/t/p/w342/7p8s3a1jdNfYeNFHj6z7p079iqf.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "providers": [],
+     "trailer": "JVmcBXVy8Og"
     },
     {
-     "id": 970347,
-     "title": "The Killer",
-     "year": "2024",
-     "release_date": "2024-08-22",
-     "overview": "Zee es una temida asesina a sueldo conocida como “la Reina de los Muertos”, pero cuando se niega a asesinar a una joven ciega, se encuentra perseguida tanto por sus colegas criminales como por un decidido detective de policía.",
-     "vote_average": 6.3,
+     "id": 1128547,
+     "title": "Islands",
+     "year": "2025",
+     "release_date": "2025-05-08",
+     "overview": "Tom es entrenador de tenis en un lujoso hotel de la isla de Fuerteventura y llena el tiempo entre clases con alcohol y aventuras de una noche. La llegada de la familia Maguire saca a Tom de su rutina habitual, entabla una relación con Anne, su marido Dave y su hijo Anton. Tom no puede quitarse la sensación de que ya conoce a Anne de antes, y esta tensión crece entre ellos hasta que una noche Dave desaparece y la investigación policial señala a Anne y a Tom como sospechosos.",
+     "vote_average": 6.1,
      "genres": [
-      "Acción",
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/eLrpRK07s6muaFFi5cFZi20hFTF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
+     "providers": [],
+     "trailer": "MifpmLyraBE"
+    },
+    {
+     "id": 35404,
+     "title": "El caso de Thelma Jordon",
+     "year": "1949",
+     "release_date": "1949-11-04",
+     "overview": "Una misteriosa mujer inicia un romance con el fiscal de distrito. Él intuye que ella le oculta algo, y sus sospechas se confirman con el hallazgo de un cadáver.",
+     "vote_average": 6.5,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/v7uKmQv99HmeObubOTcGlJLpfsX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rovH7UG8HOytV1lebx8R7DmL2xX.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rovH7UG8HOytV1lebx8R7DmL2xX.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "vrFXARH__0E"
+    },
+    {
+     "id": 28297,
+     "title": "Fuerza bruta",
+     "year": "1947",
+     "release_date": "1947-07-16",
+     "overview": "Tras los muros de la penitenciaría Westgate imperan la violencia y el miedo. El capitán Munsey, alcaide de la prisión, mantiene hacinados a los convictos sometiéndoles a constantes torturas y vejaciones. Joe Collins y sus compañeros de celda, hartos de la situación, deciden organizar una fuga. Un plan temerario con muchas posibilidades de acabar en un baño de sangre.",
+     "vote_average": 7.3,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/x7UxipX2gWPYBAwAGAYtQScvyYP.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aJcr2XzbFt2jqKtCnlw9Po1ZA2f.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/7kEMRnWw5zZaXU0xbZmnOKTdgoM.jpg",
+     "providers": [
+      "Artiflix"
+     ],
+     "trailer": "uTn6pHKVpNc"
+    },
+    {
+     "id": 1215185,
+     "title": "La infiltrada",
+     "year": "2024",
+     "release_date": "2024-10-11",
+     "overview": "País Vasco, España, finales de los años noventa. Una joven policía consigue infiltrarse en la despiadada banda terrorista ETA.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xnME9c2PEtYGBDPO4lZXAVeEu0G.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/q6eSjGQVt97jClKgub0EXGiJ7EB.jpg",
+     "providers": [
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "HBO Max Amazon Channel"
+     ],
+     "trailer": "7fEmGjV0LXc"
+    },
+    {
+     "id": 22334,
+     "title": "Sombras acusadoras",
+     "year": "1958",
+     "release_date": "1958-01-16",
+     "overview": "Película de suspense en la cual una mujer, heredera de una gran fortuna, deberá convencer a todos de que quien se ha presentado como su hermano, al que se creía muerto, es, en realidad un impostor que ha usurpado la identidad del hermano desaparecido.",
+     "vote_average": 7.1,
+     "genres": [
+      "Suspense",
+      "Misterio",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/scfM1yC2XEJu7DJjIDIBXL1WQu.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/bUib6ZZgQqzv8V2nJ6QzEgX8fGZ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bUib6ZZgQqzv8V2nJ6QzEgX8fGZ.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": ""
+    },
+    {
+     "id": 1464374,
+     "title": "Los Tigres",
+     "year": "2025",
+     "release_date": "2025-10-31",
+     "overview": "Antonio y Estrella son hermanos buzos. Él trabaja en obras marítimas, ella estudia la vida submarina y le asiste. Su precaria economía podría mejorar tras encontrar cocaína oculta en el casco de un barco fondeado en Huelva.",
+     "vote_average": 6.2,
+     "genres": [
       "Suspense",
       "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/6PCnxKZZIVRanWb710pNpYVkCSw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/tCQfubckzzcuCbsGugkpLhfjS5z.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/tCQfubckzzcuCbsGugkpLhfjS5z.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/etJ74W3D9ZdpIk67dRSmC0akhjm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ebrd6JoIAu7r8dCiI2Hze2DKGvv.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/ebrd6JoIAu7r8dCiI2Hze2DKGvv.jpg",
      "providers": [
       "Movistar Plus+",
       "Movistar Plus+ Ficción Total "
      ],
-     "trailer": "zgNOS5ofQhw"
+     "trailer": "xzSlunZIfPA"
+    },
+    {
+     "id": 38751,
+     "title": "The Man Who Cheated Himself",
+     "year": "1950",
+     "release_date": "1950-12-26",
+     "overview": "Ed es un policía de San Francisco que vive un idilio secreto con una mujer casada llamada Lois. Cuando Lois mata a su marido, Ed se ve forzado a ocultar el crimen, de modo que decide hacer creer que el muerto recibió un disparo durante un robo. Pero las cosas no serán tan sencillas.",
+     "vote_average": 6.2,
+     "genres": [
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/jJKWfhHjDaFGSNvRnXx0Xxehhls.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/w0w3wqNo9HqPKtH1OEhHoQt6six.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/dB8k9HiVa7G284TWntSUzGDWcHV.jpg",
+     "providers": [
+      "Artiflix"
+     ],
+     "trailer": "hxcLsOJFjUQ"
+    },
+    {
+     "id": 28663,
+     "title": "La fugitiva",
+     "year": "1950",
+     "release_date": "1950-11-10",
+     "overview": "Frank Johnson (Ross Elliott) es testigo de un asesinato mientras pasea una noche a su perro. El inspector Ferris (Robert Keith) le pide que declare ante el gran jurado, pero Frank decide huir. Su mujer, Eleanor (Ann Sheridan), que además piensa que en realidad huye de un matrimonio fracasado, obtiene la ayuda de un periodista, Danny Leggett (Dennis O'Keefe), para localizar a su marido. Pero ellos no son los únicos que le están buscando...",
+     "vote_average": 6.8,
+     "genres": [
+      "Suspense",
+      "Crimen",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6wp0FpyQvYVphtUSvANiCarawop.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "3Uck_n3b7gc"
+    },
+    {
+     "id": 613092,
+     "title": "El crack cero",
+     "year": "2019",
+     "release_date": "2019-10-04",
+     "overview": "Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/kzgPu2CMxBr4YZZxC1Off4cUfR9.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "nYcq_Dy-EWw"
+    },
+    {
+     "id": 26712,
+     "title": "Sin conciencia",
+     "year": "1951",
+     "release_date": "1951-02-24",
+     "overview": "Después de años de investigación, el ayudante del fiscal del distrito Martin Ferguson ha logrado construir una acusación sólida contra un escurridizo gangster cuyo principal lugarteniente está a punto de testificar.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/w3sW8NAO33Yxn1fzWPCA40S8wCr.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/34WzsXWrGjVKVD1C9zyB0bs5e6q.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/34WzsXWrGjVKVD1C9zyB0bs5e6q.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "tOpJGv9RLFU"
+    },
+    {
+     "id": 44902,
+     "title": "Pasos en la niebla",
+     "year": "1955",
+     "release_date": "1955-09-14",
+     "overview": "Inglaterra Victoriana, siglo XIX. Una chica bastante ambiciosa (Jean Simmons) trabaja como sirvienta en la sombría mansión de un inquietante aristócrata (Stewart Granger). Cuando la mujer de éste muere, la criada empieza a sospechar del señor y acaba chantajeándolo, a pesar de que con su actitud está corriendo un grave peligro.",
+     "vote_average": 7,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/2SuqVGEaRNitBjpSsXhIY2s8SPw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/in7cgT30mjG10Fnt18QleQhMZtW.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6ymykmdK2z04a8bD3jLmT4ZpjKv.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "kceqv4Yu1sU"
     }
    ]
   }
@@ -1892,7 +1887,7 @@
      "year": "2009",
      "release_date": "2009-02-05",
      "overview": "Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa aventura empieza a tomar un cariz peligroso, su otra madre intenta mantenerla a su lado para siempre. Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.",
-     "vote_average": 7.9,
+     "vote_average": 8,
      "genres": [
       "Animación",
       "Familia",
@@ -2056,12 +2051,9 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
      "providers": [
-      "Netflix",
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
-      "Netflix Standard with Ads",
-      "Tivify",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
@@ -2152,26 +2144,6 @@
      "trailer": "mC2gOyWuSEY"
     },
     {
-     "id": 1383731,
-     "title": "Instinto protector",
-     "year": "2026",
-     "release_date": "2026-02-20",
-     "overview": "La vida pacífica de Nikki, una exheroína de guerra, se ve destrozada cuando su hija es secuestrada. Inmersa en el submundo criminal mientras es perseguida por policías y militares, debe luchar para rescatar a su hija.",
-     "vote_average": 8.4,
-     "genres": [
-      "Acción",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xfyBQzFOixFzzOHHGr8HFnHR8Hm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "IRKGIuL3728"
-    },
-    {
      "id": 12493,
      "title": "El infierno del odio",
      "year": "1963",
@@ -2212,10 +2184,29 @@
      "providers": [
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
-      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "Z86bQ-Arguc"
+    },
+    {
+     "id": 1383731,
+     "title": "Instinto protector",
+     "year": "2026",
+     "release_date": "2026-02-20",
+     "overview": "La vida pacífica de Nikki, una exheroína de guerra, se ve destrozada cuando su hija es secuestrada. Inmersa en el submundo criminal mientras es perseguida por policías y militares, debe luchar para rescatar a su hija.",
+     "vote_average": 8.4,
+     "genres": [
+      "Acción",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xfyBQzFOixFzzOHHGr8HFnHR8Hm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "IRKGIuL3728"
     },
     {
      "id": 244786,
@@ -2316,7 +2307,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/mHG7dpLb0ZScSY3LpP443IHRmjy.jpg",
      "providers": [
       "Acontra Plus",
-      "Tivify",
       "Animebox Channel Amazon Channel"
      ],
      "trailer": "RS3fB6KLz8A"
@@ -2618,25 +2608,24 @@
      "trailer": "DHoXum3M9eE"
     },
     {
-     "id": 1375646,
-     "title": "Zona cero",
-     "year": "2026",
-     "release_date": "2026-05-21",
-     "overview": "El profesor Se-jeong es arrojado a una pesadilla cuando un  virus en rápida mutación se libera durante una conferencia de  biotecnología, lo que lleva a las autoridades a sellar las  instalaciones. Atrapado dentro sin escapatoria, Se-jeong, junto a un  pequeño grupo de supervivientes, debe luchar por mantenerse con vida  mientras los infectados sufren transformaciones horribles.",
+     "id": 11,
+     "title": "La guerra de las galaxias",
+     "year": "1977",
+     "release_date": "1977-05-25",
+     "overview": "La princesa Leia, líder del movimiento rebelde que desea reinstaurar la República en la galaxia en los tiempos ominosos del Imperio, es capturada por las malévolas Fuerzas Imperiales, capitaneadas por el implacable Darth Vader, el sirviente más fiel del emperador. El intrépido Luke Skywalker, ayudado por Han Solo, capitán de la nave espacial \"El Halcón Milenario\", y los androides, R2D2 y C3PO, serán los encargados de luchar contra el enemigo y rescatar a la princesa para volver a instaurar la justicia en el seno de la Galaxia.",
      "vote_average": 8.2,
      "genres": [
-      "Terror",
+      "Aventura",
       "Acción",
       "Ciencia ficción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/xGgRmpAVe1jmkZp5Z3SS4cKeMvp.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/4hOUzmButYUeON0prG3RpbqS7ag.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
      "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
+      "Disney Plus"
      ],
-     "trailer": "LW6dpj1uCK8"
+     "trailer": "beAH5vea99k"
     }
    ]
   },
@@ -2792,12 +2781,9 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
      "providers": [
-      "Netflix",
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
-      "Netflix Standard with Ads",
-      "Tivify",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
@@ -2819,11 +2805,9 @@
      "backdrop": "https://image.tmdb.org/t/p/w780/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/ctiw6FZK4N36LmkjSklWEbuvlq9.jpg",
      "providers": [
-      "Amazon Prime Video",
       "Disney Plus",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
-      "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
      "trailer": "h-9RYiqyqjk"
@@ -3477,6 +3461,29 @@
      "trailer": "oIZ4U21DRlM"
     },
     {
+     "id": 372058,
+     "title": "Your Name.",
+     "year": "2016",
+     "release_date": "2016-07-01",
+     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
+     "vote_average": 8.5,
+     "genres": [
+      "Animación",
+      "Romance",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Crunchyroll",
+      "Crunchyroll Amazon Channel",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "TYku4P7MHdo"
+    },
+    {
      "id": 157336,
      "title": "Interstellar",
      "year": "2014",
@@ -3501,29 +3508,6 @@
       "HBO Max Amazon Channel"
      ],
      "trailer": "UoSSbmD9vqc"
-    },
-    {
-     "id": 372058,
-     "title": "Your Name.",
-     "year": "2016",
-     "release_date": "2016-07-01",
-     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
-     "vote_average": 8.5,
-     "genres": [
-      "Animación",
-      "Romance",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Crunchyroll",
-      "Crunchyroll Amazon Channel",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "TYku4P7MHdo"
     },
     {
      "id": 496243,
@@ -3732,26 +3716,6 @@
     "trailer": "RcER0_lZ2F4"
    },
    {
-    "id": 9489,
-    "title": "Tienes un e-mail",
-    "year": "1998",
-    "release_date": "1998-12-18",
-    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "AKlhYZ-HqKs"
-   },
-   {
     "id": 1585,
     "title": "¡Qué bello es vivir!",
     "year": "1946",
@@ -3818,24 +3782,45 @@
     "trailer": "XXxC0Geijzs"
    },
    {
-    "id": 81188,
-    "title": "El origen de los guardianes",
-    "year": "2012",
-    "release_date": "2012-11-21",
-    "overview": "Una aventura épica y mágica que cuenta la historia de Santa Claus, el Conejo de Pascua, el Hada de los Dientes y Jack Escarcha; personajes legendarios con desconocidas habilidades extraordinarias. Cuando un espíritu maligno, conocido como Sombra, decide inundar de miedo los corazones de los niños, los Guardianes inmortales unen sus fuerzas para proteger los deseos, las creencias y la imaginación de los niños.",
-    "vote_average": 7.4,
+    "id": 9489,
+    "title": "Tienes un e-mail",
+    "year": "1998",
+    "release_date": "1998-12-18",
+    "overview": "Kathleen Kelly es la propietaria de una librería infantil, un verdadero tesoro cultural de uno de los barrios más esclusivos de Nueva York, y pasa largas noches aburridas junto a su novio Frank , un escritor frustrado que escribe columnas en el periódico. Lo único que apasiona a Kathleen es intercambiar mensajes de correo electrónico con un hombre del que sólo conoce su seudónimo.",
+    "vote_average": 6.7,
     "genres": [
-     "Acción",
-     "Aventura",
+     "Comedia",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/u0aWANS3eBRVxr2QWfdSYur4Q9y.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/9lYpkcO7WuruOXB2mn8ppC6Ecaq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/wdVM1soj2s9ixta8R7NDwoZA12Y.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "AKlhYZ-HqKs"
+   },
+   {
+    "id": 17979,
+    "title": "Cuento de Navidad",
+    "year": "2009",
+    "release_date": "2009-11-04",
+    "overview": "Ebenezer Scrooge es un personaje malhumorado y gruñón que trata con desprecio y malos modales a su fiel empleado Bob Cratchit y a su alegre sobrino. Pero, cuando el espíritu de las Navidades pasadas, presentes y futuras lo arrastra a un viaje durante el cual descubre verdades que siempre se ha negado a ver, el corazón del viejo avaro se ilumina y se da cuenta de que debe actuar inmediatamente para contrarrestar tantos años de egoísmo y rencor. Adaptación del clásico de Charles Dickens.",
+    "vote_average": 6.9,
+    "genres": [
      "Animación",
      "Familia",
-     "Fantasía"
+     "Fantasía",
+     "Drama"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/deTVL9lgx1yegoN4JXSdRcrVr6m.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/46IGtYNjpIvQYRIQlb2X493Wh8x.jpg",
-    "providers": [],
-    "trailer": "e4bdD8owgDU"
+    "poster": "https://image.tmdb.org/t/p/w342/meN97hs1BtmChq16NFhWxOI8och.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "j8jOwPbZ-W0"
    },
    {
     "id": 5825,
@@ -3854,28 +3839,26 @@
     "trailer": "tLVd4ipC5Lc"
    },
    {
-    "id": 508,
-    "title": "Love Actually",
+    "id": 10719,
+    "title": "Elf",
     "year": "2003",
-    "release_date": "2003-09-07",
-    "overview": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. 'Love Actually' es una manera abreviada de decir 'Love Actually Is All Around' y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor.",
-    "vote_average": 7.1,
+    "release_date": "2003-11-07",
+    "overview": "Una Nochebuena, en un orfanato, un bebé gatea dentro del saco de regalos de Santa Claus y acaba en el taller de éste en el Polo Norte. Aunque allí es adoptado y educado como un elfo, al crecer, se hace tres veces más grande que los habitantes de la región. Parece claro que nunca encajará en el mundo de los elfos; lo que necesita es encontrar a su verdadera familia. Con esta intención viaja a Nueva York, donde descubrirá que la vida no consiste sólo en patinar y comer dulces; así que vuelve a sentirse otra vez fuera lugar. Consigue, no obstante, encontrar a su padre, Walter, un editor de libros infantiles adicto al trabajo y al dinero que figura en la lista negra de Santa Claus. Buddy también encuentra a una nueva madre y descubre que su hermanastro de diez años no cree en los elfos ni en Santa Claus ni en las Navidades. En realidad todo el mundo parece haber olvidado el verdadero significado de la Navidad.",
+    "vote_average": 6.7,
     "genres": [
      "Comedia",
-     "Romance",
-     "Drama"
+     "Familia",
+     "Fantasía"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/5WtOVkLobHRf4RADiRTkF0js7sR.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/iJrvkckDP7MKfimogB6lNUfQRx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
     "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total ",
-     "Filmin",
-     "Amazon Prime Video with Ads"
+     "Netflix",
+     "Disney Plus",
+     "Netflix Standard with Ads"
     ],
-    "trailer": "r3mJrSA1x5s"
+    "trailer": "14o38xfHlXc"
    }
   ],
   "romance": [
