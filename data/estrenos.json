@@ -1,7 +1,24 @@
 {
- "actualizado": "2026-11-07T22:00:33.561Z",
+ "actualizado": "2026-11-08T06:19:47.310Z",
  "source": "tmdb",
  "now_playing": [
+  {
+   "id": 1058424,
+   "title": "Hope",
+   "release_date": "2026-10-30",
+   "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
+   "vote_average": 6.7,
+   "genres": [
+    "Ciencia ficción",
+    "Misterio",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/lkWqvj24NG3vEgu19ZQ9erG3Vj7.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/j96rurZqmBjyY37Fncl3IB0qJNe.jpg",
+   "providers": [],
+   "trailer": "OFaJzL83y0Q",
+   "fondo": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg"
+  },
   {
    "id": 791523,
    "title": "Wildwood: El Bosque Salvaje",
@@ -20,21 +37,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
-   "id": 1058424,
-   "title": "Hope",
-   "release_date": "2026-10-30",
-   "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
-   "vote_average": 6.8,
+   "id": 1381071,
+   "title": "Godzilla Minus Zero",
+   "release_date": "2026-11-06",
+   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
+   "vote_average": 8.2,
    "genres": [
     "Ciencia ficción",
-    "Misterio",
+    "Terror",
     "Acción"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/lkWqvj24NG3vEgu19ZQ9erG3Vj7.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/j96rurZqmBjyY37Fncl3IB0qJNe.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
    "providers": [],
-   "trailer": "OFaJzL83y0Q",
-   "fondo": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg"
+   "trailer": "E-Q2tEgJ1ZI",
+   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
   },
   {
    "id": 1283515,
@@ -53,28 +70,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg"
   },
   {
-   "id": 1381071,
-   "title": "Godzilla Minus Zero",
-   "release_date": "2026-11-06",
-   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 8.1,
-   "genres": [
-    "Ciencia ficción",
-    "Terror",
-    "Acción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/taoPyKQTXh0FSwO5rin8Djrt20C.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
-   "providers": [],
-   "trailer": "E-Q2tEgJ1ZI",
-   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
-  },
-  {
    "id": 656908,
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 7.6,
+   "vote_average": 7.8,
    "genres": [
     "Fantasía",
     "Acción",
@@ -152,27 +152,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg"
   },
   {
-   "id": 1503762,
-   "title": "Sentido y sensibilidad",
-   "release_date": "2026-10-23",
-   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.2,
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
-   "providers": [],
-   "trailer": "GMwdcpKOOyY",
-   "fondo": "https://image.tmdb.org/t/p/original/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg"
-  },
-  {
    "id": 1117898,
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7,
+   "vote_average": 7.2,
    "genres": [
     "Animación",
     "Fantasía",
@@ -185,6 +169,39 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg"
+  },
+  {
+   "id": 1503762,
+   "title": "Sentido y sensibilidad",
+   "release_date": "2026-10-23",
+   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
+   "vote_average": 7.3,
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+   "providers": [],
+   "trailer": "GMwdcpKOOyY",
+   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
+  },
+  {
+   "id": 1195803,
+   "title": "Wicker",
+   "release_date": "2026-10-30",
+   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+   "vote_average": 7.5,
+   "genres": [
+    "Romance",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+   "providers": [],
+   "trailer": "jA5zfiikcu8",
+   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
   },
   {
    "id": 1284046,
@@ -202,23 +219,6 @@
    "providers": [],
    "trailer": "AMLCbpM1fRQ",
    "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
-  },
-  {
-   "id": 1195803,
-   "title": "Wicker",
-   "release_date": "2026-10-30",
-   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.6,
-   "genres": [
-    "Romance",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
-   "providers": [],
-   "trailer": "jA5zfiikcu8",
-   "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
   },
   {
    "id": 1248832,
@@ -268,22 +268,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg"
   },
   {
-   "id": 1594914,
-   "title": "Lucky Strike",
-   "release_date": "2026-10-02",
-   "overview": "Un soldado estadounidense gravemente herido lucha por sobrevivir, durante la II Guerra Mundial, detrás de las líneas enemigas en la Bélgica devastada por la guerra durante la brutal Batalla de las Ardenas. Aislado y obligado a afrontar unas condiciones extremas, debe confiar en su ingenio, su entrenamiento militar y una radio dañada como su única esperanza para evadir a las tropas enemigas que lo buscan. Mientras enfrenta el peligro constante, su objetivo es desesperadamente restablecer contacto con su unidad antes de que sea demasiado tarde.",
-   "vote_average": 6.6,
-   "genres": [
-    "Bélica",
-    "Acción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/c4az2YuhUDmGTRYjsYdD3tFjwuG.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
-   "providers": [],
-   "trailer": "vtEnjikCXyA",
-   "fondo": "https://image.tmdb.org/t/p/original/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg"
-  },
-  {
    "id": 1477104,
    "title": "La oveja Shaun: Misión calabaza",
    "release_date": "2026-10-30",
@@ -300,6 +284,22 @@
    "providers": [],
    "trailer": "daZMq0AyOMc",
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
+  },
+  {
+   "id": 1594914,
+   "title": "Lucky Strike",
+   "release_date": "2026-10-02",
+   "overview": "Un soldado estadounidense gravemente herido lucha por sobrevivir, durante la II Guerra Mundial, detrás de las líneas enemigas en la Bélgica devastada por la guerra durante la brutal Batalla de las Ardenas. Aislado y obligado a afrontar unas condiciones extremas, debe confiar en su ingenio, su entrenamiento militar y una radio dañada como su única esperanza para evadir a las tropas enemigas que lo buscan. Mientras enfrenta el peligro constante, su objetivo es desesperadamente restablecer contacto con su unidad antes de que sea demasiado tarde.",
+   "vote_average": 6.6,
+   "genres": [
+    "Bélica",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/c4az2YuhUDmGTRYjsYdD3tFjwuG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg",
+   "providers": [],
+   "trailer": "vtEnjikCXyA",
+   "fondo": "https://image.tmdb.org/t/p/original/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg"
   },
   {
    "id": 1572116,
@@ -341,7 +341,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8.3,
+   "vote_average": 8.1,
    "genres": [
     "Comedia",
     "Crimen",

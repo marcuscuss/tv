@@ -1,8 +1,20 @@
 {
- "actualizado": "2026-11-07T22:00:23.988Z",
+ "actualizado": "2026-11-08T06:19:29.796Z",
  "user": "marcus_cus",
  "profile": "https://letterboxd.com/marcus_cus/",
  "diary": [
+  {
+   "title": "Clayface",
+   "year": "2026",
+   "rating": 3,
+   "watched": "2026-11-07",
+   "rewatch": false,
+   "liked": false,
+   "poster": "https://a.ltrbxd.com/resized/film-poster/1/2/8/4/6/3/6/1284636-clayface-0-300-0-450-crop.jpg?v=eb305849d5",
+   "tmdbId": 1400940,
+   "review": "",
+   "url": "https://letterboxd.com/marcus_cus/film/clayface/"
+  },
   {
    "title": "Backrooms",
    "year": "2026",
@@ -470,18 +482,6 @@
    "tmdbId": 1008409,
    "review": "",
    "url": "https://letterboxd.com/marcus_cus/film/the-bikeriders/"
-  },
-  {
-   "title": "How to Train Your Dragon",
-   "year": "2025",
-   "rating": 5,
-   "watched": "2025-06-25",
-   "rewatch": false,
-   "liked": false,
-   "poster": "https://a.ltrbxd.com/resized/film-poster/9/8/0/1/1/6/980116-how-to-train-your-dragon-2025-0-300-0-450-crop.jpg?v=0d82dfeab8",
-   "tmdbId": 1087192,
-   "review": "",
-   "url": "https://letterboxd.com/marcus_cus/film/how-to-train-your-dragon-2025/"
   }
  ],
  "lists": []
