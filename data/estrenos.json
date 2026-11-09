@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T06:53:23.552Z",
+ "actualizado": "2026-11-09T22:31:54.383Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -24,7 +24,7 @@
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
    "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 8,
+   "vote_average": 7.9,
    "genres": [
     "Ciencia ficción",
     "Terror",
@@ -91,7 +91,7 @@
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 7.5,
+   "vote_average": 7.8,
    "genres": [
     "Fantasía",
     "Acción",
@@ -101,7 +101,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
   },
   {
    "id": 1400940,
@@ -162,7 +162,8 @@
    "vote_average": 6.3,
    "genres": [
     "Acción",
-    "Fantasía"
+    "Fantasía",
+    "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
@@ -358,7 +359,7 @@
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 4,
+   "vote_average": 7,
    "genres": [
     "Fantasía",
     "Comedia"
@@ -380,7 +381,7 @@
     "Crimen",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/xghtLO90cQPybH85aw1C3bZ2P3.jpg",
    "providers": [],
    "trailer": "tKtg0S1rm2M",
@@ -397,23 +398,23 @@
     "Drama",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/gINcZnpbBboaT5cMYGJiWi6Og3Y.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/b2H3p1HnsA1oM79VbTPDsnstGcE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
    "providers": [],
-   "trailer": "GwSvAyaMGMo",
+   "trailer": "1RprmXBZOxk",
    "fondo": "https://image.tmdb.org/t/p/original/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg"
   },
   {
    "id": 1379486,
-   "title": "La psicopata",
+   "title": "Victorian Psycho",
    "release_date": "2026-11-13",
-   "overview": "Cuando Winifred Notty, una joven institutriz excéntrica, llega a una remota mansión gótica, una serie de sucesos inquietantes lleva a los habitantes de la casa a sospechar que no es quien dice ser; sin embargo, la verdad podría ser mucho más peligrosa de lo que imaginan.",
+   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
    "vote_average": 0,
    "genres": [
     "Terror",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/eknMIThHWZCxMzDAcUDk4rK2Wpc.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
    "providers": [],
    "trailer": "sDiFol_2j2I",
@@ -421,7 +422,7 @@
   },
   {
    "id": 1427833,
-   "title": "A Mouse Hunt for Christmas",
+   "title": "Ratones al ataque: Operación Navidad",
    "release_date": "2026-11-13",
    "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
    "vote_average": 6.5,
@@ -430,7 +431,7 @@
     "Animación",
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/6YyG8iqdc7FZfdZcpy0cDsKJiNw.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/tEpDFz33WclWa0c1rxLhqM2DNFE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
    "providers": [],
    "trailer": "",
@@ -469,21 +470,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/kkierrbus8z4QpsexmSg8QSKqak.jpg"
   },
   {
-   "id": 1736731,
-   "title": "Muguruza FM 40 Tour",
-   "release_date": "2026-11-13",
-   "overview": "Cuatro décadas después de subir por primera vez a un escenario, Fermin Muguruza se embarca en su última gira a gran escala: un viaje colectivo para celebrar 40 años de música, compromiso y resistencia cultural. Este documental musical capta el pulso de ese viaje: conciertos con el aforo completo, muchos kilómetros en la carretera, distintos encuentros a lo largo del camino y una energía compartida que ha trascendido generaciones, desde las bandas Kortatu y Negu Gorriak hasta su actual carrera en solitario.",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/8wtF8PKOLibEZsgKOvK1UMFTbpu.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "6U4AvYL6i4Y",
-   "fondo": ""
-  },
-  {
    "id": 1720175,
    "title": "The Violinist",
    "release_date": "2026-11-13",
@@ -497,6 +483,21 @@
    "backdrop": "",
    "providers": [],
    "trailer": "",
+   "fondo": ""
+  },
+  {
+   "id": 1736731,
+   "title": "Muguruza FM 40 Tour",
+   "release_date": "2026-11-13",
+   "overview": "Cuatro décadas después de subir por primera vez a un escenario, Fermin Muguruza se embarca en su última gira a gran escala: un viaje colectivo para celebrar 40 años de música, compromiso y resistencia cultural. Este documental musical capta el pulso de ese viaje: conciertos con el aforo completo, muchos kilómetros en la carretera, distintos encuentros a lo largo del camino y una energía compartida que ha trascendido generaciones, desde las bandas Kortatu y Negu Gorriak hasta su actual carrera en solitario.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8wtF8PKOLibEZsgKOvK1UMFTbpu.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "6U4AvYL6i4Y",
    "fondo": ""
   },
   {
