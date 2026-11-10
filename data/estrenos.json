@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T22:31:54.383Z",
+ "actualizado": "2026-11-10T07:30:07.590Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -24,7 +24,7 @@
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
    "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 7.9,
+   "vote_average": 8,
    "genres": [
     "Ciencia ficción",
     "Terror",
@@ -53,21 +53,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg"
   },
   {
-   "id": 791523,
-   "title": "Wildwood: El Bosque Salvaje",
-   "release_date": "2026-10-23",
-   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.5,
+   "id": 656908,
+   "title": "Ramayana: El Nacimiento de una Leyenda",
+   "release_date": "2026-11-06",
+   "overview": "",
+   "vote_average": 7.7,
    "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía"
+    "Fantasía",
+    "Acción",
+    "Aventura"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
    "providers": [],
-   "trailer": "qWX1ba0f-Qg",
-   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
+   "trailer": "tPf0_b026Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
   },
   {
    "id": 1244523,
@@ -87,21 +87,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
   },
   {
-   "id": 656908,
-   "title": "Ramayana: El Nacimiento de una Leyenda",
-   "release_date": "2026-11-06",
-   "overview": "",
-   "vote_average": 7.8,
+   "id": 791523,
+   "title": "Wildwood: El Bosque Salvaje",
+   "release_date": "2026-10-23",
+   "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
+   "vote_average": 8.5,
    "genres": [
-    "Fantasía",
-    "Acción",
-    "Aventura"
+    "Animación",
+    "Aventura",
+    "Fantasía"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
    "providers": [],
-   "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
+   "trailer": "qWX1ba0f-Qg",
+   "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
    "id": 1400940,
@@ -121,6 +121,25 @@
    "fondo": "https://image.tmdb.org/t/p/original/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg"
   },
   {
+   "id": 1117898,
+   "title": "El gato con sombrero",
+   "release_date": "2026-11-06",
+   "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
+   "vote_average": 7,
+   "genres": [
+    "Animación",
+    "Fantasía",
+    "Aventura",
+    "Familia",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+   "providers": [],
+   "trailer": "bRMu8S6FQ9c",
+   "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
+  },
+  {
    "id": 1400837,
    "title": "La otra madre",
    "release_date": "2026-10-09",
@@ -134,25 +153,6 @@
    "providers": [],
    "trailer": "ocV7K_B67lQ",
    "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
-  },
-  {
-   "id": 1117898,
-   "title": "El gato con sombrero",
-   "release_date": "2026-11-06",
-   "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7.1,
-   "genres": [
-    "Animación",
-    "Fantasía",
-    "Aventura",
-    "Familia",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
-   "providers": [],
-   "trailer": "bRMu8S6FQ9c",
-   "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
   },
   {
    "id": 1153576,
@@ -188,23 +188,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
-   "id": 1284046,
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
-   "genres": [
-    "Acción",
-    "Suspense",
-    "Terror"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-   "providers": [],
-   "trailer": "AMLCbpM1fRQ",
-   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
-  },
-  {
    "id": 1195803,
    "title": "Wicker",
    "release_date": "2026-10-30",
@@ -222,20 +205,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
   },
   {
-   "id": 1248832,
-   "title": "Digger",
-   "release_date": "2026-10-02",
-   "overview": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo.",
-   "vote_average": 7.5,
+   "id": 1284046,
+   "title": "Aniquilación",
+   "release_date": "2026-10-30",
+   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
+   "vote_average": 5.6,
    "genres": [
-    "Comedia",
-    "Drama"
+    "Acción",
+    "Suspense",
+    "Terror"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
    "providers": [],
-   "trailer": "xU2jWSsaWY0",
-   "fondo": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg"
+   "trailer": "AMLCbpM1fRQ",
+   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 1255833,
@@ -251,6 +235,22 @@
    "providers": [],
    "trailer": "5webTf9wplE",
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
+  },
+  {
+   "id": 1248832,
+   "title": "Digger",
+   "release_date": "2026-10-02",
+   "overview": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desencadenado lo destruya todo.",
+   "vote_average": 7.5,
+   "genres": [
+    "Comedia",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/koqE0V2IgIPVy5o2vVkoGJvnB8b.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+   "providers": [],
+   "trailer": "xU2jWSsaWY0",
+   "fondo": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg"
   },
   {
    "id": 1281331,
@@ -285,6 +285,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/uujYvxE9s6KY4SbBZ0ZFN3oBJhW.jpg"
   },
   {
+   "id": 1572116,
+   "title": "Monstruosa Mia",
+   "release_date": "2026-10-16",
+   "overview": "Mia, de 12 años, y su desaliñada rata mascota, Quentin, son enviadas a la misteriosa Academia Rotwood tras acumular demasiados problemas en la escuela. El nuevo colegio le pone los pelos de punta, ¡y Mia necesita encontrar la forma de escapar antes de que los alumnos se den cuenta de que ella no es un monstruo como ellos! Sin embargo, el subdirector Van Vlad siente una especial aversión por los humanos, y Mia teme que él haya descubierto su farsa...",
+   "vote_average": 7.7,
+   "genres": [
+    "Animación",
+    "Fantasía",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/mL3UwoaSdzBrXeCsIRnk4f49ibO.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
+   "providers": [],
+   "trailer": "CbqDABPksnw",
+   "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
+  },
+  {
    "id": 1477104,
    "title": "La oveja Shaun: Misión calabaza",
    "release_date": "2026-10-30",
@@ -301,23 +318,6 @@
    "providers": [],
    "trailer": "daZMq0AyOMc",
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
-  },
-  {
-   "id": 1572116,
-   "title": "Monstruosa Mia",
-   "release_date": "2026-10-16",
-   "overview": "Mia, de 12 años, y su desaliñada rata mascota, Quentin, son enviadas a la misteriosa Academia Rotwood tras acumular demasiados problemas en la escuela. El nuevo colegio le pone los pelos de punta, ¡y Mia necesita encontrar la forma de escapar antes de que los alumnos se den cuenta de que ella no es un monstruo como ellos! Sin embargo, el subdirector Van Vlad siente una especial aversión por los humanos, y Mia teme que él haya descubierto su farsa...",
-   "vote_average": 7.7,
-   "genres": [
-    "Animación",
-    "Fantasía",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/mL3UwoaSdzBrXeCsIRnk4f49ibO.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
-   "providers": [],
-   "trailer": "CbqDABPksnw",
-   "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
    "id": 1564614,
@@ -359,7 +359,7 @@
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 7,
+   "vote_average": 8.2,
    "genres": [
     "Fantasía",
     "Comedia"
@@ -385,7 +385,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/xghtLO90cQPybH85aw1C3bZ2P3.jpg",
    "providers": [],
    "trailer": "tKtg0S1rm2M",
-   "fondo": "https://image.tmdb.org/t/p/original/xghtLO90cQPybH85aw1C3bZ2P3.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/8n8IiMO96sdB6sFfL0WyfRXsdJc.jpg"
   },
   {
    "id": 1124142,
@@ -418,7 +418,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
    "providers": [],
    "trailer": "sDiFol_2j2I",
-   "fondo": "https://image.tmdb.org/t/p/original/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
   },
   {
    "id": 1427833,

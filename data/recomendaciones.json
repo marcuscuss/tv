@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-09T22:32:28.695Z",
+ "actualizado": "2026-11-10T07:30:26.347Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -374,29 +374,6 @@
      "trailer": "G4ZV8qfskfA"
     },
     {
-     "id": 580489,
-     "title": "Venom: habrá matanza",
-     "year": "2021",
-     "release_date": "2021-09-30",
-     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
-     "vote_average": 6.7,
-     "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Disney Plus",
-      "Tivify",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "hbfadtw-fjs"
-    },
-    {
      "id": 271110,
      "title": "Capitán América: Civil War",
      "year": "2016",
@@ -604,6 +581,30 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
+    },
+    {
+     "id": 1452,
+     "title": "Superman Returns",
+     "year": "2006",
+     "release_date": "2006-06-28",
+     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
+     "vote_average": 5.8,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Standard with Ads",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -1026,21 +1027,21 @@
      "trailer": "VJICFO4lbtQ"
     },
     {
-     "id": 9357,
-     "title": "Retratos de una obsesión",
+     "id": 1429,
+     "title": "La última noche",
      "year": "2002",
-     "release_date": "2002-08-21",
-     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
-     "vote_average": 6.7,
+     "release_date": "2002-12-19",
+     "overview": "Empieza la cuenta atrás: Monty Brogan está a punto de perder la libertad. En tan sólo 24 horas deberá entrar en prisión, donde pasará siete interminables años. Monty, el que fue en su día el rey de Manhattan, tendrá que decir adiós a las luces de los flashes, a sus sueños de grandeza y al único tren de vida que conoce, una vida que le abrió las puertas de los clubes más elegantes de Nueva York pero que también lo alejó de las personas que más lo querían.",
+     "vote_average": 7.3,
      "genres": [
-      "Drama",
-      "Suspense"
+      "Crimen",
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/9rSCPAEJ35BK5YbK5Asr0JkjB5n.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
      "providers": [],
-     "trailer": "eWzILZ6wE9Y"
+     "trailer": "5TBu6e1IC_0"
     },
     {
      "id": 471506,
@@ -1061,21 +1062,21 @@
      "trailer": "9sLHK4ccHGQ"
     },
     {
-     "id": 1429,
-     "title": "La última noche",
+     "id": 9357,
+     "title": "Retratos de una obsesión",
      "year": "2002",
-     "release_date": "2002-12-19",
-     "overview": "Empieza la cuenta atrás: Monty Brogan está a punto de perder la libertad. En tan sólo 24 horas deberá entrar en prisión, donde pasará siete interminables años. Monty, el que fue en su día el rey de Manhattan, tendrá que decir adiós a las luces de los flashes, a sus sueños de grandeza y al único tren de vida que conoce, una vida que le abrió las puertas de los clubes más elegantes de Nueva York pero que también lo alejó de las personas que más lo querían.",
-     "vote_average": 7.3,
+     "release_date": "2002-08-21",
+     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
+     "vote_average": 6.7,
      "genres": [
-      "Crimen",
-      "Drama"
+      "Drama",
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/9rSCPAEJ35BK5YbK5Asr0JkjB5n.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
      "providers": [],
-     "trailer": "5TBu6e1IC_0"
+     "trailer": "eWzILZ6wE9Y"
     },
     {
      "id": 235271,
@@ -1665,7 +1666,7 @@
      "year": "2019",
      "release_date": "2019-12-05",
      "overview": "En esta continuación de El guardián invisible Amaia Salazar, inspectora de homicidios de la Policía Foral, tendrá que seguir los pasos de un tarttalo (un ser que según la mitología local caza pastores y doncellas) a la vez que descubre por primera vez lo que implica la maternidad. Pero ni siquiera el nacimiento de su primer hijo hace que se alejen los fantasmas del pasado, esos que creía exiliados a otro mundo…",
-     "vote_average": 6.6,
+     "vote_average": 6.5,
      "genres": [
       "Suspense",
       "Crimen",
