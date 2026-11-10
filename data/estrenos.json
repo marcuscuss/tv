@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T07:30:07.590Z",
+ "actualizado": "2026-11-10T19:52:05.813Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -57,14 +57,14 @@
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "",
-   "vote_average": 7.7,
+   "vote_average": 7.5,
    "genres": [
     "Fantasía",
     "Acción",
     "Aventura"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
    "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
@@ -74,7 +74,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.2,
+   "vote_average": 6.3,
    "genres": [
     "Terror",
     "Suspense",
@@ -273,7 +273,7 @@
    "title": "Lucky Strike",
    "release_date": "2026-10-02",
    "overview": "Un soldado estadounidense gravemente herido lucha por sobrevivir, durante la II Guerra Mundial, detrás de las líneas enemigas en la Bélgica devastada por la guerra durante la brutal Batalla de las Ardenas. Aislado y obligado a afrontar unas condiciones extremas, debe confiar en su ingenio, su entrenamiento militar y una radio dañada como su única esperanza para evadir a las tropas enemigas que lo buscan. Mientras enfrenta el peligro constante, su objetivo es desesperadamente restablecer contacto con su unidad antes de que sea demasiado tarde.",
-   "vote_average": 6.6,
+   "vote_average": 6.4,
    "genres": [
     "Bélica",
     "Acción"
@@ -359,30 +359,30 @@
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 8.2,
+   "vote_average": 8.6,
    "genres": [
     "Fantasía",
     "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
    "providers": [],
    "trailer": "l_Ozo1xUgbU",
-   "fondo": "https://image.tmdb.org/t/p/original/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg"
   },
   {
    "id": 1437511,
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 8,
+   "vote_average": 9,
    "genres": [
     "Acción",
     "Crimen",
     "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xghtLO90cQPybH85aw1C3bZ2P3.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/8n8IiMO96sdB6sFfL0WyfRXsdJc.jpg",
    "providers": [],
    "trailer": "tKtg0S1rm2M",
    "fondo": "https://image.tmdb.org/t/p/original/8n8IiMO96sdB6sFfL0WyfRXsdJc.jpg"
@@ -392,7 +392,7 @@
    "title": "Los rivales de Amziah King",
    "release_date": "2026-11-13",
    "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
-   "vote_average": 6.8,
+   "vote_average": 6.7,
    "genres": [
     "Crimen",
     "Drama",
@@ -415,7 +415,7 @@
     "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/92FSzMpBSkMH59ZCDz9tUjIWKAS.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
    "providers": [],
    "trailer": "sDiFol_2j2I",
    "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
@@ -455,6 +455,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/A8hw3Crc3kUTFAtaJMfXK62yeaP.jpg"
   },
   {
+   "id": 748681,
+   "title": "El violinista",
+   "release_date": "2026-11-13",
+   "overview": "Nos encontramos en Singapur, a finales de la década de 1930. Kai y Fei son amigos de la infancia y aspirantes a violinistas. Cuando Japón invade Malaya en 1941, Kai decide renunciar a su carrera musical para unirse a las fuerzas antijaponesas. Tras la guerra, Kai desaparece. Decidida a encontrarlo, Fei actúa por todo el Sudeste Asiático mientras busca cualquier noticia sobre él. Sin embargo, a medida que pasa el tiempo, Fei debe decidir si ha de encontrar su propia música para definir los años que le quedan de vida.",
+   "vote_average": 0,
+   "genres": [
+    "Animación",
+    "Drama",
+    "Música"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/eS83uVLN6OAH5ZLrUPyoWDVXI2b.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/cM880xhKvr8vp7nfacFi8g6wWkG.jpg",
+   "providers": [],
+   "trailer": "38fqIdZ4aZM",
+   "fondo": "https://image.tmdb.org/t/p/original/cM880xhKvr8vp7nfacFi8g6wWkG.jpg"
+  },
+  {
    "id": 1506401,
    "title": "El niño",
    "release_date": "2026-11-13",
@@ -468,22 +485,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/kkierrbus8z4QpsexmSg8QSKqak.jpg"
-  },
-  {
-   "id": 1720175,
-   "title": "The Violinist",
-   "release_date": "2026-11-13",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Drama",
-    "Música"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/tt8GZ35a4MYDWjqD0jJl50ChK9o.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
   },
   {
    "id": 1736731,
@@ -501,19 +502,20 @@
    "fondo": ""
   },
   {
-   "id": 1812576,
-   "title": "Nininbaori",
-   "release_date": "2026-11-14",
+   "id": 1720175,
+   "title": "The Violinist",
+   "release_date": "2026-11-13",
    "overview": "",
    "vote_average": 0,
    "genres": [
-    "Documental"
+    "Drama",
+    "Música"
    ],
-   "poster": "",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ovhR7tmXhG3rxuUXcatGKpfS1Zr.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/tt8GZ35a4MYDWjqD0jJl50ChK9o.jpg",
+   "backdrop": "",
    "providers": [],
-   "trailer": "wlI3P6sRwBY",
-   "fondo": "https://image.tmdb.org/t/p/original/ovhR7tmXhG3rxuUXcatGKpfS1Zr.jpg"
+   "trailer": "",
+   "fondo": ""
   },
   {
    "id": 1232569,
@@ -568,7 +570,7 @@
   },
   {
    "id": 1308767,
-   "title": "Young Washington",
+   "title": "Washington. El origen de un líder",
    "release_date": "2026-11-20",
    "overview": "Antes de liderar una nación, George Washington era un joven soldado en un conflicto global. Con alianzas desmoronándose y la guerra acercándose, debe elegir en quién confiar y enfrentar al líder en que se está convirtiendo.",
    "vote_average": 7.7,
@@ -577,10 +579,10 @@
     "Bélica",
     "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/sOglmM6VNC3qKQl7FKYRqQYj7Jq.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/kp3TpqkiDgRkLSJgrnWdGXGl7hD.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
    "providers": [],
-   "trailer": "LJek-kc384w",
+   "trailer": "Kg5m2Kplm1A",
    "fondo": "https://image.tmdb.org/t/p/original/mj3RFamNUleZB94zMWgGnJkQCAH.jpg"
   },
   {
@@ -621,15 +623,15 @@
    "id": 1437939,
    "title": "Ooh la la! ¿Quién lo hubiera pensado?",
    "release_date": "2026-11-20",
-   "overview": "",
+   "overview": "Tras descubrir la verdad sobre sus orígenes gracias a unas pruebas de ADN con resultados bastante sorprendentes, las familias Bouvier-Sauvage y Martin deciden hacer las paces para poder planear la boda de sus hijos. Pero no contaban con un acontecimiento inesperado: un primo de Frédéric aparece gracias a las pruebas, revelando que los resultados eran erróneos. ¡Las dos familias están a punto de descubrir que sus antepasados les tienen reservadas más sorpresas!",
    "vote_average": 5.3,
    "genres": [
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/3eZwrYd90t5kHLHfS0zxPWH1tWl.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/fVztyvgDbR8cjlend1dUCNM4Ygx.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/4dN9kXTNqvssrbF81viFoPnW2pt.jpg",
    "providers": [],
-   "trailer": "cIlv1HQAc14",
+   "trailer": "Sumh9b7bAGQ",
    "fondo": "https://image.tmdb.org/t/p/original/4dN9kXTNqvssrbF81viFoPnW2pt.jpg"
   },
   {
