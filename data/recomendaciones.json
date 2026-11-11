@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T19:52:22.282Z",
+ "actualizado": "2026-11-11T06:47:15.553Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -315,7 +315,7 @@
       "Aventura",
       "Ciencia ficción"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/accAPImdjUwgNgocDNWXCGFEcvL.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/wngeV2SQk9UllOqZLaBbq16wpy5.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
      "providers": [
@@ -1201,6 +1201,28 @@
      "trailer": "S2PqjYSirus"
     },
     {
+     "id": 20482,
+     "title": "La ciudad desnuda",
+     "year": "1948",
+     "release_date": "1948-03-04",
+     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
+     "vote_average": 7.2,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "-RN_BvyNpS8"
+    },
+    {
      "id": 242582,
      "title": "Nightcrawler",
      "year": "2014",
@@ -1259,28 +1281,6 @@
      "trailer": "eU8ox73SWKY"
     },
     {
-     "id": 8066,
-     "title": "Tránsito",
-     "year": "2005",
-     "release_date": "2005-09-24",
-     "overview": "Henry (Ryan Gosling), un joven mentalmente perturbado, le anuncia a Sam Forster, su psiquiatra (Ewan McGregor), que piensa suicidarse en un plazo de tres días, cosa que el psiquiatra intentará evitar. Por su parte, Henry se dedica a enturbiar la relación de Sam con su novia Lila (Naomi Watts), pintora y antigua paciente suya. Poco a poco, la sólida y arraigada racionalidad de Sam empieza a tambalearse. Sometido a situaciones cada vez más surrealistas, llega un momento en que ya no puede distinguir entre realidad y ficción, y su yo y el de Henry se confunden.",
-     "vote_average": 6.6,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eUNQJ0XKHoGDDQzj1Y4WhE5zAFJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/5qNhPotZXSVh00Mo2Z954tYXFXg.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Tivify",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "wQs35Rka34A"
-    },
-    {
      "id": 396461,
      "title": "Lo que esconde Silver Lake",
      "year": "2018",
@@ -1324,6 +1324,49 @@
      "trailer": "dgWfyFgEsO8"
     },
     {
+     "id": 8066,
+     "title": "Tránsito",
+     "year": "2005",
+     "release_date": "2005-09-24",
+     "overview": "Henry (Ryan Gosling), un joven mentalmente perturbado, le anuncia a Sam Forster, su psiquiatra (Ewan McGregor), que piensa suicidarse en un plazo de tres días, cosa que el psiquiatra intentará evitar. Por su parte, Henry se dedica a enturbiar la relación de Sam con su novia Lila (Naomi Watts), pintora y antigua paciente suya. Poco a poco, la sólida y arraigada racionalidad de Sam empieza a tambalearse. Sometido a situaciones cada vez más surrealistas, llega un momento en que ya no puede distinguir entre realidad y ficción, y su yo y el de Henry se confunden.",
+     "vote_average": 6.6,
+     "genres": [
+      "Misterio",
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eUNQJ0XKHoGDDQzj1Y4WhE5zAFJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/5qNhPotZXSVh00Mo2Z954tYXFXg.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "wQs35Rka34A"
+    },
+    {
+     "id": 66113,
+     "title": "Una chica perfecta",
+     "year": "2009",
+     "release_date": "2009-03-14",
+     "overview": "La historía del macabro asesinato de una niña Australiana de 15 años que desapareció de un día para otro, y más tarde se descubrió que había sido la niñeria quién la mato.",
+     "vote_average": 6,
+     "genres": [
+      "Drama",
+      "Suspense",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/esMWBFRQKazSK6tyA7J82wqCbTw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
+     "providers": [
+      "Acontra Plus",
+      "Acontra Plus Amazon Channel"
+     ],
+     "trailer": "moqWW9plOtQ"
+    },
+    {
      "id": 1052,
      "title": "Blow-Up",
      "year": "1966",
@@ -1342,24 +1385,6 @@
       "Filmin"
      ],
      "trailer": "PRENEOHlcbw"
-    },
-    {
-     "id": 11761,
-     "title": "El misterio de Peacock",
-     "year": "2010",
-     "release_date": "2010-04-20",
-     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
-     "providers": [],
-     "trailer": "NPEzcAG4E5s"
     },
     {
      "id": 11507,
@@ -1382,47 +1407,22 @@
      "trailer": "UuQN3rTi27I"
     },
     {
-     "id": 398181,
-     "title": "En realidad, nunca estuviste aquí",
-     "year": "2017",
-     "release_date": "2017-11-08",
-     "overview": "Joe, ex marine y antiguo veterano de guerra, es un tipo solitario que dedica su tiempo a intentar salvar a mujeres que son explotadas sexualmente. No se permite ni amigos ni amantes y se gana la vida rescatando jóvenes de las garras de los tratantes de blancas. Un día recibe la llamada de un político porque su hija ha sido secuestrada.",
-     "vote_average": 6.5,
+     "id": 11761,
+     "title": "El misterio de Peacock",
+     "year": "2010",
+     "release_date": "2010-04-20",
+     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
+     "vote_average": 6.1,
      "genres": [
-      "Crimen",
       "Drama",
+      "Misterio",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/505AFHvK3BoHC2zwWXBWkevRTYF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "fQyDaGWQ43w"
-    },
-    {
-     "id": 66113,
-     "title": "Una chica perfecta",
-     "year": "2009",
-     "release_date": "2009-03-14",
-     "overview": "La historía del macabro asesinato de una niña Australiana de 15 años que desapareció de un día para otro, y más tarde se descubrió que había sido la niñeria quién la mato.",
-     "vote_average": 6,
-     "genres": [
-      "Drama",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/esMWBFRQKazSK6tyA7J82wqCbTw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
-     "providers": [
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "moqWW9plOtQ"
+     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "providers": [],
+     "trailer": "NPEzcAG4E5s"
     }
    ]
   },
@@ -1705,7 +1705,7 @@
      "year": "2026",
      "release_date": "2026-08-21",
      "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
-     "vote_average": 8.8,
+     "vote_average": 8.7,
      "genres": [
       "Crimen",
       "Acción",
@@ -2026,7 +2026,7 @@
      "year": "2026",
      "release_date": "2026-08-21",
      "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
-     "vote_average": 8.8,
+     "vote_average": 8.7,
      "genres": [
       "Crimen",
       "Acción",
@@ -2714,7 +2714,7 @@
      "year": "2026",
      "release_date": "2026-08-21",
      "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
-     "vote_average": 8.8,
+     "vote_average": 8.7,
      "genres": [
       "Crimen",
       "Acción",
@@ -4159,8 +4159,8 @@
     "Ciencia ficción"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
-   "fondo": "https://image.tmdb.org/t/p/original/uL4cIrNi2uaUnWIOQQ28EVnkETG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/VnT9D7NogVWrmN2UuT30exIYPh.jpg",
+   "fondo": "https://image.tmdb.org/t/p/original/VnT9D7NogVWrmN2UuT30exIYPh.jpg",
    "providers": [],
    "trailer": "WGOv9Pzh9cE",
    "rating": 3,
