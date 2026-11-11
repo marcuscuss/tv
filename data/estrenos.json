@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T06:46:55.742Z",
+ "actualizado": "2026-11-11T19:43:50.593Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -41,7 +41,7 @@
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
-   "vote_average": 7.6,
+   "vote_average": 7.8,
    "genres": [
     "Fantasía",
     "Acción",
@@ -75,7 +75,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.8,
+   "vote_average": 5.7,
    "genres": [
     "Terror"
    ],
@@ -124,7 +124,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7.2,
+   "vote_average": 7.3,
    "genres": [
     "Animación",
     "Fantasía",
@@ -146,8 +146,7 @@
    "vote_average": 6.3,
    "genres": [
     "Acción",
-    "Fantasía",
-    "Comedia"
+    "Fantasía"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
@@ -309,7 +308,7 @@
    "title": "El árbol muy muy lejano",
    "release_date": "2026-10-09",
    "overview": "Polly, Tim, y sus tres hijos son una familia moderna que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico y a sus extraordinarios y excéntricos habitantes.",
-   "vote_average": 6.7,
+   "vote_average": 6.8,
    "genres": [
     "Aventura",
     "Familia",
@@ -341,123 +340,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 891621,
-   "title": "Wild Horse Nine",
-   "release_date": "2026-11-13",
-   "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8.1,
-   "genres": [
-    "Comedia",
-    "Crimen",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bLDrHn76oiNYiELv1qw3Tfdkqc8.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
-   "providers": [],
-   "trailer": "kqxuamKxRTo",
-   "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
-  },
-  {
-   "id": 1567605,
-   "title": "Scrooge y los fantasmas de la Navidad",
-   "release_date": "2026-11-13",
-   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 8.6,
-   "genres": [
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
-   "providers": [],
-   "trailer": "l_Ozo1xUgbU",
-   "fondo": "https://image.tmdb.org/t/p/original/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg"
-  },
-  {
-   "id": 1437511,
-   "title": "Como robar un banco",
-   "release_date": "2026-11-13",
-   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 9,
-   "genres": [
-    "Acción",
-    "Crimen",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/8n8IiMO96sdB6sFfL0WyfRXsdJc.jpg",
-   "providers": [],
-   "trailer": "tKtg0S1rm2M",
-   "fondo": "https://image.tmdb.org/t/p/original/8n8IiMO96sdB6sFfL0WyfRXsdJc.jpg"
-  },
-  {
-   "id": 1124142,
-   "title": "Los rivales de Amziah King",
-   "release_date": "2026-11-13",
-   "overview": "En lo más profundo de los bosques de la Oklahoma rural, el carismático y musicalmente dotado Amziah King lidera una banda de inadaptados que tocan bluegrass mientras supervisa la principal operación de fabricación de miel del pueblo. Cuando la hija adoptiva de Amziah, Kateri, regresa inesperadamente, él trata de renovar su conexión y crear un negocio familiar. Pero el juego de la miel es despiadado, y los rivales de Amziah amenazan con destruir todo lo que ha construido.",
-   "vote_average": 6.7,
-   "genres": [
-    "Crimen",
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/b2H3p1HnsA1oM79VbTPDsnstGcE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/nBSlvQrDX60rmngwcxMeMq33I9m.jpg",
-   "providers": [],
-   "trailer": "1RprmXBZOxk",
-   "fondo": "https://image.tmdb.org/t/p/original/sUPFV7bilTqMRILfbUgpbV4Aj9n.jpg"
-  },
-  {
-   "id": 1379486,
-   "title": "Victorian Psycho",
-   "release_date": "2026-11-13",
-   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
-   "vote_average": 0,
-   "genres": [
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
-   "providers": [],
-   "trailer": "sDiFol_2j2I",
-   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
-  },
-  {
-   "id": 1427833,
-   "title": "Ratones al ataque: Operación Navidad",
-   "release_date": "2026-11-13",
-   "overview": "Una familia acude a la casa abandonada de su tía para celebrar la Navidad en el campo, sin saber que una familia de ratones ya habita la casa, y no les interesan las visitas. Así que sólo queda una cosa por hacer: poner trampas, estar atentos y defenderse.",
-   "vote_average": 6.5,
-   "genres": [
-    "Familia",
-    "Animación",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/tEpDFz33WclWa0c1rxLhqM2DNFE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/eDPV9s2FzDPzy7ThjNQv7D7MijG.jpg"
-  },
-  {
-   "id": 13534,
-   "title": "Cómo robar un banco",
-   "release_date": "2026-11-13",
-   "overview": "Cuando un atracador roba un banco, una de las empleadas del mismo se convertirá en una pieza crucial de la situación...",
-   "vote_average": 5.8,
-   "genres": [
-    "Acción",
-    "Comedia",
-    "Crimen"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/31pWUvnGn8ldxj4O95UuH1SOtLm.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/A8hw3Crc3kUTFAtaJMfXK62yeaP.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/A8hw3Crc3kUTFAtaJMfXK62yeaP.jpg"
-  },
   {
    "id": 1232569,
    "title": "Pinocho: Desatado",
@@ -544,6 +426,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg"
   },
   {
+   "id": 1437939,
+   "title": "Ooh la la! ¿Quién lo hubiera pensado?",
+   "release_date": "2026-11-20",
+   "overview": "Tras descubrir la verdad sobre sus orígenes gracias a unas pruebas de ADN con resultados bastante sorprendentes, las familias Bouvier-Sauvage y Martin deciden hacer las paces para poder planear la boda de sus hijos. Pero no contaban con un acontecimiento inesperado: un primo de Frédéric aparece gracias a las pruebas, revelando que los resultados eran erróneos. ¡Las dos familias están a punto de descubrir que sus antepasados les tienen reservadas más sorpresas!",
+   "vote_average": 5.3,
+   "genres": [
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/fVztyvgDbR8cjlend1dUCNM4Ygx.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/4dN9kXTNqvssrbF81viFoPnW2pt.jpg",
+   "providers": [],
+   "trailer": "Sumh9b7bAGQ",
+   "fondo": "https://image.tmdb.org/t/p/original/4dN9kXTNqvssrbF81viFoPnW2pt.jpg"
+  },
+  {
    "id": 947493,
    "title": "Chico de hierro",
    "release_date": "2026-11-20",
@@ -561,19 +458,19 @@
    "fondo": "https://image.tmdb.org/t/p/original/qMryViRTIek9SkkOPjNMfnbCuI6.jpg"
   },
   {
-   "id": 1437939,
-   "title": "Ooh la la! ¿Quién lo hubiera pensado?",
+   "id": 1578646,
+   "title": "Scavenger",
    "release_date": "2026-11-20",
-   "overview": "Tras descubrir la verdad sobre sus orígenes gracias a unas pruebas de ADN con resultados bastante sorprendentes, las familias Bouvier-Sauvage y Martin deciden hacer las paces para poder planear la boda de sus hijos. Pero no contaban con un acontecimiento inesperado: un primo de Frédéric aparece gracias a las pruebas, revelando que los resultados eran erróneos. ¡Las dos familias están a punto de descubrir que sus antepasados les tienen reservadas más sorpresas!",
-   "vote_average": 5.3,
+   "overview": "",
+   "vote_average": 0,
    "genres": [
-    "Comedia"
+    "Ciencia ficción"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/fVztyvgDbR8cjlend1dUCNM4Ygx.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/4dN9kXTNqvssrbF81viFoPnW2pt.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/bP6aQWLNigK06TYxyrtHwS63ruo.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/icdSfduEYHfXSlGq0V62zmnsE1m.jpg",
    "providers": [],
-   "trailer": "Sumh9b7bAGQ",
-   "fondo": "https://image.tmdb.org/t/p/original/4dN9kXTNqvssrbF81viFoPnW2pt.jpg"
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/icdSfduEYHfXSlGq0V62zmnsE1m.jpg"
   },
   {
    "id": 1736705,
@@ -636,34 +533,135 @@
    "fondo": "https://image.tmdb.org/t/p/original/tfKxQPWug4QP978YilUK1CRFjY8.jpg"
   },
   {
-   "id": 1819740,
-   "title": "Neska bat desagertu da",
+   "id": 1819751,
+   "title": "Guretako eztia",
    "release_date": "2026-11-22",
    "overview": "",
    "vote_average": 0,
    "genres": [
-    "Drama"
+    "Documental"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/bLGQnV92cX9IgNMJdJtLxqcWJWe.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/fIC1u7S1c3ugwEnIV5QY1JVcuCk.jpg",
    "backdrop": "",
    "providers": [],
    "trailer": "",
    "fondo": ""
   },
   {
-   "id": 1821937,
-   "title": "Más allá del más allá",
+   "id": 1819753,
+   "title": "Bitartean, gero",
    "release_date": "2026-11-23",
-   "overview": "Tras sufrir la pérdida de su pareja, David deambula por la ciudad desolado y sin rumbo. Cuando por casualidad se encuentra con un local de esoterismos, decide entrar para que le hagan una lectura de cartas de tarot. Después de echarle las cartas, la tarotista le da a un papel con unas instrucciones; hacer un ritual y acercarse al cementerio al caer la noche. Cuando David llega y la desesperación le acompaña, una aparición espectral le reconforta.",
+   "overview": "",
    "vote_average": 0,
    "genres": [
     "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/vRzzPkBwLMruI5IAAqpGr4KsTdX.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/aKKSTUQ6O8hRSgrZa90YdGR9hiH.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/oVCFnGgCKmVopArRCdvvDsDyd4Z.jpg",
+   "backdrop": "",
    "providers": [],
    "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/aKKSTUQ6O8hRSgrZa90YdGR9hiH.jpg"
+   "fondo": ""
+  },
+  {
+   "id": 1714083,
+   "title": "High River",
+   "release_date": "2026-11-24",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/zJyAmJGIEG4l4utao1wgoxVtqhj.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
+  },
+  {
+   "id": 822653,
+   "title": "Mahou Shoujo Madoka Magica: Walpurgisnacht Rising",
+   "release_date": "2026-11-27",
+   "overview": "Tras los sucesos de *Rebellion*, el mundo parece estar en equilibrio, pero esa paz es frágil. Al surgir una nueva amenaza vinculada a la Noche de Walpurgis, Homura Akemi se ve obligada a afrontar las consecuencias de sus decisiones y a cuestionarse hasta dónde está dispuesta a llegar para proteger a Madoka.",
+   "vote_average": 8,
+   "genres": [
+    "Animación",
+    "Drama",
+    "Misterio",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/tc7wW6whJSvxM9f5RdqmQVpdl6n.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xzm3RfWh932rS28WErNC3u8qzVm.jpg",
+   "providers": [],
+   "trailer": "rSe4mqP1Mj0",
+   "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
+  },
+  {
+   "id": 1538497,
+   "title": "Hechizo: Bienvenidos a Hexe",
+   "release_date": "2026-11-27",
+   "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
+   "vote_average": 0,
+   "genres": [
+    "Aventura",
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg",
+   "providers": [],
+   "trailer": "wkr5TpxKOTw",
+   "fondo": "https://image.tmdb.org/t/p/original/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg"
+  },
+  {
+   "id": 1400336,
+   "title": "Ahora los suegros son ellos",
+   "release_date": "2026-11-27",
+   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
+   "vote_average": 0,
+   "genres": [
+    "Comedia",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "providers": [],
+   "trailer": "j0MROuSV-pA",
+   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
+  },
+  {
+   "id": 1457866,
+   "title": "Las nuevas desventuras de Cliff Booth",
+   "release_date": "2026-11-27",
+   "overview": "Ocho años después de los eventos de \"Érase una vez en... Hollywood\", Cliff Booth regresa a un Los Ángeles cambiante. Ahora trabajando como \"fixer\" en las sombras del sistema de estudios de Hollywood, Cliff se verá envuelto en una peligrosa red de secretos, crímenes y traiciones que pondrán a prueba todo lo que conoce sobre lealtad y supervivencia.",
+   "vote_average": 0,
+   "genres": [
+    "Comedia",
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5jO6rhfethzH7xdWl6KCOxCNCzQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg",
+   "providers": [],
+   "trailer": "fJH-wfSXnWg",
+   "fondo": "https://image.tmdb.org/t/p/original/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg"
+  },
+  {
+   "id": 1472813,
+   "title": "Diario de una camarera",
+   "release_date": "2026-11-27",
+   "overview": "Gianina, una joven rumana, trabaja como empleada doméstica para una familia burguesa en Burdeos. Por las noches, ensaya el papel de criada con un grupo de teatro aficionado en una adaptación de *Diario de una camarera*, de Octave Mirbeau. Cuida de Louen, el hijo de sus empleadores, mientras su propia hija crece lejos de ella, en Rumanía. La ausencia materna se convierte en una herida profunda, pero, a medida que se acerca la Navidad, la promesa de un reencuentro empieza a tomar forma.",
+   "vote_average": 7,
+   "genres": [
+    "Drama",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/4s2tTxThQlcgbbMpcWsbmVvlcYG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bYaiKiCmTOnd2EW0yuzA4vno8g.jpg",
+   "providers": [],
+   "trailer": "VhCR5WgsVbA",
+   "fondo": "https://image.tmdb.org/t/p/original/maVfxNUGus0zp91UahYt9GGpZO1.jpg"
   }
  ],
  "region": "ES"
