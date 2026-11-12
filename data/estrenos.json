@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T19:43:50.593Z",
+ "actualizado": "2026-11-12T07:25:55.519Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -7,7 +7,7 @@
    "title": "Hope",
    "release_date": "2026-10-30",
    "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
-   "vote_average": 6.7,
+   "vote_average": 6.8,
    "genres": [
     "Ciencia ficción",
     "Misterio",
@@ -18,6 +18,21 @@
    "providers": [],
    "trailer": "OFaJzL83y0Q",
    "fondo": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg"
+  },
+  {
+   "id": 1400837,
+   "title": "La otra madre",
+   "release_date": "2026-10-09",
+   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
+   "vote_average": 5.8,
+   "genres": [
+    "Terror"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/USCOKXrHBCeeK96qXmS0NyDHYL.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+   "providers": [],
+   "trailer": "ocV7K_B67lQ",
+   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
   },
   {
    "id": 1381071,
@@ -58,7 +73,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.2,
+   "vote_average": 6.1,
    "genres": [
     "Terror",
     "Suspense",
@@ -71,21 +86,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
   },
   {
-   "id": 1400837,
-   "title": "La otra madre",
-   "release_date": "2026-10-09",
-   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.7,
-   "genres": [
-    "Terror"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/USCOKXrHBCeeK96qXmS0NyDHYL.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
-   "providers": [],
-   "trailer": "ocV7K_B67lQ",
-   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
-  },
-  {
    "id": 791523,
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
@@ -93,8 +93,9 @@
    "vote_average": 8.5,
    "genres": [
     "Animación",
+    "Fantasía",
     "Aventura",
-    "Fantasía"
+    "Drama"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
@@ -124,7 +125,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7.3,
+   "vote_average": 7.2,
    "genres": [
     "Animación",
     "Fantasía",
@@ -192,7 +193,7 @@
    "title": "Aniquilación",
    "release_date": "2026-10-30",
    "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
+   "vote_average": 5.5,
    "genres": [
     "Acción",
     "Suspense",
@@ -271,22 +272,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
   },
   {
-   "id": 1564614,
-   "title": "Leviticus",
-   "release_date": "2026-10-30",
-   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
-   "vote_average": 6.8,
-   "genres": [
-    "Terror",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/q4C2Kbc1eGOTCUdMetsjvhxUhMV.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
-   "providers": [],
-   "trailer": "WXuK0vlFxII",
-   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
-  },
-  {
    "id": 950028,
    "title": "La invitación",
    "release_date": "2026-10-16",
@@ -302,6 +287,22 @@
    "providers": [],
    "trailer": "nelkiuezJxg",
    "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
+  },
+  {
+   "id": 1564614,
+   "title": "Leviticus",
+   "release_date": "2026-10-30",
+   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
+   "vote_average": 6.8,
+   "genres": [
+    "Terror",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/q4C2Kbc1eGOTCUdMetsjvhxUhMV.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+   "providers": [],
+   "trailer": "WXuK0vlFxII",
+   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
   },
   {
    "id": 1140521,
@@ -321,22 +322,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg"
   },
   {
-   "id": 1542261,
-   "title": "Doraemon: Nobita y el nuevo castillo del diablo submarino",
-   "release_date": "2026-10-09",
-   "overview": "Nobita y sus amigos descubren un castillo submarino secreto repleto de misterios y riquezas. Con los ingeniosos artilugios de Doraemon, se sumergen en una aventura oceánica que combina humor, trabajo en equipo e imaginación en un impresionante mundo acuático.",
-   "vote_average": 6.9,
+   "id": 1748404,
+   "title": "Always Yours, Never Mine",
+   "release_date": "2026-11-01",
+   "overview": "",
+   "vote_average": 5,
    "genres": [
-    "Animación",
-    "Aventura",
-    "Fantasía",
-    "Familia"
+    "Romance",
+    "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/wPzyoIvJBOXFnuGWgu09gnlO26K.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pxd9rc03EMMln3tVFdfd427Fpsi.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/sDAbgrVhhdQxkPQwtBWpGhVtJ5b.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg",
    "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/pxd9rc03EMMln3tVFdfd427Fpsi.jpg"
+   "trailer": "mI2_DVu08dI",
+   "fondo": "https://image.tmdb.org/t/p/original/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg"
   }
  ],
  "upcoming": [
@@ -454,7 +453,7 @@
    "poster": "https://image.tmdb.org/t/p/w342/h4YDklaLjbgdu9yUr6vNybnrnzX.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/qMryViRTIek9SkkOPjNMfnbCuI6.jpg",
    "providers": [],
-   "trailer": "",
+   "trailer": "o8C3_DgvKPw",
    "fondo": "https://image.tmdb.org/t/p/original/qMryViRTIek9SkkOPjNMfnbCuI6.jpg"
   },
   {
@@ -641,7 +640,7 @@
     "Drama",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/5jO6rhfethzH7xdWl6KCOxCNCzQ.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/yQggulnRAvssNRGpxOMf8CfVim6.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg",
    "providers": [],
    "trailer": "fJH-wfSXnWg",

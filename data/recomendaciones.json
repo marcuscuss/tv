@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T19:44:19.616Z",
+ "actualizado": "2026-11-12T07:26:27.504Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -1064,21 +1064,25 @@
      "trailer": "9sLHK4ccHGQ"
     },
     {
-     "id": 1175351,
-     "title": "Bosco",
-     "year": "2024",
-     "release_date": "2024-02-02",
-     "overview": "Cuenta la historia de Quawntay “Bosco” Adams. Sentenciado a 35 años por intento de posesión de marihuana, Adams escapó milagrosamente con la ayuda de una mujer mayor que conoció a través de un anuncio de corazones solitarios.",
-     "vote_average": 6.8,
+     "id": 19171,
+     "title": "Miedo súbito",
+     "year": "1952",
+     "release_date": "1952-08-07",
+     "overview": "El actor Lester Blaine prácticamente consiguió el papel principal en la nueva obra de Myra Hudson cuando Myra lo veta porque, para ella, no parece un 'protagonista romántico'. En un tren de Nueva York a San Francisco, Blaine se propone demostrarle a Myra que está equivocada... teniendo un romance con ella. ¿Es sincero o tiene un oscuro motivo oculto? La respuesta provoca un juego del gato y el ratón; pero ¿quién es el gato y quién el ratón?",
+     "vote_average": 7.2,
      "genres": [
-      "Drama",
-      "Suspense"
+      "Suspense",
+      "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/dXjSeS3w97setnrNv4m6tlqqXzn.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
-     "providers": [],
-     "trailer": "Pz7s3YPS7nk"
+     "poster": "https://image.tmdb.org/t/p/w342/wlhoqwcX1ldOUPoLUZ1C2T7uU09.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
+     "providers": [
+      "Filmin",
+      "Acontra Plus",
+      "Acontra Plus Amazon Channel"
+     ],
+     "trailer": "aB2w51F0t74"
     },
     {
      "id": 235271,
@@ -1098,22 +1102,21 @@
      "trailer": "ZdZ0lUxunbA"
     },
     {
-     "id": 20540,
-     "title": "El prestamista",
-     "year": "1965",
-     "release_date": "1965-04-20",
-     "overview": "Un superviviente del exterminio judío regenta una tienda de préstamos en el neoyorquino barrio de Harlem. Los espeluznantes y dolorosos recuerdos del campo de exterminio dominan completamente su vida.",
-     "vote_average": 7.1,
+     "id": 1175351,
+     "title": "Bosco",
+     "year": "2024",
+     "release_date": "2024-02-02",
+     "overview": "Cuenta la historia de Quawntay “Bosco” Adams. Sentenciado a 35 años por intento de posesión de marihuana, Adams escapó milagrosamente con la ayuda de una mujer mayor que conoció a través de un anuncio de corazones solitarios.",
+     "vote_average": 6.8,
      "genres": [
-      "Drama"
+      "Drama",
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/yRnEOQD4h9GASpynMTfUKPIdPcP.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "XKvzeCwMCgc"
+     "poster": "https://image.tmdb.org/t/p/w342/dXjSeS3w97setnrNv4m6tlqqXzn.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
+     "providers": [],
+     "trailer": "Pz7s3YPS7nk"
     }
    ]
   },
