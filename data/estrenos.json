@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T07:25:55.519Z",
+ "actualizado": "2026-11-12T20:08:13.313Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -24,7 +24,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.8,
+   "vote_average": 5.9,
    "genres": [
     "Terror"
    ],
@@ -56,7 +56,7 @@
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
-   "vote_average": 7.8,
+   "vote_average": 7.6,
    "genres": [
     "Fantasía",
     "Acción",
@@ -115,10 +115,10 @@
     "Ciencia ficción"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/VnT9D7NogVWrmN2UuT30exIYPh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
    "providers": [],
    "trailer": "WGOv9Pzh9cE",
-   "fondo": "https://image.tmdb.org/t/p/original/VnT9D7NogVWrmN2UuT30exIYPh.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
   },
   {
    "id": 1117898,
@@ -153,7 +153,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
    "providers": [],
    "trailer": "-MJAfIMUQ5s",
-   "fondo": "https://image.tmdb.org/t/p/original/9vNW8ysMKIbefbEQOFEZIKpMqwZ.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/w2Gu916zS11X94CZaSLpzvfgHcG.jpg"
   },
   {
    "id": 1195803,
@@ -547,6 +547,21 @@
    "fondo": ""
   },
   {
+   "id": 1819740,
+   "title": "Neska bat desagertu da",
+   "release_date": "2026-11-22",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bLGQnV92cX9IgNMJdJtLxqcWJWe.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
+  },
+  {
    "id": 1819753,
    "title": "Bitartean, gero",
    "release_date": "2026-11-23",
@@ -640,27 +655,11 @@
     "Drama",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/yQggulnRAvssNRGpxOMf8CfVim6.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg",
    "providers": [],
    "trailer": "fJH-wfSXnWg",
    "fondo": "https://image.tmdb.org/t/p/original/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg"
-  },
-  {
-   "id": 1472813,
-   "title": "Diario de una camarera",
-   "release_date": "2026-11-27",
-   "overview": "Gianina, una joven rumana, trabaja como empleada doméstica para una familia burguesa en Burdeos. Por las noches, ensaya el papel de criada con un grupo de teatro aficionado en una adaptación de *Diario de una camarera*, de Octave Mirbeau. Cuida de Louen, el hijo de sus empleadores, mientras su propia hija crece lejos de ella, en Rumanía. La ausencia materna se convierte en una herida profunda, pero, a medida que se acerca la Navidad, la promesa de un reencuentro empieza a tomar forma.",
-   "vote_average": 7,
-   "genres": [
-    "Drama",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/4s2tTxThQlcgbbMpcWsbmVvlcYG.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bYaiKiCmTOnd2EW0yuzA4vno8g.jpg",
-   "providers": [],
-   "trailer": "VhCR5WgsVbA",
-   "fondo": "https://image.tmdb.org/t/p/original/maVfxNUGus0zp91UahYt9GGpZO1.jpg"
   }
  ],
  "region": "ES"
