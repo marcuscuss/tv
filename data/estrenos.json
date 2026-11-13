@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T20:08:13.313Z",
+ "actualizado": "2026-11-13T06:57:46.393Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -24,7 +24,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 5.9,
+   "vote_average": 6.1,
    "genres": [
     "Terror"
    ],
@@ -48,15 +48,32 @@
    "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
    "providers": [],
-   "trailer": "E-Q2tEgJ1ZI",
+   "trailer": "Pu0pH5BuCPM",
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
+  },
+  {
+   "id": 1244523,
+   "title": "Boiuna: La leyenda del Amazonas",
+   "release_date": "2026-10-16",
+   "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
+   "vote_average": 6.2,
+   "genres": [
+    "Terror",
+    "Suspense",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/hClFn5adaXOgmxrZyxixoKiBHEZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
+   "providers": [],
+   "trailer": "MQKqgFVU4dQ",
+   "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
   },
   {
    "id": 656908,
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
-   "vote_average": 7.6,
+   "vote_average": 7.5,
    "genres": [
     "Fantasía",
     "Acción",
@@ -69,21 +86,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
   },
   {
-   "id": 1244523,
-   "title": "Boiuna: La leyenda del Amazonas",
-   "release_date": "2026-10-16",
-   "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6.1,
+   "id": 1567605,
+   "title": "Scrooge y los fantasmas de la Navidad",
+   "release_date": "2026-11-13",
+   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+   "vote_average": 7.8,
    "genres": [
-    "Terror",
-    "Suspense",
-    "Acción"
+    "Fantasía",
+    "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/hClFn5adaXOgmxrZyxixoKiBHEZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
    "providers": [],
-   "trailer": "MQKqgFVU4dQ",
-   "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
+   "trailer": "l_Ozo1xUgbU",
+   "fondo": "https://image.tmdb.org/t/p/original/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg"
   },
   {
    "id": 791523,
@@ -121,11 +137,44 @@
    "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
   },
   {
+   "id": 1153576,
+   "title": "Street Fighter",
+   "release_date": "2026-10-16",
+   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
+   "vote_average": 6.3,
+   "genres": [
+    "Acción",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/w2Gu916zS11X94CZaSLpzvfgHcG.jpg",
+   "providers": [],
+   "trailer": "-MJAfIMUQ5s",
+   "fondo": "https://image.tmdb.org/t/p/original/w2Gu916zS11X94CZaSLpzvfgHcG.jpg"
+  },
+  {
+   "id": 891621,
+   "title": "Wild Horse Nine",
+   "release_date": "2026-11-13",
+   "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
+   "vote_average": 8.1,
+   "genres": [
+    "Comedia",
+    "Crimen",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bLDrHn76oiNYiELv1qw3Tfdkqc8.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+   "providers": [],
+   "trailer": "kqxuamKxRTo",
+   "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
+  },
+  {
    "id": 1117898,
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7.2,
+   "vote_average": 7.4,
    "genres": [
     "Animación",
     "Fantasía",
@@ -138,22 +187,6 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
-  },
-  {
-   "id": 1153576,
-   "title": "Street Fighter",
-   "release_date": "2026-10-16",
-   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.3,
-   "genres": [
-    "Acción",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
-   "providers": [],
-   "trailer": "-MJAfIMUQ5s",
-   "fondo": "https://image.tmdb.org/t/p/original/w2Gu916zS11X94CZaSLpzvfgHcG.jpg"
   },
   {
    "id": 1195803,
@@ -189,21 +222,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
-   "id": 1284046,
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.5,
+   "id": 1437511,
+   "title": "Como robar un banco",
+   "release_date": "2026-11-13",
+   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
+   "vote_average": 6.1,
    "genres": [
     "Acción",
-    "Suspense",
-    "Terror"
+    "Crimen",
+    "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
    "providers": [],
-   "trailer": "AMLCbpM1fRQ",
-   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
+   "trailer": "tKtg0S1rm2M",
+   "fondo": "https://image.tmdb.org/t/p/original/u38hNQbxvIicUdfrHpqa9puBnA9.jpg"
   },
   {
    "id": 1255833,
@@ -219,6 +252,23 @@
    "providers": [],
    "trailer": "5webTf9wplE",
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
+  },
+  {
+   "id": 1284046,
+   "title": "Aniquilación",
+   "release_date": "2026-10-30",
+   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
+   "vote_average": 5.6,
+   "genres": [
+    "Acción",
+    "Suspense",
+    "Terror"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+   "providers": [],
+   "trailer": "AMLCbpM1fRQ",
+   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 1281331,
@@ -254,6 +304,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
+   "id": 1379486,
+   "title": "Victorian Psycho",
+   "release_date": "2026-11-13",
+   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
+   "vote_average": 0,
+   "genres": [
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
+   "providers": [],
+   "trailer": "sDiFol_2j2I",
+   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
+  },
+  {
    "id": 1477104,
    "title": "La oveja Shaun: Misión calabaza",
    "release_date": "2026-10-30",
@@ -270,72 +336,6 @@
    "providers": [],
    "trailer": "daZMq0AyOMc",
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
-  },
-  {
-   "id": 950028,
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
-   "vote_average": 7.2,
-   "genres": [
-    "Comedia",
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
-   "providers": [],
-   "trailer": "nelkiuezJxg",
-   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
-  },
-  {
-   "id": 1564614,
-   "title": "Leviticus",
-   "release_date": "2026-10-30",
-   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
-   "vote_average": 6.8,
-   "genres": [
-    "Terror",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/q4C2Kbc1eGOTCUdMetsjvhxUhMV.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
-   "providers": [],
-   "trailer": "WXuK0vlFxII",
-   "fondo": "https://image.tmdb.org/t/p/original/xcGNm0JlkrGpDbgdPSW9mR52tbv.jpg"
-  },
-  {
-   "id": 1140521,
-   "title": "El árbol muy muy lejano",
-   "release_date": "2026-10-09",
-   "overview": "Polly, Tim, y sus tres hijos son una familia moderna que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico y a sus extraordinarios y excéntricos habitantes.",
-   "vote_average": 6.8,
-   "genres": [
-    "Aventura",
-    "Familia",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fpW5GntifGxAG7Js99Wdhq9K0s5.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg",
-   "providers": [],
-   "trailer": "qsrMA7Eovaw",
-   "fondo": "https://image.tmdb.org/t/p/original/3o7t1gF0wbXAtELCkIcYyPXoIxA.jpg"
-  },
-  {
-   "id": 1748404,
-   "title": "Always Yours, Never Mine",
-   "release_date": "2026-11-01",
-   "overview": "",
-   "vote_average": 5,
-   "genres": [
-    "Romance",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/sDAbgrVhhdQxkPQwtBWpGhVtJ5b.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg",
-   "providers": [],
-   "trailer": "mI2_DVu08dI",
-   "fondo": "https://image.tmdb.org/t/p/original/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg"
   }
  ],
  "upcoming": [
@@ -516,6 +516,21 @@
    "fondo": ""
   },
   {
+   "id": 1800199,
+   "title": "Hechos probados",
+   "release_date": "2026-11-20",
+   "overview": "Delia e Inés son dos hermanas unidas por una vocación y enfrentadas desde hace años por heridas familiares y conflictos del pasado.  Ambas son abogadas, pero tienen visiones radicalmente opuestas sobre el derecho y la vida. Cuando sus vidas y sus carreras saltan por los aires, ambas se verán obligadas a trabajar juntas en la legaltech LTS para derrotar en los tribunales al bufete de Prado, el abogado con el que las dos tienen cuentas pendientes.  Mientras colaboran, las hermanas, aprenderán a perdonarse, a lidiar con una hija rebelde, un matrimonio que se deshace y un padre con el que no se entienden.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/m0TnZoSNeeTszgx5Ilybake6oes.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2RVknYPUPEZkymOPhR7v1uWwSbk.jpg",
+   "providers": [],
+   "trailer": "aQ12UV4bVZI",
+   "fondo": "https://image.tmdb.org/t/p/original/2RVknYPUPEZkymOPhR7v1uWwSbk.jpg"
+  },
+  {
    "id": 1802868,
    "title": "Azul",
    "release_date": "2026-11-21",
@@ -530,36 +545,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/tfKxQPWug4QP978YilUK1CRFjY8.jpg"
-  },
-  {
-   "id": 1819751,
-   "title": "Guretako eztia",
-   "release_date": "2026-11-22",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fIC1u7S1c3ugwEnIV5QY1JVcuCk.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
-   "id": 1819740,
-   "title": "Neska bat desagertu da",
-   "release_date": "2026-11-22",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bLGQnV92cX9IgNMJdJtLxqcWJWe.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
   },
   {
    "id": 1819753,
@@ -660,6 +645,22 @@
    "providers": [],
    "trailer": "fJH-wfSXnWg",
    "fondo": "https://image.tmdb.org/t/p/original/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg"
+  },
+  {
+   "id": 1472813,
+   "title": "Diario de una camarera",
+   "release_date": "2026-11-27",
+   "overview": "Gianina, una joven rumana, trabaja como empleada doméstica para una familia burguesa en Burdeos. Por las noches, ensaya el papel de criada con un grupo de teatro aficionado en una adaptación de *Diario de una camarera*, de Octave Mirbeau. Cuida de Louen, el hijo de sus empleadores, mientras su propia hija crece lejos de ella, en Rumanía. La ausencia materna se convierte en una herida profunda, pero, a medida que se acerca la Navidad, la promesa de un reencuentro empieza a tomar forma.",
+   "vote_average": 7,
+   "genres": [
+    "Drama",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/4s2tTxThQlcgbbMpcWsbmVvlcYG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bYaiKiCmTOnd2EW0yuzA4vno8g.jpg",
+   "providers": [],
+   "trailer": "VhCR5WgsVbA",
+   "fondo": "https://image.tmdb.org/t/p/original/maVfxNUGus0zp91UahYt9GGpZO1.jpg"
   }
  ],
  "region": "ES"

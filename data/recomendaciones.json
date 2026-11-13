@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T20:08:28.887Z",
+ "actualizado": "2026-11-13T06:58:19.319Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -389,6 +389,29 @@
      "trailer": "6aWYmFCRsEI"
     },
     {
+     "id": 580489,
+     "title": "Venom: habrá matanza",
+     "year": "2021",
+     "release_date": "2021-09-30",
+     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+     "vote_average": 6.7,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "hbfadtw-fjs"
+    },
+    {
      "id": 298618,
      "title": "Flash",
      "year": "2023",
@@ -530,8 +553,8 @@
       "Aventura"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/ugX4WZJO3jEvTOerctAWJLinujo.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/gHLs7Fy3DzLmLsD4lmfqL55KGcl.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/gHLs7Fy3DzLmLsD4lmfqL55KGcl.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
      "providers": [
       "Disney Plus"
      ],
@@ -576,30 +599,6 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
-    },
-    {
-     "id": 1452,
-     "title": "Superman Returns",
-     "year": "2006",
-     "release_date": "2006-06-28",
-     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
-     "vote_average": 5.8,
-     "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "providers": [
-      "Netflix",
-      "Amazon Prime Video",
-      "Netflix Standard with Ads",
-      "Tivify",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -2186,8 +2185,8 @@
       "Suspense"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/uVPcVz4b2hnSGrXYLdIGRXwcivs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/i5H7zusQGsysGQ8i6P361Vnr0n2.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jwBs4djVIe9Kz3Vu9rsI9aEEKWU.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/jwBs4djVIe9Kz3Vu9rsI9aEEKWU.jpg",
      "providers": [
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
@@ -4319,7 +4318,7 @@
    ],
    "poster": "https://image.tmdb.org/t/p/w342/zdClwqpYQXBSCGGDMdtvsuggwec.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
-   "fondo": "https://image.tmdb.org/t/p/original/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+   "fondo": "https://image.tmdb.org/t/p/original/j7KqDRzjbvIjDv7cdHz9G3ZYEQy.jpg",
    "providers": [
     "Netflix",
     "Netflix Standard with Ads"
