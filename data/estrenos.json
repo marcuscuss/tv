@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T06:57:46.393Z",
+ "actualizado": "2026-11-13T19:53:05.916Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -24,7 +24,7 @@
    "title": "La otra madre",
    "release_date": "2026-10-09",
    "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 6.1,
+   "vote_average": 6.2,
    "genres": [
     "Terror"
    ],
@@ -66,7 +66,7 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
    "providers": [],
    "trailer": "MQKqgFVU4dQ",
-   "fondo": "https://image.tmdb.org/t/p/original/ymnNORckZ06m1KbfAITT6CIHLtQ.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/grYvFUiuzBdKQjtcuV7UWRRvAyr.jpg"
   },
   {
    "id": 656908,
@@ -110,8 +110,7 @@
    "genres": [
     "Animación",
     "Fantasía",
-    "Aventura",
-    "Drama"
+    "Aventura"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
@@ -147,10 +146,10 @@
     "Fantasía"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/w2Gu916zS11X94CZaSLpzvfgHcG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
    "providers": [],
    "trailer": "-MJAfIMUQ5s",
-   "fondo": "https://image.tmdb.org/t/p/original/w2Gu916zS11X94CZaSLpzvfgHcG.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/9vNW8ysMKIbefbEQOFEZIKpMqwZ.jpg"
   },
   {
    "id": 891621,
@@ -174,7 +173,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7.4,
+   "vote_average": 7.1,
    "genres": [
     "Animación",
     "Fantasía",
@@ -304,22 +303,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
-   "id": 1379486,
-   "title": "Victorian Psycho",
-   "release_date": "2026-11-13",
-   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
-   "vote_average": 0,
-   "genres": [
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
-   "providers": [],
-   "trailer": "sDiFol_2j2I",
-   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
-  },
-  {
    "id": 1477104,
    "title": "La oveja Shaun: Misión calabaza",
    "release_date": "2026-10-30",
@@ -336,6 +319,23 @@
    "providers": [],
    "trailer": "daZMq0AyOMc",
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
+  },
+  {
+   "id": 950028,
+   "title": "La invitación",
+   "release_date": "2026-10-16",
+   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
+   "vote_average": 7.2,
+   "genres": [
+    "Comedia",
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+   "providers": [],
+   "trailer": "nelkiuezJxg",
+   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
   }
  ],
  "upcoming": [
@@ -361,7 +361,7 @@
    "title": "Los Juegos del Hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la siega de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 0,
+   "vote_average": 10,
    "genres": [
     "Ciencia ficción",
     "Acción",
@@ -391,23 +391,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
   },
   {
-   "id": 1308767,
-   "title": "Washington. El origen de un líder",
-   "release_date": "2026-11-20",
-   "overview": "Antes de liderar una nación, George Washington era un joven soldado en un conflicto global. Con alianzas desmoronándose y la guerra acercándose, debe elegir en quién confiar y enfrentar al líder en que se está convirtiendo.",
-   "vote_average": 7.7,
-   "genres": [
-    "Historia",
-    "Bélica",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/kp3TpqkiDgRkLSJgrnWdGXGl7hD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
-   "providers": [],
-   "trailer": "Kg5m2Kplm1A",
-   "fondo": "https://image.tmdb.org/t/p/original/mj3RFamNUleZB94zMWgGnJkQCAH.jpg"
-  },
-  {
    "id": 1176962,
    "title": "Rose",
    "release_date": "2026-11-20",
@@ -425,21 +408,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg"
   },
   {
-   "id": 1437939,
-   "title": "Ooh la la! ¿Quién lo hubiera pensado?",
-   "release_date": "2026-11-20",
-   "overview": "Tras descubrir la verdad sobre sus orígenes gracias a unas pruebas de ADN con resultados bastante sorprendentes, las familias Bouvier-Sauvage y Martin deciden hacer las paces para poder planear la boda de sus hijos. Pero no contaban con un acontecimiento inesperado: un primo de Frédéric aparece gracias a las pruebas, revelando que los resultados eran erróneos. ¡Las dos familias están a punto de descubrir que sus antepasados les tienen reservadas más sorpresas!",
-   "vote_average": 5.3,
-   "genres": [
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fVztyvgDbR8cjlend1dUCNM4Ygx.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/4dN9kXTNqvssrbF81viFoPnW2pt.jpg",
-   "providers": [],
-   "trailer": "Sumh9b7bAGQ",
-   "fondo": "https://image.tmdb.org/t/p/original/4dN9kXTNqvssrbF81viFoPnW2pt.jpg"
-  },
-  {
    "id": 947493,
    "title": "Chico de hierro",
    "release_date": "2026-11-20",
@@ -455,6 +423,21 @@
    "providers": [],
    "trailer": "o8C3_DgvKPw",
    "fondo": "https://image.tmdb.org/t/p/original/qMryViRTIek9SkkOPjNMfnbCuI6.jpg"
+  },
+  {
+   "id": 1437939,
+   "title": "Ooh la la! ¿Quién lo hubiera pensado?",
+   "release_date": "2026-11-20",
+   "overview": "Tras descubrir la verdad sobre sus orígenes gracias a unas pruebas de ADN con resultados bastante sorprendentes, las familias Bouvier-Sauvage y Martin deciden hacer las paces para poder planear la boda de sus hijos. Pero no contaban con un acontecimiento inesperado: un primo de Frédéric aparece gracias a las pruebas, revelando que los resultados eran erróneos. ¡Las dos familias están a punto de descubrir que sus antepasados les tienen reservadas más sorpresas!",
+   "vote_average": 5.3,
+   "genres": [
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/fVztyvgDbR8cjlend1dUCNM4Ygx.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/4dN9kXTNqvssrbF81viFoPnW2pt.jpg",
+   "providers": [],
+   "trailer": "Sumh9b7bAGQ",
+   "fondo": "https://image.tmdb.org/t/p/original/4dN9kXTNqvssrbF81viFoPnW2pt.jpg"
   },
   {
    "id": 1578646,
@@ -545,6 +528,21 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/tfKxQPWug4QP978YilUK1CRFjY8.jpg"
+  },
+  {
+   "id": 1819740,
+   "title": "Neska bat desagertu da",
+   "release_date": "2026-11-22",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bLGQnV92cX9IgNMJdJtLxqcWJWe.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
   },
   {
    "id": 1819753,
