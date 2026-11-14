@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T19:53:05.916Z",
+ "actualizado": "2026-11-14T06:44:22.701Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -90,7 +90,7 @@
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 7.8,
+   "vote_average": 7.9,
    "genres": [
     "Fantasía",
     "Comedia"
@@ -225,7 +225,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.1,
+   "vote_average": 6.9,
    "genres": [
     "Acción",
     "Crimen",
@@ -303,6 +303,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
+   "id": 1379486,
+   "title": "Victorian Psycho",
+   "release_date": "2026-11-13",
+   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
+   "vote_average": 5,
+   "genres": [
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
+   "providers": [],
+   "trailer": "sDiFol_2j2I",
+   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
+  },
+  {
    "id": 1477104,
    "title": "La oveja Shaun: Misión calabaza",
    "release_date": "2026-10-30",
@@ -319,23 +335,6 @@
    "providers": [],
    "trailer": "daZMq0AyOMc",
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
-  },
-  {
-   "id": 950028,
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
-   "vote_average": 7.2,
-   "genres": [
-    "Comedia",
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
-   "providers": [],
-   "trailer": "nelkiuezJxg",
-   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
   }
  ],
  "upcoming": [
@@ -361,7 +360,7 @@
    "title": "Los Juegos del Hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la siega de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 10,
+   "vote_average": 9,
    "genres": [
     "Ciencia ficción",
     "Acción",
@@ -486,6 +485,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/yphktRNVpxNAbfMmVbrOU2BITmi.jpg"
   },
   {
+   "id": 1641467,
+   "title": "Ley de vida",
+   "release_date": "2026-11-20",
+   "overview": "Mario, un joven rebelde que vive acostumbrado a su vida habitual se enfrentará a una dura noticia que le cambiará la vida. Tras un enfado con sus padres, Mario es enviado en contra de su voluntad a Chicago para estudiar medicina, algo que a él no le apasiona. Durante su estancia allí Mario experimentará lo que es vivir fuera de la rutina y las dificultades de cambiar de ambiente personal. Mario se balanceará entre dos opciones que podrían determinar el camino de su vida para bien, o para mal.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/kPqY4wgr4CkAlwGGbai3J96JsOl.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/mrF0yrjS8IW1D5uylYgJtJXxvzJ.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/mrF0yrjS8IW1D5uylYgJtJXxvzJ.jpg"
+  },
+  {
    "id": 1732872,
    "title": "Citas",
    "release_date": "2026-11-20",
@@ -528,21 +542,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/tfKxQPWug4QP978YilUK1CRFjY8.jpg"
-  },
-  {
-   "id": 1819740,
-   "title": "Neska bat desagertu da",
-   "release_date": "2026-11-22",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bLGQnV92cX9IgNMJdJtLxqcWJWe.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
   },
   {
    "id": 1819753,

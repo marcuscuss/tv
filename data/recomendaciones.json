@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T19:53:24.557Z",
+ "actualizado": "2026-11-14T06:44:44.199Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -91,24 +91,6 @@
      "trailer": "uDp1pBwrqKE"
     },
     {
-     "id": 9610,
-     "title": "Conan, el destructor",
-     "year": "1984",
-     "release_date": "1984-06-29",
-     "overview": "La poderosa Reina Taramis promete a Conan hacer volver a su amada del reino de la muerte, pero le impone una condición: debe traerle un legendario cuerno incrustado de piedras preciosas y una bella y joven princesa. Lo que Conan ignora es que la Reina quiere utilizar el cuerno para despertar al durmiente dios Dagoth y sacrificarle a la joven princesa. Enfrentado con enemigos mortales y sobrenaturales, Conan debe convocar a las fuerzas del Bien para derrotar a Taramis e incluso al mismísimo dios Dagoth.",
-     "vote_average": 6.1,
-     "genres": [
-      "Aventura",
-      "Fantasía",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/7vwtQwywduJfG50SrxlhalpXsUx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "providers": [],
-     "trailer": "lpUb4tBnWPA"
-    },
-    {
      "id": 71282,
      "title": "Los mares de China",
      "year": "1935",
@@ -165,6 +147,26 @@
      "trailer": "2uU_EoIj3tw"
     },
     {
+     "id": 33257,
+     "title": "Fando y Lis",
+     "year": "1972",
+     "release_date": "1972-06-08",
+     "overview": "Fando y Lis (1968), ópera prima de Alejandro Jodorowsky basada en la obra de Fernando Arrabal, es un drama surrealista y de teatro del absurdo que narra el viaje de una pareja por encontrar la mítica ciudad de Tar. Fando, inmaduro y a veces violento, transporta a Lis, su amante paralítica, en un trayecto lleno de imágenes grotescas, sadomasoquismo y crítica social. La película es una alegoría sobre el amor tóxico, la dependencia emocional, la búsqueda espiritual inútil y la incomunicación humana.",
+     "vote_average": 6.8,
+     "genres": [
+      "Romance",
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/tVDFt994xxqeh04qxCo0jF3q8Jk.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qoEwJ3Z9okEclRrC7Sim4dVAeDy.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6WJ9njYndZkK6Inee4KMZpNsHvS.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "a8j8mDbroLc"
+    },
+    {
      "id": 184315,
      "title": "Hércules",
      "year": "2014",
@@ -204,54 +206,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "CMyrp5Vk3mU"
-    },
-    {
-     "id": 17897,
-     "title": "El viaje fantástico de Simbad",
-     "year": "1973",
-     "release_date": "1973-12-20",
-     "overview": "Simbad, Príncipe de Bagdad y marino legendario, encuentra un curioso mapa y con él se embarca rumbo a la isla de Lemuria junto a una bella esclava, Margiana, y al Gran Visir de Marabia. El Príncipe Koura, un mago oscuro que intenta hacerse con el poder en Marabia manipulando a espíritus del mal, los persigue, tratando de detener a Simbad en su búsqueda. Simbad llega a Lemuria a pesar del encantamiento que Koura ha lanzado sobre el mascarón de proa de su barco, que le hace cobrar vida. En Lemuria, Simbad y su fiel tripulación se encuentran con una estatua de seis brazos blandiendo una espada, con un centauro de un ojo y con un grifo.",
-     "vote_average": 6.7,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Drama",
-      "Fantasía",
-      "Familia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/s29SGisFfyQxNyhNJLt9hx0sC57.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin"
-     ],
-     "trailer": "A3kVFY9llNo"
-    },
-    {
-     "id": 308504,
-     "title": "Los últimos caballeros",
-     "year": "2015",
-     "release_date": "2015-04-03",
-     "overview": "La historia gira en torno a una banda de guerreros que buscará venganza después de la muerte de su maestro a manos de un emperador corrupto...",
-     "vote_average": 6.4,
-     "genres": [
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mEMAwrg2KqWBcorjVH0pTvNOBfx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Atres Player",
-      "Tivify",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "QStraY8MdKk"
     },
     {
      "id": 340442,
@@ -296,6 +250,46 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "fAdo8drjc_M"
+    },
+    {
+     "id": 1911,
+     "title": "El guerrero nº 13",
+     "year": "1999",
+     "release_date": "1999-08-13",
+     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
+     "vote_average": 6.7,
+     "genres": [
+      "Aventura",
+      "Historia",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "providers": [
+      "Disney Plus"
+     ],
+     "trailer": "RikXt796p2o"
+    },
+    {
+     "id": 639933,
+     "title": "El hombre del norte",
+     "year": "2022",
+     "release_date": "2022-04-07",
+     "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
+     "vote_average": 7,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+     "providers": [
+      "Tivify"
+     ],
+     "trailer": "7HZ4tBQEiB0"
     }
    ]
   },
@@ -1003,27 +997,6 @@
      "trailer": "t-yhbvVpPgI"
     },
     {
-     "id": 19171,
-     "title": "Miedo súbito",
-     "year": "1952",
-     "release_date": "1952-08-07",
-     "overview": "El actor Lester Blaine prácticamente consiguió el papel principal en la nueva obra de Myra Hudson cuando Myra lo veta porque, para ella, no parece un 'protagonista romántico'. En un tren de Nueva York a San Francisco, Blaine se propone demostrarle a Myra que está equivocada... teniendo un romance con ella. ¿Es sincero o tiene un oscuro motivo oculto? La respuesta provoca un juego del gato y el ratón; pero ¿quién es el gato y quién el ratón?",
-     "vote_average": 7.2,
-     "genres": [
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/wlhoqwcX1ldOUPoLUZ1C2T7uU09.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "aB2w51F0t74"
-    },
-    {
      "id": 1429,
      "title": "La última noche",
      "year": "2002",
@@ -1059,23 +1032,6 @@
      "trailer": "9sLHK4ccHGQ"
     },
     {
-     "id": 9357,
-     "title": "Retratos de una obsesión",
-     "year": "2002",
-     "release_date": "2002-08-21",
-     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
-     "providers": [],
-     "trailer": "eWzILZ6wE9Y"
-    },
-    {
      "id": 84338,
      "title": "Simon Killer",
      "year": "2012",
@@ -1095,21 +1051,21 @@
      "trailer": "VJICFO4lbtQ"
     },
     {
-     "id": 235271,
-     "title": "Perversa adicción",
-     "year": "2014",
-     "release_date": "2014-10-10",
-     "overview": "La adicción al sexo de Zoe Reynard, una exitosa mujer de negocios, amenaza con arruinar su vida familiar junto a su marido y sus dos hijos.",
-     "vote_average": 5.9,
+     "id": 9357,
+     "title": "Retratos de una obsesión",
+     "year": "2002",
+     "release_date": "2002-08-21",
+     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
+     "vote_average": 6.7,
      "genres": [
       "Drama",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/oyxiBAFDXVgy8iUFPLksWwUWtEA.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
      "providers": [],
-     "trailer": "ZdZ0lUxunbA"
+     "trailer": "eWzILZ6wE9Y"
     },
     {
      "id": 1175351,
@@ -1127,6 +1083,46 @@
      "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
      "providers": [],
      "trailer": "Pz7s3YPS7nk"
+    },
+    {
+     "id": 27033,
+     "title": "El extraño amor de Martha Ivers",
+     "year": "1946",
+     "release_date": "1946-08-19",
+     "overview": "Tres amigos de la infancia, Martha, Walter y Sam, comparten un terrible secreto. Ya adultos, la ambiciosa Martha y el pusilánime Walter se casan. Ella es una fría mujer de negocios; él es el fiscal del distrito: una combinación perfecta para dominar la corrupta ciudad de Iverstown según su voluntad. Pero el inesperado regreso de Sam, después de años de ausencia, perturba profundamente la vida de la extraña pareja.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aPWPwf400mmua0lKHKvFNtFZjqX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "FlixOlé",
+      "Amazon Prime Video with Ads",
+      "Artiflix"
+     ],
+     "trailer": "hrMqLD_uoCk"
+    },
+    {
+     "id": 235271,
+     "title": "Perversa adicción",
+     "year": "2014",
+     "release_date": "2014-10-10",
+     "overview": "La adicción al sexo de Zoe Reynard, una exitosa mujer de negocios, amenaza con arruinar su vida familiar junto a su marido y sus dos hijos.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oyxiBAFDXVgy8iUFPLksWwUWtEA.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "providers": [],
+     "trailer": "ZdZ0lUxunbA"
     }
    ]
   },
@@ -1879,12 +1875,30 @@
      "trailer": "GigeANz21rk"
     },
     {
+     "id": 116322,
+     "title": "La leyenda de la llorona",
+     "year": "2011",
+     "release_date": "2011-10-21",
+     "overview": "Leo San Juan, a un año de haber derrotado al espíritu de La Nahuala, se enfrenta ahora a su primera gran misión: liberar a Xochimilco de La Llorona, el espíritu de una mujer que durante cientos de años ha asolado a la comunidad y ha secuestrado a decenas de niños. Con la ayuda de El Alebrije, Don Andrés y los niños Calaca, Leo planea vencerla. Sin embargo, el poder de ella hará que nuestro héroe y sus aliados se separen, enfrentando cada quien por su lado los peligros que aparecen en un Xochimilco embrujado por las lágrimas de La Llorona y las fuerzas obscuras que, desde la antigüedad, acechan detrás de este terrible monstruo.",
+     "vote_average": 8,
+     "genres": [
+      "Animación",
+      "Familia",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/vBiqoYfDIWKKzZTiQScqgCO09UD.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/uMyPeZ5WjouTHVEckilshhHULAg.jpg",
+     "providers": [],
+     "trailer": "JnMRKl2x4ss"
+    },
+    {
      "id": 14836,
      "title": "Los mundos de Coraline",
      "year": "2009",
      "release_date": "2009-02-05",
      "overview": "Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa aventura empieza a tomar un cariz peligroso, su otra madre intenta mantenerla a su lado para siempre. Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.",
-     "vote_average": 7.9,
+     "vote_average": 8,
      "genres": [
       "Animación",
       "Familia",
@@ -1984,26 +1998,6 @@
       "SkyShowtime"
      ],
      "trailer": "pwLKIcB0zDw"
-    },
-    {
-     "id": 49797,
-     "title": "Encontré al diablo",
-     "year": "2010",
-     "release_date": "2010-08-12",
-     "overview": "Kyung-chul es un psicópata peligroso que mata por placer y que ha cometido varios asesinatos con unos métodos diabólicos difíciles de imaginar. Sus víctimas son chicas jóvenes. La policía lleva tiempo intentando capturarlo. Un día, aparece asesinada la hija de un jefe de policía retirado. El novio de la chica, un agente secreto, jura vengarse.",
-     "vote_average": 7.8,
-     "genres": [
-      "Suspense",
-      "Terror"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/iTWdP2PIepE4pFSzZHCJnRo3JAD.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/dXDFWWxiEb6tg4ojMWQJrSI0Tun.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/dXDFWWxiEb6tg4ojMWQJrSI0Tun.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "xwWgp1bqVwE"
     }
    ]
   },
