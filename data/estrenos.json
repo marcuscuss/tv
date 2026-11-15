@@ -1,7 +1,23 @@
 {
- "actualizado": "2026-11-14T22:35:40.429Z",
+ "actualizado": "2026-11-15T06:49:52.765Z",
  "source": "tmdb",
  "now_playing": [
+  {
+   "id": 1400837,
+   "title": "La otra madre",
+   "release_date": "2026-10-09",
+   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
+   "vote_average": 6.3,
+   "genres": [
+    "Terror",
+    "Misterio"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/USCOKXrHBCeeK96qXmS0NyDHYL.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+   "providers": [],
+   "trailer": "ocV7K_B67lQ",
+   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
+  },
   {
    "id": 1058424,
    "title": "Hope",
@@ -18,21 +34,6 @@
    "providers": [],
    "trailer": "OFaJzL83y0Q",
    "fondo": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg"
-  },
-  {
-   "id": 1400837,
-   "title": "La otra madre",
-   "release_date": "2026-10-09",
-   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
-   "vote_average": 6.3,
-   "genres": [
-    "Terror"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/USCOKXrHBCeeK96qXmS0NyDHYL.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
-   "providers": [],
-   "trailer": "ocV7K_B67lQ",
-   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
   },
   {
    "id": 1244523,
@@ -83,14 +84,14 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
    "providers": [],
    "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/ks72NqTPhpupk207NXiqmZIQQVI.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
   },
   {
    "id": 1567605,
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 7.9,
+   "vote_average": 7.8,
    "genres": [
     "Fantasía",
     "Comedia"
@@ -98,24 +99,8 @@
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
    "providers": [],
-   "trailer": "l_Ozo1xUgbU",
-   "fondo": "https://image.tmdb.org/t/p/original/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg"
-  },
-  {
-   "id": 1153576,
-   "title": "Street Fighter",
-   "release_date": "2026-10-16",
-   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.3,
-   "genres": [
-    "Acción",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
-   "providers": [],
-   "trailer": "-MJAfIMUQ5s",
-   "fondo": "https://image.tmdb.org/t/p/original/9vNW8ysMKIbefbEQOFEZIKpMqwZ.jpg"
+   "trailer": "D-n-lqKVr78",
+   "fondo": "https://image.tmdb.org/t/p/original/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg"
   },
   {
    "id": 791523,
@@ -135,10 +120,26 @@
    "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
   },
   {
+   "id": 1153576,
+   "title": "Street Fighter",
+   "release_date": "2026-10-16",
+   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
+   "vote_average": 6.3,
+   "genres": [
+    "Acción",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3BBjkQmdGacKYZtpmK2vIfuDmON.jpg",
+   "providers": [],
+   "trailer": "-MJAfIMUQ5s",
+   "fondo": "https://image.tmdb.org/t/p/original/9vNW8ysMKIbefbEQOFEZIKpMqwZ.jpg"
+  },
+  {
    "id": 1400940,
    "title": "Clayface",
    "release_date": "2026-10-23",
-   "overview": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
+   "overview": "El meteórico ascenso de Matt Hagen, desde chico de la calle en Gotham hasta promesa de Hollywood, se ve trágicamente truncado cuando las acciones de un jefe del crimen local lo dejan horriblemente desfigurado. Abandonado por su equipo y sin nada que perder, Matt busca un tratamiento celular vanguardista que, milagrosamente, le devuelve su aspecto anterior… pero que también afecta inesperadamente a su percepción de la realidad, sumiéndolo en una espiral destructiva de venganza que lo consume por completo.",
    "vote_average": 7.4,
    "genres": [
     "Terror",
@@ -156,7 +157,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8,
+   "vote_average": 7.9,
    "genres": [
     "Comedia",
     "Crimen",
@@ -167,6 +168,23 @@
    "providers": [],
    "trailer": "kqxuamKxRTo",
    "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
+  },
+  {
+   "id": 1437511,
+   "title": "Como robar un banco",
+   "release_date": "2026-11-13",
+   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
+   "vote_average": 6.4,
+   "genres": [
+    "Acción",
+    "Crimen",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+   "providers": [],
+   "trailer": "tKtg0S1rm2M",
+   "fondo": "https://image.tmdb.org/t/p/original/u38hNQbxvIicUdfrHpqa9puBnA9.jpg"
   },
   {
    "id": 1117898,
@@ -186,23 +204,6 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
-  },
-  {
-   "id": 1437511,
-   "title": "Como robar un banco",
-   "release_date": "2026-11-13",
-   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.5,
-   "genres": [
-    "Acción",
-    "Crimen",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
-   "providers": [],
-   "trailer": "tKtg0S1rm2M",
-   "fondo": "https://image.tmdb.org/t/p/original/u38hNQbxvIicUdfrHpqa9puBnA9.jpg"
   },
   {
    "id": 1503762,
@@ -319,22 +320,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   },
   {
-   "id": 1477104,
-   "title": "La oveja Shaun: Misión calabaza",
-   "release_date": "2026-10-30",
-   "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.3,
+   "id": 950028,
+   "title": "La invitación",
+   "release_date": "2026-10-16",
+   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
+   "vote_average": 7.2,
    "genres": [
-    "Animación",
-    "Ciencia ficción",
     "Comedia",
-    "Familia"
+    "Drama",
+    "Romance"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
    "providers": [],
-   "trailer": "daZMq0AyOMc",
-   "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
+   "trailer": "nelkiuezJxg",
+   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
   }
  ],
  "upcoming": [
@@ -343,7 +343,7 @@
    "title": "Pinocho: Desatado",
    "release_date": "2026-11-20",
    "overview": "Gepetto le regala para el cumple de su nieto James un titere llamado Pinocho, aunque no sabian que estaria desquiciado, donde buscaria matar a quien fuera junto con su consciencia llamada Pepe Grillo para convertirse en un niño de verdad",
-   "vote_average": 6.4,
+   "vote_average": 6.3,
    "genres": [
     "Terror",
     "Fantasía",
@@ -360,7 +360,7 @@
    "title": "Los Juegos del Hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la siega de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 9,
+   "vote_average": 9.3,
    "genres": [
     "Ciencia ficción",
     "Acción",
@@ -513,6 +513,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/mrF0yrjS8IW1D5uylYgJtJXxvzJ.jpg"
   },
   {
+   "id": 1800199,
+   "title": "Hechos probados",
+   "release_date": "2026-11-20",
+   "overview": "Delia e Inés son dos hermanas unidas por una vocación y enfrentadas desde hace años por heridas familiares y conflictos del pasado.  Ambas son abogadas, pero tienen visiones radicalmente opuestas sobre el derecho y la vida. Cuando sus vidas y sus carreras saltan por los aires, ambas se verán obligadas a trabajar juntas en la legaltech LTS para derrotar en los tribunales al bufete de Prado, el abogado con el que las dos tienen cuentas pendientes.  Mientras colaboran, las hermanas, aprenderán a perdonarse, a lidiar con una hija rebelde, un matrimonio que se deshace y un padre con el que no se entienden.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/m0TnZoSNeeTszgx5Ilybake6oes.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2RVknYPUPEZkymOPhR7v1uWwSbk.jpg",
+   "providers": [],
+   "trailer": "aQ12UV4bVZI",
+   "fondo": "https://image.tmdb.org/t/p/original/2RVknYPUPEZkymOPhR7v1uWwSbk.jpg"
+  },
+  {
    "id": 1802868,
    "title": "Azul",
    "release_date": "2026-11-21",
@@ -527,6 +542,21 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/tfKxQPWug4QP978YilUK1CRFjY8.jpg"
+  },
+  {
+   "id": 1819740,
+   "title": "Neska bat desagertu da",
+   "release_date": "2026-11-22",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bLGQnV92cX9IgNMJdJtLxqcWJWe.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
   },
   {
    "id": 1819753,
@@ -606,10 +636,10 @@
     "Romance"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nubnNXuMArUhiDW1nUevGsG65x9.jpg",
    "providers": [],
    "trailer": "j0MROuSV-pA",
-   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/nubnNXuMArUhiDW1nUevGsG65x9.jpg"
   },
   {
    "id": 1457866,
@@ -627,38 +657,6 @@
    "providers": [],
    "trailer": "fJH-wfSXnWg",
    "fondo": "https://image.tmdb.org/t/p/original/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg"
-  },
-  {
-   "id": 1472813,
-   "title": "Diario de una camarera",
-   "release_date": "2026-11-27",
-   "overview": "Gianina, una joven rumana, trabaja como empleada doméstica para una familia burguesa en Burdeos. Por las noches, ensaya el papel de criada con un grupo de teatro aficionado en una adaptación de *Diario de una camarera*, de Octave Mirbeau. Cuida de Louen, el hijo de sus empleadores, mientras su propia hija crece lejos de ella, en Rumanía. La ausencia materna se convierte en una herida profunda, pero, a medida que se acerca la Navidad, la promesa de un reencuentro empieza a tomar forma.",
-   "vote_average": 7,
-   "genres": [
-    "Drama",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/4s2tTxThQlcgbbMpcWsbmVvlcYG.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bYaiKiCmTOnd2EW0yuzA4vno8g.jpg",
-   "providers": [],
-   "trailer": "VhCR5WgsVbA",
-   "fondo": "https://image.tmdb.org/t/p/original/maVfxNUGus0zp91UahYt9GGpZO1.jpg"
-  },
-  {
-   "id": 1378791,
-   "title": "Everybody Digs Bill Evans",
-   "release_date": "2026-11-27",
-   "overview": "",
-   "vote_average": 4,
-   "genres": [
-    "Drama",
-    "Música"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fGwz8f16pYPErspL0QpQYvOZMZj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/tI0XbH8FhvVXLz8UDzEbr7ud4Ma.jpg",
-   "providers": [],
-   "trailer": "ieufCVBEWQI",
-   "fondo": "https://image.tmdb.org/t/p/original/tI0XbH8FhvVXLz8UDzEbr7ud4Ma.jpg"
   }
  ],
  "region": "ES"
