@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T18:58:07.288Z",
+ "actualizado": "2026-11-16T06:49:06.906Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -13,10 +13,10 @@
     "Misterio"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/USCOKXrHBCeeK96qXmS0NyDHYL.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/smZ8BT4Vzw4iCEppTLCnN8jNYtn.jpg",
    "providers": [],
    "trailer": "ocV7K_B67lQ",
-   "fondo": "https://image.tmdb.org/t/p/original/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/smZ8BT4Vzw4iCEppTLCnN8jNYtn.jpg"
   },
   {
    "id": 1058424,
@@ -94,8 +94,7 @@
    "vote_average": 7.7,
    "genres": [
     "Fantasía",
-    "Comedia",
-    "Terror"
+    "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",

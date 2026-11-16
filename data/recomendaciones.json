@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T18:58:23.578Z",
+ "actualizado": "2026-11-16T06:49:22.022Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -1428,291 +1428,284 @@
    },
    "items": [
     {
-     "id": 364615,
-     "title": "Toro",
-     "year": "2016",
-     "release_date": "2016-04-22",
-     "overview": "Dos hermanos se reencuentran después de cinco años. Uno ha estado en la cárcel. El otro, tras robar a un peligroso perista, huye con su pequeña hija Diana. Los tres emprenden un viaje por una Andalucía mítica, violenta y salvaje. Un viaje en el que reaparecen las viejas heridas del pasado y en el que los hermanos se ven obligados a reconciliarse para poder salvar la vida.",
-     "vote_average": 6,
-     "genres": [
-      "Drama",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/4VTgL6uCdR90w1qKInmidWSd3OB.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/410blM5fXyd6EbKUjVw5xtz7pK4.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/410blM5fXyd6EbKUjVw5xtz7pK4.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "s81KeWlio-I"
-    },
-    {
-     "id": 19621,
-     "title": "La venganza (The Hit)",
-     "year": "1984",
-     "release_date": "1984-09-07",
-     "overview": "Willie Parker, un antiguo gángster inglés que se convirtió en delator, vive desde hace diez años con una identidad falsa en una remota aldea española. Pero, cuando los mafiosos a los que traicionó descubren su paradero, le encargan a dos asesinos a sueldo que lo secuestren y lo trasladen a París. El plan se complica cuando, tras el rapto de Parker, la policía española empieza a perseguir a los criminales.",
-     "vote_average": 6.5,
-     "genres": [
-      "Drama",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/n8P13rEyvy6vPFmPaqUWAfbOZpk.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ylrd1QeNvaRXSmXwDLqhaGJ6S9K.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/ylrd1QeNvaRXSmXwDLqhaGJ6S9K.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "xyNVTkemjgQ"
-    },
-    {
-     "id": 587986,
-     "title": "Ventajas de viajar en tren",
+     "id": 613092,
+     "title": "El crack cero",
      "year": "2019",
-     "release_date": "2019-11-08",
-     "overview": "Después de internar a su trastornado marido en un remoto hospital psiquiátrico, la editora de libros Helga Pato regresa a casa en tren, donde conoce a un hombre misterioso que dice ser psiquiatra.",
-     "vote_average": 6.5,
+     "release_date": "2019-10-04",
+     "overview": "Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.",
+     "vote_average": 6.7,
      "genres": [
       "Drama",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/6C8uJnxoBZVYY7iueExVL423RLI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/enP0oniuGoWgVe2639Q3TjuYTnd.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/kzgPu2CMxBr4YZZxC1Off4cUfR9.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
      "providers": [
       "Amazon Prime Video",
-      "Movistar Plus+ Ficción Total ",
-      "SkyShowtime",
-      "Amazon Prime Video with Ads",
-      "Sky Showtime Amazon Channel"
-     ],
-     "trailer": "FgS_tWjkLN4"
-    },
-    {
-     "id": 36373,
-     "title": "M",
-     "year": "1951",
-     "release_date": "1951-03-01",
-     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
-     "vote_average": 6.5,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "providers": [],
-     "trailer": "IovfalMQ6lQ"
-    },
-    {
-     "id": 46041,
-     "title": "Conspiración en Berlín",
-     "year": "1966",
-     "release_date": "1966-11-10",
-     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Drama",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "FlixOlé",
       "Amazon Prime Video with Ads"
      ],
-     "trailer": "yakSWyVSNUs"
+     "trailer": "nYcq_Dy-EWw"
     },
     {
-     "id": 651589,
-     "title": "Hasta el cielo",
-     "year": "2020",
-     "release_date": "2020-12-18",
-     "overview": "El día que Ángel habló con Estrella en aquella discoteca, su vida cambió para siempre. Tras una pelea con Poli, el posesivo novio de la chica, éste descubre que Ángel tiene talento para meterse en problemas y, lo más importante, para salir de ellos. Por eso, le anima a unirse a una banda de atracadores que tiene en jaque a toda la policía de Madrid. Ángel comienza a escalar rápidamente en una pirámide de atracos, dinero negro, negocios turbios y abogados corruptos que le llevarán a ser acorralado por Duque, un incansable detective que no parará hasta acabar con su carrera. Desoyendo los consejos de su gente, Ángel consigue ascender hasta convertirse en el protegido de Rogelio, uno de los tipos que controla el mercado negro de la ciudad. Con éste y Sole, hija del capo, Ángel descubrirá que el precio del poder es alto y que pronto tendrá que decidir entre su futuro como atracador y el amor de su vida, Estrella.",
-     "vote_average": 6.1,
-     "genres": [
-      "Acción",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/4wBsYozsXBlG7Lx4NO7ycDWnnUs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vx4bevtt3ZVgezPZsuiVxm90l5E.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "I-wlmGEXJAM"
-    },
-    {
-     "id": 127521,
-     "title": "6 balas",
-     "year": "2012",
-     "release_date": "2012-09-11",
-     "overview": "El veterano mercenario Samson Gaul sabe que en el fragor de la batalla cada bala cuenta. Cuando sus acciones dieron como resultado la muerte de víctimas indefensas se retiró pero ahora es la última esperanza de Andrew Fayden un padre desesperado. Fayden sabe luchar pero solo no está preparado para encontrar a su hija en las corruptas calles de un país extranjero. Juntos, ambos guerreros, no se detendrán ante nada para destrozar la red criminal que se aprovecha de los inocentes.",
+     "id": 10056,
+     "title": "El beso del asesino",
+     "year": "1955",
+     "release_date": "1955-10-01",
+     "overview": "Un boxeador rescata a una cantante de las lascivas garras de su jefe. Intriga y melodrama para una película de bajo presupuesto producida, dirigida, escrita, fotografiada y montada por Stanley Kubrick.",
      "vote_average": 6.3,
      "genres": [
       "Suspense",
-      "Acción",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1ArlTk9TosvIJVmy9fwpD9XFRkw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "providers": [],
-     "trailer": "ioIknR8KQmk"
-    },
-    {
-     "id": 1659087,
-     "title": "180",
-     "year": "2026",
-     "release_date": "2026-04-16",
-     "overview": "Un inesperado incidente de tráfico deja a su hijo en estado crítico. El padre, enfurecido, se adentra en una oscura espiral de confusión emocional y venganza.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
       "Crimen",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/4nNuv41aosADsoQYYJDg7Y829YK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/wfFZ3eTDyJtOsCYzANC8ta51DR.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/7ZbNuSp186oxSjdtz5npRLLjVSb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yFi2LLXKbFN7bhLWmFNZLGOiiBe.jpg",
      "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
      ],
-     "trailer": "jHtGZS-TFOI"
+     "trailer": "W25UlE0C1-Y"
     },
     {
-     "id": 60794,
-     "title": "El crack",
-     "year": "1981",
-     "release_date": "1981-03-26",
-     "overview": "El detective privado Germán Areta el Piojo es contratado por un cliente moribundo que antes de morir desea ver a su hija, perdida hace tiempo.",
-     "vote_average": 7.1,
+     "id": 438396,
+     "title": "Orígenes secretos",
+     "year": "2020",
+     "release_date": "2020-08-28",
+     "overview": "En Madrid, España, un misterioso asesino en serie mata cruelmente a sus víctimas recreando la primera aparición de varios superhéroes de cómic. Cosme, un veterano inspector de policía que está a punto de retirarse, trabaja en el caso con el atormentado inspector David Valentín y su propio hijo Jorge Elías, un joven friki que posee una tienda de cómics.",
+     "vote_average": 6.2,
      "genres": [
       "Drama",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/thPZa2lHHV8wJu71kOHTR90OQ3p.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/p5cbr6otCjYv0WQlNbi8WNE133q.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/p5cbr6otCjYv0WQlNbi8WNE133q.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/9NkIvN0A602Y4Ewa2h2dHSl8n9A.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qGZe9qTuydxyJYQ60XDtEckzLR8.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qGZe9qTuydxyJYQ60XDtEckzLR8.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "VLubyNpveEs"
+    },
+    {
+     "id": 1128547,
+     "title": "Islands",
+     "year": "2025",
+     "release_date": "2025-05-08",
+     "overview": "Tom es entrenador de tenis en un lujoso hotel de la isla de Fuerteventura y llena el tiempo entre clases con alcohol y aventuras de una noche. La llegada de la familia Maguire saca a Tom de su rutina habitual, entabla una relación con Anne, su marido Dave y su hijo Anton. Tom no puede quitarse la sensación de que ya conoce a Anne de antes, y esta tensión crece entre ellos hasta que una noche Dave desaparece y la investigación policial señala a Anne y a Tom como sospechosos.",
+     "vote_average": 6.1,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/eLrpRK07s6muaFFi5cFZi20hFTF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vYu0TDdMeDJs4T1sJaxI98WQ4t4.jpg",
+     "providers": [],
+     "trailer": "MifpmLyraBE"
+    },
+    {
+     "id": 22334,
+     "title": "Sombras acusadoras",
+     "year": "1958",
+     "release_date": "1958-01-16",
+     "overview": "Película de suspense en la cual una mujer, heredera de una gran fortuna, deberá convencer a todos de que quien se ha presentado como su hermano, al que se creía muerto, es, en realidad un impostor que ha usurpado la identidad del hermano desaparecido.",
+     "vote_average": 7.1,
+     "genres": [
+      "Suspense",
+      "Misterio",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/scfM1yC2XEJu7DJjIDIBXL1WQu.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/bUib6ZZgQqzv8V2nJ6QzEgX8fGZ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bUib6ZZgQqzv8V2nJ6QzEgX8fGZ.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": ""
+    },
+    {
+     "id": 35404,
+     "title": "El caso de Thelma Jordon",
+     "year": "1949",
+     "release_date": "1949-11-04",
+     "overview": "Una misteriosa mujer inicia un romance con el fiscal de distrito. Él intuye que ella le oculta algo, y sus sospechas se confirman con el hallazgo de un cadáver.",
+     "vote_average": 6.5,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/v7uKmQv99HmeObubOTcGlJLpfsX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rovH7UG8HOytV1lebx8R7DmL2xX.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rovH7UG8HOytV1lebx8R7DmL2xX.jpg",
      "providers": [
       "Amazon Prime Video",
-      "Acontra Plus",
+      "Filmin",
       "Amazon Prime Video with Ads"
      ],
-     "trailer": ""
+     "trailer": "vrFXARH__0E"
     },
     {
-     "id": 30014,
-     "title": "La casa del río",
-     "year": "1950",
-     "release_date": "1950-03-23",
-     "overview": "Stephen Byrne, un escritor fracasado, aprovechando la ausencia de su mujer, intenta seducir a una criada, a la que mata involuntariamente. A continuación convence a su hermano para que le ayude a deshacerse del cadáver. (FILMAFFINITY)",
-     "vote_average": 6.8,
-     "genres": [
-      "Suspense",
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/yvHfKSDYIxRVDpOnM3yqOjtnTzK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
-     "providers": [
-      "Filmin",
-      "MUBI",
-      "MUBI Amazon Channel"
-     ],
-     "trailer": ""
-    },
-    {
-     "id": 20637,
-     "title": "Pánico",
-     "year": "2000",
-     "release_date": "2000-12-01",
-     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
-     "vote_average": 6.2,
-     "genres": [
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "providers": [],
-     "trailer": "h6qvVd-jg4Y"
-    },
-    {
-     "id": 862552,
-     "title": "El asesino del ritual",
-     "year": "2023",
-     "release_date": "2023-03-09",
-     "overview": "Un detective al borde de la jubilación se une a un profesor de estudios africanos para localizar a un asesino en serie que está realizando la antigua práctica de magia negra de Muti.",
-     "vote_average": 5.8,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Acción",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/dv1V0r6p9PeaOZlvaITDhTTyVKs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/int6tqvL97k6S9JCSPAVnwebg0F.jpg",
-     "providers": [],
-     "trailer": "DIa__DpZX9U"
-    },
-    {
-     "id": 613099,
-     "title": "Legado en los huesos",
-     "year": "2019",
-     "release_date": "2019-12-05",
-     "overview": "En esta continuación de El guardián invisible Amaia Salazar, inspectora de homicidios de la Policía Foral, tendrá que seguir los pasos de un tarttalo (un ser que según la mitología local caza pastores y doncellas) a la vez que descubre por primera vez lo que implica la maternidad. Pero ni siquiera el nacimiento de su primer hijo hace que se alejen los fantasmas del pasado, esos que creía exiliados a otro mundo…",
-     "vote_average": 6.5,
+     "id": 32080,
+     "title": "Los Implacables, Patrulla Especial",
+     "year": "1973",
+     "release_date": "1973-12-14",
+     "overview": "En Nueva York, para reforzar la lucha contra la mafia y los gángters, se ha creado un grupo especial de la Policía, formado por siete hombres, con total independencia y amparados en su anonimato. Son los \"seven-ups\", un grupo de élite que pronto se demuestra muy eficaz contra el crimen... El director Phillip D'Antoni -que no dirigió luego más películas- había sido el productor de éxitos similares anteriores como \"Bullitt\" (1968) and \"French Connection\"",
+     "vote_average": 6.3,
      "genres": [
       "Suspense",
       "Crimen",
       "Misterio"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/r9t2himGKFSKWjjUdpRLFQkafj7.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/isazfkX14Unin8m6meZMfm7QDfn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/isazfkX14Unin8m6meZMfm7QDfn.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "vv-at2_dfwk"
+     "poster": "https://image.tmdb.org/t/p/w342/7p8s3a1jdNfYeNFHj6z7p079iqf.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/Am1TyZKV2ayIwGM76rB5CAw36Gj.jpg",
+     "providers": [],
+     "trailer": "JVmcBXVy8Og"
     },
     {
-     "id": 1621552,
-     "title": "La captura",
-     "year": "2026",
-     "release_date": "2026-08-21",
-     "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
-     "vote_average": 8.7,
+     "id": 28663,
+     "title": "La fugitiva",
+     "year": "1950",
+     "release_date": "1950-11-10",
+     "overview": "Frank Johnson (Ross Elliott) es testigo de un asesinato mientras pasea una noche a su perro. El inspector Ferris (Robert Keith) le pide que declare ante el gran jurado, pero Frank decide huir. Su mujer, Eleanor (Ann Sheridan), que además piensa que en realidad huye de un matrimonio fracasado, obtiene la ayuda de un periodista, Danny Leggett (Dennis O'Keefe), para localizar a su marido. Pero ellos no son los únicos que le están buscando...",
+     "vote_average": 6.8,
+     "genres": [
+      "Suspense",
+      "Crimen",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6wp0FpyQvYVphtUSvANiCarawop.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/4vRFZeIcstzgRKLdhwxpbjD2ZHC.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "3Uck_n3b7gc"
+    },
+    {
+     "id": 44902,
+     "title": "Pasos en la niebla",
+     "year": "1955",
+     "release_date": "1955-09-14",
+     "overview": "Inglaterra Victoriana, siglo XIX. Una chica bastante ambiciosa (Jean Simmons) trabaja como sirvienta en la sombría mansión de un inquietante aristócrata (Stewart Granger). Cuando la mujer de éste muere, la criada empieza a sospechar del señor y acaba chantajeándolo, a pesar de que con su actitud está corriendo un grave peligro.",
+     "vote_average": 7,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/2SuqVGEaRNitBjpSsXhIY2s8SPw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/in7cgT30mjG10Fnt18QleQhMZtW.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6ymykmdK2z04a8bD3jLmT4ZpjKv.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "kceqv4Yu1sU"
+    },
+    {
+     "id": 38751,
+     "title": "The Man Who Cheated Himself",
+     "year": "1950",
+     "release_date": "1950-12-26",
+     "overview": "Ed es un policía de San Francisco que vive un idilio secreto con una mujer casada llamada Lois. Cuando Lois mata a su marido, Ed se ve forzado a ocultar el crimen, de modo que decide hacer creer que el muerto recibió un disparo durante un robo. Pero las cosas no serán tan sencillas.",
+     "vote_average": 6.2,
      "genres": [
       "Crimen",
-      "Acción",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/raVBwQY4Ru5yt0FDE4zDYSIlFgd.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/jJKWfhHjDaFGSNvRnXx0Xxehhls.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/w0w3wqNo9HqPKtH1OEhHoQt6six.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/dB8k9HiVa7G284TWntSUzGDWcHV.jpg",
      "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
+      "Artiflix"
      ],
-     "trailer": "Rk0efhpa-5Y"
+     "trailer": "hxcLsOJFjUQ"
+    },
+    {
+     "id": 1464374,
+     "title": "Los Tigres",
+     "year": "2025",
+     "release_date": "2025-10-31",
+     "overview": "Antonio y Estrella son hermanos buzos. Él trabaja en obras marítimas, ella estudia la vida submarina y le asiste. Su precaria economía podría mejorar tras encontrar cocaína oculta en el casco de un barco fondeado en Huelva.",
+     "vote_average": 6.2,
+     "genres": [
+      "Suspense",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/etJ74W3D9ZdpIk67dRSmC0akhjm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ebrd6JoIAu7r8dCiI2Hze2DKGvv.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/ebrd6JoIAu7r8dCiI2Hze2DKGvv.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total "
+     ],
+     "trailer": "xzSlunZIfPA"
+    },
+    {
+     "id": 28297,
+     "title": "Fuerza bruta",
+     "year": "1947",
+     "release_date": "1947-07-16",
+     "overview": "Tras los muros de la penitenciaría Westgate imperan la violencia y el miedo. El capitán Munsey, alcaide de la prisión, mantiene hacinados a los convictos sometiéndoles a constantes torturas y vejaciones. Joe Collins y sus compañeros de celda, hartos de la situación, deciden organizar una fuga. Un plan temerario con muchas posibilidades de acabar en un baño de sangre.",
+     "vote_average": 7.3,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/x7UxipX2gWPYBAwAGAYtQScvyYP.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aJcr2XzbFt2jqKtCnlw9Po1ZA2f.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/7kEMRnWw5zZaXU0xbZmnOKTdgoM.jpg",
+     "providers": [
+      "Artiflix"
+     ],
+     "trailer": "uTn6pHKVpNc"
+    },
+    {
+     "id": 1215185,
+     "title": "La infiltrada",
+     "year": "2024",
+     "release_date": "2024-10-11",
+     "overview": "País Vasco, España, finales de los años noventa. Una joven policía consigue infiltrarse en la despiadada banda terrorista ETA.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xnME9c2PEtYGBDPO4lZXAVeEu0G.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aJ3tiwuqRWgjvMonTC8499BCBi4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/q6eSjGQVt97jClKgub0EXGiJ7EB.jpg",
+     "providers": [
+      "Movistar Plus+ Ficción Total ",
+      "HBO Max",
+      "HBO Max Amazon Channel"
+     ],
+     "trailer": "7fEmGjV0LXc"
+    },
+    {
+     "id": 20362,
+     "title": "Una vida marcada",
+     "year": "1948",
+     "release_date": "1948-09-29",
+     "overview": "Un astuto y peligroso delincuente que ha matado a un policía es perseguido por un teniente de homicidios que fue su compañero de juegos durante la infancia, cuando ambos vivían en el barrio italiano (Little Italy) de Nueva York.",
+     "vote_average": 6.7,
+     "genres": [
+      "Crimen",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/esgbW90eHtdRTdmBYgvwCt7nHAM.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/lRBd0Fa0eRtOHZssIuNHehqM3V1.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/lRBd0Fa0eRtOHZssIuNHehqM3V1.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "q8YJMqT977k"
     }
    ]
   }
