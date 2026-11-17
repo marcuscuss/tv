@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T08:09:13.329Z",
+ "actualizado": "2026-11-17T21:06:17.336Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -27,6 +27,7 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
+      "Tivify",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
@@ -701,20 +702,20 @@
      "trailer": "Ouc9W0GRlQw"
     },
     {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
      "providers": [],
-     "trailer": "JxTFqsy5Pxs"
+     "trailer": "YuMBAq-ROh4"
     },
     {
      "id": 127373,
@@ -736,22 +737,6 @@
      "trailer": "B1xClEljavQ"
     },
     {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
-     "providers": [],
-     "trailer": "YuMBAq-ROh4"
-    },
-    {
      "id": 69557,
      "title": "Siempre estoy sola",
      "year": "1964",
@@ -768,6 +753,22 @@
       "Filmin"
      ],
      "trailer": "JCD2382CTN4"
+    },
+    {
+     "id": 29697,
+     "title": "Confianza en la cosecha",
+     "year": "2006",
+     "release_date": "2006-10-27",
+     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
+     "vote_average": 7.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "providers": [],
+     "trailer": "JxTFqsy5Pxs"
     },
     {
      "id": 1585,
@@ -809,6 +810,24 @@
      "trailer": "UdBBjFQYzwA"
     },
     {
+     "id": 29989,
+     "title": "Skin",
+     "year": "2009",
+     "release_date": "2009-07-24",
+     "overview": "Basado en la historia real de una niña negra que nació de dos padres afrikaners blancos en Sudáfrica durante la era del apartheid.",
+     "vote_average": 6.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/lRKQ0CXJF1cIO1kc2XqdWptbaAX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "wbj691Z1Z1E"
+    },
+    {
      "id": 1243381,
      "title": "María",
      "year": "2024",
@@ -830,38 +849,20 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 29989,
-     "title": "Skin",
-     "year": "2009",
-     "release_date": "2009-07-24",
-     "overview": "Basado en la historia real de una niña negra que nació de dos padres afrikaners blancos en Sudáfrica durante la era del apartheid.",
-     "vote_average": 6.4,
+     "id": 550958,
+     "title": "Holy Lands",
+     "year": "2019",
+     "release_date": "2019-01-16",
+     "overview": "Cuando el judío fallecido y ex cardiólogo Harry (James Caan) repentinamente decide pasar su retiro como criador de cerdos en Nazaret, Israel, la mudanza conmociona profundamente a su familia y a sus nuevos vecinos. De vuelta en Nueva York, la ex esposa de Harry, Monica (Rosanna Arquette), está tratando de manejar las vidas de sus hijos adultos, Annabelle y David (Jonathan Rhys Meyers), así como la suya propia.",
+     "vote_average": 6.1,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/lRKQ0CXJF1cIO1kc2XqdWptbaAX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "wbj691Z1Z1E"
-    },
-    {
-     "id": 38557,
-     "title": "Cuando el río crece",
-     "year": "1984",
-     "release_date": "1984-12-01",
-     "overview": "Tom y Mae Garvey se niegan a vender su granja a pesar de las presiones de las autoridades locales que pretenden inundar los terrenos que están a orillas del río. El encargado de presionar a los Garvey resulta ser John Wade, un antiguo pretendiente de Mae. La tensión desencadena un enfrentamiento en las riberas del río en plena crecida.",
-     "vote_average": 6.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/tJdgFpNUN1If0zYjFCLjUvmPJPo.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/tEodwsC1kRFFbI4CJCZJopdX0D.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/qcRIVBS5pGDV2ZeKJZtVDQsgCxm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/6C9bSOkU7Z98xId5FASROjD1s61.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/etEASqqTlkBeI3HDNNq1utVK5xy.jpg",
      "providers": [],
-     "trailer": "2fzExjAHQ2Q"
+     "trailer": ""
     }
    ]
   },
@@ -1006,6 +1007,25 @@
      "trailer": "t-yhbvVpPgI"
     },
     {
+     "id": 84338,
+     "title": "Simon Killer",
+     "year": "2012",
+     "release_date": "2012-04-12",
+     "overview": "Un graduado reciente en la universidad va a París después de romper una relación con su novia que duraba 5 años. Una vez allí, se enamora de una joven prostituta y comienza un viaje fatídico.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/32SUAJ7JP9Jvb251J8tf9U2Si6m.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "VJICFO4lbtQ"
+    },
+    {
      "id": 19171,
      "title": "Miedo súbito",
      "year": "1952",
@@ -1044,6 +1064,23 @@
      "trailer": "5TBu6e1IC_0"
     },
     {
+     "id": 9357,
+     "title": "Retratos de una obsesión",
+     "year": "2002",
+     "release_date": "2002-08-21",
+     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
+     "providers": [],
+     "trailer": "eWzILZ6wE9Y"
+    },
+    {
      "id": 471506,
      "title": "La viuda",
      "year": "2019",
@@ -1064,23 +1101,6 @@
      "trailer": "9sLHK4ccHGQ"
     },
     {
-     "id": 9357,
-     "title": "Retratos de una obsesión",
-     "year": "2002",
-     "release_date": "2002-08-21",
-     "overview": "Sy Parrish es un hombre anodino y tímido que dirige desde hace años el laboratorio fotográfico de los grandes almacenes “SavMart”. Vive solo, adora su trabajo y es un auténtico perfeccionista a la hora de revelar los negativos. Cientos de fotos, en las que aparece la familia Yorkin, tapizan las paredes de su vivienda. Desde hace años, los Yorkin llevan sus fotos a revelar a SavMart. Son una perfecta familia de los suburbios y Sy no puede resistirse a seguir sus vidas a través de las copias de sus fotos. Pero un día, el director de los grandes almacenes, Bill Owens, lo despide. Sy consigue hacerse con una serie de fotografías donde aparece Will Yorkin en pleno adulterio y, consternado por el comportamiento del padre de esta familia “perfecta”, Sy decide hacer algo al respecto.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1xynnAiIp20CuXJHN3bqljtWgGO.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/uwbp1RJkFR5vhaMJPujoB7Qkkgc.jpg",
-     "providers": [],
-     "trailer": "eWzILZ6wE9Y"
-    },
-    {
      "id": 235271,
      "title": "Perversa adicción",
      "year": "2014",
@@ -1098,46 +1118,21 @@
      "trailer": "ZdZ0lUxunbA"
     },
     {
-     "id": 27033,
-     "title": "El extraño amor de Martha Ivers",
-     "year": "1946",
-     "release_date": "1946-08-19",
-     "overview": "Tres amigos de la infancia, Martha, Walter y Sam, comparten un terrible secreto. Ya adultos, la ambiciosa Martha y el pusilánime Walter se casan. Ella es una fría mujer de negocios; él es el fiscal del distrito: una combinación perfecta para dominar la corrupta ciudad de Iverstown según su voluntad. Pero el inesperado regreso de Sam, después de años de ausencia, perturba profundamente la vida de la extraña pareja.",
-     "vote_average": 7.1,
+     "id": 1175351,
+     "title": "Bosco",
+     "year": "2024",
+     "release_date": "2024-02-02",
+     "overview": "Cuenta la historia de Quawntay “Bosco” Adams. Sentenciado a 35 años por intento de posesión de marihuana, Adams escapó milagrosamente con la ayuda de una mujer mayor que conoció a través de un anuncio de corazones solitarios.",
+     "vote_average": 6.8,
      "genres": [
       "Drama",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/aPWPwf400mmua0lKHKvFNtFZjqX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "FlixOlé",
-      "Amazon Prime Video with Ads",
-      "Artiflix"
-     ],
-     "trailer": "hrMqLD_uoCk"
-    },
-    {
-     "id": 84338,
-     "title": "Simon Killer",
-     "year": "2012",
-     "release_date": "2012-04-12",
-     "overview": "Un graduado reciente en la universidad va a París después de romper una relación con su novia que duraba 5 años. Una vez allí, se enamora de una joven prostituta y comienza un viaje fatídico.",
-     "vote_average": 5.9,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/32SUAJ7JP9Jvb251J8tf9U2Si6m.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/1MX8edKn2QP71bL2uv03JN3AIxV.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "VJICFO4lbtQ"
+     "poster": "https://image.tmdb.org/t/p/w342/dXjSeS3w97setnrNv4m6tlqqXzn.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
+     "providers": [],
+     "trailer": "Pz7s3YPS7nk"
     }
    ]
   },
@@ -1211,6 +1206,28 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "S2PqjYSirus"
+    },
+    {
+     "id": 20482,
+     "title": "La ciudad desnuda",
+     "year": "1948",
+     "release_date": "1948-03-04",
+     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
+     "vote_average": 7.2,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
+     "providers": [
+      "Filmin",
+      "Artiflix"
+     ],
+     "trailer": "-RN_BvyNpS8"
     },
     {
      "id": 242582,
@@ -1331,6 +1348,7 @@
      "fondo": "https://image.tmdb.org/t/p/original/5qNhPotZXSVh00Mo2Z954tYXFXg.jpg",
      "providers": [
       "Amazon Prime Video",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "wQs35Rka34A"
@@ -1412,27 +1430,6 @@
       "Filmin"
      ],
      "trailer": "UuQN3rTi27I"
-    },
-    {
-     "id": 31930,
-     "title": "Asesinato",
-     "year": "1930",
-     "release_date": "1930-07-31",
-     "overview": "Una mujer es acusada de asesinato y juzgada por ello. Todo el jurado popular cree en su culpabilidad, salvo un hombre que hará todo lo posible por defender su inocencia.",
-     "vote_average": 5.9,
-     "genres": [
-      "Misterio",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/u7aU2y5HMLL3vHwUgzomwhj3hJM.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/PYhykxjFQU3TnlvqoqMrsLTJ8U.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/PYhykxjFQU3TnlvqoqMrsLTJ8U.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
-     ],
-     "trailer": "BxMMkvTnW0A"
     }
    ]
   },
@@ -2354,6 +2351,7 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "Netflix Standard with Ads",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "UoSSbmD9vqc"
@@ -3080,7 +3078,9 @@
      "poster": "https://image.tmdb.org/t/p/w342/oiqKEhEfxl9knzWXvWecJKN3aj6.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-     "providers": [],
+     "providers": [
+      "Tivify"
+     ],
      "trailer": "aSEPD9w_dLM"
     },
     {
@@ -3519,6 +3519,7 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "Netflix Standard with Ads",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "UoSSbmD9vqc"
@@ -3575,26 +3576,6 @@
  "tematicas": {
   "navidad": [
    {
-    "id": 9479,
-    "title": "Pesadilla antes de Navidad",
-    "year": "1993",
-    "release_date": "1993-10-09",
-    "overview": "Cuando Jack Skellington, el Señor de Halloween, descubre la Navidad, se queda fascinado y decide mejorarla. Sin embargo, su visión de la festividad es totalmente contraria al espíritu navideño. Sus planes incluyen el secuestro de Santa Claus y la introducción de cambios bastante macabros. Sólo su novia Sally es consciente del error que está cometiendo.",
-    "vote_average": 7.9,
-    "genres": [
-     "Fantasía",
-     "Animación",
-     "Familia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/pqFPpQ77VZ0moRgRRsxx7p39CS3.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "IoYahD_xNR0"
-   },
-   {
     "id": 772,
     "title": "Solo en casa 2: Perdido en Nueva York",
     "year": "1992",
@@ -3613,6 +3594,26 @@
      "Disney Plus"
     ],
     "trailer": "VfBCYaGu7Ts"
+   },
+   {
+    "id": 9479,
+    "title": "Pesadilla antes de Navidad",
+    "year": "1993",
+    "release_date": "1993-10-09",
+    "overview": "Cuando Jack Skellington, el Señor de Halloween, descubre la Navidad, se queda fascinado y decide mejorarla. Sin embargo, su visión de la festividad es totalmente contraria al espíritu navideño. Sus planes incluyen el secuestro de Santa Claus y la introducción de cambios bastante macabros. Sólo su novia Sally es consciente del error que está cometiendo.",
+    "vote_average": 7.9,
+    "genres": [
+     "Fantasía",
+     "Animación",
+     "Familia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/pqFPpQ77VZ0moRgRRsxx7p39CS3.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/dSfrsjhqC6lYe7LYDYnzWeXZmEl.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "IoYahD_xNR0"
    },
    {
     "id": 8871,
@@ -3690,24 +3691,47 @@
     "trailer": "Y2u6m2W428g"
    },
    {
-    "id": 331482,
-    "title": "Mujercitas",
-    "year": "2019",
-    "release_date": "2019-12-25",
-    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
-    "vote_average": 7.9,
+    "id": 17979,
+    "title": "Cuento de Navidad",
+    "year": "2009",
+    "release_date": "2009-11-04",
+    "overview": "Ebenezer Scrooge es un personaje malhumorado y gruñón que trata con desprecio y malos modales a su fiel empleado Bob Cratchit y a su alegre sobrino. Pero, cuando el espíritu de las Navidades pasadas, presentes y futuras lo arrastra a un viaje durante el cual descubre verdades que siempre se ha negado a ver, el corazón del viejo avaro se ilumina y se da cuenta de que debe actuar inmediatamente para contrarrestar tantos años de egoísmo y rencor. Adaptación del clásico de Charles Dickens.",
+    "vote_average": 6.9,
     "genres": [
-     "Drama",
-     "Romance"
+     "Animación",
+     "Familia",
+     "Fantasía",
+     "Drama"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/z2wBWFEQ9FE0RcjmWXz3vvSNPfT.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/lqxxwTRk0l7CubY6JkJdhnwJEkn.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/lqxxwTRk0l7CubY6JkJdhnwJEkn.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/meN97hs1BtmChq16NFhWxOI8och.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "j8jOwPbZ-W0"
+   },
+   {
+    "id": 845781,
+    "title": "Red One",
+    "year": "2024",
+    "release_date": "2024-10-31",
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "vote_average": 6.9,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
     "providers": [
      "Amazon Prime Video",
      "Amazon Prime Video with Ads"
     ],
-    "trailer": "6SN9-6uST80"
+    "trailer": "RcER0_lZ2F4"
    },
    {
     "id": 5255,
@@ -3738,67 +3762,24 @@
     "trailer": "4XkHPphBN_Q"
    },
    {
-    "id": 845781,
-    "title": "Red One",
-    "year": "2024",
-    "release_date": "2024-10-31",
-    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
-    "vote_average": 6.9,
+    "id": 331482,
+    "title": "Mujercitas",
+    "year": "2019",
+    "release_date": "2019-12-25",
+    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
+    "vote_average": 7.9,
     "genres": [
-     "Acción",
-     "Aventura",
-     "Comedia",
-     "Fantasía"
+     "Drama",
+     "Romance"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/z2wBWFEQ9FE0RcjmWXz3vvSNPfT.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/lqxxwTRk0l7CubY6JkJdhnwJEkn.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/lqxxwTRk0l7CubY6JkJdhnwJEkn.jpg",
     "providers": [
      "Amazon Prime Video",
      "Amazon Prime Video with Ads"
     ],
-    "trailer": "RcER0_lZ2F4"
-   },
-   {
-    "id": 17979,
-    "title": "Cuento de Navidad",
-    "year": "2009",
-    "release_date": "2009-11-04",
-    "overview": "Ebenezer Scrooge es un personaje malhumorado y gruñón que trata con desprecio y malos modales a su fiel empleado Bob Cratchit y a su alegre sobrino. Pero, cuando el espíritu de las Navidades pasadas, presentes y futuras lo arrastra a un viaje durante el cual descubre verdades que siempre se ha negado a ver, el corazón del viejo avaro se ilumina y se da cuenta de que debe actuar inmediatamente para contrarrestar tantos años de egoísmo y rencor. Adaptación del clásico de Charles Dickens.",
-    "vote_average": 6.9,
-    "genres": [
-     "Animación",
-     "Familia",
-     "Fantasía",
-     "Drama"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/meN97hs1BtmChq16NFhWxOI8och.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "j8jOwPbZ-W0"
-   },
-   {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
+    "trailer": "6SN9-6uST80"
    },
    {
     "id": 10719,
@@ -3821,6 +3802,26 @@
      "Netflix Standard with Ads"
     ],
     "trailer": "14o38xfHlXc"
+   },
+   {
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
+    "genres": [
+     "Drama",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "providers": [
+     "Filmin"
+    ],
+    "trailer": "iLR3gZrU2Xo"
    },
    {
     "id": 508,
@@ -3847,20 +3848,27 @@
     "trailer": "r3mJrSA1x5s"
    },
    {
-    "id": 5825,
-    "title": "¡Socorro! Ya es Navidad",
-    "year": "1989",
-    "release_date": "1989-11-30",
-    "overview": "Clark Griswold, movido por un generoso y sentimental espíritu navideño, quiere sorprender a toda su familia con una gran fiesta. La suerte no suele acompañarlo y esta vez no va a ser diferente... Una sucesión de disparatados desastres convertirán la esperadísima sorpresa de Clark en un verdadero caos.",
-    "vote_average": 7.2,
+    "id": 927,
+    "title": "Gremlins",
+    "year": "1984",
+    "release_date": "1984-06-08",
+    "overview": "Rand es un viajante que un día regala a su hijo Billy una tierna y extraña criatura, un mogwai. El inocente regalo, sin embargo, será el origen de toda una ola de gamberradas y fechorías en un pequeño pueblo de Estados Unidos. Todo empieza cuando son infringidas, una tras otra, las tres reglas básicas que deben seguirse para cuidar a un mogwai: no darle de comer después de medianoche, no mojarlo y evitar que le dé la luz del Sol.",
+    "vote_average": 7.1,
     "genres": [
+     "Fantasía",
+     "Terror",
      "Comedia"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/qmyeMduOLqrNqBpAaMwC7Qivwoy.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "providers": [],
-    "trailer": "tLVd4ipC5Lc"
+    "poster": "https://image.tmdb.org/t/p/w342/73Lf0JYHyWyZQGu04wvzzM3hh0l.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/5UX6M0aEphiW6Xmy5rpYX75glbo.jpg",
+    "providers": [
+     "Netflix",
+     "Movistar Plus+",
+     "Movistar Plus+ Ficción Total ",
+     "Netflix Standard with Ads"
+    ],
+    "trailer": "XXxC0Geijzs"
    },
    {
     "id": 1581,
@@ -4023,7 +4031,9 @@
     "poster": "https://image.tmdb.org/t/p/w342/oiqKEhEfxl9knzWXvWecJKN3aj6.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w780/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
     "fondo": "https://image.tmdb.org/t/p/original/66Kn4XWhkuPkJxOJyPEx4U2CUfN.jpg",
-    "providers": [],
+    "providers": [
+     "Tivify"
+    ],
     "trailer": "aSEPD9w_dLM"
    },
    {
@@ -4213,7 +4223,7 @@
    "title": "Resident Evil",
    "year": "2026",
    "release_date": "2026-09-16",
-   "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor. ver gratis in vercineo.net",
+   "overview": "Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
    "vote_average": 7.5,
    "genres": [
     "Terror",

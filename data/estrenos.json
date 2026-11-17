@@ -1,12 +1,12 @@
 {
- "actualizado": "2026-11-17T08:08:45.316Z",
+ "actualizado": "2026-11-17T21:05:56.193Z",
  "source": "tmdb",
  "now_playing": [
   {
    "id": 1400837,
    "title": "La otra madre",
    "release_date": "2026-10-09",
-   "overview": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia. ver gratis in vercineo.net",
+   "overview": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su armario. La presencia, a quien llama \"Otra mamá\", se vuelve cada vez más amenazante para ella y su familia.",
    "vote_average": 6.4,
    "genres": [
     "Terror"
@@ -21,7 +21,7 @@
    "id": 1058424,
    "title": "Hope",
    "release_date": "2026-10-30",
-   "overview": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas. ver gratis in vercineo.net",
+   "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
    "vote_average": 6.8,
    "genres": [
     "Ciencia ficción",
@@ -38,7 +38,7 @@
    "id": 1244523,
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
-   "overview": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna». ver gratis in vercineo.net",
+   "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
    "vote_average": 6,
    "genres": [
     "Terror",
@@ -65,7 +65,7 @@
    "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
    "providers": [],
-   "trailer": "Pu0pH5BuCPM",
+   "trailer": "hmxKLaIp0cI",
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
   },
   {
@@ -73,7 +73,7 @@
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 7.6,
+   "vote_average": 7.7,
    "genres": [
     "Fantasía",
     "Comedia",
@@ -110,7 +110,6 @@
    "vote_average": 6.3,
    "genres": [
     "Acción",
-    "Comedia",
     "Fantasía"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
@@ -141,7 +140,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.2,
+   "vote_average": 6.1,
    "genres": [
     "Acción",
     "Crimen",
@@ -276,7 +275,7 @@
    "title": "Victorian Psycho",
    "release_date": "2026-11-13",
    "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
-   "vote_average": 5.7,
+   "vote_average": 5.8,
    "genres": [
     "Terror",
     "Suspense"
@@ -342,8 +341,8 @@
    "id": 1300968,
    "title": "Los Juegos del Hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
-   "overview": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la siega de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 9.3,
+   "overview": "El mundo de Panem 24 años antes de los acontecimientos de la primera película, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, también denominados como el Segundo Vasallaje de los Veinticinco. Allí participa un joven Haymitch Abernathy.",
+   "vote_average": 8.7,
    "genres": [
     "Ciencia ficción",
     "Acción",
@@ -373,6 +372,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
   },
   {
+   "id": 1568060,
+   "title": "Perfectos mentirosos",
+   "release_date": "2026-11-20",
+   "overview": "Bienvenidos a Tagus, donde el poder, el privilegio y los secretos mortales se esconden tras fachadas perfectas. Jude Derry llega a esta exclusiva universidad con una misión oculta: infiltrarse en el círculo de los hermanos Cash para descubrir la verdad sobre la muerte de su hermano. Los tres herederos del imperio familiar, Aegan, el carismático y calculador primogénito, Adrik, el enigmático y misterioso hermano mediano, y Alex, el rebelde e impredecible hermano pequeño, dominan Tagus con un magnetismo al que nadie puede resistirse. Lo que comienza como una venganza personal se transforma en un peligroso triángulo de seducción, atracción prohibida y mentiras cuando Jude queda envuelta en la compleja dinámica familiar de los Cash. Con cada pista que descubre, se acerca más a una verdad que podría no solo destruir a la poderosa familia… sino también desvelar secretos que quizás ella misma no está preparada para enfrentar.",
+   "vote_average": 8,
+   "genres": [
+    "Drama",
+    "Romance",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/efIgLApItIC4DUY60MGCpFOGcVw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg",
+   "providers": [],
+   "trailer": "50v6k3LUcxU",
+   "fondo": "https://image.tmdb.org/t/p/original/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg"
+  },
+  {
    "id": 1176962,
    "title": "Rose",
    "release_date": "2026-11-20",
@@ -388,23 +404,6 @@
    "providers": [],
    "trailer": "hQGIx7gk_uc",
    "fondo": "https://image.tmdb.org/t/p/original/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg"
-  },
-  {
-   "id": 1568060,
-   "title": "Perfectos mentirosos",
-   "release_date": "2026-11-20",
-   "overview": "Bienvenidos a Tagus, donde el poder, el privilegio y los secretos mortales se esconden tras fachadas perfectas. Jude Derry llega a esta exclusiva universidad con una misión oculta: infiltrarse en el círculo de los hermanos Cash para descubrir la verdad sobre la muerte de su hermano. Los tres herederos del imperio familiar, Aegan, el carismático y calculador primogénito, Adrik, el enigmático y misterioso hermano mediano, y Alex, el rebelde e impredecible hermano pequeño, dominan Tagus con un magnetismo al que nadie puede resistirse. Lo que comienza como una venganza personal se transforma en un peligroso triángulo de seducción, atracción prohibida y mentiras cuando Jude queda envuelta en la compleja dinámica familiar de los Cash. Con cada pista que descubre, se acerca más a una verdad que podría no solo destruir a la poderosa familia… sino también desvelar secretos que quizás ella misma no está preparada para enfrentar.",
-   "vote_average": 8,
-   "genres": [
-    "Drama",
-    "Romance",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ofb4SsnYB3wVT6APbjMZiBUR1CB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg",
-   "providers": [],
-   "trailer": "50v6k3LUcxU",
-   "fondo": "https://image.tmdb.org/t/p/original/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg"
   },
   {
    "id": 947493,
@@ -465,10 +464,10 @@
     "Drama"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/9FKhEtXhX2Omvc7kVcjvDYk8DWG.jpg",
-   "backdrop": "",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2hDvcWbWaCOkh8bwrVl0w6FJNog.jpg",
    "providers": [],
    "trailer": "Hu6Mi3uyFzg",
-   "fondo": ""
+   "fondo": "https://image.tmdb.org/t/p/original/2hDvcWbWaCOkh8bwrVl0w6FJNog.jpg"
   },
   {
    "id": 1736705,
@@ -481,10 +480,10 @@
     "Drama"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/g8JgLE6obZIf57O8nfBTSHHEQ27.jpg",
-   "backdrop": "",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dnnMzLIaKJYzhHArwZSDEHQ4qrN.jpg",
    "providers": [],
    "trailer": "",
-   "fondo": ""
+   "fondo": "https://image.tmdb.org/t/p/original/iWtK9gVWFDI9xW6XmtqDdveOIj.jpg"
   },
   {
    "id": 1578646,
@@ -502,21 +501,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/icdSfduEYHfXSlGq0V62zmnsE1m.jpg"
   },
   {
-   "id": 1641467,
-   "title": "Ley de vida",
-   "release_date": "2026-11-20",
-   "overview": "Mario, un joven rebelde que vive acostumbrado a su vida habitual se enfrentará a una dura noticia que le cambiará la vida. Tras un enfado con sus padres, Mario es enviado en contra de su voluntad a Chicago para estudiar medicina, algo que a él no le apasiona. Durante su estancia allí Mario experimentará lo que es vivir fuera de la rutina y las dificultades de cambiar de ambiente personal. Mario se balanceará entre dos opciones que podrían determinar el camino de su vida para bien, o para mal.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/kPqY4wgr4CkAlwGGbai3J96JsOl.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mrF0yrjS8IW1D5uylYgJtJXxvzJ.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/mrF0yrjS8IW1D5uylYgJtJXxvzJ.jpg"
-  },
-  {
    "id": 1732872,
    "title": "Citas",
    "release_date": "2026-11-20",
@@ -524,25 +508,10 @@
    "vote_average": 0,
    "genres": [],
    "poster": "https://image.tmdb.org/t/p/w342/fGMDeRUppQH0GRaw93TV4ynhY6l.jpg",
-   "backdrop": "",
+   "backdrop": "https://image.tmdb.org/t/p/w780/1UfGinQhPNMNg9qRY1rcxzLbX1u.jpg",
    "providers": [],
    "trailer": "WH0pAHGJf04",
-   "fondo": ""
-  },
-  {
-   "id": 1658070,
-   "title": "Sucia. ¿Por qué no hiciste nada?",
-   "release_date": "2026-11-20",
-   "overview": "Tras sufrir una agresión sexual durante un masaje, la actriz Bárbara Mestanza transforma el trauma en arte: una obra de teatro cruda y sin concesiones. Frente a la pregunta —«¿Por qué no hiciste nada?»— inicia un viaje para encontrar a su agresor, cuestionar la masculinidad tóxica y reivindicar la justicia desde su propia voz.",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/rlOGeJH0avZoW7GUFtxgpc06KBh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/yphktRNVpxNAbfMmVbrOU2BITmi.jpg",
-   "providers": [],
-   "trailer": "73pltijKyZg",
-   "fondo": "https://image.tmdb.org/t/p/original/yphktRNVpxNAbfMmVbrOU2BITmi.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/1UfGinQhPNMNg9qRY1rcxzLbX1u.jpg"
   },
   {
    "id": 1423984,
@@ -560,19 +529,49 @@
    "fondo": "https://image.tmdb.org/t/p/original/h2LsSToMcLDRwc4cxuLl9TPRX7Q.jpg"
   },
   {
-   "id": 1819740,
-   "title": "Neska bat desagertu da",
-   "release_date": "2026-11-22",
-   "overview": "",
+   "id": 1800199,
+   "title": "Hechos probados",
+   "release_date": "2026-11-20",
+   "overview": "Delia e Inés son dos hermanas unidas por una vocación y enfrentadas desde hace años por heridas familiares y conflictos del pasado.  Ambas son abogadas, pero tienen visiones radicalmente opuestas sobre el derecho y la vida. Cuando sus vidas y sus carreras saltan por los aires, ambas se verán obligadas a trabajar juntas en la legaltech LTS para derrotar en los tribunales al bufete de Prado, el abogado con el que las dos tienen cuentas pendientes.  Mientras colaboran, las hermanas, aprenderán a perdonarse, a lidiar con una hija rebelde, un matrimonio que se deshace y un padre con el que no se entienden.",
    "vote_average": 0,
    "genres": [
     "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/bLGQnV92cX9IgNMJdJtLxqcWJWe.jpg",
-   "backdrop": "",
+   "poster": "https://image.tmdb.org/t/p/w342/m0TnZoSNeeTszgx5Ilybake6oes.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2RVknYPUPEZkymOPhR7v1uWwSbk.jpg",
+   "providers": [],
+   "trailer": "aQ12UV4bVZI",
+   "fondo": "https://image.tmdb.org/t/p/original/2RVknYPUPEZkymOPhR7v1uWwSbk.jpg"
+  },
+  {
+   "id": 1658070,
+   "title": "Sucia. ¿Por qué no hiciste nada?",
+   "release_date": "2026-11-20",
+   "overview": "Tras sufrir una agresión sexual durante un masaje, la actriz Bárbara Mestanza transforma el trauma en arte: una obra de teatro cruda y sin concesiones. Frente a la pregunta —«¿Por qué no hiciste nada?»— inicia un viaje para encontrar a su agresor, cuestionar la masculinidad tóxica y reivindicar la justicia desde su propia voz.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/rlOGeJH0avZoW7GUFtxgpc06KBh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/yphktRNVpxNAbfMmVbrOU2BITmi.jpg",
+   "providers": [],
+   "trailer": "73pltijKyZg",
+   "fondo": "https://image.tmdb.org/t/p/original/yphktRNVpxNAbfMmVbrOU2BITmi.jpg"
+  },
+  {
+   "id": 1641467,
+   "title": "Ley de vida",
+   "release_date": "2026-11-20",
+   "overview": "Mario, un joven rebelde que vive acostumbrado a su vida habitual se enfrentará a una dura noticia que le cambiará la vida. Tras un enfado con sus padres, Mario es enviado en contra de su voluntad a Chicago para estudiar medicina, algo que a él no le apasiona. Durante su estancia allí Mario experimentará lo que es vivir fuera de la rutina y las dificultades de cambiar de ambiente personal. Mario se balanceará entre dos opciones que podrían determinar el camino de su vida para bien, o para mal.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/kPqY4wgr4CkAlwGGbai3J96JsOl.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/mrF0yrjS8IW1D5uylYgJtJXxvzJ.jpg",
    "providers": [],
    "trailer": "",
-   "fondo": ""
+   "fondo": "https://image.tmdb.org/t/p/original/mrF0yrjS8IW1D5uylYgJtJXxvzJ.jpg"
   },
   {
    "id": 1714083,
