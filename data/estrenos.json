@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T07:43:23.043Z",
+ "actualizado": "2026-11-18T20:43:01.205Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -61,8 +61,7 @@
    "vote_average": 7.6,
    "genres": [
     "Fantasía",
-    "Comedia",
-    "Terror"
+    "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
@@ -125,7 +124,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6,
+   "vote_average": 6.2,
    "genres": [
     "Acción",
     "Crimen",
@@ -149,10 +148,10 @@
     "Ciencia ficción"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg",
    "providers": [],
    "trailer": "WGOv9Pzh9cE",
-   "fondo": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg"
   },
   {
    "id": 891621,
@@ -246,8 +245,8 @@
    "vote_average": 5.6,
    "genres": [
     "Acción",
-    "Suspense",
-    "Terror"
+    "Terror",
+    "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
@@ -340,123 +339,6 @@
  ],
  "upcoming": [
   {
-   "id": 1300968,
-   "title": "Los Juegos del Hambre: Amanecer en la cosecha",
-   "release_date": "2026-11-20",
-   "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la siega de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 8.7,
-   "genres": [
-    "Ciencia ficción",
-    "Acción",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/nijGyrqQbDhSGss4uugQokvBAsG.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
-   "providers": [],
-   "trailer": "71wxo7pAKVE",
-   "fondo": "https://image.tmdb.org/t/p/original/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg"
-  },
-  {
-   "id": 1240889,
-   "title": "Adolescencia, sexo y muerte en campamento Miasma",
-   "release_date": "2026-11-20",
-   "overview": "Tras años de secuelas cutres y un fandom en declive, la franquicia slasher 'Camp Miasma' es puesta en manos de una joven y entusiasta directora para que la resucite. Pero cuando visita a la estrella de la película original, una actriz que ahora vive recluida y envuelta en misterio, las dos caen en una espiral de sangre, deseo, miedo y delirio.",
-   "vote_average": 6.1,
-   "genres": [
-    "Comedia",
-    "Terror",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
-   "providers": [],
-   "trailer": "j9TsiTgYZGw",
-   "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
-  },
-  {
-   "id": 1568060,
-   "title": "Perfectos mentirosos",
-   "release_date": "2026-11-20",
-   "overview": "Bienvenidos a Tagus, donde el poder, el privilegio y los secretos mortales se esconden tras fachadas perfectas. Jude Derry llega a esta exclusiva universidad con una misión oculta: infiltrarse en el círculo de los hermanos Cash para descubrir la verdad sobre la muerte de su hermano. Los tres herederos del imperio familiar, Aegan, el carismático y calculador primogénito, Adrik, el enigmático y misterioso hermano mediano, y Alex, el rebelde e impredecible hermano pequeño, dominan Tagus con un magnetismo al que nadie puede resistirse. Lo que comienza como una venganza personal se transforma en un peligroso triángulo de seducción, atracción prohibida y mentiras cuando Jude queda envuelta en la compleja dinámica familiar de los Cash. Con cada pista que descubre, se acerca más a una verdad que podría no solo destruir a la poderosa familia… sino también desvelar secretos que quizás ella misma no está preparada para enfrentar.",
-   "vote_average": 8,
-   "genres": [
-    "Drama",
-    "Romance",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/efIgLApItIC4DUY60MGCpFOGcVw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg",
-   "providers": [],
-   "trailer": "50v6k3LUcxU",
-   "fondo": "https://image.tmdb.org/t/p/original/mdBElS5YjpZPkB9DNYjgxwWgXcv.jpg"
-  },
-  {
-   "id": 1176962,
-   "title": "Rose",
-   "release_date": "2026-11-20",
-   "overview": "En medio de la agitación de la Guerra de los Treinta Años, un misterioso soldado aparece en una apartada aldea protestante afirmando ser el heredero de una mansión abandonada hace mucho tiempo. Su búsqueda de reconocimiento y aceptación se ve complicada por un secreto: ha llegado a la aldea bajo una identidad y un nombre falsos, y fingiendo pertenecer a otro género. Sin embargo, Rose —que es el verdadero nombre del soldado— no se detendrá ante nada para lograr sus objetivos.",
-   "vote_average": 7.6,
-   "genres": [
-    "Drama",
-    "Historia",
-    "Bélica"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/flnb7COkqD4dZNZiCacNkai22vz.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg",
-   "providers": [],
-   "trailer": "hQGIx7gk_uc",
-   "fondo": "https://image.tmdb.org/t/p/original/1KUzZMCBOtInUFoGUEJJsQyQKVi.jpg"
-  },
-  {
-   "id": 947493,
-   "title": "Chico de hierro",
-   "release_date": "2026-11-20",
-   "overview": "En la Francia rural, Christophe (10 años) intenta estar a la altura de su padre, un hombre rígido y distante, en la granja familiar. Sin embargo, el niño empieza a inclinarse y a desplomarse sin previo aviso: en el tractor, en la escuela, durante la cena... Un médico encuentra la solución: Christophe debe llevar un corsé de hierro para mantenerse erguido. Obligado a reinventar su vida lejos de la granja, Christophe descubre una nueva pasión por la música, conoce a una nueva amiga y la sigue en sus primeras travesuras. Pero ¿acaso servirá todo esto para corregir lo que está desequilibrado?",
-   "vote_average": 8.1,
-   "genres": [
-    "Animación",
-    "Drama",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/u1pOihB5pQVKDltJI4SponBvbd0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/15xJ819H4W6bBt5buS9wHJ86HTp.jpg",
-   "providers": [],
-   "trailer": "b0wfPCB5XY8",
-   "fondo": "https://image.tmdb.org/t/p/original/15xJ819H4W6bBt5buS9wHJ86HTp.jpg"
-  },
-  {
-   "id": 1437939,
-   "title": "Ooh la la! ¿Quién lo hubiera pensado?",
-   "release_date": "2026-11-20",
-   "overview": "Tras descubrir la verdad sobre sus orígenes gracias a unas pruebas de ADN con resultados bastante sorprendentes, las familias Bouvier-Sauvage y Martin deciden hacer las paces para poder planear la boda de sus hijos. Pero no contaban con un acontecimiento inesperado: un primo de Frédéric aparece gracias a las pruebas, revelando que los resultados eran erróneos. ¡Las dos familias están a punto de descubrir que sus antepasados les tienen reservadas más sorpresas!",
-   "vote_average": 5.3,
-   "genres": [
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/fVztyvgDbR8cjlend1dUCNM4Ygx.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/4dN9kXTNqvssrbF81viFoPnW2pt.jpg",
-   "providers": [],
-   "trailer": "Sumh9b7bAGQ",
-   "fondo": "https://image.tmdb.org/t/p/original/4dN9kXTNqvssrbF81viFoPnW2pt.jpg"
-  },
-  {
-   "id": 1176932,
-   "title": "Willow y las guardianas de los cuatro elementos",
-   "release_date": "2026-11-20",
-   "overview": "La vida de Willow cambia por completo cuando hereda de su tía Alwina una pequeña casa, un misterioso bosque... y un extraordinario don: el poder de la brujería. Para descubrir el verdadero alcance de su legado, deberá encontrar a otras tres jóvenes con habilidades mágicas como las suyas. Juntas aprenderán a controlar sus poderes y proteger el bosque de una amenaza que pone en peligro su futuro. Acompañada por el inseparable zorro Rufus, Willow emprenderá una emocionante aventura llena de magia, amistad y descubrimientos, en la que comprenderá que el verdadero poder nace de la unión y la confianza.",
-   "vote_average": 6.2,
-   "genres": [
-    "Familia",
-    "Aventura",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/7A7QKvDWHqVVDaLDonSGEwFQ3U7.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/2G6HTLamaE3cTkY3Xt0NdJetVZy.jpg",
-   "providers": [],
-   "trailer": "pE-vRG9pKJo",
-   "fondo": "https://image.tmdb.org/t/p/original/erC1datEo5gmMSudZ1Y66TajZD2.jpg"
-  },
-  {
    "id": 1765072,
    "title": "Puedes verlo todo",
    "release_date": "2026-11-26",
@@ -513,7 +395,7 @@
    "title": "Ahora los suegros son ellos",
    "release_date": "2026-11-27",
    "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 0,
+   "vote_average": 4,
    "genres": [
     "Comedia",
     "Romance"
@@ -523,6 +405,22 @@
    "providers": [],
    "trailer": "j0MROuSV-pA",
    "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
+  },
+  {
+   "id": 1433583,
+   "title": "Oro sin ley",
+   "release_date": "2026-11-27",
+   "overview": "Oregón, 1933. Samuel Murphy (Ethan Hawke) es separado de su hija y enviado a un campo de trabajo. Un día, el alcaide Clancy (Russell Crowe) le ofrece la posibilidad de liberarlo si consigue pasar oro de contrabando a través de una peligrosa senda salvaje. ¿Hasta dónde será capaz de llegar Murphy por reencontrarse con su querida hija?",
+   "vote_average": 6.6,
+   "genres": [
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/p62sqkFdwCOYaVETPR0HFqH6vwq.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
+   "providers": [],
+   "trailer": "7YpuMymmiJ8",
+   "fondo": "https://image.tmdb.org/t/p/original/myA2cjsISTbTJQK6HWnZffFJK6j.jpg"
   },
   {
    "id": 1457866,
@@ -662,6 +560,99 @@
    "providers": [],
    "trailer": "CIv7VHI5wms",
    "fondo": "https://image.tmdb.org/t/p/original/a60Az2I5ZWlW5tEuqMGy464IaPq.jpg"
+  },
+  {
+   "id": 1829062,
+   "title": "Gestation",
+   "release_date": "2026-11-28",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [],
+   "poster": "https://image.tmdb.org/t/p/w342/2yEWaISadeAr1nR70iawFWnEZlR.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/9TUGmEPKZcH83TwO9AQkquCe2AX.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/9TUGmEPKZcH83TwO9AQkquCe2AX.jpg"
+  },
+  {
+   "id": 1696095,
+   "title": "बाटुलो जून",
+   "release_date": "2026-11-29",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/qSYXXdvJbu5ToIxQgl8p5ifgUGW.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/px9Ys3GMISiya8uFGXhflTYgKqA.jpg",
+   "providers": [],
+   "trailer": "1HKKPAe-V2k",
+   "fondo": "https://image.tmdb.org/t/p/original/px9Ys3GMISiya8uFGXhflTYgKqA.jpg"
+  },
+  {
+   "id": 1376400,
+   "title": "Crawlers (Arácnidos)",
+   "release_date": "2026-12-04",
+   "overview": "Cuando un hombre regresa de un viaje albergando sin saberlo una nueva raza de arácnidos, los habitantes de un bloque de apartamentos son puestos en cuarentena y abandonados a su suerte contra una plaga de arañas venenosas.",
+   "vote_average": 6,
+   "genres": [
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+   "providers": [],
+   "trailer": "IIoEnagIMpI",
+   "fondo": "https://image.tmdb.org/t/p/original/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg"
+  },
+  {
+   "id": 1437696,
+   "title": "Ojczyzna",
+   "release_date": "2026-12-04",
+   "overview": "En 1949, Thomas Mann, premio Nobel de Literatura, regresa por primera vez a Alemania tras el final de la guerra, acompañado por su hija Erika (actriz, escritora y piloto de rallies). A bordo de un Buick negro, emprenden un viaje duro por el país que abandonaron dieciséis años antes, cuando los nazis llegaron al poder. Desde Fráncfort (bajo control estadounidense) hasta Weimar (bajo control soviético), padre e hija atraviesan una Alemania en ruinas, ya partida en dos por la Guerra Fría.",
+   "vote_average": 7.2,
+   "genres": [
+    "Drama",
+    "Historia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg",
+   "providers": [],
+   "trailer": "52zHLYf25M0",
+   "fondo": "https://image.tmdb.org/t/p/original/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg"
+  },
+  {
+   "id": 1288059,
+   "title": "Quiero tu sexo",
+   "release_date": "2026-12-04",
+   "overview": "Cuando el joven e ingenuo Elliot consigue un emocionante trabajo para Erika Tracy, una reconocida artista, ícono y provocadora, sus fantasías se hacen realidad cuando ella lo elige para convertirlo en su musa sexual. Pero Elliot pronto descubre que la situación lo supera, mientras Erika lo conduce por un viaje mucho más profundo de lo que jamás habría imaginado, adentrándolo en un mundo de sexo, obsesión, poder, traición y asesinato.",
+   "vote_average": 5.9,
+   "genres": [
+    "Comedia",
+    "Suspense",
+    "Misterio"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/aMFx35t0T61S1ILDZrycPFRu95u.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/hinFa5gPaUkZM0l5TsEb29Brw0H.jpg",
+   "providers": [],
+   "trailer": "q5oWCPS3akw",
+   "fondo": "https://image.tmdb.org/t/p/original/hinFa5gPaUkZM0l5TsEb29Brw0H.jpg"
+  },
+  {
+   "id": 1585239,
+   "title": "Club Kid",
+   "release_date": "2026-12-04",
+   "overview": "Peter (Jordan Firstman), un promotor de fiestas underground de Nueva York acostumbrado a vivir entre excesos, música electrónica y noches interminables, ve cómo su mundo da un vuelco cuando una desconocida aparece en su puerta con Arlo (Reggie Absolom), un niño de 10 años que asegura que es su hijo. Lo que comienza como una situación imposible pronto da paso a una loca, divertida y tierna conexión, tan inesperada como transformadora.",
+   "vote_average": 7.8,
+   "genres": [
+    "Comedia",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/l4q1gziNMhpVQAzCIwmtbLSB1T9.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/m5zcXuV4qR9fBgXjPndLIPOcasF.jpg",
+   "providers": [],
+   "trailer": "guKEdb_iRXw",
+   "fondo": "https://image.tmdb.org/t/p/original/64VAgcAtGHBccnBQBur1Z2HRLAC.jpg"
   }
  ],
  "region": "ES"
