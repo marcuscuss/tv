@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T21:06:17.336Z",
+ "actualizado": "2026-11-18T07:43:44.338Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -74,28 +74,6 @@
      "trailer": "pE3yR8bZ1pY"
     },
     {
-     "id": 666750,
-     "title": "Dragonheart: Vengeance",
-     "year": "2021",
-     "release_date": "2021-03-01",
-     "overview": "Lukas, un verde agricultor cuya descendientes es asesinada por salvajes guerreros, se embarca en una divagación épica en averiguación de vendetta, formando un trío inasequible con un dragón majestuoso y un soldado fanfarrón llamado Darius.",
-     "vote_average": 6.9,
-     "genres": [
-      "Fantasía",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mPGAlXyPH21qg38GF1Ydd0xDg7B.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
-     "providers": [
-      "Movistar Plus+ Ficción Total ",
-      "SkyShowtime",
-      "Sky Showtime Amazon Channel"
-     ],
-     "trailer": "GQtt2OKmH5o"
-    },
-    {
      "id": 631939,
      "title": "The Legion",
      "year": "2020",
@@ -112,24 +90,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/9NlswPRK5Kap6KVr59Feah9EBLP.jpg",
      "providers": [],
      "trailer": "uDp1pBwrqKE"
-    },
-    {
-     "id": 9610,
-     "title": "Conan, el destructor",
-     "year": "1984",
-     "release_date": "1984-06-29",
-     "overview": "La poderosa Reina Taramis promete a Conan hacer volver a su amada del reino de la muerte, pero le impone una condición: debe traerle un legendario cuerno incrustado de piedras preciosas y una bella y joven princesa. Lo que Conan ignora es que la Reina quiere utilizar el cuerno para despertar al durmiente dios Dagoth y sacrificarle a la joven princesa. Enfrentado con enemigos mortales y sobrenaturales, Conan debe convocar a las fuerzas del Bien para derrotar a Taramis e incluso al mismísimo dios Dagoth.",
-     "vote_average": 6.1,
-     "genres": [
-      "Aventura",
-      "Fantasía",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/7vwtQwywduJfG50SrxlhalpXsUx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "providers": [],
-     "trailer": "lpUb4tBnWPA"
     },
     {
      "id": 71282,
@@ -275,27 +235,66 @@
      "trailer": "fAdo8drjc_M"
     },
     {
-     "id": 308504,
-     "title": "Los últimos caballeros",
-     "year": "2015",
-     "release_date": "2015-04-03",
-     "overview": "La historia gira en torno a una banda de guerreros que buscará venganza después de la muerte de su maestro a manos de un emperador corrupto...",
-     "vote_average": 6.4,
+     "id": 1911,
+     "title": "El guerrero nº 13",
+     "year": "1999",
+     "release_date": "1999-08-13",
+     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
+     "vote_average": 6.7,
+     "genres": [
+      "Aventura",
+      "Historia",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
+     "providers": [
+      "Disney Plus"
+     ],
+     "trailer": "RikXt796p2o"
+    },
+    {
+     "id": 639933,
+     "title": "El hombre del norte",
+     "year": "2022",
+     "release_date": "2022-04-07",
+     "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
+     "vote_average": 7,
      "genres": [
       "Acción",
-      "Aventura"
+      "Aventura",
+      "Fantasía"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/mEMAwrg2KqWBcorjVH0pTvNOBfx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
      "providers": [
-      "Amazon Prime Video",
+      "Tivify"
+     ],
+     "trailer": "7HZ4tBQEiB0"
+    },
+    {
+     "id": 11828,
+     "title": "Erik el vikingo",
+     "year": "1989",
+     "release_date": "1989-09-01",
+     "overview": "Erik el Vikingo (Tim Robbins) está cansado de los saqueos, las violaciones y de los cielos grises. Decide entonces reunir guerreros de su pueblo y todos embarcan en un viaje peligroso a Valhalla, para pedir los dioses que acaben con la Edad de Ragnorok y que dejen a su gente ver la luz del sol otra vez. Del director de las comedias del grupo Monty Python.",
+     "vote_average": 5.9,
+     "genres": [
+      "Aventura",
+      "Fantasía",
+      "Comedia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0zQNIlFN50VjW7t8AmkG14jtXa.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rZlMfuYPGxtyxOUzNLLF4iyM0lF.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDtReYSFYUgWnAapK1InZLcOXLc.jpg",
+     "providers": [
       "Movistar Plus+",
       "Movistar Plus+ Ficción Total ",
-      "Atres Player",
-      "Amazon Prime Video with Ads"
+      "Filmin"
      ],
-     "trailer": "QStraY8MdKk"
+     "trailer": "Gdq8u9lTdlA"
     }
    ]
   },
@@ -934,24 +933,6 @@
      "trailer": "gIjvydY048w"
     },
     {
-     "id": 1920,
-     "title": "Delito de pasión",
-     "year": "1956",
-     "release_date": "1956-12-28",
-     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "providers": [],
-     "trailer": "jJi9mUp_KeM"
-    },
-    {
      "id": 396371,
      "title": "Molly's Game",
      "year": "2017",
@@ -988,6 +969,24 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "MWkdM2ZGah0"
+    },
+    {
+     "id": 1920,
+     "title": "Delito de pasión",
+     "year": "1956",
+     "release_date": "1956-12-28",
+     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "providers": [],
+     "trailer": "jJi9mUp_KeM"
     },
     {
      "id": 928270,
@@ -1101,6 +1100,24 @@
      "trailer": "9sLHK4ccHGQ"
     },
     {
+     "id": 20540,
+     "title": "El prestamista",
+     "year": "1965",
+     "release_date": "1965-04-20",
+     "overview": "Un superviviente del exterminio judío regenta una tienda de préstamos en el neoyorquino barrio de Harlem. Los espeluznantes y dolorosos recuerdos del campo de exterminio dominan completamente su vida.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/yRnEOQD4h9GASpynMTfUKPIdPcP.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "XKvzeCwMCgc"
+    },
+    {
      "id": 235271,
      "title": "Perversa adicción",
      "year": "2014",
@@ -1116,23 +1133,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
      "providers": [],
      "trailer": "ZdZ0lUxunbA"
-    },
-    {
-     "id": 1175351,
-     "title": "Bosco",
-     "year": "2024",
-     "release_date": "2024-02-02",
-     "overview": "Cuenta la historia de Quawntay “Bosco” Adams. Sentenciado a 35 años por intento de posesión de marihuana, Adams escapó milagrosamente con la ayuda de una mujer mayor que conoció a través de un anuncio de corazones solitarios.",
-     "vote_average": 6.8,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/dXjSeS3w97setnrNv4m6tlqqXzn.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
-     "providers": [],
-     "trailer": "Pz7s3YPS7nk"
     }
    ]
   },
@@ -1186,28 +1186,6 @@
      "trailer": "TJGd5CUfar8"
     },
     {
-     "id": 25690,
-     "title": "The Blackout (Oculto en la memoria)",
-     "year": "1997",
-     "release_date": "1997-06-11",
-     "overview": "Tras ser abandonado por su mujer, Matty (Matthew Modine), una gran estrella cinematográfica, se refugia en un mundo de orgías, corrupción y alcohol, hundiéndose en un oscuro túnel del que no saldrá en mucho tiempo. Dieciocho meses después, está completamente recuperado y se ha casado con Susan (Claudia Schiffer). Todo marcha bien hasta que unos extraños sueños, en los que aparece una mujer asesina, empiezan a torturarlo. Obsesionado por un pasado que no recuerda, vuelve a Miami con la esperanza de desenterrar los recuerdos ocultos en su memoria.",
-     "vote_average": 5.8,
-     "genres": [
-      "Drama",
-      "Misterio"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/r3YvXUgD5yjwVEqSieWfwyR6SS2.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vyT3N9WnldkCfojnCnZzcfVl6ma.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vyT3N9WnldkCfojnCnZzcfVl6ma.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "FlixOlé",
-      "FlixOlé Amazon Channel",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "S2PqjYSirus"
-    },
-    {
      "id": 20482,
      "title": "La ciudad desnuda",
      "year": "1948",
@@ -1228,6 +1206,28 @@
       "Artiflix"
      ],
      "trailer": "-RN_BvyNpS8"
+    },
+    {
+     "id": 25690,
+     "title": "The Blackout (Oculto en la memoria)",
+     "year": "1997",
+     "release_date": "1997-06-11",
+     "overview": "Tras ser abandonado por su mujer, Matty (Matthew Modine), una gran estrella cinematográfica, se refugia en un mundo de orgías, corrupción y alcohol, hundiéndose en un oscuro túnel del que no saldrá en mucho tiempo. Dieciocho meses después, está completamente recuperado y se ha casado con Susan (Claudia Schiffer). Todo marcha bien hasta que unos extraños sueños, en los que aparece una mujer asesina, empiezan a torturarlo. Obsesionado por un pasado que no recuerda, vuelve a Miami con la esperanza de desenterrar los recuerdos ocultos en su memoria.",
+     "vote_average": 5.8,
+     "genres": [
+      "Drama",
+      "Misterio"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/r3YvXUgD5yjwVEqSieWfwyR6SS2.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vyT3N9WnldkCfojnCnZzcfVl6ma.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vyT3N9WnldkCfojnCnZzcfVl6ma.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "FlixOlé",
+      "FlixOlé Amazon Channel",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "S2PqjYSirus"
     },
     {
      "id": 242582,
@@ -2653,7 +2653,7 @@
      "title": "Batman: El ocaso del Caballero Oscuro - Primera parte",
      "year": "2026",
      "release_date": "2026-06-23",
-     "overview": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Cuando el misterioso gigante conocido únicamente como Bane libera a toda la galería de villanos de Batman del Manicomio de Arkham, el Cruzado Encapuchado se ve llevado al límite de su resistencia física y mental.",
+     "overview": "Cuando el misterioso gigante conocido únicamente como Bane libera a toda la galería de villanos de Batman del Manicomio de Arkham, el Cruzado Encapuchado se ve llevado al límite de su resistencia física y mental.",
      "vote_average": 9.1,
      "genres": [
       "Animación",
@@ -2672,7 +2672,7 @@
      "title": "Avatar Aang: El último maestro del aire",
      "year": "2026",
      "release_date": "2026-07-24",
-     "overview": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Cuando el Avatar Aang, el último maestro del aire del mundo, descubre un poder ancestral que podría salvar a su cultura de la extinción, él y sus amigos se lanzan a la búsqueda de ese poder antes de que caiga en malas manos.",
+     "overview": "Cuando el Avatar Aang, el último maestro del aire del mundo, descubre un poder ancestral que podría salvar a su cultura de la extinción, él y sus amigos se lanzan a la búsqueda de ese poder antes de que caiga en malas manos.",
      "vote_average": 9,
      "genres": [
       "Animación",
@@ -3272,7 +3272,7 @@
      "title": "Batman: El ocaso del Caballero Oscuro - Primera parte",
      "year": "2026",
      "release_date": "2026-06-23",
-     "overview": "¿Buscas películas y series gratis? ¡Busca Vercineo.net en Google!  Cuando el misterioso gigante conocido únicamente como Bane libera a toda la galería de villanos de Batman del Manicomio de Arkham, el Cruzado Encapuchado se ve llevado al límite de su resistencia física y mental.",
+     "overview": "Cuando el misterioso gigante conocido únicamente como Bane libera a toda la galería de villanos de Batman del Manicomio de Arkham, el Cruzado Encapuchado se ve llevado al límite de su resistencia física y mental.",
      "vote_average": 9.1,
      "genres": [
       "Animación",
@@ -3576,6 +3576,24 @@
  "tematicas": {
   "navidad": [
    {
+    "id": 1567605,
+    "title": "Scrooge y los fantasmas de la Navidad",
+    "year": "2026",
+    "release_date": "2026-11-11",
+    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+    "vote_average": 7.6,
+    "genres": [
+     "Fantasía",
+     "Comedia",
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+    "providers": [],
+    "trailer": "D-n-lqKVr78"
+   },
+   {
     "id": 772,
     "title": "Solo en casa 2: Perdido en Nueva York",
     "year": "1992",
@@ -3869,29 +3887,6 @@
      "Netflix Standard with Ads"
     ],
     "trailer": "XXxC0Geijzs"
-   },
-   {
-    "id": 1581,
-    "title": "The Holiday (Vacaciones)",
-    "year": "2006",
-    "release_date": "2006-12-05",
-    "overview": "Amanda Woods, una chica americana que posee una próspera agencia de publicidad especializada en trailers de películas, vive en el sur de California y acaba de romper con su novio. Por su parte, Iris Simpkins, redactora de la popular columna de bodas para el London Daily Telegraph, vive en una encantadora casa de campo en Inglaterra y sus relaciones con los hombres tampoco son fáciles. A través de internet llegan a un acuerdo para intercambiarse sus respectivas viviendas durante las Navidades.",
-    "vote_average": 7.1,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/jGFqZ4bCAYaNZKHQKBZcTyrH1EV.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/9Ebn8atCcGk5OZrx4xmoTobAxoh.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/9Ebn8atCcGk5OZrx4xmoTobAxoh.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+ Ficción Total ",
-     "SkyShowtime",
-     "Amazon Prime Video with Ads",
-     "Sky Showtime Amazon Channel"
-    ],
-    "trailer": "8j9RVBBMHLU"
    }
   ],
   "romance": [
