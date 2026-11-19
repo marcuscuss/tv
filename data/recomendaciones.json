@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T20:43:32.084Z",
+ "actualizado": "2026-11-19T07:39:41.115Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -643,22 +643,6 @@
      "trailer": "9U7z35zbxPk"
     },
     {
-     "id": 309425,
-     "title": "El poder de la cruz",
-     "year": "2015",
-     "release_date": "2015-03-20",
-     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
-     "vote_average": 6.8,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
-     "providers": [],
-     "trailer": "ogIX2Q7tEdc"
-    },
-    {
      "id": 345938,
      "title": "La cabaña",
      "year": "2017",
@@ -678,25 +662,36 @@
      "trailer": "Ouc9W0GRlQw"
     },
     {
-     "id": 520318,
-     "title": "Fátima, la película",
-     "year": "2020",
-     "release_date": "2020-08-13",
-     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
-     "vote_average": 7.2,
+     "id": 309425,
+     "title": "El poder de la cruz",
+     "year": "2015",
+     "release_date": "2015-03-20",
+     "overview": "Relata la historia de 12 personas, cada una en su propio mundo pero todas con el anhelo de encontrar algo más. Uno de los 12, es un pastor local que es sacudido fuertemente cuando un predicador de la calle lo desafía a vivir realmente su fe. De manera milagrosa, que solo Dios puede orquestar, las vidas de estas 12 personas se cruzan inesperadamente y cada uno de ellos se enfrenta a la pregunta: ¿Crees en el poder del sacrificio de Jesús en la Cruz?.",
+     "vote_average": 6.8,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads",
-      "Diamond Films Plus Amazon Channel"
+     "poster": "https://image.tmdb.org/t/p/w342/nRIbvvvrRKR0wJDWyXYQ4qWcn8K.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/ycGFcMLv6xlj0EzxKhbZHhXT1vb.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pDPzxYD711lHjyNI55q5zgl9Wyt.jpg",
+     "providers": [],
+     "trailer": "ogIX2Q7tEdc"
+    },
+    {
+     "id": 467433,
+     "title": "Una cuestión de fe",
+     "year": "2017",
+     "release_date": "2017-09-29",
+     "overview": "Cuando la tragedia golpea a tres familias, su destino les obliga a descubrir el amor, la gracia y la compasión de Dios, pues los desafíos del destino pueden hacer que renazcan sus creencias.",
+     "vote_average": 7.5,
+     "genres": [
+      "Drama"
      ],
-     "trailer": "PvokEpA439o"
+     "poster": "https://image.tmdb.org/t/p/w342/iWAANrMSUsPyEcy9MHcRCyikN4Q.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "providers": [],
+     "trailer": "QzNuMWxPo80"
     },
     {
      "id": 127373,
@@ -754,22 +749,6 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
-     "providers": [],
-     "trailer": "YuMBAq-ROh4"
-    },
-    {
      "id": 1217690,
      "title": "El refugio",
      "year": "2024",
@@ -787,6 +766,22 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "UdBBjFQYzwA"
+    },
+    {
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
+     "providers": [],
+     "trailer": "YuMBAq-ROh4"
     },
     {
      "id": 69557,
@@ -846,23 +841,21 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 32636,
-     "title": "Vania en la calle 42",
-     "year": "1994",
-     "release_date": "1994-10-19",
-     "overview": "El grupo de teatro de André Gregory se dispone a interpretar El Tio Vania, la famosa obra de Anton Chejov, en una adaptación del dramaturgo David Mamet. El teatro está abandonado y la compañía ha prescindido de la ambientación y del vestuario. Mientras, Louis Malle registra todo con la cámara. Es un planteamiento sencillo que introduce en la magia del teatro, donde los atores pasan de un momento a otro de ser personas a ser personajes, y donde cada línea de diálogo se vive con una intensidad imposible de encontrar en cualquier otro sitio.",
-     "vote_average": 6.7,
+     "id": 499338,
+     "title": "I Believe",
+     "year": "2019",
+     "release_date": "2019-06-06",
+     "overview": "Un niño de 9 años experimenta el poder de Dios de una manera sobrenatural.",
+     "vote_average": 7.8,
      "genres": [
+      "Familia",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/2mV0u67LAsFG2F80HCkrD6o6Sru.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/llXsPTScDIdQjgsescQyKaIZA6l.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wNWP5jnbaHmpBIYIiuZvXRe8VZW.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus"
-     ],
-     "trailer": "hJxvpLrp4yA"
+     "poster": "https://image.tmdb.org/t/p/w342/lFeTYNVI1PYQqKj4FusJMplqd07.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/5Tw3Z9vcu1Hwo1CijEPineKPkFO.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/43aCQFMAZWt3AjzM30dcHiAW5p.jpg",
+     "providers": [],
+     "trailer": "amVlQozDJkI"
     }
    ]
   },
@@ -2892,7 +2885,7 @@
      ],
      "poster": "https://image.tmdb.org/t/p/w342/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/z51Wzj94hvAIsWfknifKTqKJRwp.jpg",
      "providers": [
       "Amazon Prime Video",
       "Disney Plus",
@@ -2916,8 +2909,8 @@
       "Acción"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/up6gIHZlfEQZkHIfQwcOOaGOzOt.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/6G73mNyooWAEQTpckPSnFxFoNmc.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/58xrLn8VXDJSMntMESUyG4Pe1Ro.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/58xrLn8VXDJSMntMESUyG4Pe1Ro.jpg",
      "providers": [
       "Amazon Prime Video",
       "Disney Plus",
@@ -3479,29 +3472,6 @@
      "trailer": "oIZ4U21DRlM"
     },
     {
-     "id": 372058,
-     "title": "Your Name.",
-     "year": "2016",
-     "release_date": "2016-07-01",
-     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
-     "vote_average": 8.5,
-     "genres": [
-      "Animación",
-      "Romance",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Crunchyroll",
-      "Crunchyroll Amazon Channel",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "TYku4P7MHdo"
-    },
-    {
      "id": 157336,
      "title": "Interstellar",
      "year": "2014",
@@ -3525,6 +3495,29 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "UoSSbmD9vqc"
+    },
+    {
+     "id": 372058,
+     "title": "Tu nombre",
+     "year": "2016",
+     "release_date": "2016-07-01",
+     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",
+     "vote_average": 8.5,
+     "genres": [
+      "Animación",
+      "Romance",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/iaiy3tg9QVkDpObm1IGqmbC9A5C.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Crunchyroll",
+      "Crunchyroll Amazon Channel",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "TYku4P7MHdo"
     },
     {
      "id": 496243,
@@ -3583,14 +3576,14 @@
     "year": "2026",
     "release_date": "2026-11-11",
     "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-    "vote_average": 7.6,
+    "vote_average": 7.5,
     "genres": [
      "Fantasía",
      "Comedia"
     ],
     "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
     "providers": [],
     "trailer": "D-n-lqKVr78"
    },
@@ -3985,7 +3978,7 @@
    },
    {
     "id": 372058,
-    "title": "Your Name.",
+    "title": "Tu nombre",
     "year": "2016",
     "release_date": "2016-07-01",
     "overview": "Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se convierte en algo más romántico.",

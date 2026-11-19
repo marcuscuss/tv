@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T20:43:01.205Z",
+ "actualizado": "2026-11-19T07:39:19.851Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -37,39 +37,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/grYvFUiuzBdKQjtcuV7UWRRvAyr.jpg"
   },
   {
-   "id": 1381071,
-   "title": "Godzilla Minus Zero",
-   "release_date": "2026-11-06",
-   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 7.7,
-   "genres": [
-    "Ciencia ficción",
-    "Terror",
-    "Acción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
-   "providers": [],
-   "trailer": "hmxKLaIp0cI",
-   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
-  },
-  {
-   "id": 1567605,
-   "title": "Scrooge y los fantasmas de la Navidad",
-   "release_date": "2026-11-13",
-   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 7.6,
-   "genres": [
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg",
-   "providers": [],
-   "trailer": "D-n-lqKVr78",
-   "fondo": "https://image.tmdb.org/t/p/original/fdOVxyNNL95SuI8BGaN6vudEuYX.jpg"
-  },
-  {
    "id": 656908,
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
@@ -87,11 +54,44 @@
    "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
   },
   {
+   "id": 1567605,
+   "title": "Scrooge y los fantasmas de la Navidad",
+   "release_date": "2026-11-13",
+   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+   "vote_average": 7.5,
+   "genres": [
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
+   "providers": [],
+   "trailer": "D-n-lqKVr78",
+   "fondo": "https://image.tmdb.org/t/p/original/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg"
+  },
+  {
+   "id": 1381071,
+   "title": "Godzilla Minus Zero",
+   "release_date": "2026-11-06",
+   "overview": "v‌e‌r‌cineo.net – Películas y series HD, Gratis  La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
+   "vote_average": 7.7,
+   "genres": [
+    "Ciencia ficción",
+    "Terror",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+   "providers": [],
+   "trailer": "hmxKLaIp0cI",
+   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
+  },
+  {
    "id": 1153576,
    "title": "Street Fighter",
    "release_date": "2026-10-16",
    "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.3,
+   "vote_average": 6.2,
    "genres": [
     "Acción",
     "Fantasía"
@@ -109,9 +109,10 @@
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
    "vote_average": 8.5,
    "genres": [
+    "Aventura",
     "Animación",
-    "Fantasía",
-    "Aventura"
+    "Drama",
+    "Fantasía"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
@@ -158,7 +159,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8,
+   "vote_average": 7.9,
    "genres": [
     "Comedia",
     "Crimen",
@@ -175,7 +176,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7,
+   "vote_average": 6.8,
    "genres": [
     "Animación",
     "Fantasía",
@@ -188,6 +189,22 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
+  },
+  {
+   "id": 1503762,
+   "title": "Sentido y sensibilidad",
+   "release_date": "2026-10-23",
+   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
+   "vote_average": 7.2,
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+   "providers": [],
+   "trailer": "GMwdcpKOOyY",
+   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
    "id": 1195803,
@@ -207,22 +224,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
   },
   {
-   "id": 1503762,
-   "title": "Sentido y sensibilidad",
-   "release_date": "2026-10-23",
-   "overview": "Una historia de amor, familia y hermandad basada en *Sentido y sensibilidad* de Jane Austen.",
-   "vote_average": 7.2,
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9BvQHFAQ3BhKk5NSYxtYSMn5lrb.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
-   "providers": [],
-   "trailer": "GMwdcpKOOyY",
-   "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
-  },
-  {
    "id": 1255833,
    "title": "Whalefall",
    "release_date": "2026-10-16",
@@ -238,28 +239,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
   },
   {
-   "id": 1284046,
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
-   "genres": [
-    "Acción",
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-   "providers": [],
-   "trailer": "AMLCbpM1fRQ",
-   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
-  },
-  {
    "id": 1379486,
    "title": "Victorian Psycho",
    "release_date": "2026-11-13",
    "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
-   "vote_average": 5.8,
+   "vote_average": 6,
    "genres": [
     "Terror",
     "Suspense"
@@ -287,23 +271,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg"
   },
   {
-   "id": 1572116,
-   "title": "Monstruosa Mia",
-   "release_date": "2026-10-16",
-   "overview": "Mia, de 12 años, y su desaliñada rata mascota, Quentin, son enviadas a la misteriosa Academia Rotwood tras acumular demasiados problemas en la escuela. El nuevo colegio le pone los pelos de punta, ¡y Mia necesita encontrar la forma de escapar antes de que los alumnos se den cuenta de que ella no es un monstruo como ellos! Sin embargo, el subdirector Van Vlad siente una especial aversión por los humanos, y Mia teme que él haya descubierto su farsa...",
-   "vote_average": 7.7,
-   "genres": [
-    "Animación",
-    "Fantasía",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/mL3UwoaSdzBrXeCsIRnk4f49ibO.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
-   "providers": [],
-   "trailer": "CbqDABPksnw",
-   "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
-  },
-  {
    "id": 1515139,
    "title": "Back to the Beginning: La despedida de Ozzy",
    "release_date": "2026-10-28",
@@ -318,6 +285,23 @@
    "providers": [],
    "trailer": "REqdAeNUIho",
    "fondo": "https://image.tmdb.org/t/p/original/hFIhPUW8oO2EJYXLAuWFMJBzjsR.jpg"
+  },
+  {
+   "id": 1284046,
+   "title": "Aniquilación",
+   "release_date": "2026-10-30",
+   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
+   "vote_average": 5.6,
+   "genres": [
+    "Acción",
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+   "providers": [],
+   "trailer": "AMLCbpM1fRQ",
+   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 950028,
@@ -335,6 +319,23 @@
    "providers": [],
    "trailer": "nelkiuezJxg",
    "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
+  },
+  {
+   "id": 1572116,
+   "title": "Monstruosa Mia",
+   "release_date": "2026-10-16",
+   "overview": "Mia, de 12 años, y su desaliñada rata mascota, Quentin, son enviadas a la misteriosa Academia Rotwood tras acumular demasiados problemas en la escuela. El nuevo colegio le pone los pelos de punta, ¡y Mia necesita encontrar la forma de escapar antes de que los alumnos se den cuenta de que ella no es un monstruo como ellos! Sin embargo, el subdirector Van Vlad siente una especial aversión por los humanos, y Mia teme que él haya descubierto su farsa...",
+   "vote_average": 7.3,
+   "genres": [
+    "Animación",
+    "Fantasía",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/mL3UwoaSdzBrXeCsIRnk4f49ibO.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
+   "providers": [],
+   "trailer": "CbqDABPksnw",
+   "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   }
  ],
  "upcoming": [
@@ -372,6 +373,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
   },
   {
+   "id": 1400336,
+   "title": "Ahora los suegros son ellos",
+   "release_date": "2026-11-27",
+   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
+   "vote_average": 4,
+   "genres": [
+    "Comedia",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "providers": [],
+   "trailer": "j0MROuSV-pA",
+   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
+  },
+  {
    "id": 1538497,
    "title": "Hechizo: Bienvenidos a Hexe",
    "release_date": "2026-11-27",
@@ -389,22 +406,6 @@
    "providers": [],
    "trailer": "wkr5TpxKOTw",
    "fondo": "https://image.tmdb.org/t/p/original/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg"
-  },
-  {
-   "id": 1400336,
-   "title": "Ahora los suegros son ellos",
-   "release_date": "2026-11-27",
-   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 4,
-   "genres": [
-    "Comedia",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
-   "providers": [],
-   "trailer": "j0MROuSV-pA",
-   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
   },
   {
    "id": 1433583,
@@ -433,7 +434,7 @@
     "Drama",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/5jO6rhfethzH7xdWl6KCOxCNCzQ.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg",
    "providers": [],
    "trailer": "fJH-wfSXnWg",
@@ -502,21 +503,6 @@
    "fondo": ""
   },
   {
-   "id": 1770715,
-   "title": "Forqué. El oficio de hacer cine",
-   "release_date": "2026-11-27",
-   "overview": "Un recorrido por la trayectoria de José María Forqué a través de su propia voz y de los recuerdos de actores y cineastas que trabajaron con él. El documental revisita sus películas, su aportación a la comedia y la televisión y el oficio de un director cuya figura quedó a menudo eclipsada por otros nombres del cine español.",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xaJ67tGcPNzjrHugxWc11cqz7Rf.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
    "id": 1556887,
    "title": "Sisters",
    "release_date": "2026-11-27",
@@ -530,6 +516,21 @@
    "providers": [],
    "trailer": "sC9FbZQ6X0k",
    "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
+  },
+  {
+   "id": 1770715,
+   "title": "Forqué. El oficio de hacer cine",
+   "release_date": "2026-11-27",
+   "overview": "Un recorrido por la trayectoria de José María Forqué a través de su propia voz y de los recuerdos de actores y cineastas que trabajaron con él. El documental revisita sus películas, su aportación a la comedia y la televisión y el oficio de un director cuya figura quedó a menudo eclipsada por otros nombres del cine español.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/xaJ67tGcPNzjrHugxWc11cqz7Rf.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
   },
   {
    "id": 1715640,
@@ -643,7 +644,7 @@
    "title": "Club Kid",
    "release_date": "2026-12-04",
    "overview": "Peter (Jordan Firstman), un promotor de fiestas underground de Nueva York acostumbrado a vivir entre excesos, música electrónica y noches interminables, ve cómo su mundo da un vuelco cuando una desconocida aparece en su puerta con Arlo (Reggie Absolom), un niño de 10 años que asegura que es su hijo. Lo que comienza como una situación imposible pronto da paso a una loca, divertida y tierna conexión, tan inesperada como transformadora.",
-   "vote_average": 7.8,
+   "vote_average": 7.7,
    "genres": [
     "Comedia",
     "Drama"
