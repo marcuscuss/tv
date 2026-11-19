@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T07:39:41.115Z",
+ "actualizado": "2026-11-19T20:49:18.353Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -74,6 +74,28 @@
      "trailer": "pE3yR8bZ1pY"
     },
     {
+     "id": 666750,
+     "title": "Dragonheart: Vengeance",
+     "year": "2021",
+     "release_date": "2021-03-01",
+     "overview": "Lukas, un verde agricultor cuya descendientes es asesinada por salvajes guerreros, se embarca en una divagación épica en averiguación de vendetta, formando un trío inasequible con un dragón majestuoso y un soldado fanfarrón llamado Darius.",
+     "vote_average": 6.9,
+     "genres": [
+      "Fantasía",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/mPGAlXyPH21qg38GF1Ydd0xDg7B.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mUhPYDfXm8F6wdFifDLl8E2jUpu.jpg",
+     "providers": [
+      "Movistar Plus+ Ficción Total ",
+      "SkyShowtime",
+      "Sky Showtime Amazon Channel"
+     ],
+     "trailer": "GQtt2OKmH5o"
+    },
+    {
      "id": 631939,
      "title": "The Legion",
      "year": "2020",
@@ -90,6 +112,24 @@
      "fondo": "https://image.tmdb.org/t/p/original/9NlswPRK5Kap6KVr59Feah9EBLP.jpg",
      "providers": [],
      "trailer": "uDp1pBwrqKE"
+    },
+    {
+     "id": 9610,
+     "title": "Conan, el destructor",
+     "year": "1984",
+     "release_date": "1984-06-29",
+     "overview": "La poderosa Reina Taramis promete a Conan hacer volver a su amada del reino de la muerte, pero le impone una condición: debe traerle un legendario cuerno incrustado de piedras preciosas y una bella y joven princesa. Lo que Conan ignora es que la Reina quiere utilizar el cuerno para despertar al durmiente dios Dagoth y sacrificarle a la joven princesa. Enfrentado con enemigos mortales y sobrenaturales, Conan debe convocar a las fuerzas del Bien para derrotar a Taramis e incluso al mismísimo dios Dagoth.",
+     "vote_average": 6.1,
+     "genres": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/7vwtQwywduJfG50SrxlhalpXsUx.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
+     "providers": [],
+     "trailer": "lpUb4tBnWPA"
     },
     {
      "id": 71282,
@@ -128,6 +168,24 @@
      "fondo": "https://image.tmdb.org/t/p/original/vNzFxdOQIGloSuTnEzo4uCYq3PV.jpg",
      "providers": [],
      "trailer": "qWb6opYnPTo"
+    },
+    {
+     "id": 388191,
+     "title": "Mythica 4: La corona de hierro",
+     "year": "2016",
+     "release_date": "2016-05-14",
+     "overview": "Cuando el equipo de héroes secuestra un carro de combate a vapor, la joven maga Marek consigue robar la pieza final de la todopoderosa Darkspore y se embarca en una carrera desesperada para entregar el artefacto maldito bajo la custodia de los dioses. Durante su huida se ven atrapados en entre un equipo de implacables mercenarios de élite y una trinidad de los demonios, en ese momento, Marek debe aprender a creer en sí misma antes de que sus amigos esten muertos y la Darkspore se pierda, y evitar que el nigromante mal (Szorlok) se unan a la Darkspore e inunde el mundo de los vivos con sus legiones de muertos vivientes.",
+     "vote_average": 5.9,
+     "genres": [
+      "Acción",
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/8y3G8g7E7SXZ74XDt6gaxyfELse.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/csGtdiy96oNLLh2rcXzj77ZWL91.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/csGtdiy96oNLLh2rcXzj77ZWL91.jpg",
+     "providers": [],
+     "trailer": "2uU_EoIj3tw"
     },
     {
      "id": 33257,
@@ -233,66 +291,6 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "fAdo8drjc_M"
-    },
-    {
-     "id": 1911,
-     "title": "El guerrero nº 13",
-     "year": "1999",
-     "release_date": "1999-08-13",
-     "overview": "Siglo X. Ahmed Ibn Fahdlan (Banderas) es un noble árabe que es expulsado de sus tierras por cortejar a una mujer. Acompañado de su mentor (Sharif), emprende un viaje al Norte, donde entrará en contacto con un grupo de guerreros vikingos que tienen que enfrentarse con una horda de salvajes que atacan sus poblados y devoran a sus gentes. La profecía de una bruja, anunciando el triunfo de los vikingos gracias a la intervención de un extranjero, anima a Ahmed a ayudarles en la lucha...",
-     "vote_average": 6.7,
-     "genres": [
-      "Aventura",
-      "Historia",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/QIbBgYHuXb987FqnfxmHFGWc5u.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sjZIN2oDzOLGYuz21QwWw1tJ8ly.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "RikXt796p2o"
-    },
-    {
-     "id": 639933,
-     "title": "El hombre del norte",
-     "year": "2022",
-     "release_date": "2022-04-07",
-     "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
-     "vote_average": 7,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Fantasía"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
-     "providers": [],
-     "trailer": "7HZ4tBQEiB0"
-    },
-    {
-     "id": 11828,
-     "title": "Erik el vikingo",
-     "year": "1989",
-     "release_date": "1989-09-01",
-     "overview": "Erik el Vikingo (Tim Robbins) está cansado de los saqueos, las violaciones y de los cielos grises. Decide entonces reunir guerreros de su pueblo y todos embarcan en un viaje peligroso a Valhalla, para pedir los dioses que acaben con la Edad de Ragnorok y que dejen a su gente ver la luz del sol otra vez. Del director de las comedias del grupo Monty Python.",
-     "vote_average": 5.9,
-     "genres": [
-      "Aventura",
-      "Fantasía",
-      "Comedia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/b0zQNIlFN50VjW7t8AmkG14jtXa.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rZlMfuYPGxtyxOUzNLLF4iyM0lF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pDtReYSFYUgWnAapK1InZLcOXLc.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin"
-     ],
-     "trailer": "Gdq8u9lTdlA"
     }
    ]
   },
@@ -366,6 +364,29 @@
       "Disney Plus"
      ],
      "trailer": "G4ZV8qfskfA"
+    },
+    {
+     "id": 580489,
+     "title": "Venom: habrá matanza",
+     "year": "2021",
+     "release_date": "2021-09-30",
+     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+     "vote_average": 6.7,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "hbfadtw-fjs"
     },
     {
      "id": 271110,
@@ -574,29 +595,6 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
-    },
-    {
-     "id": 1452,
-     "title": "Superman Returns",
-     "year": "2006",
-     "release_date": "2006-06-28",
-     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
-     "vote_average": 5.8,
-     "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
-     "providers": [
-      "Netflix",
-      "Amazon Prime Video",
-      "Netflix Standard with Ads",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -946,6 +944,24 @@
      "trailer": "e3U3TrLo3tQ"
     },
     {
+     "id": 1920,
+     "title": "Delito de pasión",
+     "year": "1956",
+     "release_date": "1956-12-28",
+     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Crimen",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
+     "providers": [],
+     "trailer": "jJi9mUp_KeM"
+    },
+    {
      "id": 95608,
      "title": "Canción de Nueva York",
      "year": "2017",
@@ -963,24 +979,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "MWkdM2ZGah0"
-    },
-    {
-     "id": 1920,
-     "title": "Delito de pasión",
-     "year": "1956",
-     "release_date": "1956-12-28",
-     "overview": "Kathy (Barbara Stanwyck) es una ambiciosa ex periodista que está casada con un policía (Sterling Hayden). Con el fin de lograr un ascenso para su marido, no duda en coquetear peligrosamente con el jefe de éste (Raymond Burr). Atrapada en una difícil situación que ella misma ha creado, acabará cometiendo un crimen. Lo peor es que su marido será el encargado de investigarlo.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama",
-      "Crimen",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/pgywwb2wUbkISzkcUSZI3Gbm7HQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/r3Ddxw4v780GzOZdjAT2CMgo0Gn.jpg",
-     "providers": [],
-     "trailer": "jJi9mUp_KeM"
     },
     {
      "id": 928270,
@@ -1017,27 +1015,6 @@
       "Filmin"
      ],
      "trailer": "VJICFO4lbtQ"
-    },
-    {
-     "id": 19171,
-     "title": "Miedo súbito",
-     "year": "1952",
-     "release_date": "1952-08-07",
-     "overview": "El actor Lester Blaine prácticamente consiguió el papel principal en la nueva obra de Myra Hudson cuando Myra lo veta porque, para ella, no parece un 'protagonista romántico'. En un tren de Nueva York a San Francisco, Blaine se propone demostrarle a Myra que está equivocada... teniendo un romance con ella. ¿Es sincero o tiene un oscuro motivo oculto? La respuesta provoca un juego del gato y el ratón; pero ¿quién es el gato y quién el ratón?",
-     "vote_average": 7.2,
-     "genres": [
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/wlhoqwcX1ldOUPoLUZ1C2T7uU09.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "aB2w51F0t74"
     },
     {
      "id": 1429,
@@ -1094,22 +1071,44 @@
      "trailer": "9sLHK4ccHGQ"
     },
     {
-     "id": 20540,
-     "title": "El prestamista",
-     "year": "1965",
-     "release_date": "1965-04-20",
-     "overview": "Un superviviente del exterminio judío regenta una tienda de préstamos en el neoyorquino barrio de Harlem. Los espeluznantes y dolorosos recuerdos del campo de exterminio dominan completamente su vida.",
+     "id": 1175351,
+     "title": "Bosco",
+     "year": "2024",
+     "release_date": "2024-02-02",
+     "overview": "Cuenta la historia de Quawntay “Bosco” Adams. Sentenciado a 35 años por intento de posesión de marihuana, Adams escapó milagrosamente con la ayuda de una mujer mayor que conoció a través de un anuncio de corazones solitarios.",
+     "vote_average": 6.8,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/dXjSeS3w97setnrNv4m6tlqqXzn.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
+     "providers": [],
+     "trailer": "Pz7s3YPS7nk"
+    },
+    {
+     "id": 27033,
+     "title": "El extraño amor de Martha Ivers",
+     "year": "1946",
+     "release_date": "1946-08-19",
+     "overview": "Tres amigos de la infancia, Martha, Walter y Sam, comparten un terrible secreto. Ya adultos, la ambiciosa Martha y el pusilánime Walter se casan. Ella es una fría mujer de negocios; él es el fiscal del distrito: una combinación perfecta para dominar la corrupta ciudad de Iverstown según su voluntad. Pero el inesperado regreso de Sam, después de años de ausencia, perturba profundamente la vida de la extraña pareja.",
      "vote_average": 7.1,
      "genres": [
-      "Drama"
+      "Drama",
+      "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/yRnEOQD4h9GASpynMTfUKPIdPcP.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8L16E06tKUkypSVYV47pHg7gOHM.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/aPWPwf400mmua0lKHKvFNtFZjqX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
      "providers": [
-      "Filmin"
+      "Amazon Prime Video",
+      "Filmin",
+      "FlixOlé",
+      "Amazon Prime Video with Ads",
+      "Artiflix"
      ],
-     "trailer": "XKvzeCwMCgc"
+     "trailer": "hrMqLD_uoCk"
     },
     {
      "id": 235271,
@@ -1478,26 +1477,6 @@
      "trailer": "xyNVTkemjgQ"
     },
     {
-     "id": 613092,
-     "title": "El crack cero",
-     "year": "2019",
-     "release_date": "2019-10-04",
-     "overview": "Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/kzgPu2CMxBr4YZZxC1Off4cUfR9.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "nYcq_Dy-EWw"
-    },
-    {
      "id": 587986,
      "title": "Ventajas de viajar en tren",
      "year": "2019",
@@ -1521,46 +1500,6 @@
      "trailer": "FgS_tWjkLN4"
     },
     {
-     "id": 46041,
-     "title": "Conspiración en Berlín",
-     "year": "1966",
-     "release_date": "1966-11-10",
-     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
-     "vote_average": 5.9,
-     "genres": [
-      "Suspense",
-      "Drama",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "FlixOlé",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "yakSWyVSNUs"
-    },
-    {
-     "id": 36373,
-     "title": "M",
-     "year": "1951",
-     "release_date": "1951-03-01",
-     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
-     "vote_average": 6.5,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "providers": [],
-     "trailer": "IovfalMQ6lQ"
-    },
-    {
      "id": 651589,
      "title": "Hasta el cielo",
      "year": "2020",
@@ -1580,6 +1519,24 @@
       "Netflix Standard with Ads"
      ],
      "trailer": "I-wlmGEXJAM"
+    },
+    {
+     "id": 36373,
+     "title": "M",
+     "year": "1951",
+     "release_date": "1951-03-01",
+     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
+     "vote_average": 6.5,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "providers": [],
+     "trailer": "IovfalMQ6lQ"
     },
     {
      "id": 1659087,
@@ -1621,28 +1578,6 @@
      "trailer": "ioIknR8KQmk"
     },
     {
-     "id": 30014,
-     "title": "La casa del río",
-     "year": "1950",
-     "release_date": "1950-03-23",
-     "overview": "Stephen Byrne, un escritor fracasado, aprovechando la ausencia de su mujer, intenta seducir a una criada, a la que mata involuntariamente. A continuación convence a su hermano para que le ayude a deshacerse del cadáver. (FILMAFFINITY)",
-     "vote_average": 6.8,
-     "genres": [
-      "Suspense",
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/yvHfKSDYIxRVDpOnM3yqOjtnTzK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
-     "providers": [
-      "Filmin",
-      "MUBI",
-      "MUBI Amazon Channel"
-     ],
-     "trailer": ""
-    },
-    {
      "id": 20482,
      "title": "La ciudad desnuda",
      "year": "1948",
@@ -1663,6 +1598,28 @@
       "Artiflix"
      ],
      "trailer": "-RN_BvyNpS8"
+    },
+    {
+     "id": 30014,
+     "title": "La casa del río",
+     "year": "1950",
+     "release_date": "1950-03-23",
+     "overview": "Stephen Byrne, un escritor fracasado, aprovechando la ausencia de su mujer, intenta seducir a una criada, a la que mata involuntariamente. A continuación convence a su hermano para que le ayude a deshacerse del cadáver. (FILMAFFINITY)",
+     "vote_average": 6.8,
+     "genres": [
+      "Suspense",
+      "Crimen",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/yvHfKSDYIxRVDpOnM3yqOjtnTzK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/yQDWlXBCECuRASzegi3LfPx8riX.jpg",
+     "providers": [
+      "Filmin",
+      "MUBI",
+      "MUBI Amazon Channel"
+     ],
+     "trailer": ""
     },
     {
      "id": 20637,
@@ -1720,6 +1677,47 @@
       "Netflix Standard with Ads"
      ],
      "trailer": "vv-at2_dfwk"
+    },
+    {
+     "id": 1621552,
+     "title": "La captura",
+     "year": "2026",
+     "release_date": "2026-08-21",
+     "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
+     "vote_average": 8.7,
+     "genres": [
+      "Crimen",
+      "Acción",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/raVBwQY4Ru5yt0FDE4zDYSIlFgd.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "Rk0efhpa-5Y"
+    },
+    {
+     "id": 950063,
+     "title": "El diablo que conoces",
+     "year": "2022",
+     "release_date": "2022-04-01",
+     "overview": "Después de una vida de problemas,un hombre tiene la oportunidad de cambiar las cosas con el amor y el apoyo de su familia. Mientras trata de hacer lo correcto con los suyos, se encuentra volviendo en espiral hacia el lugar oscuro que pensó haber superado.",
+     "vote_average": 6.7,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/eyvT9TpBSZsFMSu0TZmvALeocnd.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/nlOZpwivEo9BLCrPsNnJeCQDaDs.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/nlOZpwivEo9BLCrPsNnJeCQDaDs.jpg",
+     "providers": [
+      "Lionsgate+ Amazon Channel"
+     ],
+     "trailer": "eb_ZpN98pg8"
     }
    ]
   }
@@ -1807,26 +1805,6 @@
      "trailer": "38jQFZ00Cwo"
     },
     {
-     "id": 348,
-     "title": "Alien: El octavo pasajero",
-     "year": "1979",
-     "release_date": "1979-05-25",
-     "overview": "De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmisión de una forma de vida desconocida, procedente de un planeta cercano aparentemente deshabitado. La nave se dirige entonces al extraño planeta para investigar el origen de la comunicación.",
-     "vote_average": 8.2,
-     "genres": [
-      "Terror",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/pZ9cAe5FxexJjpCaeiETbXzz3Fs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
-     "providers": [
-      "Disney Plus",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "D3oC17nILkw"
-    },
-    {
      "id": 1375646,
      "title": "Zona cero",
      "year": "2026",
@@ -1846,6 +1824,26 @@
       "Movistar Plus+ Ficción Total "
      ],
      "trailer": "LW6dpj1uCK8"
+    },
+    {
+     "id": 348,
+     "title": "Alien: El octavo pasajero",
+     "year": "1979",
+     "release_date": "1979-05-25",
+     "overview": "De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmisión de una forma de vida desconocida, procedente de un planeta cercano aparentemente deshabitado. La nave se dirige entonces al extraño planeta para investigar el origen de la comunicación.",
+     "vote_average": 8.2,
+     "genres": [
+      "Terror",
+      "Ciencia ficción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/pZ9cAe5FxexJjpCaeiETbXzz3Fs.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+     "providers": [
+      "Disney Plus",
+      "Movistar Plus+ Ficción Total "
+     ],
+     "trailer": "D3oC17nILkw"
     },
     {
      "id": 37793,
@@ -2150,6 +2148,29 @@
      "trailer": "mC2gOyWuSEY"
     },
     {
+     "id": 807,
+     "title": "Seven",
+     "year": "1995",
+     "release_date": "1995-09-22",
+     "overview": "El teniente Somerset, del departamento de homicidios, está a punto de jubilarse y ser reemplazado por el ambicioso y brillante detective David Mills. Ambos tendrán que colaborar en la resolución de una serie de asesinatos cometidos por un psicópata que toma como base la relación de los siete pecados capitales: gula, pereza, soberbia, avaricia, envidia, lujuria e ira. Los cuerpos de las víctimas, sobre los que el asesino se ensaña de manera impúdica, se convertirán para los policías en un enigma que les obligará a viajar al horror y la barbarie más absoluta.",
+     "vote_average": 8.4,
+     "genres": [
+      "Crimen",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/uVPcVz4b2hnSGrXYLdIGRXwcivs.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jwBs4djVIe9Kz3Vu9rsI9aEEKWU.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/jwBs4djVIe9Kz3Vu9rsI9aEEKWU.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Movistar Plus+ Ficción Total ",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "Z86bQ-Arguc"
+    },
+    {
      "id": 12493,
      "title": "El infierno del odio",
      "year": "1963",
@@ -2172,29 +2193,6 @@
       "Ink Amazon Channel"
      ],
      "trailer": "ELsgPvgDBoY"
-    },
-    {
-     "id": 807,
-     "title": "Seven",
-     "year": "1995",
-     "release_date": "1995-09-22",
-     "overview": "El teniente Somerset, del departamento de homicidios, está a punto de jubilarse y ser reemplazado por el ambicioso y brillante detective David Mills. Ambos tendrán que colaborar en la resolución de una serie de asesinatos cometidos por un psicópata que toma como base la relación de los siete pecados capitales: gula, pereza, soberbia, avaricia, envidia, lujuria e ira. Los cuerpos de las víctimas, sobre los que el asesino se ensaña de manera impúdica, se convertirán para los policías en un enigma que les obligará a viajar al horror y la barbarie más absoluta.",
-     "vote_average": 8.4,
-     "genres": [
-      "Crimen",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/uVPcVz4b2hnSGrXYLdIGRXwcivs.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jwBs4djVIe9Kz3Vu9rsI9aEEKWU.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/jwBs4djVIe9Kz3Vu9rsI9aEEKWU.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+ Ficción Total ",
-      "Tivify",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "Z86bQ-Arguc"
     },
     {
      "id": 244786,
@@ -2732,27 +2730,6 @@
      "trailer": "Rk0efhpa-5Y"
     },
     {
-     "id": 1630423,
-     "title": "Sangre asesina",
-     "year": "2026",
-     "release_date": "2026-05-06",
-     "overview": "A una mujer le espera una bala con su nombre por culpa de su extraño grupo sanguíneo, pero encuentra cobijo en los brazos del asesino al que ama, y juntos luchan por sobrevivir.",
-     "vote_average": 8.5,
-     "genres": [
-      "Acción",
-      "Drama",
-      "Romance"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/16TvbhCP8CfiGEbxcbtQLYWO6WG.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": ""
-    },
-    {
      "id": 155,
      "title": "El caballero oscuro",
      "year": "2008",
@@ -2798,6 +2775,27 @@
       "Crunchyroll Amazon Channel"
      ],
      "trailer": "-KpVet_60Yc"
+    },
+    {
+     "id": 1630423,
+     "title": "Sangre asesina",
+     "year": "2026",
+     "release_date": "2026-05-06",
+     "overview": "A una mujer le espera una bala con su nombre por culpa de su extraño grupo sanguíneo, pero encuentra cobijo en los brazos del asesino al que ama, y juntos luchan por sobrevivir.",
+     "vote_average": 8.5,
+     "genres": [
+      "Acción",
+      "Drama",
+      "Romance"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/16TvbhCP8CfiGEbxcbtQLYWO6WG.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": ""
     },
     {
      "id": 122,
@@ -2848,30 +2846,6 @@
      "trailer": "d4XmPZvKh0g"
     },
     {
-     "id": 346,
-     "title": "Los siete samuráis",
-     "year": "1954",
-     "release_date": "1954-04-26",
-     "overview": "Una banda de forajidos atemorizan a los habitantes de un pequeño pueblo, saqueándolos periódicamente sin piedad. Para repeler estos ataques, los aldeanos deciden contratar a mercenarios. Finalmente, consiguen los servicios de 7 guerreros, 7 samurais dispuestos a defenderlos a cambio, tan solo, de cobijo y comida.",
-     "vote_average": 8.5,
-     "genres": [
-      "Acción",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/zr4DkzWIMjaWtj6hlsbN6dnNeTX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel",
-      "Red Carpet Amazon Channel"
-     ],
-     "trailer": "RsRN65PlaIM"
-    },
-    {
      "id": 120,
      "title": "El señor de los anillos: La comunidad del anillo",
      "year": "2001",
@@ -2895,6 +2869,30 @@
       "HBO Max Amazon Channel"
      ],
      "trailer": "3GJp6p_mgPo"
+    },
+    {
+     "id": 346,
+     "title": "Los siete samuráis",
+     "year": "1954",
+     "release_date": "1954-04-26",
+     "overview": "Una banda de forajidos atemorizan a los habitantes de un pequeño pueblo, saqueándolos periódicamente sin piedad. Para repeler estos ataques, los aldeanos deciden contratar a mercenarios. Finalmente, consiguen los servicios de 7 guerreros, 7 samurais dispuestos a defenderlos a cambio, tan solo, de cobijo y comida.",
+     "vote_average": 8.5,
+     "genres": [
+      "Acción",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/zr4DkzWIMjaWtj6hlsbN6dnNeTX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qvZ91FwMq6O47VViAr8vZNQz3WI.jpg",
+     "providers": [
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "Filmin",
+      "Acontra Plus",
+      "Acontra Plus Amazon Channel",
+      "Red Carpet Amazon Channel"
+     ],
+     "trailer": "RsRN65PlaIM"
     },
     {
      "id": 121,
@@ -3078,6 +3076,23 @@
      "trailer": "aSEPD9w_dLM"
     },
     {
+     "id": 637,
+     "title": "La vida es bella",
+     "year": "1997",
+     "release_date": "1997-12-20",
+     "overview": "En 1939, a punto de estallar la Segunda Guerra Mundial (1939-1945), el extravagante Guido llega a Arezzo, en la Toscana, con la intención de abrir una librería. Allí conoce a la encantadora Dora y, a pesar de que es la prometida del fascista Rodolfo, se casa con ella y tiene un hijo. Al estallar la guerra, los tres son internados en un campo de exterminio, donde Guido hará lo imposible para hacer creer a su hijo que la terrible situación que están padeciendo es tan sólo un juego.",
+     "vote_average": 8.4,
+     "genres": [
+      "Comedia",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aZ7MFlKPfB02Lr9NwZQ4vsYRgcy.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg",
+     "providers": [],
+     "trailer": "pAYEQP8gx3w"
+    },
+    {
      "id": 1181678,
      "title": "¿Quieres ser mi... hijo?",
      "year": "2023",
@@ -3096,23 +3111,6 @@
       "ViX Premium Amazon Channel"
      ],
      "trailer": "HK0FizurLk0"
-    },
-    {
-     "id": 637,
-     "title": "La vida es bella",
-     "year": "1997",
-     "release_date": "1997-12-20",
-     "overview": "En 1939, a punto de estallar la Segunda Guerra Mundial (1939-1945), el extravagante Guido llega a Arezzo, en la Toscana, con la intención de abrir una librería. Allí conoce a la encantadora Dora y, a pesar de que es la prometida del fascista Rodolfo, se casa con ella y tiene un hijo. Al estallar la guerra, los tres son internados en un campo de exterminio, donde Guido hará lo imposible para hacer creer a su hijo que la terrible situación que están padeciendo es tan sólo un juego.",
-     "vote_average": 8.4,
-     "genres": [
-      "Comedia",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/aZ7MFlKPfB02Lr9NwZQ4vsYRgcy.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg",
-     "providers": [],
-     "trailer": "pAYEQP8gx3w"
     },
     {
      "id": 40096,
@@ -3158,27 +3156,6 @@
      "trailer": "xxSo8ZEvzE8"
     },
     {
-     "id": 614945,
-     "title": "Mensajes de voz para Isabelle",
-     "year": "2026",
-     "release_date": "2026-06-20",
-     "overview": "Una joven deja mensajes de voz bastante explícitos a su difunta hermana, sin saber que los recibe un desconocido que comienza a enamorarse de ella.",
-     "vote_average": 8.3,
-     "genres": [
-      "Romance",
-      "Comedia",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/ohIYxdaO7WV1zsSPFZVddWNEWkk.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "9mi3YVYm3ZU"
-    },
-    {
      "id": 3082,
      "title": "Tiempos modernos",
      "year": "1936",
@@ -3198,6 +3175,27 @@
       "Acontra Plus Amazon Channel"
      ],
      "trailer": "NNznUyDmSFc"
+    },
+    {
+     "id": 614945,
+     "title": "Mensajes de voz para Isabelle",
+     "year": "2026",
+     "release_date": "2026-06-20",
+     "overview": "Una joven deja mensajes de voz bastante explícitos a su difunta hermana, sin saber que los recibe un desconocido que comienza a enamorarse de ella.",
+     "vote_average": 8.3,
+     "genres": [
+      "Romance",
+      "Comedia",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/ohIYxdaO7WV1zsSPFZVddWNEWkk.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/2WU6Y6aonzD6uAaCmNnEFlesxxJ.jpg",
+     "providers": [
+      "Netflix",
+      "Netflix Standard with Ads"
+     ],
+     "trailer": "9mi3YVYm3ZU"
     },
     {
      "id": 914,
@@ -3220,6 +3218,28 @@
      "trailer": "i1C6qZVeFtA"
     },
     {
+     "id": 77338,
+     "title": "Intocable",
+     "year": "2011",
+     "release_date": "2011-11-02",
+     "overview": "Un hombre tetraplégico y millonario contrata como cuidador a domicilio a Driss, un inmigrante de un barrio marginal recién salido de la cárcel. Aunque no parece la persona más indicada, congenian hasta forjar una amistad tan sólida como inesperada.",
+     "vote_average": 8.3,
+     "genres": [
+      "Drama",
+      "Comedia"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/edPWyHqknFuxFY3sdmC3LtJITWC.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/q6OGlZ1KMEb14AC8KbPCxyNOal6.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/q6OGlZ1KMEb14AC8KbPCxyNOal6.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Acontra Plus",
+      "Tivify",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "Mg2JD7HQr8g"
+    },
+    {
      "id": 42269,
      "title": "Una mujer y tres hombres",
      "year": "1974",
@@ -3237,23 +3257,6 @@
       "Filmin"
      ],
      "trailer": "GFaFeuPep5w"
-    },
-    {
-     "id": 644479,
-     "title": "Dedicada A Mi Ex",
-     "year": "2019",
-     "release_date": "2019-11-01",
-     "overview": "La película cuenta la historia de Ariel, un joven de 21 años que decide formar una banda de rock para competir por un premio de diez mil dólares en un concurso de bandas musicales, esta es la última opción cuando intenta obtener dinero para salvar su relación. y se reúne con su ex novia, que se rompe debido al viaje que debe hacer a Finlandia para una pasantía. Ariel con su amiga Ortega, decide hacer un casting para encontrar a los otros miembros de la banda, aunque no saben nada de música, formando así una banda con miembros que tienen personalidades diversas y opuestas.",
-     "vote_average": 8.3,
-     "genres": [
-      "Drama",
-      "Comedia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/1fOsyhVz5qyX2rl1qqX6KImVhTx.jpg",
-     "providers": [],
-     "trailer": "hU2DASqjvi4"
     }
    ]
   },
@@ -3543,27 +3546,23 @@
      "trailer": "-PtU49Aol00"
     },
     {
-     "id": 14537,
-     "title": "Harakiri",
-     "year": "1962",
-     "release_date": "1962-09-16",
-     "overview": "Un samurái pide permiso para practicarse el Seppuku (o Harakiri), ceremonia durante la cual se quitará la vida abriéndose el estómago al tiempo que otro samurái lo decapitará. Solicita también poder contar la historia que le ha llevado a tomar tan trágica decisión.",
+     "id": 791523,
+     "title": "Wildwood: El Bosque Salvaje",
+     "year": "2026",
+     "release_date": "2026-10-19",
+     "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
      "vote_average": 8.5,
      "genres": [
-      "Acción",
+      "Aventura",
+      "Animación",
       "Drama",
-      "Historia"
+      "Fantasía"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/6Cw2LJzt6jRALHystjzWazeB4Pg.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/5UOJ8wYxblPNE9KIdzbGCUC7gti.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/5UOJ8wYxblPNE9KIdzbGCUC7gti.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Acontra Plus",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "d4XmPZvKh0g"
+     "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+     "providers": [],
+     "trailer": "qWX1ba0f-Qg"
     }
    ]
   }
@@ -3576,7 +3575,7 @@
     "year": "2026",
     "release_date": "2026-11-11",
     "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-    "vote_average": 7.5,
+    "vote_average": 7.6,
     "genres": [
      "Fantasía",
      "Comedia"
@@ -3633,6 +3632,26 @@
      "Sky Showtime Amazon Channel"
     ],
     "trailer": "SL0YugjtkiI"
+   },
+   {
+    "id": 1088548,
+    "title": "Amarga Navidad",
+    "year": "2026",
+    "release_date": "2026-03-20",
+    "overview": "Tras el fallecimiento de su madre en diciembre, Elsa, directora de publicidad, se sumerge en el trabajo para afrontar la situación. Cuando un ataque de pánico la obliga a tomarse un descanso, decide viajar a Lanzarote con su amiga Patricia mientras su pareja se queda en Madrid.",
+    "vote_average": 6.2,
+    "genres": [
+     "Drama",
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ji29dXqoeIsQiVnXAkzI4nzxMjr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/cpA661TwBZ4vob2qaxEnrZa61G.jpg",
+    "providers": [
+     "Movistar Plus+",
+     "Movistar Plus+ Ficción Total "
+    ],
+    "trailer": "SNbVMk-nLu4"
    },
    {
     "id": 9479,
@@ -3724,6 +3743,48 @@
     "trailer": "j8jOwPbZ-W0"
    },
    {
+    "id": 845781,
+    "title": "Red One",
+    "year": "2024",
+    "release_date": "2024-10-31",
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "vote_average": 6.9,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "RcER0_lZ2F4"
+   },
+   {
+    "id": 1585,
+    "title": "¡Qué bello es vivir!",
+    "year": "1946",
+    "release_date": "1946-12-20",
+    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
+    "vote_average": 8.3,
+    "genres": [
+     "Drama",
+     "Familia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
+    "providers": [
+     "Filmin"
+    ],
+    "trailer": "iLR3gZrU2Xo"
+   },
+   {
     "id": 5255,
     "title": "Polar Express",
     "year": "2004",
@@ -3773,48 +3834,6 @@
     "trailer": "6SN9-6uST80"
    },
    {
-    "id": 845781,
-    "title": "Red One",
-    "year": "2024",
-    "release_date": "2024-10-31",
-    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
-    "vote_average": 6.9,
-    "genres": [
-     "Acción",
-     "Aventura",
-     "Comedia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "RcER0_lZ2F4"
-   },
-   {
-    "id": 1585,
-    "title": "¡Qué bello es vivir!",
-    "year": "1946",
-    "release_date": "1946-12-20",
-    "overview": "George Bailey es un honrado y modesto ciudadano que dirige y mantiene a flote un pequeño banco familiar, a pesar de los intentos de un poderoso banquero por arruinarlo. El dia de Nochebuena de 1945, abrumado por la repentina desaparición de una importante suma de dinero, que supondría no solo la quiebra de su banco sino también un gran escándalo, decide suicidarse, pero cuando está a punto de hacerlo ocurre algo extraordinario.",
-    "vote_average": 8.3,
-    "genres": [
-     "Drama",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/63W4MsB8e5whhPNyxhRVTzSsCje.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ch3lDc4xQ9MpsNEpnRhvR8PIxxK.jpg",
-    "providers": [
-     "Filmin"
-    ],
-    "trailer": "iLR3gZrU2Xo"
-   },
-   {
     "id": 10719,
     "title": "Elf",
     "year": "2003",
@@ -3859,22 +3878,6 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "r3mJrSA1x5s"
-   },
-   {
-    "id": 5825,
-    "title": "¡Socorro! Ya es Navidad",
-    "year": "1989",
-    "release_date": "1989-11-30",
-    "overview": "Clark Griswold, movido por un generoso y sentimental espíritu navideño, quiere sorprender a toda su familia con una gran fiesta. La suerte no suele acompañarlo y esta vez no va a ser diferente... Una sucesión de disparatados desastres convertirán la esperadísima sorpresa de Clark en un verdadero caos.",
-    "vote_average": 7.2,
-    "genres": [
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/qmyeMduOLqrNqBpAaMwC7Qivwoy.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "providers": [],
-    "trailer": "tLVd4ipC5Lc"
    }
   ],
   "romance": [
@@ -3913,27 +3916,6 @@
     "trailer": "ijaLan082S8"
    },
    {
-    "id": 1630423,
-    "title": "Sangre asesina",
-    "year": "2026",
-    "release_date": "2026-05-06",
-    "overview": "A una mujer le espera una bala con su nombre por culpa de su extraño grupo sanguíneo, pero encuentra cobijo en los brazos del asesino al que ama, y juntos luchan por sobrevivir.",
-    "vote_average": 8.5,
-    "genres": [
-     "Acción",
-     "Drama",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/16TvbhCP8CfiGEbxcbtQLYWO6WG.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
-    "providers": [
-     "Netflix",
-     "Netflix Standard with Ads"
-    ],
-    "trailer": ""
-   },
-   {
     "id": 1218925,
     "title": "Chainsaw Man - La película: El arco de Reze",
     "year": "2025",
@@ -3954,6 +3936,27 @@
      "Crunchyroll Amazon Channel"
     ],
     "trailer": "-KpVet_60Yc"
+   },
+   {
+    "id": 1630423,
+    "title": "Sangre asesina",
+    "year": "2026",
+    "release_date": "2026-05-06",
+    "overview": "A una mujer le espera una bala con su nombre por culpa de su extraño grupo sanguíneo, pero encuentra cobijo en los brazos del asesino al que ama, y juntos luchan por sobrevivir.",
+    "vote_average": 8.5,
+    "genres": [
+     "Acción",
+     "Drama",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/16TvbhCP8CfiGEbxcbtQLYWO6WG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/xA6AM5MvEkieZKlv1Tn3sN23I7i.jpg",
+    "providers": [
+     "Netflix",
+     "Netflix Standard with Ads"
+    ],
+    "trailer": ""
    },
    {
     "id": 19404,
@@ -4020,26 +4023,6 @@
     "trailer": "aSEPD9w_dLM"
    },
    {
-    "id": 1181678,
-    "title": "¿Quieres ser mi... hijo?",
-    "year": "2023",
-    "release_date": "2023-09-21",
-    "overview": "Lu, una mujer conformista de 40 años, un día descubre que su pareja de hace 15 años la estaba engañando. En ese momento, Lu toma la decisión de regresar a su departamento de soltera para empezar de cero, ya que se siente estancada y desconsolada. Conoce a su nuevo vecino Javier, un joven y apuesto mujeriego de tan sólo 23 años, quien no la deja descansar por sus constantes fiestas. Para poder conseguir el trabajo de sus sueños, Lu decide mentir en su entrevista al decir que es mujer de familia y que tiene un hijo de 19 años. Por si fuera poco, tiene que enfrentar la última prueba para ser contratada y pasar un fin de semana en Valle de Bravo con los ejecutivos de la empresa y sus familias. Al encontrarse desesperada, Lu le ofrece el trabajo a Javier, para que se haga pasar por su hijo y a cambio, ella no lo molestará más cuando esté de fiesta.",
-    "vote_average": 8.4,
-    "genres": [
-     "Comedia",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/9GuvODahvuFqdhuZ16aBLR4UJoP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
-    "providers": [
-     "Atres Player",
-     "ViX Premium Amazon Channel"
-    ],
-    "trailer": "HK0FizurLk0"
-   },
-   {
     "id": 11216,
     "title": "Cinema Paradiso",
     "year": "1988",
@@ -4063,25 +4046,24 @@
     "trailer": "JMyVSD6OvO8"
    },
    {
-    "id": 378064,
-    "title": "A Silent Voice",
-    "year": "2016",
-    "release_date": "2016-09-17",
-    "overview": "Shōko, una niña con discapacidad auditiva, es víctima de acoso en su escuela, siendo Shōya su principal agresor. Cuando ella se cambia de colegio, él sufre el rechazo de sus compañeros y queda aislado. Años después, intenta enmendar su error y hacer las paces con Shōko.",
+    "id": 1181678,
+    "title": "¿Quieres ser mi... hijo?",
+    "year": "2023",
+    "release_date": "2023-09-21",
+    "overview": "Lu, una mujer conformista de 40 años, un día descubre que su pareja de hace 15 años la estaba engañando. En ese momento, Lu toma la decisión de regresar a su departamento de soltera para empezar de cero, ya que se siente estancada y desconsolada. Conoce a su nuevo vecino Javier, un joven y apuesto mujeriego de tan sólo 23 años, quien no la deja descansar por sus constantes fiestas. Para poder conseguir el trabajo de sus sueños, Lu decide mentir en su entrevista al decir que es mujer de familia y que tiene un hijo de 19 años. Por si fuera poco, tiene que enfrentar la última prueba para ser contratada y pasar un fin de semana en Valle de Bravo con los ejecutivos de la empresa y sus familias. Al encontrarse desesperada, Lu le ofrece el trabajo a Javier, para que se haga pasar por su hijo y a cambio, ella no lo molestará más cuando esté de fiesta.",
     "vote_average": 8.4,
     "genres": [
-     "Animación",
-     "Drama",
+     "Comedia",
      "Romance"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/hGQnljXpDGI429SC39LohaQBHhf.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/5lAMQMWpXMsirvtLLvW7cJgEPkU.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/5lAMQMWpXMsirvtLLvW7cJgEPkU.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/9GuvODahvuFqdhuZ16aBLR4UJoP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/xyWKrni8WrYzqn7ztvI5nIY0h62.jpg",
     "providers": [
-     "Crunchyroll",
-     "Crunchyroll Amazon Channel"
+     "Atres Player",
+     "ViX Premium Amazon Channel"
     ],
-    "trailer": "JLixtembASE"
+    "trailer": "HK0FizurLk0"
    },
    {
     "id": 40096,
@@ -4101,6 +4083,27 @@
     "fondo": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
     "providers": [],
     "trailer": "wDVdgnhiNlY"
+   },
+   {
+    "id": 378064,
+    "title": "A Silent Voice",
+    "year": "2016",
+    "release_date": "2016-09-17",
+    "overview": "Shōko, una niña con discapacidad auditiva, es víctima de acoso en su escuela, siendo Shōya su principal agresor. Cuando ella se cambia de colegio, él sufre el rechazo de sus compañeros y queda aislado. Años después, intenta enmendar su error y hacer las paces con Shōko.",
+    "vote_average": 8.4,
+    "genres": [
+     "Animación",
+     "Drama",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/hGQnljXpDGI429SC39LohaQBHhf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/5lAMQMWpXMsirvtLLvW7cJgEPkU.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/5lAMQMWpXMsirvtLLvW7cJgEPkU.jpg",
+    "providers": [
+     "Crunchyroll",
+     "Crunchyroll Amazon Channel"
+    ],
+    "trailer": "JLixtembASE"
    },
    {
     "id": 696374,

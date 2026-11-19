@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T07:39:19.851Z",
+ "actualizado": "2026-11-19T20:48:58.918Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -58,7 +58,7 @@
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Fantasía",
     "Comedia"
@@ -73,7 +73,7 @@
    "id": 1381071,
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
-   "overview": "v‌e‌r‌cineo.net – Películas y series HD, Gratis  La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
+   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
    "vote_average": 7.7,
    "genres": [
     "Ciencia ficción",
@@ -349,10 +349,10 @@
     "Documental"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/g2PKUCpDChvYvT7IaUOYfjO0mbG.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
    "providers": [],
    "trailer": "-B-gh1BlS4w",
-   "fondo": "https://image.tmdb.org/t/p/original/nhIL3O4W9h5V5JbNQm7yjoDk3So.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/rrbbzCyS45yooXpUGJatfptlHYI.jpg"
   },
   {
    "id": 822653,
@@ -373,22 +373,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
   },
   {
-   "id": 1400336,
-   "title": "Ahora los suegros son ellos",
-   "release_date": "2026-11-27",
-   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 4,
-   "genres": [
-    "Comedia",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
-   "providers": [],
-   "trailer": "j0MROuSV-pA",
-   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
-  },
-  {
    "id": 1538497,
    "title": "Hechizo: Bienvenidos a Hexe",
    "release_date": "2026-11-27",
@@ -405,7 +389,23 @@
    "backdrop": "https://image.tmdb.org/t/p/w780/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg",
    "providers": [],
    "trailer": "wkr5TpxKOTw",
-   "fondo": "https://image.tmdb.org/t/p/original/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/pYIJeLvfbVamFGO6hOERGVP2gTf.jpg"
+  },
+  {
+   "id": 1400336,
+   "title": "Ahora los suegros son ellos",
+   "release_date": "2026-11-27",
+   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
+   "vote_average": 4,
+   "genres": [
+    "Comedia",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "providers": [],
+   "trailer": "j0MROuSV-pA",
+   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
   },
   {
    "id": 1433583,
@@ -503,21 +503,6 @@
    "fondo": ""
   },
   {
-   "id": 1556887,
-   "title": "Sisters",
-   "release_date": "2026-11-27",
-   "overview": "Dos hermanas reúnen a sus familias durante un fin de semana de verano cerca de Madrid para celebrar algunos hitos y las fiestas de San Juan. La celebración se ve empañada cuando un niño formula una grave acusación de abuso sexual.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/42gyhoe1yiijW7kk9FDqIVvahGP.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/kITiyC72qt25UlF0xPDH5rydZZn.jpg",
-   "providers": [],
-   "trailer": "sC9FbZQ6X0k",
-   "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
-  },
-  {
    "id": 1770715,
    "title": "Forqué. El oficio de hacer cine",
    "release_date": "2026-11-27",
@@ -531,6 +516,21 @@
    "providers": [],
    "trailer": "",
    "fondo": ""
+  },
+  {
+   "id": 1556887,
+   "title": "Sisters",
+   "release_date": "2026-11-27",
+   "overview": "Dos hermanas reúnen a sus familias durante un fin de semana de verano cerca de Madrid para celebrar algunos hitos y las fiestas de San Juan. La celebración se ve empañada cuando un niño formula una grave acusación de abuso sexual.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/42gyhoe1yiijW7kk9FDqIVvahGP.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kITiyC72qt25UlF0xPDH5rydZZn.jpg",
+   "providers": [],
+   "trailer": "sC9FbZQ6X0k",
+   "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
   },
   {
    "id": 1715640,
@@ -644,7 +644,7 @@
    "title": "Club Kid",
    "release_date": "2026-12-04",
    "overview": "Peter (Jordan Firstman), un promotor de fiestas underground de Nueva York acostumbrado a vivir entre excesos, música electrónica y noches interminables, ve cómo su mundo da un vuelco cuando una desconocida aparece en su puerta con Arlo (Reggie Absolom), un niño de 10 años que asegura que es su hijo. Lo que comienza como una situación imposible pronto da paso a una loca, divertida y tierna conexión, tan inesperada como transformadora.",
-   "vote_average": 7.7,
+   "vote_average": 7.9,
    "genres": [
     "Comedia",
     "Drama"
