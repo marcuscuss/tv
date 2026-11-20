@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T20:48:58.918Z",
+ "actualizado": "2026-11-20T07:29:57.760Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -20,15 +20,32 @@
    "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
   },
   {
+   "id": 1300968,
+   "title": "Los Juegos del Hambre: Amanecer en la cosecha",
+   "release_date": "2026-11-20",
+   "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la siega de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
+   "vote_average": 7.4,
+   "genres": [
+    "Ciencia ficción",
+    "Acción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/nijGyrqQbDhSGss4uugQokvBAsG.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+   "providers": [],
+   "trailer": "71wxo7pAKVE",
+   "fondo": "https://image.tmdb.org/t/p/original/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg"
+  },
+  {
    "id": 1244523,
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
    "vote_average": 6,
    "genres": [
+    "Aventura",
     "Terror",
-    "Suspense",
-    "Acción"
+    "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/hClFn5adaXOgmxrZyxixoKiBHEZ.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
@@ -54,22 +71,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/yHVZncPRZr63mezRX20IyKLrSkv.jpg"
   },
   {
-   "id": 1567605,
-   "title": "Scrooge y los fantasmas de la Navidad",
-   "release_date": "2026-11-13",
-   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-   "vote_average": 7.6,
-   "genres": [
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
-   "providers": [],
-   "trailer": "D-n-lqKVr78",
-   "fondo": "https://image.tmdb.org/t/p/original/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg"
-  },
-  {
    "id": 1381071,
    "title": "Godzilla Minus Zero",
    "release_date": "2026-11-06",
@@ -87,6 +88,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
   },
   {
+   "id": 1567605,
+   "title": "Scrooge y los fantasmas de la Navidad",
+   "release_date": "2026-11-13",
+   "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+   "vote_average": 7.5,
+   "genres": [
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
+   "providers": [],
+   "trailer": "D-n-lqKVr78",
+   "fondo": "https://image.tmdb.org/t/p/original/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg"
+  },
+  {
    "id": 1153576,
    "title": "Street Fighter",
    "release_date": "2026-10-16",
@@ -94,6 +111,7 @@
    "vote_average": 6.2,
    "genres": [
     "Acción",
+    "Comedia",
     "Fantasía"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
@@ -109,8 +127,8 @@
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
    "vote_average": 8.5,
    "genres": [
-    "Aventura",
     "Animación",
+    "Aventura",
     "Drama",
     "Fantasía"
    ],
@@ -119,23 +137,6 @@
    "providers": [],
    "trailer": "qWX1ba0f-Qg",
    "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
-  },
-  {
-   "id": 1437511,
-   "title": "Como robar un banco",
-   "release_date": "2026-11-13",
-   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.2,
-   "genres": [
-    "Acción",
-    "Crimen",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
-   "providers": [],
-   "trailer": "tKtg0S1rm2M",
-   "fondo": "https://image.tmdb.org/t/p/original/u38hNQbxvIicUdfrHpqa9puBnA9.jpg"
   },
   {
    "id": 1400940,
@@ -153,6 +154,23 @@
    "providers": [],
    "trailer": "WGOv9Pzh9cE",
    "fondo": "https://image.tmdb.org/t/p/original/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg"
+  },
+  {
+   "id": 1437511,
+   "title": "Como robar un banco",
+   "release_date": "2026-11-13",
+   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
+   "vote_average": 6.2,
+   "genres": [
+    "Acción",
+    "Crimen",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
+   "providers": [],
+   "trailer": "tKtg0S1rm2M",
+   "fondo": "https://image.tmdb.org/t/p/original/u38hNQbxvIicUdfrHpqa9puBnA9.jpg"
   },
   {
    "id": 891621,
@@ -185,7 +203,7 @@
     "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/56Bepb58k71UUTVwKN1SxHmfzPK.jpg",
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
@@ -207,6 +225,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
+   "id": 1255833,
+   "title": "Whalefall",
+   "release_date": "2026-10-16",
+   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
+   "vote_average": 6.6,
+   "genres": [
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+   "providers": [],
+   "trailer": "5webTf9wplE",
+   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
+  },
+  {
    "id": 1195803,
    "title": "Wicker",
    "release_date": "2026-10-30",
@@ -222,21 +255,6 @@
    "providers": [],
    "trailer": "jA5zfiikcu8",
    "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
-  },
-  {
-   "id": 1255833,
-   "title": "Whalefall",
-   "release_date": "2026-10-16",
-   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
-   "vote_average": 6.6,
-   "genres": [
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-   "providers": [],
-   "trailer": "5webTf9wplE",
-   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
   },
   {
    "id": 1379486,
@@ -319,23 +337,6 @@
    "providers": [],
    "trailer": "nelkiuezJxg",
    "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
-  },
-  {
-   "id": 1572116,
-   "title": "Monstruosa Mia",
-   "release_date": "2026-10-16",
-   "overview": "Mia, de 12 años, y su desaliñada rata mascota, Quentin, son enviadas a la misteriosa Academia Rotwood tras acumular demasiados problemas en la escuela. El nuevo colegio le pone los pelos de punta, ¡y Mia necesita encontrar la forma de escapar antes de que los alumnos se den cuenta de que ella no es un monstruo como ellos! Sin embargo, el subdirector Van Vlad siente una especial aversión por los humanos, y Mia teme que él haya descubierto su farsa...",
-   "vote_average": 7.3,
-   "genres": [
-    "Animación",
-    "Fantasía",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/mL3UwoaSdzBrXeCsIRnk4f49ibO.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
-   "providers": [],
-   "trailer": "CbqDABPksnw",
-   "fondo": "https://image.tmdb.org/t/p/original/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg"
   }
  ],
  "upcoming": [
@@ -355,6 +356,25 @@
    "fondo": "https://image.tmdb.org/t/p/original/rrbbzCyS45yooXpUGJatfptlHYI.jpg"
   },
   {
+   "id": 1538497,
+   "title": "Hechizo: Bienvenidos a Hexe",
+   "release_date": "2026-11-27",
+   "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
+   "vote_average": 0,
+   "genres": [
+    "Aventura",
+    "Animación",
+    "Familia",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pYIJeLvfbVamFGO6hOERGVP2gTf.jpg",
+   "providers": [],
+   "trailer": "wkr5TpxKOTw",
+   "fondo": "https://image.tmdb.org/t/p/original/pYIJeLvfbVamFGO6hOERGVP2gTf.jpg"
+  },
+  {
    "id": 822653,
    "title": "Mahou Shoujo Madoka Magica: Walpurgisnacht Rising",
    "release_date": "2026-11-27",
@@ -371,25 +391,6 @@
    "providers": [],
    "trailer": "rSe4mqP1Mj0",
    "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
-  },
-  {
-   "id": 1538497,
-   "title": "Hechizo: Bienvenidos a Hexe",
-   "release_date": "2026-11-27",
-   "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
-   "vote_average": 0,
-   "genres": [
-    "Aventura",
-    "Animación",
-    "Familia",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg",
-   "providers": [],
-   "trailer": "wkr5TpxKOTw",
-   "fondo": "https://image.tmdb.org/t/p/original/pYIJeLvfbVamFGO6hOERGVP2gTf.jpg"
   },
   {
    "id": 1400336,

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-19T20:49:18.353Z",
+ "actualizado": "2026-11-20T07:30:18.962Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -175,7 +175,7 @@
      "year": "2016",
      "release_date": "2016-05-14",
      "overview": "Cuando el equipo de héroes secuestra un carro de combate a vapor, la joven maga Marek consigue robar la pieza final de la todopoderosa Darkspore y se embarca en una carrera desesperada para entregar el artefacto maldito bajo la custodia de los dioses. Durante su huida se ven atrapados en entre un equipo de implacables mercenarios de élite y una trinidad de los demonios, en ese momento, Marek debe aprender a creer en sí misma antes de que sus amigos esten muertos y la Darkspore se pierda, y evitar que el nigromante mal (Szorlok) se unan a la Darkspore e inunde el mundo de los vivos con sus legiones de muertos vivientes.",
-     "vote_average": 5.9,
+     "vote_average": 6,
      "genres": [
       "Acción",
       "Aventura",
@@ -490,33 +490,6 @@
      "trailer": "ISS-a7b0iHw"
     },
     {
-     "id": 141052,
-     "title": "Liga de la Justicia",
-     "year": "2017",
-     "release_date": "2017-11-15",
-     "overview": "Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes (Batman, Wonder Woman, Aquaman, Cyborg y Flash) puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas.",
-     "vote_average": 6.1,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/wUWqnavD8iGZ5F4xXhWlrtEzKjV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
-     "providers": [
-      "Netflix",
-      "Amazon Prime Video",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "Netflix Standard with Ads",
-      "Amazon Prime Video with Ads",
-      "HBO Max Amazon Channel"
-     ],
-     "trailer": "bv0v2pmLea8"
-    },
-    {
      "id": 10138,
      "title": "Iron Man 2",
      "year": "2010",
@@ -595,6 +568,29 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
+    },
+    {
+     "id": 1452,
+     "title": "Superman Returns",
+     "year": "2006",
+     "release_date": "2006-06-28",
+     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
+     "vote_average": 5.8,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -1201,28 +1197,6 @@
      "trailer": "S2PqjYSirus"
     },
     {
-     "id": 20482,
-     "title": "La ciudad desnuda",
-     "year": "1948",
-     "release_date": "1948-03-04",
-     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
-     "vote_average": 7.2,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
-     ],
-     "trailer": "-RN_BvyNpS8"
-    },
-    {
      "id": 242582,
      "title": "Nightcrawler",
      "year": "2014",
@@ -1239,26 +1213,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
      "providers": [],
      "trailer": "OGP02DvsqXc"
-    },
-    {
-     "id": 793,
-     "title": "Terciopelo azul",
-     "year": "1986",
-     "release_date": "1986-09-19",
-     "overview": "Una mañana, Jeffrey Beaumont, después de visitar a su padre en el hospital, encuentra entre unos arbustos una oreja humana. La guarda en una bolsa de papel y la lleva a la comisaría de policía, donde le atiende el detective Williams, que es vecino suyo. Comienza así una misteriosa intriga que desvelará extraños sucesos acontecidos en una pequeña localidad de Carolina del Norte.",
-     "vote_average": 7.6,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rzcigN8ujeVJiEKGP3y3mJybvii.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "SECSDOK58Vc"
     },
     {
      "id": 66113,
@@ -1280,6 +1234,26 @@
       "Acontra Plus Amazon Channel"
      ],
      "trailer": "moqWW9plOtQ"
+    },
+    {
+     "id": 793,
+     "title": "Terciopelo azul",
+     "year": "1986",
+     "release_date": "1986-09-19",
+     "overview": "Una mañana, Jeffrey Beaumont, después de visitar a su padre en el hospital, encuentra entre unos arbustos una oreja humana. La guarda en una bolsa de papel y la lleva a la comisaría de policía, donde le atiende el detective Williams, que es vecino suyo. Comienza así una misteriosa intriga que desvelará extraños sucesos acontecidos en una pequeña localidad de Carolina del Norte.",
+     "vote_average": 7.6,
+     "genres": [
+      "Misterio",
+      "Suspense",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rzcigN8ujeVJiEKGP3y3mJybvii.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "SECSDOK58Vc"
     },
     {
      "id": 68727,
@@ -1423,6 +1397,28 @@
       "Filmin"
      ],
      "trailer": "UuQN3rTi27I"
+    },
+    {
+     "id": 398181,
+     "title": "En realidad, nunca estuviste aquí",
+     "year": "2017",
+     "release_date": "2017-11-08",
+     "overview": "Joe, ex marine y antiguo veterano de guerra, es un tipo solitario que dedica su tiempo a intentar salvar a mujeres que son explotadas sexualmente. No se permite ni amigos ni amantes y se gana la vida rescatando jóvenes de las garras de los tratantes de blancas. Un día recibe la llamada de un político porque su hija ha sido secuestrada.",
+     "vote_average": 6.5,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/505AFHvK3BoHC2zwWXBWkevRTYF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "fQyDaGWQ43w"
     }
    ]
   },
@@ -1477,6 +1473,26 @@
      "trailer": "xyNVTkemjgQ"
     },
     {
+     "id": 613092,
+     "title": "El crack cero",
+     "year": "2019",
+     "release_date": "2019-10-04",
+     "overview": "Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/kzgPu2CMxBr4YZZxC1Off4cUfR9.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "nYcq_Dy-EWw"
+    },
+    {
      "id": 587986,
      "title": "Ventajas de viajar en tren",
      "year": "2019",
@@ -1500,6 +1516,24 @@
      "trailer": "FgS_tWjkLN4"
     },
     {
+     "id": 36373,
+     "title": "M",
+     "year": "1951",
+     "release_date": "1951-03-01",
+     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
+     "vote_average": 6.5,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "providers": [],
+     "trailer": "IovfalMQ6lQ"
+    },
+    {
      "id": 651589,
      "title": "Hasta el cielo",
      "year": "2020",
@@ -1521,22 +1555,44 @@
      "trailer": "I-wlmGEXJAM"
     },
     {
-     "id": 36373,
-     "title": "M",
-     "year": "1951",
-     "release_date": "1951-03-01",
-     "overview": "Un criminal cuyas víctimas son niños es perseguido incansablemente por la policía, pero también por el mundo del hampa. Remake de la impresionante película de Fritz Lang de 1931",
-     "vote_average": 6.5,
+     "id": 46041,
+     "title": "Conspiración en Berlín",
+     "year": "1966",
+     "release_date": "1966-11-10",
+     "overview": "Las organizaciones neonazis tienen cada vez más fuerza en la capital germana. El servicio de Inteligencia británico envía a Berlín al agente Quiller para que reemplace a un colega que acaba de ser asesinado. Quiller tendrá que detener a Oktober, el jefe de la banda, y a sus peligrosos secuaces. Para ello, contará con la ayuda de Inge, una maestra de escuela.",
+     "vote_average": 5.9,
      "genres": [
-      "Crimen",
+      "Suspense",
       "Drama",
-      "Suspense"
+      "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/jJWNGF5FxbKyk8EyH4Ad8FA0WK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aFjR7ELSqn50QAqteNehpw5Z6jG.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/AmzzSnoUtayySsi7cNUa0Vg4DcS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vF1ykw0QKK9X9o7Ki199GJGwlcR.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "FlixOlé",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "yakSWyVSNUs"
+    },
+    {
+     "id": 127521,
+     "title": "6 balas",
+     "year": "2012",
+     "release_date": "2012-09-11",
+     "overview": "El veterano mercenario Samson Gaul sabe que en el fragor de la batalla cada bala cuenta. Cuando sus acciones dieron como resultado la muerte de víctimas indefensas se retiró pero ahora es la última esperanza de Andrew Fayden un padre desesperado. Fayden sabe luchar pero solo no está preparado para encontrar a su hija en las corruptas calles de un país extranjero. Juntos, ambos guerreros, no se detendrán ante nada para destrozar la red criminal que se aprovecha de los inocentes.",
+     "vote_average": 6.3,
+     "genres": [
+      "Suspense",
+      "Acción",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/1ArlTk9TosvIJVmy9fwpD9XFRkw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
      "providers": [],
-     "trailer": "IovfalMQ6lQ"
+     "trailer": "ioIknR8KQmk"
     },
     {
      "id": 1659087,
@@ -1558,46 +1614,6 @@
       "Netflix Standard with Ads"
      ],
      "trailer": "jHtGZS-TFOI"
-    },
-    {
-     "id": 127521,
-     "title": "6 balas",
-     "year": "2012",
-     "release_date": "2012-09-11",
-     "overview": "El veterano mercenario Samson Gaul sabe que en el fragor de la batalla cada bala cuenta. Cuando sus acciones dieron como resultado la muerte de víctimas indefensas se retiró pero ahora es la última esperanza de Andrew Fayden un padre desesperado. Fayden sabe luchar pero solo no está preparado para encontrar a su hija en las corruptas calles de un país extranjero. Juntos, ambos guerreros, no se detendrán ante nada para destrozar la red criminal que se aprovecha de los inocentes.",
-     "vote_average": 6.3,
-     "genres": [
-      "Suspense",
-      "Acción",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/1ArlTk9TosvIJVmy9fwpD9XFRkw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/zQXo8qMCd0Oial7Ped5746uHR7N.jpg",
-     "providers": [],
-     "trailer": "ioIknR8KQmk"
-    },
-    {
-     "id": 20482,
-     "title": "La ciudad desnuda",
-     "year": "1948",
-     "release_date": "1948-03-04",
-     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
-     "vote_average": 7.2,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
-     ],
-     "trailer": "-RN_BvyNpS8"
     },
     {
      "id": 30014,
@@ -1658,6 +1674,26 @@
      "trailer": "DIa__DpZX9U"
     },
     {
+     "id": 950063,
+     "title": "El diablo que conoces",
+     "year": "2022",
+     "release_date": "2022-04-01",
+     "overview": "Después de una vida de problemas,un hombre tiene la oportunidad de cambiar las cosas con el amor y el apoyo de su familia. Mientras trata de hacer lo correcto con los suyos, se encuentra volviendo en espiral hacia el lugar oscuro que pensó haber superado.",
+     "vote_average": 6.7,
+     "genres": [
+      "Suspense",
+      "Drama",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/eyvT9TpBSZsFMSu0TZmvALeocnd.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/nlOZpwivEo9BLCrPsNnJeCQDaDs.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/nlOZpwivEo9BLCrPsNnJeCQDaDs.jpg",
+     "providers": [
+      "Lionsgate+ Amazon Channel"
+     ],
+     "trailer": "eb_ZpN98pg8"
+    },
+    {
      "id": 613099,
      "title": "Legado en los huesos",
      "year": "2019",
@@ -1677,47 +1713,6 @@
       "Netflix Standard with Ads"
      ],
      "trailer": "vv-at2_dfwk"
-    },
-    {
-     "id": 1621552,
-     "title": "La captura",
-     "year": "2026",
-     "release_date": "2026-08-21",
-     "overview": "2016, estado de Sinaloa. Dos policías mexicanos, durante un control rutinario en las últimas horas de su turno, detienen un coche robado y se encuentran cara a cara con uno de los delincuentes más peligrosos del mundo: el Chapó Guzmán, patrón del temible Cártel de Sinaloa.",
-     "vote_average": 8.7,
-     "genres": [
-      "Crimen",
-      "Acción",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/my8euQR37XeJ8lfLz3XgBR03R45.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/c4U96GrPRfnNrS01mBtqnocvlLJ.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/raVBwQY4Ru5yt0FDE4zDYSIlFgd.jpg",
-     "providers": [
-      "Netflix",
-      "Netflix Standard with Ads"
-     ],
-     "trailer": "Rk0efhpa-5Y"
-    },
-    {
-     "id": 950063,
-     "title": "El diablo que conoces",
-     "year": "2022",
-     "release_date": "2022-04-01",
-     "overview": "Después de una vida de problemas,un hombre tiene la oportunidad de cambiar las cosas con el amor y el apoyo de su familia. Mientras trata de hacer lo correcto con los suyos, se encuentra volviendo en espiral hacia el lugar oscuro que pensó haber superado.",
-     "vote_average": 6.7,
-     "genres": [
-      "Suspense",
-      "Drama",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/eyvT9TpBSZsFMSu0TZmvALeocnd.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/nlOZpwivEo9BLCrPsNnJeCQDaDs.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/nlOZpwivEo9BLCrPsNnJeCQDaDs.jpg",
-     "providers": [
-      "Lionsgate+ Amazon Channel"
-     ],
-     "trailer": "eb_ZpN98pg8"
     }
    ]
   }
@@ -3553,8 +3548,8 @@
      "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
      "vote_average": 8.5,
      "genres": [
-      "Aventura",
       "Animación",
+      "Aventura",
       "Drama",
       "Fantasía"
      ],
@@ -3575,7 +3570,7 @@
     "year": "2026",
     "release_date": "2026-11-11",
     "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-    "vote_average": 7.6,
+    "vote_average": 7.5,
     "genres": [
      "Fantasía",
      "Comedia"
