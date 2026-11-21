@@ -1,7 +1,24 @@
 {
- "actualizado": "2026-11-20T20:32:48.636Z",
+ "actualizado": "2026-11-21T07:26:21.881Z",
  "source": "tmdb",
  "now_playing": [
+  {
+   "id": 1300968,
+   "title": "Los Juegos del Hambre: Amanecer en la cosecha",
+   "release_date": "2026-11-20",
+   "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
+   "vote_average": 7.5,
+   "genres": [
+    "Ciencia ficción",
+    "Acción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8K4lZ5oepk3kArMWfQuqSegxSRe.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+   "providers": [],
+   "trailer": "71wxo7pAKVE",
+   "fondo": "https://image.tmdb.org/t/p/original/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg"
+  },
   {
    "id": 1058424,
    "title": "Hope",
@@ -18,23 +35,6 @@
    "providers": [],
    "trailer": "OFaJzL83y0Q",
    "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
-  },
-  {
-   "id": 1300968,
-   "title": "Los Juegos del Hambre: Amanecer en la cosecha",
-   "release_date": "2026-11-20",
-   "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 7.4,
-   "genres": [
-    "Ciencia ficción",
-    "Acción",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/8K4lZ5oepk3kArMWfQuqSegxSRe.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
-   "providers": [],
-   "trailer": "71wxo7pAKVE",
-   "fondo": "https://image.tmdb.org/t/p/original/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg"
   },
   {
    "id": 1244523,
@@ -98,27 +98,10 @@
     "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bF6nvHAt2jU7PnkOI4cnaUF2DZn.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
    "providers": [],
    "trailer": "D-n-lqKVr78",
    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg"
-  },
-  {
-   "id": 1153576,
-   "title": "Street Fighter",
-   "release_date": "2026-10-16",
-   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.2,
-   "genres": [
-    "Acción",
-    "Comedia",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9vNW8ysMKIbefbEQOFEZIKpMqwZ.jpg",
-   "providers": [],
-   "trailer": "-MJAfIMUQ5s",
-   "fondo": "https://image.tmdb.org/t/p/original/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg"
   },
   {
    "id": 791523,
@@ -137,6 +120,23 @@
    "providers": [],
    "trailer": "qWX1ba0f-Qg",
    "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
+  },
+  {
+   "id": 1153576,
+   "title": "Street Fighter",
+   "release_date": "2026-10-16",
+   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
+   "vote_average": 6.2,
+   "genres": [
+    "Acción",
+    "Comedia",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+   "providers": [],
+   "trailer": "-MJAfIMUQ5s",
+   "fondo": "https://image.tmdb.org/t/p/original/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg"
   },
   {
    "id": 1400940,
@@ -225,21 +225,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
-   "id": 1255833,
-   "title": "Whalefall",
-   "release_date": "2026-10-16",
-   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
-   "vote_average": 6.6,
-   "genres": [
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
-   "providers": [],
-   "trailer": "5webTf9wplE",
-   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
-  },
-  {
    "id": 1195803,
    "title": "Wicker",
    "release_date": "2026-10-30",
@@ -257,6 +242,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
   },
   {
+   "id": 1255833,
+   "title": "Whalefall",
+   "release_date": "2026-10-16",
+   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
+   "vote_average": 6.6,
+   "genres": [
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+   "providers": [],
+   "trailer": "5webTf9wplE",
+   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
+  },
+  {
    "id": 1379486,
    "title": "Victorian Psycho",
    "release_date": "2026-11-13",
@@ -271,6 +271,23 @@
    "providers": [],
    "trailer": "sDiFol_2j2I",
    "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
+  },
+  {
+   "id": 1284046,
+   "title": "Aniquilación",
+   "release_date": "2026-10-30",
+   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
+   "vote_average": 5.6,
+   "genres": [
+    "Acción",
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+   "providers": [],
+   "trailer": "AMLCbpM1fRQ",
+   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 1748404,
@@ -303,23 +320,6 @@
    "providers": [],
    "trailer": "REqdAeNUIho",
    "fondo": "https://image.tmdb.org/t/p/original/hFIhPUW8oO2EJYXLAuWFMJBzjsR.jpg"
-  },
-  {
-   "id": 1284046,
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
-   "genres": [
-    "Acción",
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-   "providers": [],
-   "trailer": "AMLCbpM1fRQ",
-   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 950028,
@@ -379,16 +379,16 @@
    "title": "Ahora los suegros son ellos",
    "release_date": "2026-11-27",
    "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 4,
+   "vote_average": 7,
    "genres": [
     "Comedia",
     "Romance"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/1zcCFBcqEQtAtXDh6EoBPy16RLR.jpg",
    "providers": [],
    "trailer": "j0MROuSV-pA",
-   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/1zcCFBcqEQtAtXDh6EoBPy16RLR.jpg"
   },
   {
    "id": 822653,
@@ -430,7 +430,7 @@
    "title": "Oro sin ley",
    "release_date": "2026-11-27",
    "overview": "Oregón, 1933. Samuel Murphy (Ethan Hawke) es separado de su hija y enviado a un campo de trabajo. Un día, el alcaide Clancy (Russell Crowe) le ofrece la posibilidad de liberarlo si consigue pasar oro de contrabando a través de una peligrosa senda salvaje. ¿Hasta dónde será capaz de llegar Murphy por reencontrarse con su querida hija?",
-   "vote_average": 6.6,
+   "vote_average": 6.7,
    "genres": [
     "Drama",
     "Suspense"
@@ -489,6 +489,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/8S1duOpGapJLIpfPMoNLyUSwuHS.jpg"
   },
   {
+   "id": 1715640,
+   "title": "El pezón de Elena",
+   "release_date": "2026-11-27",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/pCFW1aZqxSxbeqoH3rzZvGGi6cR.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
+  },
+  {
    "id": 1740884,
    "title": "Un hombre en un puente",
    "release_date": "2026-11-27",
@@ -501,21 +516,6 @@
    "backdrop": "",
    "providers": [],
    "trailer": "-amALUDN_s4",
-   "fondo": ""
-  },
-  {
-   "id": 1770715,
-   "title": "Forqué. El oficio de hacer cine",
-   "release_date": "2026-11-27",
-   "overview": "Un recorrido por la trayectoria de José María Forqué a través de su propia voz y de los recuerdos de actores y cineastas que trabajaron con él. El documental revisita sus películas, su aportación a la comedia y la televisión y el oficio de un director cuya figura quedó a menudo eclipsada por otros nombres del cine español.",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xaJ67tGcPNzjrHugxWc11cqz7Rf.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
    "fondo": ""
   },
   {
@@ -534,15 +534,15 @@
    "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
   },
   {
-   "id": 1715640,
-   "title": "El pezón de Elena",
+   "id": 1770715,
+   "title": "Forqué. El oficio de hacer cine",
    "release_date": "2026-11-27",
-   "overview": "",
+   "overview": "Un recorrido por la trayectoria de José María Forqué a través de su propia voz y de los recuerdos de actores y cineastas que trabajaron con él. El documental revisita sus películas, su aportación a la comedia y la televisión y el oficio de un director cuya figura quedó a menudo eclipsada por otros nombres del cine español.",
    "vote_average": 0,
    "genres": [
-    "Drama"
+    "Documental"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/pCFW1aZqxSxbeqoH3rzZvGGi6cR.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/xaJ67tGcPNzjrHugxWc11cqz7Rf.jpg",
    "backdrop": "",
    "providers": [],
    "trailer": "",
