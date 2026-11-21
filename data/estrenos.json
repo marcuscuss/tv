@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T07:26:21.881Z",
+ "actualizado": "2026-11-21T19:29:50.336Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -7,13 +7,13 @@
    "title": "Los Juegos del Hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Ciencia ficción",
     "Acción",
     "Aventura"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/8K4lZ5oepk3kArMWfQuqSegxSRe.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/aGFIoSGOv5iJGCviwGQJEfnHXIv.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
    "providers": [],
    "trailer": "71wxo7pAKVE",
@@ -108,7 +108,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.5,
+   "vote_average": 8.4,
    "genres": [
     "Animación",
     "Aventura",
@@ -229,7 +229,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.5,
+   "vote_average": 7.4,
    "genres": [
     "Romance",
     "Fantasía",
@@ -360,7 +360,7 @@
    "title": "Hechizo: Bienvenidos a Hexe",
    "release_date": "2026-11-27",
    "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
-   "vote_average": 0,
+   "vote_average": 5,
    "genres": [
     "Aventura",
     "Animación",
@@ -596,7 +596,7 @@
    "title": "Crawlers (Arácnidos)",
    "release_date": "2026-12-04",
    "overview": "Cuando un hombre regresa de un viaje albergando sin saberlo una nueva raza de arácnidos, los habitantes de un bloque de apartamentos son puestos en cuarentena y abandonados a su suerte contra una plaga de arañas venenosas.",
-   "vote_average": 6.1,
+   "vote_average": 6,
    "genres": [
     "Terror",
     "Suspense"
