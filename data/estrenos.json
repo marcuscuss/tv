@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T07:06:45.612Z",
+ "actualizado": "2026-11-22T19:51:09.352Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -7,7 +7,7 @@
    "title": "Los Juegos del Hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 7.6,
+   "vote_average": 7.7,
    "genres": [
     "Ciencia ficción",
     "Acción",
@@ -95,7 +95,8 @@
    "vote_average": 7.5,
    "genres": [
     "Fantasía",
-    "Comedia"
+    "Drama",
+    "Terror"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
@@ -108,7 +109,7 @@
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
    "overview": "Prue y su compañero de clase Curtis se ven arrastrados a un bosque mágico poblado por criaturas encantadas, aliados leales y adversarios formidables, mientras emprenden una misión desesperada para rescatar al hermano bebé de Prue —secuestrado por una bandada de cuervos liderada por una misteriosa mujer llamada Alexandra—.",
-   "vote_average": 8.4,
+   "vote_average": 8.5,
    "genres": [
     "Animación",
     "Aventura",
@@ -160,7 +161,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.2,
+   "vote_average": 6.3,
    "genres": [
     "Acción",
     "Crimen",
@@ -177,7 +178,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 8,
+   "vote_average": 7.9,
    "genres": [
     "Comedia",
     "Crimen",
@@ -194,7 +195,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 6.8,
+   "vote_average": 6.9,
    "genres": [
     "Animación",
     "Fantasía",
@@ -278,7 +279,7 @@
    "title": "Victorian Psycho",
    "release_date": "2026-11-13",
    "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
-   "vote_average": 6,
+   "vote_average": 6.3,
    "genres": [
     "Terror",
     "Suspense"
@@ -369,10 +370,10 @@
     "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pYIJeLvfbVamFGO6hOERGVP2gTf.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg",
    "providers": [],
    "trailer": "wkr5TpxKOTw",
-   "fondo": "https://image.tmdb.org/t/p/original/pYIJeLvfbVamFGO6hOERGVP2gTf.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg"
   },
   {
    "id": 1400336,
@@ -489,21 +490,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/8S1duOpGapJLIpfPMoNLyUSwuHS.jpg"
   },
   {
-   "id": 1740884,
-   "title": "Un hombre en un puente",
-   "release_date": "2026-11-27",
-   "overview": "Un hombre en un puente narra la historia de Andrés (Roger Casamajor), un hombre de mediana edad que, sin tener a dónde ir, regresa a su pueblo natal en busca de refugio. Allí se reencuentra con tres figuras clave de su pasado: Lucía (Belén Cuesta), su novia de juventud a la que no ve desde hace muchos años; Mariano (Juanfra Juárez), su antiguo amigo, ahora en horas bajas; y Chema (Font García), su hermano, con quien no se habla desde hace más de una década. Incapaz de encontrar su sitio, un suceso fortuito le lleva a conocer a Liliana (Nidia Bermejo), una mujer que cambia su destino.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/wkSaw5nAURqcBHmJ538BiMtpvye.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg",
-   "providers": [],
-   "trailer": "-amALUDN_s4",
-   "fondo": "https://image.tmdb.org/t/p/original/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg"
-  },
-  {
    "id": 1556887,
    "title": "Sisters",
    "release_date": "2026-11-27",
@@ -517,6 +503,21 @@
    "providers": [],
    "trailer": "sC9FbZQ6X0k",
    "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
+  },
+  {
+   "id": 1740884,
+   "title": "Un hombre en un puente",
+   "release_date": "2026-11-27",
+   "overview": "Un hombre en un puente narra la historia de Andrés (Roger Casamajor), un hombre de mediana edad que, sin tener a dónde ir, regresa a su pueblo natal en busca de refugio. Allí se reencuentra con tres figuras clave de su pasado: Lucía (Belén Cuesta), su novia de juventud a la que no ve desde hace muchos años; Mariano (Juanfra Juárez), su antiguo amigo, ahora en horas bajas; y Chema (Font García), su hermano, con quien no se habla desde hace más de una década. Incapaz de encontrar su sitio, un suceso fortuito le lleva a conocer a Liliana (Nidia Bermejo), una mujer que cambia su destino.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/wkSaw5nAURqcBHmJ538BiMtpvye.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg",
+   "providers": [],
+   "trailer": "-amALUDN_s4",
+   "fondo": "https://image.tmdb.org/t/p/original/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg"
   },
   {
    "id": 1715640,
@@ -596,7 +597,7 @@
    "title": "Crawlers (Arácnidos)",
    "release_date": "2026-12-04",
    "overview": "Cuando un hombre regresa de un viaje albergando sin saberlo una nueva raza de arácnidos, los habitantes de un bloque de apartamentos son puestos en cuarentena y abandonados a su suerte contra una plaga de arañas venenosas.",
-   "vote_average": 6,
+   "vote_average": 6.1,
    "genres": [
     "Terror",
     "Suspense"
@@ -635,10 +636,10 @@
     "Misterio"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/aMFx35t0T61S1ILDZrycPFRu95u.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/hinFa5gPaUkZM0l5TsEb29Brw0H.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg",
    "providers": [],
    "trailer": "q5oWCPS3akw",
-   "fondo": "https://image.tmdb.org/t/p/original/hinFa5gPaUkZM0l5TsEb29Brw0H.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg"
   },
   {
    "id": 1585239,
