@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T19:29:50.336Z",
+ "actualizado": "2026-11-22T07:06:45.612Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -24,7 +24,7 @@
    "title": "Hope",
    "release_date": "2026-10-30",
    "overview": "Los refuerzos se han desviado para combatir los incendios forestales y se han cortado todas las comunicaciones. El jefe del puesto policial de Hope, Bum-seok, y la agente Sung-ae luchan por defender un pueblo de ancianos, mientras que en las montañas, Sung-ki y los lugareños que se han lanzado a la búsqueda de la bestia se ven, por el contrario, acosados por ella. Lo que comienza como ignorancia siembra la semilla del desastre, que se intensifica a través del conflicto humano hasta convertirse en una tragedia de proporciones cósmicas.",
-   "vote_average": 6.8,
+   "vote_average": 6.9,
    "genres": [
     "Ciencia ficción",
     "Misterio",
@@ -177,7 +177,7 @@
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
    "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 7.9,
+   "vote_average": 8,
    "genres": [
     "Comedia",
     "Crimen",
@@ -207,6 +207,21 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
+  },
+  {
+   "id": 1255833,
+   "title": "Whalefall",
+   "release_date": "2026-10-16",
+   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
+   "vote_average": 6.6,
+   "genres": [
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+   "providers": [],
+   "trailer": "5webTf9wplE",
+   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
   },
   {
    "id": 1503762,
@@ -242,19 +257,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg"
   },
   {
-   "id": 1255833,
-   "title": "Whalefall",
-   "release_date": "2026-10-16",
-   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
-   "vote_average": 6.6,
+   "id": 1284046,
+   "title": "Aniquilación",
+   "release_date": "2026-10-30",
+   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
+   "vote_average": 5.6,
    "genres": [
+    "Acción",
+    "Terror",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
    "providers": [],
-   "trailer": "5webTf9wplE",
-   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
+   "trailer": "AMLCbpM1fRQ",
+   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 1379486,
@@ -271,23 +288,6 @@
    "providers": [],
    "trailer": "sDiFol_2j2I",
    "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
-  },
-  {
-   "id": 1284046,
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
-   "genres": [
-    "Acción",
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-   "providers": [],
-   "trailer": "AMLCbpM1fRQ",
-   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 1748404,
@@ -385,10 +385,10 @@
     "Romance"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/1zcCFBcqEQtAtXDh6EoBPy16RLR.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nubnNXuMArUhiDW1nUevGsG65x9.jpg",
    "providers": [],
    "trailer": "j0MROuSV-pA",
-   "fondo": "https://image.tmdb.org/t/p/original/1zcCFBcqEQtAtXDh6EoBPy16RLR.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/nubnNXuMArUhiDW1nUevGsG65x9.jpg"
   },
   {
    "id": 822653,
@@ -489,21 +489,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/8S1duOpGapJLIpfPMoNLyUSwuHS.jpg"
   },
   {
-   "id": 1715640,
-   "title": "El pezón de Elena",
-   "release_date": "2026-11-27",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/pCFW1aZqxSxbeqoH3rzZvGGi6cR.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
    "id": 1740884,
    "title": "Un hombre en un puente",
    "release_date": "2026-11-27",
@@ -513,10 +498,10 @@
     "Drama"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/wkSaw5nAURqcBHmJ538BiMtpvye.jpg",
-   "backdrop": "",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg",
    "providers": [],
    "trailer": "-amALUDN_s4",
-   "fondo": ""
+   "fondo": "https://image.tmdb.org/t/p/original/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg"
   },
   {
    "id": 1556887,
@@ -532,6 +517,21 @@
    "providers": [],
    "trailer": "sC9FbZQ6X0k",
    "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
+  },
+  {
+   "id": 1715640,
+   "title": "El pezón de Elena",
+   "release_date": "2026-11-27",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/pCFW1aZqxSxbeqoH3rzZvGGi6cR.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
   },
   {
    "id": 1770715,

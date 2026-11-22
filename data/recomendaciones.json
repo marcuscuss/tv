@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T19:30:11.903Z",
+ "actualizado": "2026-11-22T07:07:07.088Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -659,25 +659,6 @@
      "trailer": "ogIX2Q7tEdc"
     },
     {
-     "id": 345938,
-     "title": "La cabaña",
-     "year": "2017",
-     "release_date": "2017-03-02",
-     "overview": "Después de sufrir una tragedia familiar, Mack Phillips cae en una profunda depresión que le lleva a cuestionar todas sus creencias. Sumido en una crisis de fe, recibe una enigmática carta donde un misterioso personaje le cita en una cabaña abandonada en lo más profundo de los bosques de Oregón. A pesar de sus dudas, Mack viaja a la cabaña, donde se encontrará con alguien inesperado. Este encuentro conducirá a Mack a enfrentarse a importantes verdades, que no sólo transformarán su comprensión de la tragedia sino que harán que su vida cambie para siempre.",
-     "vote_average": 7.5,
-     "genres": [
-      "Drama",
-      "Familia"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/d7qG9sdCTo3uBeWXpxKehplvr8B.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/bAup7FGUlmNVOuhZFlLgmDPo0Eg.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/zHfmIQDe1oVFSW2p1ZAnq7j7Fuy.jpg",
-     "providers": [
-      "Lionsgate+ Amazon Channel"
-     ],
-     "trailer": "Ouc9W0GRlQw"
-    },
-    {
      "id": 520318,
      "title": "Fátima, la película",
      "year": "2020",
@@ -699,20 +680,23 @@
      "trailer": "PvokEpA439o"
     },
     {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
+     "id": 345938,
+     "title": "La cabaña",
+     "year": "2017",
+     "release_date": "2017-03-02",
+     "overview": "Después de sufrir una tragedia familiar, Mack Phillips cae en una profunda depresión que le lleva a cuestionar todas sus creencias. Sumido en una crisis de fe, recibe una enigmática carta donde un misterioso personaje le cita en una cabaña abandonada en lo más profundo de los bosques de Oregón. A pesar de sus dudas, Mack viaja a la cabaña, donde se encontrará con alguien inesperado. Este encuentro conducirá a Mack a enfrentarse a importantes verdades, que no sólo transformarán su comprensión de la tragedia sino que harán que su vida cambie para siempre.",
+     "vote_average": 7.5,
      "genres": [
-      "Drama"
+      "Drama",
+      "Familia"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "providers": [],
-     "trailer": "JxTFqsy5Pxs"
+     "poster": "https://image.tmdb.org/t/p/w342/d7qG9sdCTo3uBeWXpxKehplvr8B.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/bAup7FGUlmNVOuhZFlLgmDPo0Eg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/zHfmIQDe1oVFSW2p1ZAnq7j7Fuy.jpg",
+     "providers": [
+      "Lionsgate+ Amazon Channel"
+     ],
+     "trailer": "Ouc9W0GRlQw"
     },
     {
      "id": 127373,
@@ -734,20 +718,38 @@
      "trailer": "B1xClEljavQ"
     },
     {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
+     "id": 467433,
+     "title": "Una cuestión de fe",
+     "year": "2017",
+     "release_date": "2017-09-29",
+     "overview": "Cuando la tragedia golpea a tres familias, su destino les obliga a descubrir el amor, la gracia y la compasión de Dios, pues los desafíos del destino pueden hacer que renazcan sus creencias.",
+     "vote_average": 7.5,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/iWAANrMSUsPyEcy9MHcRCyikN4Q.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/slo4uAwTb08rAq99pgLbV30oZzo.jpg",
      "providers": [],
-     "trailer": "YuMBAq-ROh4"
+     "trailer": "QzNuMWxPo80"
+    },
+    {
+     "id": 69557,
+     "title": "Siempre estoy sola",
+     "year": "1964",
+     "release_date": "1964-07-16",
+     "overview": "Jo es una mujer que se ha casado varias veces. Parece que con Jake, su último marido, ha encontrado por fin la estabilidad que necesitaba; pero cuando descubre que Jake le es infiel y, además, está embarazada, todo se vendrá abajo.",
+     "vote_average": 6.6,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/5julfooBr6TgRVwNvnzYsXiGtmS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jxyLXwFaccE8XzhF62HauyXJi14.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hi6vEbiPtKYDtWuz9l4mS37B19m.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "JCD2382CTN4"
     },
     {
      "id": 1585,
@@ -770,6 +772,22 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
+     "id": 29697,
+     "title": "Confianza en la cosecha",
+     "year": "2006",
+     "release_date": "2006-10-27",
+     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
+     "vote_average": 7.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "providers": [],
+     "trailer": "JxTFqsy5Pxs"
+    },
+    {
      "id": 1217690,
      "title": "El refugio",
      "year": "2024",
@@ -789,40 +807,20 @@
      "trailer": "UdBBjFQYzwA"
     },
     {
-     "id": 69557,
-     "title": "Siempre estoy sola",
-     "year": "1964",
-     "release_date": "1964-07-16",
-     "overview": "Jo es una mujer que se ha casado varias veces. Parece que con Jake, su último marido, ha encontrado por fin la estabilidad que necesitaba; pero cuando descubre que Jake le es infiel y, además, está embarazada, todo se vendrá abajo.",
-     "vote_average": 6.6,
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/5julfooBr6TgRVwNvnzYsXiGtmS.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jxyLXwFaccE8XzhF62HauyXJi14.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hi6vEbiPtKYDtWuz9l4mS37B19m.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "JCD2382CTN4"
-    },
-    {
-     "id": 29989,
-     "title": "Skin",
-     "year": "2009",
-     "release_date": "2009-07-24",
-     "overview": "Basado en la historia real de una niña negra que nació de dos padres afrikaners blancos en Sudáfrica durante la era del apartheid.",
-     "vote_average": 6.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/lRKQ0CXJF1cIO1kc2XqdWptbaAX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "wbj691Z1Z1E"
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
+     "providers": [],
+     "trailer": "YuMBAq-ROh4"
     },
     {
      "id": 1243381,
@@ -846,20 +844,22 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 542422,
-     "title": "Rosie",
-     "year": "2019",
-     "release_date": "2019-03-08",
-     "overview": "Cuando su casero vende la casa en la que vivían hasta ese entonces, Rosie, John Paul y su familia se quedan sin hogar. Con sus pertenencias metidas en su coche, tratan de sobrevivir como buenamente pueden a base de trabajos rutinarios. Incapaces de reconocer cuál es su situación, rechazan la ayuda que les ofrece la madre de Rosie, por lo que se ven obligados a ir de hotel en hotel buscando alguno que acepte la única tarjeta de crédito que les permite pasar la noche a cubierto.",
-     "vote_average": 6.2,
+     "id": 29989,
+     "title": "Skin",
+     "year": "2009",
+     "release_date": "2009-07-24",
+     "overview": "Basado en la historia real de una niña negra que nació de dos padres afrikaners blancos en Sudáfrica durante la era del apartheid.",
+     "vote_average": 6.4,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/xOGOYLANn5svSrbRgvkikNRdqK5.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
-     "providers": [],
-     "trailer": "sqEc-cRsFxM"
+     "poster": "https://image.tmdb.org/t/p/w342/lRKQ0CXJF1cIO1kc2XqdWptbaAX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "wbj691Z1Z1E"
     }
    ]
   },
@@ -1184,26 +1184,22 @@
      "trailer": "TJGd5CUfar8"
     },
     {
-     "id": 20482,
-     "title": "La ciudad desnuda",
-     "year": "1948",
-     "release_date": "1948-03-04",
-     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
-     "vote_average": 7.2,
+     "id": 242582,
+     "title": "Nightcrawler",
+     "year": "2014",
+     "release_date": "2014-10-23",
+     "overview": "Tras ser testigo de un accidente, Lou Bloom (Jake Gyllenhaal), un apasionado joven que no consigue encontrar empleo, descubre como forma de ganar dinero el mundo del periodismo criminalista en la peligrosa ciudad de Los Ángeles. Su trabajo es llegar al escenario de crímenes o accidentes y fotografiar lo sucedido para venderlos al mejor postor.",
+     "vote_average": 7.7,
      "genres": [
       "Crimen",
       "Drama",
-      "Misterio",
       "Suspense"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
-     ],
-     "trailer": "-RN_BvyNpS8"
+     "poster": "https://image.tmdb.org/t/p/w342/prNsmrvXbLaFDq8p5XHBMowhd9A.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
+     "providers": [],
+     "trailer": "OGP02DvsqXc"
     },
     {
      "id": 25690,
@@ -1228,22 +1224,25 @@
      "trailer": "S2PqjYSirus"
     },
     {
-     "id": 242582,
-     "title": "Nightcrawler",
-     "year": "2014",
-     "release_date": "2014-10-23",
-     "overview": "Tras ser testigo de un accidente, Lou Bloom (Jake Gyllenhaal), un apasionado joven que no consigue encontrar empleo, descubre como forma de ganar dinero el mundo del periodismo criminalista en la peligrosa ciudad de Los Ángeles. Su trabajo es llegar al escenario de crímenes o accidentes y fotografiar lo sucedido para venderlos al mejor postor.",
-     "vote_average": 7.7,
+     "id": 66113,
+     "title": "Una chica perfecta",
+     "year": "2009",
+     "release_date": "2009-03-14",
+     "overview": "La historía del macabro asesinato de una niña Australiana de 15 años que desapareció de un día para otro, y más tarde se descubrió que había sido la niñeria quién la mato.",
+     "vote_average": 6,
      "genres": [
-      "Crimen",
       "Drama",
-      "Suspense"
+      "Suspense",
+      "Crimen"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/prNsmrvXbLaFDq8p5XHBMowhd9A.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
-     "providers": [],
-     "trailer": "OGP02DvsqXc"
+     "poster": "https://image.tmdb.org/t/p/w342/esMWBFRQKazSK6tyA7J82wqCbTw.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
+     "providers": [
+      "Acontra Plus",
+      "Acontra Plus Amazon Channel"
+     ],
+     "trailer": "moqWW9plOtQ"
     },
     {
      "id": 793,
@@ -1264,27 +1263,6 @@
       "Filmin"
      ],
      "trailer": "SECSDOK58Vc"
-    },
-    {
-     "id": 66113,
-     "title": "Una chica perfecta",
-     "year": "2009",
-     "release_date": "2009-03-14",
-     "overview": "La historía del macabro asesinato de una niña Australiana de 15 años que desapareció de un día para otro, y más tarde se descubrió que había sido la niñeria quién la mato.",
-     "vote_average": 6,
-     "genres": [
-      "Drama",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/esMWBFRQKazSK6tyA7J82wqCbTw.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/e0NM4QSXJ9wBhijUiZHVIbYQahI.jpg",
-     "providers": [
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "moqWW9plOtQ"
     },
     {
      "id": 68727,
@@ -1428,6 +1406,28 @@
       "Filmin"
      ],
      "trailer": "UuQN3rTi27I"
+    },
+    {
+     "id": 398181,
+     "title": "En realidad, nunca estuviste aquí",
+     "year": "2017",
+     "release_date": "2017-11-08",
+     "overview": "Joe, ex marine y antiguo veterano de guerra, es un tipo solitario que dedica su tiempo a intentar salvar a mujeres que son explotadas sexualmente. No se permite ni amigos ni amantes y se gana la vida rescatando jóvenes de las garras de los tratantes de blancas. Un día recibe la llamada de un político porque su hija ha sido secuestrada.",
+     "vote_average": 6.5,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/505AFHvK3BoHC2zwWXBWkevRTYF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "fQyDaGWQ43w"
     }
    ]
   },
@@ -1757,7 +1757,7 @@
      "year": "1983",
      "release_date": "1983-11-21",
      "overview": "Tras asistir a la proyección de una película, una pareja es atacada por una horda de zombies hambrientos de sangre. Legendario videoclip musical, uno de los más influyentes jamás realizados, que contó con una versión corta y otra larga, de 13 min, y que cuenta con una historia narrativa además del número musical de Jackson. En 2009 fue seleccionado por la Biblioteca del Congreso de los Estados Unidos como una de las obras cinematográficas más relevantes de la historia, y en 2017 fue restaurado en 3D y proyectado en el Festival de Cine de Venecia, en una versión supervisada por el propio John Landis.",
-     "vote_average": 8.3,
+     "vote_average": 8.2,
      "genres": [
       "Terror",
       "Música",
@@ -2245,7 +2245,7 @@
      "year": "2025",
      "release_date": "2025-08-16",
      "overview": "Unos astutos y traicioneros ladrones desafian a la Policía Judicial de Macao. La Policía, que se encontraba en una dura batalla, invita de nuevo al experto en rastreo Huang De Zhong, retirado desde hace muchos años, a unir fuerzas con la joven élite del Departamento de Investigación Criminal de la Policía Judicial. Bajo la colisión de las técnicas tradicionales de rastreo y la alta tecnología, la policía y los criminales luchan con ingenio y valentía, y se lanzan a un duelo entre el bien y el mal parecido al juego del gato y el ratón.",
-     "vote_average": 8.3,
+     "vote_average": 8.4,
      "genres": [
       "Acción",
       "Crimen",
@@ -3585,7 +3585,8 @@
     "vote_average": 7.5,
     "genres": [
      "Fantasía",
-     "Comedia"
+     "Drama",
+     "Terror"
     ],
     "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
