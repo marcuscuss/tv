@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T19:51:09.352Z",
+ "actualizado": "2026-11-23T07:54:06.008Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -7,7 +7,7 @@
    "title": "Los Juegos del Hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 7.7,
+   "vote_average": 7.8,
    "genres": [
     "Ciencia ficción",
     "Acción",
@@ -105,6 +105,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg"
   },
   {
+   "id": 1153576,
+   "title": "Street Fighter",
+   "release_date": "2026-10-16",
+   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
+   "vote_average": 6.2,
+   "genres": [
+    "Acción",
+    "Comedia",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+   "providers": [],
+   "trailer": "-MJAfIMUQ5s",
+   "fondo": "https://image.tmdb.org/t/p/original/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg"
+  },
+  {
    "id": 791523,
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
@@ -121,23 +138,6 @@
    "providers": [],
    "trailer": "qWX1ba0f-Qg",
    "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
-  },
-  {
-   "id": 1153576,
-   "title": "Street Fighter",
-   "release_date": "2026-10-16",
-   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.2,
-   "genres": [
-    "Acción",
-    "Comedia",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
-   "providers": [],
-   "trailer": "-MJAfIMUQ5s",
-   "fondo": "https://image.tmdb.org/t/p/original/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg"
   },
   {
    "id": 1400940,
@@ -161,7 +161,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.3,
+   "vote_average": 6.4,
    "genres": [
     "Acción",
     "Crimen",
@@ -195,7 +195,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 6.9,
+   "vote_average": 7,
    "genres": [
     "Animación",
     "Fantasía",
@@ -291,6 +291,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
   },
   {
+   "id": 1548369,
+   "title": "Gungo y Los Juegos Cavernícolas",
+   "release_date": "2026-10-30",
+   "overview": "",
+   "vote_average": 8.9,
+   "genres": [
+    "Animación",
+    "Comedia",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gv9Mmo1jhwtHfEoNKIUVy1EWzpg.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
+  },
+  {
    "id": 1748404,
    "title": "Always Yours, Never Mine",
    "release_date": "2026-11-01",
@@ -321,23 +338,6 @@
    "providers": [],
    "trailer": "REqdAeNUIho",
    "fondo": "https://image.tmdb.org/t/p/original/hFIhPUW8oO2EJYXLAuWFMJBzjsR.jpg"
-  },
-  {
-   "id": 950028,
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
-   "vote_average": 7.2,
-   "genres": [
-    "Comedia",
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
-   "providers": [],
-   "trailer": "nelkiuezJxg",
-   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
   }
  ],
  "upcoming": [
@@ -361,7 +361,7 @@
    "title": "Hechizo: Bienvenidos a Hexe",
    "release_date": "2026-11-27",
    "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
-   "vote_average": 5,
+   "vote_average": 7.7,
    "genres": [
     "Aventura",
     "Animación",
@@ -380,7 +380,7 @@
    "title": "Ahora los suegros son ellos",
    "release_date": "2026-11-27",
    "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 7,
+   "vote_average": 7.3,
    "genres": [
     "Comedia",
     "Romance"
@@ -431,7 +431,7 @@
    "title": "Oro sin ley",
    "release_date": "2026-11-27",
    "overview": "Oregón, 1933. Samuel Murphy (Ethan Hawke) es separado de su hija y enviado a un campo de trabajo. Un día, el alcaide Clancy (Russell Crowe) le ofrece la posibilidad de liberarlo si consigue pasar oro de contrabando a través de una peligrosa senda salvaje. ¿Hasta dónde será capaz de llegar Murphy por reencontrarse con su querida hija?",
-   "vote_average": 6.7,
+   "vote_average": 6.9,
    "genres": [
     "Drama",
     "Suspense"
