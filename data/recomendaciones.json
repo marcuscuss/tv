@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T10:06:47.503Z",
+ "actualizado": "2026-11-24T22:37:29.558Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -346,28 +346,6 @@
      "trailer": "oMpJJ6GMj68"
     },
     {
-     "id": 580489,
-     "title": "Venom: habrá matanza",
-     "year": "2021",
-     "release_date": "2021-09-30",
-     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
-     "vote_average": 6.7,
-     "genres": [
-      "Ciencia ficción",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Disney Plus",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "hbfadtw-fjs"
-    },
-    {
      "id": 271110,
      "title": "Capitán América: Civil War",
      "year": "2016",
@@ -597,6 +575,26 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "zVCozSQj8TQ"
+    },
+    {
+     "id": 986056,
+     "title": "Thunderbolts*",
+     "year": "2025",
+     "release_date": "2025-04-30",
+     "overview": "Un grupo de supervillanos poco convencional es reclutado para hacer misiones para el gobierno: Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster y John Walker. Después de verse atrapados en una trampa mortal urdida por Valentina Allegra de Fontaine, estos marginados deben embarcarse en una peligrosa misión que les obligará a enfrentarse a los recovecos más oscuros de su pasado.",
+     "vote_average": 7.3,
+     "genres": [
+      "Acción",
+      "Ciencia ficción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/yDWU8YyFkPnlVY627QXPvct8bz9.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+     "providers": [
+      "Disney Plus"
+     ],
+     "trailer": "QCbzHZ1Q2lw"
     }
    ]
   },
@@ -1309,11 +1307,10 @@
       "Drama"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/eUNQJ0XKHoGDDQzj1Y4WhE5zAFJ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qgoDTTit5VfHzDrAKNCfv0meuhV.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/qgoDTTit5VfHzDrAKNCfv0meuhV.jpg",
      "providers": [
       "Amazon Prime Video",
-      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "wQs35Rka34A"
@@ -2811,6 +2808,7 @@
       "Amazon Prime Video",
       "Disney Plus",
       "Movistar Plus+ Ficción Total ",
+      "Atres Player",
       "HBO Max",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
@@ -3229,6 +3227,7 @@
      "providers": [
       "Amazon Prime Video",
       "Acontra Plus",
+      "Tivify",
       "Amazon Prime Video with Ads"
      ],
      "trailer": "Mg2JD7HQr8g"
@@ -3507,6 +3506,7 @@
      "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
      "providers": [
       "Amazon Prime Video",
+      "Tivify",
       "Crunchyroll",
       "Crunchyroll Amazon Channel",
       "Amazon Prime Video with Ads"
@@ -3593,14 +3593,32 @@
     "vote_average": 7.5,
     "genres": [
      "Fantasía",
-     "Drama",
-     "Terror"
+     "Comedia"
     ],
     "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
     "backdrop": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
     "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
     "providers": [],
     "trailer": "D-n-lqKVr78"
+   },
+   {
+    "id": 771,
+    "title": "Solo en casa",
+    "year": "1990",
+    "release_date": "1990-11-16",
+    "overview": "Kevin McAllister es un niño de ocho años, miembro de una familia numerosa, que accidentalmente se queda abandonado en su casa cuando toda la familia se marcha a pasar las vacaciones a Francia. Kevin aprende a valerse por sí mismo e incluso a protegerse de Harry y Marv, dos bribones que se proponen asaltar todas las casas cerradas de su vecindario. Cuando su madre Kate lo hecha en falta, realiza un pintoresco viaje de vuelta contra reloj a Chicago para recuperar a su hijo.",
+    "vote_average": 7.5,
+    "genres": [
+     "Comedia",
+     "Familia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/rjc2a9N5pro1xGsSvvnJ1JDXRGm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "sptc2IcHnc4"
    },
    {
     "id": 772,
@@ -3648,25 +3666,6 @@
      "Sky Showtime Amazon Channel"
     ],
     "trailer": "SL0YugjtkiI"
-   },
-   {
-    "id": 771,
-    "title": "Solo en casa",
-    "year": "1990",
-    "release_date": "1990-11-16",
-    "overview": "Kevin McAllister es un niño de ocho años, miembro de una familia numerosa, que accidentalmente se queda abandonado en su casa cuando toda la familia se marcha a pasar las vacaciones a Francia. Kevin aprende a valerse por sí mismo e incluso a protegerse de Harry y Marv, dos bribones que se proponen asaltar todas las casas cerradas de su vecindario. Cuando su madre Kate lo hecha en falta, realiza un pintoresco viaje de vuelta contra reloj a Chicago para recuperar a su hijo.",
-    "vote_average": 7.5,
-    "genres": [
-     "Comedia",
-     "Familia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/rjc2a9N5pro1xGsSvvnJ1JDXRGm.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "sptc2IcHnc4"
    },
    {
     "id": 360920,
@@ -3717,6 +3716,27 @@
     "trailer": "IoYahD_xNR0"
    },
    {
+    "id": 17979,
+    "title": "Cuento de Navidad",
+    "year": "2009",
+    "release_date": "2009-11-04",
+    "overview": "Ebenezer Scrooge es un personaje malhumorado y gruñón que trata con desprecio y malos modales a su fiel empleado Bob Cratchit y a su alegre sobrino. Pero, cuando el espíritu de las Navidades pasadas, presentes y futuras lo arrastra a un viaje durante el cual descubre verdades que siempre se ha negado a ver, el corazón del viejo avaro se ilumina y se da cuenta de que debe actuar inmediatamente para contrarrestar tantos años de egoísmo y rencor. Adaptación del clásico de Charles Dickens.",
+    "vote_average": 6.9,
+    "genres": [
+     "Animación",
+     "Familia",
+     "Fantasía",
+     "Drama"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/meN97hs1BtmChq16NFhWxOI8och.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "j8jOwPbZ-W0"
+   },
+   {
     "id": 845781,
     "title": "Red One",
     "year": "2024",
@@ -3759,27 +3779,6 @@
     "trailer": "SNbVMk-nLu4"
    },
    {
-    "id": 17979,
-    "title": "Cuento de Navidad",
-    "year": "2009",
-    "release_date": "2009-11-04",
-    "overview": "Ebenezer Scrooge es un personaje malhumorado y gruñón que trata con desprecio y malos modales a su fiel empleado Bob Cratchit y a su alegre sobrino. Pero, cuando el espíritu de las Navidades pasadas, presentes y futuras lo arrastra a un viaje durante el cual descubre verdades que siempre se ha negado a ver, el corazón del viejo avaro se ilumina y se da cuenta de que debe actuar inmediatamente para contrarrestar tantos años de egoísmo y rencor. Adaptación del clásico de Charles Dickens.",
-    "vote_average": 6.9,
-    "genres": [
-     "Animación",
-     "Familia",
-     "Fantasía",
-     "Drama"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/meN97hs1BtmChq16NFhWxOI8och.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/uocpNfrP0Vvnf2UxykXuIR1HNUd.jpg",
-    "providers": [
-     "Disney Plus"
-    ],
-    "trailer": "j8jOwPbZ-W0"
-   },
-   {
     "id": 331482,
     "title": "Mujercitas",
     "year": "2019",
@@ -3799,26 +3798,6 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "6SN9-6uST80"
-   },
-   {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.7,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
    },
    {
     "id": 5255,
@@ -3841,7 +3820,6 @@
      "Amazon Prime Video",
      "Disney Plus",
      "Movistar Plus+ Ficción Total ",
-     "fuboTV",
      "HBO Max",
      "Netflix Standard with Ads",
      "Amazon Prime Video with Ads",
@@ -3868,6 +3846,26 @@
      "Filmin"
     ],
     "trailer": "iLR3gZrU2Xo"
+   },
+   {
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.7,
+    "genres": [
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
+    ],
+    "trailer": "Y2u6m2W428g"
    }
   ],
   "romance": [
@@ -3986,6 +3984,7 @@
     "fondo": "https://image.tmdb.org/t/p/original/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
     "providers": [
      "Amazon Prime Video",
+     "Tivify",
      "Crunchyroll",
      "Crunchyroll Amazon Channel",
      "Amazon Prime Video with Ads"
@@ -4206,7 +4205,7 @@
    ],
    "poster": "https://image.tmdb.org/t/p/w342/vrLEVObLGbUinE4sC4Lqao2dK0E.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
-   "fondo": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+   "fondo": "https://image.tmdb.org/t/p/original/vqNSvCFknXObgqn7nOFrJVEeGht.jpg",
    "providers": [],
    "trailer": "d6oszs7f5aI",
    "rating": 4,

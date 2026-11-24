@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T10:06:31.565Z",
+ "actualizado": "2026-11-24T22:37:09.369Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -95,8 +95,7 @@
    "vote_average": 7.5,
    "genres": [
     "Fantasía",
-    "Drama",
-    "Terror"
+    "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
@@ -113,7 +112,6 @@
    "genres": [
     "Animación",
     "Aventura",
-    "Drama",
     "Fantasía"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
@@ -229,14 +227,14 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.4,
+   "vote_average": 7.5,
    "genres": [
     "Romance",
     "Fantasía",
     "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
    "providers": [],
    "trailer": "jA5zfiikcu8",
    "fondo": "https://image.tmdb.org/t/p/original/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg"
@@ -347,11 +345,11 @@
    "title": "Puedes verlo todo",
    "release_date": "2026-11-26",
    "overview": "Treinta y cuatro días antes de ingresar en prisión, la famosa fundadora de Theranos, Elizabeth Holmes, invita a un equipo de rodaje escéptico a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo se convierte en un alucinante viaje de tres años.",
-   "vote_average": 8.8,
+   "vote_average": 8.7,
    "genres": [
     "Documental"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/g2PKUCpDChvYvT7IaUOYfjO0mbG.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/hcuFuAlGeQy1yKhd3I0hZ5sgCzl.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
    "providers": [],
    "trailer": "-B-gh1BlS4w",
@@ -362,12 +360,13 @@
    "title": "Hechizo: Bienvenidos a Hexe",
    "release_date": "2026-11-27",
    "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
-   "vote_average": 8.2,
+   "vote_average": 7.6,
    "genres": [
     "Aventura",
     "Animación",
     "Familia",
-    "Fantasía"
+    "Fantasía",
+    "Comedia"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg",
@@ -380,7 +379,7 @@
    "title": "Ahora los suegros son ellos",
    "release_date": "2026-11-27",
    "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 8,
+   "vote_average": 7.6,
    "genres": [
     "Comedia",
     "Romance"
@@ -393,9 +392,9 @@
   },
   {
    "id": 822653,
-   "title": "Mahou Shoujo Madoka Magica: Walpurgisnacht Rising",
+   "title": "Puella Magi Madoka Magica. La película: La noche de Walpurgis - El ascenso",
    "release_date": "2026-11-27",
-   "overview": "Tras los sucesos de *Rebellion*, el mundo parece estar en equilibrio, pero esa paz es frágil. Al surgir una nueva amenaza vinculada a la Noche de Walpurgis, Homura Akemi se ve obligada a afrontar las consecuencias de sus decisiones y a cuestionarse hasta dónde está dispuesta a llegar para proteger a Madoka.",
+   "overview": "Akemi Homura, que se convirtió en un demonio por su devoción a Madoka Kaname. En un mundo recién creado, las chicas mágicas vuelven a aparecer. Los engranajes del mundo de Puella Magi Madoka Magica comienzan a girar lentamente de nuevo.",
    "vote_average": 8,
    "genres": [
     "Animación",
@@ -403,10 +402,10 @@
     "Misterio",
     "Fantasía"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/tc7wW6whJSvxM9f5RdqmQVpdl6n.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/9szX9jqjCwrBVp4Ggo98dJvyeOZ.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/xzm3RfWh932rS28WErNC3u8qzVm.jpg",
    "providers": [],
-   "trailer": "rSe4mqP1Mj0",
+   "trailer": "xfniSyRH-CM",
    "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
   },
   {
@@ -436,7 +435,7 @@
     "Drama",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/p62sqkFdwCOYaVETPR0HFqH6vwq.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/hTT42eBEiYcpgRormrS8re82Nt9.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
    "providers": [],
    "trailer": "7YpuMymmiJ8",
@@ -460,25 +459,25 @@
   },
   {
    "id": 1378791,
-   "title": "Everybody Digs Bill Evans",
+   "title": "Todo el mundo quiere a Bill Evans",
    "release_date": "2026-11-27",
-   "overview": "",
+   "overview": "Junio de 1961, Nueva York. El legendario pianista de jazz Bill Evans ha encontrado su propia voz y ha formado el trío perfecto junto al contrabajista Scott LaFaro, su alma gemela musical. Una residencia en el Village Vanguard culmina con la grabación en directo, en un solo día, de dos de los mejores discos de jazz de todos los tiempos. Días después, LaFaro muere trágicamente en un accidente de tráfico. Paralizado por el dolor, Evans deja de tocar por primera vez desde su infancia. Esta es la historia de lo que sucedió poco después para una de las figuras más influyentes y con más talento de la música del siglo XX.",
    "vote_average": 4,
    "genres": [
     "Drama",
     "Música"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/fGwz8f16pYPErspL0QpQYvOZMZj.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/tEwxfAQ8hdXEFZbYJZOF4Gp1020.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/tI0XbH8FhvVXLz8UDzEbr7ud4Ma.jpg",
    "providers": [],
-   "trailer": "ieufCVBEWQI",
+   "trailer": "K9lHgrFzh_U",
    "fondo": "https://image.tmdb.org/t/p/original/tI0XbH8FhvVXLz8UDzEbr7ud4Ma.jpg"
   },
   {
    "id": 1387981,
    "title": "La libertad doble",
    "release_date": "2026-11-27",
-   "overview": "",
+   "overview": "Misael trabaja solo. Armado con su hacha, tala árboles en el bosque, acompañado de su perro. Una responsabilidad inesperada trastoca su vida, y el ritmo de sus días se va disolviendo poco a poco en una naturaleza salvaje donde la razón humana ya no tiene sentido.",
    "vote_average": 0,
    "genres": [
     "Drama"
@@ -550,32 +549,35 @@
    "fondo": ""
   },
   {
-   "id": 1567783,
-   "title": "Mailin",
+   "id": 1228569,
+   "title": "Hora y veinte",
    "release_date": "2026-11-27",
-   "overview": "Mientras le cuenta un cuento antes de dormir a su hija, Mailin recompone sus recuerdos. Lo que podría haber sido un cuento de hadas resulta ser la historia de una niña que sufrió abusos por parte de un sacerdote durante 15 años. Es un largo camino hacia la sanación y la justicia, pero también la oportunidad de ofrecerle a su hija la infancia que ella nunca tuvo.",
+   "overview": "Manuela hará todo lo posible para encontrar a su hijo de 6 años, quien desaparece el día de Nochebuena en un centro comercial. Con la llegada de la Guardia Civil, Manuela debe afrontar la posibilidad de haber perdido la razón mientras lucha por recuperar a su pequeño. No hay indicios de un posible secuestro, pero de repente una noticia inquietante llega al centro comercial: Manuela tiene un largo historial delictivo y nadie recuerda haberla visto con su hijo.",
    "vote_average": 0,
    "genres": [
-    "Documental"
+    "Crimen",
+    "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/wQpGvh5OAHFH7qC6mTGD68cMArp.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/a60Az2I5ZWlW5tEuqMGy464IaPq.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/dHEx0vtTkruolFnkyDeddffPYgT.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6UGrnnH7ciOT3BAz4IHLmV26lUj.jpg",
    "providers": [],
-   "trailer": "CIv7VHI5wms",
-   "fondo": "https://image.tmdb.org/t/p/original/a60Az2I5ZWlW5tEuqMGy464IaPq.jpg"
+   "trailer": "AuCkDsdOX2Q",
+   "fondo": "https://image.tmdb.org/t/p/original/6UGrnnH7ciOT3BAz4IHLmV26lUj.jpg"
   },
   {
-   "id": 1829062,
-   "title": "Gestation",
-   "release_date": "2026-11-28",
-   "overview": "",
+   "id": 1313043,
+   "title": "La gran fiesta del cine",
+   "release_date": "2026-11-27",
+   "overview": "Cinco años después de rodar \"La última cena\", un largometraje experimental sin presupuesto, un grupo de técnicos y artistas de cine se reúne para celebrar el inesperado éxito de la película y decidir qué hacer con los beneficios generados en cines y plataformas digitales.",
    "vote_average": 0,
-   "genres": [],
-   "poster": "https://image.tmdb.org/t/p/w342/2yEWaISadeAr1nR70iawFWnEZlR.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9TUGmEPKZcH83TwO9AQkquCe2AX.jpg",
+   "genres": [
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bEfj7qTSVs9TQZLp5BaL4nQhezC.jpg",
+   "backdrop": "",
    "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/9TUGmEPKZcH83TwO9AQkquCe2AX.jpg"
+   "trailer": "8uOpRo2sC94",
+   "fondo": ""
   },
   {
    "id": 1696095,
