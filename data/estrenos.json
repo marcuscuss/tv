@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T07:54:06.008Z",
+ "actualizado": "2026-11-24T00:04:29.882Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -41,7 +41,7 @@
    "title": "Boiuna: La leyenda del Amazonas",
    "release_date": "2026-10-16",
    "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 5.9,
+   "vote_average": 6,
    "genres": [
     "Aventura",
     "Terror",
@@ -84,7 +84,7 @@
    "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
    "providers": [],
-   "trailer": "hmxKLaIp0cI",
+   "trailer": "Pu0pH5BuCPM",
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
   },
   {
@@ -161,7 +161,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.4,
+   "vote_average": 6.5,
    "genres": [
     "Acción",
     "Crimen",
@@ -295,7 +295,7 @@
    "title": "Gungo y Los Juegos Cavernícolas",
    "release_date": "2026-10-30",
    "overview": "",
-   "vote_average": 8.9,
+   "vote_average": 9.1,
    "genres": [
     "Animación",
     "Comedia",
@@ -366,8 +366,7 @@
     "Aventura",
     "Animación",
     "Familia",
-    "Fantasía",
-    "Comedia"
+    "Fantasía"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg",
@@ -420,7 +419,7 @@
     "Drama",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/thX8Rs7nfgmPHfCgjoFuRovy49l.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/40bbOEa0ISI1KQmQmy2zQ2DD0tD.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg",
    "providers": [],
    "trailer": "fJH-wfSXnWg",
@@ -490,36 +489,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/8S1duOpGapJLIpfPMoNLyUSwuHS.jpg"
   },
   {
-   "id": 1556887,
-   "title": "Sisters",
-   "release_date": "2026-11-27",
-   "overview": "Dos hermanas reúnen a sus familias durante un fin de semana de verano cerca de Madrid para celebrar algunos hitos y las fiestas de San Juan. La celebración se ve empañada cuando un niño formula una grave acusación de abuso sexual.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/42gyhoe1yiijW7kk9FDqIVvahGP.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/kITiyC72qt25UlF0xPDH5rydZZn.jpg",
-   "providers": [],
-   "trailer": "sC9FbZQ6X0k",
-   "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
-  },
-  {
-   "id": 1740884,
-   "title": "Un hombre en un puente",
-   "release_date": "2026-11-27",
-   "overview": "Un hombre en un puente narra la historia de Andrés (Roger Casamajor), un hombre de mediana edad que, sin tener a dónde ir, regresa a su pueblo natal en busca de refugio. Allí se reencuentra con tres figuras clave de su pasado: Lucía (Belén Cuesta), su novia de juventud a la que no ve desde hace muchos años; Mariano (Juanfra Juárez), su antiguo amigo, ahora en horas bajas; y Chema (Font García), su hermano, con quien no se habla desde hace más de una década. Incapaz de encontrar su sitio, un suceso fortuito le lleva a conocer a Liliana (Nidia Bermejo), una mujer que cambia su destino.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/wkSaw5nAURqcBHmJ538BiMtpvye.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg",
-   "providers": [],
-   "trailer": "-amALUDN_s4",
-   "fondo": "https://image.tmdb.org/t/p/original/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg"
-  },
-  {
    "id": 1715640,
    "title": "El pezón de Elena",
    "release_date": "2026-11-27",
@@ -533,6 +502,36 @@
    "providers": [],
    "trailer": "",
    "fondo": ""
+  },
+  {
+   "id": 1740884,
+   "title": "Un hombre en un puente",
+   "release_date": "2026-11-27",
+   "overview": "Un hombre en un puente narra la historia de Andrés (Roger Casamajor), un hombre de mediana edad que, sin tener a dónde ir, regresa a su pueblo natal en busca de refugio. Allí se reencuentra con tres figuras clave de su pasado: Lucía (Belén Cuesta), su novia de juventud a la que no ve desde hace muchos años; Mariano (Juanfra Juárez), su antiguo amigo, ahora en horas bajas; y Chema (Font García), su hermano, con quien no se habla desde hace más de una década. Incapaz de encontrar su sitio, un suceso fortuito le lleva a conocer a Liliana (Nidia Bermejo), una mujer que cambia su destino.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/893OMtxpWpOH8pKI5aeJbeEgL6j.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg",
+   "providers": [],
+   "trailer": "-amALUDN_s4",
+   "fondo": "https://image.tmdb.org/t/p/original/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg"
+  },
+  {
+   "id": 1556887,
+   "title": "Sisters",
+   "release_date": "2026-11-27",
+   "overview": "Dos hermanas reúnen a sus familias durante un fin de semana de verano cerca de Madrid para celebrar algunos hitos y las fiestas de San Juan. La celebración se ve empañada cuando un niño formula una grave acusación de abuso sexual.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/42gyhoe1yiijW7kk9FDqIVvahGP.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kITiyC72qt25UlF0xPDH5rydZZn.jpg",
+   "providers": [],
+   "trailer": "sC9FbZQ6X0k",
+   "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
   },
   {
    "id": 1770715,

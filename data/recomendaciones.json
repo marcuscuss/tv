@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T07:54:35.456Z",
+ "actualizado": "2026-11-24T00:05:06.395Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -27,7 +27,6 @@
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
       "HBO Max",
-      "Tivify",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
      ],
@@ -61,7 +60,7 @@
      "year": "2011",
      "release_date": "2011-11-10",
      "overview": "Enloquecido por el poder, el brutal rey Hiperión ha declarado la guerra a los hombres. Después de reunir a un ejército sediento de sangre formado por soldados que él mismo mandó desfigurar, Hiperión quema Grecia mientras busca un arma de poder inconcebible: el legendario arco Epiro, hecho por Ares en el Olimpo. El hombre que posea ese arco podrá liberar a los Titanes, que están encerrados en el monte Tártaro desde el principio de los tiempos, y claman venganza. Sin embargo, en manos de Hiperión, el arco significaría la destrucción de la raza humana y la aniquilación de los dioses. La ley prohíbe que los dioses se entrometan en los conflictos humanos, y nada pueden hacer para detener al rey. Pero la esperanza renace cuando Zeus encomienda al campesino Teseo la misión de acabar con Hiperión.",
-     "vote_average": 6,
+     "vote_average": 6.1,
      "genres": [
       "Fantasía",
       "Acción",
@@ -130,6 +129,52 @@
      "fondo": "https://image.tmdb.org/t/p/original/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
      "providers": [],
      "trailer": "lpUb4tBnWPA"
+    },
+    {
+     "id": 120,
+     "title": "El señor de los anillos: La comunidad del anillo",
+     "year": "2001",
+     "release_date": "2001-12-18",
+     "overview": "En la Tierra Media, el Señor Oscuro Saurón creó los Grandes Anillos de Poder, forjados por los herreros Elfos. Tres para los reyes Elfos, siete para los Señores Enanos, y nueve para los Hombres Mortales. Secretamente, Saurón también forjó un anillo maestro, el Anillo Único, que contiene en sí el poder para esclavizar a toda la Tierra Media. Con la ayuda de un grupo de amigos y de valientes aliados, Frodo emprende un peligroso viaje con la misión de destruir el Anillo Único. Pero el Señor Oscuro Sauron, quien creara el Anillo, envía a sus servidores para perseguir al grupo. Si Sauron lograra recuperar el Anillo, sería el final de la Tierra Media.",
+     "vote_average": 8.5,
+     "genres": [
+      "Aventura",
+      "Fantasía",
+      "Acción"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/oiwc338EoBgS4sEI2ixAny4KQKg.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/z51Wzj94hvAIsWfknifKTqKJRwp.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Movistar Plus+ Ficción Total ",
+      "Atres Player",
+      "HBO Max",
+      "Amazon Prime Video with Ads",
+      "HBO Max Amazon Channel"
+     ],
+     "trailer": "3GJp6p_mgPo"
+    },
+    {
+     "id": 71282,
+     "title": "Los mares de China",
+     "year": "1935",
+     "release_date": "1935-08-09",
+     "overview": "Alan Gaskell (Clark Gable) es el capitán de un barco experto en cruzar los mares de China. Es un hombre experimentado, fuerte y aguerrido, al parecer de vuelta de todo. En cierta ocasión, el barco debe transportar un importante cargamento de oro desde Hong Kong hasta Singapur. Gaskell teme algo más peligroso que un tifón; el ataque, frecuente en la zona, de los piratas para hacerse con el botín.",
+     "vote_average": 6.3,
+     "genres": [
+      "Aventura",
+      "Acción",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/r2Lv8HMq6zhHEKYl2ymbAJnDoaq.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/5Dt59bozPx5H5afRUmkkPiCcdUD.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bixZ4bg50kwXOsDsw4a5zwTq74h.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "vCMdNkT5KVM"
     },
     {
      "id": 322484,
@@ -229,29 +274,6 @@
      "trailer": "CMyrp5Vk3mU"
     },
     {
-     "id": 308504,
-     "title": "Los últimos caballeros",
-     "year": "2015",
-     "release_date": "2015-04-03",
-     "overview": "La historia gira en torno a una banda de guerreros que buscará venganza después de la muerte de su maestro a manos de un emperador corrupto...",
-     "vote_average": 6.4,
-     "genres": [
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mEMAwrg2KqWBcorjVH0pTvNOBfx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Atres Player",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "QStraY8MdKk"
-    },
-    {
      "id": 340442,
      "title": "El guardián de la reliquia",
      "year": "2017",
@@ -273,27 +295,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "MQZ7_Uo0OI0"
-    },
-    {
-     "id": 1253000,
-     "title": "Deathstalker",
-     "year": "2025",
-     "release_date": "2025-10-10",
-     "overview": "El reino de Abraxeon está siendo asediado por los Dreadites, heraldos del hechicero Nekromemnon, muerto hace mucho tiempo. Cuando Deathstalker recupera un amuleto maldito de un campo de batalla sembrado de cadáveres, queda marcado por la magia negra y es perseguido por monstruosos asesinos de todo tipo. Para sobrevivir, debe romper la maldición y enfrentarse al mal naciente.",
-     "vote_average": 5.9,
-     "genres": [
-      "Fantasía",
-      "Acción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/nEI3DnzQC1afAjJOAizx6UX27pL.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/7aiQebqYUHbs2wZPhsTznuMWyeH.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/bNrQfC0Ovf84zmJZ48Q2jhDNNwu.jpg",
-     "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total "
-     ],
-     "trailer": "fAdo8drjc_M"
     }
    ]
   },
@@ -347,6 +348,28 @@
       "Disney Plus"
      ],
      "trailer": "oMpJJ6GMj68"
+    },
+    {
+     "id": 580489,
+     "title": "Venom: habrá matanza",
+     "year": "2021",
+     "release_date": "2021-09-30",
+     "overview": "Eddie Brock  y su simbionte Venom todavía están intentando descubrir cómo vivir juntos cuando un preso que está en el corredor de la muerte se infecta con un simbionte propio.",
+     "vote_average": 6.7,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/b0j9rHYpRML7dKm5xw9e97HTDJF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Disney Plus",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "hbfadtw-fjs"
     },
     {
      "id": 271110,
@@ -578,26 +601,6 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "zVCozSQj8TQ"
-    },
-    {
-     "id": 986056,
-     "title": "Thunderbolts*",
-     "year": "2025",
-     "release_date": "2025-04-30",
-     "overview": "Un grupo de supervillanos poco convencional es reclutado para hacer misiones para el gobierno: Yelena Belova, Bucky Barnes, Red Guardian, Ghost, Taskmaster y John Walker. Después de verse atrapados en una trampa mortal urdida por Valentina Allegra de Fontaine, estos marginados deben embarcarse en una peligrosa misión que les obligará a enfrentarse a los recovecos más oscuros de su pasado.",
-     "vote_average": 7.3,
-     "genres": [
-      "Acción",
-      "Ciencia ficción",
-      "Aventura"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/yDWU8YyFkPnlVY627QXPvct8bz9.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
-     "providers": [
-      "Disney Plus"
-     ],
-     "trailer": "QCbzHZ1Q2lw"
     }
    ]
   },
@@ -660,27 +663,6 @@
      "trailer": "ogIX2Q7tEdc"
     },
     {
-     "id": 520318,
-     "title": "Fátima, la película",
-     "year": "2020",
-     "release_date": "2020-08-13",
-     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
-     "vote_average": 7.2,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads",
-      "Diamond Films Plus Amazon Channel"
-     ],
-     "trailer": "PvokEpA439o"
-    },
-    {
      "id": 345938,
      "title": "La cabaña",
      "year": "2017",
@@ -735,22 +717,20 @@
      "trailer": "QzNuMWxPo80"
     },
     {
-     "id": 69557,
-     "title": "Siempre estoy sola",
-     "year": "1964",
-     "release_date": "1964-07-16",
-     "overview": "Jo es una mujer que se ha casado varias veces. Parece que con Jake, su último marido, ha encontrado por fin la estabilidad que necesitaba; pero cuando descubre que Jake le es infiel y, además, está embarazada, todo se vendrá abajo.",
-     "vote_average": 6.6,
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/5julfooBr6TgRVwNvnzYsXiGtmS.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jxyLXwFaccE8XzhF62HauyXJi14.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hi6vEbiPtKYDtWuz9l4mS37B19m.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "JCD2382CTN4"
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
+     "providers": [],
+     "trailer": "YuMBAq-ROh4"
     },
     {
      "id": 1585,
@@ -773,22 +753,6 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "providers": [],
-     "trailer": "JxTFqsy5Pxs"
-    },
-    {
      "id": 1217690,
      "title": "El refugio",
      "year": "2024",
@@ -808,20 +772,22 @@
      "trailer": "UdBBjFQYzwA"
     },
     {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
+     "id": 69557,
+     "title": "Siempre estoy sola",
+     "year": "1964",
+     "release_date": "1964-07-16",
+     "overview": "Jo es una mujer que se ha casado varias veces. Parece que con Jake, su último marido, ha encontrado por fin la estabilidad que necesitaba; pero cuando descubre que Jake le es infiel y, además, está embarazada, todo se vendrá abajo.",
+     "vote_average": 6.6,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
-     "providers": [],
-     "trailer": "YuMBAq-ROh4"
+     "poster": "https://image.tmdb.org/t/p/w342/5julfooBr6TgRVwNvnzYsXiGtmS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jxyLXwFaccE8XzhF62HauyXJi14.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hi6vEbiPtKYDtWuz9l4mS37B19m.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "JCD2382CTN4"
     },
     {
      "id": 1243381,
@@ -843,6 +809,39 @@
       "Netflix Standard with Ads"
      ],
      "trailer": "CvP0RWCsr18"
+    },
+    {
+     "id": 542422,
+     "title": "Rosie",
+     "year": "2019",
+     "release_date": "2019-03-08",
+     "overview": "Cuando su casero vende la casa en la que vivían hasta ese entonces, Rosie, John Paul y su familia se quedan sin hogar. Con sus pertenencias metidas en su coche, tratan de sobrevivir como buenamente pueden a base de trabajos rutinarios. Incapaces de reconocer cuál es su situación, rechazan la ayuda que les ofrece la madre de Rosie, por lo que se ven obligados a ir de hotel en hotel buscando alguno que acepte la única tarjeta de crédito que les permite pasar la noche a cubierto.",
+     "vote_average": 6.2,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xOGOYLANn5svSrbRgvkikNRdqK5.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
+     "providers": [],
+     "trailer": "sqEc-cRsFxM"
+    },
+    {
+     "id": 499338,
+     "title": "I Believe",
+     "year": "2019",
+     "release_date": "2019-06-06",
+     "overview": "Un niño de 9 años experimenta el poder de Dios de una manera sobrenatural.",
+     "vote_average": 7.8,
+     "genres": [
+      "Familia",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/lFeTYNVI1PYQqKj4FusJMplqd07.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/5Tw3Z9vcu1Hwo1CijEPineKPkFO.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/43aCQFMAZWt3AjzM30dcHiAW5p.jpg",
+     "providers": [],
+     "trailer": "amVlQozDJkI"
     },
     {
      "id": 29989,
@@ -988,23 +987,6 @@
      "trailer": "MWkdM2ZGah0"
     },
     {
-     "id": 928270,
-     "title": "Ola de Calor",
-     "year": "2022",
-     "release_date": "2022-01-17",
-     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
-     "vote_average": 6.2,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "providers": [],
-     "trailer": "t-yhbvVpPgI"
-    },
-    {
      "id": 84338,
      "title": "Simon Killer",
      "year": "2012",
@@ -1024,6 +1006,23 @@
      "trailer": "VJICFO4lbtQ"
     },
     {
+     "id": 928270,
+     "title": "Ola de Calor",
+     "year": "2022",
+     "release_date": "2022-01-17",
+     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
+     "vote_average": 6.2,
+     "genres": [
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "providers": [],
+     "trailer": "t-yhbvVpPgI"
+    },
+    {
      "id": 1175351,
      "title": "Bosco",
      "year": "2024",
@@ -1039,23 +1038,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/hHw7qug8ka3eppjwTm2aDpOKAUd.jpg",
      "providers": [],
      "trailer": "Pz7s3YPS7nk"
-    },
-    {
-     "id": 1429,
-     "title": "La última noche",
-     "year": "2002",
-     "release_date": "2002-12-19",
-     "overview": "Empieza la cuenta atrás: Monty Brogan está a punto de perder la libertad. En tan sólo 24 horas deberá entrar en prisión, donde pasará siete interminables años. Monty, el que fue en su día el rey de Manhattan, tendrá que decir adiós a las luces de los flashes, a sus sueños de grandeza y al único tren de vida que conoce, una vida que le abrió las puertas de los clubes más elegantes de Nueva York pero que también lo alejó de las personas que más lo querían.",
-     "vote_average": 7.3,
-     "genres": [
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/9rSCPAEJ35BK5YbK5Asr0JkjB5n.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
-     "providers": [],
-     "trailer": "5TBu6e1IC_0"
     },
     {
      "id": 9357,
@@ -1075,25 +1057,21 @@
      "trailer": "eWzILZ6wE9Y"
     },
     {
-     "id": 19171,
-     "title": "Miedo súbito",
-     "year": "1952",
-     "release_date": "1952-08-07",
-     "overview": "El actor Lester Blaine prácticamente consiguió el papel principal en la nueva obra de Myra Hudson cuando Myra lo veta porque, para ella, no parece un 'protagonista romántico'. En un tren de Nueva York a San Francisco, Blaine se propone demostrarle a Myra que está equivocada... teniendo un romance con ella. ¿Es sincero o tiene un oscuro motivo oculto? La respuesta provoca un juego del gato y el ratón; pero ¿quién es el gato y quién el ratón?",
-     "vote_average": 7.2,
+     "id": 1429,
+     "title": "La última noche",
+     "year": "2002",
+     "release_date": "2002-12-19",
+     "overview": "Empieza la cuenta atrás: Monty Brogan está a punto de perder la libertad. En tan sólo 24 horas deberá entrar en prisión, donde pasará siete interminables años. Monty, el que fue en su día el rey de Manhattan, tendrá que decir adiós a las luces de los flashes, a sus sueños de grandeza y al único tren de vida que conoce, una vida que le abrió las puertas de los clubes más elegantes de Nueva York pero que también lo alejó de las personas que más lo querían.",
+     "vote_average": 7.3,
      "genres": [
-      "Suspense",
-      "Crimen"
+      "Crimen",
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/wlhoqwcX1ldOUPoLUZ1C2T7uU09.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "aB2w51F0t74"
+     "poster": "https://image.tmdb.org/t/p/w342/9rSCPAEJ35BK5YbK5Asr0JkjB5n.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/mpfRchw4jh2cEBajB9EJltTnDH2.jpg",
+     "providers": [],
+     "trailer": "5TBu6e1IC_0"
     },
     {
      "id": 471506,
@@ -1132,6 +1110,23 @@
       "Filmin"
      ],
      "trailer": "XKvzeCwMCgc"
+    },
+    {
+     "id": 235271,
+     "title": "Perversa adicción",
+     "year": "2014",
+     "release_date": "2014-10-10",
+     "overview": "La adicción al sexo de Zoe Reynard, una exitosa mujer de negocios, amenaza con arruinar su vida familiar junto a su marido y sus dos hijos.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oyxiBAFDXVgy8iUFPLksWwUWtEA.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "providers": [],
+     "trailer": "ZdZ0lUxunbA"
     }
    ]
   },
@@ -1185,24 +1180,6 @@
      "trailer": "TJGd5CUfar8"
     },
     {
-     "id": 242582,
-     "title": "Nightcrawler",
-     "year": "2014",
-     "release_date": "2014-10-23",
-     "overview": "Tras ser testigo de un accidente, Lou Bloom (Jake Gyllenhaal), un apasionado joven que no consigue encontrar empleo, descubre como forma de ganar dinero el mundo del periodismo criminalista en la peligrosa ciudad de Los Ángeles. Su trabajo es llegar al escenario de crímenes o accidentes y fotografiar lo sucedido para venderlos al mejor postor.",
-     "vote_average": 7.7,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/prNsmrvXbLaFDq8p5XHBMowhd9A.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
-     "providers": [],
-     "trailer": "OGP02DvsqXc"
-    },
-    {
      "id": 25690,
      "title": "The Blackout (Oculto en la memoria)",
      "year": "1997",
@@ -1223,6 +1200,24 @@
       "Amazon Prime Video with Ads"
      ],
      "trailer": "S2PqjYSirus"
+    },
+    {
+     "id": 242582,
+     "title": "Nightcrawler",
+     "year": "2014",
+     "release_date": "2014-10-23",
+     "overview": "Tras ser testigo de un accidente, Lou Bloom (Jake Gyllenhaal), un apasionado joven que no consigue encontrar empleo, descubre como forma de ganar dinero el mundo del periodismo criminalista en la peligrosa ciudad de Los Ángeles. Su trabajo es llegar al escenario de crímenes o accidentes y fotografiar lo sucedido para venderlos al mejor postor.",
+     "vote_average": 7.7,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/prNsmrvXbLaFDq8p5XHBMowhd9A.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
+     "providers": [],
+     "trailer": "OGP02DvsqXc"
     },
     {
      "id": 66113,
@@ -1351,24 +1346,6 @@
      "trailer": "dgWfyFgEsO8"
     },
     {
-     "id": 11761,
-     "title": "El misterio de Peacock",
-     "year": "2010",
-     "release_date": "2010-04-20",
-     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
-     "vote_average": 6.1,
-     "genres": [
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
-     "providers": [],
-     "trailer": "NPEzcAG4E5s"
-    },
-    {
      "id": 1052,
      "title": "Blow-Up",
      "year": "1966",
@@ -1387,6 +1364,24 @@
       "Filmin"
      ],
      "trailer": "PRENEOHlcbw"
+    },
+    {
+     "id": 11761,
+     "title": "El misterio de Peacock",
+     "year": "2010",
+     "release_date": "2010-04-20",
+     "overview": "Un accidente ferroviario que tiene lugar en la localidad de Peacock (Nebraska) entraña, en realidad, un misterio que afecta a John, un empleado de banca (Cillian Murphy) que prefiere pasar desapercibido. Pero John tiene un secreto: padece un problema de doble personalidad.",
+     "vote_average": 6.1,
+     "genres": [
+      "Drama",
+      "Misterio",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/m8jQiUSgFcDtYXx148bIEQ11DJK.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/k39ygrzNnTJg1igFCpxZZcpTyBo.jpg",
+     "providers": [],
+     "trailer": "NPEzcAG4E5s"
     },
     {
      "id": 11507,
@@ -1667,7 +1662,7 @@
      "year": "2020",
      "release_date": "2020-08-20",
      "overview": "Las vidas de Alicia e Ignacio, un matrimonio de uno de los barrios más lujosos de Buenos Aires, comienzan a alterarse cuando su propio hijo está muy cerca de quedar preso por una acusación de intento de homicidio de su ex esposa.",
-     "vote_average": 6.4,
+     "vote_average": 6.5,
      "genres": [
       "Suspense",
       "Crimen",
@@ -1823,7 +1818,7 @@
      ],
      "poster": "https://image.tmdb.org/t/p/w342/pZ9cAe5FxexJjpCaeiETbXzz3Fs.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/gZbcm1ADEXuxs1TsBVOBdk4heGI.jpg",
      "providers": [
       "Disney Plus",
       "Movistar Plus+ Ficción Total "
@@ -2732,6 +2727,28 @@
      "trailer": "Rk0efhpa-5Y"
     },
     {
+     "id": 1218925,
+     "title": "Chainsaw Man - La película: El arco de Reze",
+     "year": "2025",
+     "release_date": "2025-09-19",
+     "overview": "Denji trabajaba como cazador de demonios para la yakuza, tratando de saldar la deuda que había heredado de sus padres, pero la yakuza lo traicionó y lo mató. Antes de perder el conocimiento, Pochita, el perro-demonio motosierra de Denji, hizo un trato con él y le salvó la vida. Así se fusionaron, creando al imparable Chainsaw Man. Ahora, en medio de una brutal guerra entre demonios, cazadores y enemigos secretos, una misteriosa chica llamada Reze irrumpe en su mundo y Denji se enfrenta a su batalla más mortífera, impulsado por el amor, en un mundo donde la supervivencia no conoce reglas.",
+     "vote_average": 8.5,
+     "genres": [
+      "Animación",
+      "Acción",
+      "Romance",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/fJdnp5OO2wh07tdy6noACNyaqMJ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/pQBjQCtldmru3EhWVH83qKfnvPL.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/pQBjQCtldmru3EhWVH83qKfnvPL.jpg",
+     "providers": [
+      "Crunchyroll",
+      "Crunchyroll Amazon Channel"
+     ],
+     "trailer": "-KpVet_60Yc"
+    },
+    {
      "id": 155,
      "title": "El caballero oscuro",
      "year": "2008",
@@ -2754,28 +2771,6 @@
       "HBO Max Amazon Channel"
      ],
      "trailer": "_PZpmTj1Q8Q"
-    },
-    {
-     "id": 1218925,
-     "title": "Chainsaw Man - La película: El arco de Reze",
-     "year": "2025",
-     "release_date": "2025-09-19",
-     "overview": "Denji trabajaba como cazador de demonios para la yakuza, tratando de saldar la deuda que había heredado de sus padres, pero la yakuza lo traicionó y lo mató. Antes de perder el conocimiento, Pochita, el perro-demonio motosierra de Denji, hizo un trato con él y le salvó la vida. Así se fusionaron, creando al imparable Chainsaw Man. Ahora, en medio de una brutal guerra entre demonios, cazadores y enemigos secretos, una misteriosa chica llamada Reze irrumpe en su mundo y Denji se enfrenta a su batalla más mortífera, impulsado por el amor, en un mundo donde la supervivencia no conoce reglas.",
-     "vote_average": 8.5,
-     "genres": [
-      "Animación",
-      "Acción",
-      "Romance",
-      "Fantasía"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/fJdnp5OO2wh07tdy6noACNyaqMJ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/kENypmecxSQNw9qSRQBEr1E35WX.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/pQBjQCtldmru3EhWVH83qKfnvPL.jpg",
-     "providers": [
-      "Crunchyroll",
-      "Crunchyroll Amazon Channel"
-     ],
-     "trailer": "-KpVet_60Yc"
     },
     {
      "id": 1630423,
@@ -2916,6 +2911,7 @@
       "Disney Plus",
       "Movistar Plus+ Ficción Total ",
       "fuboTV",
+      "Atres Player",
       "HBO Max",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
@@ -3570,6 +3566,26 @@
  "tematicas": {
   "navidad": [
    {
+    "id": 1551025,
+    "title": "Guardaespaldas por navidad",
+    "year": "2026",
+    "release_date": "2026-11-18",
+    "overview": "Una estricta guardaespaldas viaja a un rancho de Montana con el famoso actor al que protege. Pero al fingir ser pareja por Navidad surge un amor real.",
+    "vote_average": 6.9,
+    "genres": [
+     "Romance",
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/baYwDjfwRQud2Eibpay4XgvYSmv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/7s1ysyCATVEiDGLCRLWuC74U7K9.jpg",
+    "providers": [
+     "Netflix",
+     "Netflix Standard with Ads"
+    ],
+    "trailer": "mFvtVPMa5ak"
+   },
+   {
     "id": 1567605,
     "title": "Scrooge y los fantasmas de la Navidad",
     "year": "2026",
@@ -3635,6 +3651,25 @@
     "trailer": "SL0YugjtkiI"
    },
    {
+    "id": 771,
+    "title": "Solo en casa",
+    "year": "1990",
+    "release_date": "1990-11-16",
+    "overview": "Kevin McAllister es un niño de ocho años, miembro de una familia numerosa, que accidentalmente se queda abandonado en su casa cuando toda la familia se marcha a pasar las vacaciones a Francia. Kevin aprende a valerse por sí mismo e incluso a protegerse de Harry y Marv, dos bribones que se proponen asaltar todas las casas cerradas de su vecindario. Cuando su madre Kate lo hecha en falta, realiza un pintoresco viaje de vuelta contra reloj a Chicago para recuperar a su hijo.",
+    "vote_average": 7.5,
+    "genres": [
+     "Comedia",
+     "Familia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/rjc2a9N5pro1xGsSvvnJ1JDXRGm.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/ih2xVgeMS8R5WUetYE8Mr9hVTlB.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "sptc2IcHnc4"
+   },
+   {
     "id": 360920,
     "title": "El Grinch",
     "year": "2018",
@@ -3663,26 +3698,6 @@
     "trailer": "_UOh0UX3alI"
    },
    {
-    "id": 1088548,
-    "title": "Amarga Navidad",
-    "year": "2026",
-    "release_date": "2026-03-20",
-    "overview": "Tras el fallecimiento de su madre en diciembre, Elsa, directora de publicidad, se sumerge en el trabajo para afrontar la situación. Cuando un ataque de pánico la obliga a tomarse un descanso, decide viajar a Lanzarote con su amiga Patricia mientras su pareja se queda en Madrid.",
-    "vote_average": 6.2,
-    "genres": [
-     "Drama",
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/ji29dXqoeIsQiVnXAkzI4nzxMjr.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/cpA661TwBZ4vob2qaxEnrZa61G.jpg",
-    "providers": [
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total "
-    ],
-    "trailer": "SNbVMk-nLu4"
-   },
-   {
     "id": 9479,
     "title": "Pesadilla antes de Navidad",
     "year": "1993",
@@ -3701,6 +3716,48 @@
      "Disney Plus"
     ],
     "trailer": "IoYahD_xNR0"
+   },
+   {
+    "id": 845781,
+    "title": "Red One",
+    "year": "2024",
+    "release_date": "2024-10-31",
+    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
+    "vote_average": 6.9,
+    "genres": [
+     "Acción",
+     "Aventura",
+     "Comedia",
+     "Fantasía"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "RcER0_lZ2F4"
+   },
+   {
+    "id": 1088548,
+    "title": "Amarga Navidad",
+    "year": "2026",
+    "release_date": "2026-03-20",
+    "overview": "Tras el fallecimiento de su madre en diciembre, Elsa, directora de publicidad, se sumerge en el trabajo para afrontar la situación. Cuando un ataque de pánico la obliga a tomarse un descanso, decide viajar a Lanzarote con su amiga Patricia mientras su pareja se queda en Madrid.",
+    "vote_average": 6.2,
+    "genres": [
+     "Drama",
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/ji29dXqoeIsQiVnXAkzI4nzxMjr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/ppLv2F7dhvI3wxaEoOP1E0OyBPP.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/cpA661TwBZ4vob2qaxEnrZa61G.jpg",
+    "providers": [
+     "Movistar Plus+",
+     "Movistar Plus+ Ficción Total "
+    ],
+    "trailer": "SNbVMk-nLu4"
    },
    {
     "id": 17979,
@@ -3724,26 +3781,45 @@
     "trailer": "j8jOwPbZ-W0"
    },
    {
-    "id": 845781,
-    "title": "Red One",
-    "year": "2024",
-    "release_date": "2024-10-31",
-    "overview": "Tras el secuestro de Papá Noel (nombre en clave: RED ONE), el Jefe de Seguridad del Polo Norte (Dwayne Johnson) debe formar equipo con el cazarrecompensas más infame del mundo (Chris Evans) en una misión trotamundos llena de acción para salvar la Navidad.",
-    "vote_average": 6.9,
+    "id": 331482,
+    "title": "Mujercitas",
+    "year": "2019",
+    "release_date": "2019-12-25",
+    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
+    "vote_average": 7.9,
     "genres": [
-     "Acción",
-     "Aventura",
-     "Comedia",
-     "Fantasía"
+     "Drama",
+     "Romance"
     ],
-    "poster": "https://image.tmdb.org/t/p/w342/dpskAcm71w5v8zQ8RmPmJiP31Om.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/rOmUuQEZfPXglwFs5ELLLUDKodL.jpg",
+    "poster": "https://image.tmdb.org/t/p/w342/mE9NUKAP6hLhfQ00nr3NObDLekG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
     "providers": [
      "Amazon Prime Video",
+     "Tivify",
      "Amazon Prime Video with Ads"
     ],
-    "trailer": "RcER0_lZ2F4"
+    "trailer": "6SN9-6uST80"
+   },
+   {
+    "id": 1034541,
+    "title": "Terrifier 3",
+    "year": "2024",
+    "release_date": "2024-10-09",
+    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
+    "vote_average": 6.7,
+    "genres": [
+     "Terror"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Amazon Prime Video with Ads",
+     "AMC Channels Amazon Channel"
+    ],
+    "trailer": "Y2u6m2W428g"
    },
    {
     "id": 5255,
@@ -3775,46 +3851,6 @@
     "trailer": "4XkHPphBN_Q"
    },
    {
-    "id": 1034541,
-    "title": "Terrifier 3",
-    "year": "2024",
-    "release_date": "2024-10-09",
-    "overview": "El payaso Art desata el caos entre los desprevenidos habitantes del condado de Miles mientras duermen plácidamente en Nochebuena. Tras sobrevivir a la masacre de Halloween perpetrada por el peor asesino en serie desde Jack el Destripador, Sienna y su hermano se esfuerzan por reconstruir sus vidas destrozadas. A medida que se acercan las fiestas de Navidad, intentan abrazar el espíritu navideño y dejar atrás los horrores del pasado. Pero justo cuando creen que están a salvo, el payaso Art regresa, decidido a convertir su alegría navideña en una nueva pesadilla. La temporada festiva se desmorona rápidamente mientras el payaso Art desata su retorcido terror marca de la casa, demostrando que ninguna festividad es segura.",
-    "vote_average": 6.7,
-    "genres": [
-     "Terror"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iaGfB2itLC8exBvfLUoadS0Q6tP.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/bHfGHipZ32Oec94FDJO4mWs3aZ5.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads",
-     "AMC Channels Amazon Channel"
-    ],
-    "trailer": "Y2u6m2W428g"
-   },
-   {
-    "id": 331482,
-    "title": "Mujercitas",
-    "year": "2019",
-    "release_date": "2019-12-25",
-    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
-    "vote_average": 7.9,
-    "genres": [
-     "Drama",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/mE9NUKAP6hLhfQ00nr3NObDLekG.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "6SN9-6uST80"
-   },
-   {
     "id": 1585,
     "title": "¡Qué bello es vivir!",
     "year": "1946",
@@ -3833,44 +3869,6 @@
      "Filmin"
     ],
     "trailer": "iLR3gZrU2Xo"
-   },
-   {
-    "id": 10719,
-    "title": "Elf",
-    "year": "2003",
-    "release_date": "2003-11-07",
-    "overview": "Una Nochebuena, en un orfanato, un bebé gatea dentro del saco de regalos de Santa Claus y acaba en el taller de éste en el Polo Norte. Aunque allí es adoptado y educado como un elfo, al crecer, se hace tres veces más grande que los habitantes de la región. Parece claro que nunca encajará en el mundo de los elfos; lo que necesita es encontrar a su verdadera familia. Con esta intención viaja a Nueva York, donde descubrirá que la vida no consiste sólo en patinar y comer dulces; así que vuelve a sentirse otra vez fuera lugar. Consigue, no obstante, encontrar a su padre, Walter, un editor de libros infantiles adicto al trabajo y al dinero que figura en la lista negra de Santa Claus. Buddy también encuentra a una nueva madre y descubre que su hermanastro de diez años no cree en los elfos ni en Santa Claus ni en las Navidades. En realidad todo el mundo parece haber olvidado el verdadero significado de la Navidad.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iJrvkckDP7MKfimogB6lNUfQRx.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
-    "providers": [
-     "Netflix",
-     "Disney Plus",
-     "Netflix Standard with Ads"
-    ],
-    "trailer": "14o38xfHlXc"
-   },
-   {
-    "id": 5825,
-    "title": "¡Socorro! Ya es Navidad",
-    "year": "1989",
-    "release_date": "1989-11-30",
-    "overview": "Clark Griswold, movido por un generoso y sentimental espíritu navideño, quiere sorprender a toda su familia con una gran fiesta. La suerte no suele acompañarlo y esta vez no va a ser diferente... Una sucesión de disparatados desastres convertirán la esperadísima sorpresa de Clark en un verdadero caos.",
-    "vote_average": 7.2,
-    "genres": [
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/qmyeMduOLqrNqBpAaMwC7Qivwoy.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
-    "providers": [],
-    "trailer": "tLVd4ipC5Lc"
    }
   ],
   "romance": [
@@ -3922,7 +3920,7 @@
      "Fantasía"
     ],
     "poster": "https://image.tmdb.org/t/p/w342/fJdnp5OO2wh07tdy6noACNyaqMJ.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/kENypmecxSQNw9qSRQBEr1E35WX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/pQBjQCtldmru3EhWVH83qKfnvPL.jpg",
     "fondo": "https://image.tmdb.org/t/p/original/pQBjQCtldmru3EhWVH83qKfnvPL.jpg",
     "providers": [
      "Crunchyroll",
