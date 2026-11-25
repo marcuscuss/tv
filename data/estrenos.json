@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T22:37:09.369Z",
+ "actualizado": "2026-11-25T08:51:35.880Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -37,28 +37,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
   },
   {
-   "id": 1244523,
-   "title": "Boiuna: La leyenda del Amazonas",
-   "release_date": "2026-10-16",
-   "overview": "Un equipo de médicos se embarca en una misión local en la selva amazónica, pero pronto queda claro que no todo el mundo, ni todo, está contento de verlos. Su repentina aparición llama la atención de un depredador animal, el «Boiúna».",
-   "vote_average": 6,
-   "genres": [
-    "Aventura",
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/hClFn5adaXOgmxrZyxixoKiBHEZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
-   "providers": [],
-   "trailer": "MQKqgFVU4dQ",
-   "fondo": "https://image.tmdb.org/t/p/original/grYvFUiuzBdKQjtcuV7UWRRvAyr.jpg"
-  },
-  {
    "id": 656908,
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
    "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
-   "vote_average": 7.3,
+   "vote_average": 7.5,
    "genres": [
     "Fantasía",
     "Acción",
@@ -104,6 +87,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg"
   },
   {
+   "id": 1195803,
+   "title": "Wicker",
+   "release_date": "2026-10-30",
+   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+   "vote_average": 7.5,
+   "genres": [
+    "Romance",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
+   "providers": [],
+   "trailer": "jA5zfiikcu8",
+   "fondo": "https://image.tmdb.org/t/p/original/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg"
+  },
+  {
    "id": 791523,
    "title": "Wildwood: El Bosque Salvaje",
    "release_date": "2026-10-23",
@@ -119,23 +119,6 @@
    "providers": [],
    "trailer": "qWX1ba0f-Qg",
    "fondo": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg"
-  },
-  {
-   "id": 1153576,
-   "title": "Street Fighter",
-   "release_date": "2026-10-16",
-   "overview": "En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
-   "vote_average": 6.2,
-   "genres": [
-    "Acción",
-    "Comedia",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2kdEEUkbkJe08kTDMCUbBrZ71Aw.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
-   "providers": [],
-   "trailer": "-MJAfIMUQ5s",
-   "fondo": "https://image.tmdb.org/t/p/original/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg"
   },
   {
    "id": 1400940,
@@ -176,7 +159,7 @@
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
    "overview": "Un astuto gato lleva el caos con sus travesuras a la vida de un par de hermanos que lidian con su mudanza a una nueva ciudad.",
-   "vote_average": 7,
+   "vote_average": 7.3,
    "genres": [
     "Animación",
     "Fantasía",
@@ -208,36 +191,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
   },
   {
-   "id": 1255833,
-   "title": "Whalefall",
-   "release_date": "2026-10-16",
-   "overview": "Tras la muerte de su padre, Jay Gardiner se sumerge en la costa central de California en busca de sus restos, pero es tragado por una ballena. Atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó pueden ser la clave para escapar.",
-   "vote_average": 6.6,
+   "id": 1284046,
+   "title": "Aniquilación",
+   "release_date": "2026-10-30",
+   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
+   "vote_average": 5.6,
    "genres": [
+    "Acción",
+    "Terror",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/jmGVSLOrH9IxtcffbldrEHX4IfB.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
    "providers": [],
-   "trailer": "5webTf9wplE",
-   "fondo": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg"
-  },
-  {
-   "id": 1195803,
-   "title": "Wicker",
-   "release_date": "2026-10-30",
-   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.5,
-   "genres": [
-    "Romance",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
-   "providers": [],
-   "trailer": "jA5zfiikcu8",
-   "fondo": "https://image.tmdb.org/t/p/original/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg"
+   "trailer": "AMLCbpM1fRQ",
+   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
    "id": 1503762,
@@ -256,28 +224,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
   },
   {
-   "id": 1284046,
-   "title": "Aniquilación",
-   "release_date": "2026-10-30",
-   "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
-   "genres": [
-    "Acción",
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bKq74yT1Gca4JCd7E6IAHPLWBg0.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
-   "providers": [],
-   "trailer": "AMLCbpM1fRQ",
-   "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
-  },
-  {
    "id": 1548369,
    "title": "Gungo y Los Juegos Cavernícolas",
    "release_date": "2026-10-30",
    "overview": "",
-   "vote_average": 8.9,
+   "vote_average": 9,
    "genres": [
     "Animación",
     "Comedia",
@@ -306,6 +257,76 @@
    "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
   },
   {
+   "id": 1564614,
+   "title": "Leviticus",
+   "release_date": "2026-10-30",
+   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
+   "vote_average": 6.8,
+   "genres": [
+    "Terror",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/zXvwSBe2kwtwO9S2OZwUVWKAVOp.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ekFr4AyEpwyIHK1R3VOYDXN2PqL.jpg",
+   "providers": [],
+   "trailer": "WXuK0vlFxII",
+   "fondo": "https://image.tmdb.org/t/p/original/ekFr4AyEpwyIHK1R3VOYDXN2PqL.jpg"
+  },
+  {
+   "id": 1477104,
+   "title": "La oveja Shaun: Misión calabaza",
+   "release_date": "2026-10-30",
+   "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
+   "vote_average": 7.3,
+   "genres": [
+    "Animación",
+    "Ciencia ficción",
+    "Comedia",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+   "providers": [],
+   "trailer": "daZMq0AyOMc",
+   "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
+  },
+  {
+   "id": 1240889,
+   "title": "Adolescencia, sexo y muerte en campamento Miasma",
+   "release_date": "2026-11-20",
+   "overview": "Tras años de secuelas cutres y un fandom en declive, la franquicia slasher 'Camp Miasma' es puesta en manos de una joven y entusiasta directora para que la resucite. Pero cuando visita a la estrella de la película original, una actriz que ahora vive recluida y envuelta en misterio, las dos caen en una espiral de sangre, deseo, miedo y delirio.",
+   "vote_average": 6.1,
+   "genres": [
+    "Comedia",
+    "Terror",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
+   "providers": [],
+   "trailer": "UsIpCaOBCIQ",
+   "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
+  },
+  {
+   "id": 841,
+   "title": "Dune",
+   "release_date": "1985-01-10",
+   "overview": "Por orden imperial la familia Atreides deberá hacerse cargo de la explotación del desértico planeta de Arrakis, conocido también como Dune, el único planeta donde se encuentra 'la especia', una potente droga que, además, es necesaria para los vuelos espaciales.",
+   "vote_average": 6.2,
+   "genres": [
+    "Acción",
+    "Ciencia ficción",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/sk4eTjGfp58RLRr67qzFUbX9EPl.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg",
+   "providers": [
+    "Filmin"
+   ],
+   "trailer": "mtLd5CWuwbo",
+   "fondo": "https://image.tmdb.org/t/p/original/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg"
+  },
+  {
    "id": 1748404,
    "title": "Always Yours, Never Mine",
    "release_date": "2026-11-01",
@@ -320,280 +341,9 @@
    "providers": [],
    "trailer": "mI2_DVu08dI",
    "fondo": "https://image.tmdb.org/t/p/original/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg"
-  },
-  {
-   "id": 950028,
-   "title": "La invitación",
-   "release_date": "2026-10-16",
-   "overview": "Una pareja invita a los vecinos a su casa, lo que desencadena una velada llena de giros inesperados, revelando emociones profundamente reprimidas y una sexualidad inexplorada en esta historia que explora las complejidades de las relaciones de hoy en día.",
-   "vote_average": 7.2,
-   "genres": [
-    "Comedia",
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/21JnfyCARiRkms9AZHtTXiZKbIj.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
-   "providers": [],
-   "trailer": "nelkiuezJxg",
-   "fondo": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg"
   }
  ],
  "upcoming": [
-  {
-   "id": 1765072,
-   "title": "Puedes verlo todo",
-   "release_date": "2026-11-26",
-   "overview": "Treinta y cuatro días antes de ingresar en prisión, la famosa fundadora de Theranos, Elizabeth Holmes, invita a un equipo de rodaje escéptico a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo se convierte en un alucinante viaje de tres años.",
-   "vote_average": 8.7,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/hcuFuAlGeQy1yKhd3I0hZ5sgCzl.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
-   "providers": [],
-   "trailer": "-B-gh1BlS4w",
-   "fondo": "https://image.tmdb.org/t/p/original/rrbbzCyS45yooXpUGJatfptlHYI.jpg"
-  },
-  {
-   "id": 1538497,
-   "title": "Hechizo: Bienvenidos a Hexe",
-   "release_date": "2026-11-27",
-   "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
-   "vote_average": 7.6,
-   "genres": [
-    "Aventura",
-    "Animación",
-    "Familia",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg",
-   "providers": [],
-   "trailer": "wkr5TpxKOTw",
-   "fondo": "https://image.tmdb.org/t/p/original/eMcrgrIyeAgMHS5R9LltDnuxB5R.jpg"
-  },
-  {
-   "id": 1400336,
-   "title": "Ahora los suegros son ellos",
-   "release_date": "2026-11-27",
-   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 7.6,
-   "genres": [
-    "Comedia",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/nubnNXuMArUhiDW1nUevGsG65x9.jpg",
-   "providers": [],
-   "trailer": "j0MROuSV-pA",
-   "fondo": "https://image.tmdb.org/t/p/original/nubnNXuMArUhiDW1nUevGsG65x9.jpg"
-  },
-  {
-   "id": 822653,
-   "title": "Puella Magi Madoka Magica. La película: La noche de Walpurgis - El ascenso",
-   "release_date": "2026-11-27",
-   "overview": "Akemi Homura, que se convirtió en un demonio por su devoción a Madoka Kaname. En un mundo recién creado, las chicas mágicas vuelven a aparecer. Los engranajes del mundo de Puella Magi Madoka Magica comienzan a girar lentamente de nuevo.",
-   "vote_average": 8,
-   "genres": [
-    "Animación",
-    "Drama",
-    "Misterio",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9szX9jqjCwrBVp4Ggo98dJvyeOZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xzm3RfWh932rS28WErNC3u8qzVm.jpg",
-   "providers": [],
-   "trailer": "xfniSyRH-CM",
-   "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
-  },
-  {
-   "id": 1457866,
-   "title": "Las nuevas desventuras de Cliff Booth",
-   "release_date": "2026-11-27",
-   "overview": "Ocho años después de los eventos de \"Érase una vez en... Hollywood\", Cliff Booth regresa a un Los Ángeles cambiante. Ahora trabajando como \"fixer\" en las sombras del sistema de estudios de Hollywood, Cliff se verá envuelto en una peligrosa red de secretos, crímenes y traiciones que pondrán a prueba todo lo que conoce sobre lealtad y supervivencia.",
-   "vote_average": 0,
-   "genres": [
-    "Comedia",
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/40bbOEa0ISI1KQmQmy2zQ2DD0tD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg",
-   "providers": [],
-   "trailer": "fJH-wfSXnWg",
-   "fondo": "https://image.tmdb.org/t/p/original/qqPspJFy0XrEoVTKZdp0Em7kej6.jpg"
-  },
-  {
-   "id": 1433583,
-   "title": "Oro sin ley",
-   "release_date": "2026-11-27",
-   "overview": "Oregón, 1933. Samuel Murphy (Ethan Hawke) es separado de su hija y enviado a un campo de trabajo. Un día, el alcaide Clancy (Russell Crowe) le ofrece la posibilidad de liberarlo si consigue pasar oro de contrabando a través de una peligrosa senda salvaje. ¿Hasta dónde será capaz de llegar Murphy por reencontrarse con su querida hija?",
-   "vote_average": 6.9,
-   "genres": [
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/hTT42eBEiYcpgRormrS8re82Nt9.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/4klejBUCWsq2F9GHB5EH5mQdFOg.jpg",
-   "providers": [],
-   "trailer": "7YpuMymmiJ8",
-   "fondo": "https://image.tmdb.org/t/p/original/myA2cjsISTbTJQK6HWnZffFJK6j.jpg"
-  },
-  {
-   "id": 1472813,
-   "title": "Diario de una camarera",
-   "release_date": "2026-11-27",
-   "overview": "Gianina, una joven rumana, trabaja como empleada doméstica para una familia burguesa en Burdeos. Por las noches, ensaya el papel de criada con un grupo de teatro aficionado en una adaptación de *Diario de una camarera*, de Octave Mirbeau. Cuida de Louen, el hijo de sus empleadores, mientras su propia hija crece lejos de ella, en Rumanía. La ausencia materna se convierte en una herida profunda, pero, a medida que se acerca la Navidad, la promesa de un reencuentro empieza a tomar forma.",
-   "vote_average": 7,
-   "genres": [
-    "Drama",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/4s2tTxThQlcgbbMpcWsbmVvlcYG.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/bYaiKiCmTOnd2EW0yuzA4vno8g.jpg",
-   "providers": [],
-   "trailer": "VhCR5WgsVbA",
-   "fondo": "https://image.tmdb.org/t/p/original/maVfxNUGus0zp91UahYt9GGpZO1.jpg"
-  },
-  {
-   "id": 1378791,
-   "title": "Todo el mundo quiere a Bill Evans",
-   "release_date": "2026-11-27",
-   "overview": "Junio de 1961, Nueva York. El legendario pianista de jazz Bill Evans ha encontrado su propia voz y ha formado el trío perfecto junto al contrabajista Scott LaFaro, su alma gemela musical. Una residencia en el Village Vanguard culmina con la grabación en directo, en un solo día, de dos de los mejores discos de jazz de todos los tiempos. Días después, LaFaro muere trágicamente en un accidente de tráfico. Paralizado por el dolor, Evans deja de tocar por primera vez desde su infancia. Esta es la historia de lo que sucedió poco después para una de las figuras más influyentes y con más talento de la música del siglo XX.",
-   "vote_average": 4,
-   "genres": [
-    "Drama",
-    "Música"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/tEwxfAQ8hdXEFZbYJZOF4Gp1020.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/tI0XbH8FhvVXLz8UDzEbr7ud4Ma.jpg",
-   "providers": [],
-   "trailer": "K9lHgrFzh_U",
-   "fondo": "https://image.tmdb.org/t/p/original/tI0XbH8FhvVXLz8UDzEbr7ud4Ma.jpg"
-  },
-  {
-   "id": 1387981,
-   "title": "La libertad doble",
-   "release_date": "2026-11-27",
-   "overview": "Misael trabaja solo. Armado con su hacha, tala árboles en el bosque, acompañado de su perro. Una responsabilidad inesperada trastoca su vida, y el ritmo de sus días se va disolviendo poco a poco en una naturaleza salvaje donde la razón humana ya no tiene sentido.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/eJwrCjeHCu3hLYveVHM9Do5HLBF.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/8S1duOpGapJLIpfPMoNLyUSwuHS.jpg",
-   "providers": [],
-   "trailer": "FqWI_zsZNwM",
-   "fondo": "https://image.tmdb.org/t/p/original/8S1duOpGapJLIpfPMoNLyUSwuHS.jpg"
-  },
-  {
-   "id": 1715640,
-   "title": "El pezón de Elena",
-   "release_date": "2026-11-27",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/pCFW1aZqxSxbeqoH3rzZvGGi6cR.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
-   "id": 1740884,
-   "title": "Un hombre en un puente",
-   "release_date": "2026-11-27",
-   "overview": "Un hombre en un puente narra la historia de Andrés (Roger Casamajor), un hombre de mediana edad que, sin tener a dónde ir, regresa a su pueblo natal en busca de refugio. Allí se reencuentra con tres figuras clave de su pasado: Lucía (Belén Cuesta), su novia de juventud a la que no ve desde hace muchos años; Mariano (Juanfra Juárez), su antiguo amigo, ahora en horas bajas; y Chema (Font García), su hermano, con quien no se habla desde hace más de una década. Incapaz de encontrar su sitio, un suceso fortuito le lleva a conocer a Liliana (Nidia Bermejo), una mujer que cambia su destino.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/893OMtxpWpOH8pKI5aeJbeEgL6j.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg",
-   "providers": [],
-   "trailer": "-amALUDN_s4",
-   "fondo": "https://image.tmdb.org/t/p/original/7sCyFZ4G4OLTXRNoAMGofS430mP.jpg"
-  },
-  {
-   "id": 1556887,
-   "title": "Sisters",
-   "release_date": "2026-11-27",
-   "overview": "Dos hermanas reúnen a sus familias durante un fin de semana de verano cerca de Madrid para celebrar algunos hitos y las fiestas de San Juan. La celebración se ve empañada cuando un niño formula una grave acusación de abuso sexual.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/42gyhoe1yiijW7kk9FDqIVvahGP.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/kITiyC72qt25UlF0xPDH5rydZZn.jpg",
-   "providers": [],
-   "trailer": "sC9FbZQ6X0k",
-   "fondo": "https://image.tmdb.org/t/p/original/kITiyC72qt25UlF0xPDH5rydZZn.jpg"
-  },
-  {
-   "id": 1770715,
-   "title": "Forqué. El oficio de hacer cine",
-   "release_date": "2026-11-27",
-   "overview": "Un recorrido por la trayectoria de José María Forqué a través de su propia voz y de los recuerdos de actores y cineastas que trabajaron con él. El documental revisita sus películas, su aportación a la comedia y la televisión y el oficio de un director cuya figura quedó a menudo eclipsada por otros nombres del cine español.",
-   "vote_average": 0,
-   "genres": [
-    "Documental"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xaJ67tGcPNzjrHugxWc11cqz7Rf.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "",
-   "fondo": ""
-  },
-  {
-   "id": 1228569,
-   "title": "Hora y veinte",
-   "release_date": "2026-11-27",
-   "overview": "Manuela hará todo lo posible para encontrar a su hijo de 6 años, quien desaparece el día de Nochebuena en un centro comercial. Con la llegada de la Guardia Civil, Manuela debe afrontar la posibilidad de haber perdido la razón mientras lucha por recuperar a su pequeño. No hay indicios de un posible secuestro, pero de repente una noticia inquietante llega al centro comercial: Manuela tiene un largo historial delictivo y nadie recuerda haberla visto con su hijo.",
-   "vote_average": 0,
-   "genres": [
-    "Crimen",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/dHEx0vtTkruolFnkyDeddffPYgT.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6UGrnnH7ciOT3BAz4IHLmV26lUj.jpg",
-   "providers": [],
-   "trailer": "AuCkDsdOX2Q",
-   "fondo": "https://image.tmdb.org/t/p/original/6UGrnnH7ciOT3BAz4IHLmV26lUj.jpg"
-  },
-  {
-   "id": 1313043,
-   "title": "La gran fiesta del cine",
-   "release_date": "2026-11-27",
-   "overview": "Cinco años después de rodar \"La última cena\", un largometraje experimental sin presupuesto, un grupo de técnicos y artistas de cine se reúne para celebrar el inesperado éxito de la película y decidir qué hacer con los beneficios generados en cines y plataformas digitales.",
-   "vote_average": 0,
-   "genres": [
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bEfj7qTSVs9TQZLp5BaL4nQhezC.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "8uOpRo2sC94",
-   "fondo": ""
-  },
-  {
-   "id": 1696095,
-   "title": "बाटुलो जून",
-   "release_date": "2026-11-29",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/qSYXXdvJbu5ToIxQgl8p5ifgUGW.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/px9Ys3GMISiya8uFGXhflTYgKqA.jpg",
-   "providers": [],
-   "trailer": "1HKKPAe-V2k",
-   "fondo": "https://image.tmdb.org/t/p/original/px9Ys3GMISiya8uFGXhflTYgKqA.jpg"
-  },
   {
    "id": 1376400,
    "title": "Crawlers (Arácnidos)",
@@ -609,6 +359,23 @@
    "providers": [],
    "trailer": "IIoEnagIMpI",
    "fondo": "https://image.tmdb.org/t/p/original/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg"
+  },
+  {
+   "id": 1288059,
+   "title": "Quiero tu sexo",
+   "release_date": "2026-12-04",
+   "overview": "Cuando el joven e ingenuo Elliot consigue un emocionante trabajo para Erika Tracy, una reconocida artista, ícono y provocadora, sus fantasías se hacen realidad cuando ella lo elige para convertirlo en su musa sexual. Pero Elliot pronto descubre que la situación lo supera, mientras Erika lo conduce por un viaje mucho más profundo de lo que jamás habría imaginado, adentrándolo en un mundo de sexo, obsesión, poder, traición y asesinato.",
+   "vote_average": 6,
+   "genres": [
+    "Comedia",
+    "Suspense",
+    "Misterio"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/aMFx35t0T61S1ILDZrycPFRu95u.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg",
+   "providers": [],
+   "trailer": "q5oWCPS3akw",
+   "fondo": "https://image.tmdb.org/t/p/original/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg"
   },
   {
    "id": 1437696,
@@ -627,28 +394,11 @@
    "fondo": "https://image.tmdb.org/t/p/original/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg"
   },
   {
-   "id": 1288059,
-   "title": "Quiero tu sexo",
-   "release_date": "2026-12-04",
-   "overview": "Cuando el joven e ingenuo Elliot consigue un emocionante trabajo para Erika Tracy, una reconocida artista, ícono y provocadora, sus fantasías se hacen realidad cuando ella lo elige para convertirlo en su musa sexual. Pero Elliot pronto descubre que la situación lo supera, mientras Erika lo conduce por un viaje mucho más profundo de lo que jamás habría imaginado, adentrándolo en un mundo de sexo, obsesión, poder, traición y asesinato.",
-   "vote_average": 5.9,
-   "genres": [
-    "Comedia",
-    "Suspense",
-    "Misterio"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/aMFx35t0T61S1ILDZrycPFRu95u.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg",
-   "providers": [],
-   "trailer": "q5oWCPS3akw",
-   "fondo": "https://image.tmdb.org/t/p/original/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg"
-  },
-  {
    "id": 1585239,
    "title": "Club Kid",
    "release_date": "2026-12-04",
    "overview": "Peter (Jordan Firstman), un promotor de fiestas underground de Nueva York acostumbrado a vivir entre excesos, música electrónica y noches interminables, ve cómo su mundo da un vuelco cuando una desconocida aparece en su puerta con Arlo (Reggie Absolom), un niño de 10 años que asegura que es su hijo. Lo que comienza como una situación imposible pronto da paso a una loca, divertida y tierna conexión, tan inesperada como transformadora.",
-   "vote_average": 7.9,
+   "vote_average": 7.8,
    "genres": [
     "Comedia",
     "Drama"
@@ -658,6 +408,268 @@
    "providers": [],
    "trailer": "guKEdb_iRXw",
    "fondo": "https://image.tmdb.org/t/p/original/64VAgcAtGHBccnBQBur1Z2HRLAC.jpg"
+  },
+  {
+   "id": 1078446,
+   "title": "Noche de paz 2",
+   "release_date": "2026-12-04",
+   "overview": "Cuando Santa olvida el verdadero significado de la Navidad, se encuentra en el corazón de un animado centro comercial que necesita desesperadamente su ayuda. Sin su magia, deberá buscar otra forma de enfrentarse a los matones que amenazan el lugar, y el tiempo se agota. Santa tendrá que recuperar su fe en la bondad y pedir refuerzos de última hora a la única persona con la que ningún villano quiere meterse: la señora Claus.",
+   "vote_average": 0,
+   "genres": [
+    "Acción",
+    "Comedia",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bMGudrgP3ZVD9IPF73BYLdnrNSE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
+   "providers": [],
+   "trailer": "kAExvESKk1c",
+   "fondo": "https://image.tmdb.org/t/p/original/78dChJs7doULSEhIiOvGUcXQRGU.jpg"
+  },
+  {
+   "id": 1498050,
+   "title": "Burundanga",
+   "release_date": "2026-12-04",
+   "overview": "Berta descubre que está embarazada y no sabe qué hacer, porque duda del amor de su pareja, Manel. Aconsejada por su amiga Sílvia, decide administrarle burundanga, la “droga de la verdad”. Cuando le hace efecto, Manel confirma que está enamorado de ella, pero también confiesa algo mucho más inesperado: forma parte de un comando etarra.",
+   "vote_average": 0,
+   "genres": [
+    "Comedia",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/dooIbNThUhVNzhZoIw1INzttev.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "vx0XJ6eDiL4",
+   "fondo": ""
+  },
+  {
+   "id": 1489182,
+   "title": "Trinidad",
+   "release_date": "2026-12-04",
+   "overview": "Cuando una joven pistolera recién llegada al Salvaje Oeste es acusada injustamente de un crimen que no ha cometido, ella planea su venganza.",
+   "vote_average": 0,
+   "genres": [
+    "Western",
+    "Acción",
+    "Crimen"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/lNwmSbMqUTGisUb6U9FMbZdAbzl.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
+  },
+  {
+   "id": 1648071,
+   "title": "Desposados",
+   "release_date": "2026-12-04",
+   "overview": "Nos contará la historia de cuatro matrimonios en diferentes etapas de su relación. Cuando la Iglesia descubre que un impostor ha estado suplantando al sacerdote de una parroquia durante nueve años, los enlaces celebrados por él quedan anulados. Las parejas afectadas deberán, entonces, enfrentarse a una pregunta crucial: ¿Quieren volver a casarse con la misma persona… o aprovechar la ocasión para empezar de nuevo?",
+   "vote_average": 0,
+   "genres": [
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/A6JtulwvU0fdfF8sPJeST8auhIz.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": ""
+  },
+  {
+   "id": 1377237,
+   "title": "Entrega al límite",
+   "release_date": "2026-12-11",
+   "overview": "Un exsoldado se ve envuelto en una brutal carrera contrarreloj cuando una entrega médica crucial los convierte, a él y a su inesperada compañera, en el objetivo de un cártel despiadado. A medida que la misión se transforma en una cacería mortal, cada desvío, retraso y bala los acerca más al fracaso. Acosados ​​por la traición desde todos los frentes, deberán sobrevivir a la persecución y entregar su carga para salvar la vida de una niña.",
+   "vote_average": 8.1,
+   "genres": [
+    "Acción",
+    "Comedia",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/pmjSjZtFOYDWhAs4B2AbBE8hTQf.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
+   "providers": [],
+   "trailer": "B6Z9MM1LhEA",
+   "fondo": "https://image.tmdb.org/t/p/original/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg"
+  },
+  {
+   "id": 539745,
+   "title": "Rebelión en la Granja",
+   "release_date": "2026-12-11",
+   "overview": "Un grupo de animales se rebelan contra sus dueños y toman el poder de la granja. Nueva adaptación del clásico de George Orwell.",
+   "vote_average": 6.3,
+   "genres": [
+    "Animación",
+    "Comedia",
+    "Drama",
+    "Familia",
+    "Ciencia ficción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/msl0OTRGavjjzzPZmNuXbC0gv9M.jpg",
+   "providers": [],
+   "trailer": "X1b6_699HqY",
+   "fondo": "https://image.tmdb.org/t/p/original/kGGYjn3KpB2FUa5X7wAGs7MZQFD.jpg"
+  },
+  {
+   "id": 1259983,
+   "title": "Gourou",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 6,
+   "genres": [
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ufdcPu8CdcsC0c73pATNjYXEmMR.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/t77v17Y74eIQDSITsBHtiySOGPr.jpg",
+   "providers": [],
+   "trailer": "18dcAAAQoZ4",
+   "fondo": "https://image.tmdb.org/t/p/original/t77v17Y74eIQDSITsBHtiySOGPr.jpg"
+  },
+  {
+   "id": 1437703,
+   "title": "Moscas",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 7.4,
+   "genres": [
+    "Drama",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/hs9huYKLyKdcI8LJw9DZ8eiW850.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
+   "providers": [],
+   "trailer": "wtuCOy5ZW6A",
+   "fondo": "https://image.tmdb.org/t/p/original/ipnlu4R8O4XZjozLl5Ew3LXxw6j.jpg"
+  },
+  {
+   "id": 1276521,
+   "title": "Charlie el superperro",
+   "release_date": "2026-12-11",
+   "overview": "Charlie es un perro muy especial: curioso, optimista y con una sensibilidad única para entender a quienes le rodean. Aunque a simple vista parece un cachorro normal, Charlie tiene un don extraordinario que le permite vivir aventuras increíbles y cambiar la vida de los demás.",
+   "vote_average": 6.2,
+   "genres": [
+    "Animación",
+    "Acción",
+    "Aventura",
+    "Comedia",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/4EQZV1gne05R8UT217BBu59WeJr.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/2skPNvhiF3B0pUigNm1L5KLWvrk.jpg",
+   "providers": [],
+   "trailer": "gMS90uSa-kc",
+   "fondo": "https://image.tmdb.org/t/p/original/2skPNvhiF3B0pUigNm1L5KLWvrk.jpg"
+  },
+  {
+   "id": 1126097,
+   "title": "Charlie y Harper",
+   "release_date": "2026-12-11",
+   "overview": "La historia de Harper y Charlie, una joven y un joven que se conocen, dejan sus respectivos hogares e intentan construir una vida juntos en una nueva ciudad. Mientras Harper —decidida y ambiciosa— se esfuerza por forjarse una carrera como chef, y Charlie —brillante pero estancado— lucha por encarrilar su vida, su relación se enfrenta a desafíos cada vez mayores.",
+   "vote_average": 6.1,
+   "genres": [
+    "Romance",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9Nf8Pluoi1JrT6S0qDsDMndFnlz.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg",
+   "providers": [],
+   "trailer": "Syp1bGpWTSs",
+   "fondo": "https://image.tmdb.org/t/p/original/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg"
+  },
+  {
+   "id": 1306291,
+   "title": "El profesor y el amor",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/pAXDKVr5qErSlyv9WB3lJ8cdPip.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/1WVVqnO9Zz7S4T87Ly5at3WHiC.jpg",
+   "providers": [],
+   "trailer": "_KjwZViG1-8",
+   "fondo": "https://image.tmdb.org/t/p/original/1WVVqnO9Zz7S4T87Ly5at3WHiC.jpg"
+  },
+  {
+   "id": 1498915,
+   "title": "El día que ella volvió",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 5.9,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/pzAR32SOHwYT9OebuPh7jiSWapf.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg",
+   "providers": [],
+   "trailer": "UCIGw73qgOo",
+   "fondo": "https://image.tmdb.org/t/p/original/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg"
+  },
+  {
+   "id": 1560309,
+   "title": "すべて真夜中の恋人たち",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 6,
+   "genres": [
+    "Drama",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/hu59kewfoT7Brzimj8KOliuh5Ih.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/yGj2WiJSrPRvmnZ5GqVEaWmqJ4p.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/yGj2WiJSrPRvmnZ5GqVEaWmqJ4p.jpg"
+  },
+  {
+   "id": 1454680,
+   "title": "Victor comme tout le monde",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 6.1,
+   "genres": [
+    "Drama",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/eQnsG3eFupvzgn6BWuCNAFqlgMT.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg",
+   "providers": [],
+   "trailer": "XQxxIeqOI10",
+   "fondo": "https://image.tmdb.org/t/p/original/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg"
+  },
+  {
+   "id": 1304939,
+   "title": "Jasmine & Jambo",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 0,
+   "genres": [
+    "Comedia",
+    "Familia",
+    "Música"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5LOqEbeU8KTmnKRg2inSatIqYr6.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7zbpTABDEqjJmfupWe9f0JjIK26.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/7zbpTABDEqjJmfupWe9f0JjIK26.jpg"
+  },
+  {
+   "id": 1430010,
+   "title": "Salen las lobas",
+   "release_date": "2026-12-11",
+   "overview": "Luna es una adolescente rebelde y enérgica que se ve injustamente encerrada en un centro penitenciario juvenil. Allí, encuentra en «Las Lobas» un grupo de amigas con quienes comparte una pasión por la música trap. Juntas, tienen un objetivo claro: escapar del centro para participar en un concurso de trap en Barcelona.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5IFDmqIFPWefoqEtb9ETbXIRb9l.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "xCuPLHKrWTk",
+   "fondo": ""
   }
  ],
  "region": "ES"
