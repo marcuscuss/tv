@@ -1,10 +1,10 @@
 {
- "actualizado": "2026-11-25T08:51:35.880Z",
+ "actualizado": "2026-11-25T21:50:30.212Z",
  "source": "tmdb",
  "now_playing": [
   {
    "id": 1300968,
-   "title": "Los Juegos del Hambre: Amanecer en la cosecha",
+   "title": "Los juegos del hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
    "vote_average": 7.8,
@@ -91,7 +91,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.5,
+   "vote_average": 7.4,
    "genres": [
     "Romance",
     "Fantasía",
@@ -365,7 +365,7 @@
    "title": "Quiero tu sexo",
    "release_date": "2026-12-04",
    "overview": "Cuando el joven e ingenuo Elliot consigue un emocionante trabajo para Erika Tracy, una reconocida artista, ícono y provocadora, sus fantasías se hacen realidad cuando ella lo elige para convertirlo en su musa sexual. Pero Elliot pronto descubre que la situación lo supera, mientras Erika lo conduce por un viaje mucho más profundo de lo que jamás habría imaginado, adentrándolo en un mundo de sexo, obsesión, poder, traición y asesinato.",
-   "vote_average": 6,
+   "vote_average": 5.9,
    "genres": [
     "Comedia",
     "Suspense",
@@ -394,6 +394,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg"
   },
   {
+   "id": 1078446,
+   "title": "Noche de paz 2",
+   "release_date": "2026-12-04",
+   "overview": "Cuando Santa olvida el verdadero significado de la Navidad, se encuentra en el corazón de un animado centro comercial que necesita desesperadamente su ayuda. Sin su magia, deberá buscar otra forma de enfrentarse a los matones que amenazan el lugar, y el tiempo se agota. Santa tendrá que recuperar su fe en la bondad y pedir refuerzos de última hora a la única persona con la que ningún villano quiere meterse: la señora Claus.",
+   "vote_average": 0,
+   "genres": [
+    "Acción",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bMGudrgP3ZVD9IPF73BYLdnrNSE.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
+   "providers": [],
+   "trailer": "kAExvESKk1c",
+   "fondo": "https://image.tmdb.org/t/p/original/78dChJs7doULSEhIiOvGUcXQRGU.jpg"
+  },
+  {
    "id": 1585239,
    "title": "Club Kid",
    "release_date": "2026-12-04",
@@ -408,23 +424,6 @@
    "providers": [],
    "trailer": "guKEdb_iRXw",
    "fondo": "https://image.tmdb.org/t/p/original/64VAgcAtGHBccnBQBur1Z2HRLAC.jpg"
-  },
-  {
-   "id": 1078446,
-   "title": "Noche de paz 2",
-   "release_date": "2026-12-04",
-   "overview": "Cuando Santa olvida el verdadero significado de la Navidad, se encuentra en el corazón de un animado centro comercial que necesita desesperadamente su ayuda. Sin su magia, deberá buscar otra forma de enfrentarse a los matones que amenazan el lugar, y el tiempo se agota. Santa tendrá que recuperar su fe en la bondad y pedir refuerzos de última hora a la única persona con la que ningún villano quiere meterse: la señora Claus.",
-   "vote_average": 0,
-   "genres": [
-    "Acción",
-    "Comedia",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/bMGudrgP3ZVD9IPF73BYLdnrNSE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
-   "providers": [],
-   "trailer": "kAExvESKk1c",
-   "fondo": "https://image.tmdb.org/t/p/original/78dChJs7doULSEhIiOvGUcXQRGU.jpg"
   },
   {
    "id": 1498050,
@@ -527,20 +526,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/t77v17Y74eIQDSITsBHtiySOGPr.jpg"
   },
   {
-   "id": 1437703,
-   "title": "Moscas",
+   "id": 1454680,
+   "title": "Victor comme tout le monde",
    "release_date": "2026-12-11",
    "overview": "",
-   "vote_average": 7.4,
+   "vote_average": 6.1,
    "genres": [
     "Drama",
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/hs9huYKLyKdcI8LJw9DZ8eiW850.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/eQnsG3eFupvzgn6BWuCNAFqlgMT.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg",
    "providers": [],
-   "trailer": "wtuCOy5ZW6A",
-   "fondo": "https://image.tmdb.org/t/p/original/ipnlu4R8O4XZjozLl5Ew3LXxw6j.jpg"
+   "trailer": "XQxxIeqOI10",
+   "fondo": "https://image.tmdb.org/t/p/original/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg"
   },
   {
    "id": 1276521,
@@ -562,20 +561,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/2skPNvhiF3B0pUigNm1L5KLWvrk.jpg"
   },
   {
-   "id": 1126097,
-   "title": "Charlie y Harper",
+   "id": 1437703,
+   "title": "Moscas",
    "release_date": "2026-12-11",
-   "overview": "La historia de Harper y Charlie, una joven y un joven que se conocen, dejan sus respectivos hogares e intentan construir una vida juntos en una nueva ciudad. Mientras Harper —decidida y ambiciosa— se esfuerza por forjarse una carrera como chef, y Charlie —brillante pero estancado— lucha por encarrilar su vida, su relación se enfrenta a desafíos cada vez mayores.",
-   "vote_average": 6.1,
+   "overview": "",
+   "vote_average": 7.4,
    "genres": [
-    "Romance",
-    "Drama"
+    "Drama",
+    "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/9Nf8Pluoi1JrT6S0qDsDMndFnlz.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/hs9huYKLyKdcI8LJw9DZ8eiW850.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
    "providers": [],
-   "trailer": "Syp1bGpWTSs",
-   "fondo": "https://image.tmdb.org/t/p/original/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg"
+   "trailer": "wtuCOy5ZW6A",
+   "fondo": "https://image.tmdb.org/t/p/original/ipnlu4R8O4XZjozLl5Ew3LXxw6j.jpg"
   },
   {
    "id": 1306291,
@@ -593,19 +592,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/1WVVqnO9Zz7S4T87Ly5at3WHiC.jpg"
   },
   {
-   "id": 1498915,
-   "title": "El día que ella volvió",
+   "id": 1126097,
+   "title": "Charlie y Harper",
    "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 5.9,
+   "overview": "La historia de Harper y Charlie, una joven y un joven que se conocen, dejan sus respectivos hogares e intentan construir una vida juntos en una nueva ciudad. Mientras Harper —decidida y ambiciosa— se esfuerza por forjarse una carrera como chef, y Charlie —brillante pero estancado— lucha por encarrilar su vida, su relación se enfrenta a desafíos cada vez mayores.",
+   "vote_average": 6.1,
    "genres": [
+    "Romance",
     "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/pzAR32SOHwYT9OebuPh7jiSWapf.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/9Nf8Pluoi1JrT6S0qDsDMndFnlz.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg",
    "providers": [],
-   "trailer": "UCIGw73qgOo",
-   "fondo": "https://image.tmdb.org/t/p/original/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg"
+   "trailer": "Syp1bGpWTSs",
+   "fondo": "https://image.tmdb.org/t/p/original/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg"
   },
   {
    "id": 1560309,
@@ -624,20 +624,34 @@
    "fondo": "https://image.tmdb.org/t/p/original/yGj2WiJSrPRvmnZ5GqVEaWmqJ4p.jpg"
   },
   {
-   "id": 1454680,
-   "title": "Victor comme tout le monde",
+   "id": 1498915,
+   "title": "El día que ella volvió",
    "release_date": "2026-12-11",
    "overview": "",
-   "vote_average": 6.1,
+   "vote_average": 5.9,
    "genres": [
-    "Drama",
-    "Comedia"
+    "Drama"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/eQnsG3eFupvzgn6BWuCNAFqlgMT.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/pzAR32SOHwYT9OebuPh7jiSWapf.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg",
    "providers": [],
-   "trailer": "XQxxIeqOI10",
-   "fondo": "https://image.tmdb.org/t/p/original/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg"
+   "trailer": "UCIGw73qgOo",
+   "fondo": "https://image.tmdb.org/t/p/original/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg"
+  },
+  {
+   "id": 1430010,
+   "title": "Salen las lobas",
+   "release_date": "2026-12-11",
+   "overview": "Luna es una adolescente rebelde y enérgica que se ve injustamente encerrada en un centro penitenciario juvenil. Allí, encuentra en «Las Lobas» un grupo de amigas con quienes comparte una pasión por la música trap. Juntas, tienen un objetivo claro: escapar del centro para participar en un concurso de trap en Barcelona.",
+   "vote_average": 0,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/5IFDmqIFPWefoqEtb9ETbXIRb9l.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "xCuPLHKrWTk",
+   "fondo": ""
   },
   {
    "id": 1304939,
@@ -655,21 +669,6 @@
    "providers": [],
    "trailer": "",
    "fondo": "https://image.tmdb.org/t/p/original/7zbpTABDEqjJmfupWe9f0JjIK26.jpg"
-  },
-  {
-   "id": 1430010,
-   "title": "Salen las lobas",
-   "release_date": "2026-12-11",
-   "overview": "Luna es una adolescente rebelde y enérgica que se ve injustamente encerrada en un centro penitenciario juvenil. Allí, encuentra en «Las Lobas» un grupo de amigas con quienes comparte una pasión por la música trap. Juntas, tienen un objetivo claro: escapar del centro para participar en un concurso de trap en Barcelona.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/5IFDmqIFPWefoqEtb9ETbXIRb9l.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "xCuPLHKrWTk",
-   "fondo": ""
   }
  ],
  "region": "ES"
