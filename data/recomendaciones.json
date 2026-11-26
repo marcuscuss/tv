@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T21:50:51.409Z",
+ "actualizado": "2026-11-26T08:38:17.931Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -658,6 +658,27 @@
      "trailer": "9U7z35zbxPk"
     },
     {
+     "id": 520318,
+     "title": "Fátima, la película",
+     "year": "2020",
+     "release_date": "2020-08-13",
+     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
+     "vote_average": 7.2,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads",
+      "Diamond Films Plus Amazon Channel"
+     ],
+     "trailer": "PvokEpA439o"
+    },
+    {
      "id": 345938,
      "title": "La cabaña",
      "year": "2017",
@@ -675,6 +696,40 @@
       "Lionsgate+ Amazon Channel"
      ],
      "trailer": "Ouc9W0GRlQw"
+    },
+    {
+     "id": 69557,
+     "title": "Siempre estoy sola",
+     "year": "1964",
+     "release_date": "1964-07-16",
+     "overview": "Jo es una mujer que se ha casado varias veces. Parece que con Jake, su último marido, ha encontrado por fin la estabilidad que necesitaba; pero cuando descubre que Jake le es infiel y, además, está embarazada, todo se vendrá abajo.",
+     "vote_average": 6.6,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/5julfooBr6TgRVwNvnzYsXiGtmS.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/jxyLXwFaccE8XzhF62HauyXJi14.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hi6vEbiPtKYDtWuz9l4mS37B19m.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "JCD2382CTN4"
+    },
+    {
+     "id": 29697,
+     "title": "Confianza en la cosecha",
+     "year": "2006",
+     "release_date": "2006-10-27",
+     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
+     "vote_average": 7.4,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "providers": [],
+     "trailer": "JxTFqsy5Pxs"
     },
     {
      "id": 127373,
@@ -716,22 +771,6 @@
      "trailer": "iLR3gZrU2Xo"
     },
     {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
-     "providers": [],
-     "trailer": "YuMBAq-ROh4"
-    },
-    {
      "id": 1217690,
      "title": "El refugio",
      "year": "2024",
@@ -767,38 +806,20 @@
      "trailer": "sqEc-cRsFxM"
     },
     {
-     "id": 29697,
-     "title": "Confianza en la cosecha",
-     "year": "2006",
-     "release_date": "2006-10-27",
-     "overview": "Cuando parecía que no había esperanza... su confianza les sacó adelante. Angus Buchan es un granjero que se muda con su familia a Sudáfrica, pero allí sufre una serie de insalvables pérdidas. Gracias a inesperadas amistades descubrirá su objetivo en la vida y éste sostendrá su inquebrantable creencia en el poder de la fe. Basada en una historia real, esta es la historia del proceso vital de un hombre que cultivó su fe.",
-     "vote_average": 7.4,
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/aDbCnYtGf850s9EfU3LOh1gejm4.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/AmFI0bO30mOxdqmPrD0swnSxldI.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
      "providers": [],
-     "trailer": "JxTFqsy5Pxs"
-    },
-    {
-     "id": 69557,
-     "title": "Siempre estoy sola",
-     "year": "1964",
-     "release_date": "1964-07-16",
-     "overview": "Jo es una mujer que se ha casado varias veces. Parece que con Jake, su último marido, ha encontrado por fin la estabilidad que necesitaba; pero cuando descubre que Jake le es infiel y, además, está embarazada, todo se vendrá abajo.",
-     "vote_average": 6.6,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/5julfooBr6TgRVwNvnzYsXiGtmS.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jxyLXwFaccE8XzhF62HauyXJi14.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hi6vEbiPtKYDtWuz9l4mS37B19m.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "JCD2382CTN4"
+     "trailer": "YuMBAq-ROh4"
     },
     {
      "id": 1243381,
@@ -822,39 +843,20 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 499338,
-     "title": "I Believe",
-     "year": "2019",
-     "release_date": "2019-06-06",
-     "overview": "Un niño de 9 años experimenta el poder de Dios de una manera sobrenatural.",
-     "vote_average": 7.8,
+     "id": 25062,
+     "title": "Un sabor a miel",
+     "year": "1961",
+     "release_date": "1961-10-01",
+     "overview": "Una chica de 17 años vive en un barrio obrero inglés con su madre, una mujer alcohólica y promiscua que la ignora por completo. Un día, tras la marcha de la madre con un nuevo novio, se hace amiga de un joven homosexual, que está dispuesto a cuidarla a ella y a su futuro hijo, pues la chica se ha quedado embarazada después de una aventura esporádica con un marinero.",
+     "vote_average": 7.1,
      "genres": [
-      "Familia",
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/lFeTYNVI1PYQqKj4FusJMplqd07.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/5Tw3Z9vcu1Hwo1CijEPineKPkFO.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/43aCQFMAZWt3AjzM30dcHiAW5p.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/5psrZNVZ9E6Eck7OtpO47A8zTbQ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/zalZRF7sCtghHFg4xCBJfOqj0h5.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qWdqgsJ1x9zwMwMeQLhkxOzK1Hg.jpg",
      "providers": [],
-     "trailer": "amVlQozDJkI"
-    },
-    {
-     "id": 29989,
-     "title": "Skin",
-     "year": "2009",
-     "release_date": "2009-07-24",
-     "overview": "Basado en la historia real de una niña negra que nació de dos padres afrikaners blancos en Sudáfrica durante la era del apartheid.",
-     "vote_average": 6.4,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/lRKQ0CXJF1cIO1kc2XqdWptbaAX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "wbj691Z1Z1E"
+     "trailer": "y7LK_-rUfdU"
     }
    ]
   },
@@ -3577,7 +3579,7 @@
     "year": "2026",
     "release_date": "2026-11-18",
     "overview": "Una estricta guardaespaldas viaja a un rancho de Montana con el famoso actor al que protege. Pero al fingir ser pareja por Navidad surge un amor real.",
-    "vote_average": 6.9,
+    "vote_average": 6.8,
     "genres": [
      "Romance",
      "Comedia"
@@ -3723,6 +3725,27 @@
     "trailer": "IoYahD_xNR0"
    },
    {
+    "id": 331482,
+    "title": "Mujercitas",
+    "year": "2019",
+    "release_date": "2019-12-25",
+    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
+    "vote_average": 7.9,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/mE9NUKAP6hLhfQ00nr3NObDLekG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Tivify",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "6SN9-6uST80"
+   },
+   {
     "id": 845781,
     "title": "Red One",
     "year": "2024",
@@ -3764,27 +3787,6 @@
      "Disney Plus"
     ],
     "trailer": "j8jOwPbZ-W0"
-   },
-   {
-    "id": 331482,
-    "title": "Mujercitas",
-    "year": "2019",
-    "release_date": "2019-12-25",
-    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
-    "vote_average": 7.9,
-    "genres": [
-     "Drama",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/mE9NUKAP6hLhfQ00nr3NObDLekG.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Tivify",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "6SN9-6uST80"
    },
    {
     "id": 5255,

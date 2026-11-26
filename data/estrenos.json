@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T21:50:30.212Z",
+ "actualizado": "2026-11-26T08:37:48.357Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -37,6 +37,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg"
   },
   {
+   "id": 1765072,
+   "title": "Puedes verlo todo",
+   "release_date": "2026-11-26",
+   "overview": "Treinta y cuatro días antes de ingresar en prisión, la famosa fundadora de Theranos, Elizabeth Holmes, invita a un equipo de rodaje escéptico a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo se convierte en un alucinante viaje de tres años.",
+   "vote_average": 8.6,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/hcuFuAlGeQy1yKhd3I0hZ5sgCzl.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+   "providers": [],
+   "trailer": "-B-gh1BlS4w",
+   "fondo": "https://image.tmdb.org/t/p/original/rrbbzCyS45yooXpUGJatfptlHYI.jpg"
+  },
+  {
    "id": 656908,
    "title": "Ramayana: El Nacimiento de una Leyenda",
    "release_date": "2026-11-06",
@@ -71,6 +86,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
   },
   {
+   "id": 1195803,
+   "title": "Wicker",
+   "release_date": "2026-10-30",
+   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
+   "vote_average": 7.5,
+   "genres": [
+    "Romance",
+    "Fantasía",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
+   "providers": [],
+   "trailer": "jA5zfiikcu8",
+   "fondo": "https://image.tmdb.org/t/p/original/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg"
+  },
+  {
    "id": 1567605,
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
@@ -85,23 +117,6 @@
    "providers": [],
    "trailer": "D-n-lqKVr78",
    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg"
-  },
-  {
-   "id": 1195803,
-   "title": "Wicker",
-   "release_date": "2026-10-30",
-   "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.4,
-   "genres": [
-    "Romance",
-    "Fantasía",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ewPz6uvKrbKlQrLRi1r9NTZQLzN.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg",
-   "providers": [],
-   "trailer": "jA5zfiikcu8",
-   "fondo": "https://image.tmdb.org/t/p/original/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg"
   },
   {
    "id": 791523,
@@ -138,23 +153,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg"
   },
   {
-   "id": 1437511,
-   "title": "Como robar un banco",
-   "release_date": "2026-11-13",
-   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.5,
-   "genres": [
-    "Acción",
-    "Crimen",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
-   "providers": [],
-   "trailer": "tKtg0S1rm2M",
-   "fondo": "https://image.tmdb.org/t/p/original/u38hNQbxvIicUdfrHpqa9puBnA9.jpg"
-  },
-  {
    "id": 1117898,
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
@@ -174,21 +172,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
   },
   {
-   "id": 891621,
-   "title": "Wild Horse Nine",
+   "id": 1437511,
+   "title": "Como robar un banco",
    "release_date": "2026-11-13",
-   "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
-   "vote_average": 7.9,
+   "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
+   "vote_average": 6.5,
    "genres": [
-    "Comedia",
+    "Acción",
     "Crimen",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/bLDrHn76oiNYiELv1qw3Tfdkqc8.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/xS35fgWgRdF2em5MGxg5WG9dPKd.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/u38hNQbxvIicUdfrHpqa9puBnA9.jpg",
    "providers": [],
-   "trailer": "kqxuamKxRTo",
-   "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
+   "trailer": "tKtg0S1rm2M",
+   "fondo": "https://image.tmdb.org/t/p/original/u38hNQbxvIicUdfrHpqa9puBnA9.jpg"
   },
   {
    "id": 1284046,
@@ -208,6 +206,40 @@
    "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
+   "id": 891621,
+   "title": "Wild Horse Nine",
+   "release_date": "2026-11-13",
+   "overview": "Poco antes del golpe de Estado chileno de 1973, los agentes de la CIA Chris y Lee son enviados desde Santiago a la Isla de Pascua por su jefa de la oficina, MJ. Entre las emblemáticas estatuas de la isla, y mientras los veteranos compañeros lidian con sus oscuros pasados ​​y conspiraciones actuales, el nuevo vínculo que Chris establece con un par de estudiantes rebeldes amenaza con desbaratar el viaje de todos a este remoto paraíso.",
+   "vote_average": 7.9,
+   "genres": [
+    "Comedia",
+    "Crimen",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/bLDrHn76oiNYiELv1qw3Tfdkqc8.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3uLA0ujne91bkzFStZICCYeqhnt.jpg",
+   "providers": [],
+   "trailer": "kqxuamKxRTo",
+   "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
+  },
+  {
+   "id": 1548369,
+   "title": "Gungo y Los Juegos Cavernícolas",
+   "release_date": "2026-10-30",
+   "overview": "",
+   "vote_average": 8.9,
+   "genres": [
+    "Animación",
+    "Comedia",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gv9Mmo1jhwtHfEoNKIUVy1EWzpg.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
+  },
+  {
    "id": 1503762,
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
@@ -222,55 +254,6 @@
    "providers": [],
    "trailer": "GMwdcpKOOyY",
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
-  },
-  {
-   "id": 1548369,
-   "title": "Gungo y Los Juegos Cavernícolas",
-   "release_date": "2026-10-30",
-   "overview": "",
-   "vote_average": 9,
-   "genres": [
-    "Animación",
-    "Comedia",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gv9Mmo1jhwtHfEoNKIUVy1EWzpg.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
-  },
-  {
-   "id": 1379486,
-   "title": "Victorian Psycho",
-   "release_date": "2026-11-13",
-   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
-   "vote_average": 6.3,
-   "genres": [
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
-   "providers": [],
-   "trailer": "sDiFol_2j2I",
-   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
-  },
-  {
-   "id": 1564614,
-   "title": "Leviticus",
-   "release_date": "2026-10-30",
-   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
-   "vote_average": 6.8,
-   "genres": [
-    "Terror",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/zXvwSBe2kwtwO9S2OZwUVWKAVOp.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/ekFr4AyEpwyIHK1R3VOYDXN2PqL.jpg",
-   "providers": [],
-   "trailer": "WXuK0vlFxII",
-   "fondo": "https://image.tmdb.org/t/p/original/ekFr4AyEpwyIHK1R3VOYDXN2PqL.jpg"
   },
   {
    "id": 1477104,
@@ -291,21 +274,20 @@
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
   },
   {
-   "id": 1240889,
-   "title": "Adolescencia, sexo y muerte en campamento Miasma",
-   "release_date": "2026-11-20",
-   "overview": "Tras años de secuelas cutres y un fandom en declive, la franquicia slasher 'Camp Miasma' es puesta en manos de una joven y entusiasta directora para que la resucite. Pero cuando visita a la estrella de la película original, una actriz que ahora vive recluida y envuelta en misterio, las dos caen en una espiral de sangre, deseo, miedo y delirio.",
-   "vote_average": 6.1,
+   "id": 1564614,
+   "title": "Leviticus",
+   "release_date": "2026-10-30",
+   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
+   "vote_average": 6.8,
    "genres": [
-    "Comedia",
     "Terror",
     "Romance"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/zXvwSBe2kwtwO9S2OZwUVWKAVOp.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/8stjEyaNvZrWAgLODiJoeBDmxza.jpg",
    "providers": [],
-   "trailer": "UsIpCaOBCIQ",
-   "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
+   "trailer": "WXuK0vlFxII",
+   "fondo": "https://image.tmdb.org/t/p/original/8stjEyaNvZrWAgLODiJoeBDmxza.jpg"
   },
   {
    "id": 841,
@@ -327,20 +309,37 @@
    "fondo": "https://image.tmdb.org/t/p/original/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg"
   },
   {
-   "id": 1748404,
-   "title": "Always Yours, Never Mine",
-   "release_date": "2026-11-01",
-   "overview": "",
-   "vote_average": 5,
+   "id": 1240889,
+   "title": "Adolescencia, sexo y muerte en campamento Miasma",
+   "release_date": "2026-11-20",
+   "overview": "Tras años de secuelas cutres y un fandom en declive, la franquicia slasher 'Camp Miasma' es puesta en manos de una joven y entusiasta directora para que la resucite. Pero cuando visita a la estrella de la película original, una actriz que ahora vive recluida y envuelta en misterio, las dos caen en una espiral de sangre, deseo, miedo y delirio.",
+   "vote_average": 6.1,
    "genres": [
-    "Romance",
-    "Drama"
+    "Comedia",
+    "Terror",
+    "Romance"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/sDAbgrVhhdQxkPQwtBWpGhVtJ5b.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
    "providers": [],
-   "trailer": "mI2_DVu08dI",
-   "fondo": "https://image.tmdb.org/t/p/original/b30BEsc6z7sni9AtkHAL1WuxkYP.jpg"
+   "trailer": "UsIpCaOBCIQ",
+   "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
+  },
+  {
+   "id": 1379486,
+   "title": "Victorian Psycho",
+   "release_date": "2026-11-13",
+   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
+   "vote_average": 6.3,
+   "genres": [
+    "Terror",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
+   "providers": [],
+   "trailer": "sDiFol_2j2I",
+   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
   }
  ],
  "upcoming": [
@@ -414,7 +413,7 @@
    "title": "Club Kid",
    "release_date": "2026-12-04",
    "overview": "Peter (Jordan Firstman), un promotor de fiestas underground de Nueva York acostumbrado a vivir entre excesos, música electrónica y noches interminables, ve cómo su mundo da un vuelco cuando una desconocida aparece en su puerta con Arlo (Reggie Absolom), un niño de 10 años que asegura que es su hijo. Lo que comienza como una situación imposible pronto da paso a una loca, divertida y tierna conexión, tan inesperada como transformadora.",
-   "vote_average": 7.8,
+   "vote_average": 7.9,
    "genres": [
     "Comedia",
     "Drama"
