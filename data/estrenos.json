@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T08:37:48.357Z",
+ "actualizado": "2026-11-26T21:44:21.949Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -90,7 +90,7 @@
    "title": "Wicker",
    "release_date": "2026-10-30",
    "overview": "Una pescadora vive en la periferia de un pueblo costero; es soltera, apestosa y objeto de burlas constantes. Un día, harta de sus estirados y estrechos vecinos, encarga un marido de mimbre para ella.",
-   "vote_average": 7.5,
+   "vote_average": 7.6,
    "genres": [
     "Romance",
     "Fantasía",
@@ -193,7 +193,7 @@
    "title": "Aniquilación",
    "release_date": "2026-10-30",
    "overview": "Una francotiradora del ejército utiliza sus habilidades para proteger a su hija de un escuadrón de máquinas asesinas que escapó de una base militar secreta, mientras unos mercenarios intentan contenerla.",
-   "vote_average": 5.6,
+   "vote_average": 5.7,
    "genres": [
     "Acción",
     "Terror",
@@ -227,7 +227,7 @@
    "title": "Gungo y Los Juegos Cavernícolas",
    "release_date": "2026-10-30",
    "overview": "",
-   "vote_average": 8.9,
+   "vote_average": 8.8,
    "genres": [
     "Animación",
     "Comedia",
@@ -353,7 +353,7 @@
     "Terror",
     "Suspense"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/lsSu0VlpdnQgNer3EYp81444awE.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
    "providers": [],
    "trailer": "IIoEnagIMpI",
@@ -370,27 +370,11 @@
     "Suspense",
     "Misterio"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/aMFx35t0T61S1ILDZrycPFRu95u.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/elfSneOaK7vJaIr7DgLYJ0Fvj4c.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg",
    "providers": [],
    "trailer": "q5oWCPS3akw",
    "fondo": "https://image.tmdb.org/t/p/original/34z9eBtEBv6QoroLuUA55cU3e8Q.jpg"
-  },
-  {
-   "id": 1437696,
-   "title": "Ojczyzna",
-   "release_date": "2026-12-04",
-   "overview": "En 1949, Thomas Mann, premio Nobel de Literatura, regresa por primera vez a Alemania tras el final de la guerra, acompañado por su hija Erika (actriz, escritora y piloto de rallies). A bordo de un Buick negro, emprenden un viaje duro por el país que abandonaron dieciséis años antes, cuando los nazis llegaron al poder. Desde Fráncfort (bajo control estadounidense) hasta Weimar (bajo control soviético), padre e hija atraviesan una Alemania en ruinas, ya partida en dos por la Guerra Fría.",
-   "vote_average": 7.2,
-   "genres": [
-    "Drama",
-    "Historia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg",
-   "providers": [],
-   "trailer": "52zHLYf25M0",
-   "fondo": "https://image.tmdb.org/t/p/original/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg"
   },
   {
    "id": 1078446,
@@ -402,7 +386,7 @@
     "Acción",
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/bMGudrgP3ZVD9IPF73BYLdnrNSE.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/umpPayqiHjj6ErEC4c1IJ8N28SN.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
    "providers": [],
    "trailer": "kAExvESKk1c",
@@ -419,10 +403,26 @@
     "Drama"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/l4q1gziNMhpVQAzCIwmtbLSB1T9.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/m5zcXuV4qR9fBgXjPndLIPOcasF.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/767ZDrZk48YlKM4cmOvdQF9yFHn.jpg",
    "providers": [],
    "trailer": "guKEdb_iRXw",
    "fondo": "https://image.tmdb.org/t/p/original/64VAgcAtGHBccnBQBur1Z2HRLAC.jpg"
+  },
+  {
+   "id": 1437696,
+   "title": "Ojczyzna",
+   "release_date": "2026-12-04",
+   "overview": "En 1949, Thomas Mann, premio Nobel de Literatura, regresa por primera vez a Alemania tras el final de la guerra, acompañado por su hija Erika (actriz, escritora y piloto de rallies). A bordo de un Buick negro, emprenden un viaje duro por el país que abandonaron dieciséis años antes, cuando los nazis llegaron al poder. Desde Fráncfort (bajo control estadounidense) hasta Weimar (bajo control soviético), padre e hija atraviesan una Alemania en ruinas, ya partida en dos por la Guerra Fría.",
+   "vote_average": 7.2,
+   "genres": [
+    "Drama",
+    "Historia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/mb1lrVrsCumVG9MApkTJLu58CZC.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg",
+   "providers": [],
+   "trailer": "52zHLYf25M0",
+   "fondo": "https://image.tmdb.org/t/p/original/zKoBjLggS4v22a9ZiCvmLaZrht7.jpg"
   },
   {
    "id": 1498050,
@@ -466,7 +466,7 @@
    "genres": [
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/A6JtulwvU0fdfF8sPJeST8auhIz.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/yLVmxAX8qCjz9BMUWjEuqgfeMCn.jpg",
    "backdrop": "",
    "providers": [],
    "trailer": "",
@@ -509,22 +509,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/kGGYjn3KpB2FUa5X7wAGs7MZQFD.jpg"
   },
   {
-   "id": 1259983,
-   "title": "Gourou",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 6,
-   "genres": [
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ufdcPu8CdcsC0c73pATNjYXEmMR.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/t77v17Y74eIQDSITsBHtiySOGPr.jpg",
-   "providers": [],
-   "trailer": "18dcAAAQoZ4",
-   "fondo": "https://image.tmdb.org/t/p/original/t77v17Y74eIQDSITsBHtiySOGPr.jpg"
-  },
-  {
    "id": 1454680,
    "title": "Victor comme tout le monde",
    "release_date": "2026-12-11",
@@ -539,6 +523,22 @@
    "providers": [],
    "trailer": "XQxxIeqOI10",
    "fondo": "https://image.tmdb.org/t/p/original/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg"
+  },
+  {
+   "id": 1259983,
+   "title": "Gourou",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 6,
+   "genres": [
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ufdcPu8CdcsC0c73pATNjYXEmMR.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/t77v17Y74eIQDSITsBHtiySOGPr.jpg",
+   "providers": [],
+   "trailer": "18dcAAAQoZ4",
+   "fondo": "https://image.tmdb.org/t/p/original/t77v17Y74eIQDSITsBHtiySOGPr.jpg"
   },
   {
    "id": 1276521,
@@ -560,22 +560,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/2skPNvhiF3B0pUigNm1L5KLWvrk.jpg"
   },
   {
-   "id": 1437703,
-   "title": "Moscas",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 7.4,
-   "genres": [
-    "Drama",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/hs9huYKLyKdcI8LJw9DZ8eiW850.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
-   "providers": [],
-   "trailer": "wtuCOy5ZW6A",
-   "fondo": "https://image.tmdb.org/t/p/original/ipnlu4R8O4XZjozLl5Ew3LXxw6j.jpg"
-  },
-  {
    "id": 1306291,
    "title": "El profesor y el amor",
    "release_date": "2026-12-11",
@@ -584,7 +568,7 @@
    "genres": [
     "Comedia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/pAXDKVr5qErSlyv9WB3lJ8cdPip.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/aNrEs6UErVCo6vLYQ2mBwetjiTx.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/1WVVqnO9Zz7S4T87Ly5at3WHiC.jpg",
    "providers": [],
    "trailer": "_KjwZViG1-8",
@@ -605,6 +589,22 @@
    "providers": [],
    "trailer": "Syp1bGpWTSs",
    "fondo": "https://image.tmdb.org/t/p/original/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg"
+  },
+  {
+   "id": 1437703,
+   "title": "Moscas",
+   "release_date": "2026-12-11",
+   "overview": "",
+   "vote_average": 7.4,
+   "genres": [
+    "Drama",
+    "Comedia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/hs9huYKLyKdcI8LJw9DZ8eiW850.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
+   "providers": [],
+   "trailer": "wtuCOy5ZW6A",
+   "fondo": "https://image.tmdb.org/t/p/original/ipnlu4R8O4XZjozLl5Ew3LXxw6j.jpg"
   },
   {
    "id": 1560309,
