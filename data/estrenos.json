@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T21:44:21.949Z",
+ "actualizado": "2026-11-27T08:49:07.856Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -13,7 +13,7 @@
     "Acción",
     "Aventura"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/aGFIoSGOv5iJGCviwGQJEfnHXIv.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/eKYwrBki1B2DqS3ZtSN1IyVL7lW.jpg",
    "backdrop": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
    "providers": [],
    "trailer": "71wxo7pAKVE",
@@ -46,10 +46,10 @@
     "Documental"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/hcuFuAlGeQy1yKhd3I0hZ5sgCzl.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg",
    "providers": [],
    "trailer": "-B-gh1BlS4w",
-   "fondo": "https://image.tmdb.org/t/p/original/rrbbzCyS45yooXpUGJatfptlHYI.jpg"
+   "fondo": "https://image.tmdb.org/t/p/original/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg"
   },
   {
    "id": 656908,
@@ -69,23 +69,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg"
   },
   {
-   "id": 1381071,
-   "title": "Godzilla Minus Zero",
-   "release_date": "2026-11-06",
-   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
-   "vote_average": 7.7,
-   "genres": [
-    "Ciencia ficción",
-    "Terror",
-    "Acción"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
-   "providers": [],
-   "trailer": "Pu0pH5BuCPM",
-   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
-  },
-  {
    "id": 1195803,
    "title": "Wicker",
    "release_date": "2026-10-30",
@@ -103,6 +86,40 @@
    "fondo": "https://image.tmdb.org/t/p/original/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg"
   },
   {
+   "id": 1538497,
+   "title": "Hechizo: Bienvenidos a Hexe",
+   "release_date": "2026-11-27",
+   "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
+   "vote_average": 5.8,
+   "genres": [
+    "Animación",
+    "Fantasía",
+    "Familia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/wdjW11Tp4w9EfDBxbjyBJvDVHDA.jpg",
+   "providers": [],
+   "trailer": "wkr5TpxKOTw",
+   "fondo": "https://image.tmdb.org/t/p/original/wdjW11Tp4w9EfDBxbjyBJvDVHDA.jpg"
+  },
+  {
+   "id": 1381071,
+   "title": "Godzilla Minus Zero",
+   "release_date": "2026-11-06",
+   "overview": "La guerra dejó a Japón en la ruina, y Godzilla lo sumió en una situación aún peor. Han pasado dos años desde entonces, y el país ha librado una lucha ardua por recuperarse y finalmente retomar su vida cotidiana. Justo cuando la humanidad lograba aferrarse a una paz duramente conquistada, una nueva amenaza irrumpe, aplastando la esperanza en un instante.",
+   "vote_average": 7.7,
+   "genres": [
+    "Ciencia ficción",
+    "Terror",
+    "Acción"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/2B7ZSUutCgwUAE5U0X7WlD8yiun.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+   "providers": [],
+   "trailer": "Pu0pH5BuCPM",
+   "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
+  },
+  {
    "id": 1567605,
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
@@ -117,6 +134,22 @@
    "providers": [],
    "trailer": "D-n-lqKVr78",
    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg"
+  },
+  {
+   "id": 1400336,
+   "title": "Ahora los suegros son ellos",
+   "release_date": "2026-11-27",
+   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
+   "vote_average": 7.1,
+   "genres": [
+    "Comedia",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iU2XxFhMxC5Z2gOPASkRmtuDjJQ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "providers": [],
+   "trailer": "j0MROuSV-pA",
+   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
   },
   {
    "id": 791523,
@@ -153,6 +186,24 @@
    "fondo": "https://image.tmdb.org/t/p/original/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg"
   },
   {
+   "id": 822653,
+   "title": "Puella Magi Madoka Magica. La película: La noche de Walpurgis - El ascenso",
+   "release_date": "2026-11-27",
+   "overview": "Akemi Homura, que se convirtió en un demonio por su devoción a Madoka Kaname. En un mundo recién creado, las chicas mágicas vuelven a aparecer. Los engranajes del mundo de Puella Magi Madoka Magica comienzan a girar lentamente de nuevo.",
+   "vote_average": 8,
+   "genres": [
+    "Animación",
+    "Drama",
+    "Misterio",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9szX9jqjCwrBVp4Ggo98dJvyeOZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xzm3RfWh932rS28WErNC3u8qzVm.jpg",
+   "providers": [],
+   "trailer": "xfniSyRH-CM",
+   "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
+  },
+  {
    "id": 1117898,
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
@@ -170,6 +221,23 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
+  },
+  {
+   "id": 1548369,
+   "title": "Gungo y Los Juegos Cavernícolas",
+   "release_date": "2026-10-30",
+   "overview": "",
+   "vote_average": 8.9,
+   "genres": [
+    "Animación",
+    "Comedia",
+    "Aventura"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/gv9Mmo1jhwtHfEoNKIUVy1EWzpg.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
   },
   {
    "id": 1437511,
@@ -206,6 +274,23 @@
    "fondo": "https://image.tmdb.org/t/p/original/pmPXXniQlb4EdYY0gVZO90rf54F.jpg"
   },
   {
+   "id": 1457866,
+   "title": "Las nuevas desventuras de Cliff Booth",
+   "release_date": "2026-11-27",
+   "overview": "Ocho años después de los eventos de \"Érase una vez en... Hollywood\", Cliff Booth regresa a un Los Ángeles cambiante. Ahora trabajando como \"fixer\" en las sombras del sistema de estudios de Hollywood, Cliff se verá envuelto en una peligrosa red de secretos, crímenes y traiciones que pondrán a prueba todo lo que conoce sobre lealtad y supervivencia.",
+   "vote_average": 8,
+   "genres": [
+    "Comedia",
+    "Drama",
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/40bbOEa0ISI1KQmQmy2zQ2DD0tD.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/aRO4TuqF8dkRCb5tPlsSlpJbmQD.jpg",
+   "providers": [],
+   "trailer": "fJH-wfSXnWg",
+   "fondo": "https://image.tmdb.org/t/p/original/aRO4TuqF8dkRCb5tPlsSlpJbmQD.jpg"
+  },
+  {
    "id": 891621,
    "title": "Wild Horse Nine",
    "release_date": "2026-11-13",
@@ -221,23 +306,6 @@
    "providers": [],
    "trailer": "kqxuamKxRTo",
    "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
-  },
-  {
-   "id": 1548369,
-   "title": "Gungo y Los Juegos Cavernícolas",
-   "release_date": "2026-10-30",
-   "overview": "",
-   "vote_average": 8.8,
-   "genres": [
-    "Animación",
-    "Comedia",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/gv9Mmo1jhwtHfEoNKIUVy1EWzpg.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/upxQBHRpgUJx33d1iG6rpzg0M5S.jpg"
   },
   {
    "id": 1503762,
@@ -272,74 +340,6 @@
    "providers": [],
    "trailer": "daZMq0AyOMc",
    "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
-  },
-  {
-   "id": 1564614,
-   "title": "Leviticus",
-   "release_date": "2026-10-30",
-   "overview": "Dos adolescentes en un pequeño pueblo rural son atormentados por una violenta entidad sobrenatural que adopta la forma de la persona que más desean.",
-   "vote_average": 6.8,
-   "genres": [
-    "Terror",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/zXvwSBe2kwtwO9S2OZwUVWKAVOp.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/8stjEyaNvZrWAgLODiJoeBDmxza.jpg",
-   "providers": [],
-   "trailer": "WXuK0vlFxII",
-   "fondo": "https://image.tmdb.org/t/p/original/8stjEyaNvZrWAgLODiJoeBDmxza.jpg"
-  },
-  {
-   "id": 841,
-   "title": "Dune",
-   "release_date": "1985-01-10",
-   "overview": "Por orden imperial la familia Atreides deberá hacerse cargo de la explotación del desértico planeta de Arrakis, conocido también como Dune, el único planeta donde se encuentra 'la especia', una potente droga que, además, es necesaria para los vuelos espaciales.",
-   "vote_average": 6.2,
-   "genres": [
-    "Acción",
-    "Ciencia ficción",
-    "Aventura"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/sk4eTjGfp58RLRr67qzFUbX9EPl.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg",
-   "providers": [
-    "Filmin"
-   ],
-   "trailer": "mtLd5CWuwbo",
-   "fondo": "https://image.tmdb.org/t/p/original/5wJ2tckpvwcxGCAgZiccodwEJpf.jpg"
-  },
-  {
-   "id": 1240889,
-   "title": "Adolescencia, sexo y muerte en campamento Miasma",
-   "release_date": "2026-11-20",
-   "overview": "Tras años de secuelas cutres y un fandom en declive, la franquicia slasher 'Camp Miasma' es puesta en manos de una joven y entusiasta directora para que la resucite. Pero cuando visita a la estrella de la película original, una actriz que ahora vive recluida y envuelta en misterio, las dos caen en una espiral de sangre, deseo, miedo y delirio.",
-   "vote_average": 6.1,
-   "genres": [
-    "Comedia",
-    "Terror",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
-   "providers": [],
-   "trailer": "UsIpCaOBCIQ",
-   "fondo": "https://image.tmdb.org/t/p/original/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg"
-  },
-  {
-   "id": 1379486,
-   "title": "Victorian Psycho",
-   "release_date": "2026-11-13",
-   "overview": "En 1858, la misteriosa institutriz Winifred Notty llega a Ensor House para educar a los hijos de la familia. Su disciplina extrema y su inquietante presencia despiertan sospechas, mientras los empleados de la mansión comienzan a desaparecer sin dejar rastro. Los dueños pronto descubren que tras su apariencia impecable se esconden secretos perturbadores.",
-   "vote_average": 6.3,
-   "genres": [
-    "Terror",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
-   "providers": [],
-   "trailer": "sDiFol_2j2I",
-   "fondo": "https://image.tmdb.org/t/p/original/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg"
   }
  ],
  "upcoming": [
@@ -473,6 +473,158 @@
    "fondo": ""
   },
   {
+   "id": 1596306,
+   "title": "Kikuyu Land",
+   "release_date": "2026-12-05",
+   "overview": "Mientras un periodista de Nairobi investiga una disputa por tierras en la que se ven involucrados el gobierno local y una poderosa corporación multinacional, salen a la luz heridas ocultas y se revelan secretos familiares.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/a5YGraLDDgg6kTB5MxBzzrWjyWc.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/axxBd5qfi1uCOJI7JKBWFG1tMHz.jpg",
+   "providers": [],
+   "trailer": "ocRXBd1WaNc",
+   "fondo": "https://image.tmdb.org/t/p/original/axxBd5qfi1uCOJI7JKBWFG1tMHz.jpg"
+  },
+  {
+   "id": 1449004,
+   "title": "Pau D'Arco",
+   "release_date": "2026-12-05",
+   "overview": "Tras sobrevivir a una masacre en la que la policía mató a diez personas sin tierra en una finca de la región amazónica de Pará, Fernando —testigo clave del crimen— y su abogado, Vargas, luchan por la justicia y por el derecho a la tierra.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iB5nwpmZC4RHXFhOJyv9iaw5Pda.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/3XlBUAntxrZNEnM0FzuwoAVrmnv.jpg",
+   "providers": [],
+   "trailer": "gAhm7g3SWls",
+   "fondo": "https://image.tmdb.org/t/p/original/3XlBUAntxrZNEnM0FzuwoAVrmnv.jpg"
+  },
+  {
+   "id": 1635584,
+   "title": "La fjella leve",
+   "release_date": "2026-12-06",
+   "overview": "Los pastores de renos sami logran una victoria en el Tribunal Supremo frente al mayor parque eólico de Europa; sin embargo, ante la negativa del Estado a actuar, su lucha pone de manifiesto una crisis más profunda de justicia y confianza.",
+   "vote_average": 8,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/iBVQanqlWl0ccBoFyZpkJ82Qcdj.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/jQsGx0v85O3QgS6fzjjKbSQftR7.jpg",
+   "providers": [],
+   "trailer": "T0t4prVkwx0",
+   "fondo": "https://image.tmdb.org/t/p/original/jQsGx0v85O3QgS6fzjjKbSQftR7.jpg"
+  },
+  {
+   "id": 1602350,
+   "title": "Belleville nous verra toujours danser",
+   "release_date": "2026-12-06",
+   "overview": "Por la noche, Matthieu, Solo, Kany y su grupo se reúnen en «La Perm’», un espacio comunitario a los pies del parque de Belleville, para debatir, crear y construir un colectivo. Ante los cambios que transforman el barrio donde crecieron, «La Perm’» se convierte en un refugio y en un espacio compartido de resistencia. En el horizonte: «Belleville en Vrai», el festival donde todo lo que han sembrado podrá, por fin, florecer.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/yPUY8D8NZK4MKqvfsJjsE5ptRJ8.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/ox6zmQ1s5YfPa2Pv6my6TmsNYAG.jpg",
+   "providers": [],
+   "trailer": "Q__TRsujKlI",
+   "fondo": "https://image.tmdb.org/t/p/original/5b2bvafniI0a0B3ZoE1zCi0PQj.jpg"
+  },
+  {
+   "id": 1708667,
+   "title": "A LA CAZA (On the Hunt)",
+   "release_date": "2026-12-08",
+   "overview": "En un día de verano, Daniel y su novio Sergio disfrutan en la piscina hasta que un grupo de chicos los acosa, desencadenando una situación tan violenta como inesperada.",
+   "vote_average": 0,
+   "genres": [
+    "Suspense"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/heeuqTGxNxiNRMHgmLO03Lg1Qr4.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/nd0qHcr8hDUVqmT5LnnQUxnUS3i.jpg",
+   "providers": [],
+   "trailer": "oDRVDTgbFOw",
+   "fondo": "https://image.tmdb.org/t/p/original/nd0qHcr8hDUVqmT5LnnQUxnUS3i.jpg"
+  },
+  {
+   "id": 1254209,
+   "title": "기계의 나라에서",
+   "release_date": "2026-12-08",
+   "overview": "Cada año, muchos trabajadores asiáticos llegan a Corea del Sur con sueños de prosperidad, solo para enfrentarse a la explotación en lo que se conoce como la «Ciudad de las Máquinas». Este documental sigue a tres trabajadores nepalíes mientras soportan duras realidades y, al mismo tiempo, recuperan su dignidad a través de la poesía.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/7g0ZqZXj0EDATmoQGqgFMiElTtZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/7AMqlOKzLG19ykhLWcDhv3wj7ZR.jpg",
+   "providers": [],
+   "trailer": "_Xt-g31YIUw",
+   "fondo": "https://image.tmdb.org/t/p/original/7AMqlOKzLG19ykhLWcDhv3wj7ZR.jpg"
+  },
+  {
+   "id": 1494906,
+   "title": "El negre té nom",
+   "release_date": "2026-12-08",
+   "overview": "'El negre té nom' revela la verdadera identidad de la casa que durante décadas va a ser expuesta en una pieza de museo: el Negre de Banyoles. Ell va ser el protagonista de una política internacional que gairebé va fer trontollar los Juegos Olímpicos del 92. La película sirve como un vistazo a nuestra memoria reciente.",
+   "vote_average": 0,
+   "genres": [
+    "Documental",
+    "Historia"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/uzYWztunve13gEVzEjqyrrRkLUB.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/8aGOnjRJ7lhOFOQuyTR15E0XWOk.jpg",
+   "providers": [],
+   "trailer": "Q72lp5F678k",
+   "fondo": "https://image.tmdb.org/t/p/original/8aGOnjRJ7lhOFOQuyTR15E0XWOk.jpg"
+  },
+  {
+   "id": 1492967,
+   "title": "Hlas lesa",
+   "release_date": "2026-12-08",
+   "overview": "El bosque se cultiva con la sierra. Al menos, eso es lo que todavía se enseña en las escuelas forestales. Pero ¿qué necesita realmente un bosque sano? Los silvicultores y los cazadores ven el bosque como un recurso agrícola, y la naturaleza como algo que debe ser constantemente regulado y gestionado. En el otro extremo se encuentran los conservacionistas —defensores de la no intervención—, quienes sostienen que el bosque puede valerse por sí mismo, sin nuestra ayuda. ¿Qué papel desempeña la propiedad privada en este conflicto? ¿Y es el derecho del ser humano a utilizar los recursos naturales de su entorno superior al derecho de un oso a hacer lo mismo? Los bosques eslovacos se han convertido en un campo de batalla; pero, además, son el reflejo de un conflicto social mucho más profundo de lo que parece a simple vista.",
+   "vote_average": 0,
+   "genres": [
+    "Documental"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/ebm15nQzdsdXvpgB9eyBoTqo6v9.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kan7b0LC5T7G4lE6iGVLnyzkmU4.jpg",
+   "providers": [],
+   "trailer": "4wZecaneMHY",
+   "fondo": "https://image.tmdb.org/t/p/original/kan7b0LC5T7G4lE6iGVLnyzkmU4.jpg"
+  },
+  {
+   "id": 1443460,
+   "title": "My Name Is Hope",
+   "release_date": "2026-12-09",
+   "overview": "Un cortometraje que captura la eterna lucha entre opresores y oprimidos en una era en la que el olvido se convierte en el arma más mortífera contra la libertad.",
+   "vote_average": 7,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9sQSTLuxpp7hLrIIUenbVZcu77h.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/gUuSEtJbgf5DTvQqMJbYTzkED0R.jpg",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/gUuSEtJbgf5DTvQqMJbYTzkED0R.jpg"
+  },
+  {
+   "id": 1457470,
+   "title": "Rosine",
+   "release_date": "2026-12-09",
+   "overview": "Cuenta la historia real de Rosine Makosso, una mujer congoleña en exilio político que murió mientras esperaba una respuesta a su petición de asilo en Europa.",
+   "vote_average": 0,
+   "genres": [
+    "Documental",
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/i39Gvf6cWc2iT8ZBqrb110rz5u4.jpg",
+   "backdrop": "",
+   "providers": [],
+   "trailer": "",
+   "fondo": "https://image.tmdb.org/t/p/original/ywwRmMVG1QJRQHZ5asoqQsdyyka.jpg"
+  },
+  {
    "id": 1377237,
    "title": "Entrega al límite",
    "release_date": "2026-12-11",
@@ -507,167 +659,6 @@
    "providers": [],
    "trailer": "X1b6_699HqY",
    "fondo": "https://image.tmdb.org/t/p/original/kGGYjn3KpB2FUa5X7wAGs7MZQFD.jpg"
-  },
-  {
-   "id": 1454680,
-   "title": "Victor comme tout le monde",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 6.1,
-   "genres": [
-    "Drama",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/eQnsG3eFupvzgn6BWuCNAFqlgMT.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg",
-   "providers": [],
-   "trailer": "XQxxIeqOI10",
-   "fondo": "https://image.tmdb.org/t/p/original/vmgg3BZ7xSTawLcm2ATg7telLpF.jpg"
-  },
-  {
-   "id": 1259983,
-   "title": "Gourou",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 6,
-   "genres": [
-    "Drama",
-    "Suspense"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ufdcPu8CdcsC0c73pATNjYXEmMR.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/t77v17Y74eIQDSITsBHtiySOGPr.jpg",
-   "providers": [],
-   "trailer": "18dcAAAQoZ4",
-   "fondo": "https://image.tmdb.org/t/p/original/t77v17Y74eIQDSITsBHtiySOGPr.jpg"
-  },
-  {
-   "id": 1276521,
-   "title": "Charlie el superperro",
-   "release_date": "2026-12-11",
-   "overview": "Charlie es un perro muy especial: curioso, optimista y con una sensibilidad única para entender a quienes le rodean. Aunque a simple vista parece un cachorro normal, Charlie tiene un don extraordinario que le permite vivir aventuras increíbles y cambiar la vida de los demás.",
-   "vote_average": 6.2,
-   "genres": [
-    "Animación",
-    "Acción",
-    "Aventura",
-    "Comedia",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/4EQZV1gne05R8UT217BBu59WeJr.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/2skPNvhiF3B0pUigNm1L5KLWvrk.jpg",
-   "providers": [],
-   "trailer": "gMS90uSa-kc",
-   "fondo": "https://image.tmdb.org/t/p/original/2skPNvhiF3B0pUigNm1L5KLWvrk.jpg"
-  },
-  {
-   "id": 1306291,
-   "title": "El profesor y el amor",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/aNrEs6UErVCo6vLYQ2mBwetjiTx.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/1WVVqnO9Zz7S4T87Ly5at3WHiC.jpg",
-   "providers": [],
-   "trailer": "_KjwZViG1-8",
-   "fondo": "https://image.tmdb.org/t/p/original/1WVVqnO9Zz7S4T87Ly5at3WHiC.jpg"
-  },
-  {
-   "id": 1126097,
-   "title": "Charlie y Harper",
-   "release_date": "2026-12-11",
-   "overview": "La historia de Harper y Charlie, una joven y un joven que se conocen, dejan sus respectivos hogares e intentan construir una vida juntos en una nueva ciudad. Mientras Harper —decidida y ambiciosa— se esfuerza por forjarse una carrera como chef, y Charlie —brillante pero estancado— lucha por encarrilar su vida, su relación se enfrenta a desafíos cada vez mayores.",
-   "vote_average": 6.1,
-   "genres": [
-    "Romance",
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9Nf8Pluoi1JrT6S0qDsDMndFnlz.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg",
-   "providers": [],
-   "trailer": "Syp1bGpWTSs",
-   "fondo": "https://image.tmdb.org/t/p/original/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg"
-  },
-  {
-   "id": 1437703,
-   "title": "Moscas",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 7.4,
-   "genres": [
-    "Drama",
-    "Comedia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/hs9huYKLyKdcI8LJw9DZ8eiW850.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/dlVvlYfvpD05KYbKFxEUvskvWWd.jpg",
-   "providers": [],
-   "trailer": "wtuCOy5ZW6A",
-   "fondo": "https://image.tmdb.org/t/p/original/ipnlu4R8O4XZjozLl5Ew3LXxw6j.jpg"
-  },
-  {
-   "id": 1560309,
-   "title": "すべて真夜中の恋人たち",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 6,
-   "genres": [
-    "Drama",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/hu59kewfoT7Brzimj8KOliuh5Ih.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/yGj2WiJSrPRvmnZ5GqVEaWmqJ4p.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/yGj2WiJSrPRvmnZ5GqVEaWmqJ4p.jpg"
-  },
-  {
-   "id": 1498915,
-   "title": "El día que ella volvió",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 5.9,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/pzAR32SOHwYT9OebuPh7jiSWapf.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg",
-   "providers": [],
-   "trailer": "UCIGw73qgOo",
-   "fondo": "https://image.tmdb.org/t/p/original/rxqC1iE9Io09mlU0NIWJiLRaoRd.jpg"
-  },
-  {
-   "id": 1430010,
-   "title": "Salen las lobas",
-   "release_date": "2026-12-11",
-   "overview": "Luna es una adolescente rebelde y enérgica que se ve injustamente encerrada en un centro penitenciario juvenil. Allí, encuentra en «Las Lobas» un grupo de amigas con quienes comparte una pasión por la música trap. Juntas, tienen un objetivo claro: escapar del centro para participar en un concurso de trap en Barcelona.",
-   "vote_average": 0,
-   "genres": [
-    "Drama"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/5IFDmqIFPWefoqEtb9ETbXIRb9l.jpg",
-   "backdrop": "",
-   "providers": [],
-   "trailer": "xCuPLHKrWTk",
-   "fondo": ""
-  },
-  {
-   "id": 1304939,
-   "title": "Jasmine & Jambo",
-   "release_date": "2026-12-11",
-   "overview": "",
-   "vote_average": 0,
-   "genres": [
-    "Comedia",
-    "Familia",
-    "Música"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/5LOqEbeU8KTmnKRg2inSatIqYr6.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/7zbpTABDEqjJmfupWe9f0JjIK26.jpg",
-   "providers": [],
-   "trailer": "",
-   "fondo": "https://image.tmdb.org/t/p/original/7zbpTABDEqjJmfupWe9f0JjIK26.jpg"
   }
  ],
  "region": "ES"

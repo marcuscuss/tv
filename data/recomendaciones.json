@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T21:44:37.833Z",
+ "actualizado": "2026-11-27T08:49:37.978Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -91,24 +91,6 @@
      "trailer": "uDp1pBwrqKE"
     },
     {
-     "id": 9610,
-     "title": "Conan, el destructor",
-     "year": "1984",
-     "release_date": "1984-06-29",
-     "overview": "La poderosa Reina Taramis promete a Conan hacer volver a su amada del reino de la muerte, pero le impone una condición: debe traerle un legendario cuerno incrustado de piedras preciosas y una bella y joven princesa. Lo que Conan ignora es que la Reina quiere utilizar el cuerno para despertar al durmiente dios Dagoth y sacrificarle a la joven princesa. Enfrentado con enemigos mortales y sobrenaturales, Conan debe convocar a las fuerzas del Bien para derrotar a Taramis e incluso al mismísimo dios Dagoth.",
-     "vote_average": 6.1,
-     "genres": [
-      "Aventura",
-      "Fantasía",
-      "Acción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/7vwtQwywduJfG50SrxlhalpXsUx.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/kAhjS7czQu0gtMVwDqfSBR2KjTF.jpg",
-     "providers": [],
-     "trailer": "lpUb4tBnWPA"
-    },
-    {
      "id": 71282,
      "title": "Los mares de China",
      "year": "1935",
@@ -165,26 +147,6 @@
      "trailer": "2uU_EoIj3tw"
     },
     {
-     "id": 33257,
-     "title": "Fando y Lis",
-     "year": "1972",
-     "release_date": "1972-06-08",
-     "overview": "Fando y Lis (1968), ópera prima de Alejandro Jodorowsky basada en la obra de Fernando Arrabal, es un drama surrealista y de teatro del absurdo que narra el viaje de una pareja por encontrar la mítica ciudad de Tar. Fando, inmaduro y a veces violento, transporta a Lis, su amante paralítica, en un trayecto lleno de imágenes grotescas, sadomasoquismo y crítica social. La película es una alegoría sobre el amor tóxico, la dependencia emocional, la búsqueda espiritual inútil y la incomunicación humana.",
-     "vote_average": 6.8,
-     "genres": [
-      "Romance",
-      "Aventura",
-      "Fantasía"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/tVDFt994xxqeh04qxCo0jF3q8Jk.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/qoEwJ3Z9okEclRrC7Sim4dVAeDy.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/6WJ9njYndZkK6Inee4KMZpNsHvS.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "a8j8mDbroLc"
-    },
-    {
      "id": 31510,
      "title": "Ben-Hur",
      "year": "1925",
@@ -220,6 +182,26 @@
      "fondo": "https://image.tmdb.org/t/p/original/45WeAxvUnpLXohr9yuB5kD6O97I.jpg",
      "providers": [],
      "trailer": "bg_t3y3zoMQ"
+    },
+    {
+     "id": 33257,
+     "title": "Fando y Lis",
+     "year": "1972",
+     "release_date": "1972-06-08",
+     "overview": "Fando y Lis (1968), ópera prima de Alejandro Jodorowsky basada en la obra de Fernando Arrabal, es un drama surrealista y de teatro del absurdo que narra el viaje de una pareja por encontrar la mítica ciudad de Tar. Fando, inmaduro y a veces violento, transporta a Lis, su amante paralítica, en un trayecto lleno de imágenes grotescas, sadomasoquismo y crítica social. La película es una alegoría sobre el amor tóxico, la dependencia emocional, la búsqueda espiritual inútil y la incomunicación humana.",
+     "vote_average": 6.8,
+     "genres": [
+      "Romance",
+      "Aventura",
+      "Fantasía"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/tVDFt994xxqeh04qxCo0jF3q8Jk.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qoEwJ3Z9okEclRrC7Sim4dVAeDy.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/6WJ9njYndZkK6Inee4KMZpNsHvS.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "a8j8mDbroLc"
     },
     {
      "id": 184315,
@@ -263,28 +245,50 @@
      "trailer": "CMyrp5Vk3mU"
     },
     {
-     "id": 17897,
-     "title": "El viaje fantástico de Simbad",
-     "year": "1973",
-     "release_date": "1973-12-20",
-     "overview": "Simbad, Príncipe de Bagdad y marino legendario, encuentra un curioso mapa y con él se embarca rumbo a la isla de Lemuria junto a una bella esclava, Margiana, y al Gran Visir de Marabia. El Príncipe Koura, un mago oscuro que intenta hacerse con el poder en Marabia manipulando a espíritus del mal, los persigue, tratando de detener a Simbad en su búsqueda. Simbad llega a Lemuria a pesar del encantamiento que Koura ha lanzado sobre el mascarón de proa de su barco, que le hace cobrar vida. En Lemuria, Simbad y su fiel tripulación se encuentran con una estatua de seis brazos blandiendo una espada, con un centauro de un ojo y con un grifo.",
-     "vote_average": 6.7,
+     "id": 308504,
+     "title": "Los últimos caballeros",
+     "year": "2015",
+     "release_date": "2015-04-03",
+     "overview": "La historia gira en torno a una banda de guerreros que buscará venganza después de la muerte de su maestro a manos de un emperador corrupto...",
+     "vote_average": 6.4,
+     "genres": [
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/mEMAwrg2KqWBcorjVH0pTvNOBfx.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/rdDcZHklNkHHApjcBd0qTK7YzJr.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Movistar Plus+",
+      "Movistar Plus+ Ficción Total ",
+      "Atres Player",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "QStraY8MdKk"
+    },
+    {
+     "id": 340442,
+     "title": "El guardián de la reliquia",
+     "year": "2017",
+     "release_date": "2017-04-23",
+     "overview": "Una pequeña banda de monjes católicos mantiene una rutina solemne en una remota costa irlandesa. Entonces llega un extraño. Viene vestido con las ropas blancas de la orden cisterciense, con papeles y exigiendo lo impensable. Los irlandeses no tienen cabida para discutir. \"Roma ha hablado\", dice el cisterciense. \"No hay debate\". Viajando por un campo irlandés del siglo XIII lleno de clanes en guerra y conquistadores normandos, los monjes llevan la reliquia más sagrada de su tierra a Roma. La peregrinación ofrece al joven miembro del grupo una lección profunda, de fervor religioso y salvajismo de hombres que se ven a sí mismos como soldados con una causa, que centran su ambición en un objeto único y poderoso.",
+     "vote_average": 6,
      "genres": [
       "Acción",
       "Aventura",
-      "Drama",
-      "Fantasía",
-      "Familia"
+      "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/s29SGisFfyQxNyhNJLt9hx0sC57.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/izHLxrSRlATwwHFGe6eKQobGWlb.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/tIujNNzBxAm37vOPpW4lTJLZpmZ.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/tSar2P8bHqVzTP9IKlnjGnpQ5lf.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/tSar2P8bHqVzTP9IKlnjGnpQ5lf.jpg",
      "providers": [
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "Filmin"
+      "Amazon Prime Video",
+      "Filmin",
+      "Acontra Plus",
+      "Amazon Prime Video with Ads"
      ],
-     "trailer": "A3kVFY9llNo"
+     "trailer": "MQZ7_Uo0OI0"
     }
    ]
   },
@@ -1427,6 +1431,26 @@
    },
    "items": [
     {
+     "id": 613092,
+     "title": "El crack cero",
+     "year": "2019",
+     "release_date": "2019-10-04",
+     "overview": "Madrid, España, 1975; poco después del fin de la dictadura franquista. Seis meses después de la misteriosa muerte de su amante, un prestigioso sastre, una mujer casada visita la oficina del joven Germán Areta, expolicía convertido en detective privado, para solicitar sus servicios profesionales.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/kzgPu2CMxBr4YZZxC1Off4cUfR9.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/JeGkRdNsOuMrgwBdtB0hp763MU.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "nYcq_Dy-EWw"
+    },
+    {
      "id": 364615,
      "title": "Toro",
      "year": "2016",
@@ -1650,45 +1674,6 @@
      "trailer": "DIa__DpZX9U"
     },
     {
-     "id": 20482,
-     "title": "La ciudad desnuda",
-     "year": "1948",
-     "release_date": "1948-03-04",
-     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
-     "vote_average": 7.2,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
-     ],
-     "trailer": "-RN_BvyNpS8"
-    },
-    {
-     "id": 20637,
-     "title": "Pánico",
-     "year": "2000",
-     "release_date": "2000-12-01",
-     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
-     "vote_average": 6.2,
-     "genres": [
-      "Crimen",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
-     "providers": [],
-     "trailer": "h6qvVd-jg4Y"
-    },
-    {
      "id": 950063,
      "title": "El diablo que conoces",
      "year": "2022",
@@ -1707,6 +1692,23 @@
       "Lionsgate+ Amazon Channel"
      ],
      "trailer": "eb_ZpN98pg8"
+    },
+    {
+     "id": 20637,
+     "title": "Pánico",
+     "year": "2000",
+     "release_date": "2000-12-01",
+     "overview": "Alex está pasando por una crisis de mediana edad y se ha convertido en un momento muy difícil para él. Su matrimonio está luchando, está preocupado por su hijo, y su trabajo de matar gente para su familia se ha convertido en la parte más estresante de su vida. Busca la ayuda de un terapeuta y se encuentra con una mujer en la sala de espera con la que se conecta.",
+     "vote_average": 6.2,
+     "genres": [
+      "Crimen",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/gCaWBW6qQ0otWliRi0Gs4bAzgDX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/lcZPwn4zCLQWLsFPAk9MrpRskku.jpg",
+     "providers": [],
+     "trailer": "h6qvVd-jg4Y"
     }
    ]
   }
@@ -3366,7 +3368,7 @@
       "Crimen"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/mbry0W5PRylSUHsYzdiY2FSJwze.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/pGzqRKrYeK4LogoysNro0vG8d8N.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
      "providers": [
       "Netflix",
