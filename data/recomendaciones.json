@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T08:49:37.978Z",
+ "actualizado": "2026-11-27T21:28:42.108Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -105,9 +105,7 @@
      "poster": "https://image.tmdb.org/t/p/w342/r2Lv8HMq6zhHEKYl2ymbAJnDoaq.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/5Dt59bozPx5H5afRUmkkPiCcdUD.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/bixZ4bg50kwXOsDsw4a5zwTq74h.jpg",
-     "providers": [
-      "Filmin"
-     ],
+     "providers": [],
      "trailer": "vCMdNkT5KVM"
     },
     {
@@ -198,9 +196,7 @@
      "poster": "https://image.tmdb.org/t/p/w342/tVDFt994xxqeh04qxCo0jF3q8Jk.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/qoEwJ3Z9okEclRrC7Sim4dVAeDy.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/6WJ9njYndZkK6Inee4KMZpNsHvS.jpg",
-     "providers": [
-      "Filmin"
-     ],
+     "providers": [],
      "trailer": "a8j8mDbroLc"
     },
     {
@@ -487,33 +483,6 @@
      "trailer": "ISS-a7b0iHw"
     },
     {
-     "id": 141052,
-     "title": "Liga de la Justicia",
-     "year": "2017",
-     "release_date": "2017-11-15",
-     "overview": "Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes (Batman, Wonder Woman, Aquaman, Cyborg y Flash) puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas.",
-     "vote_average": 6.1,
-     "genres": [
-      "Acción",
-      "Aventura",
-      "Ciencia ficción"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/wUWqnavD8iGZ5F4xXhWlrtEzKjV.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
-     "providers": [
-      "Netflix",
-      "Amazon Prime Video",
-      "Movistar Plus+",
-      "Movistar Plus+ Ficción Total ",
-      "HBO Max",
-      "Netflix Standard with Ads",
-      "Amazon Prime Video with Ads",
-      "HBO Max Amazon Channel"
-     ],
-     "trailer": "bv0v2pmLea8"
-    },
-    {
      "id": 10138,
      "title": "Iron Man 2",
      "year": "2010",
@@ -592,6 +561,29 @@
       "Disney Plus"
      ],
      "trailer": "LZbQJVO1Dk8"
+    },
+    {
+     "id": 1452,
+     "title": "Superman Returns",
+     "year": "2006",
+     "release_date": "2006-06-28",
+     "overview": "Tras varios años de misteriosa ausencia, Supermán regresa a la Tierra, pero un viejo enemigo intenta arrebatarle sus poderes. Tratando de proteger al mundo de una destrucción masiva, Supermán emprende una aventura épica de redención que lo lleva desde las profundidades del océano a las regiones más remotas del espacio.",
+     "vote_average": 5.8,
+     "genres": [
+      "Ciencia ficción",
+      "Acción",
+      "Aventura"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rtRlig4q4kUO1AzN7o7dzRIqzxI.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8eRscFbRYl681zDfkjv1jjW1KAA.jpg",
+     "providers": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Netflix Standard with Ads",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "zVCozSQj8TQ"
     }
    ]
   },
@@ -654,27 +646,6 @@
      "trailer": "9U7z35zbxPk"
     },
     {
-     "id": 520318,
-     "title": "Fátima, la película",
-     "year": "2020",
-     "release_date": "2020-08-13",
-     "overview": "Portugal, 1917. Tres niños afirman haber visto a la Virgen María en Fátima. Sus revelaciones enfurecen al Gobierno y a la Iglesia que intentan obligarles a retractarse de su historia. Pero a medida que se extiende la noticia de su profecía, miles de peregrinos acuden a Fátima con la esperanza de presenciar un milagro. Lo que allí experimentarán cambiará sus vidas para siempre.",
-     "vote_average": 7.2,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/eRAToGJITHaK6QvfImPaE2ofBwF.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/jrsB8tChsAFTQilhsS8fxNTuear.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Filmin",
-      "Amazon Prime Video with Ads",
-      "Diamond Films Plus Amazon Channel"
-     ],
-     "trailer": "PvokEpA439o"
-    },
-    {
      "id": 345938,
      "title": "La cabaña",
      "year": "2017",
@@ -692,6 +663,25 @@
       "Lionsgate+ Amazon Channel"
      ],
      "trailer": "Ouc9W0GRlQw"
+    },
+    {
+     "id": 127373,
+     "title": "¿Qué hacemos con Maisie?",
+     "year": "2013",
+     "release_date": "2013-05-02",
+     "overview": "En Nueva York, la pequeña Maisie, con apenas seis años, se ve involucrada en el amargo divorcio de sus padres, una estrella del rock y un marchante de arte.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/wZigIpIbaYCiXfsdTztOd5oOrKy.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/kk1MMdWF9Z4vBMM0ebBjD7G5zFf.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/kk1MMdWF9Z4vBMM0ebBjD7G5zFf.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "B1xClEljavQ"
     },
     {
      "id": 69557,
@@ -728,23 +718,36 @@
      "trailer": "JxTFqsy5Pxs"
     },
     {
-     "id": 127373,
-     "title": "¿Qué hacemos con Maisie?",
-     "year": "2013",
-     "release_date": "2013-05-02",
-     "overview": "En Nueva York, la pequeña Maisie, con apenas seis años, se ve involucrada en el amargo divorcio de sus padres, una estrella del rock y un marchante de arte.",
-     "vote_average": 7.1,
+     "id": 542422,
+     "title": "Rosie",
+     "year": "2019",
+     "release_date": "2019-03-08",
+     "overview": "Cuando su casero vende la casa en la que vivían hasta ese entonces, Rosie, John Paul y su familia se quedan sin hogar. Con sus pertenencias metidas en su coche, tratan de sobrevivir como buenamente pueden a base de trabajos rutinarios. Incapaces de reconocer cuál es su situación, rechazan la ayuda que les ofrece la madre de Rosie, por lo que se ven obligados a ir de hotel en hotel buscando alguno que acepte la única tarjeta de crédito que les permite pasar la noche a cubierto.",
+     "vote_average": 6.2,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/wZigIpIbaYCiXfsdTztOd5oOrKy.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/kk1MMdWF9Z4vBMM0ebBjD7G5zFf.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/kk1MMdWF9Z4vBMM0ebBjD7G5zFf.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
+     "poster": "https://image.tmdb.org/t/p/w342/xOGOYLANn5svSrbRgvkikNRdqK5.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
+     "providers": [],
+     "trailer": "sqEc-cRsFxM"
+    },
+    {
+     "id": 793285,
+     "title": "Dios no está muerto 4",
+     "year": "2021",
+     "release_date": "2021-10-04",
+     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
+     "vote_average": 6.7,
+     "genres": [
+      "Drama"
      ],
-     "trailer": "B1xClEljavQ"
+     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
+     "providers": [],
+     "trailer": "YuMBAq-ROh4"
     },
     {
      "id": 1585,
@@ -786,38 +789,6 @@
      "trailer": "UdBBjFQYzwA"
     },
     {
-     "id": 542422,
-     "title": "Rosie",
-     "year": "2019",
-     "release_date": "2019-03-08",
-     "overview": "Cuando su casero vende la casa en la que vivían hasta ese entonces, Rosie, John Paul y su familia se quedan sin hogar. Con sus pertenencias metidas en su coche, tratan de sobrevivir como buenamente pueden a base de trabajos rutinarios. Incapaces de reconocer cuál es su situación, rechazan la ayuda que les ofrece la madre de Rosie, por lo que se ven obligados a ir de hotel en hotel buscando alguno que acepte la única tarjeta de crédito que les permite pasar la noche a cubierto.",
-     "vote_average": 6.2,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xOGOYLANn5svSrbRgvkikNRdqK5.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/hjzpgnuLcUcpnAJrmKPq3hcJ1qP.jpg",
-     "providers": [],
-     "trailer": "sqEc-cRsFxM"
-    },
-    {
-     "id": 793285,
-     "title": "Dios no está muerto 4",
-     "year": "2021",
-     "release_date": "2021-10-04",
-     "overview": "La película se centra en el reverendo Dave, que tiene que defenderse a sí mismo y a un grupo de familias cristianas que educan en el hogar después de una inspección por parte de un funcionario del gobierno local.",
-     "vote_average": 6.7,
-     "genres": [
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/apaFJ4MlhAC4QNlMKk9cgKNE8wE.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/d5joxxmvAFGXtfXIoChbu0z4bxd.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/9ZLpJLIEH3fUWKw9fWfesUvtytU.jpg",
-     "providers": [],
-     "trailer": "YuMBAq-ROh4"
-    },
-    {
      "id": 1243381,
      "title": "María",
      "year": "2024",
@@ -839,20 +810,39 @@
      "trailer": "CvP0RWCsr18"
     },
     {
-     "id": 25062,
-     "title": "Un sabor a miel",
-     "year": "1961",
-     "release_date": "1961-10-01",
-     "overview": "Una chica de 17 años vive en un barrio obrero inglés con su madre, una mujer alcohólica y promiscua que la ignora por completo. Un día, tras la marcha de la madre con un nuevo novio, se hace amiga de un joven homosexual, que está dispuesto a cuidarla a ella y a su futuro hijo, pues la chica se ha quedado embarazada después de una aventura esporádica con un marinero.",
-     "vote_average": 7.1,
+     "id": 29989,
+     "title": "Skin",
+     "year": "2009",
+     "release_date": "2009-07-24",
+     "overview": "Basado en la historia real de una niña negra que nació de dos padres afrikaners blancos en Sudáfrica durante la era del apartheid.",
+     "vote_average": 6.4,
      "genres": [
       "Drama"
      ],
-     "poster": "https://image.tmdb.org/t/p/w342/5psrZNVZ9E6Eck7OtpO47A8zTbQ.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/zalZRF7sCtghHFg4xCBJfOqj0h5.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qWdqgsJ1x9zwMwMeQLhkxOzK1Hg.jpg",
+     "poster": "https://image.tmdb.org/t/p/w342/lRKQ0CXJF1cIO1kc2XqdWptbaAX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/8ntTGtJCT9SbfZ2TjRDZTICr0Yv.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "wbj691Z1Z1E"
+    },
+    {
+     "id": 499338,
+     "title": "I Believe",
+     "year": "2019",
+     "release_date": "2019-06-06",
+     "overview": "Un niño de 9 años experimenta el poder de Dios de una manera sobrenatural.",
+     "vote_average": 7.8,
+     "genres": [
+      "Familia",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/lFeTYNVI1PYQqKj4FusJMplqd07.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/5Tw3Z9vcu1Hwo1CijEPineKPkFO.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/43aCQFMAZWt3AjzM30dcHiAW5p.jpg",
      "providers": [],
-     "trailer": "y7LK_-rUfdU"
+     "trailer": "amVlQozDJkI"
     }
    ]
   },
@@ -1016,27 +1006,6 @@
      "trailer": "t-yhbvVpPgI"
     },
     {
-     "id": 19171,
-     "title": "Miedo súbito",
-     "year": "1952",
-     "release_date": "1952-08-07",
-     "overview": "El actor Lester Blaine prácticamente consiguió el papel principal en la nueva obra de Myra Hudson cuando Myra lo veta porque, para ella, no parece un 'protagonista romántico'. En un tren de Nueva York a San Francisco, Blaine se propone demostrarle a Myra que está equivocada... teniendo un romance con ella. ¿Es sincero o tiene un oscuro motivo oculto? La respuesta provoca un juego del gato y el ratón; pero ¿quién es el gato y quién el ratón?",
-     "vote_average": 7.2,
-     "genres": [
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/wlhoqwcX1ldOUPoLUZ1C2T7uU09.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/sdiSlc86WlzhozqkWnQn73Wq5UW.jpg",
-     "providers": [
-      "Filmin",
-      "Acontra Plus",
-      "Acontra Plus Amazon Channel"
-     ],
-     "trailer": "aB2w51F0t74"
-    },
-    {
      "id": 1175351,
      "title": "Bosco",
      "year": "2024",
@@ -1088,26 +1057,6 @@
      "trailer": "5TBu6e1IC_0"
     },
     {
-     "id": 471506,
-     "title": "La viuda",
-     "year": "2019",
-     "release_date": "2019-02-28",
-     "overview": "Frances es una dulce e ingenua joven que, tras la muerte de su madre, se muda a Manhattan. Cuando encuentra en el metro un bolso extraviado, decide entregárselo a su legítima dueña, Greta, una pianista viuda con una desesperada necesidad de compañía. Rápidamente se convierten en amigas, pero su amistad cambia cuando se descubren las siniestras intenciones de Greta.",
-     "vote_average": 6.5,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/vsNUxeOiRDyS3FDJMroRcJOcjXm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
-     "providers": [
-      "Diamond Films Plus Amazon Channel"
-     ],
-     "trailer": "9sLHK4ccHGQ"
-    },
-    {
      "id": 20540,
      "title": "El prestamista",
      "year": "1965",
@@ -1124,6 +1073,46 @@
       "Filmin"
      ],
      "trailer": "XKvzeCwMCgc"
+    },
+    {
+     "id": 235271,
+     "title": "Perversa adicción",
+     "year": "2014",
+     "release_date": "2014-10-10",
+     "overview": "La adicción al sexo de Zoe Reynard, una exitosa mujer de negocios, amenaza con arruinar su vida familiar junto a su marido y sus dos hijos.",
+     "vote_average": 5.9,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/oyxiBAFDXVgy8iUFPLksWwUWtEA.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
+     "providers": [],
+     "trailer": "ZdZ0lUxunbA"
+    },
+    {
+     "id": 27033,
+     "title": "El extraño amor de Martha Ivers",
+     "year": "1946",
+     "release_date": "1946-08-19",
+     "overview": "Tres amigos de la infancia, Martha, Walter y Sam, comparten un terrible secreto. Ya adultos, la ambiciosa Martha y el pusilánime Walter se casan. Ella es una fría mujer de negocios; él es el fiscal del distrito: una combinación perfecta para dominar la corrupta ciudad de Iverstown según su voluntad. Pero el inesperado regreso de Sam, después de años de ausencia, perturba profundamente la vida de la extraña pareja.",
+     "vote_average": 7.1,
+     "genres": [
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/aPWPwf400mmua0lKHKvFNtFZjqX.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wyHgr0RZnSPRdcR08cP5nIshLAV.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "FlixOlé",
+      "Amazon Prime Video with Ads",
+      "Artiflix"
+     ],
+     "trailer": "hrMqLD_uoCk"
     }
    ]
   },
@@ -1151,7 +1140,6 @@
      "providers": [
       "Amazon Prime Video",
       "Movistar Plus+ Ficción Total ",
-      "Filmin",
       "HBO Max",
       "Amazon Prime Video with Ads",
       "HBO Max Amazon Channel"
@@ -1199,28 +1187,6 @@
      "trailer": "TJGd5CUfar8"
     },
     {
-     "id": 20482,
-     "title": "La ciudad desnuda",
-     "year": "1948",
-     "release_date": "1948-03-04",
-     "overview": "Dos detectives de la ciudad de Nueva York investigan la muerte de una atractiva joven.\r El aparente suicidio resulta ser un asesinato.",
-     "vote_average": 7.2,
-     "genres": [
-      "Crimen",
-      "Drama",
-      "Misterio",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/s0VcXwpnW0oTpvk893HfyGBuT12.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/yjEoHzWo4O8tTa7lrVNv2okVkLz.jpg",
-     "providers": [
-      "Filmin",
-      "Artiflix"
-     ],
-     "trailer": "-RN_BvyNpS8"
-    },
-    {
      "id": 242582,
      "title": "Nightcrawler",
      "year": "2014",
@@ -1233,8 +1199,8 @@
       "Suspense"
      ],
      "poster": "https://image.tmdb.org/t/p/w342/prNsmrvXbLaFDq8p5XHBMowhd9A.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aCnpRvVBqltC8ZuVP67C4fdUCb4.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/bdI6U1mT0kCdTJ6TWtiFxQ42GSn.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/bdI6U1mT0kCdTJ6TWtiFxQ42GSn.jpg",
      "providers": [],
      "trailer": "OGP02DvsqXc"
     },
@@ -1420,6 +1386,28 @@
       "Filmin"
      ],
      "trailer": "UuQN3rTi27I"
+    },
+    {
+     "id": 398181,
+     "title": "En realidad, nunca estuviste aquí",
+     "year": "2017",
+     "release_date": "2017-11-08",
+     "overview": "Joe, ex marine y antiguo veterano de guerra, es un tipo solitario que dedica su tiempo a intentar salvar a mujeres que son explotadas sexualmente. No se permite ni amigos ni amantes y se gana la vida rescatando jóvenes de las garras de los tratantes de blancas. Un día recibe la llamada de un político porque su hija ha sido secuestrada.",
+     "vote_average": 6.5,
+     "genres": [
+      "Crimen",
+      "Drama",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/505AFHvK3BoHC2zwWXBWkevRTYF.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/g2yZ1kiGwLO5AUSmtsEJeFEWghJ.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Filmin",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "fQyDaGWQ43w"
     }
    ]
   },
@@ -1770,7 +1758,6 @@
      "fondo": "https://image.tmdb.org/t/p/original/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg",
      "providers": [
       "Netflix",
-      "Filmin",
       "Netflix Standard with Ads"
      ],
      "trailer": "A3q03BBwMp4"
@@ -1978,9 +1965,7 @@
      "poster": "https://image.tmdb.org/t/p/w342/hNvM9dKmWlbLTXR92D3ASpQsm8K.jpg",
      "backdrop": "https://image.tmdb.org/t/p/w780/gkXL5ka6ciU4A4KYSvLIAXtvh7k.jpg",
      "fondo": "https://image.tmdb.org/t/p/original/gkXL5ka6ciU4A4KYSvLIAXtvh7k.jpg",
-     "providers": [
-      "Filmin"
-     ],
+     "providers": [],
      "trailer": "3qFYjkFCxiE"
     },
     {
@@ -2206,26 +2191,6 @@
      "trailer": "tXploxlYWL4"
     },
     {
-     "id": 1383731,
-     "title": "Instinto protector",
-     "year": "2026",
-     "release_date": "2026-02-20",
-     "overview": "La vida pacífica de Nikki, una exheroína de guerra, se ve destrozada cuando su hija es secuestrada. Inmersa en el submundo criminal mientras es perseguida por policías y militares, debe luchar para rescatar a su hija.",
-     "vote_average": 8.4,
-     "genres": [
-      "Acción",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/xfyBQzFOixFzzOHHGr8HFnHR8Hm.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "IRKGIuL3728"
-    },
-    {
      "id": 1419406,
      "title": "Escuadrón letal",
      "year": "2025",
@@ -2248,6 +2213,26 @@
      "trailer": "HZXVnn6GnVM"
     },
     {
+     "id": 1383731,
+     "title": "Instinto protector",
+     "year": "2026",
+     "release_date": "2026-02-20",
+     "overview": "La vida pacífica de Nikki, una exheroína de guerra, se ve destrozada cuando su hija es secuestrada. Inmersa en el submundo criminal mientras es perseguida por policías y militares, debe luchar para rescatar a su hija.",
+     "vote_average": 8.4,
+     "genres": [
+      "Acción",
+      "Suspense"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/xfyBQzFOixFzzOHHGr8HFnHR8Hm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "IRKGIuL3728"
+    },
+    {
      "id": 274,
      "title": "El silencio de los corderos",
      "year": "1991",
@@ -2264,6 +2249,7 @@
      "fondo": "https://image.tmdb.org/t/p/original/mbOx1wxMLikzwWUO9TKAcFIy6op.jpg",
      "providers": [
       "Filmin",
+      "Tivify",
       "MGM Plus Amazon Channel"
      ],
      "trailer": "5SKgu_gXPQ4"
@@ -3567,7 +3553,7 @@
     "year": "2026",
     "release_date": "2026-11-18",
     "overview": "Una estricta guardaespaldas viaja a un rancho de Montana con el famoso actor al que protege. Pero al fingir ser pareja por Navidad surge un amor real.",
-    "vote_average": 6.8,
+    "vote_average": 6.7,
     "genres": [
      "Romance",
      "Comedia"
@@ -3580,23 +3566,6 @@
      "Netflix Standard with Ads"
     ],
     "trailer": "mFvtVPMa5ak"
-   },
-   {
-    "id": 1567605,
-    "title": "Scrooge y los fantasmas de la Navidad",
-    "year": "2026",
-    "release_date": "2026-11-11",
-    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
-    "vote_average": 7.5,
-    "genres": [
-     "Fantasía",
-     "Comedia"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
-    "providers": [],
-    "trailer": "D-n-lqKVr78"
    },
    {
     "id": 771,
@@ -3616,6 +3585,23 @@
      "Disney Plus"
     ],
     "trailer": "sptc2IcHnc4"
+   },
+   {
+    "id": 1567605,
+    "title": "Scrooge y los fantasmas de la Navidad",
+    "year": "2026",
+    "release_date": "2026-11-11",
+    "overview": "Reimaginación del clásico literario, una historia de fantasmas ambientada en el Londres de Dickens que sigue el viaje sobrenatural de un hombre para enfrentarse a su pasado, presente y futuro y luchar por una segunda oportunidad.",
+    "vote_average": 7.6,
+    "genres": [
+     "Fantasía",
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
+    "providers": [],
+    "trailer": "D-n-lqKVr78"
    },
    {
     "id": 772,
@@ -3713,6 +3699,27 @@
     "trailer": "IoYahD_xNR0"
    },
    {
+    "id": 331482,
+    "title": "Mujercitas",
+    "year": "2019",
+    "release_date": "2019-12-25",
+    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
+    "vote_average": 7.9,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/mE9NUKAP6hLhfQ00nr3NObDLekG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
+    "providers": [
+     "Amazon Prime Video",
+     "Tivify",
+     "Amazon Prime Video with Ads"
+    ],
+    "trailer": "6SN9-6uST80"
+   },
+   {
     "id": 845781,
     "title": "Red One",
     "year": "2024",
@@ -3733,27 +3740,6 @@
      "Amazon Prime Video with Ads"
     ],
     "trailer": "RcER0_lZ2F4"
-   },
-   {
-    "id": 331482,
-    "title": "Mujercitas",
-    "year": "2019",
-    "release_date": "2019-12-25",
-    "overview": "Amy, Jo, Beth y Meg son cuatro hermanas adolescentes que se embarcan en unas vacaciones con su madre, pero sin su padre, un evangelista itinerante. A medida que atraviesan el estado de Massachusetts, sumido en plena Guerra Civil, descubren el amor y la importancia de los lazos familiares.",
-    "vote_average": 7.9,
-    "genres": [
-     "Drama",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/mE9NUKAP6hLhfQ00nr3NObDLekG.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/A8EzeMnCrQfnNZVpULItCbYlK7C.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Tivify",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "6SN9-6uST80"
    },
    {
     "id": 17979,
@@ -3805,6 +3791,41 @@
     "trailer": "4XkHPphBN_Q"
    },
    {
+    "id": 5825,
+    "title": "¡Socorro! Ya es Navidad",
+    "year": "1989",
+    "release_date": "1989-11-30",
+    "overview": "Clark Griswold, movido por un generoso y sentimental espíritu navideño, quiere sorprender a toda su familia con una gran fiesta. La suerte no suele acompañarlo y esta vez no va a ser diferente... Una sucesión de disparatados desastres convertirán la esperadísima sorpresa de Clark en un verdadero caos.",
+    "vote_average": 7.2,
+    "genres": [
+     "Comedia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/qmyeMduOLqrNqBpAaMwC7Qivwoy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/klH8ti8LUaEhktnjdHb1RW8Yq6w.jpg",
+    "providers": [],
+    "trailer": "tLVd4ipC5Lc"
+   },
+   {
+    "id": 9714,
+    "title": "Solo en casa 3",
+    "year": "1997",
+    "release_date": "1997-12-12",
+    "overview": "Cuatro espías de alta tecnología industrial roban un microchip ultrasecreto y confiadamente lo ocultan en un coche de juguete de control remoto. Por causa de una confusión de equipajes en el aeropuerto, la anciana señora Hess recoge el juguete y se lo regala a su vecino de ocho años Alex. Los espías desearán recuperar el valioso chip a toda costa, pero Alex está preparado para darles una cálida bienvenida.",
+    "vote_average": 5.3,
+    "genres": [
+     "Comedia",
+     "Familia"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/720eeviFT6G8SStX2lEgFsYzqAp.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/oHsiqHajO9v8YTuonvcMCkxtpSq.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/oHsiqHajO9v8YTuonvcMCkxtpSq.jpg",
+    "providers": [
+     "Disney Plus"
+    ],
+    "trailer": "VetFOEcscnM"
+   },
+   {
     "id": 1585,
     "title": "¡Qué bello es vivir!",
     "year": "1946",
@@ -3823,52 +3844,6 @@
      "Filmin"
     ],
     "trailer": "iLR3gZrU2Xo"
-   },
-   {
-    "id": 508,
-    "title": "Love Actually",
-    "year": "2003",
-    "release_date": "2003-09-07",
-    "overview": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. 'Love Actually' es una manera abreviada de decir 'Love Actually Is All Around' y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor.",
-    "vote_average": 7.1,
-    "genres": [
-     "Comedia",
-     "Romance",
-     "Drama"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/5WtOVkLobHRf4RADiRTkF0js7sR.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
-    "providers": [
-     "Amazon Prime Video",
-     "Movistar Plus+",
-     "Movistar Plus+ Ficción Total ",
-     "Filmin",
-     "Amazon Prime Video with Ads"
-    ],
-    "trailer": "r3mJrSA1x5s"
-   },
-   {
-    "id": 10719,
-    "title": "Elf",
-    "year": "2003",
-    "release_date": "2003-11-07",
-    "overview": "Una Nochebuena, en un orfanato, un bebé gatea dentro del saco de regalos de Santa Claus y acaba en el taller de éste en el Polo Norte. Aunque allí es adoptado y educado como un elfo, al crecer, se hace tres veces más grande que los habitantes de la región. Parece claro que nunca encajará en el mundo de los elfos; lo que necesita es encontrar a su verdadera familia. Con esta intención viaja a Nueva York, donde descubrirá que la vida no consiste sólo en patinar y comer dulces; así que vuelve a sentirse otra vez fuera lugar. Consigue, no obstante, encontrar a su padre, Walter, un editor de libros infantiles adicto al trabajo y al dinero que figura en la lista negra de Santa Claus. Buddy también encuentra a una nueva madre y descubre que su hermanastro de diez años no cree en los elfos ni en Santa Claus ni en las Navidades. En realidad todo el mundo parece haber olvidado el verdadero significado de la Navidad.",
-    "vote_average": 6.7,
-    "genres": [
-     "Comedia",
-     "Familia",
-     "Fantasía"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/iJrvkckDP7MKfimogB6lNUfQRx.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/5nhp41gx49vXjwXuDXJwQrRFsng.jpg",
-    "providers": [
-     "Netflix",
-     "Disney Plus",
-     "Netflix Standard with Ads"
-    ],
-    "trailer": "14o38xfHlXc"
    }
   ],
   "romance": [
@@ -4056,25 +4031,6 @@
     "trailer": "HK0FizurLk0"
    },
    {
-    "id": 40096,
-    "title": "O Auto da Compadecida",
-    "year": "2000",
-    "release_date": "2000-09-15",
-    "overview": "En el interior del estado de Paríba, en el pueblo de Taperoá, viven João Grilo y Chicó, dos tipos muy pobres que van anunciando por las calles la mejor película del mundo, 'La Pasión de Cristo'. La sesión tiene éxito y ellos ganan algo de dinero pero siguen luchando por la supervivencia. João Grilo y Chicó planean nuevas tretas para conseguir algún dinero y se enfrentan a numeroso desafíos provocando múltiples confusiones causadas por la astucia de João Grilo, siempre acompañado de Chicó.",
-    "vote_average": 8.4,
-    "genres": [
-     "Comedia",
-     "Drama",
-     "Fantasía",
-     "Romance"
-    ],
-    "poster": "https://image.tmdb.org/t/p/w342/y3IhuITELtprMhUd7bccu629rba.jpg",
-    "backdrop": "https://image.tmdb.org/t/p/w780/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
-    "fondo": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
-    "providers": [],
-    "trailer": "wDVdgnhiNlY"
-   },
-   {
     "id": 378064,
     "title": "A Silent Voice",
     "year": "2016",
@@ -4094,6 +4050,25 @@
      "Crunchyroll Amazon Channel"
     ],
     "trailer": "JLixtembASE"
+   },
+   {
+    "id": 40096,
+    "title": "O Auto da Compadecida",
+    "year": "2000",
+    "release_date": "2000-09-15",
+    "overview": "En el interior del estado de Paríba, en el pueblo de Taperoá, viven João Grilo y Chicó, dos tipos muy pobres que van anunciando por las calles la mejor película del mundo, 'La Pasión de Cristo'. La sesión tiene éxito y ellos ganan algo de dinero pero siguen luchando por la supervivencia. João Grilo y Chicó planean nuevas tretas para conseguir algún dinero y se enfrentan a numeroso desafíos provocando múltiples confusiones causadas por la astucia de João Grilo, siempre acompañado de Chicó.",
+    "vote_average": 8.4,
+    "genres": [
+     "Comedia",
+     "Drama",
+     "Fantasía",
+     "Romance"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w342/y3IhuITELtprMhUd7bccu629rba.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/w780/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+    "fondo": "https://image.tmdb.org/t/p/original/alQqTpmEkxSLgajfEYTsTH6nAKB.jpg",
+    "providers": [],
+    "trailer": "wDVdgnhiNlY"
    },
    {
     "id": 696374,
@@ -4186,7 +4161,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
    "providers": [
     "Movistar Plus+ Ficción Total ",
-    "Filmin",
     "HBO Max",
     "HBO Max Amazon Channel"
    ],
@@ -4314,8 +4288,8 @@
     "Suspense"
    ],
    "poster": "https://image.tmdb.org/t/p/w342/zdClwqpYQXBSCGGDMdtvsuggwec.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/j7KqDRzjbvIjDv7cdHz9G3ZYEQy.jpg",
-   "fondo": "https://image.tmdb.org/t/p/original/j7KqDRzjbvIjDv7cdHz9G3ZYEQy.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/sqkSVOijtdqP1yPQ8vZidxXFauQ.jpg",
+   "fondo": "https://image.tmdb.org/t/p/original/sqkSVOijtdqP1yPQ8vZidxXFauQ.jpg",
    "providers": [
     "Netflix",
     "Netflix Standard with Ads"
