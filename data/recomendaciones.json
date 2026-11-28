@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T21:28:42.108Z",
+ "actualizado": "2026-11-28T08:05:53.852Z",
  "usuario": "marcus_cus",
  "porque": [
   {
@@ -815,7 +815,7 @@
      "year": "2009",
      "release_date": "2009-07-24",
      "overview": "Basado en la historia real de una niña negra que nació de dos padres afrikaners blancos en Sudáfrica durante la era del apartheid.",
-     "vote_average": 6.4,
+     "vote_average": 6.3,
      "genres": [
       "Drama"
      ],
@@ -970,6 +970,42 @@
      "trailer": "MWkdM2ZGah0"
     },
     {
+     "id": 928270,
+     "title": "Ola de Calor",
+     "year": "2022",
+     "release_date": "2022-01-17",
+     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
+     "vote_average": 6.2,
+     "genres": [
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
+     "providers": [],
+     "trailer": "t-yhbvVpPgI"
+    },
+    {
+     "id": 471506,
+     "title": "La viuda",
+     "year": "2019",
+     "release_date": "2019-02-28",
+     "overview": "Frances es una dulce e ingenua joven que, tras la muerte de su madre, se muda a Manhattan. Cuando encuentra en el metro un bolso extraviado, decide entregárselo a su legítima dueña, Greta, una pianista viuda con una desesperada necesidad de compañía. Rápidamente se convierten en amigas, pero su amistad cambia cuando se descubren las siniestras intenciones de Greta.",
+     "vote_average": 6.5,
+     "genres": [
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/vsNUxeOiRDyS3FDJMroRcJOcjXm.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/n67gpLtNFXqpGkM2ZdQoPLjTnI.jpg",
+     "providers": [
+      "Diamond Films Plus Amazon Channel"
+     ],
+     "trailer": "9sLHK4ccHGQ"
+    },
+    {
      "id": 84338,
      "title": "Simon Killer",
      "year": "2012",
@@ -987,23 +1023,6 @@
       "Filmin"
      ],
      "trailer": "VJICFO4lbtQ"
-    },
-    {
-     "id": 928270,
-     "title": "Ola de Calor",
-     "year": "2022",
-     "release_date": "2022-01-17",
-     "overview": "Claire, una joven ambiciosa, comienza a trabajar para un exitoso y rico hombre de negocios, pero sin saberlo, se involucra en una aventura con su esposa.",
-     "vote_average": 6.2,
-     "genres": [
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/6SlG4YA9RfWwEDXuRrIAVtgEZA8.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/wdcSkdKRwiABA5SdNth1uAnErzw.jpg",
-     "providers": [],
-     "trailer": "t-yhbvVpPgI"
     },
     {
      "id": 1175351,
@@ -1073,23 +1092,6 @@
       "Filmin"
      ],
      "trailer": "XKvzeCwMCgc"
-    },
-    {
-     "id": 235271,
-     "title": "Perversa adicción",
-     "year": "2014",
-     "release_date": "2014-10-10",
-     "overview": "La adicción al sexo de Zoe Reynard, una exitosa mujer de negocios, amenaza con arruinar su vida familiar junto a su marido y sus dos hijos.",
-     "vote_average": 5.9,
-     "genres": [
-      "Drama",
-      "Suspense"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/oyxiBAFDXVgy8iUFPLksWwUWtEA.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/aqqoDJs8vYp2EZ74aQ1UMY0sjM7.jpg",
-     "providers": [],
-     "trailer": "ZdZ0lUxunbA"
     },
     {
      "id": 27033,
@@ -1205,6 +1207,26 @@
      "trailer": "OGP02DvsqXc"
     },
     {
+     "id": 793,
+     "title": "Terciopelo azul",
+     "year": "1986",
+     "release_date": "1986-09-19",
+     "overview": "Una mañana, Jeffrey Beaumont, después de visitar a su padre en el hospital, encuentra entre unos arbustos una oreja humana. La guarda en una bolsa de papel y la lleva a la comisaría de policía, donde le atiende el detective Williams, que es vecino suyo. Comienza así una misteriosa intriga que desvelará extraños sucesos acontecidos en una pequeña localidad de Carolina del Norte.",
+     "vote_average": 7.6,
+     "genres": [
+      "Misterio",
+      "Suspense",
+      "Crimen"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/rzcigN8ujeVJiEKGP3y3mJybvii.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
+     "providers": [
+      "Filmin"
+     ],
+     "trailer": "SECSDOK58Vc"
+    },
+    {
      "id": 66113,
      "title": "Una chica perfecta",
      "year": "2009",
@@ -1226,26 +1248,6 @@
      "trailer": "moqWW9plOtQ"
     },
     {
-     "id": 793,
-     "title": "Terciopelo azul",
-     "year": "1986",
-     "release_date": "1986-09-19",
-     "overview": "Una mañana, Jeffrey Beaumont, después de visitar a su padre en el hospital, encuentra entre unos arbustos una oreja humana. La guarda en una bolsa de papel y la lleva a la comisaría de policía, donde le atiende el detective Williams, que es vecino suyo. Comienza así una misteriosa intriga que desvelará extraños sucesos acontecidos en una pequeña localidad de Carolina del Norte.",
-     "vote_average": 7.6,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Crimen"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/rzcigN8ujeVJiEKGP3y3mJybvii.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/s1CBwblInR0ZBIv59CSko2QdLD3.jpg",
-     "providers": [
-      "Filmin"
-     ],
-     "trailer": "SECSDOK58Vc"
-    },
-    {
      "id": 68727,
      "title": "En trance",
      "year": "2013",
@@ -1264,27 +1266,6 @@
       "Disney Plus"
      ],
      "trailer": "eU8ox73SWKY"
-    },
-    {
-     "id": 8066,
-     "title": "Tránsito",
-     "year": "2005",
-     "release_date": "2005-09-24",
-     "overview": "Henry (Ryan Gosling), un joven mentalmente perturbado, le anuncia a Sam Forster, su psiquiatra (Ewan McGregor), que piensa suicidarse en un plazo de tres días, cosa que el psiquiatra intentará evitar. Por su parte, Henry se dedica a enturbiar la relación de Sam con su novia Lila (Naomi Watts), pintora y antigua paciente suya. Poco a poco, la sólida y arraigada racionalidad de Sam empieza a tambalearse. Sometido a situaciones cada vez más surrealistas, llega un momento en que ya no puede distinguir entre realidad y ficción, y su yo y el de Henry se confunden.",
-     "vote_average": 6.6,
-     "genres": [
-      "Misterio",
-      "Suspense",
-      "Drama"
-     ],
-     "poster": "https://image.tmdb.org/t/p/w342/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
-     "backdrop": "https://image.tmdb.org/t/p/w780/qgoDTTit5VfHzDrAKNCfv0meuhV.jpg",
-     "fondo": "https://image.tmdb.org/t/p/original/qgoDTTit5VfHzDrAKNCfv0meuhV.jpg",
-     "providers": [
-      "Amazon Prime Video",
-      "Amazon Prime Video with Ads"
-     ],
-     "trailer": "wQs35Rka34A"
     },
     {
      "id": 396461,
@@ -1308,6 +1289,27 @@
       "MUBI"
      ],
      "trailer": "U84SbxKc6W8"
+    },
+    {
+     "id": 8066,
+     "title": "Tránsito",
+     "year": "2005",
+     "release_date": "2005-09-24",
+     "overview": "Henry (Ryan Gosling), un joven mentalmente perturbado, le anuncia a Sam Forster, su psiquiatra (Ewan McGregor), que piensa suicidarse en un plazo de tres días, cosa que el psiquiatra intentará evitar. Por su parte, Henry se dedica a enturbiar la relación de Sam con su novia Lila (Naomi Watts), pintora y antigua paciente suya. Poco a poco, la sólida y arraigada racionalidad de Sam empieza a tambalearse. Sometido a situaciones cada vez más surrealistas, llega un momento en que ya no puede distinguir entre realidad y ficción, y su yo y el de Henry se confunden.",
+     "vote_average": 6.6,
+     "genres": [
+      "Misterio",
+      "Suspense",
+      "Drama"
+     ],
+     "poster": "https://image.tmdb.org/t/p/w342/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
+     "backdrop": "https://image.tmdb.org/t/p/w780/qgoDTTit5VfHzDrAKNCfv0meuhV.jpg",
+     "fondo": "https://image.tmdb.org/t/p/original/qgoDTTit5VfHzDrAKNCfv0meuhV.jpg",
+     "providers": [
+      "Amazon Prime Video",
+      "Amazon Prime Video with Ads"
+     ],
+     "trailer": "wQs35Rka34A"
     },
     {
      "id": 11644,
@@ -3553,7 +3555,7 @@
     "year": "2026",
     "release_date": "2026-11-18",
     "overview": "Una estricta guardaespaldas viaja a un rancho de Montana con el famoso actor al que protege. Pero al fingir ser pareja por Navidad surge un amor real.",
-    "vote_average": 6.7,
+    "vote_average": 6.8,
     "genres": [
      "Romance",
      "Comedia"

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T21:28:11.623Z",
+ "actualizado": "2026-11-28T08:05:39.105Z",
  "source": "tmdb",
  "now_playing": [
   {
@@ -7,7 +7,7 @@
    "title": "Los juegos del hambre: Amanecer en la cosecha",
    "release_date": "2026-11-20",
    "overview": "Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
-   "vote_average": 7.8,
+   "vote_average": 7.7,
    "genres": [
     "Ciencia ficción",
     "Acción",
@@ -41,7 +41,7 @@
    "title": "Puedes verlo todo",
    "release_date": "2026-11-26",
    "overview": "Treinta y cuatro días antes de ingresar en prisión, la famosa fundadora de Theranos, Elizabeth Holmes, invita a un equipo de rodaje escéptico a documentar cada uno de sus movimientos. Lo que comienza como un retrato íntimo se convierte en un alucinante viaje de tres años.",
-   "vote_average": 8.6,
+   "vote_average": 8.5,
    "genres": [
     "Documental"
    ],
@@ -52,21 +52,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/fnIcdPVaO4JAzfLhv8OVEqFK6a7.jpg"
   },
   {
-   "id": 656908,
-   "title": "Ramayana: El Nacimiento de una Leyenda",
-   "release_date": "2026-11-06",
-   "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
-   "vote_average": 7.4,
+   "id": 1538497,
+   "title": "Hechizo: Bienvenidos a Hexe",
+   "release_date": "2026-11-27",
+   "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
+   "vote_average": 5.9,
    "genres": [
+    "Animación",
     "Fantasía",
-    "Acción",
-    "Aventura"
+    "Familia"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/wdjW11Tp4w9EfDBxbjyBJvDVHDA.jpg",
    "providers": [],
-   "trailer": "tPf0_b026Ck",
-   "fondo": "https://image.tmdb.org/t/p/original/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg"
+   "trailer": "wkr5TpxKOTw",
+   "fondo": "https://image.tmdb.org/t/p/original/wdjW11Tp4w9EfDBxbjyBJvDVHDA.jpg"
   },
   {
    "id": 1195803,
@@ -86,21 +86,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/r4DTGm1f1r23cyjRJ5kFMh7qYlj.jpg"
   },
   {
-   "id": 1538497,
-   "title": "Hechizo: Bienvenidos a Hexe",
-   "release_date": "2026-11-27",
-   "overview": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico llamado Hexe, donde la reciben Ms. Quill y Elias Quire. A medida que se desarrolla el viaje de Billie, descubre misterios familiares que podrían cambiar para siempre el mundo mágico de las brujas.",
-   "vote_average": 5.7,
+   "id": 656908,
+   "title": "Ramayana: El Nacimiento de una Leyenda",
+   "release_date": "2026-11-06",
+   "overview": "Una antigua epopeya sigue a un joven príncipe y a una princesa, cuyo matrimonio y posterior exilio marcan el comienzo de un viaje legendario. Su historia de amor, deber y destino prepara el terreno para desafíos aún mayores.",
+   "vote_average": 7.4,
    "genres": [
-    "Animación",
     "Fantasía",
-    "Familia"
+    "Acción",
+    "Aventura"
    ],
-   "poster": "https://image.tmdb.org/t/p/w342/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/wdjW11Tp4w9EfDBxbjyBJvDVHDA.jpg",
+   "poster": "https://image.tmdb.org/t/p/w342/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg",
    "providers": [],
-   "trailer": "wkr5TpxKOTw",
-   "fondo": "https://image.tmdb.org/t/p/original/wdjW11Tp4w9EfDBxbjyBJvDVHDA.jpg"
+   "trailer": "tPf0_b026Ck",
+   "fondo": "https://image.tmdb.org/t/p/original/prbMZ3DPf8taS6JYQd6igPnm2mA.jpg"
   },
   {
    "id": 1381071,
@@ -120,6 +120,22 @@
    "fondo": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg"
   },
   {
+   "id": 1400336,
+   "title": "Ahora los suegros son ellos",
+   "release_date": "2026-11-27",
+   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
+   "vote_average": 7.2,
+   "genres": [
+    "Comedia",
+    "Romance"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/zjjjbiDmCNl3Yjxefc9PgwTxaKL.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
+   "providers": [],
+   "trailer": "j0MROuSV-pA",
+   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
+  },
+  {
    "id": 1567605,
    "title": "Scrooge y los fantasmas de la Navidad",
    "release_date": "2026-11-13",
@@ -134,22 +150,6 @@
    "providers": [],
    "trailer": "D-n-lqKVr78",
    "fondo": "https://image.tmdb.org/t/p/original/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg"
-  },
-  {
-   "id": 1400336,
-   "title": "Ahora los suegros son ellos",
-   "release_date": "2026-11-27",
-   "overview": "Henry, hijo de Greg y Pam Focker, se enfrenta al caos familiar cuando decide casarse con una mujer de carácter fuerte que parece ser totalmente incompatible con él.",
-   "vote_average": 7.3,
-   "genres": [
-    "Comedia",
-    "Romance"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/zjjjbiDmCNl3Yjxefc9PgwTxaKL.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg",
-   "providers": [],
-   "trailer": "j0MROuSV-pA",
-   "fondo": "https://image.tmdb.org/t/p/original/6IfsmHoVWwgJwzxA9DLim2XZbSn.jpg"
   },
   {
    "id": 791523,
@@ -186,24 +186,6 @@
    "fondo": "https://image.tmdb.org/t/p/original/f1TVhqJJdxMvUsUDuKHS0ekgYkk.jpg"
   },
   {
-   "id": 822653,
-   "title": "Puella Magi Madoka Magica. La película: La noche de Walpurgis - El ascenso",
-   "release_date": "2026-11-27",
-   "overview": "Akemi Homura, que se convirtió en un demonio por su devoción a Madoka Kaname. En un mundo recién creado, las chicas mágicas vuelven a aparecer. Los engranajes del mundo de Puella Magi Madoka Magica comienzan a girar lentamente de nuevo.",
-   "vote_average": 8,
-   "genres": [
-    "Animación",
-    "Drama",
-    "Misterio",
-    "Fantasía"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/9szX9jqjCwrBVp4Ggo98dJvyeOZ.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/xzm3RfWh932rS28WErNC3u8qzVm.jpg",
-   "providers": [],
-   "trailer": "xfniSyRH-CM",
-   "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
-  },
-  {
    "id": 1117898,
    "title": "El gato con sombrero",
    "release_date": "2026-11-06",
@@ -221,6 +203,24 @@
    "providers": [],
    "trailer": "bRMu8S6FQ9c",
    "fondo": "https://image.tmdb.org/t/p/original/56Bepb58k71UUTVwKN1SxHmfzPK.jpg"
+  },
+  {
+   "id": 822653,
+   "title": "Puella Magi Madoka Magica. La película: La noche de Walpurgis - El ascenso",
+   "release_date": "2026-11-27",
+   "overview": "Akemi Homura, que se convirtió en un demonio por su devoción a Madoka Kaname. En un mundo recién creado, las chicas mágicas vuelven a aparecer. Los engranajes del mundo de Puella Magi Madoka Magica comienzan a girar lentamente de nuevo.",
+   "vote_average": 8,
+   "genres": [
+    "Animación",
+    "Drama",
+    "Misterio",
+    "Fantasía"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/9szX9jqjCwrBVp4Ggo98dJvyeOZ.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/xzm3RfWh932rS28WErNC3u8qzVm.jpg",
+   "providers": [],
+   "trailer": "xfniSyRH-CM",
+   "fondo": "https://image.tmdb.org/t/p/original/xzm3RfWh932rS28WErNC3u8qzVm.jpg"
   },
   {
    "id": 1548369,
@@ -244,7 +244,7 @@
    "title": "Como robar un banco",
    "release_date": "2026-11-13",
    "overview": "Un hombre desesperado planea un elaborado atraco contra el corrupto sistema financiero que arruinó su vida, con un grupo que documenta sus actos en redes sociales.",
-   "vote_average": 6.5,
+   "vote_average": 6.6,
    "genres": [
     "Acción",
     "Crimen",
@@ -307,6 +307,21 @@
    "fondo": "https://image.tmdb.org/t/p/original/3uLA0ujne91bkzFStZICCYeqhnt.jpg"
   },
   {
+   "id": 1506401,
+   "title": "El niño",
+   "release_date": "2026-11-13",
+   "overview": "Narra la historia de Mariaje y Nicasio, madre y abuelo de uno de los niños que fallecieron en la explosión de gas.",
+   "vote_average": 7,
+   "genres": [
+    "Drama"
+   ],
+   "poster": "https://image.tmdb.org/t/p/w342/eEdONSVZOE4PanWM8QeRGK0tx2A.jpg",
+   "backdrop": "https://image.tmdb.org/t/p/w780/kkierrbus8z4QpsexmSg8QSKqak.jpg",
+   "providers": [],
+   "trailer": "vsXs3Km6UDw",
+   "fondo": "https://image.tmdb.org/t/p/original/kkierrbus8z4QpsexmSg8QSKqak.jpg"
+  },
+  {
    "id": 1503762,
    "title": "Sentido y sensibilidad",
    "release_date": "2026-10-23",
@@ -321,24 +336,6 @@
    "providers": [],
    "trailer": "GMwdcpKOOyY",
    "fondo": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg"
-  },
-  {
-   "id": 1477104,
-   "title": "La oveja Shaun: Misión calabaza",
-   "release_date": "2026-10-30",
-   "overview": "En la víspera de Halloween en la granja Mossy Bottom, la emoción se convierte en consternación cuando el torpe granjero arruina el huerto de calabazas. Shaun intenta arreglarlo mediante experimentos científicos, pero las cosas se tuercen cuando aparece una bestia salvaje en el bosque.",
-   "vote_average": 7.3,
-   "genres": [
-    "Animación",
-    "Ciencia ficción",
-    "Comedia",
-    "Familia"
-   ],
-   "poster": "https://image.tmdb.org/t/p/w342/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
-   "backdrop": "https://image.tmdb.org/t/p/w780/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
-   "providers": [],
-   "trailer": "daZMq0AyOMc",
-   "fondo": "https://image.tmdb.org/t/p/original/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg"
   }
  ],
  "upcoming": [
@@ -380,7 +377,7 @@
    "title": "Noche de paz 2",
    "release_date": "2026-12-04",
    "overview": "Cuando Santa olvida el verdadero significado de la Navidad, se encuentra en el corazón de un animado centro comercial que necesita desesperadamente su ayuda. Sin su magia, deberá buscar otra forma de enfrentarse a los matones que amenazan el lugar, y el tiempo se agota. Santa tendrá que recuperar su fe en la bondad y pedir refuerzos de última hora a la única persona con la que ningún villano quiere meterse: la señora Claus.",
-   "vote_average": 0,
+   "vote_average": 5.8,
    "genres": [
     "Acción",
     "Comedia"
